@@ -62,8 +62,20 @@ The entire archive can be found on [Medium](https://medium.com/tag/foundry-diges
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQAIfZOxisNo3FBjTAgv5ySvgi6g5SGk1qW3l7Dbv1NjO0rAylAchP7DhO209LF9twuJqCexL71ZMR_/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Teaching
-* 
+* Tech for non-Tech, 2 guest lectures for Professor Rafael Pass. Fall 2016
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS7i5KLz8ANBM7mJi4BbhPDeWuSgYUh_v4yc3GxF_yTqV6poeHYUHCXCK22weWo1-YNP4IozK1kS04E/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRgN9rDzaUNRp1PLzYxSqj0uOg3VB4narzuzgZc0mGldbJ6uOYOiP7WIEQ2KF4l1tcArT38veASaPGJ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+* "Design Thinking", a guest lecture for the Smart Cities course offered by Cornell Baker Program in Real Estate. Fall 2018.
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS82YG6b9gsZ0WBHUWmRKxHzmfWRaMbsnZIaOZXEkTFYHlZQ1OhxVRo99yGf1lK4S_iexrdyfNgy-hJ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+* Startup Systems, a guest lecture for "Tech for Business" class taught by Professor Rafael Pass. Fall 2015.
+
+
+* PM Bootcamp, a guest lecture about product management for new Cornell Tech MBA students. Spring 2017.
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT-0jJQ7K7zH6u9XiGRxvHxgKt1tO-EcpxyszmM-K57q5VY2PIvXBasDJlpp-S3_ZU__H4K2fW8Cb_i/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 * "Civic Tech for Local Legislatures and Legislators", with Ben Kallos. Coaching program from NYU GovLab Academy, Spring 2015.
+
 * "Mobile Civic Apps", a guest lecture for Beth's Noveck class at NYU Wagner. Spring 2013.
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS5jUdYlMjX7FoWHkNiH1ZJfte0-clXXfZz8RXKOYPVsJYBU3DVraCINwxa7pDrcac6fNWr0ENueGUP/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
@@ -76,6 +88,8 @@ I try to write short pieces about topics of interest, conferences I have attende
 * [Personal Views on the Future of Artificial Intelligence](https://medium.com/machine-intelligence-report/personal-views-on-the-future-of-artificial-intelligence-509c5db276fc) (January 2016, after attending the NYU Symposium on the Future of AI)
 
 ### About the Blockchain
+* Somebody said "Blockchain"?. A guest lecture for high-school students attending a programming contest at Cornell Tech. Spring 2018.
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS8MihH3jx876Pegf0rdzmLSQjnpYmm_RDmsDvDO5xtny2d5JihjQmJ8-fUHKP3Y9g_WurjVY1bmAk2/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 * [Everything* You Always Wanted to Know About ICOs But Were Afraid to ask](https://medium.com/cornell-tech/everything-you-always-wanted-to-know-about-icos-but-were-afraid-to-ask-b9728dc38b81) (October 2017, > 5.1K views on Medium)
 * [Everything* You Always Wanted to Know About the Blockchain But Were Afraid to ask](http://52.5.205.245/everything-you-always-wanted-to-know-about-the-blockchain-but-were-afraid-to-ask/) (June 2016)
 
