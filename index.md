@@ -1,5 +1,5 @@
 ## About Me
-<img style="float: right; max-width:20%; border-radius:50%" src="profile-picture.jpg">
+<img style="float: right; max-width:20%; border-radius:50%" src="img/profile-picture.jpg">
 
 * [LinkedIn](https://www.linkedin.com/in/sahuguet/)
 * [Twitter](https://twitter.com/sahuguet)
@@ -10,7 +10,9 @@
 
 ## Products I have launched
 ### GOOG-411
-
+![alt text](img/goog-411-taxi-ad.jpg "GOOG-411 taxi ad")
+![alt text](img/goog411-billboard.jpg "GOOG-411 billboard ad")
+![alt text](img/goog411-cards.jpg "GOOG-411 business cards")
 
 ## Social Impact and For-Good Projects
 ### Data for Good Exchange
