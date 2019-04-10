@@ -1,4 +1,5 @@
 ## About Me
+<img style="float: right; max-width:25%" src="profile-picture.jpg">
 * [LinkedIn](https://www.linkedin.com/in/sahuguet/)
 * [Twitter](https://twitter.com/sahuguet)
 * [Medium](https://medium.com/@sahuguet)
