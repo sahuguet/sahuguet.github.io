@@ -1,7 +1,8 @@
 ## About Me
-* LinkedIn
-* Twitter
-* Medium
+* [LinkedIn](https://www.linkedin.com/in/sahuguet/)
+* [Twitter](https://twitter.com/sahuguet)
+* [Medium](https://medium.com/@sahuguet)
+* [Github](https://github.com/sahuguet)
 * most recent CV
 * TORBI LLC
 
@@ -40,6 +41,7 @@ I was asked by [Nesta](https://www.nesta.org.uk/) to contribute a few pieces abo
 * [Scaling and growing your innovation lab’s project](https://www.nesta.org.uk/blog/scaling-and-growing-your-innovation-labs-project/) (part 9, September 2015)
 
 ## Urban Tech
+* [My Three Wishes for the Sidewalk Labs' Genie](https://medium.com/@sahuguet/my-three-wishes-for-the-sidewalk-labs-genie-5d1adc798c3d)
 
 ## The Foundry @ Cornell Tech
 ### WTF Digest
@@ -62,17 +64,20 @@ The entire archive can be found on [Medium](https://medium.com/tag/foundry-diges
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQAIfZOxisNo3FBjTAgv5ySvgi6g5SGk1qW3l7Dbv1NjO0rAylAchP7DhO209LF9twuJqCexL71ZMR_/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Teaching
-* Tech for non-Tech, 2 guest lectures for Professor Rafael Pass. Fall 2016
+* PM Bootcamp, a guest lecture about product management for new Cornell Tech MBA students. Spring 2017.
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT-0jJQ7K7zH6u9XiGRxvHxgKt1tO-EcpxyszmM-K57q5VY2PIvXBasDJlpp-S3_ZU__H4K2fW8Cb_i/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+* Hosting 101, guest lecture for the Building Startup Systems class (CS-5356). Fall 2016.
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQiwlM8wOq-OLt6IBLcKh997j0Wzu3HmcEhgWMssI1aAZYXAVR7Kcx4iTujZA8C-LiP7-uhweDMZjUc/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+* Tech for non-Tech, 2 guest lectures for Professor Rafael Pass. Fall 2016.
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS7i5KLz8ANBM7mJi4BbhPDeWuSgYUh_v4yc3GxF_yTqV6poeHYUHCXCK22weWo1-YNP4IozK1kS04E/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRgN9rDzaUNRp1PLzYxSqj0uOg3VB4narzuzgZc0mGldbJ6uOYOiP7WIEQ2KF4l1tcArT38veASaPGJ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 * "Design Thinking", a guest lecture for the Smart Cities course offered by Cornell Baker Program in Real Estate. Fall 2018.
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS82YG6b9gsZ0WBHUWmRKxHzmfWRaMbsnZIaOZXEkTFYHlZQ1OhxVRo99yGf1lK4S_iexrdyfNgy-hJ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 * Startup Systems, a guest lecture for "Tech for Business" class taught by Professor Rafael Pass. Fall 2015.
-
-
-* PM Bootcamp, a guest lecture about product management for new Cornell Tech MBA students. Spring 2017.
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT-0jJQ7K7zH6u9XiGRxvHxgKt1tO-EcpxyszmM-K57q5VY2PIvXBasDJlpp-S3_ZU__H4K2fW8Cb_i/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 * "Civic Tech for Local Legislatures and Legislators", with Ben Kallos. Coaching program from NYU GovLab Academy, Spring 2015.
 
@@ -82,6 +87,9 @@ The entire archive can be found on [Medium](https://medium.com/tag/foundry-diges
 
 ## Casual Writings, Blogging
 I try to write short pieces about topics of interest, conferences I have attended or recent projects I have been working on
+
+### About Products
+* [Being Juror #8](https://medium.com/cornell-tech/being-juror-8-part-1-the-tech-part-69b8914de9dd), November 2016.
 
 ### About AI
 * [Alexa, what's the fuss with voice services?](https://medium.com/cornell-tech/alexa-whats-the-fuss-with-voice-services-59d749e94256) (May 2017)
