@@ -77,13 +77,15 @@ The entire archive can be found on [Medium](https://medium.com/tag/foundry-diges
 * "Design Thinking", a guest lecture for the Smart Cities course offered by Cornell Baker Program in Real Estate. Fall 2018.
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS82YG6b9gsZ0WBHUWmRKxHzmfWRaMbsnZIaOZXEkTFYHlZQ1OhxVRo99yGf1lK4S_iexrdyfNgy-hJ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-* Startup Systems, a guest lecture for "Tech for Business" class taught by Professor Rafael Pass. Fall 2015.
+* "Startup Systems", a guest lecture for "Tech for Business" class taught by Professor Rafael Pass. Fall 2015.
+
+* "Fake it before you make it", a guest lecture for "Product Management" class (CS 5093) taught by Professor Greg Pass. Fall 2015.
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSGKKG6JnC4QlnXVeqf6WtcRe-KDUNcdlO6xsQLXJVY8TXIEAW0e32YlXw6jwofOLMtm7ZkYWQmgUOC/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 * "Civic Tech for Local Legislatures and Legislators", with Ben Kallos. Coaching program from NYU GovLab Academy, Spring 2015.
 
 * "Mobile Civic Apps", a guest lecture for Beth's Noveck class at NYU Wagner. Spring 2013.
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS5jUdYlMjX7FoWHkNiH1ZJfte0-clXXfZz8RXKOYPVsJYBU3DVraCINwxa7pDrcac6fNWr0ENueGUP/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
 
 ## Casual Writings, Blogging
 I try to write short pieces about topics of interest, conferences I have attended or recent projects I have been working on
