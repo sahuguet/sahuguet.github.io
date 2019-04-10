@@ -3,13 +3,17 @@
 * Twitter
 * Medium
 * most recent CV
+* TORBI LLC
 
 ## Social Impact and For-Good Projects
 ### Data for Good Exchange
 
 ### NYU-AD hackathon
 
-### Debugging Politics
+### Debugging Politics hackathon
+* [Debugging Politics: a software engineering take on it](https://medium.com/cornell-tech/debugging-politics-a-software-engineering-take-on-it-ec7d6e057d4c) (January 2017)
+* [Debugging 'Debug Politics'](https://medium.com/cornell-tech/debugging-debug-politics-afd198f57778) (January 2017)
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRt2gfLp6DKUDTBq_zhXDZj5ZB6ntMZFrhHBnHbr_yUKbeP9cpOAbHZLZFQ3sLEUSofNw4-1ySCU4hM/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Nesta Tech innovation series (#Tech4Labs)
 I was asked by [Nesta](https://www.nesta.org.uk/) to contribute a few pieces about tech innovation.
