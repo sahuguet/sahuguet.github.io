@@ -42,7 +42,11 @@ I was asked by [Nesta](https://www.nesta.org.uk/) to contribute a few pieces abo
 * [Scaling and growing your innovation lab’s project](https://www.nesta.org.uk/blog/scaling-and-growing-your-innovation-labs-project/) (part 9, September 2015)
 
 ## Urban Tech
-* [My Three Wishes for the Sidewalk Labs' Genie](https://medium.com/@sahuguet/my-three-wishes-for-the-sidewalk-labs-genie-5d1adc798c3d)
+* Circular Data for a Circular City: Value Propositions for Mobility, in [Circular City Research Journal](https://newlab.com/wp-content/uploads/2019/03/for-posting-to-web.pdf), March 2019.
+
+* Smarter NYC, how City Agencies innovate, edited by André Corrêa d'Almeida. Chapter 11 on Vision Zero. Columbia University Press, August 2018.
+
+* [My Three Wishes for the Sidewalk Labs' Genie](https://medium.com/@sahuguet/my-three-wishes-for-the-sidewalk-labs-genie-5d1adc798c3d), March 2016.
 
 ## The Foundry @ Cornell Tech
 ### WTF Digest
