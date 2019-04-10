@@ -8,9 +8,21 @@
 ## Social Impact and For-Good Projects
 ### Data for Good Exchange
 
+## Data Science
+* Are We There Yet? challenges for location-aware data science. NYS GIS Symposium, October 2016
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRiEaeEsiJLQJbQ8P-a3K0RdOTt5Ul2maz4AFZbmv9jPQU61UrxS4JP44kEexUW0jLV7ArT9hWXLdTj/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+* Small Data Metadata. ["Data, Responsibly" Dagstuhl seminar, July 2016](http://www.dagstuhl.de/16291/)
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQe_lkV9p_TIvparoxFYKZXaczcgXHn8TY1sfrbCCyGd-GP7RGlK6MyrF1Hn0zUetoRJVWBErwZ5r6i/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+* Data Science: challenges & opportunities. Information session at Ecole Polytechnique, December 2014.
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR_XUWwFoEBVYHAylKyyTw5gP0VYZ161azd6-BcIZfPezNRLbmrPTV1ujI04ZuLDIe-hDos1khMbcU4/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 ### NYU-AD hackathon
+* Ideation deck (2015)
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSqYGUMmGZuv9EUw6SbkjzPJE_oxqFEnyoBNsqGJCL_5WMkoYW6SZ5arTFoG6NnsvRird1-CEFThs_B/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### Debugging Politics hackathon
+Over the course of a long week-end, we built Influenza, a tool to find "patterns of influence" in politics: (1) we create a graph of the US political system using open data and (2) we query the graph to find "bugs".
+
 * [Debugging Politics: a software engineering take on it](https://medium.com/cornell-tech/debugging-politics-a-software-engineering-take-on-it-ec7d6e057d4c) (January 2017)
 * [Debugging 'Debug Politics'](https://medium.com/cornell-tech/debugging-debug-politics-afd198f57778) (January 2017)
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRt2gfLp6DKUDTBq_zhXDZj5ZB6ntMZFrhHBnHbr_yUKbeP9cpOAbHZLZFQ3sLEUSofNw4-1ySCU4hM/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -42,6 +54,19 @@ The digest is articulated around the following themes:
 * Department of worthy quotes — 🎬 📖
 
 The entire archive can be found on [Medium](https://medium.com/tag/foundry-digest/archive).
+
+## Innovation
+* From Research to products (and vice versa). February 2016
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ8VYJqnKrSW8dSBNznpyCK33pkKQulz3g4AfqIZHol1UqEaG899wGMi_WBAu5mWYomGhEliOH6gE_N/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+* De Innovatione Rerum. From EDF & Columbia Universtity. Otober 2014.
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQAIfZOxisNo3FBjTAgv5ySvgi6g5SGk1qW3l7Dbv1NjO0rAylAchP7DhO209LF9twuJqCexL71ZMR_/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+## Teaching
+* 
+* "Civic Tech for Local Legislatures and Legislators", with Ben Kallos. Coaching program from NYU GovLab Academy, Spring 2015.
+* "Mobile Civic Apps", a guest lecture for Beth's Noveck class at NYU Wagner. Spring 2013.
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS5jUdYlMjX7FoWHkNiH1ZJfte0-clXXfZz8RXKOYPVsJYBU3DVraCINwxa7pDrcac6fNWr0ENueGUP/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 
 ## Casual Writings, Blogging
 I try to write short pieces about topics of interest, conferences I have attended or recent projects I have been working on
