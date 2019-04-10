@@ -1,5 +1,5 @@
 ## About Me
-<img style="float: right; max-width:20%" src="profile-picture.jpg">
+<img style="float: right; max-width:20%; border-radius:50%" src="profile-picture.jpg">
 * [LinkedIn](https://www.linkedin.com/in/sahuguet/)
 * [Twitter](https://twitter.com/sahuguet)
 * [Medium](https://medium.com/@sahuguet)
