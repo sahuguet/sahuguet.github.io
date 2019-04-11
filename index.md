@@ -19,7 +19,7 @@ Taxicab ad | Billdboard ad | Business cards
 ![alt text](img/goog-411-taxi-ad.jpg "GOOG-411 taxi ad") | ![alt text](img/goog411-billboard.jpg "GOOG-411 billboard ad") | ![alt text](img/goog411-cards.jpg "GOOG-411 business cards") 
 
 ### Google Audio Indexing aka GAudi (Google, 2008)
-
+Leveraging the data we collected with GOOG-411, the Google speech team built its own speech recognition engine. We were looking for interesting use cases for testing. It was the spring of 2008 and the presidential campaign was in high-gear. We realized that this could be a really cool application. We partnered with YouTube to have access to the videos of the republican and democratic campaigns and we builts a gadget for i-Google to let people search videos. Later on, the gadget was "promoted" to its own page on Google Labs.
 
 Google Labs logo | Election Gadget | GAudi user interface
 ------------ | ------------- | -------------
@@ -27,7 +27,7 @@ Google Labs logo | Election Gadget | GAudi user interface
                                                        | [blog post for launch](https://googleblog.blogspot.com/2008/07/in-their-own-words-political-videos.html) | [blog post for launch](https://googleblog.blogspot.com/2008/09/google-audio-indexing-now-on-google.html)
 
 ### One Today (Google.org, 2013)
-OneToday is a mobile application we launched in April 2013, in the context of Google.org.
+OneToday is a mobile application we launched in April 2013 for Google.org. The key idea was to radically change the way people make donations. Instead of having people wait for the end of the year to pick the handful of organizations you will donate to, we tried to create a new habit where people could donate as often as once a day.
 
 Featured Project  | Matching donation | Achievement screen
 ------------ | ------------- | -------------
