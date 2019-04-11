@@ -8,8 +8,8 @@
 * most recent CV
 * TORBI LLC
 
-## Products I have launched
-### GOOG-411
+## User-facing products I have launched
+### GOOG-411 (Google, 2007)
 GOOG-411 (or Google Voice Local Search) was a telephone service launched by Google in 2007, that provided a speech-recognition-based business directory search, and placed a call to the resulting number in the United States or Canada.[1] The service was accessible via a toll-free telephone number.
 
 The motive behind GOOG-411 was to acquire enough voice data to train Google-own speech-recognition engine. A voice local search service was picked because it was doable (via Google Local Search), useful for people and provided a great coverage of the english language in terms of utterances.
@@ -18,12 +18,23 @@ Taxicab ad | Billdboard ad | Business cards
 ------------ | ------------- | -------------
 ![alt text](img/goog-411-taxi-ad.jpg "GOOG-411 taxi ad") | ![alt text](img/goog411-billboard.jpg "GOOG-411 billboard ad") | ![alt text](img/goog411-cards.jpg "GOOG-411 business cards") 
 
-### One Today
+### Google Audio Indexing aka GAudi (Google, 2008)
+
+https://googleblog.blogspot.com/2008/07/in-their-own-words-political-videos.html
+https://googleblog.blogspot.com/2008/09/google-audio-indexing-now-on-google.html
+
+Google Labs logo | Election Gadget | GAudi user interface
+------------ | ------------- | -------------
+![alt text](img/gaudi-labs.jpg "Logo on Google Labs") | ![alt text](img/gaudi-2.jpg "GAudi election gadget") | ![alt text](img/gaudi-1.png "GAudi user interace") 
+
+### One Today (Google.org, 2013)
 OneToday is a mobile application we launched in April 2013, in the context of Google.org.
 
 Featured Project  | Matching donation | Achievement screen
 ------------ | ------------- | -------------
 ![alt text](img/onetoday-1.webp "OneToday featured project screen") | ![alt text](img/onetoday-2.webp "OneToday matching donation screen") | ![alt text](img/onetoday-3.webp "OneToday achievement screen") 
+
+### Network of innovators (NYU GovLab, 2015)
 
 ## Social Impact and For-Good Projects
 ### Data for Good Exchange
