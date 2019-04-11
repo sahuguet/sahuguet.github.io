@@ -49,7 +49,9 @@ Landing page | Map of user on launch day
 
 ## Social Impact and For-Good Projects
 ### Data for Good Exchange
-![alt text](img/d4gx-logo.png "Data for Good Exchange")
+
+<img style="float: right; max-width:20%;" src="img/d4gx-logo.jpg" alt="Data for Good Exchange">
+
 I was part of the founding team with Gideon Mann and Susan Kish (both at Bloomberg at the time). 
 I was the program chair of the Bloomberg Data For Good Exchange for 4 years (2015-2018).
 
