@@ -97,7 +97,7 @@ I was asked by [Nesta](https://www.nesta.org.uk/) to contribute a few pieces abo
 * [Scaling and growing your innovation lab’s project](https://www.nesta.org.uk/blog/scaling-and-growing-your-innovation-labs-project/) (part 9, September 2015)
 
 ## Urban Tech
-![alt text](img/hub-drawing.png "Urban Tech hub")
+<img style="float: right; max-width:33%;" src="img/hub-drawing.png" alt="Urban Tech hub"">
 
 * The Jacobs Institute Urban Tech hub at Cornell Tech (coming soon).
 
