@@ -49,6 +49,17 @@ Landing page | Map of user on launch day
 
 ## Social Impact and For-Good Projects
 ### Data for Good Exchange
+![alt text](img/d4gx-logo.png "Data for Good Exchange")
+I was part of the founding team with Gideon Mann and Susan Kish (both at Bloomberg at the time). 
+I was the program chair of the Bloomberg Data For Good Exchange for 4 years (2015-2018).
+
+For the first few years, our main concern was to get enough paper submissions and we strongly encouraged our program committee  (including myself) to submit papers.
+* ["Birds in the Clouds": Adventures in Data Engineering](https://arxiv.org/pdf/1710.08521.pdf), with Nicolas Cherel et al. (2017).
+* [Internet Scale Research Studies using SDL-Rx](https://data.bloomberglp.com/company/sites/2/2016/09/paper_69.pdf), with James Kizer et al. (2016).
+* P x B + D > C: a “calculus” for Open Data, with David Sangokoya (2015).
+* "Docker" for (open)data, with John Krauss (2015).
+
+I was also deeply involved in the D4GX efforts to create a code of ethics ([video](https://www.youtube.com/watch?v=s8qjmImu1LQ&t=94s).
 
 ## Data Science
 * Are We There Yet? challenges for location-aware data science. NYS GIS Symposium, October 2016
@@ -84,11 +95,17 @@ I was asked by [Nesta](https://www.nesta.org.uk/) to contribute a few pieces abo
 * [Scaling and growing your innovation lab’s project](https://www.nesta.org.uk/blog/scaling-and-growing-your-innovation-labs-project/) (part 9, September 2015)
 
 ## Urban Tech
+![alt text](img/hub-drawing.png "Urban Tech hub")
+
+* The Jacobs Institute Urban Tech hub at Cornell Tech (coming soon).
+
 * Circular Data for a Circular City: Value Propositions for Mobility, in [Circular City Research Journal](https://newlab.com/wp-content/uploads/2019/03/for-posting-to-web.pdf), March 2019.
 
 * Smarter NYC, how City Agencies innovate, edited by André Corrêa d'Almeida. Chapter 11 on Vision Zero. Columbia University Press, August 2018.
 
 * [My Three Wishes for the Sidewalk Labs' Genie](https://medium.com/@sahuguet/my-three-wishes-for-the-sidewalk-labs-genie-5d1adc798c3d), March 2016.
+
+* [Open Civic Data: Of the People, By the People, For the People](https://pdfs.semanticscholar.org/faf3/c1a8aa270d50136d4e89d4d256cf2f3f0278.pdf), with John Krauss, Luis Palacios and David Sangokoya, IEEE Data Engineering Bulletin, 2014.
 
 ## The Foundry @ Cornell Tech
 ### WTF Digest
@@ -107,7 +124,8 @@ The entire archive can be found on [Medium](https://medium.com/tag/foundry-diges
 ## Innovation
 * From Research to products (and vice versa). February 2016
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ8VYJqnKrSW8dSBNznpyCK33pkKQulz3g4AfqIZHol1UqEaG899wGMi_WBAu5mWYomGhEliOH6gE_N/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-* De Innovatione Rerum. From EDF & Columbia Universtity. Otober 2014.
+
+* De Innovatione Rerum. For EDF at Columbia Universtity. Otober 2014.
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQAIfZOxisNo3FBjTAgv5ySvgi6g5SGk1qW3l7Dbv1NjO0rAylAchP7DhO209LF9twuJqCexL71ZMR_/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Teaching
