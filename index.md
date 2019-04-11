@@ -61,7 +61,7 @@ For the first few years, our main concern was to get enough paper submissions an
 * P x B + D > C: a “calculus” for Open Data, with David Sangokoya (2015).
 * "Docker" for (open)data, with John Krauss (2015).
 
-I was also deeply involved in the D4GX efforts to create a code of ethics ([video](https://www.youtube.com/watch?v=s8qjmImu1LQ&t=94s).
+I was also deeply involved in the D4GX efforts to create a code of ethics ([video](https://www.youtube.com/watch?v=s8qjmImu1LQ&t=94s)).
 
 ## Data Science
 * Are We There Yet? challenges for location-aware data science. NYS GIS Symposium, October 2016
