@@ -33,7 +33,13 @@ Featured Project  | Matching donation | Achievement screen
 ------------ | ------------- | -------------
 ![alt text](img/onetoday-1.webp "OneToday featured project screen") | ![alt text](img/onetoday-2.webp "OneToday matching donation screen") | ![alt text](img/onetoday-3.webp "OneToday achievement screen") 
 
-### Network of innovators (NYU GovLab, 2015)
+### Network of Innovators -- first version (NYU GovLab, 2015)
+https://networkofinnovators.org/
+
+Landing page | Map of user on launch day
+------------ | -------------
+![alt text](img/noi-2.png "Landing page") | ![alt text](img/noi-1.png "Map of users")
+
 
 ## Social Impact and For-Good Projects
 ### Data for Good Exchange
