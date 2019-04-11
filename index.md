@@ -20,12 +20,11 @@ Taxicab ad | Billdboard ad | Business cards
 
 ### Google Audio Indexing aka GAudi (Google, 2008)
 
-https://googleblog.blogspot.com/2008/07/in-their-own-words-political-videos.html
-https://googleblog.blogspot.com/2008/09/google-audio-indexing-now-on-google.html
 
 Google Labs logo | Election Gadget | GAudi user interface
 ------------ | ------------- | -------------
-![alt text](img/gaudi-labs.jpg "Logo on Google Labs") | ![alt text](img/gaudi-2.jpg "GAudi election gadget") | ![alt text](img/gaudi-1.png "GAudi user interace") 
+![alt text](img/gaudi-labs.jpg "Logo on Google Labs") | ![alt text](img/gaudi-2.jpg "GAudi election gadget") | ![alt text](img/gaudi-1.png "GAudi user interace")
+                                                       | [blog post for launch](https://googleblog.blogspot.com/2008/07/in-their-own-words-political-videos.html) | [blog post for launch](https://googleblog.blogspot.com/2008/09/google-audio-indexing-now-on-google.html)
 
 ### One Today (Google.org, 2013)
 OneToday is a mobile application we launched in April 2013, in the context of Google.org.
