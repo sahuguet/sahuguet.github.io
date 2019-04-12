@@ -58,7 +58,7 @@ Landing page | Map of user on launch day
 
 ### NYU-AD hackathon
 * Ideation deck (2015)
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSqYGUMmGZuv9EUw6SbkjzPJE_oxqFEnyoBNsqGJCL_5WMkoYW6SZ5arTFoG6NnsvRird1-CEFThs_B/embed?start=false&loop=false&delayms=3000" frameborder="0" width="240" height="150" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSqYGUMmGZuv9EUw6SbkjzPJE_oxqFEnyoBNsqGJCL_5WMkoYW6SZ5arTFoG6NnsvRird1-CEFThs_B/embed?start=false&loop=false&delayms=3000" frameborder="0" width="360" height="225" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Data for Good Exchange
 <img style="float: right; max-width:20%;" src="img/d4gx-logo.jpg" alt="Data for Good Exchange">
