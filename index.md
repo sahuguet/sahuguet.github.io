@@ -186,3 +186,48 @@ I try to write short pieces about topics of interest, conferences I have attende
 
 # Patents
 
+* Managing information about entities using observations [US US9940381B1](https://patents.google.com/patent/US9940381B1/)
+Priority 2011-07-12 • Filing 2015-02-06 • Grant 2018-04-10 • Publication 2018-04-10
+Methods, systems, and apparatus, including computer programs encoded on a computer storage medium, for managing entities using observations. In one aspect, a method includes receiving data identifying an entity; generating a user interface document that, when rendered by a user device, presents a …
+
+* Techniques for authenticating access to a private account at a public computing … [EP US EP2672417A2](https://patents.google.com/patent/US20160041991A1)https://patents.google.com/patent/EP2672417A2/
+Priority 2012-06-04 • Filing 2013-06-04 • Publication 2013-12-11
+A computer-implemented method technique is presented. The technique can include selectively initiating, at a mobile computing device including one or more processors, communication between the mobile computing device and a public computing device. The technique can include transmitting, from the …
+
+* Systems, methods, and computer-readable media for providing query suggestions … [US US20160041991A1]()
+Priority 2013-05-20 • Filing 2013-05-20 • Publication 2016-02-11
+Provided are systems, methods, and computer-readable media for providing query rewrites and autocompletions based on environmental contexts, such as the current time, the current weather, social networking recommendations, the presence at a location of a contact associated with the user, current …
+
+Assessing ratings using tip patterns [US US20150170227A1](https://patents.google.com/patent/US20150170227A1/)
+Priority 2013-01-18 • Filing 2013-01-18 • Publication 2015-06-18
+A computer-implemented method for assessing ratings using tip patterns is provided. The method includes obtaining tip information comprising a ratio of a tip amount associated with a bill for a service, the bill being associated with a service provider, generating a rating score based on the tip …
+
+* Proactive user-based content correction and enrichment for geo data background [NL2009641C](https://patents.google.com/patent/NL2009641C/)
+Priority 2011-10-31 • Filing 2012-10-16 • Grant 2013-05-07 • Publication 2013-05-07
+A system and method determines ambiguous or missing information about map features, generates questions to address the ambiguity or the missing information and determines users from whom to request feedback to clarify the ambiguity or supply the missing information.
+
+Resource conscious tethering [US US8949439B1](https://patents.google.com/patent/US8949439B1/)
+Priority 2012-05-01 • Filing 2012-07-17 • Grant 2015-02-03 • Publication 2015-02-03
+A mobile communication device is provided that enables appropriate use of a network connection between the mobile communication device and a telecommunications network by a tethered computing device. The mobile communication device includes a first network interface configured for connection to a …
+
+Reducing power consumption of mobile device through automated environment [US US8504066B1](https://patents.google.com/patent/US8504066B1/)
+Priority 2012-05-08 • Filing 2012-05-08 • Grant 2013-08-06 • Publication 2013-08-06
+A computer-implemented method is provided for reducing power consumption of a power source used by a mobile device. The mobile device monitors aspects of its environment to determine if some or all of the device's computing functionality can be handled seamlessly by another nearby device. For …
+
+* Managing information about entities using clusters of received observations [US US8706732B1](https://patents.google.com/patent/US8706732B1/)
+Priority 2011-07-12 • Filing 2011-07-12 • Grant 2014-04-22 • Publication 2014-04-22
+Methods, systems, and apparatus, including computer programs encoded on a computer storage medium, for managing entities using observations. In one aspect, a method includes receiving an observation, the observation including an updated piece of information about an entity and a context, wherein …
+
+* Machine-readable representation of geographic information [EP2292021A2](https://patents.google.com/patent/EP2292021A2/)
+Priority 2008-06-10 • Filing 2009-06-09 • Publication 2011-03-09
+A computer-implemented location identification method involves obtaining a digital image of a machine-readable representation encoded with a geographic location identifier that is associated with a geographic location, decoding the image of the machine-readable representation to produce the …
+
+* Ratings using machine-readable representation [EP2274687A4](https://patents.google.com/patent/EP2274687A4/)
+Priority 2008-03-31 • Filing 2009-03-30 • Publication 2013-01-30
+
+* Advertising [US US20180300745A1](https://patents.google.com/patent/US20180300745A1/)
+Priority 2007-08-16 • Filing 2007-08-16 • Publication 2018-10-18
+Identifying an advertisement template including a placeholder; identifying rules for creating or identifying content for the placeholder; using the rules and the advertisement template, determining content for the placeholder; and, using the content, creating an advertisement.
+
+* Systematic approach to query optimization [US US6567802B1](https://patents.google.com/patent/US6567802B1/)
+The present invention demonstrates the development and application of the chase/backchase (“C&B”) technique to systematically optimize generating alternative query plans, aimed at multiple disparate targets. It further provides a first optimization prototype that uses path-conjunctive query graphs …
