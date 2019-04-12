@@ -1,4 +1,4 @@
-## About Me
+# About Me
 <img style="float: right; max-width:20%; border-radius:50%;" src="img/profile-picture.jpg">
 
 My passion is to invent, architect and build products that leverage technology to solve mean- ingful problems and have a large social impact. I aim at empowering people and organizations to be more productive and collaborative through innovation.
@@ -14,15 +14,15 @@ You can find more info about me at:
 * [Github](https://github.com/sahuguet)
 * most recent CV
 
-## User-facing products I have launched
+# User-facing products I have launched
 
-### ZXing (open source 1D/2D barcode image processing for Android)
+## ZXing (open source 1D/2D barcode image processing for Android)
 When I stated at Google coming from Bell Labs, I was very curious and excited about the QR-code technology.
 I played a few existing solutions ...
 I convinced some Google software engineers to work on generic library as a 20% project.
 Inspired the development of [Google Lens](https://lens.google.com/).
 
-### GOOG-411 (Google, 2007)
+## GOOG-411 (Google, 2007)
 GOOG-411 (or Google Voice Local Search) was a telephone service launched by Google in 2007, that provided a speech-recognition-based business directory search, and placed a call to the resulting number in the United States or Canada.[1] The service was accessible via a toll-free telephone number.
 
 The motive behind GOOG-411 was to acquire enough voice data to train Google-own speech-recognition engine. A voice local search service was picked because it was doable (via Google Local Search), useful for people and provided a great coverage of the english language in terms of utterances.
@@ -31,7 +31,7 @@ Taxicab ad | Billdboard ad | Business cards
 ------------ | ------------- | -------------
 ![alt text](img/goog-411-taxi-ad.jpg "GOOG-411 taxi ad") | ![alt text](img/goog411-billboard.jpg "GOOG-411 billboard ad") | ![alt text](img/goog411-cards.jpg "GOOG-411 business cards") 
 
-### Google Audio Indexing aka GAudi (Google, 2008)
+## Google Audio Indexing aka GAudi (Google, 2008)
 Leveraging the data we collected with GOOG-411, the Google speech team built its own speech recognition engine. We were looking for interesting use cases for testing. It was the spring of 2008 and the presidential campaign was in high-gear. We realized that this could be a really cool application. We partnered with YouTube to have access to the videos of the republican and democratic campaigns and we builts a gadget for i-Google to let people search videos. Later on, the gadget was "promoted" to its own page on Google Labs.
 
 Google Labs logo | Election Gadget | GAudi user interface
@@ -39,14 +39,14 @@ Google Labs logo | Election Gadget | GAudi user interface
 ![alt text](img/gaudi-labs.jpg "Logo on Google Labs") | ![alt text](img/gaudi-2.jpg "GAudi election gadget") | ![alt text](img/gaudi-1.png "GAudi user interace")
                                                        | [blog post for launch](https://googleblog.blogspot.com/2008/07/in-their-own-words-political-videos.html) | [blog post for launch](https://googleblog.blogspot.com/2008/09/google-audio-indexing-now-on-google.html)
 
-### One Today (Google.org, 2013)
+## One Today (Google.org, 2013)
 OneToday is a mobile application we launched in April 2013 for Google.org. The key idea was to radically change the way people make donations. Instead of having people wait for the end of the year to pick the handful of organizations you will donate to, we tried to create a new habit where people could donate as often as once a day.
 
 Featured Project  | Matching donation | Achievement screen
 ------------ | ------------- | -------------
 ![alt text](img/onetoday-1.webp "OneToday featured project screen") | ![alt text](img/onetoday-2.webp "OneToday matching donation screen") | ![alt text](img/onetoday-3.webp "OneToday achievement screen") 
 
-### Network of Innovators -- first version (NYU GovLab, 2015)
+## Network of Innovators -- first version (NYU GovLab, 2015)
 https://networkofinnovators.org/
 
 Landing page | Map of user on launch day
@@ -54,9 +54,13 @@ Landing page | Map of user on launch day
 ![alt text](img/noi-2.png "Landing page") | ![alt text](img/noi-1.png "Map of users")
 
 
-## Social Impact and For-Good Projects
-### Data for Good Exchange
+# Social Impact and For-Good Projects
 
+### NYU-AD hackathon
+* Ideation deck (2015)
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSqYGUMmGZuv9EUw6SbkjzPJE_oxqFEnyoBNsqGJCL_5WMkoYW6SZ5arTFoG6NnsvRird1-CEFThs_B/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+## Data for Good Exchange
 <img style="float: right; max-width:20%;" src="img/d4gx-logo.jpg" alt="Data for Good Exchange">
 
 I was part of the founding team with Gideon Mann and Susan Kish (both at Bloomberg at the time). 
@@ -70,7 +74,7 @@ For the first few years, our main concern was to get enough paper submissions an
 
 I was also deeply involved in the D4GX efforts to create a code of ethics ([video](https://www.youtube.com/watch?v=s8qjmImu1LQ&t=94s)).
 
-## Data Science
+# Data Science
 * Are We There Yet? challenges for location-aware data science. NYS GIS Symposium, October 2016
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRiEaeEsiJLQJbQ8P-a3K0RdOTt5Ul2maz4AFZbmv9jPQU61UrxS4JP44kEexUW0jLV7ArT9hWXLdTj/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
@@ -79,17 +83,6 @@ I was also deeply involved in the D4GX efforts to create a code of ethics ([vide
 
 * Data Science: challenges & opportunities. Information session at Ecole Polytechnique, December 2014.
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR_XUWwFoEBVYHAylKyyTw5gP0VYZ161azd6-BcIZfPezNRLbmrPTV1ujI04ZuLDIe-hDos1khMbcU4/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-### NYU-AD hackathon
-* Ideation deck (2015)
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSqYGUMmGZuv9EUw6SbkjzPJE_oxqFEnyoBNsqGJCL_5WMkoYW6SZ5arTFoG6NnsvRird1-CEFThs_B/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-### Debugging Politics hackathon
-Over the course of a long week-end, we built Influenza, a tool to find "patterns of influence" in politics: (1) we create a graph of the US political system using open data and (2) we query the graph to find "bugs".
-
-* [Debugging Politics: a software engineering take on it](https://medium.com/cornell-tech/debugging-politics-a-software-engineering-take-on-it-ec7d6e057d4c) (January 2017)
-* [Debugging 'Debug Politics'](https://medium.com/cornell-tech/debugging-debug-politics-afd198f57778) (January 2017)
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRt2gfLp6DKUDTBq_zhXDZj5ZB6ntMZFrhHBnHbr_yUKbeP9cpOAbHZLZFQ3sLEUSofNw4-1ySCU4hM/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Nesta Tech innovation series (#Tech4Labs)
 I was asked by [Nesta](https://www.nesta.org.uk/) to contribute a few pieces about tech innovation.
@@ -103,7 +96,7 @@ I was asked by [Nesta](https://www.nesta.org.uk/) to contribute a few pieces abo
 * [Ready, set, launch: implementation and delivery for your lab’s project](https://www.nesta.org.uk/blog/ready-set-launch-implementation-and-delivery-for-your-labs-project/) (part 8, July 2015)
 * [Scaling and growing your innovation lab’s project](https://www.nesta.org.uk/blog/scaling-and-growing-your-innovation-labs-project/) (part 9, September 2015)
 
-## Urban Tech
+## Urban Tech, Civic Tech
 <img style="float: right; max-width:33%;" src="img/hub-drawing.png" alt="Urban Tech hub">
 
 * The Jacobs Institute Urban Tech hub at Cornell Tech (coming soon).
@@ -120,8 +113,15 @@ The launchpad was officially announced on 9/18/2018 ([press release](https://tec
 
 * [Open Civic Data: Of the People, By the People, For the People](https://pdfs.semanticscholar.org/faf3/c1a8aa270d50136d4e89d4d256cf2f3f0278.pdf), with John Krauss, Luis Palacios and David Sangokoya, IEEE Data Engineering Bulletin, 2014.
 
-## The Foundry @ Cornell Tech
-### WTF Digest
+### Debugging Politics hackathon
+Over the course of a long week-end, we built Influenza, a tool to find "patterns of influence" in politics: (1) we create a graph of the US political system using open data and (2) we query the graph to find "bugs".
+
+* [Debugging Politics: a software engineering take on it](https://medium.com/cornell-tech/debugging-politics-a-software-engineering-take-on-it-ec7d6e057d4c) (January 2017)
+* [Debugging 'Debug Politics'](https://medium.com/cornell-tech/debugging-debug-politics-afd198f57778) (January 2017)
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRt2gfLp6DKUDTBq_zhXDZj5ZB6ntMZFrhHBnHbr_yUKbeP9cpOAbHZLZFQ3sLEUSofNw4-1ySCU4hM/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+# The Foundry @ Cornell Tech
+## WTF Digest
 From 10/2016 to 12/2018, I publsihed a weekly digest (the Foundry Weekly Tech Fix or WTF).
 The digest is a curated list of articles, posts, etc. that I find interesting.
 The digest is articulated around the following themes:
@@ -134,7 +134,12 @@ The digest is articulated around the following themes:
 
 The entire archive can be found on [Medium](https://medium.com/tag/foundry-digest/archive).
 
-## Innovation
+## Tools
+### DreamTeam
+### BuildBoard
+
+
+# Innovation
 * From Research to products (and vice versa). February 2016
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ8VYJqnKrSW8dSBNznpyCK33pkKQulz3g4AfqIZHol1UqEaG899wGMi_WBAu5mWYomGhEliOH6gE_N/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
@@ -185,7 +190,6 @@ I try to write short pieces about topics of interest, conferences I have attende
 * [Preventing Opioid Addiction Using Tech](https://medium.com/cornell-tech/preventing-opioid-addiction-using-tech-f6bb21faf3f)
 
 # Patents
-
 * Managing information about entities using observations
 [US US9940381B1](https://patents.google.com/patent/US9940381B1/)
 
