@@ -198,7 +198,7 @@ I try to write short pieces about topics of interest, conferences I have attende
 * Assessing ratings using tip patterns
 [US US20150170227A1](https://patents.google.com/patent/US20150170227A1/)
 
-* Proactive user-based content correction and enrichment for geo data background
+* Proactive user-based content correction and enrichment for geo data
 [NL2009641C](https://patents.google.com/patent/NL2009641C/)
 
 * Resource conscious tethering
@@ -207,10 +207,8 @@ I try to write short pieces about topics of interest, conferences I have attende
 * Reducing power consumption of mobile device through automated environment
 [US US8504066B1](https://patents.google.com/patent/US8504066B1/)
 
-
 * Managing information about entities using clusters of received observations
 [US US8706732B1](https://patents.google.com/patent/US8706732B1/)
-
 
 * Machine-readable representation of geographic information
 [EP2292021A2](https://patents.google.com/patent/EP2292021A2/)
