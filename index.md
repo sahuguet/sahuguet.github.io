@@ -15,6 +15,13 @@ You can find more info about me at:
 * most recent CV
 
 ## User-facing products I have launched
+
+### ZXing (open source 1D/2D barcode image processing for Android)
+When I stated at Google coming from Bell Labs, I was very curious and excited about the QR-code technology.
+I played a few existing solutions ...
+I convinced some Google software engineers to work on generic library as a 20% project.
+Inspired the development of [Google Lens](https://lens.google.com/).
+
 ### GOOG-411 (Google, 2007)
 GOOG-411 (or Google Voice Local Search) was a telephone service launched by Google in 2007, that provided a speech-recognition-based business directory search, and placed a call to the resulting number in the United States or Canada.[1] The service was accessible via a toll-free telephone number.
 
@@ -103,6 +110,10 @@ I was asked by [Nesta](https://www.nesta.org.uk/) to contribute a few pieces abo
 
 * Circular Data for a Circular City: Value Propositions for Mobility, in [Circular City Research Journal](https://newlab.com/wp-content/uploads/2019/03/for-posting-to-web.pdf), March 2019.
 
+* [NYCx Moonshot Launchpad](https://tech.cityofnewyork.us/projects/launchpad/)
+Working with New York City Mayor's Office of the CTO, we created a 10 page booklet to be used by city agencies willing to come up with some moonshot ideas. Each page of the booklet can be printed in tabloid size and be used as visual support for brainstorming activities.
+The launchpad was officially announced on 9/18/2018 ([press release](https://tech.cityofnewyork.us/2018/09/19/2378/)).
+
 * Smarter NYC, how City Agencies innovate, edited by André Corrêa d'Almeida. Chapter 11 on Vision Zero. Columbia University Press, August 2018.
 
 * [My Three Wishes for the Sidewalk Labs' Genie](https://medium.com/@sahuguet/my-three-wishes-for-the-sidewalk-labs-genie-5d1adc798c3d), March 2016.
@@ -172,3 +183,6 @@ I try to write short pieces about topics of interest, conferences I have attende
 
 ### Other Projects
 * [Preventing Opioid Addiction Using Tech](https://medium.com/cornell-tech/preventing-opioid-addiction-using-tech-f6bb21faf3f)
+
+# Patents
+
