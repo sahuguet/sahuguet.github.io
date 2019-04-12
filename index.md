@@ -195,16 +195,16 @@ A computer-implemented method technique is presented. The technique can include 
 * Systems, methods, and computer-readable media for providing query suggestions … [US US20160041991A1](https://patents.google.com/patent/US20160041991A1/)
 Provided are systems, methods, and computer-readable media for providing query rewrites and autocompletions based on environmental contexts, such as the current time, the current weather, social networking recommendations, the presence at a location of a contact associated with the user, current …
 
-Assessing ratings using tip patterns [US US20150170227A1](https://patents.google.com/patent/US20150170227A1/)
+* Assessing ratings using tip patterns [US US20150170227A1](https://patents.google.com/patent/US20150170227A1/)
 A computer-implemented method for assessing ratings using tip patterns is provided. The method includes obtaining tip information comprising a ratio of a tip amount associated with a bill for a service, the bill being associated with a service provider, generating a rating score based on the tip …
 
 * Proactive user-based content correction and enrichment for geo data background [NL2009641C](https://patents.google.com/patent/NL2009641C/)
 A system and method determines ambiguous or missing information about map features, generates questions to address the ambiguity or the missing information and determines users from whom to request feedback to clarify the ambiguity or supply the missing information.
 
-Resource conscious tethering [US US8949439B1](https://patents.google.com/patent/US8949439B1/)
+* Resource conscious tethering [US US8949439B1](https://patents.google.com/patent/US8949439B1/)
 A mobile communication device is provided that enables appropriate use of a network connection between the mobile communication device and a telecommunications network by a tethered computing device. The mobile communication device includes a first network interface configured for connection to a …
 
-Reducing power consumption of mobile device through automated environment [US US8504066B1](https://patents.google.com/patent/US8504066B1/)
+* Reducing power consumption of mobile device through automated environment [US US8504066B1](https://patents.google.com/patent/US8504066B1/)
 A computer-implemented method is provided for reducing power consumption of a power source used by a mobile device. The mobile device monitors aspects of its environment to determine if some or all of the device's computing functionality can be handled seamlessly by another nearby device. For …
 
 * Managing information about entities using clusters of received observations [US US8706732B1](https://patents.google.com/patent/US8706732B1/)
