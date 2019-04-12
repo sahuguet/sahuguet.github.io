@@ -190,7 +190,7 @@ I try to write short pieces about topics of interest, conferences I have attende
 [US US9940381B1](https://patents.google.com/patent/US9940381B1/)
 
 * Techniques for authenticating access to a private account at a public computing
-[EP US EP2672417A2](https://patents.google.com/patent/US20160041991A1)https://patents.google.com/patent/EP2672417A2/)
+[EP US EP2672417A2](https://patents.google.com/patent/EP2672417A2/)
 
 * Systems, methods, and computer-readable media for providing query suggestions
 [US US20160041991A1](https://patents.google.com/patent/US20160041991A1/)
@@ -216,7 +216,7 @@ I try to write short pieces about topics of interest, conferences I have attende
 [EP2292021A2](https://patents.google.com/patent/EP2292021A2/)
 
 * Ratings using machine-readable representation 
-EP2274687A4](https://patents.google.com/patent/EP2274687A4/)
+[EP2274687A4](https://patents.google.com/patent/EP2274687A4/)
 
 * Advertising
 [US US20180300745A1](https://patents.google.com/patent/US20180300745A1/)
