@@ -76,13 +76,13 @@ I was also deeply involved in the D4GX efforts to create a code of ethics ([vide
 
 # Data Science
 * Are We There Yet? challenges for location-aware data science. NYS GIS Symposium, October 2016
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRiEaeEsiJLQJbQ8P-a3K0RdOTt5Ul2maz4AFZbmv9jPQU61UrxS4JP44kEexUW0jLV7ArT9hWXLdTj/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRiEaeEsiJLQJbQ8P-a3K0RdOTt5Ul2maz4AFZbmv9jPQU61UrxS4JP44kEexUW0jLV7ArT9hWXLdTj/embed?start=false&loop=false&delayms=3000" frameborder="0" width="360" height="225" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 * Small Data Metadata. ["Data, Responsibly" Dagstuhl seminar, July 2016](http://www.dagstuhl.de/16291/)
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQe_lkV9p_TIvparoxFYKZXaczcgXHn8TY1sfrbCCyGd-GP7RGlK6MyrF1Hn0zUetoRJVWBErwZ5r6i/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQe_lkV9p_TIvparoxFYKZXaczcgXHn8TY1sfrbCCyGd-GP7RGlK6MyrF1Hn0zUetoRJVWBErwZ5r6i/embed?start=false&loop=false&delayms=3000" frameborder="0" width="360" height="225" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 * Data Science: challenges & opportunities. Information session at Ecole Polytechnique, December 2014.
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR_XUWwFoEBVYHAylKyyTw5gP0VYZ161azd6-BcIZfPezNRLbmrPTV1ujI04ZuLDIe-hDos1khMbcU4/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR_XUWwFoEBVYHAylKyyTw5gP0VYZ161azd6-BcIZfPezNRLbmrPTV1ujI04ZuLDIe-hDos1khMbcU4/embed?start=false&loop=false&delayms=3000" frameborder="0" width="360" height="225" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Nesta Tech innovation series (#Tech4Labs)
 I was asked by [Nesta](https://www.nesta.org.uk/) to contribute a few pieces about tech innovation.
