@@ -56,11 +56,7 @@ Landing page | Map of user on launch day
 
 # Social Impact and For-Good Projects
 
-### NYU-AD hackathon
-* Ideation deck (2015)
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSqYGUMmGZuv9EUw6SbkjzPJE_oxqFEnyoBNsqGJCL_5WMkoYW6SZ5arTFoG6NnsvRird1-CEFThs_B/embed?start=false&loop=false&delayms=3000" frameborder="0" width="360" height="225" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-## Data for Good Exchange
+## Data for Good Exchange (2015-)
 <img style="float: right; max-width:20%;" src="img/d4gx-logo.jpg" alt="Data for Good Exchange">
 
 I was part of the founding team with Gideon Mann and Susan Kish (both at Bloomberg at the time). 
@@ -74,7 +70,30 @@ For the first few years, our main concern was to get enough paper submissions an
 
 I was also deeply involved in the D4GX efforts to create a code of ethics ([video](https://www.youtube.com/watch?v=s8qjmImu1LQ&t=94s)).
 
+## Debugging Politics hackathon (2017)
+Over the course of a long week-end, we built Influenza, a tool to find "patterns of influence" in politics: (1) we create a graph of the US political system using open data and (2) we query the graph to find "bugs".
+
+* [Debugging Politics: a software engineering take on it](https://medium.com/cornell-tech/debugging-politics-a-software-engineering-take-on-it-ec7d6e057d4c) (January 2017)
+* [Debugging 'Debug Politics'](https://medium.com/cornell-tech/debugging-debug-politics-afd198f57778) (January 2017)
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRt2gfLp6DKUDTBq_zhXDZj5ZB6ntMZFrhHBnHbr_yUKbeP9cpOAbHZLZFQ3sLEUSofNw4-1ySCU4hM/embed?start=false&loop=false&delayms=3000" frameborder="0" width="360" height="225" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+## NYU-AD hackathon (2013-2016)
+I started as a mentor, then judge, then co-organizer with Prof Sana Odeh, 4 years in a row.
+* Ideation deck (2015)
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSqYGUMmGZuv9EUw6SbkjzPJE_oxqFEnyoBNsqGJCL_5WMkoYW6SZ5arTFoG6NnsvRird1-CEFThs_B/embed?start=false&loop=false&delayms=3000" frameborder="0" width="360" height="225" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+## Google OneToday (2013)
+(see above)
+
 # Data Science
+I have been involved in various activities related to data science, including tools, lectures, and presentations.
+
+* Google CoLab (2013-)
+I started a new inititiave with Gideon Mann at Google Research, initally focused on Big Civic Data. After doing market resarch and user interviews, we realized that the real need was for a collaborative platform for data science, hence CoLab. I stumbled upon the open source iPython project and realized this could be a great starting point. First, we modified the code to make it run in the Google infrastructure and it was used by Kayur Patel to teach the first Machine Learning class at Google. Gideon, Kayur and I left Google. The tool then got a life of its own, being used by lots of people at Google, before it got productized as Google CoLab in October 2017.
+
+* Gov Lab's ["Solving Public Problems with Data: Platforms and Where to Store the Data?"](https://sppd.thegovlab.org/lectures/platforms-and-where-to-store-the-data.html) (2018)
+I was invited by Gov Lab to talk about "the state of the art in technologies for collecting, storing, analyzing and visualizing data."
+
 * Are We There Yet? challenges for location-aware data science. NYS GIS Symposium, October 2016
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRiEaeEsiJLQJbQ8P-a3K0RdOTt5Ul2maz4AFZbmv9jPQU61UrxS4JP44kEexUW0jLV7ArT9hWXLdTj/embed?start=false&loop=false&delayms=3000" frameborder="0" width="360" height="225" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
@@ -84,7 +103,15 @@ I was also deeply involved in the D4GX efforts to create a code of ethics ([vide
 * Data Science: challenges & opportunities. Information session at Ecole Polytechnique, December 2014.
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR_XUWwFoEBVYHAylKyyTw5gP0VYZ161azd6-BcIZfPezNRLbmrPTV1ujI04ZuLDIe-hDos1khMbcU4/embed?start=false&loop=false&delayms=3000" frameborder="0" width="360" height="225" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-## Nesta Tech innovation series (#Tech4Labs)
+# Innovation
+
+* From Research to products (and vice versa). February 2016
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ8VYJqnKrSW8dSBNznpyCK33pkKQulz3g4AfqIZHol1UqEaG899wGMi_WBAu5mWYomGhEliOH6gE_N/embed?start=false&loop=false&delayms=3000" frameborder="0" width="360" height="225" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+* De Innovatione Rerum. For EDF at Columbia Universtity. Otober 2014.
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQAIfZOxisNo3FBjTAgv5ySvgi6g5SGk1qW3l7Dbv1NjO0rAylAchP7DhO209LF9twuJqCexL71ZMR_/embed?start=false&loop=false&delayms=3000" frameborder="0" width="360" height="225" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+## Nesta Tech innovation series / #Tech4Labs (2015)
 I was asked by [Nesta](https://www.nesta.org.uk/) to contribute a few pieces about tech innovation.
 * [Forms: co-creation's unsung heroes](http://www.nesta.org.uk/blog/tech4labs-issue-1) (part 1, Dec 2014)
 * [GitHub: the Swiss army knife of civic innovation?](https://medium.com/@sahuguet/github-the-swiss-army-knife-of-civic-innovation-d2ba67288abb) (part 2, March 2015)
@@ -96,7 +123,7 @@ I was asked by [Nesta](https://www.nesta.org.uk/) to contribute a few pieces abo
 * [Ready, set, launch: implementation and delivery for your lab’s project](https://www.nesta.org.uk/blog/ready-set-launch-implementation-and-delivery-for-your-labs-project/) (part 8, July 2015)
 * [Scaling and growing your innovation lab’s project](https://www.nesta.org.uk/blog/scaling-and-growing-your-innovation-labs-project/) (part 9, September 2015)
 
-## Urban Tech, Civic Tech
+# Urban Tech, Civic Tech
 <img style="float: right; max-width:33%;" src="img/hub-drawing.png" alt="Urban Tech hub">
 
 * The Jacobs Institute Urban Tech hub at Cornell Tech (coming soon).
@@ -112,39 +139,6 @@ The launchpad was officially announced on 9/18/2018 ([press release](https://tec
 * [My Three Wishes for the Sidewalk Labs' Genie](https://medium.com/@sahuguet/my-three-wishes-for-the-sidewalk-labs-genie-5d1adc798c3d), March 2016.
 
 * [Open Civic Data: Of the People, By the People, For the People](https://pdfs.semanticscholar.org/faf3/c1a8aa270d50136d4e89d4d256cf2f3f0278.pdf), with John Krauss, Luis Palacios and David Sangokoya, IEEE Data Engineering Bulletin, 2014.
-
-### Debugging Politics hackathon
-Over the course of a long week-end, we built Influenza, a tool to find "patterns of influence" in politics: (1) we create a graph of the US political system using open data and (2) we query the graph to find "bugs".
-
-* [Debugging Politics: a software engineering take on it](https://medium.com/cornell-tech/debugging-politics-a-software-engineering-take-on-it-ec7d6e057d4c) (January 2017)
-* [Debugging 'Debug Politics'](https://medium.com/cornell-tech/debugging-debug-politics-afd198f57778) (January 2017)
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRt2gfLp6DKUDTBq_zhXDZj5ZB6ntMZFrhHBnHbr_yUKbeP9cpOAbHZLZFQ3sLEUSofNw4-1ySCU4hM/embed?start=false&loop=false&delayms=3000" frameborder="0" width="360" height="225" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-# The Foundry @ Cornell Tech
-## WTF Digest
-From 10/2016 to 12/2018, I publsihed a weekly digest (the Foundry Weekly Tech Fix or WTF).
-The digest is a curated list of articles, posts, etc. that I find interesting.
-The digest is articulated around the following themes:
-* Department of Digital Addictions — 🎮 💉
-* Department of Smarter Cities — 💡🏙
-* Department of Shameless Plugs — 🤑 🔌
-* Department of Silver Linings — 🌈🎆
-* Department of “we” the people — 🙋👨🏽‍💼👷🏿👩🏼‍🔬
-* Department of worthy quotes — 🎬 📖
-
-The entire archive can be found on [Medium](https://medium.com/tag/foundry-digest/archive).
-
-## Tools
-### DreamTeam
-### BuildBoard
-
-
-# Innovation
-* From Research to products (and vice versa). February 2016
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ8VYJqnKrSW8dSBNznpyCK33pkKQulz3g4AfqIZHol1UqEaG899wGMi_WBAu5mWYomGhEliOH6gE_N/embed?start=false&loop=false&delayms=3000" frameborder="0" width="360" height="225" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-* De Innovatione Rerum. For EDF at Columbia Universtity. Otober 2014.
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQAIfZOxisNo3FBjTAgv5ySvgi6g5SGk1qW3l7Dbv1NjO0rAylAchP7DhO209LF9twuJqCexL71ZMR_/embed?start=false&loop=false&delayms=3000" frameborder="0" width="360" height="225" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Teaching
 * PM Bootcamp, a guest lecture about product management for new Cornell Tech MBA students. Spring 2017.
@@ -170,23 +164,38 @@ The entire archive can be found on [Medium](https://medium.com/tag/foundry-diges
 * "Mobile Civic Apps", a guest lecture for Beth's Noveck class at NYU Wagner. Spring 2013.
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS5jUdYlMjX7FoWHkNiH1ZJfte0-clXXfZz8RXKOYPVsJYBU3DVraCINwxa7pDrcac6fNWr0ENueGUP/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-## Casual Writings, Blogging
+# Casual Writings, Blogging
+
+## The WTF Digest
+From 10/2016 to 12/2018, I publsihed a weekly digest (the Foundry Weekly Tech Fix or WTF).
+The digest is a curated list of articles, posts, etc. that I find interesting.
+The digest is articulated around the following themes:
+* Department of Digital Addictions — 🎮 💉
+* Department of Smarter Cities — 💡🏙
+* Department of Shameless Plugs — 🤑 🔌
+* Department of Silver Linings — 🌈🎆
+* Department of “we” the people — 🙋👨🏽‍💼👷🏿👩🏼‍🔬
+* Department of worthy quotes — 🎬 📖
+
+The entire archive can be found on [Medium](https://medium.com/tag/foundry-digest/archive).
+
 I try to write short pieces about topics of interest, conferences I have attended or recent projects I have been working on
 
-### About Products
+## About Products
 * [Being Juror #8](https://medium.com/cornell-tech/being-juror-8-part-1-the-tech-part-69b8914de9dd), November 2016.
 
-### About AI
+## About AI
 * [Alexa, what's the fuss with voice services?](https://medium.com/cornell-tech/alexa-whats-the-fuss-with-voice-services-59d749e94256) (May 2017)
 * [Personal Views on the Future of Artificial Intelligence](https://medium.com/machine-intelligence-report/personal-views-on-the-future-of-artificial-intelligence-509c5db276fc) (January 2016, after attending the NYU Symposium on the Future of AI)
 
-### About the Blockchain
+## About the Blockchain
 * Somebody said "Blockchain"?. A guest lecture for high-school students attending a programming contest at Cornell Tech. Spring 2018.
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS8MihH3jx876Pegf0rdzmLSQjnpYmm_RDmsDvDO5xtny2d5JihjQmJ8-fUHKP3Y9g_WurjVY1bmAk2/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 * [Everything* You Always Wanted to Know About ICOs But Were Afraid to ask](https://medium.com/cornell-tech/everything-you-always-wanted-to-know-about-icos-but-were-afraid-to-ask-b9728dc38b81) (October 2017, > 5.1K views on Medium)
 * [Everything* You Always Wanted to Know About the Blockchain But Were Afraid to ask](http://52.5.205.245/everything-you-always-wanted-to-know-about-the-blockchain-but-were-afraid-to-ask/) (June 2016)
 
-### Other Projects
+## Other Cornell Tech Projects
+* [Using OR for hackathon and student classes](http://52.5.205.245/or-in-real-life/)
 * [Preventing Opioid Addiction Using Tech](https://medium.com/cornell-tech/preventing-opioid-addiction-using-tech-f6bb21faf3f)
 
 # Patents
