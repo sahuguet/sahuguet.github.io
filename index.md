@@ -118,7 +118,7 @@ Over the course of a long week-end, we built Influenza, a tool to find "patterns
 
 * [Debugging Politics: a software engineering take on it](https://medium.com/cornell-tech/debugging-politics-a-software-engineering-take-on-it-ec7d6e057d4c) (January 2017)
 * [Debugging 'Debug Politics'](https://medium.com/cornell-tech/debugging-debug-politics-afd198f57778) (January 2017)
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRt2gfLp6DKUDTBq_zhXDZj5ZB6ntMZFrhHBnHbr_yUKbeP9cpOAbHZLZFQ3sLEUSofNw4-1ySCU4hM/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRt2gfLp6DKUDTBq_zhXDZj5ZB6ntMZFrhHBnHbr_yUKbeP9cpOAbHZLZFQ3sLEUSofNw4-1ySCU4hM/embed?start=false&loop=false&delayms=3000" frameborder="0" width="360" height="225" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 # The Foundry @ Cornell Tech
 ## WTF Digest
@@ -141,29 +141,29 @@ The entire archive can be found on [Medium](https://medium.com/tag/foundry-diges
 
 # Innovation
 * From Research to products (and vice versa). February 2016
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ8VYJqnKrSW8dSBNznpyCK33pkKQulz3g4AfqIZHol1UqEaG899wGMi_WBAu5mWYomGhEliOH6gE_N/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ8VYJqnKrSW8dSBNznpyCK33pkKQulz3g4AfqIZHol1UqEaG899wGMi_WBAu5mWYomGhEliOH6gE_N/embed?start=false&loop=false&delayms=3000" frameborder="0" width="360" height="225" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 * De Innovatione Rerum. For EDF at Columbia Universtity. Otober 2014.
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQAIfZOxisNo3FBjTAgv5ySvgi6g5SGk1qW3l7Dbv1NjO0rAylAchP7DhO209LF9twuJqCexL71ZMR_/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQAIfZOxisNo3FBjTAgv5ySvgi6g5SGk1qW3l7Dbv1NjO0rAylAchP7DhO209LF9twuJqCexL71ZMR_/embed?start=false&loop=false&delayms=3000" frameborder="0" width="360" height="225" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Teaching
 * PM Bootcamp, a guest lecture about product management for new Cornell Tech MBA students. Spring 2017.
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT-0jJQ7K7zH6u9XiGRxvHxgKt1tO-EcpxyszmM-K57q5VY2PIvXBasDJlpp-S3_ZU__H4K2fW8Cb_i/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT-0jJQ7K7zH6u9XiGRxvHxgKt1tO-EcpxyszmM-K57q5VY2PIvXBasDJlpp-S3_ZU__H4K2fW8Cb_i/embed?start=false&loop=false&delayms=3000" frameborder="0" width="360" height="225" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 * Hosting 101, guest lecture for the Building Startup Systems class (CS-5356). Fall 2016.
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQiwlM8wOq-OLt6IBLcKh997j0Wzu3HmcEhgWMssI1aAZYXAVR7Kcx4iTujZA8C-LiP7-uhweDMZjUc/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQiwlM8wOq-OLt6IBLcKh997j0Wzu3HmcEhgWMssI1aAZYXAVR7Kcx4iTujZA8C-LiP7-uhweDMZjUc/embed?start=false&loop=false&delayms=3000" frameborder="0" width="360" height="225" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 * Tech for non-Tech, 2 guest lectures for Professor Rafael Pass. Fall 2016.
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS7i5KLz8ANBM7mJi4BbhPDeWuSgYUh_v4yc3GxF_yTqV6poeHYUHCXCK22weWo1-YNP4IozK1kS04E/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRgN9rDzaUNRp1PLzYxSqj0uOg3VB4narzuzgZc0mGldbJ6uOYOiP7WIEQ2KF4l1tcArT38veASaPGJ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS7i5KLz8ANBM7mJi4BbhPDeWuSgYUh_v4yc3GxF_yTqV6poeHYUHCXCK22weWo1-YNP4IozK1kS04E/embed?start=false&loop=false&delayms=3000" frameborder="0" width="360" height="225" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRgN9rDzaUNRp1PLzYxSqj0uOg3VB4narzuzgZc0mGldbJ6uOYOiP7WIEQ2KF4l1tcArT38veASaPGJ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="360" height="225" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 * "Design Thinking", a guest lecture for the Smart Cities course offered by Cornell Baker Program in Real Estate. Fall 2018.
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS82YG6b9gsZ0WBHUWmRKxHzmfWRaMbsnZIaOZXEkTFYHlZQ1OhxVRo99yGf1lK4S_iexrdyfNgy-hJ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS82YG6b9gsZ0WBHUWmRKxHzmfWRaMbsnZIaOZXEkTFYHlZQ1OhxVRo99yGf1lK4S_iexrdyfNgy-hJ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="360" height="225" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 * "Startup Systems", a guest lecture for "Tech for Business" class taught by Professor Rafael Pass. Fall 2015.
 
 * "Fake it before you make it", a guest lecture for "Product Management" class (CS 5093) taught by Professor Greg Pass. Fall 2015.
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSGKKG6JnC4QlnXVeqf6WtcRe-KDUNcdlO6xsQLXJVY8TXIEAW0e32YlXw6jwofOLMtm7ZkYWQmgUOC/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSGKKG6JnC4QlnXVeqf6WtcRe-KDUNcdlO6xsQLXJVY8TXIEAW0e32YlXw6jwofOLMtm7ZkYWQmgUOC/embed?start=false&loop=false&delayms=3000" frameborder="0" width="360" height="225" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 * "Civic Tech for Local Legislatures and Legislators", with Ben Kallos. Coaching program from NYU GovLab Academy, Spring 2015.
 
