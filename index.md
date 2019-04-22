@@ -88,11 +88,13 @@ I started as a mentor, then judge, then co-organizer with Prof Sana Odeh, 4 year
 # Data Science
 I have been involved in various activities related to data science, including tools, lectures, and presentations.
 
-* Google CoLab (2013-)
+## Google CoLab (2013-)
 I started a new inititiave with Gideon Mann at Google Research, initally focused on Big Civic Data. After doing market resarch and user interviews, we realized that the real need was for a collaborative platform for data science, hence CoLab. I stumbled upon the open source iPython project and realized this could be a great starting point. First, we modified the code to make it run in the Google infrastructure and it was used by Kayur Patel to teach the first Machine Learning class at Google. Gideon, Kayur and I left Google. The tool then got a life of its own, being used by lots of people at Google, before it got productized as Google CoLab in October 2017.
 
-* Gov Lab's ["Solving Public Problems with Data: Platforms and Where to Store the Data?"](https://sppd.thegovlab.org/lectures/platforms-and-where-to-store-the-data.html) (2018)
+## Gov Lab's ["Solving Public Problems with Data: Platforms and Where to Store the Data?"](https://sppd.thegovlab.org/lectures/platforms-and-where-to-store-the-data.html) (2018)
 I was invited by Gov Lab to talk about "the state of the art in technologies for collecting, storing, analyzing and visualizing data."
+
+## Other presenations
 
 * Are We There Yet? challenges for location-aware data science. NYS GIS Symposium, October 2016
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRiEaeEsiJLQJbQ8P-a3K0RdOTt5Ul2maz4AFZbmv9jPQU61UrxS4JP44kEexUW0jLV7ArT9hWXLdTj/embed?start=false&loop=false&delayms=3000" frameborder="0" width="360" height="225" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -104,6 +106,10 @@ I was invited by Gov Lab to talk about "the state of the art in technologies for
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR_XUWwFoEBVYHAylKyyTw5gP0VYZ161azd6-BcIZfPezNRLbmrPTV1ujI04ZuLDIe-hDos1khMbcU4/embed?start=false&loop=false&delayms=3000" frameborder="0" width="360" height="225" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 # Innovation
+I have always been interested in innovation, first for products and then for organizations.
+I gave a few lectures and contributed some writings on the topic.
+
+## Guest lectures
 
 * From Research to products (and vice versa). February 2016
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ8VYJqnKrSW8dSBNznpyCK33pkKQulz3g4AfqIZHol1UqEaG899wGMi_WBAu5mWYomGhEliOH6gE_N/embed?start=false&loop=false&delayms=3000" frameborder="0" width="360" height="225" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -136,11 +142,13 @@ The launchpad was officially announced on 9/18/2018 ([press release](https://tec
 
 * Smarter NYC, how City Agencies innovate, edited by André Corrêa d'Almeida. Chapter 11 on Vision Zero. Columbia University Press, August 2018.
 
-* [My Three Wishes for the Sidewalk Labs' Genie](https://medium.com/@sahuguet/my-three-wishes-for-the-sidewalk-labs-genie-5d1adc798c3d), March 2016.
+* [My Three Wishes for the Sidewalk Labs' Genie](https://medium.com/@sahuguet/my-three-wishes-for-the-sidewalk-labs-genie-5d1adc798c3d), Medium, March 2016.
 
 * [Open Civic Data: Of the People, By the People, For the People](https://pdfs.semanticscholar.org/faf3/c1a8aa270d50136d4e89d4d256cf2f3f0278.pdf), with John Krauss, Luis Palacios and David Sangokoya, IEEE Data Engineering Bulletin, 2014.
 
 ## Teaching
+Some guest lectures I have given at Cornell Tech and NYU.
+
 * PM Bootcamp, a guest lecture about product management for new Cornell Tech MBA students. Spring 2017.
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT-0jJQ7K7zH6u9XiGRxvHxgKt1tO-EcpxyszmM-K57q5VY2PIvXBasDJlpp-S3_ZU__H4K2fW8Cb_i/embed?start=false&loop=false&delayms=3000" frameborder="0" width="360" height="225" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
@@ -181,9 +189,6 @@ The entire archive can be found on [Medium](https://medium.com/tag/foundry-diges
 
 I try to write short pieces about topics of interest, conferences I have attended or recent projects I have been working on
 
-## About Products
-* [Being Juror #8](https://medium.com/cornell-tech/being-juror-8-part-1-the-tech-part-69b8914de9dd), November 2016.
-
 ## About AI
 * [Alexa, what's the fuss with voice services?](https://medium.com/cornell-tech/alexa-whats-the-fuss-with-voice-services-59d749e94256) (May 2017)
 * [Personal Views on the Future of Artificial Intelligence](https://medium.com/machine-intelligence-report/personal-views-on-the-future-of-artificial-intelligence-509c5db276fc) (January 2016, after attending the NYU Symposium on the Future of AI)
@@ -197,6 +202,9 @@ I try to write short pieces about topics of interest, conferences I have attende
 ## Other Cornell Tech Projects
 * [Using OR for hackathon and student classes](http://52.5.205.245/or-in-real-life/)
 * [Preventing Opioid Addiction Using Tech](https://medium.com/cornell-tech/preventing-opioid-addiction-using-tech-f6bb21faf3f)
+
+## Misc.
+* [Being Juror #8](https://medium.com/cornell-tech/being-juror-8-part-1-the-tech-part-69b8914de9dd), November 2016.
 
 # Patents
 * Managing information about entities using observations
