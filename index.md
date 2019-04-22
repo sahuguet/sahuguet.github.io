@@ -170,7 +170,7 @@ Some guest lectures I have given at Cornell Tech and NYU.
 * "Civic Tech for Local Legislatures and Legislators", with Ben Kallos. Coaching program from NYU GovLab Academy, Spring 2015.
 
 * "Mobile Civic Apps", a guest lecture for Beth's Noveck class at NYU Wagner. Spring 2013.
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS5jUdYlMjX7FoWHkNiH1ZJfte0-clXXfZz8RXKOYPVsJYBU3DVraCINwxa7pDrcac6fNWr0ENueGUP/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS5jUdYlMjX7FoWHkNiH1ZJfte0-clXXfZz8RXKOYPVsJYBU3DVraCINwxa7pDrcac6fNWr0ENueGUP/embed?start=false&loop=false&delayms=3000" frameborder="0" width="320" height="260" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 # Casual Writings, Blogging
 
