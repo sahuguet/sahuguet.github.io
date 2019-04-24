@@ -105,6 +105,16 @@ I was invited by Gov Lab to talk about "the state of the art in technologies for
 * Data Science: challenges & opportunities. Information session at Ecole Polytechnique, December 2014.
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR_XUWwFoEBVYHAylKyyTw5gP0VYZ161azd6-BcIZfPezNRLbmrPTV1ujI04ZuLDIe-hDos1khMbcU4/embed?start=false&loop=false&delayms=3000" frameborder="0" width="360" height="225" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
+# The Foundry
+Here are some projects we did at the Foundry.
+* http://pallette.io/
+* https://tech.cornell.edu/news/a-diagnostic-mirror/
+* https://www.ncbi.nlm.nih.gov/pubmed/30224333
+* https://uni.fyi/
+* https://drive.google.com/file/d/1ranMRBUxbjjaL9ZMTamRWKGyXt1aqA5Z/view
+* https://s.tech.cornell.edu/movemeant/
+* http://researchstack.org/
+
 # Innovation
 I have always been interested in innovation, first for products and then for organizations.
 I gave a few lectures and contributed some writings on the topic.
