@@ -16,7 +16,7 @@ You can find more info about me at:
 * [Twitter](https://twitter.com/sahuguet)
 * [Medium](https://medium.com/@sahuguet)
 * [Github](https://github.com/sahuguet)
-* most recent CV
+* [most recent CV](sahuguet-cv.pdf)
 
 # User-facing products I have launched
 
