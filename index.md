@@ -1,3 +1,7 @@
+---
+title: Welcome to Arnaud's page
+---
+
 # About Me
 <img style="float: right; max-width:20%; border-radius:50%;" src="img/profile-picture.jpg">
 
@@ -47,7 +51,13 @@ Featured Project  | Matching donation | Achievement screen
 ![alt text](img/onetoday-1.webp "OneToday featured project screen") | ![alt text](img/onetoday-2.webp "OneToday matching donation screen") | ![alt text](img/onetoday-3.webp "OneToday achievement screen") 
 
 ## Network of Innovators -- first version (NYU GovLab, 2015)
-https://networkofinnovators.org/
+The [Network of Innovators](https://networkofinnovators.org) is a knowledge-exchange network for open government and open data professionals, where you can:
+
+* Ask a question or discuss all things open data & government,
+* Find & connect with innovators to get advice on your projects,
+* Get matched with others who have experience in what you want to learn!
+
+
 
 Landing page | Map of user on launch day
 ------------ | -------------
@@ -107,13 +117,13 @@ I was invited by Gov Lab to talk about "the state of the art in technologies for
 
 # The Foundry
 Here are some projects we did at the Foundry.
-* http://pallette.io/
-* https://tech.cornell.edu/news/a-diagnostic-mirror/
-* https://www.ncbi.nlm.nih.gov/pubmed/30224333
-* https://uni.fyi/
-* https://drive.google.com/file/d/1ranMRBUxbjjaL9ZMTamRWKGyXt1aqA5Z/view
-* https://s.tech.cornell.edu/movemeant/
-* http://researchstack.org/
+* [Pallette](http://pallette.io), the world's first open-source tongue-computer interface 
+* [Magic Mirror](https://research.cornell.edu/news-features/diagnostic-mirror), a two-way mirror with a screen display behind it.
+* [Limbr](https://www.ncbi.nlm.nih.gov/pubmed/30224333), to enhance self-management of CLBP (chronic lower back pain) by packaging self-directed rehabilitation tutorial videos, visual self-report tools, remote health coach support, and activity tracking into a suite of mobile phone apps.
+* [Uni](https://uni.fyi/), an ideation platform designed for the Product and Startup Ideas class.
+* [ArLane](https://drive.google.com/file/d/1ranMRBUxbjjaL9ZMTamRWKGyXt1aqA5Z/view), a mixed-reality shopping experience.
+* [MoveMeant](https://s.tech.cornell.edu/movemeant/), a mobile app that uses automatically generated location data from your mobile devices to increase local community awareness and connect people who live close to each other through anonymous shared location histories.
+* [ResearchStack](http://researchstack.org/), a SDK and UX framework for building research study apps on Android, designed from the ground up to meet the requirements of most scientific research, including capturing participant consent, extensible input tasks, and the security and privacy needs necessary for IRB approval.
 
 # Innovation
 I have always been interested in innovation, first for products and then for organizations.
