@@ -154,6 +154,9 @@ I was asked by [Nesta](https://www.nesta.org.uk/) to contribute a few pieces abo
 
 * The Jacobs Institute Urban Tech hub at Cornell Tech (coming soon).
 
+* Cornell Tech Presents: Urban Tech Trends (Smart Cities New York conference, May 2019)
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSPtYFmWWNJHj9fiOJscyLNJJ2hc3Y0VTklpFqCRgYt8M7_rrjyH-1keuqmB_-JLoANzqpdDc0bGH8E/embed?start=false&loop=false&delayms=3000" frameborder="0" width="360" height="213" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 * Circular Data for a Circular City: Value Propositions for Mobility, in [Circular City Research Journal](https://newlab.com/wp-content/uploads/2019/03/for-posting-to-web.pdf), March 2019.
 
 * [NYCx Moonshot Launchpad](https://tech.cityofnewyork.us/projects/launchpad/)
