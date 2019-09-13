@@ -1,5 +1,4 @@
 ---
-title: Welcome to Arnaud's page
 ---
 
 # About Me
