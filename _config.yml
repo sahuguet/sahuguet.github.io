@@ -2,3 +2,4 @@ remote_theme: "mmistakes/minimal-mistakes@4.16.6"
 title: Welcome to Arnaud's page
 plugins:
   - jekyll-sitemap
+  - jekyll-include-cache
