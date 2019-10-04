@@ -1,0 +1,13 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Blog"
+    url: /blog/
+  - title: "Resources"
+    url: "/resources"
+  - title: "Portfolio"
+    url: "/portfolio"
+  - title: "About Me"
+    url: "/about-me"
+  - title: "TORBI LLC"
+    url: "/torbi"
