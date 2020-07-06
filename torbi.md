@@ -15,3 +15,4 @@ Consulting services include:
 Current customers include:
 - [Gro-Intelligence](https://gro-intelligence.com/)
 - [Exor Seeds](https://www.exor.com/home/seeds)
+- [Tatch](https://tatch.com/)
