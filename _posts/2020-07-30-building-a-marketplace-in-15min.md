@@ -167,4 +167,12 @@ Having said that, Stacker has some limitations.
 * You cannot style your app.
 * Because app access requires to be authenticated, your app cannot be indexed by search engines. For a marketplace, this is not ideal.
 * As I was desinging the app, there was no way of embedding tools like Google Analytics. This is now possible.
+* I could not find a way to delete a product. A workaround is to mark the product as "do not display"
+
+As of this writing, we still don't know if we have been selected or not (most likely not).
+When we submiited our proposal (see here), we knew our chances were slim.
+However, one possible value of such a proof of concept is to better understand what the final product should look like.
+
+Using Airtable+Stacker, we managed to build very quickly a marketplace that works and we can iterate over very quickly. This is priceless before embarking in a potential long and expensive project.
+
 
