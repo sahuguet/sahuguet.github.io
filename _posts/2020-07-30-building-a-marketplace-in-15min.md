@@ -2,9 +2,9 @@
 
 With post-COVID re-opening, a lot of businesses (large and small) need to purchase personel protection equipment (PPE) for their employees and/or customers.
 
-New York City Economic Development Corporation ([NYCEDC](https://edc.nyc/)) has the mission to "promote economic growth in New York City". To help with the re-opening, NYCEDC issued a public sollicitation for "Personal Protective Equipment Marketplace" (see PDF here; the original webpage has been removed).
+New York City Economic Development Corporation ([NYCEDC](https://edc.nyc/)) has the mission to "promote economic growth in New York City". To help with the re-opening, NYCEDC issued a public sollicitation for "Personal Protective Equipment Marketplace" (see [PDF](/other-assets/NYCEDC-New-York-City-Personal-Protective-Equipment-Marketplace-Public-Solicitation-for-Services and-or-Funding.pdf); the original webpage has been removed).
 
-From the original document, NYCEDC was asking for
+From [the original document](/other-assets/NYCEDC-New-York-City-Personal-Protective-Equipment-Marketplace-Public-Solicitation-for-Services and-or-Funding.pdf), NYCEDC was asking for
 > Specifically, we envision that a technology partner would design, develop and host a digital marketplace that has the following features:
 > * A digital destination where businesses can source PPEs from local (NYC-based) manufacturers and distributors
 > * A user-friendly interface that invites buyers to search by several product criteria
@@ -23,6 +23,8 @@ As the co-founder of the NYC Response Lab, a hub for collaborative community sol
 
 The first thing was to understand marketplace in a narrow sense.
 The second was to use the right tools.
+
+The PDF version of our response can be found [here](/other-assets/PPE Marketplace.pdf).
 
 ## Building a Kayak rather than an Expedia
 From our point of view, the main goal of the NYCEDC sollicitation was to help businesses find PPE providers. Therefore our "lightweight" marketplace should focus on making this matchmaking easy for both parties.
