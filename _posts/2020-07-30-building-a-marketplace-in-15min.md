@@ -88,7 +88,7 @@ Table `Products`
 
 Nothing too fancy about these two tables:
 * `Suppliers` provide some key information about the supplier
-* The `vetted` column is used identify suppliers who have been vetted and can be featured on the marketplace.
+* The `vetted` column is used to identify suppliers who have been vetted and can be featured on the marketplace.
 * A product points to a supplier.
 * A product belongs to a category, e.g. masks.
 
@@ -97,5 +97,64 @@ Some suppliers are waiting to be vetted. Some suppliers have been rejected.
 
 The data model in Airtable captures all of this. We now need to make it easy for suppliers to enter their information.
 
+### Airtable is not enough :-(
+Airtable provides an easy way to enter information into tables using forms. However, once the information is in the table, it cannot be changed unless you provide access to the full table. Early on, we realized that Airtable was not going to be enough to build our marketplace.
 
+After looking around and asking around, Airtable people told us about a similar initiative called [Project N95](https://www.projectn95.org/) that is using Airtable and something called [Stacker](https://stacker.app/).
+
+### Hello, Stacker!
+From their website,
+>Stacker lets you create the digital tools you need to engage your customers, partners and team, all powered by the data in your Airtable or Google Sheets.
+
+Stacker solves some limitations of Airtable by providing a CRUD (create-read-update-delete) interface on top of Airtable and a rich set of views and access control rules.
+
+Using Stacker, you select the Airtable tables you want to link and then you define views for them.
+
+In our case, we linked tables `Suppliers` and `Products`.
+We used the `email` field of table `Suppliers` as the user identity for suppliers.
+
+For each table, you can define various views and corresponding permissions. Here is what we did.
+
+#### Views for table `Products`
+* Anyone can view all products, but cannot edit or create new ones.
+* When the user is also a supplier, the user can create and edit their products.
+
+Stacker generates for us automatically a nice interface to create/edit a product, view a product and view a list of product. For the latter, Stacker offers various display options such as card, board or table.
+
+#### Views for table `Suppliers`
+* Anyone can view all suppliers, but cannot edit or create new ones.
+* When the user is also a supplier, the user can edit their profile.
+
+Note that a new supplier cannot be created using this interface. A new supplier is created using an Airtable form and the corresponding entry has to be marked as vetted before being avaiable in Stacker.
+
+By created a handful of permission rules and making some minor tweaks to the layout provided by Stacker, we got (almost) what we needed.
+
+#### A few hacks
+
+Stacker is designed to build "portal apps" where users MUST be authenticated. To make our marketplace available to the public, we had to find a workaround.
+Since all our users are described in the `Suppliers` table, we had to create a special supplier called `Guest Buyer`.
+Stacker provides an easy to invite a new user to the platform using a special invite code URL. We used this invite code as the public URL for buyers to use.
+
+By abusing table `Suppliers` to represent a buyer, we messed up with some of our permissions. Fortunately, Stacker offers an abstraction called `Roles`.
+Using roles, we can tweak views, layouts and permissions. We simply add to assign role `Guest Buyer` to user `Guest Buyer`.
+
+Because of its data-driven nature, Stacker does not let you create web pages. To create a new page, you need to create a corresponding Airtable table and use its content to generate the page.
+
+### What it looks like
+Here are few screenshots of the PPE Marketplace portal.
+
+
+
+### Overall Experience
+The overall experience has been great. Now that I know how things work, creating a new marketplace from scratch should take me less than 10 minutes.
+
+Airtable is a great tool to prototype very quickly.
+Adding a new column, adding a new PPE category takes 30s on Airtable and then you simply need to tell Stacker to sync the changes.
+
+Stacker gives you a rich CRUD interface out of the box. For most views, I picked the default configuration and it looked good.
+
+Having said that, Stacker has some limitations.
+* You cannot style your app.
+* Because app access requires to be authenticated, your app cannot be indexed by search engines. For a marketplace, this is not ideal.
+* As I was desinging the app, there was no way of embedding tools like Google Analytics. This is now possible.
 
