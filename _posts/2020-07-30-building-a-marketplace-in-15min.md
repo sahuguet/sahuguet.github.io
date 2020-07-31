@@ -74,12 +74,28 @@ The supplier can also add new products and update existing ones.
 
 ## Implementing 
 To implement the marketplace, we first focused on the data model to represent the marketplace.
+
+### The data model
 We need to represent Suppliers and the Products they sell. Our lightweight marketplace is public and we don't need to represent buyers.
 
 This model translated to two tables: Suppliers and Products.
 
-<iframe class="airtable-embed" src="https://airtable.com/embed/shrEgdqFzXoil8K9o?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+Table `Suppliers`
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrEgdqFzXoil8K9o?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="400" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
-<iframe class="airtable-embed" src="https://airtable.com/embed/shrKFajUj2oyUbyMB?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+Table `Products`
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrKFajUj2oyUbyMB?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="400" style="background: transparent; border: 1px solid #ccc;"></iframe>
+
+Nothing too fancy about these two tables:
+* `Suppliers` provide some key information about the supplier
+* The `vetted` column is used identify suppliers who have been vetted and can be featured on the marketplace.
+* A product points to a supplier.
+* A product belongs to a category, e.g. masks.
+
+At any given point in time, the marketplace features a set of vetted suppliers offering each a set of products.
+Some suppliers are waiting to be vetted. Some suppliers have been rejected.
+
+The data model in Airtable captures all of this. We now need to make it easy for suppliers to enter their information.
+
 
 
