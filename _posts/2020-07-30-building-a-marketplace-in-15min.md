@@ -143,7 +143,17 @@ Because of its data-driven nature, Stacker does not let you create web pages. To
 ### What it looks like
 Here are few screenshots of the PPE Marketplace portal.
 
+#### Supplier registration (using Airtable forms)
+![Registration](/img/ppe-supplier-registration.png)
 
+#### Landing page for potential buyer
+![Landing page](/img/ppe-landing-page.png)
+
+#### Searching for products, for the buyer
+![Searching for a product](/img/ppe-product-browse.png)
+
+#### Adding a product, for the supplier
+![Adding a product](/img/ppe-adding-a-new-product.png)
 
 ### Overall Experience
 The overall experience has been great. Now that I know how things work, creating a new marketplace from scratch should take me less than 10 minutes.
