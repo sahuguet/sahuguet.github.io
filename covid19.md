@@ -4,7 +4,7 @@ title: ""
 ---
 
 Here are some activities related to COVID-19 I am involved with:
-* [UrbanTech Forum / COVID-19](cornelltech.io/covid19), a section of the UrbanTech Forum focused on the pandemic.
+* [UrbanTech Forum / COVID-19](https://cornelltech.io/covid19), a section of the UrbanTech Forum focused on the pandemic.
 * [NYC Response Lab](http://responselabnyc.com/), a hub for collaborative community solution creation and deployment in response to COVID-19.
 * [PPE Marketplace](http://cornelltech.io/ppe-marketplace), a proof of concept for the PPE Marketplace NYC EDC wants to launch.
 * [ScreenCovid](http://screencovid.com/), a simple online screening tool to assess your risk for COVID-19
