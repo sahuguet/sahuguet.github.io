@@ -9,7 +9,7 @@ My passion is to invent, architect and build products that leverage technology t
 
 My areas of expertise include data – big, small, open, geographic – management and analysis, architecture of complex systems, product design and research & development.
 
-I am currently working for [Gro Intelligence](\gro-url) as their Chief Product Officer.
+I am currently working for [Gro Intelligence](https://gro-intelligence.com/) as their Chief Product Officer.
 
 You can find more info about me at:
 * [LinkedIn](https://www.linkedin.com/in/sahuguet/)
