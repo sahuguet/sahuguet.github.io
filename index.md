@@ -8,4 +8,4 @@ title: ""
 My passion is to invent, architect and build products that leverage technology to solve meaningful problems and have a large social impact. I aim at empowering people and organizations to be more productive and collaborative through innovation.
 
 
-I am currently working for [Gro Intelligence](\gro-url) as their Chief Product Officer.
+I am currently working for [Gro Intelligence](https://gro-intelligence.com/) as their Chief Product Officer.
