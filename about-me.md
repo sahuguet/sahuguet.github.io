@@ -7,7 +7,7 @@ layout: single
 
 My passion is to invent, architect and build products that leverage technology to solve mean- ingful problems and have a large social impact. I aim at empowering people and organizations to be more productive and collaborative through innovation.
 
-My areas of expertise include data – big, small, open, geographic – management and analysis, architecture of complex systems, product design and research & development.
+My areas of expertise include data – big, small, open, geographic, semantic – management and analysis, architecture of complex systems, product design and research & development.
 
 I am currently working for [Gro Intelligence](https://gro-intelligence.com/) as their Chief Product Officer.
 
