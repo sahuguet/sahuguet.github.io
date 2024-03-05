@@ -9,11 +9,12 @@ My passion is to invent, architect and build products that leverage technology t
 
 My areas of expertise include data – big, small, open, geographic, semantic – management and analysis, architecture of complex systems, product design and research & development.
 
-I am currently working for [Gro Intelligence](https://gro-intelligence.com/) as their SVP of Product (Platform).
+Until recently, I was working for [Gro Intelligence](https://gro-intelligence.com/) as their SVP of Product (Platform).
 
 You can find more info about me at:
 * [LinkedIn](https://www.linkedin.com/in/sahuguet/)
 * [Twitter](https://twitter.com/sahuguet)
 * [Medium](https://medium.com/@sahuguet)
 * [Github](https://github.com/sahuguet)
+* [Hashnode](https://sahuguet.hashnode.dev/)
 * [most recent CV](sahuguet-cv.pdf)
