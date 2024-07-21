@@ -11,8 +11,8 @@ Here is a list of "stuff" I have built over the years.
 ## ZXing (open source 1D/2D barcode image processing for Android)
 When I stated at Google coming from Bell Labs, I was very curious and excited about the QR-code technology.
 I played a few existing solutions ...
-I convinced some Google software engineers to work on generic library as a 20% project.
-Inspired the development of [Google Lens](https://lens.google.com/).
+I convinced some Google software engineers to work on a [generic library](https://github.com/zxing/zxing) as a 20% project.
+This inspired the development of [Google Lens](https://lens.google.com/).
 
 ## GOOG-411 (Google, 2007)
 GOOG-411 (or Google Voice Local Search) was a telephone service launched by Google in 2007, that provided a speech-recognition-based business directory search, and placed a call to the resulting number in the United States or Canada.[1] The service was accessible via a toll-free telephone number.
