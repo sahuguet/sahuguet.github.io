@@ -37,6 +37,15 @@ Source: https://x.com/karpathy/status/1733299213503787018?lang=en
 
 Source: https://arxiv.org/pdf/2407.08790
 
+> Electric motors are a general-purpose technology, but you don’t buy a box of electric motors from Home Depot - you buy a drill, a washing machine and a blender. A general-purpose technology is instantiated as use-cases.
+
+Source: https://www.ben-evans.com/benedictevans/2024/6/8/building-ai-products
+
+> "\[…\] the problem with Alchemy of yore was not that Chemistry is useless, but that people wanted to delude themselves that Chemistry – a pretty amazing discipline on its own merits –
+can be Nuclear Physics if you prompt it just so."
+
+Source: https://arxiv.org/pdf/2402.01817
+
 ## People I follow (alphabetic order)
 * [Hamel Husain](https://hamel.dev/)
 * [Andrej Karpathy](https://karpathy.ai/)
