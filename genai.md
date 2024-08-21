@@ -26,6 +26,8 @@ Some curated GenAI resources.
 * [liteLLM](https://www.litellm.ai/)
 
 ## Prompt Engineering
+WARNING: shelf-life is short as new models get better every day.
+* [Prompt Engineering Guide](https://www.promptingguide.ai/) 
 * [Impressive collection of prompt patterns](https://github.com/danielmiessler/fabric/tree/main/patterns) (from [Fabric project](https://github.com/danielmiessler/fabric/tree/main))
 * [Non-Obvious Prompt Engineering Guide](https://www.techsistence.com/p/non-obvious-prompt-engineering-guide) (Tech-sistence, July 2024)
 
