@@ -36,3 +36,6 @@ Source: https://arxiv.org/pdf/2407.08790
 * [Simon Willison](https://simonwillison.net/tags/generative-ai/)
 
 ## My modest contributions to the conversation
+* [A wishlist for Generative AI technology](https://www.linkedin.com/pulse/wishlist-generative-ai-technology-arnaud-sahuguet/) (May 2023)
+* [WANTED: Chief AI Officer](https://www.linkedin.com/pulse/wanted-chief-ai-officer-arnaud-sahuguet-t3ume/) (March 2024)
+* [LLM-as-intern: revisiting the analogy](https://www.linkedin.com/pulse/llm-as-intern-revisiting-theanalogy-arnaud-sahuguet-c1uqe/) (June 2024)
