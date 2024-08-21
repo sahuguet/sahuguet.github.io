@@ -31,7 +31,7 @@ WARNING: shelf-life is short as new models get better every day.
 * [Impressive collection of prompt patterns](https://github.com/danielmiessler/fabric/tree/main/patterns) (from [Fabric project](https://github.com/danielmiessler/fabric/tree/main))
 * [Non-Obvious Prompt Engineering Guide](https://www.techsistence.com/p/non-obvious-prompt-engineering-guide) (Tech-sistence, July 2024)
 
-## Favorite quotes
+## Relevant quotes
 > "They \[LLMs\] are dream machines. We direct their dreams with prompts."
 
 Source: https://x.com/karpathy/status/1733299213503787018?lang=en
