@@ -12,15 +12,22 @@ Some curated GenAI resources.
 ## Articles I enjoyed
 * [The fine art of human prompt engineering: How to talk to a person like ChatGPT](https://arstechnica.com/information-technology/2024/04/the-fine-art-of-human-prompt-engineering-how-to-talk-to-a-person-like-chatgpt/) (Ars Technica, April 2024)
 * What We Learned from a Year of Building with LLMs [part I](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/) [part II](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-ii/) [part III](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-iii-strategy/) (O'Reilly Media, May 2024)
-* [Tokens are a big reason today’s generative AI falls short](https://techcrunch.com/2024/07/06/tokens-are-a-big-reason-todays-generative-ai-falls-short/) (Tech Crunch, July 2024)
+* [Tokens are a big reason today’s generative AI falls short](https://techcrunch.com/2024/07/06/tokens-are-a-big-reason-todays-generative-ai-falls-short/) (Techcrunch, July 2024)
 * [How I use AI](https://nicholas.carlini.com/writing/2024/how-i-use-ai.html) by Nicholas Carlini, research scientist at Google DeepMind (August 2024)
 
 ## Research papers I enjoyed
-* [Evaluating the World Model Implicit in a Generative Model](https://arxiv.org/abs/2406.03689) (June 2024)
+* [Alpha Geometry](https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/) (DeepMind, January 2024)
 * [Financial Statement Analysis with Large Language Models](https://bfi.uchicago.edu/wp-content/uploads/2024/05/BFI_WP_2024-65.pdf) (May 2024)
+* [Evaluating the World Model Implicit in a Generative Model](https://arxiv.org/abs/2406.03689) (June 2024)
 
-## Tools I use
+## Tools
 * [python llm](https://llm.datasette.io/en/stable/)
+* [outlines](https://github.com/outlines-dev/outlines)
+* [liteLLM](https://www.litellm.ai/)
+
+## Prompt Engineering
+* [Impressive collection of prompt patterns](https://github.com/danielmiessler/fabric/tree/main/patterns) (from [Fabric project](https://github.com/danielmiessler/fabric/tree/main))
+* [Non-Obvious Prompt Engineering Guide](https://www.techsistence.com/p/non-obvious-prompt-engineering-guide) (Tech-sistence, July 2024)
 
 ## Favorite quotes
 > "They \[LLMs\] are dream machines. We direct their dreams with prompts."
