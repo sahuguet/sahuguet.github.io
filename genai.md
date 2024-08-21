@@ -55,3 +55,4 @@ Source: https://arxiv.org/pdf/2402.01817
 * [A wishlist for Generative AI technology](https://www.linkedin.com/pulse/wishlist-generative-ai-technology-arnaud-sahuguet/) (May 2023)
 * [WANTED: Chief AI Officer](https://www.linkedin.com/pulse/wanted-chief-ai-officer-arnaud-sahuguet-t3ume/) (March 2024)
 * [LLM-as-intern: revisiting the analogy](https://www.linkedin.com/pulse/llm-as-intern-revisiting-theanalogy-arnaud-sahuguet-c1uqe/) (June 2024)
+* [Prompt like a hipster](https://www.linkedin.com/posts/sahuguet_hipsters-ordering-brunch-as-the-finest-form-activity-7211723102014029824-cbeO/) (July 2024)
