@@ -5,9 +5,15 @@ layout: single
 
 Some curated GenAI resources.
 
-## Very best
-* [How does ChatGPT work? Explained by Deep-Fake Ryan Gosling](https://www.youtube.com/watch?v=xU_MFS_ACrU) (YouTube, April 2024) -- [they have more](https://www.youtube.com/@howtofly-with-AI/videos)
-* [Mastering LLMs](https://parlance-labs.com/education/) by Parlance Labs (2024)
+## My Top 5
+As of 2024-08-25
+* [How does ChatGPT work? Explained by Deep-Fake Ryan Gosling](https://www.youtube.com/watch?v=xU_MFS_ACrU) (YouTube, April 2024)
+* [Mastering LLMs](https://parlance-labs.com/education/) (Parlance Labs, 2024)
+* What We Learned from a Year of Building with LLMs [part I](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/) [part II](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-ii/) [part III](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-iii-strategy/) (O'Reilly Media, May 2024)
+* [Evaluating the World Model Implicit in a Generative Model](https://arxiv.org/abs/2406.03689) (June 2024)
+* [python llm](https://llm.datasette.io/en/stable/)
+
+
 
 ## Articles I enjoyed
 * [The fine art of human prompt engineering: How to talk to a person like ChatGPT](https://arstechnica.com/information-technology/2024/04/the-fine-art-of-human-prompt-engineering-how-to-talk-to-a-person-like-chatgpt/) (Ars Technica, April 2024)
@@ -21,7 +27,11 @@ Some curated GenAI resources.
 * [Evaluating the World Model Implicit in a Generative Model](https://arxiv.org/abs/2406.03689) (June 2024)
 
 ## Tools
+Tools I am using
 * [python llm](https://llm.datasette.io/en/stable/)
+* [NotebookML](https://notebooklm.google/) by Google
+  
+Tools I am playing with
 * [outlines](https://github.com/outlines-dev/outlines)
 * [liteLLM](https://www.litellm.ai/)
 
@@ -30,6 +40,11 @@ WARNING: shelf-life is short as new models get better every day.
 * [Prompt Engineering Guide](https://www.promptingguide.ai/) 
 * [Impressive collection of prompt patterns](https://github.com/danielmiessler/fabric/tree/main/patterns) (from [Fabric project](https://github.com/danielmiessler/fabric/tree/main))
 * [Non-Obvious Prompt Engineering Guide](https://www.techsistence.com/p/non-obvious-prompt-engineering-guide) (Tech-sistence, July 2024)
+
+## Performance evaluation
+WARNING: this is a hard problem; most approaches are too generic and do not answer the question "which is model is best for **you**".
+* [Holistic Evaluation of Language Models (HELM)](https://crfm.stanford.edu/helm/)
+* [LMSYS Chatbot Arena](https://lmarena.ai/)
 
 ## Relevant quotes
 > "They \[LLMs\] are dream machines. We direct their dreams with prompts."
@@ -58,3 +73,4 @@ Source: https://arxiv.org/pdf/2402.01817
 * [WANTED: Chief AI Officer](https://www.linkedin.com/pulse/wanted-chief-ai-officer-arnaud-sahuguet-t3ume/) (March 2024)
 * [LLM-as-intern: revisiting the analogy](https://www.linkedin.com/pulse/llm-as-intern-revisiting-theanalogy-arnaud-sahuguet-c1uqe/) (June 2024)
 * [Prompt like a hipster](https://www.linkedin.com/posts/sahuguet_hipsters-ordering-brunch-as-the-finest-form-activity-7211723102014029824-cbeO/) (July 2024)
+* [Some github experiments about LLM performance](https://github.com/sahuguet/llm-eval) (work in progress)
