@@ -1,6 +1,7 @@
 ---
 title: "GenAI resources"
 layout: single
+toc: true
 ---
 
 Some curated GenAI resources.
