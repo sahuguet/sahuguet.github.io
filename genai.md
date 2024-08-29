@@ -31,6 +31,7 @@ As of 2024-08-25
 Tools I am using
 * [python llm](https://llm.datasette.io/en/stable/)
 * [NotebookML](https://notebooklm.google/) by Google
+* [Cursor](https://www.cursor.com/)
   
 Tools to look at
 * [outlines](https://github.com/outlines-dev/outlines)
