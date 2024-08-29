@@ -32,10 +32,11 @@ Tools I am using
 * [python llm](https://llm.datasette.io/en/stable/)
 * [NotebookML](https://notebooklm.google/) by Google
   
-Tools I am playing with / looking at
+Tools to look at
 * [outlines](https://github.com/outlines-dev/outlines)
 * [liteLLM](https://www.litellm.ai/)
 * [LibreChat](https://www.librechat.ai/)
+* [repo2vec](https://github.com/Storia-AI/repo2vec)
 
 ## Prompt Engineering
 WARNING: shelf-life is short as new models get better every day.
