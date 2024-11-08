@@ -32,12 +32,15 @@ Tools I am using
 * [python llm](https://llm.datasette.io/en/stable/)
 * [NotebookML](https://notebooklm.google/) by Google
 * [Cursor](https://www.cursor.com/)
+* [GenAIScript](https://microsoft.github.io/genaiscript/)
   
 Tools to look at
 * [outlines](https://github.com/outlines-dev/outlines)
 * [liteLLM](https://www.litellm.ai/)
 * [LibreChat](https://www.librechat.ai/)
 * [repo2vec](https://github.com/Storia-AI/repo2vec)
+* [Yet Another Applied LLM Benchmark
+](https://github.com/carlini/yet-another-applied-llm-benchmark)
 
 ## Prompt Engineering
 WARNING: shelf-life is short as new models get better every day.
@@ -71,6 +74,7 @@ Source: https://arxiv.org/pdf/2402.01817
 * [Hamel Husain](https://hamel.dev/)
 * [Andrej Karpathy](https://karpathy.ai/)
 * [Simon Willison](https://simonwillison.net/tags/generative-ai/)
+* [Nicholas Carlini](https://nicholas.carlini.com/)
 
 ## My modest contributions to the conversation
 * [A wishlist for Generative AI technology](https://www.linkedin.com/pulse/wishlist-generative-ai-technology-arnaud-sahuguet/) (May 2023)
