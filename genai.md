@@ -26,6 +26,7 @@ As of 2024-08-25
 * [Alpha Geometry](https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/) (DeepMind, January 2024)
 * [Financial Statement Analysis with Large Language Models](https://bfi.uchicago.edu/wp-content/uploads/2024/05/BFI_WP_2024-65.pdf) (May 2024)
 * [Evaluating the World Model Implicit in a Generative Model](https://arxiv.org/abs/2406.03689) (June 2024)
+* [Artificial Intelligence, Scientific Discovery, and Product Innovation](https://aidantr.github.io/files/AI_innovation.pdf) (November 2024)
 
 ## Tools
 Tools I am using
@@ -39,8 +40,8 @@ Tools to look at
 * [liteLLM](https://www.litellm.ai/)
 * [LibreChat](https://www.librechat.ai/)
 * [repo2vec](https://github.com/Storia-AI/repo2vec)
-* [Yet Another Applied LLM Benchmark
-](https://github.com/carlini/yet-another-applied-llm-benchmark)
+* [Yet Another Applied LLM Benchmark](https://github.com/carlini/yet-another-applied-llm-benchmark)
+* [Tiny Troupe](https://github.com/microsoft/TinyTroupe/tree/main)
 
 ## Prompt Engineering
 WARNING: shelf-life is short as new models get better every day.
