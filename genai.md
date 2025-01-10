@@ -7,12 +7,13 @@ toc: true
 Some curated GenAI resources.
 
 ## My Top 5
-As of 2024-08-25
+As of 2025-01-10
 * [How does ChatGPT work? Explained by Deep-Fake Ryan Gosling](https://www.youtube.com/watch?v=xU_MFS_ACrU) (YouTube, April 2024)
 * [Mastering LLMs](https://parlance-labs.com/education/) (Parlance Labs, 2024)
 * What We Learned from a Year of Building with LLMs [part I](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/) [part II](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-ii/) [part III](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-iii-strategy/) (O'Reilly Media, May 2024)
 * [Evaluating the World Model Implicit in a Generative Model](https://arxiv.org/abs/2406.03689) (June 2024)
 * [python llm](https://llm.datasette.io/en/stable/)
+* [Msty app](https://msty.app/), the easiest way to use local and online AI models
 
 
 
@@ -32,8 +33,10 @@ As of 2024-08-25
 Tools I am using
 * [python llm](https://llm.datasette.io/en/stable/)
 * [NotebookML](https://notebooklm.google/) by Google
-* [Cursor](https://www.cursor.com/)
+* ~~[Cursor](https://www.cursor.com/)~~
+* ~~[Continue](https://www.continue.dev/)~~
 * [GenAIScript](https://microsoft.github.io/genaiscript/)
+* [Msty app](https://msty.app/)
   
 Tools to look at
 * [outlines](https://github.com/outlines-dev/outlines)
