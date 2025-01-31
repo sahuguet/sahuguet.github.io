@@ -182,7 +182,7 @@ const spreadsheet1 = jspreadsheet(document.getElementById('spreadsheet1'), {
 jspreadsheet.calculations(true);
 
 function runQuery() {
-    const table = 'http://sahuguet.github.io/demo/10y-model.parquet'
+    const table = 'https://sahuguet.github.io/demo/10y-model.parquet'; // Either all http or all https.
     const query = `SELECT trial, metric, json_group_array(value) AS "10y" from (SELECT * FROM '${table}' WHERE trial=${trial_value} ORDER BY year ASC) GROUP BY trial, metric;`;
     console.log("query: " + query);
     db.query(query).then((data) => {
