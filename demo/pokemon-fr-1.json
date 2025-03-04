@@ -1,0 +1,1202 @@
+[
+  {
+    "emoji": "🍎",
+    "word": "une pomme",
+    "img": "https://img.pokemondb.net/artwork/large/bulbasaur.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Bulbasaur</lang> trouve une pomme dans le jardin.",
+      "Je donne une pomme à <lang xml:lang='en-US'>Bulbasaur</lang>.",
+      "<lang xml:lang='en-US'>Bulbasaur</lang> sent la bonne odeur d’une pomme.",
+      "<lang xml:lang='en-US'>Bulbasaur</lang> mange une pomme toute rouge.",
+      "Nous partageons une pomme avec <lang xml:lang='en-US'>Bulbasaur</lang>."
+    ]
+  },
+  {
+    "emoji": "🍌",
+    "word": "une banane",
+    "img": "https://img.pokemondb.net/artwork/large/ivysaur.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Ivysaur</lang> regarde une banane jaune.",
+      "Je pèle une banane pour <lang xml:lang='en-US'>Ivysaur</lang>.",
+      "<lang xml:lang='en-US'>Ivysaur</lang> veut goûter une banane sucrée.",
+      "Nous partageons une banane avec <lang xml:lang='en-US'>Ivysaur</lang>.",
+      "<lang xml:lang='en-US'>Ivysaur</lang> se cache derrière une banane géante."
+    ]
+  },
+  {
+    "emoji": "🍇",
+    "word": "du raisin",
+    "img": "https://img.pokemondb.net/artwork/large/venusaur.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Venusaur</lang> goûte du raisin violet.",
+      "Je donne du raisin à <lang xml:lang='en-US'>Venusaur</lang>.",
+      "<lang xml:lang='en-US'>Venusaur</lang> trouve du raisin dans un panier.",
+      "Nous lavons du raisin pour <lang xml:lang='en-US'>Venusaur</lang>.",
+      "<lang xml:lang='en-US'>Venusaur</lang> aime le jus de raisin."
+    ]
+  },
+  {
+    "emoji": "🍉",
+    "word": "une pastèque",
+    "img": "https://img.pokemondb.net/artwork/large/charmander.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Charmander</lang> voit une pastèque bien ronde.",
+      "Je coupe une pastèque pour <lang xml:lang='en-US'>Charmander</lang>.",
+      "<lang xml:lang='en-US'>Charmander</lang> adore le goût de la pastèque.",
+      "Nous partageons une pastèque avec <lang xml:lang='en-US'>Charmander</lang>.",
+      "<lang xml:lang='en-US'>Charmander</lang> protège sa part de pastèque."
+    ]
+  },
+  {
+    "emoji": "🍓",
+    "word": "une fraise",
+    "img": "https://img.pokemondb.net/artwork/large/charmeleon.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Charmeleon</lang> trouve une fraise dans le jardin.",
+      "Je lave une fraise pour <lang xml:lang='en-US'>Charmeleon</lang>.",
+      "<lang xml:lang='en-US'>Charmeleon</lang> goûte une fraise sucrée.",
+      "Nous décorons une tarte avec une fraise et <lang xml:lang='en-US'>Charmeleon</lang> aide.",
+      "<lang xml:lang='en-US'>Charmeleon</lang> montre une fraise à ses amis."
+    ]
+  },
+  {
+    "emoji": "🍒",
+    "word": "une cerise",
+    "img": "https://img.pokemondb.net/artwork/large/charizard.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Charizard</lang> regarde une cerise toute rouge.",
+      "Je donne une cerise à <lang xml:lang='en-US'>Charizard</lang>.",
+      "<lang xml:lang='en-US'>Charizard</lang> aime le jus de cerise.",
+      "Nous faisons un gâteau avec une cerise pour <lang xml:lang='en-US'>Charizard</lang>.",
+      "<lang xml:lang='en-US'>Charizard</lang> garde une cerise dans sa main."
+    ]
+  },
+  {
+    "emoji": "🥕",
+    "word": "une carotte",
+    "img": "https://img.pokemondb.net/artwork/large/squirtle.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Squirtle</lang> croque une carotte orange.",
+      "Je coupe une carotte pour <lang xml:lang='en-US'>Squirtle</lang>.",
+      "<lang xml:lang='en-US'>Squirtle</lang> joue avec une carotte rigolote.",
+      "Nous préparons une soupe avec une carotte pour <lang xml:lang='en-US'>Squirtle</lang>.",
+      "<lang xml:lang='en-US'>Squirtle</lang> plante une carotte dans le jardin."
+    ]
+  },
+  {
+    "emoji": "🍅",
+    "word": "une tomate",
+    "img": "https://img.pokemondb.net/artwork/large/wartortle.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Wartortle</lang> voit une tomate mûre.",
+      "Je coupe une tomate pour <lang xml:lang='en-US'>Wartortle</lang>.",
+      "<lang xml:lang='en-US'>Wartortle</lang> ajoute une tomate à sa salade.",
+      "Nous offrons une tomate à <lang xml:lang='en-US'>Wartortle</lang>.",
+      "<lang xml:lang='en-US'>Wartortle</lang> trouve une tomate au marché."
+    ]
+  },
+  {
+    "emoji": "🥔",
+    "word": "une pomme de terre",
+    "img": "https://img.pokemondb.net/artwork/large/blastoise.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Blastoise</lang> cuisine une pomme de terre.",
+      "Je lave une pomme de terre pour <lang xml:lang='en-US'>Blastoise</lang>.",
+      "<lang xml:lang='en-US'>Blastoise</lang> épluche une pomme de terre doucement.",
+      "Nous faisons une purée de pomme de terre avec <lang xml:lang='en-US'>Blastoise</lang>.",
+      "<lang xml:lang='en-US'>Blastoise</lang> range une pomme de terre dans la cuisine."
+    ]
+  },
+  {
+    "emoji": "🥐",
+    "word": "un croissant",
+    "img": "https://img.pokemondb.net/artwork/large/caterpie.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Caterpie</lang> veut goûter un croissant frais.",
+      "Je partage un croissant avec <lang xml:lang='en-US'>Caterpie</lang>.",
+      "<lang xml:lang='en-US'>Caterpie</lang> sent la bonne odeur du croissant.",
+      "Nous mangeons un croissant le matin avec <lang xml:lang='en-US'>Caterpie</lang>.",
+      "<lang xml:lang='en-US'>Caterpie</lang> garde un petit morceau de croissant pour plus tard."
+    ]
+  },
+  {
+    "emoji": "🍟",
+    "word": "des frites",
+    "img": "https://img.pokemondb.net/artwork/large/metapod.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Metapod</lang> observe des frites dorées.",
+      "Je prépare des frites pour <lang xml:lang='en-US'>Metapod</lang>.",
+      "<lang xml:lang='en-US'>Metapod</lang> voit des frites sortir du four.",
+      "Nous partageons des frites avec <lang xml:lang='en-US'>Metapod</lang>.",
+      "<lang xml:lang='en-US'>Metapod</lang> reste immobile même avec des frites à côté."
+    ]
+  },
+  {
+    "emoji": "🍔",
+    "word": "un hamburger",
+    "img": "https://img.pokemondb.net/artwork/large/butterfree.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Butterfree</lang> vole autour d’un hamburger.",
+      "Je donne un hamburger à <lang xml:lang='en-US'>Butterfree</lang>.",
+      "<lang xml:lang='en-US'>Butterfree</lang> sent le pain moelleux du hamburger.",
+      "Nous décorons un hamburger pour <lang xml:lang='en-US'>Butterfree</lang>.",
+      "<lang xml:lang='en-US'>Butterfree</lang> est content de voir un hamburger."
+    ]
+  },
+  {
+    "emoji": "🍕",
+    "word": "une pizza",
+    "img": "https://img.pokemondb.net/artwork/large/weedle.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Weedle</lang> renifle une pizza.",
+      "Je coupe une part de pizza pour <lang xml:lang='en-US'>Weedle</lang>.",
+      "<lang xml:lang='en-US'>Weedle</lang> grimpe près de la pizza chaude.",
+      "Nous partageons une pizza avec <lang xml:lang='en-US'>Weedle</lang>.",
+      "<lang xml:lang='en-US'>Weedle</lang> regarde le fromage qui fond sur la pizza."
+    ]
+  },
+  {
+    "emoji": "🍿",
+    "word": "du popcorn",
+    "img": "https://img.pokemondb.net/artwork/large/kakuna.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Kakuna</lang> reste immobile devant du popcorn.",
+      "Je propose du popcorn à <lang xml:lang='en-US'>Kakuna</lang>.",
+      "<lang xml:lang='en-US'>Kakuna</lang> écoute le popcorn qui saute.",
+      "Nous mangeons du popcorn avec <lang xml:lang='en-US'>Kakuna</lang>.",
+      "<lang xml:lang='en-US'>Kakuna</lang> observe les grains devenir du popcorn."
+    ]
+  },
+  {
+    "emoji": "🍩",
+    "word": "un donut",
+    "img": "https://img.pokemondb.net/artwork/large/beedrill.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Beedrill</lang> vole au-dessus d’un donut sucré.",
+      "Je montre un donut à <lang xml:lang='en-US'>Beedrill</lang>.",
+      "<lang xml:lang='en-US'>Beedrill</lang> pique autour du donut rose.",
+      "Nous partageons un donut avec <lang xml:lang='en-US'>Beedrill</lang>.",
+      "<lang xml:lang='en-US'>Beedrill</lang> admire le sucre sur le donut."
+    ]
+  },
+  {
+    "emoji": "🍪",
+    "word": "un biscuit",
+    "img": "https://img.pokemondb.net/artwork/large/pidgey.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Pidgey</lang> cherche un biscuit croquant.",
+      "Je donne un biscuit à <lang xml:lang='en-US'>Pidgey</lang>.",
+      "<lang xml:lang='en-US'>Pidgey</lang> picore un biscuit sur la table.",
+      "Nous cachons un biscuit pour <lang xml:lang='en-US'>Pidgey</lang>.",
+      "<lang xml:lang='en-US'>Pidgey</lang> gazouille en mangeant un biscuit."
+    ]
+  },
+  {
+    "emoji": "🍰",
+    "word": "un gâteau",
+    "img": "https://img.pokemondb.net/artwork/large/pidgeotto.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Pidgeotto</lang> vole autour d’un gâteau.",
+      "Je décore un gâteau pour <lang xml:lang='en-US'>Pidgeotto</lang>.",
+      "<lang xml:lang='en-US'>Pidgeotto</lang> aime la crème sur le gâteau.",
+      "Nous partageons un gâteau avec <lang xml:lang='en-US'>Pidgeotto</lang>.",
+      "<lang xml:lang='en-US'>Pidgeotto</lang> chante en voyant ce gâteau."
+    ]
+  },
+  {
+    "emoji": "🍭",
+    "word": "une sucette",
+    "img": "https://img.pokemondb.net/artwork/large/pidgeot.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Pidgeot</lang> voit une sucette colorée.",
+      "Je tiens une sucette pour <lang xml:lang='en-US'>Pidgeot</lang>.",
+      "<lang xml:lang='en-US'>Pidgeot</lang> est curieux de cette sucette sucrée.",
+      "Nous donnons une sucette à <lang xml:lang='en-US'>Pidgeot</lang>.",
+      "<lang xml:lang='en-US'>Pidgeot</lang> surveille sa sucette avec attention."
+    ]
+  },
+  {
+    "emoji": "🍬",
+    "word": "un bonbon",
+    "img": "https://img.pokemondb.net/artwork/large/rattata.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Rattata</lang> renifle un bonbon doux.",
+      "Je donne un bonbon à <lang xml:lang='en-US'>Rattata</lang>.",
+      "<lang xml:lang='en-US'>Rattata</lang> cache un bonbon dans sa tanière.",
+      "Nous goûtons un bonbon avec <lang xml:lang='en-US'>Rattata</lang>.",
+      "<lang xml:lang='en-US'>Rattata</lang> grignote un bonbon en souriant."
+    ]
+  },
+  {
+    "emoji": "🍫",
+    "word": "un chocolat",
+    "img": "https://img.pokemondb.net/artwork/large/raticate.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Raticate</lang> veut manger un chocolat.",
+      "Je propose un chocolat à <lang xml:lang='en-US'>Raticate</lang>.",
+      "<lang xml:lang='en-US'>Raticate</lang> tient un chocolat entre ses pattes.",
+      "Nous partageons un chocolat avec <lang xml:lang='en-US'>Raticate</lang>.",
+      "<lang xml:lang='en-US'>Raticate</lang> est content de croquer un chocolat."
+    ]
+  },
+  {
+    "emoji": "🌮",
+    "word": "un taco",
+    "img": "https://img.pokemondb.net/artwork/large/spearow.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Spearow</lang> vole près d’un taco savoureux.",
+      "Je tiens un taco pour <lang xml:lang='en-US'>Spearow</lang>.",
+      "<lang xml:lang='en-US'>Spearow</lang> picore la garniture du taco.",
+      "Nous offrons un taco à <lang xml:lang='en-US'>Spearow</lang>.",
+      "<lang xml:lang='en-US'>Spearow</lang> surveille son taco avec fierté."
+    ]
+  },
+  {
+    "emoji": "🌯",
+    "word": "un burrito",
+    "img": "https://img.pokemondb.net/artwork/large/fearow.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Fearow</lang> aperçoit un burrito sur la table.",
+      "Je partage un burrito avec <lang xml:lang='en-US'>Fearow</lang>.",
+      "<lang xml:lang='en-US'>Fearow</lang> picore les légumes du burrito.",
+      "Nous admirons le burrito avec <lang xml:lang='en-US'>Fearow</lang>.",
+      "<lang xml:lang='en-US'>Fearow</lang> se régale d’un burrito bien roulé."
+    ]
+  },
+  {
+    "emoji": "🥮",
+    "word": "un mooncake",
+    "img": "https://img.pokemondb.net/artwork/large/ekans.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Ekans</lang> rampe autour d’un mooncake.",
+      "Je montre un mooncake à <lang xml:lang='en-US'>Ekans</lang>.",
+      "<lang xml:lang='en-US'>Ekans</lang> s’approche du mooncake doucement.",
+      "Nous goûtons un mooncake avec <lang xml:lang='en-US'>Ekans</lang>.",
+      "<lang xml:lang='en-US'>Ekans</lang> glisse sous la table pour garder son mooncake."
+    ]
+  },
+  {
+    "emoji": "🍝",
+    "word": "des pâtes",
+    "img": "https://img.pokemondb.net/artwork/large/arbok.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Arbok</lang> se faufile près des pâtes.",
+      "Je sers des pâtes à <lang xml:lang='en-US'>Arbok</lang>.",
+      "<lang xml:lang='en-US'>Arbok</lang> regarde la sauce sur les pâtes.",
+      "Nous mélangeons des pâtes avec <lang xml:lang='en-US'>Arbok</lang>.",
+      "<lang xml:lang='en-US'>Arbok</lang> aime le parfum des pâtes cuites."
+    ]
+  },
+  {
+    "emoji": "🍜",
+    "word": "des nouilles",
+    "img": "https://img.pokemondb.net/artwork/large/pikachu.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Pikachu</lang> saute en voyant des nouilles.",
+      "Je donne des nouilles à <lang xml:lang='en-US'>Pikachu</lang>.",
+      "<lang xml:lang='en-US'>Pikachu</lang> aspire les nouilles en riant.",
+      "Nous partageons des nouilles avec <lang xml:lang='en-US'>Pikachu</lang>.",
+      "<lang xml:lang='en-US'>Pikachu</lang> est content de manger des nouilles."
+    ]
+  },
+  {
+    "emoji": "🍣",
+    "word": "un sushi",
+    "img": "https://img.pokemondb.net/artwork/large/raichu.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Raichu</lang> trouve un sushi sur la table.",
+      "Je montre un sushi à <lang xml:lang='en-US'>Raichu</lang>.",
+      "<lang xml:lang='en-US'>Raichu</lang> est curieux de goûter un sushi.",
+      "Nous partageons un sushi avec <lang xml:lang='en-US'>Raichu</lang>.",
+      "<lang xml:lang='en-US'>Raichu</lang> aime le riz du sushi."
+    ]
+  },
+  {
+    "emoji": "🍙",
+    "word": "une boulette de riz",
+    "img": "https://img.pokemondb.net/artwork/large/sandshrew.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Sandshrew</lang> tient une boulette de riz dans ses pattes.",
+      "Je fabrique une boulette de riz pour <lang xml:lang='en-US'>Sandshrew</lang>.",
+      "<lang xml:lang='en-US'>Sandshrew</lang> renifle la boulette de riz.",
+      "Nous partageons une boulette de riz avec <lang xml:lang='en-US'>Sandshrew</lang>.",
+      "<lang xml:lang='en-US'>Sandshrew</lang> est fier de sa boulette de riz."
+    ]
+  },
+  {
+    "emoji": "🍘",
+    "word": "un senbei",
+    "img": "https://img.pokemondb.net/artwork/large/sandslash.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Sandslash</lang> touche un senbei croustillant.",
+      "Je donne un senbei à <lang xml:lang='en-US'>Sandslash</lang>.",
+      "<lang xml:lang='en-US'>Sandslash</lang> fait craquer le senbei avec bonheur.",
+      "Nous offrons un senbei à <lang xml:lang='en-US'>Sandslash</lang>.",
+      "<lang xml:lang='en-US'>Sandslash</lang> garde un bout de senbei pour plus tard."
+    ]
+  },
+  {
+    "emoji": "🍚",
+    "word": "du riz",
+    "img": "https://img.pokemondb.net/artwork/large/nidoran-f.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Nidoran♀</lang> sent l’odeur du riz chaud.",
+      "Je prépare du riz pour <lang xml:lang='en-US'>Nidoran♀</lang>.",
+      "<lang xml:lang='en-US'>Nidoran♀</lang> goûte du riz avec plaisir.",
+      "Nous mangeons du riz avec <lang xml:lang='en-US'>Nidoran♀</lang>.",
+      "<lang xml:lang='en-US'>Nidoran♀</lang> regarde le riz dans le bol."
+    ]
+  },
+  {
+    "emoji": "🥓",
+    "word": "du bacon",
+    "img": "https://img.pokemondb.net/artwork/large/nidorina.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Nidorina</lang> écoute le bacon grésiller.",
+      "Je pose du bacon devant <lang xml:lang='en-US'>Nidorina</lang>.",
+      "<lang xml:lang='en-US'>Nidorina</lang> aime l’odeur du bacon.",
+      "Nous cuisinons du bacon pour <lang xml:lang='en-US'>Nidorina</lang>.",
+      "<lang xml:lang='en-US'>Nidorina</lang> ne veut pas partager son bacon."
+    ]
+  },
+  {
+    "emoji": "🍗",
+    "word": "un poulet",
+    "img": "https://img.pokemondb.net/artwork/large/nidoqueen.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Nidoqueen</lang> voit un poulet délicieux.",
+      "Je sers un poulet à <lang xml:lang='en-US'>Nidoqueen</lang>.",
+      "<lang xml:lang='en-US'>Nidoqueen</lang> protège son morceau de poulet.",
+      "Nous cuisinons un poulet pour <lang xml:lang='en-US'>Nidoqueen</lang>.",
+      "<lang xml:lang='en-US'>Nidoqueen</lang> partage un poulet avec ses amis."
+    ]
+  },
+  {
+    "emoji": "🌭",
+    "word": "un hot-dog",
+    "img": "https://img.pokemondb.net/artwork/large/nidoran-m.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Nidoran♂</lang> renifle un hot-dog chaud.",
+      "Je tiens un hot-dog pour <lang xml:lang='en-US'>Nidoran♂</lang>.",
+      "<lang xml:lang='en-US'>Nidoran♂</lang> touche le pain du hot-dog.",
+      "Nous offrons un hot-dog à <lang xml:lang='en-US'>Nidoran♂</lang>.",
+      "<lang xml:lang='en-US'>Nidoran♂</lang> est heureux avec son hot-dog."
+    ]
+  },
+  {
+    "emoji": "🥯",
+    "word": "un bagel",
+    "img": "https://img.pokemondb.net/artwork/large/nidorino.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Nidorino</lang> voit un bagel moelleux.",
+      "Je coupe un bagel pour <lang xml:lang='en-US'>Nidorino</lang>.",
+      "<lang xml:lang='en-US'>Nidorino</lang> cherche la garniture du bagel.",
+      "Nous goûtons un bagel avec <lang xml:lang='en-US'>Nidorino</lang>.",
+      "<lang xml:lang='en-US'>Nidorino</lang> garde un morceau de bagel pour plus tard."
+    ]
+  },
+  {
+    "emoji": "🥨",
+    "word": "un bretzel",
+    "img": "https://img.pokemondb.net/artwork/large/nidoking.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Nidoking</lang> regarde un bretzel salé.",
+      "Je donne un bretzel à <lang xml:lang='en-US'>Nidoking</lang>.",
+      "<lang xml:lang='en-US'>Nidoking</lang> tient le bretzel dans ses grosses pattes.",
+      "Nous partageons un bretzel avec <lang xml:lang='en-US'>Nidoking</lang>.",
+      "<lang xml:lang='en-US'>Nidoking</lang> aime la forme tordue du bretzel."
+    ]
+  },
+  {
+    "emoji": "🧀",
+    "word": "du fromage",
+    "img": "https://img.pokemondb.net/artwork/large/clefairy.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Clefairy</lang> voit du fromage tout jaune.",
+      "Je coupe du fromage pour <lang xml:lang='en-US'>Clefairy</lang>.",
+      "<lang xml:lang='en-US'>Clefairy</lang> hume l’odeur du fromage.",
+      "Nous mettons du fromage sur des crackers pour <lang xml:lang='en-US'>Clefairy</lang>.",
+      "<lang xml:lang='en-US'>Clefairy</lang> danse autour du fromage."
+    ]
+  },
+  {
+    "emoji": "🍳",
+    "word": "un œuf au plat",
+    "img": "https://img.pokemondb.net/artwork/large/clefable.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Clefable</lang> admire un œuf au plat dans la poêle.",
+      "Je prépare un œuf au plat pour <lang xml:lang='en-US'>Clefable</lang>.",
+      "<lang xml:lang='en-US'>Clefable</lang> voit le jaune d’un œuf au plat.",
+      "Nous offrons un œuf au plat à <lang xml:lang='en-US'>Clefable</lang>.",
+      "<lang xml:lang='en-US'>Clefable</lang> savoure l’œuf au plat tout chaud."
+    ]
+  },
+  {
+    "emoji": "🌽",
+    "word": "un maïs",
+    "img": "https://img.pokemondb.net/artwork/large/vulpix.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Vulpix</lang> trouve un maïs dans le champ.",
+      "Je fais griller un maïs pour <lang xml:lang='en-US'>Vulpix</lang>.",
+      "<lang xml:lang='en-US'>Vulpix</lang> aime le goût sucré du maïs.",
+      "Nous partageons un maïs avec <lang xml:lang='en-US'>Vulpix</lang>.",
+      "<lang xml:lang='en-US'>Vulpix</lang> fait tomber quelques grains de maïs par terre."
+    ]
+  },
+  {
+    "emoji": "🥦",
+    "word": "un brocoli",
+    "img": "https://img.pokemondb.net/artwork/large/ninetales.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Ninetales</lang> regarde un brocoli vert.",
+      "Je cuis un brocoli pour <lang xml:lang='en-US'>Ninetales</lang>.",
+      "<lang xml:lang='en-US'>Ninetales</lang> sent la vapeur du brocoli.",
+      "Nous décorons l’assiette avec un brocoli pour <lang xml:lang='en-US'>Ninetales</lang>.",
+      "<lang xml:lang='en-US'>Ninetales</lang> garde un morceau de brocoli pour plus tard."
+    ]
+  },
+  {
+    "emoji": "🥒",
+    "word": "un concombre",
+    "img": "https://img.pokemondb.net/artwork/large/jigglypuff.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Jigglypuff</lang> voit un concombre frais.",
+      "Je coupe un concombre pour <lang xml:lang='en-US'>Jigglypuff</lang>.",
+      "<lang xml:lang='en-US'>Jigglypuff</lang> aime le croquant du concombre.",
+      "Nous faisons une salade avec un concombre pour <lang xml:lang='en-US'>Jigglypuff</lang>.",
+      "<lang xml:lang='en-US'>Jigglypuff</lang> tient un concombre comme un petit bâton."
+    ]
+  },
+  {
+    "emoji": "🥬",
+    "word": "une laitue",
+    "img": "https://img.pokemondb.net/artwork/large/wigglytuff.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Wigglytuff</lang> cueille une laitue du potager.",
+      "Je lave une laitue pour <lang xml:lang='en-US'>Wigglytuff</lang>.",
+      "<lang xml:lang='en-US'>Wigglytuff</lang> adore la fraîcheur de la laitue.",
+      "Nous croquons une laitue avec <lang xml:lang='en-US'>Wigglytuff</lang>.",
+      "<lang xml:lang='en-US'>Wigglytuff</lang> range une laitue dans un panier."
+    ]
+  },
+  {
+    "emoji": "🥑",
+    "word": "un avocat",
+    "img": "https://img.pokemondb.net/artwork/large/zubat.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Zubat</lang> découvre un avocat vert.",
+      "Je coupe un avocat pour <lang xml:lang='en-US'>Zubat</lang>.",
+      "<lang xml:lang='en-US'>Zubat</lang> sent l’avocat tout doux.",
+      "Nous goûtons un avocat avec <lang xml:lang='en-US'>Zubat</lang>.",
+      "<lang xml:lang='en-US'>Zubat</lang> est intrigué par le noyau de l’avocat."
+    ]
+  },
+  {
+    "emoji": "🍄",
+    "word": "un champignon",
+    "img": "https://img.pokemondb.net/artwork/large/golbat.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Golbat</lang> survole un champignon dans la forêt.",
+      "Je montre un champignon à <lang xml:lang='en-US'>Golbat</lang>.",
+      "<lang xml:lang='en-US'>Golbat</lang> sent la terre sur le champignon.",
+      "Nous ramassons un champignon pour <lang xml:lang='en-US'>Golbat</lang>.",
+      "<lang xml:lang='en-US'>Golbat</lang> observe le chapeau du champignon."
+    ]
+  },
+  {
+    "emoji": "🥭",
+    "word": "une mangue",
+    "img": "https://img.pokemondb.net/artwork/large/oddish.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Oddish</lang> voit une mangue jaune et orange.",
+      "Je coupe une mangue pour <lang xml:lang='en-US'>Oddish</lang>.",
+      "<lang xml:lang='en-US'>Oddish</lang> aime le parfum sucré de la mangue.",
+      "Nous partageons une mangue avec <lang xml:lang='en-US'>Oddish</lang>.",
+      "<lang xml:lang='en-US'>Oddish</lang> se cache derrière une mangue."
+    ]
+  },
+  {
+    "emoji": "🍍",
+    "word": "un ananas",
+    "img": "https://img.pokemondb.net/artwork/large/gloom.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Gloom</lang> trouve un ananas piquant.",
+      "Je coupe un ananas pour <lang xml:lang='en-US'>Gloom</lang>.",
+      "<lang xml:lang='en-US'>Gloom</lang> goûte un ananas juteux.",
+      "Nous mangeons un ananas avec <lang xml:lang='en-US'>Gloom</lang>.",
+      "<lang xml:lang='en-US'>Gloom</lang> adore le jus de l’ananas."
+    ]
+  },
+  {
+    "emoji": "🍋",
+    "word": "un citron",
+    "img": "https://img.pokemondb.net/artwork/large/vileplume.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Vileplume</lang> sent l’odeur d’un citron frais.",
+      "Je presse un citron pour <lang xml:lang='en-US'>Vileplume</lang>.",
+      "<lang xml:lang='en-US'>Vileplume</lang> goûte un peu de jus de citron.",
+      "Nous mettons un citron dans la limonade pour <lang xml:lang='en-US'>Vileplume</lang>.",
+      "<lang xml:lang='en-US'>Vileplume</lang> grimace en goûtant le citron acide."
+    ]
+  },
+  {
+    "emoji": "🍐",
+    "word": "une poire",
+    "img": "https://img.pokemondb.net/artwork/large/paras.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Paras</lang> découvre une poire verte.",
+      "Je propose une poire à <lang xml:lang='en-US'>Paras</lang>.",
+      "<lang xml:lang='en-US'>Paras</lang> grimpe sur la poire pour la sentir.",
+      "Nous partageons une poire avec <lang xml:lang='en-US'>Paras</lang>.",
+      "<lang xml:lang='en-US'>Paras</lang> garde une petite part de poire pour plus tard."
+    ]
+  },
+  {
+    "emoji": "🍈",
+    "word": "un melon",
+    "img": "https://img.pokemondb.net/artwork/large/parasect.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Parasect</lang> voit un melon rond.",
+      "Je coupe un melon pour <lang xml:lang='en-US'>Parasect</lang>.",
+      "<lang xml:lang='en-US'>Parasect</lang> sent la douceur du melon.",
+      "Nous mangeons un melon avec <lang xml:lang='en-US'>Parasect</lang>.",
+      "<lang xml:lang='en-US'>Parasect</lang> porte un morceau de melon sur sa tête."
+    ]
+  },
+  {
+    "emoji": "🍏",
+    "word": "une pomme verte",
+    "img": "https://img.pokemondb.net/artwork/large/venonat.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Venonat</lang> trouve une pomme verte dans l’herbe.",
+      "Je montre une pomme verte à <lang xml:lang='en-US'>Venonat</lang>.",
+      "<lang xml:lang='en-US'>Venonat</lang> est curieux de la pomme verte.",
+      "Nous goûtons une pomme verte avec <lang xml:lang='en-US'>Venonat</lang>.",
+      "<lang xml:lang='en-US'>Venonat</lang> préfère la pomme verte un peu acide."
+    ]
+  },
+  {
+    "emoji": "🍯",
+    "word": "du miel",
+    "img": "https://img.pokemondb.net/artwork/large/venomoth.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Venomoth</lang> plane autour du miel.",
+      "Je tiens du miel pour <lang xml:lang='en-US'>Venomoth</lang>.",
+      "<lang xml:lang='en-US'>Venomoth</lang> aime l’odeur sucrée du miel.",
+      "Nous versons du miel dans un pot pour <lang xml:lang='en-US'>Venomoth</lang>.",
+      "<lang xml:lang='en-US'>Venomoth</lang> s’approche doucement du miel doré."
+    ]
+  },
+  {
+    "emoji": "🍦",
+    "word": "une glace",
+    "img": "https://img.pokemondb.net/artwork/large/diglett.jpg",
+    "sentences": [
+      "<lang xml:lang='en-US'>Diglett</lang> voit une glace fondre au soleil.",
+      "Je donne une glace à <lang xml:lang='en-US'>Diglett</lang>.",
+      "<lang xml:lang='en-US'>Diglett</lang> se cache sous la glace pour se rafraîchir.",
+      "Nous léchons une glace avec <lang xml:lang='en-US'>Diglett</lang>.",
+      "<lang xml:lang='en-US'>Diglett</lang> est tout joyeux avec sa glace."
+    ]
+  },
+    {
+      "emoji": "🏠",
+      "word": "une maison",
+      "img": "https://img.pokemondb.net/artwork/large/dugtrio.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Dugtrio</lang> vit sous une maison solide.",
+        "Je dessine la porte de la maison pour <lang xml:lang='en-US'>Dugtrio</lang>.",
+        "<lang xml:lang='en-US'>Dugtrio</lang> se cache près de la maison.",
+        "Nous jouons au cache-cache autour de la maison avec <lang xml:lang='en-US'>Dugtrio</lang>.",
+        "<lang xml:lang='en-US'>Dugtrio</lang> adore la maison au toit rouge."
+      ]
+    },
+    {
+      "emoji": "🚗",
+      "word": "une voiture",
+      "img": "https://img.pokemondb.net/artwork/large/meowth.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Meowth</lang> observe une voiture rouge.",
+        "Je montre la voiture à <lang xml:lang='en-US'>Meowth</lang>.",
+        "<lang xml:lang='en-US'>Meowth</lang> grimpe sur le capot de la voiture.",
+        "Nous faisons un petit tour en voiture avec <lang xml:lang='en-US'>Meowth</lang>.",
+        "<lang xml:lang='en-US'>Meowth</lang> ronronne près de la voiture qui brille."
+      ]
+    },
+    {
+      "emoji": "🚕",
+      "word": "un taxi",
+      "img": "https://img.pokemondb.net/artwork/large/persian.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Persian</lang> regarde un taxi jaune.",
+        "Je salue le chauffeur du taxi avec <lang xml:lang='en-US'>Persian</lang>.",
+        "<lang xml:lang='en-US'>Persian</lang> monte dans un taxi rapide.",
+        "Nous voyageons en taxi avec <lang xml:lang='en-US'>Persian</lang> en ville.",
+        "<lang xml:lang='en-US'>Persian</lang> miaule pour dire merci au taxi."
+      ]
+    },
+    {
+      "emoji": "🚌",
+      "word": "un bus",
+      "img": "https://img.pokemondb.net/artwork/large/psyduck.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Psyduck</lang> attend un bus bleu.",
+        "Je fais la file avec <lang xml:lang='en-US'>Psyduck</lang> pour monter dans le bus.",
+        "<lang xml:lang='en-US'>Psyduck</lang> regarde par la fenêtre du bus.",
+        "Nous chantons une chanson dans le bus avec <lang xml:lang='en-US'>Psyduck</lang>.",
+        "<lang xml:lang='en-US'>Psyduck</lang> sourit en sortant du bus."
+      ]
+    },
+    {
+      "emoji": "🚑",
+      "word": "une ambulance",
+      "img": "https://img.pokemondb.net/artwork/large/golduck.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Golduck</lang> voit une ambulance passer vite.",
+        "Je montre la lumière bleue de l’ambulance à <lang xml:lang='en-US'>Golduck</lang>.",
+        "<lang xml:lang='en-US'>Golduck</lang> entend la sirène de l’ambulance.",
+        "Nous restons calmes pour laisser passer l’ambulance et <lang xml:lang='en-US'>Golduck</lang> regarde.",
+        "<lang xml:lang='en-US'>Golduck</lang> trouve l’ambulance très grande."
+      ]
+    },
+    {
+      "emoji": "🚒",
+      "word": "un camion de pompiers",
+      "img": "https://img.pokemondb.net/artwork/large/mankey.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Mankey</lang> voit un camion de pompiers rouge.",
+        "Je montre l’échelle du camion de pompiers à <lang xml:lang='en-US'>Mankey</lang>.",
+        "<lang xml:lang='en-US'>Mankey</lang> écoute la sirène forte du camion de pompiers.",
+        "Nous laissons la route libre au camion de pompiers avec <lang xml:lang='en-US'>Mankey</lang>.",
+        "<lang xml:lang='en-US'>Mankey</lang> agite la main pour saluer les pompiers."
+      ]
+    },
+    {
+      "emoji": "🚲",
+      "word": "un vélo",
+      "img": "https://img.pokemondb.net/artwork/large/primeape.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Primeape</lang> regarde un vélo vert.",
+        "Je prête un vélo à <lang xml:lang='en-US'>Primeape</lang>.",
+        "<lang xml:lang='en-US'>Primeape</lang> pédale rapidement sur le vélo.",
+        "Nous portons un casque en faisant du vélo avec <lang xml:lang='en-US'>Primeape</lang>.",
+        "<lang xml:lang='en-US'>Primeape</lang> sonne la clochette du vélo joyeusement."
+      ]
+    },
+    {
+      "emoji": "🏍️",
+      "word": "une moto",
+      "img": "https://img.pokemondb.net/artwork/large/growlithe.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Growlithe</lang> voit une moto brillante.",
+        "Je montre à <lang xml:lang='en-US'>Growlithe</lang> comment la moto avance.",
+        "<lang xml:lang='en-US'>Growlithe</lang> écoute le bruit de la moto.",
+        "Nous faisons semblant de conduire une moto avec <lang xml:lang='en-US'>Growlithe</lang>.",
+        "<lang xml:lang='en-US'>Growlithe</lang> est impressionné par la moto rapide."
+      ]
+    },
+    {
+      "emoji": "✈️",
+      "word": "un avion",
+      "img": "https://img.pokemondb.net/artwork/large/arcanine.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Arcanine</lang> regarde un avion dans le ciel.",
+        "Je montre les ailes de l’avion à <lang xml:lang='en-US'>Arcanine</lang>.",
+        "<lang xml:lang='en-US'>Arcanine</lang> court en dessous de l’avion qui passe.",
+        "Nous saluons l’avion ensemble, <lang xml:lang='en-US'>Arcanine</lang> et moi.",
+        "<lang xml:lang='en-US'>Arcanine</lang> rêve de voler comme un avion."
+      ]
+    },
+    {
+      "emoji": "🚁",
+      "word": "un hélicoptère",
+      "img": "https://img.pokemondb.net/artwork/large/poliwag.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Poliwag</lang> voit un hélicoptère dans le ciel.",
+        "Je montre les pales de l’hélicoptère à <lang xml:lang='en-US'>Poliwag</lang>.",
+        "<lang xml:lang='en-US'>Poliwag</lang> écoute le bruit de l’hélicoptère.",
+        "Nous levons les yeux pour suivre l’hélicoptère avec <lang xml:lang='en-US'>Poliwag</lang>.",
+        "<lang xml:lang='en-US'>Poliwag</lang> s’émerveille devant l’hélicoptère qui tourne."
+      ]
+    },
+    {
+      "emoji": "🚀",
+      "word": "une fusée",
+      "img": "https://img.pokemondb.net/artwork/large/poliwhirl.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Poliwhirl</lang> rêve de voir une fusée décoller.",
+        "Je montre la fusée à <lang xml:lang='en-US'>Poliwhirl</lang> dans un livre.",
+        "<lang xml:lang='en-US'>Poliwhirl</lang> fait semblant de s’envoler comme une fusée.",
+        "Nous comptons jusqu’à dix avant le départ de la fusée, <lang xml:lang='en-US'>Poliwhirl</lang> et moi.",
+        "<lang xml:lang='en-US'>Poliwhirl</lang> applaudit quand la fusée part dans l’espace."
+      ]
+    },
+    {
+      "emoji": "⛵",
+      "word": "un bateau",
+      "img": "https://img.pokemondb.net/artwork/large/poliwrath.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Poliwrath</lang> regarde un bateau sur l’eau.",
+        "Je montre la voile blanche du bateau à <lang xml:lang='en-US'>Poliwrath</lang>.",
+        "<lang xml:lang='en-US'>Poliwrath</lang> veut naviguer comme le bateau.",
+        "Nous dessinons un bateau ensemble avec <lang xml:lang='en-US'>Poliwrath</lang>.",
+        "<lang xml:lang='en-US'>Poliwrath</lang> adore le vent qui pousse le bateau."
+      ]
+    },
+    {
+      "emoji": "🏥",
+      "word": "un hôpital",
+      "img": "https://img.pokemondb.net/artwork/large/abra.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Abra</lang> passe devant un hôpital blanc.",
+        "Je montre la grande croix de l’hôpital à <lang xml:lang='en-US'>Abra</lang>.",
+        "<lang xml:lang='en-US'>Abra</lang> se sent rassuré près de l’hôpital.",
+        "Nous marchons lentement devant l’hôpital, <lang xml:lang='en-US'>Abra</lang> et moi.",
+        "<lang xml:lang='en-US'>Abra</lang> sait que l’hôpital aide les gens malades."
+      ]
+    },
+    {
+      "emoji": "🏫",
+      "word": "une école",
+      "img": "https://img.pokemondb.net/artwork/large/kadabra.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Kadabra</lang> voit une école avec une cour de récréation.",
+        "Je montre la porte de l’école à <lang xml:lang='en-US'>Kadabra</lang>.",
+        "<lang xml:lang='en-US'>Kadabra</lang> veut apprendre plein de choses à l’école.",
+        "Nous regardons la cloche de l’école sonner avec <lang xml:lang='en-US'>Kadabra</lang>.",
+        "<lang xml:lang='en-US'>Kadabra</lang> sourit aux enfants devant l’école."
+      ]
+    },
+    {
+      "emoji": "🏦",
+      "word": "une banque",
+      "img": "https://img.pokemondb.net/artwork/large/alakazam.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Alakazam</lang> s’arrête devant une banque imposante.",
+        "Je montre les portes de la banque à <lang xml:lang='en-US'>Alakazam</lang>.",
+        "<lang xml:lang='en-US'>Alakazam</lang> voit des gens entrer dans la banque.",
+        "Nous discutons du trésor qui peut être caché dans la banque, <lang xml:lang='en-US'>Alakazam</lang> et moi.",
+        "<lang xml:lang='en-US'>Alakazam</lang> imagine un coffre fort dans la banque."
+      ]
+    },
+    {
+      "emoji": "🏨",
+      "word": "un hôtel",
+      "img": "https://img.pokemondb.net/artwork/large/machop.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Machop</lang> découvre un grand hôtel.",
+        "Je montre l’entrée de l’hôtel à <lang xml:lang='en-US'>Machop</lang>.",
+        "<lang xml:lang='en-US'>Machop</lang> salue le réceptionniste de l’hôtel.",
+        "Nous admirons le grand hall de l’hôtel avec <lang xml:lang='en-US'>Machop</lang>.",
+        "<lang xml:lang='en-US'>Machop</lang> veut appuyer sur tous les boutons de l’ascenseur de l’hôtel."
+      ]
+    },
+    {
+      "emoji": "🏪",
+      "word": "un magasin",
+      "img": "https://img.pokemondb.net/artwork/large/machoke.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Machoke</lang> voit un magasin avec une jolie vitrine.",
+        "Je montre les jouets dans le magasin à <lang xml:lang='en-US'>Machoke</lang>.",
+        "<lang xml:lang='en-US'>Machoke</lang> veut acheter un cadeau au magasin.",
+        "Nous entrons calmement dans le magasin, <lang xml:lang='en-US'>Machoke</lang> et moi.",
+        "<lang xml:lang='en-US'>Machoke</lang> sourit en voyant les objets colorés du magasin."
+      ]
+    },
+    {
+      "emoji": "🏭",
+      "word": "une usine",
+      "img": "https://img.pokemondb.net/artwork/large/machamp.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Machamp</lang> découvre une usine bruyante.",
+        "Je montre la cheminée de l’usine à <lang xml:lang='en-US'>Machamp</lang>.",
+        "<lang xml:lang='en-US'>Machamp</lang> regarde la fumée sortir de l’usine.",
+        "Nous entendons les machines de l’usine avec <lang xml:lang='en-US'>Machamp</lang>.",
+        "<lang xml:lang='en-US'>Machamp</lang> est surpris par le bruit de l’usine."
+      ]
+    },
+    {
+      "emoji": "⛪",
+      "word": "une église",
+      "img": "https://img.pokemondb.net/artwork/large/bellsprout.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Bellsprout</lang> voit une église au clocher haut.",
+        "Je montre les vitraux colorés de l’église à <lang xml:lang='en-US'>Bellsprout</lang>.",
+        "<lang xml:lang='en-US'>Bellsprout</lang> écoute les cloches de l’église sonner.",
+        "Nous admirons la porte en bois de l’église avec <lang xml:lang='en-US'>Bellsprout</lang>.",
+        "<lang xml:lang='en-US'>Bellsprout</lang> fait un petit signe devant l’église."
+      ]
+    },
+    {
+      "emoji": "🕌",
+      "word": "une mosquée",
+      "img": "https://img.pokemondb.net/artwork/large/weepinbell.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Weepinbell</lang> aperçoit une mosquée magnifique.",
+        "Je montre le dôme de la mosquée à <lang xml:lang='en-US'>Weepinbell</lang>.",
+        "<lang xml:lang='en-US'>Weepinbell</lang> observe les belles décorations de la mosquée.",
+        "Nous parlons doucement devant la mosquée, <lang xml:lang='en-US'>Weepinbell</lang> et moi.",
+        "<lang xml:lang='en-US'>Weepinbell</lang> est curieux du grand minaret de la mosquée."
+      ]
+    },
+    {
+      "emoji": "🕍",
+      "word": "une synagogue",
+      "img": "https://img.pokemondb.net/artwork/large/victreebel.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Victreebel</lang> découvre une synagogue calme.",
+        "Je montre la grande porte de la synagogue à <lang xml:lang='en-US'>Victreebel</lang>.",
+        "<lang xml:lang='en-US'>Victreebel</lang> voit les lumières briller à l’intérieur.",
+        "Nous passons devant la synagogue avec <lang xml:lang='en-US'>Victreebel</lang>.",
+        "<lang xml:lang='en-US'>Victreebel</lang> admire les décorations dorées de la synagogue."
+      ]
+    },
+    {
+      "emoji": "🌋",
+      "word": "un volcan",
+      "img": "https://img.pokemondb.net/artwork/large/tentacool.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Tentacool</lang> voit un volcan au loin.",
+        "Je dessine la lave du volcan pour <lang xml:lang='en-US'>Tentacool</lang>.",
+        "<lang xml:lang='en-US'>Tentacool</lang> imagine la chaleur du volcan.",
+        "Nous lisons un livre sur le volcan avec <lang xml:lang='en-US'>Tentacool</lang>.",
+        "<lang xml:lang='en-US'>Tentacool</lang> est impressionné par le feu qui sort du volcan."
+      ]
+    },
+    {
+      "emoji": "🏜️",
+      "word": "un désert",
+      "img": "https://img.pokemondb.net/artwork/large/tentacruel.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Tentacruel</lang> découvre un désert très sec.",
+        "Je montre les dunes du désert à <lang xml:lang='en-US'>Tentacruel</lang>.",
+        "<lang xml:lang='en-US'>Tentacruel</lang> sent la chaleur du désert.",
+        "Nous parlons des cactus qui poussent dans le désert, <lang xml:lang='en-US'>Tentacruel</lang> et moi.",
+        "<lang xml:lang='en-US'>Tentacruel</lang> trouve le désert immense."
+      ]
+    },
+    {
+      "emoji": "🌃",
+      "word": "une ville la nuit",
+      "img": "https://img.pokemondb.net/artwork/large/geodude.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Geodude</lang> regarde une ville la nuit pleine de lumières.",
+        "Je montre les grands immeubles de la ville la nuit à <lang xml:lang='en-US'>Geodude</lang>.",
+        "<lang xml:lang='en-US'>Geodude</lang> voit les étoiles au-dessus de la ville.",
+        "Nous admirons les fenêtres éclairées dans la ville la nuit, <lang xml:lang='en-US'>Geodude</lang> et moi.",
+        "<lang xml:lang='en-US'>Geodude</lang> aime la magie de la ville la nuit."
+      ]
+    },
+    {
+      "emoji": "🏖️",
+      "word": "une plage",
+      "img": "https://img.pokemondb.net/artwork/large/graveler.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Graveler</lang> marche sur une plage ensoleillée.",
+        "Je construis un château de sable pour <lang xml:lang='en-US'>Graveler</lang> sur la plage.",
+        "<lang xml:lang='en-US'>Graveler</lang> adore écouter les vagues sur la plage.",
+        "Nous cherchons des coquillages sur la plage avec <lang xml:lang='en-US'>Graveler</lang>.",
+        "<lang xml:lang='en-US'>Graveler</lang> trouve la plage très douce."
+      ]
+    },
+    {
+      "emoji": "🏕️",
+      "word": "un camping",
+      "img": "https://img.pokemondb.net/artwork/large/golem.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Golem</lang> installe une tente dans un camping.",
+        "Je montre le feu de camp à <lang xml:lang='en-US'>Golem</lang>.",
+        "<lang xml:lang='en-US'>Golem</lang> aime faire griller des guimauves au camping.",
+        "Nous regardons les étoiles la nuit au camping, <lang xml:lang='en-US'>Golem</lang> et moi.",
+        "<lang xml:lang='en-US'>Golem</lang> aime le calme du camping."
+      ]
+    },
+    {
+      "emoji": "🏔️",
+      "word": "une montagne",
+      "img": "https://img.pokemondb.net/artwork/large/ponyta.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Ponyta</lang> regarde une montagne très haute.",
+        "Je montre le sommet blanc de la montagne à <lang xml:lang='en-US'>Ponyta</lang>.",
+        "<lang xml:lang='en-US'>Ponyta</lang> grimpe doucement la montagne.",
+        "Nous respirons l’air frais de la montagne, <lang xml:lang='en-US'>Ponyta</lang> et moi.",
+        "<lang xml:lang='en-US'>Ponyta</lang> est fier de regarder le monde d’en haut."
+      ]
+    },
+    {
+      "emoji": "🏟️",
+      "word": "un stade",
+      "img": "https://img.pokemondb.net/artwork/large/rapidash.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Rapidash</lang> trotte près d’un stade immense.",
+        "Je montre les gradins du stade à <lang xml:lang='en-US'>Rapidash</lang>.",
+        "<lang xml:lang='en-US'>Rapidash</lang> aime courir autour du stade.",
+        "Nous écoutons la foule qui crie dans le stade, <lang xml:lang='en-US'>Rapidash</lang> et moi.",
+        "<lang xml:lang='en-US'>Rapidash</lang> s’imagine gagner une course dans le stade."
+      ]
+    },
+    {
+      "emoji": "⛲",
+      "word": "une fontaine",
+      "img": "https://img.pokemondb.net/artwork/large/slowpoke.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Slowpoke</lang> voit une fontaine avec de l’eau qui gicle.",
+        "Je montre les jets de la fontaine à <lang xml:lang='en-US'>Slowpoke</lang>.",
+        "<lang xml:lang='en-US'>Slowpoke</lang> touche l’eau de la fontaine doucement.",
+        "Nous jetons une pièce dans la fontaine avec <lang xml:lang='en-US'>Slowpoke</lang>.",
+        "<lang xml:lang='en-US'>Slowpoke</lang> regarde les reflets de la fontaine."
+      ]
+    },
+    {
+      "emoji": "🎡",
+      "word": "une grande roue",
+      "img": "https://img.pokemondb.net/artwork/large/slowbro.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Slowbro</lang> attend son tour pour la grande roue.",
+        "Je montre les cabines colorées de la grande roue à <lang xml:lang='en-US'>Slowbro</lang>.",
+        "<lang xml:lang='en-US'>Slowbro</lang> monte doucement dans la grande roue.",
+        "Nous admirons la vue d’en haut dans la grande roue, <lang xml:lang='en-US'>Slowbro</lang> et moi.",
+        "<lang xml:lang='en-US'>Slowbro</lang> sourit quand la grande roue tourne."
+      ]
+    },
+    {
+      "emoji": "🎢",
+      "word": "des montagnes russes",
+      "img": "https://img.pokemondb.net/artwork/large/magnemite.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Magnemite</lang> voit des montagnes russes très hautes.",
+        "Je rassure <lang xml:lang='en-US'>Magnemite</lang> avant de monter dans les montagnes russes.",
+        "<lang xml:lang='en-US'>Magnemite</lang> crie un peu pendant la descente.",
+        "Nous rions en roulant vite sur les montagnes russes, <lang xml:lang='en-US'>Magnemite</lang> et moi.",
+        "<lang xml:lang='en-US'>Magnemite</lang> est fier d’avoir testé les montagnes russes."
+      ]
+    },
+    {
+      "emoji": "🎠",
+      "word": "un carrousel",
+      "img": "https://img.pokemondb.net/artwork/large/magneton.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Magneton</lang> voit un carrousel avec de jolis chevaux.",
+        "Je monte <lang xml:lang='en-US'>Magneton</lang> sur un cheval du carrousel.",
+        "<lang xml:lang='en-US'>Magneton</lang> tourne en riant sur le carrousel.",
+        "Nous écoutons la musique du carrousel, <lang xml:lang='en-US'>Magneton</lang> et moi.",
+        "<lang xml:lang='en-US'>Magneton</lang> adore les lumières colorées du carrousel."
+      ]
+    },
+    {
+      "emoji": "🎪",
+      "word": "un cirque",
+      "img": "https://img.pokemondb.net/artwork/large/farfetchd.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Farfetch’d</lang> découvre un cirque animé.",
+        "Je montre le chapiteau du cirque à <lang xml:lang='en-US'>Farfetch’d</lang>.",
+        "<lang xml:lang='en-US'>Farfetch’d</lang> applaudit devant le clown du cirque.",
+        "Nous regardons les acrobates au cirque, <lang xml:lang='en-US'>Farfetch’d</lang> et moi.",
+        "<lang xml:lang='en-US'>Farfetch’d</lang> rit quand le magicien fait un tour au cirque."
+      ]
+    },
+    {
+      "emoji": "🎨",
+      "word": "peindre",
+      "img": "https://img.pokemondb.net/artwork/large/doduo.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Doduo</lang> veut peindre un beau tableau.",
+        "Je prépare des couleurs pour peindre avec <lang xml:lang='en-US'>Doduo</lang>.",
+        "<lang xml:lang='en-US'>Doduo</lang> mélange le rouge et le jaune pour peindre.",
+        "Nous peignons un soleil souriant, <lang xml:lang='en-US'>Doduo</lang> et moi.",
+        "<lang xml:lang='en-US'>Doduo</lang> adore peindre des formes rigolotes."
+      ]
+    },
+    {
+      "emoji": "🎭",
+      "word": "un théâtre",
+      "img": "https://img.pokemondb.net/artwork/large/dodrio.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Dodrio</lang> voit un théâtre avec de grands rideaux.",
+        "Je montre la scène du théâtre à <lang xml:lang='en-US'>Dodrio</lang>.",
+        "<lang xml:lang='en-US'>Dodrio</lang> applaudit les acteurs au théâtre.",
+        "Nous écoutons l’orchestre dans le théâtre, <lang xml:lang='en-US'>Dodrio</lang> et moi.",
+        "<lang xml:lang='en-US'>Dodrio</lang> est émerveillé par les lumières du théâtre."
+      ]
+    },
+    {
+      "emoji": "🎯",
+      "word": "une cible",
+      "img": "https://img.pokemondb.net/artwork/large/seel.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Seel</lang> découvre une cible colorée.",
+        "Je montre le centre de la cible à <lang xml:lang='en-US'>Seel</lang>.",
+        "<lang xml:lang='en-US'>Seel</lang> essaie de viser la cible.",
+        "Nous jouons à lancer de petites fléchettes sur la cible, <lang xml:lang='en-US'>Seel</lang> et moi.",
+        "<lang xml:lang='en-US'>Seel</lang> applaudit quand on touche la cible."
+      ]
+    },
+    {
+      "emoji": "🎳",
+      "word": "un bowling",
+      "img": "https://img.pokemondb.net/artwork/large/dewgong.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Dewgong</lang> voit un bowling avec des quilles.",
+        "Je montre la boule de bowling à <lang xml:lang='en-US'>Dewgong</lang>.",
+        "<lang xml:lang='en-US'>Dewgong</lang> glisse la boule sur la piste.",
+        "Nous essayons de faire un strike au bowling, <lang xml:lang='en-US'>Dewgong</lang> et moi.",
+        "<lang xml:lang='en-US'>Dewgong</lang> est content de faire tomber des quilles."
+      ]
+    },
+    {
+      "emoji": "🔔",
+      "word": "une cloche",
+      "img": "https://img.pokemondb.net/artwork/large/grimer.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Grimer</lang> voit une cloche qui tinte.",
+        "Je secoue la cloche pour <lang xml:lang='en-US'>Grimer</lang>.",
+        "<lang xml:lang='en-US'>Grimer</lang> aime le son de la cloche.",
+        "Nous écoutons la cloche résonner dans la pièce, <lang xml:lang='en-US'>Grimer</lang> et moi.",
+        "<lang xml:lang='en-US'>Grimer</lang> sourit quand la cloche fait ding-dong."
+      ]
+    },
+    {
+      "emoji": "🔑",
+      "word": "une clé",
+      "img": "https://img.pokemondb.net/artwork/large/muk.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Muk</lang> découvre une clé brillante.",
+        "Je montre la serrure à <lang xml:lang='en-US'>Muk</lang> pour utiliser la clé.",
+        "<lang xml:lang='en-US'>Muk</lang> tourne la clé doucement.",
+        "Nous ouvrons une petite boîte avec la clé, <lang xml:lang='en-US'>Muk</lang> et moi.",
+        "<lang xml:lang='en-US'>Muk</lang> garde la clé en sécurité."
+      ]
+    },
+    {
+      "emoji": "🔧",
+      "word": "une clé à molette",
+      "img": "https://img.pokemondb.net/artwork/large/shellder.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Shellder</lang> regarde une clé à molette grise.",
+        "Je tiens la clé à molette pour <lang xml:lang='en-US'>Shellder</lang>.",
+        "<lang xml:lang='en-US'>Shellder</lang> veut aider à réparer un petit jouet avec la clé à molette.",
+        "Nous apprenons à tourner la clé à molette ensemble, <lang xml:lang='en-US'>Shellder</lang> et moi.",
+        "<lang xml:lang='en-US'>Shellder</lang> est fier de bien tenir la clé à molette."
+      ]
+    },
+    {
+      "emoji": "🎁",
+      "word": "un cadeau",
+      "img": "https://img.pokemondb.net/artwork/large/cloyster.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Cloyster</lang> reçoit un cadeau joliment emballé.",
+        "Je montre le ruban du cadeau à <lang xml:lang='en-US'>Cloyster</lang>.",
+        "<lang xml:lang='en-US'>Cloyster</lang> est impatient d’ouvrir le cadeau.",
+        "Nous découvrons ensemble la surprise dans le cadeau, <lang xml:lang='en-US'>Cloyster</lang> et moi.",
+        "<lang xml:lang='en-US'>Cloyster</lang> sourit en voyant le jouet dans le cadeau."
+      ]
+    },
+    {
+      "emoji": "🎈",
+      "word": "un ballon",
+      "img": "https://img.pokemondb.net/artwork/large/gastly.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Gastly</lang> voit un ballon qui flotte dans l’air.",
+        "Je tiens le ballon pour <lang xml:lang='en-US'>Gastly</lang>.",
+        "<lang xml:lang='en-US'>Gastly</lang> rit quand le ballon s’envole.",
+        "Nous jouons à taper le ballon en douceur, <lang xml:lang='en-US'>Gastly</lang> et moi.",
+        "<lang xml:lang='en-US'>Gastly</lang> est tout heureux de cette couleur vive du ballon."
+      ]
+    },
+    {
+      "emoji": "🎀",
+      "word": "un ruban",
+      "img": "https://img.pokemondb.net/artwork/large/haunter.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Haunter</lang> voit un ruban soyeux.",
+        "Je montre à <lang xml:lang='en-US'>Haunter</lang> comment nouer le ruban.",
+        "<lang xml:lang='en-US'>Haunter</lang> veut mettre le ruban sur un cadeau.",
+        "Nous dansons en agitant le ruban, <lang xml:lang='en-US'>Haunter</lang> et moi.",
+        "<lang xml:lang='en-US'>Haunter</lang> rit en faisant voler le ruban."
+      ]
+    },
+    {
+      "emoji": "🎉",
+      "word": "une fête",
+      "img": "https://img.pokemondb.net/artwork/large/gengar.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Gengar</lang> adore préparer une fête.",
+        "Je gonfle des ballons pour la fête avec <lang xml:lang='en-US'>Gengar</lang>.",
+        "<lang xml:lang='en-US'>Gengar</lang> accroche des guirlandes pour la fête.",
+        "Nous invitons des amis à la fête, <lang xml:lang='en-US'>Gengar</lang> et moi.",
+        "<lang xml:lang='en-US'>Gengar</lang> danse joyeusement pendant la fête."
+      ]
+    },
+    {
+      "emoji": "🎎",
+      "word": "des poupées",
+      "img": "https://img.pokemondb.net/artwork/large/onix.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Onix</lang> regarde des poupées joliment habillées.",
+        "Je montre les petits visages des poupées à <lang xml:lang='en-US'>Onix</lang>.",
+        "<lang xml:lang='en-US'>Onix</lang> touche doucement les poupées.",
+        "Nous jouons à inventer une histoire avec les poupées, <lang xml:lang='en-US'>Onix</lang> et moi.",
+        "<lang xml:lang='en-US'>Onix</lang> est fasciné par les poupées miniatures."
+      ]
+    },
+    {
+      "emoji": "🎏",
+      "word": "des carpes en papier",
+      "img": "https://img.pokemondb.net/artwork/large/drowzee.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Drowzee</lang> voit des carpes en papier flotter au vent.",
+        "Je montre les couleurs vives des carpes à <lang xml:lang='en-US'>Drowzee</lang>.",
+        "<lang xml:lang='en-US'>Drowzee</lang> veut attraper une carpe en papier.",
+        "Nous accrochons des carpes en papier dans le jardin, <lang xml:lang='en-US'>Drowzee</lang> et moi.",
+        "<lang xml:lang='en-US'>Drowzee</lang> sourit en les voyant s’agiter."
+      ]
+    },
+    {
+      "emoji": "🎇",
+      "word": "un feu d’artifice",
+      "img": "https://img.pokemondb.net/artwork/large/hypno.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Hypno</lang> attend le début d’un feu d’artifice.",
+        "Je montre les premières étincelles du feu d’artifice à <lang xml:lang='en-US'>Hypno</lang>.",
+        "<lang xml:lang='en-US'>Hypno</lang> sursaute quand ça fait boum.",
+        "Nous admirons les couleurs dans le ciel grâce au feu d’artifice, <lang xml:lang='en-US'>Hypno</lang> et moi.",
+        "<lang xml:lang='en-US'>Hypno</lang> applaudit les belles lumières du feu d’artifice."
+      ]
+    },
+    {
+      "emoji": "🎆",
+      "word": "des feux d’artifice",
+      "img": "https://img.pokemondb.net/artwork/large/krabby.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Krabby</lang> voit des feux d’artifice illuminer le ciel.",
+        "Je rassure <lang xml:lang='en-US'>Krabby</lang> quand ça fait beaucoup de bruit.",
+        "<lang xml:lang='en-US'>Krabby</lang> regarde les grosses fusées éclater en lumières.",
+        "Nous admirons ensemble les motifs colorés des feux d’artifice, <lang xml:lang='en-US'>Krabby</lang> et moi.",
+        "<lang xml:lang='en-US'>Krabby</lang> est tout content des feux d’artifice."
+      ]
+    },
+    {
+      "emoji": "💡",
+      "word": "une ampoule",
+      "img": "https://img.pokemondb.net/artwork/large/kingler.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Kingler</lang> voit une ampoule brillante.",
+        "Je montre le filament de l’ampoule à <lang xml:lang='en-US'>Kingler</lang>.",
+        "<lang xml:lang='en-US'>Kingler</lang> veut allumer et éteindre l’ampoule.",
+        "Nous faisons attention à ne pas casser l’ampoule, <lang xml:lang='en-US'>Kingler</lang> et moi.",
+        "<lang xml:lang='en-US'>Kingler</lang> aime la lumière que l’ampoule produit."
+      ]
+    },
+    {
+      "emoji": "🧸",
+      "word": "un ours en peluche",
+      "img": "https://img.pokemondb.net/artwork/large/voltorb.jpg",
+      "sentences": [
+        "<lang xml:lang='en-US'>Voltorb</lang> découvre un ours en peluche tout doux.",
+        "Je donne l’ours en peluche à <lang xml:lang='en-US'>Voltorb</lang> pour un câlin.",
+        "<lang xml:lang='en-US'>Voltorb</lang> se blottit contre l’ours en peluche.",
+        "Nous jouons à inventer une histoire avec l’ours en peluche, <lang xml:lang='en-US'>Voltorb</lang> et moi.",
+        "<lang xml:lang='en-US'>Voltorb</lang> garde l’ours en peluche près de lui pour dormir."
+      ]
+    }
+  ]

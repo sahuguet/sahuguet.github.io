@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>French Words</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    #content {
+      text-align: center;
+      max-width: 400px;
+    }
+    #emoji {
+      font-size: 4rem;
+      margin-bottom: 20px;
+      cursor: pointer;
+    }
+    #word {
+      font-size: 1.5rem;
+      margin: 10px 0;
+      cursor: pointer;
+    }
+    #sentence {
+      margin: 10px 0;
+      cursor: pointer;
+      font-size: 1rem;
+      min-height: 1.5em; /* Just to keep a bit of space even if empty */
+    }
+    #pokemon-img {
+      width: 25%;
+    }
+    .navigation-info {
+      margin-top: 30px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+<div id="content">
+  <div id="emoji"></div>
+  <div id="word"></div>
+  <div id="sentence"></div>
+  <div id="pokemon"><img id="pokemon-img" src=""/></div>
+  <div class="navigation-info">
+    <p>Use LEFT/RIGHT arrow keys to switch words.</p>
+    <p>Use UP/DOWN arrow keys to switch sentences.</p>
+    <p>Click on the word or sentence to hear it spoken.</p>
+  </div>
+</div>
+
+<script>
+
+// Seeded Random Number Generator (LCG - Linear Congruential Generator)
+function seededRandomGenerator(seed) {
+    let state = seed % 2147483647; // Large prime number to keep numbers large
+
+    return function () {
+        state = (state * 16807) % 2147483647; // LCG formula
+        return state / 2147483647; // Normalize to range [0, 1)
+    };
+}
+
+function shuffleArray(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(seededRandomGenerator(12345)() * (i + 1));  // pick a random index
+        // swap elements array[i] and array[j]
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    }
+
+  // Parse the JSON data from the inline script
+  // const data = JSON.parse(document.getElementById('data').textContent);
+  // Fetch the JSON data from a local file
+  var data = null;
+  fetch('pokemon-fr-1.json')
+    .then(response => response.json())
+    .then(json => {
+      data = shuffleArray(json);
+      updateUI(); // Once data is loaded, initialize the UI
+    })
+    .catch(err => {
+      console.error('Error loading JSON:', err);
+    });
+
+
+  let currentWordIndex = 0;
+  let currentSentenceIndex = 0;
+
+  // Elements
+  const emojiEl = document.getElementById('emoji');
+  const wordEl = document.getElementById('word');
+  const sentenceEl = document.getElementById('sentence');
+  const pokemonImg = document.getElementById('pokemon-img');
+
+  // Initialize display
+  // updateUI();
+
+  // Keyboard navigation
+  document.addEventListener('keydown', (event) => {
+    switch (event.key) {
+      case 'ArrowLeft':
+        // Previous word
+        if (currentWordIndex > 0) {
+          currentWordIndex--;
+          currentSentenceIndex = 0; // Reset sentence index
+          updateUI();
+        }
+        break;
+      case 'ArrowRight':
+        // Next word
+        if (currentWordIndex < data.length - 1) {
+          currentWordIndex++;
+          currentSentenceIndex = 0; // Reset sentence index
+          updateUI();
+        }
+        break;
+      case 'ArrowUp':
+        // Previous sentence
+        if (currentSentenceIndex > 0) {
+          currentSentenceIndex--;
+          updateUI();
+        }
+        break;
+      case 'ArrowDown':
+        // Next sentence
+        if (currentSentenceIndex < data[currentWordIndex].sentences.length - 1) {
+          currentSentenceIndex++;
+          updateUI();
+        }
+        break;
+    }
+  });
+
+  // Click to speak the word
+  wordEl.addEventListener('click', () => {
+    speak(data[currentWordIndex].word);
+  });
+
+  // Click to speak the sentence
+  sentenceEl.addEventListener('click', () => {
+    speakSSML(data[currentWordIndex].sentences[currentSentenceIndex].slice(0,-1));
+  });
+
+  // Update UI based on current indices
+  function updateUI() {
+    const currentItem = data[currentWordIndex];
+    emojiEl.textContent = currentItem.emoji;
+    wordEl.textContent = currentItem.word;
+    sentenceEl.textContent = currentItem.sentences[currentSentenceIndex].replace(/<[^>]*>/g, '');
+    pokemonImg.src = data[currentWordIndex].img;
+  }
+
+  // Speak text using Web Speech API
+  function speak(text) {
+    const utterance = new SpeechSynthesisUtterance(text);
+    // Use a French voice if available
+    utterance.lang = 'fr-FR';
+    utterance.rate = 0.4;
+    speechSynthesis.speak(utterance);
+  }
+
+  function speakSSML(sentence) {
+  const synth = window.speechSynthesis;
+  const parser = new DOMParser();
+  const xmlDoc = parser.parseFromString(`<root>${sentence}</root>`, "text/xml");
+  
+  const utterances = [];
+  
+  // Find all nodes (text + <lang> tags)
+  xmlDoc.documentElement.childNodes.forEach(node => {
+      if (node.nodeType === 3) { // Text node
+          if (node.textContent.trim()) {
+              let utterance = new SpeechSynthesisUtterance(node.textContent.trim());
+              utterance.lang = "fr-FR"; // Default to French
+              utterance.rate = 0.4;
+              utterances.push(utterance);
+          }
+      } else if (node.nodeType === 1 && node.nodeName === "lang") { // <lang> nodes
+          let utterance = new SpeechSynthesisUtterance(node.textContent.trim());
+          utterance.lang = node.getAttribute("xml:lang") || "fr-FR"; // Use specified language
+          utterance.rate = 0.4;
+          utterances.push(utterance);
+      }
+  });
+
+  // Speak all parts in sequence
+  utterances.forEach(utterance => synth.speak(utterance));
+}
+</script>
+
+</body>
+</html>
