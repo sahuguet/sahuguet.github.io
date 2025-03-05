@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>List All Voices</title>
+</head>
+<body>
+    <h1>Available Voices</h1>
+    <ul id="voicesList"></ul>
+
+    <script>
+        function populateVoiceList() {
+            const voices = speechSynthesis.getVoices();
+            const voicesList = document.getElementById('voicesList');
+            
+            // Clear existing entries
+            voicesList.innerHTML = '';
+
+            // Populate the list
+            for (let i = 0; i < voices.length; i++) {
+                const listItem = document.createElement('li');
+                listItem.textContent = `${voices[i].name} (${voices[i].lang})`;
+                voicesList.appendChild(listItem);
+            }
+        }
+
+        // Call once to load voices (in some browsers, voices might already be available)
+        populateVoiceList();
+
+        // Some browsers (like Chrome) load voices asynchronously
+        // This ensures the list updates once the voices are fully loaded
+        if (typeof speechSynthesis.onvoiceschanged !== 'undefined') {
+            speechSynthesis.onvoiceschanged = populateVoiceList;
+        }
+    </script>
+</body>
+</html>
