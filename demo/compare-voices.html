@@ -20,7 +20,7 @@
     function createFrenchVoiceLinks() {
       const allVoices = speechSynthesis.getVoices() || [];
       // Filter voices for those whose language starts with "fr"
-      const frenchVoices = allVoices.filter(voice => voice.lang.toLowerCase().startsWith('fr'));
+      const frenchVoices = allVoices.filter(voice => (voice.lang.toLowerCase().startsWith('en') || voice.lang.toLowerCase().startsWith('fr')));
 
       const container = document.getElementById('frenchVoices');
       container.innerHTML = ''; // Clear "Loading" text

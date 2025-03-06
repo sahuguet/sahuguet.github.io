@@ -202,11 +202,11 @@ speechSynthesis.onvoiceschanged = () => {
 
 
   function getFrenchVoice() {
-    return speechSynthesis.getVoices().find(v => v.lang === 'fr-FR');
+    return speechSynthesis.getVoices().find(v => v.name === 'Amélie');
   }
 
   function getEnglishVoice() {
-    return speechSynthesis.getVoices().find(v => v.lang === 'en-US');
+    return speechSynthesis.getVoices().find(v => v.name === 'Samantha');
   }
 
   // Speak text using Web Speech API
@@ -220,7 +220,7 @@ speechSynthesis.onvoiceschanged = () => {
 
     }
     // utterance.lang = 'fr-FR';
-    utterance.rate = 0.4;
+    utterance.rate = 0.6;
     speechSynthesis.speak(utterance);
   }
 
