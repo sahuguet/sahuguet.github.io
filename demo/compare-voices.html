@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>French TTS Demo</title>
+</head>
+<body>
+  <h1>French TTS Demo</h1>
+
+  <!-- Text input for the message -->
+  <label for="messageInput">Enter your message:</label>
+  <br />
+  <input type="text" id="messageInput" placeholder="Bonjour!" size="50" />
+  
+  <h2>Available French Voices</h2>
+  <p id="frenchVoices">Loading voices...</p>
+
+  <script>
+
+    function createFrenchVoiceLinks() {
+      const allVoices = speechSynthesis.getVoices() || [];
+      // Filter voices for those whose language starts with "fr"
+      const frenchVoices = allVoices.filter(voice => voice.lang.toLowerCase().startsWith('fr'));
+
+      const container = document.getElementById('frenchVoices');
+      container.innerHTML = ''; // Clear "Loading" text
+
+      if (frenchVoices.length === 0) {
+        container.innerText = 'No French voices found!';
+        return;
+      }
+
+      // Create a link for each French voice
+      frenchVoices.forEach(voice => {
+        const link = document.createElement('a');
+        link.href = '#';
+        link.textContent = `${voice.name} (${voice.lang})  -- ${voice.voiceURI}`;
+
+        link.addEventListener('click', event => {
+          event.preventDefault(); // Prevent page jump
+          speakTextWithVoice(voice);
+        });
+
+        // Add a line break after each link
+        container.appendChild(link);
+        container.appendChild(document.createElement('br'));
+      });
+    }
+
+    function speakTextWithVoice(voice) {
+      const text = document.getElementById('messageInput').value || 'Bonjour!';
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.voice = voice;
+      speechSynthesis.speak(utterance);
+    }
+
+    // The voices list may not be ready at page load, so wait for `voiceschanged`.
+    if ( ('onvoiceschanged' in speechSynthesis) && (window.navigator.vendor !== 'Apple Computer, Inc.') ) {
+      speechSynthesis.onvoiceschanged = createFrenchVoiceLinks;
+    } else {
+      // Fallback if `onvoiceschanged` isn't supported
+      console.log('onvoiceschanged not supported');
+      setTimeout(createFrenchVoiceLinks, 1000);
+    }
+  </script>
+</body>
+</html>

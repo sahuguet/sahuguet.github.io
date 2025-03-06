@@ -215,8 +215,9 @@ speechSynthesis.onvoiceschanged = () => {
     // Use a French voice if available
     const voice = getFrenchVoice()
     if (voice) {
-      log('Using French voice');
       utterance.voice = voice;
+      log(`Using French voice ${utterance.voice.name}`);
+
     }
     // utterance.lang = 'fr-FR';
     utterance.rate = 0.4;
