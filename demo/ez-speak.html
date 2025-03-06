@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Web Component Demo</title>
+</head>
+
+<body>
+
+<script>
+    class EzSpeak extends HTMLElement {
+  constructor() {
+    super();
+    this.attachShadow({ mode: "open" });
+    this.synth = window.speechSynthesis;
+  }
+
+  connectedCallback() {
+    this.render();
+    this.shadowRoot.addEventListener("click", () => this.speak());
+  }
+
+  render() {
+    this.shadowRoot.innerHTML = `
+      <style>
+        :host {
+          cursor: pointer;
+          display: inline-block;
+          padding: 5px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          background: #f9f9f9;
+          transition: background 0.3s;
+        }
+        :host(:hover) {
+          background: #e0e0e0;
+        }
+      </style>
+      <slot></slot>
+    `;
+  }
+
+  speak() {
+    if (!this.synth) return;
+    const text = this.textContent.trim();
+    const slot = this.shadowRoot.querySelector("slot");
+    const nodes = slot.assignedNodes();
+    const text_as_xml = nodes.map(node => node.outerHTML || node.textContent).join(" ").trim();
+    console.log(text_as_xml)
+
+    if (!text) return;
+
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = this.getAttribute("lang") || "en-US";
+    utterance.rate = parseFloat(this.getAttribute("rate")) || 1.0;
+    const voiceName = this.getAttribute("voice");
+
+    if (voiceName) {
+      const voices = this.synth.getVoices();
+      const voice = voices.find(v => v.name.startsWith(voiceName));
+      if (voice) utterance.voice = voice;
+    }
+
+    this.synth.speak(utterance);
+  }
+}
+
+customElements.define("ez-speak", EzSpeak);
+</script>
+
+<ez-speak lang="fr-FR" rate="1" voice="Amelie">
+    Bonjour, comment ça va ? <lang xml:lang='en-US'>Bulbasaur</lang>, mon ami.
+</ez-speak>
+
+</body>
+
+</html>

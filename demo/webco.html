@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Web Component Demo</title>
+</head>
+
+<body>
+
+<script>
+class EzSpeak extends HTMLElement {
+  constructor() {
+    super();
+    this.attachShadow({ mode: "open" });
+    this.shadowRoot.innerHTML = `<slot id="my-slot"></slot>`;
+  }
+
+  connectedCallback() {
+    console.log(this);
+    const slot = this.shadowRoot.querySelector('slot');
+    console.log(slot);
+    const nodes = slot.assignedNodes({ flatten: false });
+    console.log("nodes", nodes); // Logs both text and element nodes
+
+    slot.addEventListener('slotchange', () => {
+      const nodes = slot.assignedNodes({ flatten: false });
+      console.log("nodes", nodes); // Now correctly logs assigned nodes
+      nodes.forEach(node => {
+            if (node.nodeType === Node.TEXT_NODE) {
+                node.textContent = "Updated text!";
+            }
+        });
+    });
+  }
+  
+}
+
+customElements.define("ez-speak", EzSpeak);
+
+</script>
+
+<ez-speak id="1" lang="fr-FR" rate="1" voice="Amelie">
+    Bonjour, comment ça va ? Bulbasaur, mon <p>cher</p>ami.
+</ez-speak>
+
+</body>
+
+</html>
