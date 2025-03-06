@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Journée</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 20px; background: #f5f5f5; }
+        .tabs { display: flex; justify-content: center; gap: 10px; margin-bottom: 20px; }
+        .tab { padding: 10px; cursor: pointer; background: lightgray; border-radius: 10px; }
+        .tab:hover { background: darkgray; }
+        .content { display: none; }
+        .active { display: block; }
+        .bubble { 
+            display: inline-block; 
+            padding: 10px; 
+            background: #d1e7ff; 
+            border-radius: 15px; 
+            cursor: pointer; 
+            margin: 5px; 
+            max-width: 60%; 
+            text-align: left;
+            position: relative;
+            font-size: 16px;
+        }
+        .bubble::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: -10px;
+            width: 0; 
+            height: 0; 
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            border-right: 10px solid #d1e7ff;
+            transform: translateY(-50%);
+        }
+        .message-container {
+            display: flex;
+            justify-content: flex-start;
+            margin: 10px 0;
+        }
+    </style>
+    <script>
+        function showTab(tabName) {
+            document.querySelectorAll('.content').forEach(tab => tab.classList.remove('active'));
+            document.getElementById(tabName).classList.add('active');
+        }
+    </script>
+</head>
+<body>
+    <h1>Ma Journée</h1>
+    <div class="tabs">
+        <div class="tab" onclick="showTab('matin')">Le matin</div>
+        <div class="tab" onclick="showTab('midi')">Déjeuner du midi</div>
+        <div class="tab" onclick="showTab('apres')">Après l'école</div>
+        <div class="tab" onclick="showTab('diner')">Dîner</div>
+        <div class="tab" onclick="showTab('lit')">Au lit</div>
+    </div>
+    
+    <div id="matin" class="content active">
+        <div class="message-container">☀️ <span class="bubble">Je me réveille et je m'étire doucement.</span></div>
+        <div class="message-container">🪥 <span class="bubble">Je me brosse les dents et je me lave le visage.</span></div>
+        <div class="message-container">🥣 <span class="bubble">Je prends mon petit-déjeuner.</span></div>
+    </div>
+    
+    <div id="midi" class="content">
+        <div class="message-container">🍎 <span class="bubble">Je mange une collation.</span></div>
+        <div class="message-container">🥪 <span class="bubble">Je prends mon déjeuner avec mes amis.</span></div>
+        <div class="message-container">💧 <span class="bubble">Je bois de l'eau pour rester hydraté.</span></div>
+    </div>
+    
+    <div id="apres" class="content">
+        <div class="message-container">🏃 <span class="bubble">Je joue dehors avec mes copains.</span></div>
+        <div class="message-container">📖 <span class="bubble">Je fais mes devoirs et je lis un livre.</span></div>
+        <div class="message-container">🎨 <span class="bubble">Je dessine ou je fais une activité créative.</span></div>
+    </div>
+    
+    <div id="diner" class="content">
+        <div class="message-container">🍽️ <span class="bubble">Je mange le dîner avec ma famille.</span></div>
+        <div class="message-container">🗣️ <span class="bubble">Je raconte ma journée à mes parents.</span></div>
+        <div class="message-container">🍎 <span class="bubble">Je prends un dessert ou un fruit.</span></div>
+    </div>
+    
+    <div id="lit" class="content">
+        <div class="message-container">🛁 <span class="bubble">Je prends mon bain pour me détendre.</span></div>
+        <div class="message-container">📚 <span class="bubble">Je lis une histoire avant de dormir.</span></div>
+        <div class="message-container">🌙 <span class="bubble">Je ferme les yeux et je m'endors paisiblement.</span></div>
+    </div>
+</body>
+</html>

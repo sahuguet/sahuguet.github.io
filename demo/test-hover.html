@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Long Press Hover Simulation</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+        .text {
+            font-size: 24px;
+            padding: 20px;
+            border: 2px solid black;
+            user-select: none; /* Prevent text selection */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="text" id="hoverText">Long press or click me</div>
+
+    <script>
+        let timer;
+
+        const element = document.getElementById("hoverText");
+
+        element.addEventListener("touchstart", function() {
+            timer = setTimeout(function() {
+                alert("hover");
+            }, 500); // 500ms long press triggers "hover"
+        });
+
+        element.addEventListener("touchend", function() {
+            clearTimeout(timer);
+        });
+
+        element.addEventListener("click", function() {
+            alert("click");
+        });
+    </script>
+
+</body>
+</html>
