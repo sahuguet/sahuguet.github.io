@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Arrow Key Widget</title>
+    <style>
+        /* Floating Widget Styles */
+        #arrow-widget {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .arrow-btn {
+            width: 40px;
+            height: 40px;
+            margin: 5px;
+            font-size: 18px;
+            text-align: center;
+            line-height: 40px;
+            background: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .arrow-btn:hover {
+            background: lightgray;
+        }
+
+        #middle-row {
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Floating Arrow Key Widget -->
+    <div id="arrow-widget">
+        <button class="arrow-btn" onclick="simulateKey('ArrowUp')">↑</button>
+        <div id="middle-row">
+            <button class="arrow-btn" onclick="simulateKey('ArrowLeft')">←</button>
+            <button class="arrow-btn" onclick="simulateKey('ArrowDown')">↓</button>
+            <button class="arrow-btn" onclick="simulateKey('ArrowRight')">→</button>
+        </div>
+    </div>
+
+    <script>
+        function simulateKey(key) {
+            document.dispatchEvent(new KeyboardEvent('keydown', { key: key }));
+        }
+    </script>
+
+</body>
+</html>
