@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>French Speech Recognition Component</title>
+    <style>
+        speech-recognizer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 20vh;
+        }
+    </style>
+</head>
+<body>
+
+    <p>Repeat the sentence and earn some points ...</p>
+
+    <speech-recognizer target="Bonjour, comment ça va?"></speech-recognizer>
+    <speech-recognizer target="Je m'appelle Alice"></speech-recognizer>
+    <speech-recognizer target="Je m'appelle Henri"></speech-recognizer>
+    <speech-recognizer target="je veux de la mousse au chocolat"></speech-recognizer>
+
+    <script>
+        class SpeechRecognizer extends HTMLElement {
+            constructor() {
+                super();
+                this.attachShadow({ mode: 'open' });
+
+                // Target phrase from attribute
+                this.targetPhrase = this.getAttribute('target') || "Bonjour";
+
+                // Create button container
+                this.container = document.createElement('div');
+                this.container.style.position = "relative";
+                this.container.style.display = "inline-block";
+
+                // Create microphone button
+                this.button = document.createElement('button');
+                this.button.innerHTML = "🎤"; // Microphone emoji
+                this.button.style.fontSize = "24px"; // Smaller size
+                this.button.style.padding = "10px";
+                this.button.style.width = "50px";
+                this.button.style.height = "50px";
+                this.button.style.border = "none";
+                this.button.style.borderRadius = "50%";
+                this.button.style.cursor = "pointer";
+                this.button.style.backgroundColor = "#888";
+                this.button.style.transition = "background-color 0.3s";
+
+                // Create tooltip (hidden by default)
+                this.tooltip = document.createElement('div');
+                this.tooltip.innerText = this.targetPhrase;
+                this.tooltip.style.position = "absolute";
+                this.tooltip.style.bottom = "60px";
+                this.tooltip.style.left = "50%";
+                this.tooltip.style.transform = "translateX(-50%)";
+                this.tooltip.style.backgroundColor = "black";
+                this.tooltip.style.color = "white";
+                this.tooltip.style.padding = "5px 10px";
+                this.tooltip.style.borderRadius = "5px";
+                this.tooltip.style.fontSize = "14px";
+                this.tooltip.style.whiteSpace = "nowrap";
+                this.tooltip.style.visibility = "hidden";
+                this.tooltip.style.opacity = "0";
+                this.tooltip.style.transition = "opacity 0.3s ease-in-out";
+
+                // Append elements
+                this.container.appendChild(this.button);
+                this.container.appendChild(this.tooltip);
+                this.shadowRoot.appendChild(this.container);
+
+                // Initialize Speech Recognition
+                this.recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+                this.recognition.lang = "fr-FR"; // French language
+                this.recognition.continuous = false;
+                this.recognition.interimResults = false;
+
+                // Event listeners
+                this.button.addEventListener('click', () => this.startListening());
+                this.recognition.onresult = (event) => this.handleResult(event);
+                this.recognition.onerror = () => this.button.style.backgroundColor = "red";
+
+                // Show tooltip on hover
+                this.button.addEventListener('mouseover', () => {
+                    this.tooltip.style.visibility = "visible";
+                    this.tooltip.style.opacity = "1";
+                });
+
+                // Hide tooltip when not hovering
+                this.button.addEventListener('mouseout', () => {
+                    this.tooltip.style.visibility = "hidden";
+                    this.tooltip.style.opacity = "0";
+                });
+            }
+
+            startListening() {
+                this.button.style.backgroundColor = "yellow"; // Indicate recording
+                this.recognition.start();
+            }
+
+            handleResult(event) {
+                const transcript = this.normalizeText(event.results[0][0].transcript);
+                const target = this.normalizeText(this.targetPhrase);
+
+                if (transcript === target) {
+                    this.button.style.backgroundColor = "green";
+                } else {
+                    this.button.style.backgroundColor = "red";
+                }
+
+                console.log("Recognized:", transcript);
+                console.log("Target:", target);
+            }
+
+            normalizeText(text) {
+                return text
+                    .toLowerCase()
+                    .normalize("NFD") // Decomposes accents (é → e)
+                    .replace(/[\u0300-\u036f]/g, "") // Removes accent marks
+                    .replace(/[.,?!'"\-]/g, "") // Removes punctuation
+                    .trim();
+            }
+        }
+
+        customElements.define('speech-recognizer', SpeechRecognizer);
+    </script>
+</body>
+</html>

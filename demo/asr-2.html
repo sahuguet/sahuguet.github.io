@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>French Speech Recognition</title>
+    <script src="EzSpeak.js"></script>
+</head>
+<body>
+    <h1>French Speech Recognition Practice</h1>
+    
+    <p>
+        Click on the 🎤 button, say the sentence that appears when you hover over it, 
+        and see if you pronounced it correctly! If you say the phrase correctly, the button 
+        turns green. If it's incorrect, it turns red. The recognized text will be briefly displayed.
+    </p>
+
+    <h2>Try these sentences:</h2>
+
+    <ul>
+        <li><ez-speak lang="fr-FR" rate="0.4" voice="Amélie">
+            Je voudrais jouer à Pokémon go
+            </ez-speak><speech-recognizer target="Je voudrais jouer à Pokémon go"></speech-recognizer> (General greeting)</li>
+        <li><speech-recognizer target="Je voudrais un chocolat s'il vous plaît"></speech-recognizer> (Ordering coffee)</li>
+        <li><speech-recognizer target="Où est la gare la plus proche?"></speech-recognizer> (Asking for directions)</li>
+        <li><speech-recognizer target="Quelle heure est-il?"></speech-recognizer> (Asking for the time)</li>
+        <li><speech-recognizer target="Il fait beau aujourd'hui"></speech-recognizer> (Talking about the weather)</li>
+        <li><speech-recognizer target="J'aime écouter de la musique"></speech-recognizer> (Talking about hobbies)</li>
+        <li><speech-recognizer target="Pouvez-vous répéter s'il vous plaît?"></speech-recognizer> (Asking someone to repeat)</li>
+        <li><speech-recognizer target="Où se trouve la boulangerie?"></speech-recognizer> (Finding a bakery)</li>
+        <li><speech-recognizer target="Alice aime lire des histoires"></speech-recognizer> (Sentence for Alice) 📚</li>
+        <li><speech-recognizer target="Henri court très vite"></speech-recognizer> (Sentence for Henri) 🏃</li>
+    </ul>
+
+    <script>
+        class SpeechRecognizer extends HTMLElement {
+            constructor() {
+                super();
+                this.attachShadow({ mode: 'open' });
+
+                // Define component template
+                this.shadowRoot.innerHTML = `
+                    <style>
+                        .container {
+                            position: relative;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: left;
+                            text-align: left;
+                            font-family: Arial, sans-serif;
+                            margin: 10px;
+                        }
+                        .button {
+                            font-size: 24px;
+                            padding: 10px;
+                            width: 50px;
+                            height: 50px;
+                            border: none;
+                            border-radius: 50%;
+                            cursor: pointer;
+                            background-color: #888;
+                            transition: background-color 0.3s;
+                        }
+                        .tooltip {
+                            position: absolute;
+                            bottom: 70px;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            background-color: black;
+                            color: white;
+                            padding: 5px 10px;
+                            border-radius: 5px;
+                            font-size: 14px;
+                            white-space: nowrap;
+                            opacity: 0;
+                            transition: opacity 0.3s ease-in-out;
+                            pointer-events: none;
+                        }
+                        .container:hover .tooltip {
+                            opacity: 1;
+                        }
+                        .result-tooltip {
+                            position: absolute;
+                            top: 60px;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            background-color: #222;
+                            color: white;
+                            padding: 5px 10px;
+                            border-radius: 5px;
+                            font-size: 14px;
+                            white-space: nowrap;
+                            visibility: hidden;
+                            opacity: 0;
+                            transition: opacity 0.5s ease-in-out;
+                        }
+                    </style>
+                    <div class="container">
+                        <div class="tooltip"></div>
+                        <button class="button">🎤</button>
+                        <div class="result-tooltip"></div>
+                    </div>
+                `;
+
+                // Get elements
+                this.button = this.shadowRoot.querySelector('.button');
+                this.tooltip = this.shadowRoot.querySelector('.tooltip');
+                this.resultTooltip = this.shadowRoot.querySelector('.result-tooltip');
+
+                // Set target phrase
+                this.targetPhrase = this.getAttribute('target') || "Bonjour";
+                this.tooltip.textContent = `Say: "${this.targetPhrase}"`; // Tooltip shows target sentence
+
+                // Initialize Speech Recognition
+                this.recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+                this.recognition.lang = "fr-FR"; // French language
+                this.recognition.continuous = false;
+                this.recognition.interimResults = false;
+
+                // Event listeners
+                this.button.addEventListener('click', () => this.startListening());
+                this.recognition.onresult = (event) => this.handleResult(event);
+                this.recognition.onerror = () => this.handleError();
+            }
+
+            startListening() {
+                this.button.style.backgroundColor = "yellow"; // Indicate recording
+                this.resultTooltip.style.visibility = "hidden"; // Hide previous result
+                this.resultTooltip.style.opacity = "0";
+                this.recognition.start();
+            }
+
+            handleResult(event) {
+                const transcript = this.normalizeText(event.results[0][0].transcript);
+                const target = this.normalizeText(this.targetPhrase);
+
+                if (transcript === target) {
+                    this.button.style.backgroundColor = "green";
+                } else {
+                    this.button.style.backgroundColor = "red";
+                }
+
+                // Show recognized text in tooltip
+                this.resultTooltip.textContent = `You said: "${event.results[0][0].transcript}"`;
+                this.resultTooltip.style.visibility = "visible";
+                this.resultTooltip.style.opacity = "1";
+
+                console.log("Recognized:", transcript);
+                console.log("Target:", target);
+
+                // Hide result and reset after 3 seconds
+                setTimeout(() => {
+                    this.resultTooltip.style.visibility = "hidden";
+                    this.resultTooltip.style.opacity = "0";
+                    this.button.style.backgroundColor = "#888"; // Reset to grey
+                }, 3000);
+            }
+
+            handleError() {
+                this.button.style.backgroundColor = "red";
+
+                // Reset after 3 seconds
+                setTimeout(() => {
+                    this.button.style.backgroundColor = "#888";
+                }, 3000);
+            }
+
+            normalizeText(text) {
+                return text
+                    .toLowerCase()
+                    .normalize("NFD") // Decomposes accents (é → e)
+                    .replace(/[\u0300-\u036f]/g, "") // Removes accent marks
+                    .replace(/[.,?!'"\-]/g, "") // Removes punctuation
+                    .trim();
+            }
+        }
+
+        customElements.define('speech-recognizer', SpeechRecognizer);
+    </script>
+</body>
+</html>
