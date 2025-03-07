@@ -5,7 +5,7 @@
   <title>French TTS Demo</title>
 </head>
 <body>
-  <h1>French TTS Demo</h1>
+  <h1>French/English/Japanese TTS Demo</h1>
 
   <!-- Text input for the message -->
   <label for="messageInput">Enter your message:</label>
@@ -20,8 +20,9 @@
     function createFrenchVoiceLinks() {
       const allVoices = speechSynthesis.getVoices() || [];
       // Filter voices for those whose language starts with "fr"
-      const frenchVoices = allVoices.filter(voice => (voice.lang.toLowerCase().startsWith('en') || voice.lang.toLowerCase().startsWith('fr')));
-
+      //const frenchVoices = allVoices.filter(voice => (voice.lang.toLowerCase().startsWith('en') || voice.lang.toLowerCase().startsWith('fr')));
+      const voiceOfInterest = ['fr', 'en', 'ja'];
+      const frenchVoices = allVoices.filter(voice => voiceOfInterest.includes(voice.lang.slice(0,2).toLowerCase()) );
       const container = document.getElementById('frenchVoices');
       container.innerHTML = ''; // Clear "Loading" text
 
