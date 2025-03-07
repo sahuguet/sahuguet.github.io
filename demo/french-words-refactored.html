@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>French Words</title>
+
+    <script src="SpeechSpeedSlider.js"></script>
+    <script src="ArrowKeyWidget.js"></script>
+    <script src="EzSpeak.js"></script>
+
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #content {
+            text-align: center;
+            max-width: 400px;
+            border: 2px solid red;
+        }
+
+        #emoji {
+            font-size: 4rem;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+
+        #word {
+            font-size: 1.5rem;
+            margin: 10px 0;
+            cursor: pointer;
+        }
+
+        #sentence {
+            margin: 10px 0;
+            cursor: pointer;
+            font-size: 1rem;
+            min-height: 1.5em;
+            /* Just to keep a bit of space even if empty */
+        }
+
+        #pokemon-img {
+            width: 25%;
+        }
+
+        .navigation-info {
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        #log {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <div><speech-speed-slider default="0.4"></speech-speed-slider></div>
+    <div><arrow-key-widget></arrow-key-widget></div>
+
+    <div id="content">
+        <div id="emoji"></div>
+        <div id="word"></div>
+        <div id="sentence"></div>
+        <div id="pokemon"><img id="pokemon-img" src="" /></div>
+        <!--
+        <div class="navigation-info">
+            <p>Use LEFT/RIGHT arrow keys to switch words.</p>
+            <p>Use UP/DOWN arrow keys to switch sentences.</p>
+            <p>Click on the word or sentence to hear it spoken.</p>
+        </div>
+    </div>
+-->
+        <div>
+            <textarea id="log" rows="10" cols="50"></textarea>
+        </div>
+
+        <script>
+
+            let speechSpeed = document.querySelector('speech-speed-slider').getAttribute('default', 1.0);
+
+            window.addEventListener('speed-change', (event) => {
+                console.log(event.detail.speed);
+                speechSpeed = event.detail.speed;
+                updateUI();
+            });
+
+            function log(msg) {
+                document.getElementById('log').value += msg + '\n';
+            }
+
+            function listVoices() {
+                const voices = speechSynthesis.getVoices();
+
+                // If no voices are loaded yet (in Safari, it may be empty at first), try again
+                if (!voices.length) {
+                    setTimeout(listVoices, 100);
+                    return;
+                }
+
+                // Now that voices are available, log them or display them
+                console.log('Available voices:');
+                voices.forEach((voice, index) => {
+                    if (voice.lang === 'fr-FR') {
+                        log(`${index}: ${voice.name} (${voice.lang})`);
+                    }
+                });
+            }
+
+            // First attempt to get voices
+            listVoices();
+
+            speechSynthesis.onvoiceschanged = () => {
+                log('Voices changed');
+                const voices = speechSynthesis.getVoices();
+                log(`${voices.length} voices available.`);
+                const fr_voices = voices.filter(v => v.lang === 'fr-FR').map(v => v.name);
+                log(`voices available: ${fr_voices.join(" | ")}`);
+            };
+
+            // Seeded Random Number Generator (LCG - Linear Congruential Generator)
+            function seededRandomGenerator(seed) {
+                let state = seed % 2147483647; // Large prime number to keep numbers large
+
+                return function () {
+                    state = (state * 16807) % 2147483647; // LCG formula
+                    return state / 2147483647; // Normalize to range [0, 1)
+                };
+            }
+
+            function shuffleArray(array) {
+                for (let i = array.length - 1; i > 0; i--) {
+                    const j = Math.floor(seededRandomGenerator(12345)() * (i + 1));  // pick a random index
+                    // swap elements array[i] and array[j]
+                    [array[i], array[j]] = [array[j], array[i]];
+                }
+                return array;
+            }
+
+            // Parse the JSON data from the inline script
+            // const data = JSON.parse(document.getElementById('data').textContent);
+            // Fetch the JSON data from a local file
+            var data = null;
+            fetch('pokemon-fr-1.json')
+                .then(response => response.json())
+                .then(json => {
+                    console.log('Loaded JSON data');
+                    data = shuffleArray(json);
+                    updateUI(); // Once data is loaded, initialize the UI
+                })
+                .catch(err => {
+                    console.error('Error loading JSON:', err);
+                });
+
+            //  console.log("getvoices: ", speechSynthesis.getVoices());
+            //  const voice = speechSynthesis.getVoices().find(v => v.lang === 'fr-FR');
+            //  console.log("voice=", voice);
+
+            let currentWordIndex = 0;
+            let currentSentenceIndex = 0;
+
+            // Elements
+            const emojiEl = document.getElementById('emoji');
+            const wordEl = document.getElementById('word');
+            const sentenceEl = document.getElementById('sentence');
+            const pokemonImg = document.getElementById('pokemon-img');
+
+            // Initialize display
+            // updateUI();
+
+            // Keyboard navigation
+            document.addEventListener('keydown', (event) => {
+                switch (event.key) {
+                    case 'ArrowLeft':
+                        // Previous word
+                        if (currentWordIndex > 0) {
+                            currentWordIndex--;
+                            currentSentenceIndex = 0; // Reset sentence index
+                            updateUI();
+                        }
+                        break;
+                    case 'ArrowRight':
+                        // Next word
+                        if (currentWordIndex < data.length - 1) {
+                            currentWordIndex++;
+                            currentSentenceIndex = 0; // Reset sentence index
+                            updateUI();
+                        }
+                        break;
+                    case 'ArrowUp':
+                        // Previous sentence
+                        if (currentSentenceIndex > 0) {
+                            currentSentenceIndex--;
+                            updateUI();
+                        }
+                        break;
+                    case 'ArrowDown':
+                        // Next sentence
+                        if (currentSentenceIndex < data[currentWordIndex].sentences.length - 1) {
+                            currentSentenceIndex++;
+                            updateUI();
+                        }
+                        break;
+                }
+            });
+
+            // Update UI based on current indices
+            function updateUI() {
+                const currentItem = data[currentWordIndex];
+                emojiEl.textContent = currentItem.emoji;
+                //wordEl.textContent = currentItem.word;
+                wordEl.innerHTML = `<ez-speak lang="fr-FR" rate="${speechSpeed}" voice="Amélie">${currentItem.word}</ez-speak>`;
+                sentenceEl.innerHTML = `<ez-speak lang="fr-FR" rate="${speechSpeed}" voice="Amélie">${currentItem.sentences[currentSentenceIndex].replace(/<[^>]*>/g, '')}</ez-speak>`;
+                pokemonImg.src = data[currentWordIndex].img;
+            }
+
+
+            function getFrenchVoice() {
+                return speechSynthesis.getVoices().find(v => v.name === 'Amélie');
+            }
+
+            function getEnglishVoice() {
+                return speechSynthesis.getVoices().find(v => v.name === 'Samantha');
+            }
+        </script>
+
+</body>
+
+</html>

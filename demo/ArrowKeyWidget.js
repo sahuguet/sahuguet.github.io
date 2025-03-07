@@ -9,7 +9,7 @@ class ArrowKeyWidget extends HTMLElement {
                 /* Floating Widget Styles */
                 #arrow-widget {
                     position: fixed;
-                    bottom: 20px;
+                    top: 20px;
                     right: 20px;
                     display: flex;
                     flex-direction: column;
