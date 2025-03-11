@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>La Cuisine</title>
+    <script async="false">
+        const scripts = ['EzSpeak.js', 'SpeechRecognitionComponent.js', 'RepeatSentenceComponent.js'];
+  scripts.forEach(src => {
+    const script = document.createElement('script');
+    script.src = `${src}?v=${Math.random()}`;
+    script.async = false;
+    document.head.appendChild(script);
+  });
+
+  function log(...msg) {
+        const logArea = document.getElementById("log");
+        if (logArea) {
+            const message = msg.map(arg => typeof arg === 'object' ? JSON.stringify(arg) : arg).join(' ');
+            logArea.value += message + "\n";
+            logArea.scrollTop = logArea.scrollHeight;
+        }   else {
+        console.log(msg);
+    }
+  }
+    </script>
+    <style>
+         li {
+            list-style: none;
+            margin-bottom: 20px;
+         }
+    </style>
+</head>
+
+<body>
+<h1><ez-speak>La Salle de bain</ez-speak></h1>
+
+<div>
+    <ul id="content">
+    </ul>
+</div>
+
+<div><textarea cols=50 rows=20 id="log"></textarea></div>
+
+
+<script>
+const content = `Avant de faire pipi, je soulève le siège des toilettes.
+Quand j'ai fini, je tire la chasse et je me lave les mains.
+
+Je prends un bain.
+Je prends une douche.
+Je me lave avec du savon.
+Je me lave les cheveux avec du shampoing.
+
+Prendre un bain
+
+Se laver
+
+Je me brosse les dents.
+Je mets du dentifrice sur ma brosse-à-dents.
+Je me brosse les dents le matin.
+Je me brosse les dents le soir.`.split('\n');
+
+content.forEach((sentence, index) => {
+    if (sentence.trim() === '') {
+        return;
+    }
+    const repeatSentence = document.createElement('repeat-sentence');
+    const li = document.createElement('li');
+    li.appendChild(repeatSentence);
+    repeatSentence.innerHTML = sentence;
+    const content = document.getElementById('content');
+    content.appendChild(li);
+});
+</script
+
+</body>
+</html> 

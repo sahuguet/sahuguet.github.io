@@ -84,7 +84,7 @@ class SpeechRecognitionComponent extends HTMLElement {
 
      <div class="container">
     <div class="tooltip"></div>
-    <button class="button" id="mic" title="Start Listening">
+    <button class="button" id="mic" title="Click to start recording ...">
         <svg id="mic-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 1 0 6 0V5a3 3 0 0 0-3-3zm5 10a5 5 0 1 1-10 0V5a5 5 0 1 1 10 0v7zM5 11h2v1a5 5 0 0 0 10 0v-1h2v1a7 7 0 0 1-6 6.92V21h3v2H8v-2h3v-2.08A7 7 0 0 1 5 12v-1z"/>
         </svg>
@@ -154,6 +154,7 @@ class SpeechRecognitionComponent extends HTMLElement {
                     .toLowerCase()
                     .normalize("NFD") // Decomposes accents (é → e)
                     .replace(/[\u0300-\u036f]/g, "") // Removes accent marks
+                    .replace(/[\-]/g, " ") // Removes punctuation
                     .replace(/[.,?!'"\-]/g, "") // Removes punctuation
                     .trim();
             }
