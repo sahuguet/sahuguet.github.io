@@ -37,7 +37,7 @@
             const recognition = new SpeechRecognition();
             recognition.continuous = false;
             recognition.interimResults = true;
-            recognition.lang = 'en-US';
+            recognition.lang = 'fr-FR';
 
             recognition.onresult = (event) => {
                 const transcript = Array.from(event.results)
@@ -45,6 +45,10 @@
                     .join('');
                 document.getElementById('result').innerText = transcript;
             };
+
+            recognition.addEventListener("audiostart", () => {
+                console.log("Audio capturing started");
+            });
 
             recognition.onerror = (event) => {
                 console.error('Speech recognition error:', event.error);

@@ -45,9 +45,9 @@ class EzSpeak extends HTMLElement {
     if (!text) return;
     console.log("To be TTS-ed", text);
     const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = this.getAttribute("lang") || "en-US";
-    utterance.rate = parseFloat(this.getAttribute("rate")) || 1.0;
-    const voiceName = this.getAttribute("voice");
+    utterance.lang = this.getAttribute("lang") || "fr-FR";
+    utterance.rate = parseFloat(this.getAttribute("rate")) || 0.4;
+    const voiceName = this.getAttribute("voice") || "Thomas";
 
     if (voiceName) {
       const voices = this.synth.getVoices();

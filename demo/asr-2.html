@@ -1,69 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>French Speech Recognition</title>
     <script src="EzSpeak.js"></script>
 </head>
+
 <body>
     <h1>French Speech Recognition Practice</h1>
-    
+
     <p>
-        Click on the 🎤 button, say the sentence that appears when you hover over it, 
-        and see if you pronounced it correctly! If you say the phrase correctly, the button 
+        Click on the 🎤 button, say the sentence that appears when you hover over it,
+        and see if you pronounced it correctly! If you say the phrase correctly, the button
         turns green. If it's incorrect, it turns red. The recognized text will be briefly displayed.
     </p>
 
     <h2>Try these sentences:</h2>
 
     <ul>
-        <li><ez-speak lang="fr-FR" rate="0.4" voice="Thomas">
-            Je voudrais de la mousse au chocolat
-            </ez-speak><speech-recognizer target="Je voudrais de la mousse au chocolat"></speech-recognizer> (General greeting)</li>
-        <li><speech-recognizer target="Je voudrais un chocolat s'il vous plaît"></speech-recognizer> (Ordering coffee)</li>
-        <li><speech-recognizer target="Où est la gare la plus proche?"></speech-recognizer> (Asking for directions)</li>
-        <li><speech-recognizer target="Quelle heure est-il?"></speech-recognizer> (Asking for the time)</li>
-        <li><speech-recognizer target="Il fait beau aujourd'hui"></speech-recognizer> (Talking about the weather)</li>
-        <li><speech-recognizer target="J'aime écouter de la musique"></speech-recognizer> (Talking about hobbies)</li>
-        <li><speech-recognizer target="Pouvez-vous répéter s'il vous plaît?"></speech-recognizer> (Asking someone to repeat)</li>
-        <li><speech-recognizer target="Où se trouve la boulangerie?"></speech-recognizer> (Finding a bakery)</li>
-        <li><speech-recognizer target="Alice aime lire des histoires"></speech-recognizer> (Sentence for Alice) 📚</li>
-        <li><speech-recognizer target="Henri court très vite"></speech-recognizer> (Sentence for Henri) 🏃</li>
+        <!-- Full sentence pronunciation -->
+        <li><ez-speak>Je voudrais de la mousse au chocolat.</ez-speak></li>
+        <li><speech-recognizer target="Je voudrais de la mousse au chocolat."></speech-recognizer></li>
     </ul>
+   
+    <div>
+        <textarea id="log" rows="10" cols="50"></textarea>
+    </div>
 
     <script>
+
+        function log(msg) {
+            const logArea = document.getElementById("log");
+            logArea.value += msg + "\n";
+            logArea.scrollTop = logArea.scrollHeight;
+        }
+
         class SpeechRecognizer extends HTMLElement {
             constructor() {
                 super();
                 this.attachShadow({ mode: 'open' });
 
+                this.targetPhrase = this.getAttribute('target') || "Bonjour";
                 // Define component template
                 this.shadowRoot.innerHTML = `
                     <style>
-                        .container {
-                            position: relative;
-                            display: flex;
-                            flex-direction: column;
-                            align-items: left;
-                            text-align: left;
-                            font-family: Arial, sans-serif;
-                            margin: 10px;
-                        }
+                            .container {
+                                position: relative;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: left;
+                                text-align: left;
+                                font-family: Arial, sans-serif;
+                                margin: 5px;
+                            }
                         .button {
-                            font-size: 24px;
-                            padding: 10px;
-                            width: 50px;
-                            height: 50px;
+                            font-size: 12px;
+                            padding: 5px;
+                            width: 20px;
+                            height: 20px;
                             border: none;
                             border-radius: 50%;
                             cursor: pointer;
-                            background-color: #888;
+                            background-color: lightgrey;
                             transition: background-color 0.3s;
                         }
                         .tooltip {
                             position: absolute;
-                            bottom: 70px;
+                            bottom: 20px;
                             left: 50%;
                             transform: translateX(-50%);
                             background-color: black;
@@ -81,7 +86,7 @@
                         }
                         .result-tooltip {
                             position: absolute;
-                            top: 60px;
+                            top: 20px;
                             left: 50%;
                             transform: translateX(-50%);
                             background-color: #222;
@@ -97,7 +102,10 @@
                     </style>
                     <div class="container">
                         <div class="tooltip"></div>
-                        <button class="button">🎤</button>
+                        
+                        <button class="button"><svg id="mic-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 1 0 6 0V5a3 3 0 0 0-3-3zm5 10a5 5 0 1 1-10 0V5a5 5 0 1 1 10 0v7zM5 11h2v1a5 5 0 0 0 10 0v-1h2v1a7 7 0 0 1-6 6.92V21h3v2H8v-2h3v-2.08A7 7 0 0 1 5 12v-1z"/>
+        </svg></button>
                         <div class="result-tooltip"></div>
                     </div>
                 `;
@@ -113,24 +121,71 @@
 
                 // Initialize Speech Recognition
                 this.recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+                if (this.recognition == null) {
+                    console.error("Speech Recognition not supported");
+                    alert("Speech Recognition not supported");
+                    return;
+                }
                 this.recognition.lang = "fr-FR"; // French language
                 this.recognition.continuous = false;
-                this.recognition.interimResults = false;
+                this.recognition.interimResults = true;
+
+//                this.recognition.addEventListener("audiostart", () => {
+//                alert("Audio capturing started");
+//            });
+
+                let clickTimeout = null;
 
                 // Event listeners
-                this.button.addEventListener('click', () => this.startListening());
+                this.button.addEventListener('click', () => {
+                    log("Clicked");
+                    log(this.recognition)
+                    this.recognition.start();
+/*                    console.log("click");
+                    if (this.clickTimeout != null) { return; }
+                    this.clickTimeout = setTimeout(() => {
+                        console.log("inside timeout")
+                        this.startListening();
+                    }, 500); // Small delay to check for double-click
+                    console.log("clickTimeout", this.clickTimeout);
+*/
+                });
+
+                this.button.addEventListener('dblclick', () => {
+                    console.log("dblckick");
+                    console.log("clickTimeout to cancel", this.clickTimeout);
+                    clearTimeout(this.clickTimeout);
+                    this.cancelListening();
+                    this.clickTimeout = null;
+                });
+
                 this.recognition.onresult = (event) => this.handleResult(event);
-                this.recognition.onerror = () => this.handleError();
+                this.recognition.onerror = (event) => this.handleError(event);
+                this.recognition.onaudiostart = () => this.log("Audio capturing started.");
+        this.recognition.onsoundstart = () => this.log("Sound detected.");
+        this.recognition.onspeechstart = () => this.log("Speech detected.");
+        this.recognition.onspeechend = () => this.log("Speech has ended.");
+        this.recognition.onsoundend = () => this.log("Sound has stopped.");
+        this.recognition.onaudioend = () => this.log("Audio capturing ended.");
+            }
+
+            cancelListening() {
+                this.recognition.abort();
+                this.button.style.backgroundColor = "lightgrey"; // Reset to grey
+                this.resultTooltip.style.visibility = "hidden";
+                this.resultTooltip.style.opacity = "0";
             }
 
             startListening() {
+                log("start");
                 this.button.style.backgroundColor = "yellow"; // Indicate recording
                 this.resultTooltip.style.visibility = "hidden"; // Hide previous result
                 this.resultTooltip.style.opacity = "0";
-                this.recognition.start();
+                //this.recognition.start();
             }
 
             handleResult(event) {
+                alert(result);
                 const transcript = this.normalizeText(event.results[0][0].transcript);
                 const target = this.normalizeText(this.targetPhrase);
 
@@ -152,16 +207,17 @@
                 setTimeout(() => {
                     this.resultTooltip.style.visibility = "hidden";
                     this.resultTooltip.style.opacity = "0";
-                    this.button.style.backgroundColor = "#888"; // Reset to grey
+                    this.button.style.backgroundColor = "lightgrey"; // Reset to grey
                 }, 3000);
             }
 
-            handleError() {
+            handleError(event) {
+                alert("error" + event.error);
                 this.button.style.backgroundColor = "red";
 
                 // Reset after 3 seconds
                 setTimeout(() => {
-                    this.button.style.backgroundColor = "#888";
+                    this.button.style.backgroundColor = "lightgrey";
                 }, 3000);
             }
 
@@ -178,4 +234,5 @@
         customElements.define('speech-recognizer', SpeechRecognizer);
     </script>
 </body>
+
 </html>

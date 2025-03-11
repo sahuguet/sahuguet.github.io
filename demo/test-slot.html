@@ -1,0 +1,28 @@
+<html>
+    <body>
+    <script>
+        class WB1 extends HTMLElement {
+          constructor() {
+            super();
+            const shadow = this.attachShadow({ mode: 'open' });
+            const span = document.createElement('span');
+            const slot = document.createElement('slot');
+      
+            slot.addEventListener('slotchange', () => {
+              const assignedNodes = slot.assignedNodes({ flatten: true }).filter(node => node.nodeType === Node.TEXT_NODE);
+              const value = assignedNodes.map(node => node.textContent).join('').trim();
+              span.setAttribute('val', value);
+              span.textContent = value;
+            });
+      
+            span.appendChild(slot);
+            shadow.appendChild(span);
+          }
+        }
+      
+        customElements.define('wb1-component', WB1);
+      </script>
+      
+      <wb1-component>my value</wb1-component>
+    </body>
+</html>
