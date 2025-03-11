@@ -17,7 +17,7 @@ class EzSpeak extends HTMLElement {
         }
         .highlight {
           font-weight: bold;
-          color: red;
+          font-color: red;
         }
       </style>
       <div><slot></slot></div>

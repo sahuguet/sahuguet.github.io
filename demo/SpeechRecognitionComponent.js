@@ -39,8 +39,8 @@ class SpeechRecognitionComponent extends HTMLElement {
     .button {
         font-size: 12px;
         padding: 5px;
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
         border: 1px solid #ccc;
         border-radius: 50%;
         cursor: pointer;

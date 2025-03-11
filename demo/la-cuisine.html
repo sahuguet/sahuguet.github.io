@@ -3,10 +3,26 @@
 <head>
     <meta charset="utf-8">
     <title>La Cuisine</title>
-    <script src="CircularImg.js"></script>
-    <script src="EzSpeak.js"></script>
-    <script src="SpeechRecognitionComponent.js"></script>
-    <script src="RepeatSentenceComponent.js"></script>
+    <script async="false">
+        const scripts = ['EzSpeak.js', 'SpeechRecognitionComponent.js', 'RepeatSentenceComponent.js'];
+  scripts.forEach(src => {
+    const script = document.createElement('script');
+    script.src = `${src}?v=${Math.random()}`;
+    script.async = false;
+    document.head.appendChild(script);
+  });
+
+  function log(...msg) {
+        const logArea = document.getElementById("log");
+        if (logArea) {
+            const message = msg.map(arg => typeof arg === 'object' ? JSON.stringify(arg) : arg).join(' ');
+            logArea.value += message + "\n";
+            logArea.scrollTop = logArea.scrollHeight;
+        }   else {
+        console.log(msg);
+    }
+  }
+    </script>
     <style>
          li {
             list-style: none;
