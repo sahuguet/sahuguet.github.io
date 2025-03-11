@@ -10,7 +10,7 @@ class SpeechRecognitionComponent extends HTMLElement {
 
     attributeChangedCallback(name, oldValue, newValue) {
         if (name === 'sentence') {
-        console.log("sentence changed from", oldValue, "to", newValue);
+        log("sentence changed from", oldValue, "to", newValue);
         this.updateSentence(newValue);
     }
 }
@@ -101,7 +101,7 @@ class SpeechRecognitionComponent extends HTMLElement {
 
     connectedCallback() {
         this.sentence = this.getAttribute('sentence') || "Bonjour";
-        console.log("sentence", this.sentence);
+        log("sentence", this.sentence);
         this.tooltip = this.shadowRoot.querySelector('.tooltip');
         this.tooltip.textContent = `Say: "${this.sentence}"`; // Tooltip shows target sentence
         this.resultTooltip = this.shadowRoot.querySelector('.result-tooltip');
@@ -128,21 +128,21 @@ class SpeechRecognitionComponent extends HTMLElement {
     }
 
     setupListeners() {
-        this.recognition.onaudiostart = () => this.log("Audio capturing started.");
-        this.recognition.onsoundstart = () => this.log("Sound detected.");
-        this.recognition.onspeechstart = () => this.log("Speech detected.");
-        this.recognition.onspeechend = () => this.log("Speech has ended.");
-        this.recognition.onsoundend = () => this.log("Sound has stopped.");
-        this.recognition.onaudioend = () => this.log("Audio capturing ended.");
+        this.recognition.onaudiostart = () => log("Audio capturing started.");
+        this.recognition.onsoundstart = () => log("Sound detected.");
+        this.recognition.onspeechstart = () => log("Speech detected.");
+        this.recognition.onspeechend = () => log("Speech has ended.");
+        this.recognition.onsoundend = () => log("Sound has stopped.");
+        this.recognition.onaudioend = () => log("Audio capturing ended.");
         this.recognition.onresult = (event) => this.handleResult(event);
-        this.recognition.onnomatch = () => this.log("No speech match found.");
-        this.recognition.onerror = (event) => this.log(`Speech recognition error: ${event.error}`);
-        this.recognition.onend = () => this.log("Speech recognition service has stopped.");
+        this.recognition.onnomatch = () => log("No speech match found.");
+        this.recognition.onerror = (event) => log(`Speech recognition error: ${event.error}`);
+        this.recognition.onend = () => log("Speech recognition service has stopped.");
     }
 
     startRecognition() {
         if (!this.recognition) {
-            this.log("Speech recognition not supported.");
+            log("Speech recognition not supported.");
             return;
         }
         this.recognition.start();
@@ -161,20 +161,25 @@ class SpeechRecognitionComponent extends HTMLElement {
 
     handleResult(event) {
         log(event.results[0][0].transcript);
-        console.log(event.results);
+        log(event.results);
         const transcript = this.normalizeText(event.results[0][0].transcript);
         const target = this.normalizeText(this.sentence);
 
+        log("Recognized:", transcript);
+        log("Target:", target);
+
         if (transcript === target) {
-            this.log("Match found!");
+            log("Match found!");
             this.mic.style.backgroundColor = this.MATCH;
             const audio = new Audio("audio/win.wav");
             audio.play();
+            log("Audio played.");
         } else {
-            this.log("No match found.");
+            log("No match found.");
             this.mic.style.backgroundColor = this.NOMATCH;
             const audio = new Audio("audio/fail.wav");
             audio.play();
+            log("Audio played.");
         }
         this.recognition.stop();
 
@@ -183,8 +188,6 @@ class SpeechRecognitionComponent extends HTMLElement {
         this.resultTooltip.style.visibility = "visible";
         this.resultTooltip.style.opacity = "1";
 
-        log("Recognized:", transcript);
-        log("Target:", target);
 
         // Hide result and reset after 3 seconds
         setTimeout(() => {
