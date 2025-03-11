@@ -1,14 +1,3 @@
-
-    function log(msg) {
-        const logArea = document.getElementById("log");
-        if (logArea) {
-        logArea.value += msg + "\n";
-        logArea.scrollTop = logArea.scrollHeight;
-    }   else {
-        console.log(msg);
-    }
-}
-
 class SpeechRecognitionComponent extends HTMLElement {
     IDLE = "lightgrey"
     LISTENING = "yellow";

@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>La Cuisine</title>
+    <script async="false">
+        const scripts = ['EzSpeak.js', 'SpeechRecognitionComponent.js', 'RepeatSentenceComponent.js'];
+  scripts.forEach(src => {
+    const script = document.createElement('script');
+    script.src = `${src}?v=${Math.random()}`;
+    script.async = false;
+    document.head.appendChild(script);
+  });
+
+  function log(...msg) {
+        const logArea = document.getElementById("log");
+        if (logArea) {
+            const message = msg.map(arg => typeof arg === 'object' ? JSON.stringify(arg) : arg).join(' ');
+            logArea.value += message + "\n";
+            logArea.scrollTop = logArea.scrollHeight;
+        }   else {
+        console.log(msg);
+    }
+  }
+    </script>
+    <style>
+         li {
+            list-style: none;
+            margin-bottom: 20px;
+         }
+    </style>
+</head>
+
+<body>
+<h1><ez-speak>La Cuisine</ez-speak></h1>
+
+<div><textarea cols=50 rows=20 id="log"></textarea></div>
+
+
+<repeat-sentence>Je mange</repeat-sentence>
+
+
+<ez-speak>La cuisine, c'est là où on mange. C'est là où on prépare à manger.
+</ez-speak>
+
+<repeat-sentence>la cuisine</repeat-sentence>
+
+<ul>
+
+<li><circular-image url="img/dishwasher.png" size="100" alt="dishwasher"></circular-image>
+<br/>
+<ez-speak>Le lave vaisselle</ez-speak>
+<br/>
+<ez-speak>Quand j'ai fini de manger, je mets mon assiette sale dans le lave-vaisselle.</ez-speak>
+<br/>
+<repeat-sentence>le lave-vaisselle</repeat-sentence>
+<br/>
+<repeat-sentence>mon assiette sale</repeat-sentence>
+<br/>
+<repeat-sentence>j'ai fini de manger</repeat-sentence>
+
+<li><circular-image url="img/fridge.png" size="100" alt="fridge"></circular-image>
+<ez-speak>Le réfrigérateur</ez-speak>
+
+</ul>
+
+
+</html>

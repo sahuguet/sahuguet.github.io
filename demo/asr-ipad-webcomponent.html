@@ -2,21 +2,22 @@
 
 <body>
 
-    <h1>Speech Recognition Web Component</h1>
-    <speech-recognition-component targetPhrase="Alice et Henri mangent"></speech-recognition-component>
+    <h1>Speech Recognition Web Component 2</h1>
+    <speech-recognition-component sentence="Alice et Paul mangent"></speech-recognition-component>
 
     <br/>
 
-    <div><textarea rows=20 id="log"></textarea></div>
+    <div><textarea cols=50 rows=20 id="log"></textarea></div>
 
 <script>
 
-    function log(msg) {
+    function log(...msg) {
         const logArea = document.getElementById("log");
         if (logArea) {
-        logArea.value += msg + "\n";
-        logArea.scrollTop = logArea.scrollHeight;
-    }   else {
+            const message = msg.map(arg => typeof arg === 'object' ? JSON.stringify(arg) : arg).join(' ');
+            logArea.value += message + "\n";
+            logArea.scrollTop = logArea.scrollHeight;
+        }   else {
         console.log(msg);
     }
 }
@@ -106,9 +107,9 @@ class SpeechRecognitionComponent extends HTMLElement {
 }
 
     connectedCallback() {
-        this.targetPhrase = this.getAttribute('targetPhrase') || "Bonjour";
+        this.sentence = this.getAttribute('sentence') || "Bonjour";
         this.tooltip = this.shadowRoot.querySelector('.tooltip');
-        this.tooltip.textContent = `Say: "${this.targetPhrase}"`; // Tooltip shows target sentence
+        this.tooltip.textContent = `Say: "${this.sentence}"`; // Tooltip shows target sentence
         this.resultTooltip = this.shadowRoot.querySelector('.result-tooltip');
 
 
@@ -155,19 +156,26 @@ class SpeechRecognitionComponent extends HTMLElement {
     }
 
     normalizeText(text) {
+        if (text) {
                 return text
                     .toLowerCase()
                     .normalize("NFD") // Decomposes accents (é → e)
                     .replace(/[\u0300-\u036f]/g, "") // Removes accent marks
                     .replace(/[.,?!'"\-]/g, "") // Removes punctuation
                     .trim();
+            } else {
+                return text;
             }
+        }
 
     handleResult(event) {
+        log("-- handleResult");
         log(event.results[0][0].transcript);
-        console.log(event.results);
+
         const transcript = this.normalizeText(event.results[0][0].transcript);
-        const target = this.normalizeText(this.targetPhrase);
+        const target = this.normalizeText(this.sentence);
+        log("Transcript:", transcript);
+        log("Target:", target);
 
         if (transcript === target) {
             this.mic.style.backgroundColor = this.MATCH;
