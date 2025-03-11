@@ -166,10 +166,12 @@ class SpeechRecognitionComponent extends HTMLElement {
         const target = this.normalizeText(this.sentence);
 
         if (transcript === target) {
+            this.log("Match found!");
             this.mic.style.backgroundColor = this.MATCH;
             const audio = new Audio("audio/win.wav");
             audio.play();
         } else {
+            this.log("No match found.");
             this.mic.style.backgroundColor = this.NOMATCH;
             const audio = new Audio("audio/fail.wav");
             audio.play();
