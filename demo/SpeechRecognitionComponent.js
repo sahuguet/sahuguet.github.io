@@ -18,7 +18,7 @@ class SpeechRecognitionComponent extends HTMLElement {
 
     constructor() {
         super();
-
+        this.success = false; // if the sentence has been recognized.
         // Attach Shadow DOM (optional)
         this.attachShadow({ mode: "open" });
 
@@ -37,7 +37,7 @@ class SpeechRecognitionComponent extends HTMLElement {
                             margin: 5px;
                         }
     .button {
-        font-size: 12px;
+        font-size: 14px;
         padding: 5px;
         width: 30px;
         height: 30px;
@@ -101,7 +101,6 @@ class SpeechRecognitionComponent extends HTMLElement {
 
     connectedCallback() {
         this.sentence = this.getAttribute('sentence') || "Bonjour";
-        log("sentence", this.sentence);
         this.tooltip = this.shadowRoot.querySelector('.tooltip');
         this.tooltip.textContent = `Say: "${this.sentence}"`; // Tooltip shows target sentence
         this.resultTooltip = this.shadowRoot.querySelector('.result-tooltip');
@@ -114,6 +113,7 @@ class SpeechRecognitionComponent extends HTMLElement {
             this.recognition.continuous = false; // Required for iOS
             this.recognition.interimResults = false;
             this.recognition.lang = "fr-FR"; // French language
+            this.recognition.maxAlternatives = 3; // Only one alternative
 
             // Attach all event listeners
             this.setupListeners();
@@ -163,17 +163,30 @@ class SpeechRecognitionComponent extends HTMLElement {
         log(event.results[0][0].transcript);
         log(event.results);
         const transcript = this.normalizeText(event.results[0][0].transcript);
+        const transcripts = Object.entries(event.results[0]).map(([key, value]) => this.normalizeText(value.transcript));
+  
         const target = this.normalizeText(this.sentence);
 
         log("Recognized:", transcript);
         log("Target:", target);
 
-        if (transcript === target) {
+        //if (transcript === target) {
+        if (transcripts.includes(target)) {
             log("Match found!");
             this.mic.style.backgroundColor = this.MATCH;
             const audio = new Audio("audio/win.wav");
             audio.play();
             log("Audio played.");
+            if (this.success === false) {
+                this.success = true;
+                const event = new CustomEvent("sentence-recognized", {
+                    detail: { sentence: this.sentence },
+                    bubbles: true,
+                    composed: true
+                });
+                this.dispatchEvent(event);
+                log("Event dispatched:", event);
+            }
         } else {
             log("No match found.");
             this.mic.style.backgroundColor = this.NOMATCH;

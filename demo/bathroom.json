@@ -1,0 +1,521 @@
+{
+    "topic": {
+        "fr": "salle de bain",
+        "en": "bathroom"
+    },
+    "items": [
+        {
+            "fr": "le savon",
+            "en": "soap",
+            "emoji": "🧼",
+            "sentences": [
+                {
+                    "fr": "Je me lave les mains avec du savon.",
+                    "en": "I wash my hands with soap."
+                },
+                {
+                    "fr": "Le savon sent bon.",
+                    "en": "The soap smells good."
+                },
+                {
+                    "fr": "Le savon fait des bulles.",
+                    "en": "The soap makes bubbles."
+                },
+                {
+                    "fr": "J'utilise le savon tous les jours.",
+                    "en": "I use soap every day."
+                },
+                {
+                    "fr": "Le savon est dans le porte-savon.",
+                    "en": "The soap is in the soap dish."
+                }
+            ]
+        },
+        {
+            "fr": "la brosse à dents",
+            "en": "toothbrush",
+            "emoji": "🪥",
+            "sentences": [
+                {
+                    "fr": "Ma brosse à dents est bleue.",
+                    "en": "My toothbrush is blue."
+                },
+                {
+                    "fr": "Je brosse mes dents matin et soir.",
+                    "en": "I brush my teeth morning and night."
+                },
+                {
+                    "fr": "La brosse à dents est dans un verre.",
+                    "en": "The toothbrush is in a cup."
+                },
+                {
+                    "fr": "J'aime ma brosse à dents.",
+                    "en": "I like my toothbrush."
+                },
+                {
+                    "fr": "La brosse à dents nettoie mes dents.",
+                    "en": "The toothbrush cleans my teeth."
+                }
+            ]
+        },
+        {
+            "fr": "le dentifrice",
+            "en": "toothpaste",
+            "emoji": "🦷",
+            "sentences": [
+                {
+                    "fr": "Le dentifrice a un goût de menthe.",
+                    "en": "The toothpaste tastes like mint."
+                },
+                {
+                    "fr": "Je mets du dentifrice sur ma brosse à dents.",
+                    "en": "I put toothpaste on my toothbrush."
+                },
+                {
+                    "fr": "Le dentifrice est blanc.",
+                    "en": "The toothpaste is white."
+                },
+                {
+                    "fr": "Le tube de dentifrice est presque vide.",
+                    "en": "The tube of toothpaste is almost empty."
+                },
+                {
+                    "fr": "Le dentifrice fait des bulles dans ma bouche.",
+                    "en": "The toothpaste makes bubbles in my mouth."
+                }
+            ]
+        },
+        {
+            "fr": "la serviette",
+            "en": "towel",
+            "emoji": "🧣",
+            "sentences": [
+                {
+                    "fr": "Je me sèche avec la serviette.",
+                    "en": "I dry myself with the towel."
+                },
+                {
+                    "fr": "Ma serviette est douce et moelleuse.",
+                    "en": "My towel is soft and fluffy."
+                },
+                {
+                    "fr": "La serviette est accrochée au mur.",
+                    "en": "The towel is hanging on the wall."
+                },
+                {
+                    "fr": "J'ai une serviette rose.",
+                    "en": "I have a pink towel."
+                },
+                {
+                    "fr": "La serviette est mouillée après ma douche.",
+                    "en": "The towel is wet after my shower."
+                }
+            ]
+        },
+        {
+            "fr": "le shampoing",
+            "en": "shampoo",
+            "emoji": "🧴",
+            "sentences": [
+                {
+                    "fr": "Le shampoing fait des bulles dans mes cheveux.",
+                    "en": "The shampoo makes bubbles in my hair."
+                },
+                {
+                    "fr": "Je lave mes cheveux avec du shampoing.",
+                    "en": "I wash my hair with shampoo."
+                },
+                {
+                    "fr": "Mon shampoing sent la fraise.",
+                    "en": "My shampoo smells like strawberry."
+                },
+                {
+                    "fr": "La bouteille de shampoing est sur le bord de la baignoire.",
+                    "en": "The shampoo bottle is on the edge of the bathtub."
+                },
+                {
+                    "fr": "Je n'aime pas quand le shampoing va dans mes yeux.",
+                    "en": "I don't like it when shampoo gets in my eyes."
+                }
+            ]
+        },
+        {
+            "fr": "l'éponge",
+            "en": "sponge",
+            "emoji": "🧽",
+            "sentences": [
+                {
+                    "fr": "L'éponge est jaune.",
+                    "en": "The sponge is yellow."
+                },
+                {
+                    "fr": "Je lave mon corps avec l'éponge.",
+                    "en": "I wash my body with the sponge."
+                },
+                {
+                    "fr": "L'éponge est douce et mouillée.",
+                    "en": "The sponge is soft and wet."
+                },
+                {
+                    "fr": "L'éponge fait beaucoup de mousse.",
+                    "en": "The sponge makes a lot of foam."
+                },
+                {
+                    "fr": "Je rince l'éponge après l'avoir utilisée.",
+                    "en": "I rinse the sponge after using it."
+                }
+            ]
+        },
+        {
+            "fr": "le gant de toilette",
+            "en": "washcloth",
+            "emoji": "🧤",
+            "sentences": [
+                {
+                    "fr": "Le gant de toilette est petit.",
+                    "en": "The washcloth is small."
+                },
+                {
+                    "fr": "Ma maman utilise le gant de toilette pour laver mon visage.",
+                    "en": "My mom uses the washcloth to wash my face."
+                },
+                {
+                    "fr": "Le gant de toilette est accroché près du lavabo.",
+                    "en": "The washcloth is hanging near the sink."
+                },
+                {
+                    "fr": "Je mets du savon sur le gant de toilette.",
+                    "en": "I put soap on the washcloth."
+                },
+                {
+                    "fr": "Le gant de toilette est plus petit que la serviette.",
+                    "en": "The washcloth is smaller than the towel."
+                }
+            ]
+        },
+        {
+            "fr": "le papier toilette",
+            "en": "toilet paper",
+            "emoji": "🧻",
+            "sentences": [
+                {
+                    "fr": "Le papier toilette est sur un rouleau.",
+                    "en": "The toilet paper is on a roll."
+                },
+                {
+                    "fr": "Nous utilisons le papier toilette aux toilettes.",
+                    "en": "We use toilet paper in the toilet."
+                },
+                {
+                    "fr": "Le papier toilette est blanc et doux.",
+                    "en": "The toilet paper is white and soft."
+                },
+                {
+                    "fr": "Il faut changer le rouleau de papier toilette.",
+                    "en": "We need to change the toilet paper roll."
+                },
+                {
+                    "fr": "Je n'utilise pas trop de papier toilette.",
+                    "en": "I don't use too much toilet paper."
+                }
+            ]
+        },
+        {
+            "fr": "le rasoir",
+            "en": "razor",
+            "emoji": "🪒",
+            "sentences": [
+                {
+                    "fr": "Papa utilise un rasoir pour sa barbe.",
+                    "en": "Dad uses a razor for his beard."
+                },
+                {
+                    "fr": "Le rasoir est rangé en hauteur.",
+                    "en": "The razor is stored up high."
+                },
+                {
+                    "fr": "Je ne dois pas toucher au rasoir.",
+                    "en": "I must not touch the razor."
+                },
+                {
+                    "fr": "Le rasoir de papa est bleu.",
+                    "en": "Dad's razor is blue."
+                },
+                {
+                    "fr": "Le rasoir est un objet pour les adultes.",
+                    "en": "The razor is an object for adults."
+                }
+            ]
+        },
+        {
+            "fr": "le peigne",
+            "en": "comb",
+            "emoji": "🪮",
+            "sentences": [
+                {
+                    "fr": "Je me coiffe avec le peigne.",
+                    "en": "I style my hair with the comb."
+                },
+                {
+                    "fr": "Le peigne a des dents.",
+                    "en": "The comb has teeth."
+                },
+                {
+                    "fr": "Je passe le peigne dans mes cheveux.",
+                    "en": "I run the comb through my hair."
+                },
+                {
+                    "fr": "Le peigne est sur le comptoir.",
+                    "en": "The comb is on the counter."
+                },
+                {
+                    "fr": "Mon peigne est rouge.",
+                    "en": "My comb is red."
+                }
+            ]
+        },
+        {
+            "fr": "la douche",
+            "en": "shower",
+            "emoji": "🚿",
+            "sentences": [
+                {
+                    "fr": "Je prends une douche tous les soirs.",
+                    "en": "I take a shower every evening."
+                },
+                {
+                    "fr": "L'eau coule de la douche.",
+                    "en": "Water flows from the shower."
+                },
+                {
+                    "fr": "La douche me rend propre.",
+                    "en": "The shower makes me clean."
+                },
+                {
+                    "fr": "Je ferme le rideau de douche.",
+                    "en": "I close the shower curtain."
+                },
+                {
+                    "fr": "J'aime l'eau chaude dans la douche.",
+                    "en": "I like hot water in the shower."
+                }
+            ]
+        },
+        {
+            "fr": "la baignoire",
+            "en": "bathtub",
+            "emoji": "🛁",
+            "sentences": [
+                {
+                    "fr": "Je joue avec mes jouets dans la baignoire.",
+                    "en": "I play with my toys in the bathtub."
+                },
+                {
+                    "fr": "La baignoire est pleine d'eau.",
+                    "en": "The bathtub is full of water."
+                },
+                {
+                    "fr": "Je fais des bulles dans la baignoire.",
+                    "en": "I make bubbles in the bathtub."
+                },
+                {
+                    "fr": "Maman me lave dans la baignoire.",
+                    "en": "Mom washes me in the bathtub."
+                },
+                {
+                    "fr": "Je sors de la baignoire quand j'ai fini.",
+                    "en": "I get out of the bathtub when I'm done."
+                }
+            ]
+        },
+        {
+            "fr": "les toilettes",
+            "en": "toilet",
+            "emoji": "🚽",
+            "sentences": [
+                {
+                    "fr": "Je vais aux toilettes quand j'ai besoin.",
+                    "en": "I go to the toilet when I need to."
+                },
+                {
+                    "fr": "N'oublie pas de tirer la chasse d'eau.",
+                    "en": "Don't forget to flush the toilet."
+                },
+                {
+                    "fr": "Les toilettes sont propres.",
+                    "en": "The toilet is clean."
+                },
+                {
+                    "fr": "Je ferme la porte des toilettes.",
+                    "en": "I close the toilet door."
+                },
+                {
+                    "fr": "Je me lave les mains après être allé aux toilettes.",
+                    "en": "I wash my hands after going to the toilet."
+                }
+            ]
+        },
+        {
+            "fr": "le lavabo",
+            "en": "sink",
+            "emoji": "🚰",
+            "sentences": [
+                {
+                    "fr": "Je me lave les mains dans le lavabo.",
+                    "en": "I wash my hands in the sink."
+                },
+                {
+                    "fr": "L'eau coule du robinet dans le lavabo.",
+                    "en": "Water flows from the tap into the sink."
+                },
+                {
+                    "fr": "Le lavabo est blanc.",
+                    "en": "The sink is white."
+                },
+                {
+                    "fr": "Je me brosse les dents au-dessus du lavabo.",
+                    "en": "I brush my teeth over the sink."
+                },
+                {
+                    "fr": "Il y a un miroir au-dessus du lavabo.",
+                    "en": "There is a mirror above the sink."
+                }
+            ]
+        },
+        {
+            "fr": "eau chaude",
+            "en": "hot water",
+            "emoji": "🔥💧",
+            "sentences": [
+                {
+                    "fr": "L'eau chaude me réchauffe.",
+                    "en": "Hot water warms me up."
+                },
+                {
+                    "fr": "Je tourne le robinet rouge pour l'eau chaude.",
+                    "en": "I turn the red tap for hot water."
+                },
+                {
+                    "fr": "Attention, l'eau chaude peut brûler.",
+                    "en": "Careful, hot water can burn."
+                },
+                {
+                    "fr": "L'eau chaude fait de la vapeur.",
+                    "en": "Hot water makes steam."
+                },
+                {
+                    "fr": "Je mélange l'eau chaude avec l'eau froide.",
+                    "en": "I mix hot water with cold water."
+                }
+            ]
+        },
+        {
+            "fr": "eau froide",
+            "en": "cold water",
+            "emoji": "❄️💧",
+            "sentences": [
+                {
+                    "fr": "L'eau froide est rafraîchissante.",
+                    "en": "Cold water is refreshing."
+                },
+                {
+                    "fr": "Je tourne le robinet bleu pour l'eau froide.",
+                    "en": "I turn the blue tap for cold water."
+                },
+                {
+                    "fr": "Je bois de l'eau froide quand j'ai soif.",
+                    "en": "I drink cold water when I'm thirsty."
+                },
+                {
+                    "fr": "L'eau froide ne fait pas de vapeur.",
+                    "en": "Cold water doesn't make steam."
+                },
+                {
+                    "fr": "Mes mains sont froides après les avoir lavées à l'eau froide.",
+                    "en": "My hands are cold after washing them with cold water."
+                }
+            ]
+        },
+        {
+            "fr": "le pansement",
+            "en": "bandage",
+            "emoji": "🩹",
+            "sentences": [
+                {
+                    "fr": "J'ai besoin d'un pansement pour mon doigt.",
+                    "en": "I need a bandage for my finger."
+                },
+                {
+                    "fr": "Le pansement protège ma blessure.",
+                    "en": "The bandage protects my injury."
+                },
+                {
+                    "fr": "Le pansement a des dessins de dinosaures.",
+                    "en": "The bandage has dinosaur pictures on it."
+                },
+                {
+                    "fr": "Maman met un pansement sur mon genou.",
+                    "en": "Mom puts a bandage on my knee."
+                },
+                {
+                    "fr": "Les pansements sont dans l'armoire de la salle de bain.",
+                    "en": "The bandages are in the bathroom cabinet."
+                }
+            ]
+        },
+        {
+            "fr": "la crême",
+            "en": "cream",
+            "emoji": "🧴",
+            "sentences": [
+                {
+                    "fr": "Maman met de la crème sur mes joues.",
+                    "en": "Mom puts cream on my cheeks."
+                },
+                {
+                    "fr": "La crème hydrate ma peau.",
+                    "en": "The cream moisturizes my skin."
+                },
+                {
+                    "fr": "La crème sent bon.",
+                    "en": "The cream smells good."
+                },
+                {
+                    "fr": "J'utilise de la crème après mon bain.",
+                    "en": "I use cream after my bath."
+                },
+                {
+                    "fr": "La crème est blanche et douce.",
+                    "en": "The cream is white and soft."
+                }
+            ]
+        },
+        {
+            "fr": "la poubelle",
+            "en": "trashcan",
+            "emoji": "🗑️",
+            "sentences": [
+                {
+                    "fr": "Je jette les papiers dans la poubelle.",
+                    "en": "I throw paper in the trashcan."
+                },
+                {
+                    "fr": "La poubelle est sous le lavabo.",
+                    "en": "The trashcan is under the sink."
+                },
+                {
+                    "fr": "Il faut vider la poubelle quand elle est pleine.",
+                    "en": "We need to empty the trashcan when it's full."
+                },
+                {
+                    "fr": "Je ferme le couvercle de la poubelle.",
+                    "en": "I close the lid of the trashcan."
+                },
+                {
+                    "fr": "La poubelle de la salle de bain est petite.",
+                    "en": "The bathroom trashcan is small."
+                }
+            ]
+        }
+    ]
+}

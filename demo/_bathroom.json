@@ -1,0 +1,103 @@
+{
+    "topic": {
+        "fr": "salle de bain",
+        "en": "bathroom"
+    },
+"items": [
+        {
+            "word-fr": "le savon",
+            "word-en": "soap",
+            "emoji": "🧼"
+        },
+        {
+            "word-fr": "la brosse à dents",
+            "word-en": "toothbrush",
+            "emoji": "🪥"
+        },
+        {
+            "word-fr": "le dentifrice",
+            "word-en": "toothpaste",
+            "emoji": "🦷"
+        },
+        {
+            "word-fr": "la serviette",
+            "word-en": "towel",
+            "emoji": "🧣"
+        },
+        {
+            "word-fr": "le shampoing",
+            "word-en": "shampoo",
+            "emoji": "🧴"
+        },
+        {
+            "word-fr": "l'éponge",
+            "word-en": "sponge",
+            "emoji": "🧽"
+        },
+        {
+            "word-fr": "le gant de toilette",
+            "word-en": "washcloth",
+            "emoji": "🧤"
+        },
+        {
+            "word-fr": "le papier toilette",
+            "word-en": "toilet paper",
+            "emoji": "🧻"
+        },
+        {
+            "word-fr": "le rasoir",
+            "word-en": "razor",
+            "emoji": "🪒"
+        },
+        {
+            "word-fr": "le peigne",
+            "word-en": "comb",
+            "emoji": "🪮"
+        },
+        {
+            "word-fr": "la douche",
+            "word-en": "shower",
+            "emoji": "🚿"
+        },
+        {
+            "word-fr": "la baignoire",
+            "word-en": "bathtub",
+            "emoji": "🛁"
+        },
+        {
+            "word-fr": "les toilettes",
+            "word-en": "toilet",
+            "emoji": "🚽"
+        },
+        {
+            "word-fr": "le lavabo",
+            "word-en": "sink",
+            "emoji": "🚰"
+        },
+        {
+            "word-fr": "eau chaude",
+            "word-en": "hot water",
+            "emoji": "🔥💧"
+        },
+        {
+            "word-fr": "eau froide",
+            "word-en": "cold water",
+            "emoji": "❄️💧"
+        },
+        {
+            "word-fr": "le pansement",
+            "word-en": "bandage",
+            "emoji": "🩹"
+        },
+        {
+            "word-fr": "la crême",
+            "word-en": "cream",
+            "emoji": "🧴"
+        },
+        {
+            "word-fr": "la poubelle",
+            "word-en": "trashcan",
+            "emoji": "🗑️"
+        }
+    ]
+}

@@ -14,8 +14,6 @@ class RepeatSentenceComponent extends HTMLElement {
         const speak = document.createElement('ez-speak');
         const rec = document.createElement('speech-recognition');
 
-        console.log(shadow);
-        console.log(rec);
         shadow.appendChild(style);
         div.appendChild(speak);
         div.appendChild(rec);
@@ -24,7 +22,6 @@ class RepeatSentenceComponent extends HTMLElement {
         
         slot.addEventListener('slotchange', () => {
             const sentence = slot.assignedNodes().map(node => node.textContent).join('').trim();
-            console.log("sentence", sentence);
             rec.setAttribute('sentence', sentence);
             speak.textContent = sentence;
           });

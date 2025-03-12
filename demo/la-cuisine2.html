@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>La Cuisine</title>
     <script async="false">
-        const scripts = ['EzSpeak.js', 'SpeechRecognitionComponent.js', 'RepeatSentenceComponent.js'];
+        const scripts = ['EzSpeak.js', 'CircularImg.js', 'SpeechRecognitionComponent.js', 'RepeatSentenceComponent.js'];
   scripts.forEach(src => {
     const script = document.createElement('script');
     script.src = `${src}?v=${Math.random()}`;
@@ -22,6 +22,13 @@
         console.log(msg);
     }
   }
+
+
+  window.addEventListener("sentence-recognized",  (event) => {
+        log("---- Sentence recognized");
+    });
+    log("Event listener added");
+
     </script>
     <style>
          li {
@@ -32,6 +39,9 @@
 </head>
 
 <body>
+
+<circular-image size=50 url="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA2L2pvYjk0OC0xNjhiLmpwZw.jpg"></circular-image>
+
 <h1><ez-speak>La Cuisine</ez-speak></h1>
 
 <div><textarea cols=50 rows=20 id="log"></textarea></div>

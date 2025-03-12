@@ -1,0 +1,92 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>A Table</title>
+    <script async="false">
+        const scripts = ['EzSpeak.js', 'SpeechRecognitionComponent.js', 'RepeatSentenceComponent.js'];
+  scripts.forEach(src => {
+    const script = document.createElement('script');
+    script.src = `${src}?v=${Math.random()}`;
+    script.async = false;
+    document.head.appendChild(script);
+  });
+
+  function log(...msg) {
+        const logArea = document.getElementById("log");
+        if (logArea) {
+            const message = msg.map(arg => typeof arg === 'object' ? JSON.stringify(arg) : arg).join(' ');
+            logArea.value += message + "\n";
+            logArea.scrollTop = logArea.scrollHeight;
+        }   else {
+        console.log(msg);
+    }
+  }
+    </script>
+    <style>
+         li {
+            list-style: none;
+            margin-bottom: 20px;
+         }
+    </style>
+</head>
+
+<body>
+<h1><ez-speak>A Table</ez-speak></h1>
+<div>
+    <ul id="content">
+    </ul>
+</div>
+
+<div><textarea cols=50 rows=20 id="log"></textarea></div>
+
+
+<script>
+const content = [
+  {"emoji": "🍽️", "word": "la table", "sentence": "On mange à la table.", "en-translation": "We eat at the table."},
+  {"emoji": "🪑", "word": "la chaise", "sentence": "Je m’assois sur la chaise.", "en-translation": "I sit on the chair."},
+  {"emoji": "🧺", "word": "la nappe", "sentence": "La nappe est blanche.", "en-translation": "The tablecloth is white."},
+  {"emoji": "🧻", "word": "la serviette", "sentence": "Je prends ma serviette.", "en-translation": "I take my napkin."},
+  {"emoji": "🍴", "word": "la fourchette", "sentence": "La fourchette est en métal.", "en-translation": "The fork is metal."},
+  {"emoji": "🥄", "word": "la cuillère", "sentence": "Je mange avec ma cuillère.", "en-translation": "I eat with my spoon."},
+  {"emoji": "🔪", "word": "le couteau", "sentence": "Attention au couteau !", "en-translation": "Be careful with the knife!"},
+  {"emoji": "🍽️", "word": "l’assiette", "sentence": "Mon assiette est pleine.", "en-translation": "My plate is full."},
+  {"emoji": "🍶", "word": "le verre", "sentence": "Le verre est pour le jus.", "en-translation": "The glass is for juice."},
+  {"emoji": "🍷", "word": "la bouteille", "sentence": "La bouteille est sur la table.", "en-translation": "The bottle is on the table."},
+  {"emoji": "🧂", "word": "le sel", "sentence": "Le sel est blanc.", "en-translation": "The salt is white."},
+  {"emoji": "🫙", "word": "le poivre", "sentence": "Le poivre est noir.", "en-translation": "The pepper is black."},
+  {"emoji": "🔥", "word": "chaud", "sentence": "La soupe est chaude.", "en-translation": "The soup is hot."},
+  {"emoji": "❄️", "word": "froid", "sentence": "Le jus est froid.", "en-translation": "The juice is cold."},
+  {"emoji": "🍽️", "word": "mettre la table", "sentence": "Je vais mettre la table.", "en-translation": "I will set the table."},
+  {"emoji": "🧽", "word": "nettoyer", "sentence": "Je nettoie la table.", "en-translation": "I clean the table."},
+  {"emoji": "🧹", "word": "balayer", "sentence": "Je balaie après le repas.", "en-translation": "I sweep after the meal."},
+  {"emoji": "🥖", "word": "la baguette", "sentence": "La baguette est croustillante.", "en-translation": "The baguette is crunchy."},
+  {"emoji": "🥛", "word": "le verre de lait", "sentence": "Je bois un verre de lait.", "en-translation": "I drink a glass of milk."},
+  {"emoji": "🥣", "word": "le bol", "sentence": "Le bol est pour la soupe.", "en-translation": "The bowl is for soup."},
+  {"emoji": "🍲", "word": "servir", "sentence": "Maman sert la soupe.", "en-translation": "Mom serves the soup."},
+  {"emoji": "🫕", "word": "le fromage fondu", "sentence": "J’adore le fromage fondu.", "en-translation": "I love melted cheese."},
+  {"emoji": "👨‍👩‍👧", "word": "ensemble", "sentence": "On mange ensemble.", "en-translation": "We eat together."},
+  {"emoji": "🪞", "word": "propre", "sentence": "Mes mains sont propres.", "en-translation": "My hands are clean."},
+  {"emoji": "👃", "word": "ça sent bon", "sentence": "Mmm, ça sent bon !", "en-translation": "Mmm, it smells good!"},
+  {"emoji": "👏", "word": "merci", "sentence": "Merci pour le repas !", "en-translation": "Thank you for the meal!"},
+  {"emoji": "😋", "word": "délicieux", "sentence": "C’est délicieux !", "en-translation": "It’s delicious!"},
+  {"emoji": "🚰", "word": "l’eau", "sentence": "Je bois de l’eau.", "en-translation": "I drink water."},
+  {"emoji": "🍽️", "word": "le service", "sentence": "Le service est prêt.", "en-translation": "The set is ready."},
+  {"emoji": "🍞", "word": "le croissant", "sentence": "Je mange un croissant.", "en-translation": "I eat a croissant."}
+]
+
+content.forEach((item) => {
+    const div = document.createElement('div');
+    const li = document.createElement('li');
+    li.appendChild(div);
+    div.innerHTML = `
+    ${item.emoji} <repeat-sentence>${item.word}</repeat-sentence> <repeat-sentence>${item.sentence}</repeat-sentence>
+    (${item["en-translation"]})
+    `;
+    const content = document.getElementById('content');
+    content.appendChild(li);
+});
+</script
+
+</body>
+</html> 

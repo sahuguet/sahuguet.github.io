@@ -8,6 +8,7 @@ class EzSpeak extends HTMLElement {
           display: inline-block;
           padding: 5px;
           border: 1px solid #ccc;
+          align-items: center;
           border-radius: 5px;
           background: #f9f9f9;
           transition: background 0.3s;
@@ -29,11 +30,21 @@ class EzSpeak extends HTMLElement {
     this.attachShadow({ mode: "open" });
     this.synth = window.speechSynthesis;
     this.render();
+
+    // When we receive a global event, we change the rate.
+    window.addEventListener("rate-change", (event) => {
+      const rate = event.detail.rate;
+      this.rate = parseFloat(rate);
+      log("New speed -> ", this.rate);
+    });
   }
+
+
 
 
   connectedCallback() {
     this.shadowRoot.addEventListener("click", () => this.speak());
+    this.rate = parseFloat(this.getAttribute("rate")) || 0.4;
   }
 
 
@@ -46,7 +57,8 @@ class EzSpeak extends HTMLElement {
     console.log("To be TTS-ed", text);
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = this.getAttribute("lang") || "fr-FR";
-    utterance.rate = parseFloat(this.getAttribute("rate")) || 0.4;
+    console.log(this.rate);
+    utterance.rate = this.rate;
     const voiceName = this.getAttribute("voice") || "Thomas";
 
     if (voiceName) {
