@@ -1,5 +1,7 @@
 class EzSpeak extends HTMLElement {
 
+  DEFAULT_SPEED = 0.75;
+
     render() {
     this.shadowRoot.innerHTML = `
       <style>
@@ -44,7 +46,7 @@ class EzSpeak extends HTMLElement {
 
   connectedCallback() {
     this.shadowRoot.addEventListener("click", () => this.speak());
-    this.rate = parseFloat(this.getAttribute("rate")) || 0.4;
+    this.rate = parseFloat(this.getAttribute("rate")) || this.DEFAULT_SPEED;
   }
 
 

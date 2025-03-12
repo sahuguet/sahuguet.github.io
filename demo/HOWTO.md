@@ -17,8 +17,50 @@ You can download the one that fits your needs and integrate it into your project
 Let me know if you need assistance with the integration!
 
 
+# Emoji
+- https://getemoji.com/
+
 # Generating content
 
 Prompt
 ```
-Enrich the following JSON file. For each item, add 5 sentences in French and their corresponding translations. Sentences are intended for a 5 year old to learn French. Sentences must be related to the item. Use "fr" and "en" as keys.
+Enrich the following JSON file as follows:
+- go through each item, one at a time
+- for each item, add an array `sentences` of 5 sentences in French and their corresponding translations. Sentences are intended for a 5 year old who is learning French. Sentences must be related to the item. Use "fr" and "en" as keys.
+
+Process the entire array of items.
+Do not change the original content.
+Do not change emojis.
+And process ALL items.
+
+
+I am building a web app to teach my children how to speak French.
+Generate a JSON array where each item is taken from the list below.
+For each item, provide
+- the word in French (as `fr`)
+- the translation in English (as `en`)
+- the most relevant emoji (as `emoji`) if there is no emoji already provided
+- a list of 5 sentences (as `sentences`) where each sentence as a French version (as `fr`) and its english translation (as `en`).
+
+The list is:
+```
+valise				🧳
+parapluie				☂️
+des lunettes de soleil				🕶
+un pantalon				👖
+des chaussettes				🧦
+un slip				🩲
+des sous-vêtements				👙
+un sac à main				👜
+une casquette				🧢
+une botte				👢
+un sac à dos				🎒
+des gants				🧤
+une écharpe				🧣
+un manteau				🧥
+un short				🩳
+une ceinture
+des bretelles
+```
+
+

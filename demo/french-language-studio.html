@@ -89,8 +89,12 @@
 
 <body>
 
-
-
+    <h1>Votre Leçon de français : <select id="topic">
+        <option value="a-table.json">A Table</option>
+        <option value="clothing.json">Je m'habille</option>
+        <option value="bathroom.json" selected>La salle de bain</option>
+    </select></h1>
+    
     <div><speech-speed-slider default="0.4"></speech-speed-slider></div>
     <div><arrow-key-widget></arrow-key-widget></div>
 
@@ -108,14 +112,19 @@
 
         <script>
 
+            var defaultSpeed = 0.4;
+
             const debug = new URL(window.location.href).searchParams.has('debug');
             document.getElementById('log').style.display = debug ? 'block' : 'none';
+
+            document.getElementById("topic").addEventListener('change', loadData);
 
             let speechSpeed = document.querySelector('speech-speed-slider').getAttribute('default', 1.0);
 
             window.addEventListener('speed-change', (event) => {
                 log("Window event", event.detail.speed);
                 speechSpeed = event.detail.speed;
+                defaultSpeed = speechSpeed;
                 dispatchEvent(new CustomEvent('rate-change', {
             detail: { rate: parseFloat(speechSpeed) },
             bubbles: true,
@@ -148,17 +157,24 @@
             // const data = JSON.parse(document.getElementById('data').textContent);
             // Fetch the JSON data from a local file
             var data = null;
-            fetch('bathroom.json')
+
+            function loadData() {
+                const topicElement = document.getElementById('topic');
+                const file = topicElement.value;
+                fetch(file)
                 .then(response => response.json())
                 .then(json => {
                     console.log('Loaded JSON data');
+                    // document.getElementById('topic').textContent = json.topic.fr;
                     data = shuffleArray(json.items);
                     updateUI(); // Once data is loaded, initialize the UI
                 })
                 .catch(err => {
                     console.error('Error loading JSON:', err);
                 });
+            }
 
+            loadData();
 
             let currentWordIndex = 0;
             let currentSentenceIndex = 0;

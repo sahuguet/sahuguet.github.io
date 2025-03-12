@@ -1,0 +1,629 @@
+{
+    "topic": {
+        "fr": "A table",
+        "en": "Dinner time"
+    },
+    "items": [
+        {
+            "fr": "la fourchette",
+            "en": "the fork",
+            "emoji": "🍴",
+            "sentences": [
+                {
+                    "fr": "Je mange avec une fourchette.",
+                    "en": "I eat with a fork."
+                },
+                {
+                    "fr": "Passe-moi la fourchette, s'il te plaît.",
+                    "en": "Pass me the fork, please."
+                },
+                {
+                    "fr": "La fourchette est à gauche de l'assiette.",
+                    "en": "The fork is to the left of the plate."
+                },
+                {
+                    "fr": "Cette fourchette est propre.",
+                    "en": "This fork is clean."
+                },
+                {
+                    "fr": "J'ai besoin d'une nouvelle fourchette.",
+                    "en": "I need a new fork."
+                }
+            ]
+        },
+        {
+            "fr": "la cuillère",
+            "en": "the spoon",
+            "emoji": "🥄",
+            "sentences": [
+                {
+                    "fr": "Je mange ma soupe avec une cuillère.",
+                    "en": "I eat my soup with a spoon."
+                },
+                {
+                    "fr": "La cuillère est à droite de l'assiette.",
+                    "en": "The spoon is to the right of the plate."
+                },
+                {
+                    "fr": "Cette cuillère est trop grande pour un bébé.",
+                    "en": "This spoon is too big for a baby."
+                },
+                {
+                    "fr": "J'ai fait tomber ma cuillère.",
+                    "en": "I dropped my spoon."
+                },
+                {
+                    "fr": "Mélange le café avec la cuillère.",
+                    "en": "Stir the coffee with the spoon."
+                }
+            ]
+        },
+        {
+            "fr": "le couteau",
+            "en": "the knife",
+            "emoji": "🔪",
+            "sentences": [
+                {
+                    "fr": "Ce couteau est très tranchant.",
+                    "en": "This knife is very sharp."
+                },
+                {
+                    "fr": "J'utilise le couteau pour couper ma viande.",
+                    "en": "I use the knife to cut my meat."
+                },
+                {
+                    "fr": "Le couteau est à droite de l'assiette.",
+                    "en": "The knife is to the right of the plate."
+                },
+                {
+                    "fr": "Fais attention avec ce couteau.",
+                    "en": "Be careful with this knife."
+                },
+                {
+                    "fr": "Ce couteau ne coupe pas bien.",
+                    "en": "This knife doesn't cut well."
+                }
+            ]
+        },
+        {
+            "fr": "l'assiette",
+            "en": "the plate",
+            "emoji": "🍽️",
+            "sentences": [
+                {
+                    "fr": "Mon repas est dans l'assiette.",
+                    "en": "My meal is on the plate."
+                },
+                {
+                    "fr": "Cette assiette est très jolie.",
+                    "en": "This plate is very pretty."
+                },
+                {
+                    "fr": "L'assiette est au milieu de la table.",
+                    "en": "The plate is in the middle of the table."
+                },
+                {
+                    "fr": "J'ai cassé une assiette.",
+                    "en": "I broke a plate."
+                },
+                {
+                    "fr": "Mets les légumes dans ton assiette.",
+                    "en": "Put the vegetables on your plate."
+                }
+            ]
+        },
+        {
+            "fr": "le bol",
+            "en": "the bowl",
+            "emoji": "🥣",
+            "sentences": [
+                {
+                    "fr": "Je mange des céréales dans un bol.",
+                    "en": "I eat cereal in a bowl."
+                },
+                {
+                    "fr": "Ce bol est plein de soupe.",
+                    "en": "This bowl is full of soup."
+                },
+                {
+                    "fr": "Le bol est sur la table.",
+                    "en": "The bowl is on the table."
+                },
+                {
+                    "fr": "J'ai un joli bol bleu.",
+                    "en": "I have a pretty blue bowl."
+                },
+                {
+                    "fr": "Le chat boit du lait dans son bol.",
+                    "en": "The cat drinks milk from its bowl."
+                }
+            ]
+        },
+        {
+            "fr": "la tasse",
+            "en": "the cup",
+            "emoji": "☕",
+            "sentences": [
+                {
+                    "fr": "Je bois du café dans une tasse.",
+                    "en": "I drink coffee in a cup."
+                },
+                {
+                    "fr": "Cette tasse est en porcelaine.",
+                    "en": "This cup is made of porcelain."
+                },
+                {
+                    "fr": "J'ai renversé ma tasse de thé.",
+                    "en": "I spilled my cup of tea."
+                },
+                {
+                    "fr": "La tasse est sur la soucoupe.",
+                    "en": "The cup is on the saucer."
+                },
+                {
+                    "fr": "Je préfère boire dans cette tasse.",
+                    "en": "I prefer to drink from this cup."
+                }
+            ]
+        },
+        {
+            "fr": "le verre",
+            "en": "the glass",
+            "emoji": "🥛",
+            "sentences": [
+                {
+                    "fr": "Je bois de l'eau dans un verre.",
+                    "en": "I drink water in a glass."
+                },
+                {
+                    "fr": "Le verre est transparent.",
+                    "en": "The glass is transparent."
+                },
+                {
+                    "fr": "Fais attention, ne casse pas le verre.",
+                    "en": "Be careful, don't break the glass."
+                },
+                {
+                    "fr": "Il y a du jus d'orange dans ce verre.",
+                    "en": "There is orange juice in this glass."
+                },
+                {
+                    "fr": "Je préfère un verre en plastique pour les enfants.",
+                    "en": "I prefer a plastic glass for children."
+                }
+            ]
+        },
+        {
+            "fr": "la bouteille",
+            "en": "the bottle",
+            "emoji": "🍶",
+            "sentences": [
+                {
+                    "fr": "Il y a de l'eau dans la bouteille.",
+                    "en": "There is water in the bottle."
+                },
+                {
+                    "fr": "La bouteille est vide.",
+                    "en": "The bottle is empty."
+                },
+                {
+                    "fr": "J'ai oublié ma bouteille à l'école.",
+                    "en": "I forgot my bottle at school."
+                },
+                {
+                    "fr": "Cette bouteille est en plastique.",
+                    "en": "This bottle is made of plastic."
+                },
+                {
+                    "fr": "Ferme bien la bouteille.",
+                    "en": "Close the bottle well."
+                }
+            ]
+        },
+        {
+            "fr": "le sel",
+            "en": "the salt",
+            "emoji": "🧂",
+            "sentences": [
+                {
+                    "fr": "Passe-moi le sel, s'il te plaît.",
+                    "en": "Pass me the salt, please."
+                },
+                {
+                    "fr": "Cette soupe manque de sel.",
+                    "en": "This soup needs more salt."
+                },
+                {
+                    "fr": "Ne mets pas trop de sel sur ta nourriture.",
+                    "en": "Don't put too much salt on your food."
+                },
+                {
+                    "fr": "Le sel est dans la salière.",
+                    "en": "The salt is in the salt shaker."
+                },
+                {
+                    "fr": "J'aime le sel sur mes frites.",
+                    "en": "I like salt on my fries."
+                }
+            ]
+        },
+        {
+            "fr": "le poivre",
+            "en": "the pepper",
+            "emoji": "🌶️",
+            "sentences": [
+                {
+                    "fr": "J'aime mettre du poivre sur ma salade.",
+                    "en": "I like to put pepper on my salad."
+                },
+                {
+                    "fr": "Le poivre est piquant.",
+                    "en": "Pepper is spicy."
+                },
+                {
+                    "fr": "Passe-moi le poivre, s'il te plaît.",
+                    "en": "Pass me the pepper, please."
+                },
+                {
+                    "fr": "Le poivre est dans le poivrier.",
+                    "en": "The pepper is in the pepper shaker."
+                },
+                {
+                    "fr": "J'ai éternué à cause du poivre.",
+                    "en": "I sneezed because of the pepper."
+                }
+            ]
+        },
+        {
+            "fr": "le ketchup",
+            "en": "the ketchup",
+            "emoji": "🍅",
+            "sentences": [
+                {
+                    "fr": "J'aime le ketchup avec mes frites.",
+                    "en": "I like ketchup with my fries."
+                },
+                {
+                    "fr": "Passe-moi le ketchup, s'il te plaît.",
+                    "en": "Pass me the ketchup, please."
+                },
+                {
+                    "fr": "Le ketchup est fait avec des tomates.",
+                    "en": "Ketchup is made with tomatoes."
+                },
+                {
+                    "fr": "Il n'y a plus de ketchup dans la bouteille.",
+                    "en": "There is no more ketchup in the bottle."
+                },
+                {
+                    "fr": "Mon hamburger a trop de ketchup.",
+                    "en": "My hamburger has too much ketchup."
+                }
+            ]
+        },
+        {
+            "fr": "la serviette",
+            "en": "the napkin",
+            "emoji": "🧻",
+            "sentences": [
+                {
+                    "fr": "J'ai besoin d'une serviette.",
+                    "en": "I need a napkin."
+                },
+                {
+                    "fr": "La serviette est à côté de l'assiette.",
+                    "en": "The napkin is next to the plate."
+                },
+                {
+                    "fr": "Essuie-toi la bouche avec la serviette.",
+                    "en": "Wipe your mouth with the napkin."
+                },
+                {
+                    "fr": "Cette serviette est en papier.",
+                    "en": "This napkin is made of paper."
+                },
+                {
+                    "fr": "J'ai renversé mon verre, apporte une serviette.",
+                    "en": "I spilled my glass, bring a napkin."
+                }
+            ]
+        },
+        {
+            "fr": "la table",
+            "en": "the table",
+            "emoji": "🪑",
+            "sentences": [
+                {
+                    "fr": "Nous mangeons à table.",
+                    "en": "We eat at the table."
+                },
+                {
+                    "fr": "La table est en bois.",
+                    "en": "The table is made of wood."
+                },
+                {
+                    "fr": "Mets le couvert sur la table.",
+                    "en": "Set the table."
+                },
+                {
+                    "fr": "Les enfants jouent sous la table.",
+                    "en": "The children are playing under the table."
+                },
+                {
+                    "fr": "Cette table est trop petite pour toute la famille.",
+                    "en": "This table is too small for the whole family."
+                }
+            ]
+        },
+        {
+            "fr": "la chaise",
+            "en": "the chair",
+            "emoji": "🪑",
+            "sentences": [
+                {
+                    "fr": "Assieds-toi sur la chaise.",
+                    "en": "Sit on the chair."
+                },
+                {
+                    "fr": "Cette chaise est confortable.",
+                    "en": "This chair is comfortable."
+                },
+                {
+                    "fr": "J'ai quatre chaises autour de ma table.",
+                    "en": "I have four chairs around my table."
+                },
+                {
+                    "fr": "La chaise est cassée.",
+                    "en": "The chair is broken."
+                },
+                {
+                    "fr": "Pousse ta chaise sous la table.",
+                    "en": "Push your chair under the table."
+                }
+            ]
+        },
+        {
+            "fr": "manger",
+            "en": "to eat",
+            "emoji": "🍽️",
+            "sentences": [
+                {
+                    "fr": "J'aime manger des fruits.",
+                    "en": "I like to eat fruit."
+                },
+                {
+                    "fr": "Nous mangeons à midi.",
+                    "en": "We eat at noon."
+                },
+                {
+                    "fr": "Les enfants mangent des bonbons.",
+                    "en": "The children are eating candy."
+                },
+                {
+                    "fr": "Il est important de manger lentement.",
+                    "en": "It is important to eat slowly."
+                },
+                {
+                    "fr": "Je préfère manger à la maison.",
+                    "en": "I prefer to eat at home."
+                }
+            ]
+        },
+        {
+            "fr": "boire",
+            "en": "to drink",
+            "emoji": "🥤",
+            "sentences": [
+                {
+                    "fr": "Je bois de l'eau tous les jours.",
+                    "en": "I drink water every day."
+                },
+                {
+                    "fr": "Les enfants boivent du lait.",
+                    "en": "The children are drinking milk."
+                },
+                {
+                    "fr": "Il est important de boire assez d'eau.",
+                    "en": "It is important to drink enough water."
+                },
+                {
+                    "fr": "Que veux-tu boire?",
+                    "en": "What do you want to drink?"
+                },
+                {
+                    "fr": "Ne bois pas trop vite.",
+                    "en": "Don't drink too quickly."
+                }
+            ]
+        },
+        {
+            "fr": "se laver les mains",
+            "en": "to wash hands",
+            "emoji": "🧼",
+            "sentences": [
+                {
+                    "fr": "Je me lave les mains avant de manger.",
+                    "en": "I wash my hands before eating."
+                },
+                {
+                    "fr": "Il est important de se laver les mains avec du savon.",
+                    "en": "It is important to wash hands with soap."
+                },
+                {
+                    "fr": "Les enfants doivent se laver les mains après être allés aux toilettes.",
+                    "en": "Children must wash their hands after going to the bathroom."
+                },
+                {
+                    "fr": "Va te laver les mains, s'il te plaît.",
+                    "en": "Go wash your hands, please."
+                },
+                {
+                    "fr": "Je me lave les mains plusieurs fois par jour.",
+                    "en": "I wash my hands several times a day."
+                }
+            ]
+        },
+        {
+            "fr": "mâcher",
+            "en": "to chew",
+            "emoji": "😋",
+            "sentences": [
+                {
+                    "fr": "Il faut bien mâcher sa nourriture.",
+                    "en": "You should chew your food well."
+                },
+                {
+                    "fr": "Le chien mâche un os.",
+                    "en": "The dog is chewing a bone."
+                },
+                {
+                    "fr": "Mâche avec la bouche fermée, s'il te plaît.",
+                    "en": "Chew with your mouth closed, please."
+                },
+                {
+                    "fr": "Il est important de mâcher lentement.",
+                    "en": "It is important to chew slowly."
+                },
+                {
+                    "fr": "Le bébé commence à mâcher des aliments solides.",
+                    "en": "The baby is starting to chew solid foods."
+                }
+            ]
+        },
+        {
+            "fr": "un plat",
+            "en": "a dish",
+            "emoji": "🍲",
+            "sentences": [
+                {
+                    "fr": "C'est mon plat préféré.",
+                    "en": "This is my favorite dish."
+                },
+                {
+                    "fr": "Ce plat est délicieux.",
+                    "en": "This dish is delicious."
+                },
+                {
+                    "fr": "Je vais préparer un plat de pâtes.",
+                    "en": "I'm going to prepare a pasta dish."
+                },
+                {
+                    "fr": "C'est un plat traditionnel français.",
+                    "en": "This is a traditional French dish."
+                },
+                {
+                    "fr": "Quel est ton plat préféré?",
+                    "en": "What is your favorite dish?"
+                }
+            ]
+        },
+        {
+            "fr": "du pain",
+            "en": "bread",
+            "emoji": "🍞",
+            "sentences": [
+                {
+                    "fr": "J'aime manger du pain frais.",
+                    "en": "I like to eat fresh bread."
+                },
+                {
+                    "fr": "En France, on mange souvent du pain avec le repas.",
+                    "en": "In France, people often eat bread with meals."
+                },
+                {
+                    "fr": "Je voudrais acheter du pain à la boulangerie.",
+                    "en": "I would like to buy bread at the bakery."
+                },
+                {
+                    "fr": "Ce pain est encore chaud.",
+                    "en": "This bread is still warm."
+                },
+                {
+                    "fr": "Je préfère le pain complet.",
+                    "en": "I prefer whole wheat bread."
+                }
+            ]
+        },
+        {
+            "fr": "du fromage",
+            "en": "cheese",
+            "emoji": "🧀",
+            "sentences": [
+                {
+                    "fr": "La France est connue pour ses variétés de fromage.",
+                    "en": "France is known for its varieties of cheese."
+                },
+                {
+                    "fr": "J'aime le fromage sur mes pâtes.",
+                    "en": "I like cheese on my pasta."
+                },
+                {
+                    "fr": "Quel est ton fromage préféré?",
+                    "en": "What is your favorite cheese?"
+                },
+                {
+                    "fr": "Ce sandwich contient du fromage.",
+                    "en": "This sandwich contains cheese."
+                },
+                {
+                    "fr": "Le fromage a une forte odeur.",
+                    "en": "The cheese has a strong smell."
+                }
+            ]
+        },
+        {
+            "fr": "de la salade",
+            "en": "salad",
+            "emoji": "🥗",
+            "sentences": [
+                {
+                    "fr": "J'aime manger de la salade.",
+                    "en": "I like to eat salad."
+                },
+                {
+                    "fr": "La salade est bonne pour la santé.",
+                    "en": "Salad is good for health."
+                },
+                {
+                    "fr": "Je prépare une salade pour le dîner.",
+                    "en": "I'm preparing a salad for dinner."
+                },
+                {
+                    "fr": "Cette salade contient des tomates et du concombre.",
+                    "en": "This salad contains tomatoes and cucumber."
+                },
+                {
+                    "fr": "Je mets de la vinaigrette sur ma salade.",
+                    "en": "I put dressing on my salad."
+                }
+            ]
+        },
+        {
+            "fr": "de l'eau",
+            "en": "water",
+            "emoji": "💧",
+            "sentences": [
+                {
+                    "fr": "Je bois de l'eau tous les jours.",
+                    "en": "I drink water every day."
+                },
+                {
+                    "fr": "L'eau est essentielle pour la vie.",
+                    "en": "Water is essential for life."
+                },
+                {
+                    "fr": "Il n'y a plus d'eau dans la bouteille.",
+                    "en": "There is no more water in the bottle."
+                },
+                {
+                    "fr": "Je préfère l'eau plate à l'eau gazeuse.",
+                    "en": "I prefer still water to sparkling water."
+                },
+                {
+                    "fr": "Bois de l'eau après le sport.",
+                    "en": "Drink water after sports."
+                }
+            ]
+        }
+    ]
+}

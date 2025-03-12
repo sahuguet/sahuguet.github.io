@@ -1,0 +1,467 @@
+{
+    "topic": {
+        "fr": "je m'habille",
+        "en": "clothing"
+    },
+    "items": [
+        {
+            "fr": "valise",
+            "en": "suitcase",
+            "emoji": "🧳",
+            "sentences": [
+                {
+                    "fr": "J'ai besoin d'une nouvelle valise pour mon voyage.",
+                    "en": "I need a new suitcase for my trip."
+                },
+                {
+                    "fr": "Ma valise est trop lourde pour l'avion.",
+                    "en": "My suitcase is too heavy for the plane."
+                },
+                {
+                    "fr": "Elle a oublié sa valise à l'hôtel.",
+                    "en": "She forgot her suitcase at the hotel."
+                },
+                {
+                    "fr": "Pouvez-vous m'aider à porter cette valise?",
+                    "en": "Can you help me carry this suitcase?"
+                },
+                {
+                    "fr": "Il y a des vêtements dans la valise.",
+                    "en": "There are clothes in the suitcase."
+                }
+            ]
+        },
+        {
+            "fr": "parapluie",
+            "en": "umbrella",
+            "emoji": "☂️",
+            "sentences": [
+                {
+                    "fr": "N'oublie pas ton parapluie, il va pleuvoir.",
+                    "en": "Don't forget your umbrella, it's going to rain."
+                },
+                {
+                    "fr": "Mon parapluie est cassé.",
+                    "en": "My umbrella is broken."
+                },
+                {
+                    "fr": "Elle partage son parapluie avec moi.",
+                    "en": "She shares her umbrella with me."
+                },
+                {
+                    "fr": "Ce parapluie est très coloré.",
+                    "en": "This umbrella is very colorful."
+                },
+                {
+                    "fr": "J'ai acheté un nouveau parapluie hier.",
+                    "en": "I bought a new umbrella yesterday."
+                }
+            ]
+        },
+        {
+            "fr": "des lunettes de soleil",
+            "en": "sunglasses",
+            "emoji": "🕶",
+            "sentences": [
+                {
+                    "fr": "Mes lunettes de soleil protègent mes yeux.",
+                    "en": "My sunglasses protect my eyes."
+                },
+                {
+                    "fr": "J'ai perdu mes lunettes de soleil à la plage.",
+                    "en": "I lost my sunglasses at the beach."
+                },
+                {
+                    "fr": "Ces lunettes de soleil sont à la mode.",
+                    "en": "These sunglasses are fashionable."
+                },
+                {
+                    "fr": "Il porte toujours des lunettes de soleil en été.",
+                    "en": "He always wears sunglasses in summer."
+                },
+                {
+                    "fr": "Combien coûtent ces lunettes de soleil?",
+                    "en": "How much do these sunglasses cost?"
+                }
+            ]
+        },
+        {
+            "fr": "un pantalon",
+            "en": "pants/trousers",
+            "emoji": "👖",
+            "sentences": [
+                {
+                    "fr": "Ce pantalon est trop grand pour moi.",
+                    "en": "These pants are too big for me."
+                },
+                {
+                    "fr": "J'ai acheté un nouveau pantalon noir.",
+                    "en": "I bought new black trousers."
+                },
+                {
+                    "fr": "Son pantalon est déchiré au genou.",
+                    "en": "His pants are torn at the knee."
+                },
+                {
+                    "fr": "Je préfère porter un pantalon plutôt qu'un short.",
+                    "en": "I prefer wearing trousers rather than shorts."
+                },
+                {
+                    "fr": "Ce pantalon en jean est très confortable.",
+                    "en": "These jeans are very comfortable."
+                }
+            ]
+        },
+        {
+            "fr": "des chaussettes",
+            "en": "socks",
+            "emoji": "🧦",
+            "sentences": [
+                {
+                    "fr": "Mes chaussettes sont mouillées.",
+                    "en": "My socks are wet."
+                },
+                {
+                    "fr": "J'ai besoin d'acheter de nouvelles chaussettes.",
+                    "en": "I need to buy new socks."
+                },
+                {
+                    "fr": "Elle porte des chaussettes colorées.",
+                    "en": "She wears colorful socks."
+                },
+                {
+                    "fr": "Mes chaussettes ont un trou.",
+                    "en": "My socks have a hole."
+                },
+                {
+                    "fr": "J'ai mis deux chaussettes différentes ce matin.",
+                    "en": "I put on two different socks this morning."
+                }
+            ]
+        },
+        {
+            "fr": "un slip",
+            "en": "briefs/underwear",
+            "emoji": "🩲",
+            "sentences": [
+                {
+                    "fr": "Je dois acheter un nouveau slip.",
+                    "en": "I need to buy new briefs."
+                },
+                {
+                    "fr": "Ce slip est trop petit pour lui.",
+                    "en": "These briefs are too small for him."
+                },
+                {
+                    "fr": "Le slip est un sous-vêtement essentiel.",
+                    "en": "Briefs are essential underwear."
+                },
+                {
+                    "fr": "J'ai acheté un paquet de slips au supermarché.",
+                    "en": "I bought a pack of underwear at the supermarket."
+                },
+                {
+                    "fr": "Ce slip est en coton.",
+                    "en": "These briefs are made of cotton."
+                }
+            ]
+        },
+        {
+            "fr": "des sous-vêtements",
+            "en": "underwear",
+            "emoji": "👙",
+            "sentences": [
+                {
+                    "fr": "J'ai besoin de nouveaux sous-vêtements.",
+                    "en": "I need new underwear."
+                },
+                {
+                    "fr": "Ces sous-vêtements sont confortables.",
+                    "en": "This underwear is comfortable."
+                },
+                {
+                    "fr": "Les sous-vêtements sont dans le tiroir du haut.",
+                    "en": "The underwear is in the top drawer."
+                },
+                {
+                    "fr": "Elle a acheté des sous-vêtements en soie.",
+                    "en": "She bought silk underwear."
+                },
+                {
+                    "fr": "Ne mélangez pas les sous-vêtements blancs et colorés.",
+                    "en": "Don't mix white and colored underwear."
+                }
+            ]
+        },
+        {
+            "fr": "un sac à main",
+            "en": "handbag/purse",
+            "emoji": "👜",
+            "sentences": [
+                {
+                    "fr": "J'ai perdu mes clés dans mon sac à main.",
+                    "en": "I lost my keys in my handbag."
+                },
+                {
+                    "fr": "Son sac à main est très élégant.",
+                    "en": "Her purse is very elegant."
+                },
+                {
+                    "fr": "Ce sac à main est trop petit pour mes affaires.",
+                    "en": "This handbag is too small for my things."
+                },
+                {
+                    "fr": "Elle porte toujours son sac à main sur l'épaule gauche.",
+                    "en": "She always carries her purse on her left shoulder."
+                },
+                {
+                    "fr": "J'ai acheté un nouveau sac à main en cuir.",
+                    "en": "I bought a new leather handbag."
+                }
+            ]
+        },
+        {
+            "fr": "une casquette",
+            "en": "cap",
+            "emoji": "🧢",
+            "sentences": [
+                {
+                    "fr": "Il porte une casquette rouge.",
+                    "en": "He wears a red cap."
+                },
+                {
+                    "fr": "Ma casquette me protège du soleil.",
+                    "en": "My cap protects me from the sun."
+                },
+                {
+                    "fr": "J'ai perdu ma casquette au parc.",
+                    "en": "I lost my cap at the park."
+                },
+                {
+                    "fr": "Cette casquette est trop grande pour moi.",
+                    "en": "This cap is too big for me."
+                },
+                {
+                    "fr": "Elle a une collection de casquettes.",
+                    "en": "She has a collection of caps."
+                }
+            ]
+        },
+        {
+            "fr": "une botte",
+            "en": "boot",
+            "emoji": "👢",
+            "sentences": [
+                {
+                    "fr": "J'ai besoin de nouvelles bottes pour l'hiver.",
+                    "en": "I need new boots for winter."
+                },
+                {
+                    "fr": "Mes bottes sont pleines de boue.",
+                    "en": "My boots are full of mud."
+                },
+                {
+                    "fr": "Ces bottes en cuir sont très confortables.",
+                    "en": "These leather boots are very comfortable."
+                },
+                {
+                    "fr": "Elle a acheté des bottes imperméables.",
+                    "en": "She bought waterproof boots."
+                },
+                {
+                    "fr": "Les bottes sont dans l'entrée.",
+                    "en": "The boots are in the hallway."
+                }
+            ]
+        },
+        {
+            "fr": "un sac à dos",
+            "en": "backpack",
+            "emoji": "🎒",
+            "sentences": [
+                {
+                    "fr": "Mon sac à dos est trop lourd.",
+                    "en": "My backpack is too heavy."
+                },
+                {
+                    "fr": "Il y a des livres dans mon sac à dos.",
+                    "en": "There are books in my backpack."
+                },
+                {
+                    "fr": "J'ai acheté un nouveau sac à dos pour l'école.",
+                    "en": "I bought a new backpack for school."
+                },
+                {
+                    "fr": "Son sac à dos est bleu.",
+                    "en": "His backpack is blue."
+                },
+                {
+                    "fr": "N'oublie pas ton sac à dos demain.",
+                    "en": "Don't forget your backpack tomorrow."
+                }
+            ]
+        },
+        {
+            "fr": "des gants",
+            "en": "gloves",
+            "emoji": "🧤",
+            "sentences": [
+                {
+                    "fr": "J'ai perdu mes gants dans le bus.",
+                    "en": "I lost my gloves on the bus."
+                },
+                {
+                    "fr": "Ces gants sont trop petits pour moi.",
+                    "en": "These gloves are too small for me."
+                },
+                {
+                    "fr": "Porte tes gants, il fait froid dehors.",
+                    "en": "Wear your gloves, it's cold outside."
+                },
+                {
+                    "fr": "Mes gants en laine sont très chauds.",
+                    "en": "My wool gloves are very warm."
+                },
+                {
+                    "fr": "Elle a acheté des gants en cuir.",
+                    "en": "She bought leather gloves."
+                }
+            ]
+        },
+        {
+            "fr": "une écharpe",
+            "en": "scarf",
+            "emoji": "🧣",
+            "sentences": [
+                {
+                    "fr": "J'ai tricoté cette écharpe moi-même.",
+                    "en": "I knitted this scarf myself."
+                },
+                {
+                    "fr": "Son écharpe rouge est très jolie.",
+                    "en": "Her red scarf is very pretty."
+                },
+                {
+                    "fr": "Il porte toujours une écharpe en hiver.",
+                    "en": "He always wears a scarf in winter."
+                },
+                {
+                    "fr": "Cette écharpe en laine est très chaude.",
+                    "en": "This wool scarf is very warm."
+                },
+                {
+                    "fr": "J'ai perdu mon écharpe préférée.",
+                    "en": "I lost my favorite scarf."
+                }
+            ]
+        },
+        {
+            "fr": "un manteau",
+            "en": "coat",
+            "emoji": "🧥",
+            "sentences": [
+                {
+                    "fr": "J'ai besoin d'un nouveau manteau pour l'hiver.",
+                    "en": "I need a new coat for winter."
+                },
+                {
+                    "fr": "Son manteau noir est très élégant.",
+                    "en": "His black coat is very elegant."
+                },
+                {
+                    "fr": "Ce manteau est trop grand pour moi.",
+                    "en": "This coat is too big for me."
+                },
+                {
+                    "fr": "Elle a acheté un manteau en laine.",
+                    "en": "She bought a wool coat."
+                },
+                {
+                    "fr": "Accroche ton manteau sur le portemanteau.",
+                    "en": "Hang your coat on the coat rack."
+                }
+            ]
+        },
+        {
+            "fr": "un short",
+            "en": "shorts",
+            "emoji": "🩳",
+            "sentences": [
+                {
+                    "fr": "Il porte un short à la plage.",
+                    "en": "He wears shorts at the beach."
+                },
+                {
+                    "fr": "Ce short est trop grand pour moi.",
+                    "en": "These shorts are too big for me."
+                },
+                {
+                    "fr": "J'ai acheté un nouveau short pour l'été.",
+                    "en": "I bought new shorts for summer."
+                },
+                {
+                    "fr": "Les enfants portent des shorts à l'école en été.",
+                    "en": "Children wear shorts to school in summer."
+                },
+                {
+                    "fr": "Son short de sport est très confortable.",
+                    "en": "His sports shorts are very comfortable."
+                }
+            ]
+        },
+        {
+            "fr": "une ceinture",
+            "en": "belt",
+            "emoji": "👔",
+            "sentences": [
+                {
+                    "fr": "J'ai besoin d'une nouvelle ceinture.",
+                    "en": "I need a new belt."
+                },
+                {
+                    "fr": "Sa ceinture en cuir est très belle.",
+                    "en": "His leather belt is very beautiful."
+                },
+                {
+                    "fr": "Cette ceinture est trop longue pour moi.",
+                    "en": "This belt is too long for me."
+                },
+                {
+                    "fr": "Il a oublié de mettre sa ceinture ce matin.",
+                    "en": "He forgot to put on his belt this morning."
+                },
+                {
+                    "fr": "La boucle de ma ceinture est cassée.",
+                    "en": "The buckle of my belt is broken."
+                }
+            ]
+        },
+        {
+            "fr": "des bretelles",
+            "en": "suspenders/braces",
+            "emoji": "🧵",
+            "sentences": [
+                {
+                    "fr": "Mon grand-père porte toujours des bretelles.",
+                    "en": "My grandfather always wears suspenders."
+                },
+                {
+                    "fr": "Ces bretelles rouges sont très élégantes.",
+                    "en": "These red suspenders are very elegant."
+                },
+                {
+                    "fr": "Il préfère les bretelles à la ceinture.",
+                    "en": "He prefers suspenders to a belt."
+                },
+                {
+                    "fr": "J'ai acheté des bretelles pour mon costume.",
+                    "en": "I bought suspenders for my suit."
+                },
+                {
+                    "fr": "Les bretelles maintiennent son pantalon en place.",
+                    "en": "The suspenders keep his pants in place."
+                }
+            ]
+        }
+    ]
+}
