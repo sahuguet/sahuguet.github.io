@@ -1,0 +1,467 @@
+{
+    "topic": {
+        "fr": "dans la chambre",
+        "en": "in the bedroom"
+    },
+    "items": [
+        {
+            "fr": "le lit",
+            "en": "the bed",
+            "emoji": "🛏",
+            "sentences": [
+                {
+                    "fr": "Mon lit est très confortable.",
+                    "en": "My bed is very comfortable."
+                },
+                {
+                    "fr": "Je fais mon lit tous les matins.",
+                    "en": "I make my bed every morning."
+                },
+                {
+                    "fr": "L'enfant dort dans son lit.",
+                    "en": "The child sleeps in his bed."
+                },
+                {
+                    "fr": "J'ai acheté un nouveau lit.",
+                    "en": "I bought a new bed."
+                },
+                {
+                    "fr": "Il y a un jouet sous le lit.",
+                    "en": "There is a toy under the bed."
+                }
+            ]
+        },
+        {
+            "fr": "la couverture",
+            "en": "the blanket",
+            "emoji": "🛌",
+            "sentences": [
+                {
+                    "fr": "La couverture est douce et chaude.",
+                    "en": "The blanket is soft and warm."
+                },
+                {
+                    "fr": "J'ai besoin d'une couverture supplémentaire en hiver.",
+                    "en": "I need an extra blanket in winter."
+                },
+                {
+                    "fr": "Le bébé aime sa couverture bleue.",
+                    "en": "The baby loves his blue blanket."
+                },
+                {
+                    "fr": "Elle a mis la couverture sur le lit.",
+                    "en": "She put the blanket on the bed."
+                },
+                {
+                    "fr": "Cette couverture est faite de laine.",
+                    "en": "This blanket is made of wool."
+                }
+            ]
+        },
+        {
+            "fr": "oreiller",
+            "en": "pillow",
+            "emoji": "🧸",
+            "sentences": [
+                {
+                    "fr": "J'ai deux oreillers sur mon lit.",
+                    "en": "I have two pillows on my bed."
+                },
+                {
+                    "fr": "Cet oreiller est trop mou pour moi.",
+                    "en": "This pillow is too soft for me."
+                },
+                {
+                    "fr": "Elle a acheté un nouvel oreiller hier.",
+                    "en": "She bought a new pillow yesterday."
+                },
+                {
+                    "fr": "Les enfants font une bataille d'oreillers.",
+                    "en": "The children are having a pillow fight."
+                },
+                {
+                    "fr": "J'ai oublié mon oreiller à la maison.",
+                    "en": "I forgot my pillow at home."
+                }
+            ]
+        },
+        {
+            "fr": "la lampe",
+            "en": "the lamp",
+            "emoji": "💡",
+            "sentences": [
+                {
+                    "fr": "La lampe est sur la table de nuit.",
+                    "en": "The lamp is on the nightstand."
+                },
+                {
+                    "fr": "Peux-tu allumer la lampe, s'il te plaît?",
+                    "en": "Can you turn on the lamp, please?"
+                },
+                {
+                    "fr": "Cette lampe donne une lumière agréable.",
+                    "en": "This lamp gives a pleasant light."
+                },
+                {
+                    "fr": "L'ampoule de la lampe est grillée.",
+                    "en": "The lamp's bulb is burnt out."
+                },
+                {
+                    "fr": "J'ai renversé la lampe par accident.",
+                    "en": "I knocked over the lamp by accident."
+                }
+            ]
+        },
+        {
+            "fr": "le réveil",
+            "en": "the alarm clock",
+            "emoji": "⏰",
+            "sentences": [
+                {
+                    "fr": "Mon réveil sonne à 7h du matin.",
+                    "en": "My alarm clock rings at 7 AM."
+                },
+                {
+                    "fr": "J'ai oublié de régler mon réveil.",
+                    "en": "I forgot to set my alarm clock."
+                },
+                {
+                    "fr": "Le réveil m'a réveillé trop tôt.",
+                    "en": "The alarm clock woke me up too early."
+                },
+                {
+                    "fr": "Ce réveil a une fonction snooze.",
+                    "en": "This alarm clock has a snooze function."
+                },
+                {
+                    "fr": "Le réveil est sur la table de chevet.",
+                    "en": "The alarm clock is on the bedside table."
+                }
+            ]
+        },
+        {
+            "fr": "le tapis",
+            "en": "the rug",
+            "emoji": "🧶",
+            "sentences": [
+                {
+                    "fr": "Le tapis est doux sous mes pieds.",
+                    "en": "The rug is soft under my feet."
+                },
+                {
+                    "fr": "J'ai acheté un nouveau tapis pour ma chambre.",
+                    "en": "I bought a new rug for my bedroom."
+                },
+                {
+                    "fr": "Le chat aime dormir sur le tapis.",
+                    "en": "The cat likes to sleep on the rug."
+                },
+                {
+                    "fr": "Il faut nettoyer le tapis régulièrement.",
+                    "en": "You need to clean the rug regularly."
+                },
+                {
+                    "fr": "Ce tapis vient du Maroc.",
+                    "en": "This rug comes from Morocco."
+                }
+            ]
+        },
+        {
+            "fr": "le rideau",
+            "en": "the curtain",
+            "emoji": "🪟",
+            "sentences": [
+                {
+                    "fr": "Ferme le rideau avant de dormir.",
+                    "en": "Close the curtain before sleeping."
+                },
+                {
+                    "fr": "Le rideau bloque la lumière du soleil.",
+                    "en": "The curtain blocks the sunlight."
+                },
+                {
+                    "fr": "J'ai lavé les rideaux aujourd'hui.",
+                    "en": "I washed the curtains today."
+                },
+                {
+                    "fr": "Ce rideau est fait de coton.",
+                    "en": "This curtain is made of cotton."
+                },
+                {
+                    "fr": "Le vent fait bouger les rideaux.",
+                    "en": "The wind makes the curtains move."
+                }
+            ]
+        },
+        {
+            "fr": "le panier à linge sale",
+            "en": "the laundry basket",
+            "emoji": "🧺",
+            "sentences": [
+                {
+                    "fr": "Mets tes vêtements sales dans le panier à linge sale.",
+                    "en": "Put your dirty clothes in the laundry basket."
+                },
+                {
+                    "fr": "Le panier à linge sale est plein.",
+                    "en": "The laundry basket is full."
+                },
+                {
+                    "fr": "Le panier à linge sale est dans la salle de bain.",
+                    "en": "The laundry basket is in the bathroom."
+                },
+                {
+                    "fr": "J'ai acheté un nouveau panier à linge sale en plastique.",
+                    "en": "I bought a new plastic laundry basket."
+                },
+                {
+                    "fr": "Il faut vider le panier à linge sale.",
+                    "en": "The laundry basket needs to be emptied."
+                }
+            ]
+        },
+        {
+            "fr": "le mobile",
+            "en": "the mobile (baby mobile)",
+            "emoji": "🎠",
+            "sentences": [
+                {
+                    "fr": "Le mobile tourne au-dessus du berceau.",
+                    "en": "The mobile spins above the crib."
+                },
+                {
+                    "fr": "Le bébé regarde le mobile avec fascination.",
+                    "en": "The baby looks at the mobile with fascination."
+                },
+                {
+                    "fr": "Ce mobile joue une berceuse.",
+                    "en": "This mobile plays a lullaby."
+                },
+                {
+                    "fr": "Les animaux colorés du mobile amusent le bébé.",
+                    "en": "The colorful animals on the mobile amuse the baby."
+                },
+                {
+                    "fr": "Nous avons installé un mobile musical.",
+                    "en": "We installed a musical mobile."
+                }
+            ]
+        },
+        {
+            "fr": "le drap",
+            "en": "the sheet",
+            "emoji": "🛏️",
+            "sentences": [
+                {
+                    "fr": "Les draps sont propres et frais.",
+                    "en": "The sheets are clean and fresh."
+                },
+                {
+                    "fr": "J'ai changé les draps ce matin.",
+                    "en": "I changed the sheets this morning."
+                },
+                {
+                    "fr": "Ces draps sont en coton.",
+                    "en": "These sheets are made of cotton."
+                },
+                {
+                    "fr": "Le drap housse s'adapte parfaitement au matelas.",
+                    "en": "The fitted sheet fits perfectly on the mattress."
+                },
+                {
+                    "fr": "Le drap blanc est très élégant.",
+                    "en": "The white sheet is very elegant."
+                }
+            ]
+        },
+        {
+            "fr": "la commode",
+            "en": "the dresser",
+            "emoji": "🗄️",
+            "sentences": [
+                {
+                    "fr": "Mes vêtements sont dans la commode.",
+                    "en": "My clothes are in the dresser."
+                },
+                {
+                    "fr": "La commode a cinq tiroirs.",
+                    "en": "The dresser has five drawers."
+                },
+                {
+                    "fr": "J'ai placé une photo sur la commode.",
+                    "en": "I placed a picture on the dresser."
+                },
+                {
+                    "fr": "Cette commode est en bois de chêne.",
+                    "en": "This dresser is made of oak wood."
+                },
+                {
+                    "fr": "La commode est contre le mur.",
+                    "en": "The dresser is against the wall."
+                }
+            ]
+        },
+        {
+            "fr": "les lits superposés",
+            "en": "bunk beds",
+            "emoji": "🛏️",
+            "sentences": [
+                {
+                    "fr": "Les enfants adorent dormir dans des lits superposés.",
+                    "en": "Children love sleeping in bunk beds."
+                },
+                {
+                    "fr": "Mon frère dort dans le lit du haut des lits superposés.",
+                    "en": "My brother sleeps in the top bunk of the bunk beds."
+                },
+                {
+                    "fr": "Les lits superposés permettent d'économiser de l'espace.",
+                    "en": "Bunk beds help save space."
+                },
+                {
+                    "fr": "Il y a une échelle pour monter aux lits superposés.",
+                    "en": "There is a ladder to climb up the bunk beds."
+                },
+                {
+                    "fr": "Nous avons acheté des lits superposés pour la chambre des enfants.",
+                    "en": "We bought bunk beds for the children's room."
+                }
+            ]
+        },
+        {
+            "fr": "le miroir",
+            "en": "the mirror",
+            "emoji": "🪞",
+            "sentences": [
+                {
+                    "fr": "Je me regarde dans le miroir chaque matin.",
+                    "en": "I look at myself in the mirror every morning."
+                },
+                {
+                    "fr": "Le miroir est accroché au mur.",
+                    "en": "The mirror is hung on the wall."
+                },
+                {
+                    "fr": "Elle nettoie le miroir avec un chiffon.",
+                    "en": "She cleans the mirror with a cloth."
+                },
+                {
+                    "fr": "Ce miroir a un beau cadre doré.",
+                    "en": "This mirror has a beautiful golden frame."
+                },
+                {
+                    "fr": "Le miroir reflète la lumière dans la pièce.",
+                    "en": "The mirror reflects light in the room."
+                }
+            ]
+        },
+        {
+            "fr": "la fenêtre",
+            "en": "the window",
+            "emoji": "🪟",
+            "sentences": [
+                {
+                    "fr": "Ouvre la fenêtre pour faire entrer de l'air frais.",
+                    "en": "Open the window to let in fresh air."
+                },
+                {
+                    "fr": "La fenêtre donne sur le jardin.",
+                    "en": "The window overlooks the garden."
+                },
+                {
+                    "fr": "Il a nettoyé toutes les fenêtres de la maison.",
+                    "en": "He cleaned all the windows in the house."
+                },
+                {
+                    "fr": "La pluie frappe contre la fenêtre.",
+                    "en": "The rain is hitting against the window."
+                },
+                {
+                    "fr": "Cette fenêtre est difficile à ouvrir.",
+                    "en": "This window is difficult to open."
+                }
+            ]
+        },
+        {
+            "fr": "la porte",
+            "en": "the door",
+            "emoji": "🚪",
+            "sentences": [
+                {
+                    "fr": "Ferme la porte quand tu sors.",
+                    "en": "Close the door when you leave."
+                },
+                {
+                    "fr": "Quelqu'un frappe à la porte.",
+                    "en": "Someone is knocking at the door."
+                },
+                {
+                    "fr": "La porte de ma chambre est blanche.",
+                    "en": "The door to my room is white."
+                },
+                {
+                    "fr": "La clé est dans la serrure de la porte.",
+                    "en": "The key is in the door lock."
+                },
+                {
+                    "fr": "Nous avons peint la porte en bleu.",
+                    "en": "We painted the door blue."
+                }
+            ]
+        },
+        {
+            "fr": "le balai",
+            "en": "the broom",
+            "emoji": "🧹",
+            "sentences": [
+                {
+                    "fr": "Utilise le balai pour nettoyer le sol.",
+                    "en": "Use the broom to clean the floor."
+                },
+                {
+                    "fr": "Le balai est dans le placard.",
+                    "en": "The broom is in the closet."
+                },
+                {
+                    "fr": "J'ai acheté un nouveau balai hier.",
+                    "en": "I bought a new broom yesterday."
+                },
+                {
+                    "fr": "Ce balai est fait de paille.",
+                    "en": "This broom is made of straw."
+                },
+                {
+                    "fr": "Elle passe le balai dans la cuisine.",
+                    "en": "She is sweeping the kitchen."
+                }
+            ]
+        },
+        {
+            "fr": "la bougie",
+            "en": "the candle",
+            "emoji": "🕯",
+            "sentences": [
+                {
+                    "fr": "La bougie parfumée sent la vanille.",
+                    "en": "The scented candle smells like vanilla."
+                },
+                {
+                    "fr": "J'allume une bougie quand je prends un bain.",
+                    "en": "I light a candle when I take a bath."
+                },
+                {
+                    "fr": "La flamme de la bougie vacille dans le vent.",
+                    "en": "The candle flame flickers in the wind."
+                },
+                {
+                    "fr": "Nous avons utilisé des bougies pendant la coupure d'électricité.",
+                    "en": "We used candles during the power outage."
+                },
+                {
+                    "fr": "Cette bougie est faite de cire d'abeille.",
+                    "en": "This candle is made of beeswax."
+                }
+            ]
+        }
+    ]
+}
