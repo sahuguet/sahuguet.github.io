@@ -6,6 +6,8 @@
 - https://sound-effects.bbcrewind.co.uk/search?cat=Electronics&durations=0-9
 
 
+# Confetti
+
 Here are some direct URLs to free, short failure sound effects from FreeSound.org:
 
 1. [Failure Sound Effect #1 (0.5s)](https://freesound.org/people/LittleRobotSoundFactory/sounds/270404/)
@@ -19,6 +21,8 @@ Let me know if you need assistance with the integration!
 
 # Emoji
 - https://getemoji.com/
+
+
 
 # Generating content
 

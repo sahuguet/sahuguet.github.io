@@ -1,3 +1,29 @@
+// Speech synthesis singleton
+class SpeechSynthesisSingleton {
+  constructor() {
+    if (SpeechSynthesisSingleton.instance) {
+      return SpeechSynthesisSingleton.instance;
+    }
+    this.synth = window.speechSynthesis;
+    SpeechSynthesisSingleton.instance = this;
+  }
+
+  static getInstance() {
+    if (!SpeechSynthesisSingleton.instance) {
+      SpeechSynthesisSingleton.instance = new SpeechSynthesisSingleton();
+    }
+    return SpeechSynthesisSingleton.instance;
+  }
+
+  speak(utterance) {
+    this.synth.speak(utterance);
+  }
+
+  getVoices() {
+    return this.synth.getVoices();
+  }
+}
+
 class EzSpeak extends HTMLElement {
 
   DEFAULT_SPEED = 0.75;
@@ -30,7 +56,7 @@ class EzSpeak extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: "open" });
-    this.synth = window.speechSynthesis;
+    this.synth = SpeechSynthesisSingleton.getInstance();
     this.render();
 
     // When we receive a global event, we change the rate.

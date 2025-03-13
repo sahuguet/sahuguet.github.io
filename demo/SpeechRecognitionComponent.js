@@ -1,3 +1,57 @@
+// Speech Recognition singleton
+class SpeechRecognitionSingleton {
+    constructor() {
+        if (SpeechRecognitionSingleton.instance) {
+            return SpeechRecognitionSingleton.instance;
+        }
+
+        if (window.SpeechRecognition || window.webkitSpeechRecognition) {
+            this.recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+            this.recognition.continuous = false;
+            this.recognition.interimResults = false;
+            this.recognition.maxAlternatives = 3;
+        } else {
+            console.error("SpeechRecognition is not supported in this browser.");
+            return null;
+        }
+
+        SpeechRecognitionSingleton.instance = this;
+    }
+
+    static getInstance() {
+        if (!SpeechRecognitionSingleton.instance) {
+            SpeechRecognitionSingleton.instance = new SpeechRecognitionSingleton();
+        }
+        return SpeechRecognitionSingleton.instance;
+    }
+
+    setLanguage(lang) {
+        this.recognition.lang = lang;
+    }
+
+    start() {
+        this.recognition.start();
+    }
+
+    stop() {
+        this.recognition.stop();
+    }
+
+    setupListeners(callbacks) {
+        const events = [
+            'audiostart', 'soundstart', 'speechstart', 
+            'speechend', 'soundend', 'audioend', 
+            'result', 'nomatch', 'error', 'end'
+        ];
+
+        events.forEach(event => {
+            if (callbacks[`on${event}`]) {
+                this.recognition[`on${event}`] = callbacks[`on${event}`];
+            }
+        });
+    }
+}
+
 class SpeechRecognitionComponent extends HTMLElement {
     IDLE = "lightgrey"
     LISTENING = "yellow";
@@ -6,7 +60,7 @@ class SpeechRecognitionComponent extends HTMLElement {
 
     static get observedAttributes() {
         return ['sentence'];
-      }
+    }
 
     attributeChangedCallback(name, oldValue, newValue) {
         if (name === 'sentence') {
@@ -102,49 +156,43 @@ class SpeechRecognitionComponent extends HTMLElement {
     connectedCallback() {
         this.sentence = this.getAttribute('sentence') || "Bonjour";
         this.tooltip = this.shadowRoot.querySelector('.tooltip');
-        this.tooltip.textContent = `Say: "${this.sentence}"`; // Tooltip shows target sentence
+        this.tooltip.textContent = `Say: "${this.sentence}"`;
         this.resultTooltip = this.shadowRoot.querySelector('.result-tooltip');
 
-
-
-        // Initialize Speech Recognition
-        if (window.SpeechRecognition || window.webkitSpeechRecognition) {
-            this.recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
-            this.recognition.continuous = false; // Required for iOS
-            this.recognition.interimResults = false;
-            this.recognition.lang = "fr-FR"; // French language
-            this.recognition.maxAlternatives = 3; // Only one alternative
-
-            // Attach all event listeners
+        // Initialize Speech Recognition using singleton
+        this.recognition = SpeechRecognitionSingleton.getInstance();
+        if (this.recognition) {
+            this.recognition.setLanguage("fr-FR");
             this.setupListeners();
         } else {
-            log.error("SpeechRecognition is not supported in this browser.");
+            console.error("SpeechRecognition is not supported in this browser.");
         }
 
         this.mic = this.shadowRoot.querySelector("#mic");
         this.mic.addEventListener("click", () => this.startRecognition());
-
-        
     }
 
     setupListeners() {
-        this.recognition.onaudiostart = () => log("Audio capturing started.");
-        this.recognition.onsoundstart = () => log("Sound detected.");
-        this.recognition.onspeechstart = () => log("Speech detected.");
-        this.recognition.onspeechend = () => log("Speech has ended.");
-        this.recognition.onsoundend = () => log("Sound has stopped.");
-        this.recognition.onaudioend = () => log("Audio capturing ended.");
-        this.recognition.onresult = (event) => this.handleResult(event);
-        this.recognition.onnomatch = () => log("No speech match found.");
-        this.recognition.onerror = (event) => log(`Speech recognition error: ${event.error}`);
-        this.recognition.onend = () => log("Speech recognition service has stopped.");
+        this.recognition.setupListeners({
+            onaudiostart: () => console.log("Audio capturing started."),
+            onsoundstart: () => console.log("Sound detected."),
+            onspeechstart: () => console.log("Speech detected."),
+            onspeechend: () => console.log("Speech has ended."),
+            onsoundend: () => console.log("Sound has stopped."),
+            onaudioend: () => console.log("Audio capturing ended."),
+            // onresult: (event) => this.handleResult(event),
+            onnomatch: () => console.log("No speech match found."),
+            onerror: (event) => console.log(`Speech recognition error: ${event.error}`),
+            onend: () => console.log("Speech recognition service has stopped.")
+        });
     }
 
     startRecognition() {
         if (!this.recognition) {
-            log("Speech recognition not supported.");
+            console.log("Speech recognition not supported.");
             return;
         }
+        this.recognition.setupListeners({onresult: (event) => this.handleResult(event)});
         this.recognition.start();
         this.mic.style.backgroundColor = this.LISTENING;
     }
@@ -170,13 +218,13 @@ class SpeechRecognitionComponent extends HTMLElement {
         log("Recognized:", transcript);
         log("Target:", target);
 
-        //if (transcript === target) {
         if (transcripts.includes(target)) {
             log("Match found!");
             this.mic.style.backgroundColor = this.MATCH;
-            const audio = new Audio("audio/win.wav");
-            audio.play();
-            log("Audio played.");
+            // Dispatch success sound and confetti events
+            window.dispatchEvent(new CustomEvent("play-pass"));
+            window.dispatchEvent(new CustomEvent("play-confetti"));
+            log("Success sound and confetti events dispatched");
             if (this.success === false) {
                 this.success = true;
                 const event = new CustomEvent("sentence-recognized", {
@@ -190,9 +238,9 @@ class SpeechRecognitionComponent extends HTMLElement {
         } else {
             log("No match found.");
             this.mic.style.backgroundColor = this.NOMATCH;
-            const audio = new Audio("audio/fail.wav");
-            audio.play();
-            log("Audio played.");
+            // Dispatch fail sound event
+            window.dispatchEvent(new CustomEvent("play-fail"));
+            log("Fail sound event dispatched");
         }
         this.recognition.stop();
 
@@ -201,15 +249,12 @@ class SpeechRecognitionComponent extends HTMLElement {
         this.resultTooltip.style.visibility = "visible";
         this.resultTooltip.style.opacity = "1";
 
-
         // Hide result and reset after 3 seconds
         setTimeout(() => {
-            //this.resultTooltip.style.visibility = "hidden";
-            //this.resultTooltip.style.opacity = "0";
             this.mic.style.backgroundColor = this.IDLE; // Reset to grey
             this.resultTooltip.style.opacity = "0";
-            }, 3000);
-        }
+        }, 1000);
+    }
 
 
 log(message) {
