@@ -1,5 +1,7 @@
 
 
+# Speech APIs
+- https://webreflection.medium.com/taming-the-web-speech-api-ef64f5a245e1
 
 # Audio resources
 - https://mixkit.co/free-sound-effects/game/
@@ -48,6 +50,25 @@ For each item, provide
 
 The list is:
 ```
+le lit				🛏
+la couverture				
+oreiller				
+la lampe				
+le réveil				⏰
+le tapis				
+le rideau				
+le panier à linge sale				
+le mobile				
+le drap				
+la commode				
+les lits superposés				
+le miroir				🪞
+la fenêtre				🪟
+la porte				🚪
+la balais				🧹
+la bougie				🕯
+```
+
 valise				🧳
 parapluie				☂️
 des lunettes de soleil				🕶

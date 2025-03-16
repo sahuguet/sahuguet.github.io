@@ -101,6 +101,8 @@
         <option value="clothing.json">Je m'habille</option>
         <option value="bathroom.json" selected>La salle de bain</option>
         <option value="bedroom.json">Dans la chambre</option>
+        <option value="alice.json">Alice</option>
+        <option value="henri.json">Henri</option>
     </select></h1>
     
     <div><arrow-key-widget></arrow-key-widget></div>
@@ -124,7 +126,7 @@
 
             var defaultSpeed = 0.4;
 
-            const debug = new URL(window.location.href).searchParams.has('debug');
+            const debug = new URL(window.location.href).searchParams.has('debug') || true;
             document.getElementById('log').style.display = debug ? 'block' : 'none';
 
             document.getElementById("topic").addEventListener('change', loadData);

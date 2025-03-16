@@ -1,0 +1,55 @@
+{
+  "topic": {
+    "fr": "Alice",
+    "en": "about Alice"
+  },
+  "items": [
+    {
+      "fr": "Alice",
+      "en": "Alice",
+      "emoji": "🛏",
+      "sentences": [
+        {
+          "fr": "Je m'appelle Alice.",
+          "en": "My name is Alice."
+        },
+        {
+          "fr": "J'ai 6 ans.",
+          "en": "I am 6 years old."
+        },
+        {
+          "fr": "Ma maman s'appelle Lorrainne.",
+          "en": "My mom's name is Lauren."
+        },
+        {
+          "fr": "Mon papa s'appelle Arnaud.",
+          "en": "My dad's name is Arnaud."
+        },
+        {
+          "fr": "J'ai un frère qui s'appelle Henri.",
+          "en": "I have a brother named Henri."
+        },
+        {
+          "fr": "Henri a 6 ans.",
+          "en": "Henri is 6 years old."
+        },
+        {
+          "fr": "J'habite à New York.",
+          "en": "I live in New York."
+        },
+        {
+          "fr": "J'aime Piplup.",
+          "en": "I like Piplup."
+        },
+        {
+          "fr": "Pour mon petit déjeûner, je veux une gauffre.",
+          "en": "For my breakfast, I want a waffle."
+        },
+        {
+          "fr": "Pour mon snack, je veux des céréales au chocolat.",
+          "en": "For my snack, I want chocolate cereal."
+        }
+      ]
+    }
+  ]
+}

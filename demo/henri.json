@@ -1,0 +1,59 @@
+{
+  "topic": {
+    "fr": "Henri",
+    "en": "about Henri"
+  },
+  "items": [
+    {
+      "fr": "Henri",
+      "en": "Henri",
+      "emoji": "🛏",
+      "sentences": [
+        {
+          "fr": "Je m'appelle Henri.",
+          "en": "My name is Henri."
+        },
+        {
+          "fr": "J'ai 6 ans.",
+          "en": "I am 6 years old."
+        },
+        {
+          "fr": "Ma maman s'appelle Lorrainne.",
+          "en": "My mom's name is Lauren."
+        },
+        {
+          "fr": "Mon papa s'appelle Arnaud.",
+          "en": "My dad's name is Arnaud."
+        },
+        {
+          "fr": "J'ai une soeur qui s'appelle Alice.",
+          "en": "I have a sister named Alice."
+        },
+        {
+          "fr": "Alice a 6 ans.",
+          "en": "Alice is 6 years old."
+        },
+        {
+          "fr": "J'habite à New York.",
+          "en": "I live in New York."
+        },
+        {
+          "fr": "J'aime Pikachu.",
+          "en": "I like Pikachu."
+        },
+        {
+          "fr": "Pour mon petit déjeûner, je veux une gauffre.",
+          "en": "For my breakfast, I want a waffle."
+        },
+        {
+          "fr": "Pour mon snack, je veux des céréales au chocolat.",
+          "en": "For my snack, I want chocolate cereal."
+        },
+        {
+          "fr": "Pour mon snack, je veux de la mangue glacée.",
+          "en": "For my snack, I want frozen mango."
+        }
+      ]
+    }
+  ]
+}

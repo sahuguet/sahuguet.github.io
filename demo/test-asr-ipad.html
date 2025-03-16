@@ -30,7 +30,51 @@
     <button id="start">Start Listening</button>
     <p id="result">Your speech will appear here...</p>
 
+    <div>
+        <textarea id="log" rows="10" cols="50"></textarea>
+    </div>
+
     <script>
+                function log(...msg) {
+            const logArea = document.getElementById("log");
+            if (logArea) {
+                const message = msg.map(arg => typeof arg === 'object' ? JSON.stringify(arg) : arg).join(' ');
+                logArea.value += message + "\n";
+                logArea.scrollTop = logArea.scrollHeight;
+            } else {
+                console.log(msg);
+            }
+                }
+
+        function _setupListeners(recognition, callbacks) {
+        const events = [
+            'audiostart', 'soundstart', 'speechstart', 
+            'speechend', 'soundend', 'audioend', 
+            'result', 'nomatch', 'error', 'end'
+        ];
+
+        events.forEach(event => {
+            if (callbacks[`on${event}`]) {
+                recognition[`on${event}`] = callbacks[`on${event}`];
+            }
+        });
+    }
+
+    function setupListeners(recognition) {
+        _setupListeners(recognition, {
+            onaudiostart: () => log("Audio capturing started."),
+            onsoundstart: () => log("Sound detected."),
+            onspeechstart: () => log("Speech detected."),
+            onspeechend: () => log("Speech has ended."),
+            onsoundend: () => log("Sound has stopped."),
+            onaudioend: () => log("Audio capturing ended."),
+            // onresult: (event) => this.handleResult(event),
+            onnomatch: () => log("No speech match found."),
+            onerror: (event) => log(`Speech recognition error: ${event.error}`),
+            onend: () => log("Speech recognition service has stopped.")
+        });
+    }
+
         window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
         if ('SpeechRecognition' in window) {
@@ -38,6 +82,8 @@
             recognition.continuous = false;
             recognition.interimResults = true;
             recognition.lang = 'fr-FR';
+
+            setupListeners(recognition);
 
             recognition.onresult = (event) => {
                 const transcript = Array.from(event.results)
@@ -47,11 +93,11 @@
             };
 
             recognition.addEventListener("audiostart", () => {
-                console.log("Audio capturing started");
+                log("Audio capturing started");
             });
 
             recognition.onerror = (event) => {
-                console.error('Speech recognition error:', event.error);
+                log('ERROR', 'Speech recognition error:', event.error);
                 alert('Speech recognition error: ' + event.error);
             };
 

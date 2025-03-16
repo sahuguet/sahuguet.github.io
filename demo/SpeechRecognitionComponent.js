@@ -10,8 +10,9 @@ class SpeechRecognitionSingleton {
             this.recognition.continuous = false;
             this.recognition.interimResults = false;
             this.recognition.maxAlternatives = 3;
+            log("SpeechRecognition is supported in this browser.");
         } else {
-            console.error("SpeechRecognition is not supported in this browser.");
+            log("ERROR", "SpeechRecognition is not supported in this browser.");
             return null;
         }
 
@@ -165,7 +166,7 @@ class SpeechRecognitionComponent extends HTMLElement {
             this.recognition.setLanguage("fr-FR");
             this.setupListeners();
         } else {
-            console.error("SpeechRecognition is not supported in this browser.");
+            log("ERROR", "SpeechRecognition is not supported in this browser.");
         }
 
         this.mic = this.shadowRoot.querySelector("#mic");
@@ -174,22 +175,22 @@ class SpeechRecognitionComponent extends HTMLElement {
 
     setupListeners() {
         this.recognition.setupListeners({
-            onaudiostart: () => console.log("Audio capturing started."),
-            onsoundstart: () => console.log("Sound detected."),
-            onspeechstart: () => console.log("Speech detected."),
-            onspeechend: () => console.log("Speech has ended."),
-            onsoundend: () => console.log("Sound has stopped."),
-            onaudioend: () => console.log("Audio capturing ended."),
+            onaudiostart: () => log("Audio capturing started."),
+            onsoundstart: () => log("Sound detected."),
+            onspeechstart: () => log("Speech detected."),
+            onspeechend: () => log("Speech has ended."),
+            onsoundend: () => log("Sound has stopped."),
+            onaudioend: () => log("Audio capturing ended."),
             // onresult: (event) => this.handleResult(event),
-            onnomatch: () => console.log("No speech match found."),
-            onerror: (event) => console.log(`Speech recognition error: ${event.error}`),
-            onend: () => console.log("Speech recognition service has stopped.")
+            onnomatch: () => log("No speech match found."),
+            onerror: (event) => log(`Speech recognition error: ${event.error}`),
+            onend: () => log("Speech recognition service has stopped.")
         });
     }
 
     startRecognition() {
         if (!this.recognition) {
-            console.log("Speech recognition not supported.");
+            log("ERROR", "Speech recognition not supported.");
             return;
         }
         this.recognition.setupListeners({onresult: (event) => this.handleResult(event)});
@@ -259,7 +260,7 @@ class SpeechRecognitionComponent extends HTMLElement {
 
 log(message) {
     log(message);
-    console.log(message);
+    log(message);
 }
 }
 
