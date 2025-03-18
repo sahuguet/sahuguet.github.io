@@ -58,6 +58,7 @@ class SpeechRecognitionComponent extends HTMLElement {
     LISTENING = "yellow";
     MATCH = "green";
     NOMATCH = "red";
+    DEBUG = false;
 
     static get observedAttributes() {
         return ['sentence'];
@@ -65,7 +66,7 @@ class SpeechRecognitionComponent extends HTMLElement {
 
     attributeChangedCallback(name, oldValue, newValue) {
         if (name === 'sentence') {
-        log("sentence changed from", oldValue, "to", newValue);
+        // log("sentence changed from", oldValue, "to", newValue);
         this.updateSentence(newValue);
     }
 }
@@ -76,7 +77,7 @@ class SpeechRecognitionComponent extends HTMLElement {
         this.success = false; // if the sentence has been recognized.
         // Attach Shadow DOM (optional)
         this.attachShadow({ mode: "open" });
-
+        this.speechTimeout = null;
         // Create start button
         //this.startButton = document.createElement("button");
         //this.startButton.textContent = "Start Speech Recognition";
@@ -175,16 +176,22 @@ class SpeechRecognitionComponent extends HTMLElement {
 
     setupListeners() {
         this.recognition.setupListeners({
-            onaudiostart: () => log("Audio capturing started."),
-            onsoundstart: () => log("Sound detected."),
-            onspeechstart: () => log("Speech detected."),
-            onspeechend: () => log("Speech has ended."),
-            onsoundend: () => log("Sound has stopped."),
-            onaudioend: () => log("Audio capturing ended."),
+            onaudiostart: () => { if (this.DEBUG) log("Audio capturing started.") },
+            onsoundstart: () => { if (this.DEBUG) log("Sound detected.") },
+            onspeechstart: () => { if (this.DEBUG) log("Speech detected.") },
+            onspeechend: () => { if (this.DEBUG) log("Speech has ended.") },
+            onsoundend: () => { if (this.DEBUG) log("Sound has stopped.") },
+            onaudioend: () => { if (this.DEBUG) log("Audio capturing ended.") },
             // onresult: (event) => this.handleResult(event),
             onnomatch: () => log("No speech match found."),
             onerror: (event) => log(`Speech recognition error: ${event.error}`),
-            onend: () => log("Speech recognition service has stopped.")
+            onend: () => {
+                if (this.speechTimeout) {
+                    log("Speech timeout cleared");
+                    clearTimeout(this.speechTimeout);
+                }
+                log("Speech recognition service has stopped.");
+            }
         });
     }
 
@@ -195,6 +202,12 @@ class SpeechRecognitionComponent extends HTMLElement {
         }
         this.recognition.setupListeners({onresult: (event) => this.handleResult(event)});
         this.recognition.start();
+        this.speechTimeout = setTimeout(() => {
+            this.recognition.stop();
+            this.mic.style.backgroundColor = this.IDLE; // Reset to grey
+            this.resultTooltip.style.opacity = "0";
+
+        }, 8000);
         this.mic.style.backgroundColor = this.LISTENING;
     }
 
@@ -209,8 +222,8 @@ class SpeechRecognitionComponent extends HTMLElement {
             }
 
     handleResult(event) {
-        log(event.results[0][0].transcript);
-        log(event.results);
+        // log(event.results[0][0].transcript);
+        // log(event.results);
         const transcript = this.normalizeText(event.results[0][0].transcript);
         const transcripts = Object.entries(event.results[0]).map(([key, value]) => this.normalizeText(value.transcript));
   
@@ -220,12 +233,12 @@ class SpeechRecognitionComponent extends HTMLElement {
         log("Target:", target);
 
         if (transcripts.includes(target)) {
-            log("Match found!");
+            //log("Match found!");
             this.mic.style.backgroundColor = this.MATCH;
             // Dispatch success sound and confetti events
             window.dispatchEvent(new CustomEvent("play-pass"));
             window.dispatchEvent(new CustomEvent("play-confetti"));
-            log("Success sound and confetti events dispatched");
+            // log("Success sound and confetti events dispatched");
             if (this.success === false) {
                 this.success = true;
                 const event = new CustomEvent("sentence-recognized", {
@@ -234,14 +247,14 @@ class SpeechRecognitionComponent extends HTMLElement {
                     composed: true
                 });
                 this.dispatchEvent(event);
-                log("Event dispatched:", event);
+                // log("Event dispatched:", event);
             }
         } else {
-            log("No match found.");
+            // log("No match found.");
             this.mic.style.backgroundColor = this.NOMATCH;
             // Dispatch fail sound event
             window.dispatchEvent(new CustomEvent("play-fail"));
-            log("Fail sound event dispatched");
+            // log("Fail sound event dispatched");
         }
         this.recognition.stop();
 

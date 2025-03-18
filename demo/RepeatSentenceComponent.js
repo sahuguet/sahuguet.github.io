@@ -10,6 +10,7 @@ class RepeatSentenceComponent extends HTMLElement {
         const slot = document.createElement('slot');
         slot.style.display = 'none';
         const div =    document.createElement('div');
+        div.setAttribute('class', 'repeat-sentence');
         div.style.display = 'flex';
         const speak = document.createElement('ez-speak');
         const rec = document.createElement('speech-recognition');

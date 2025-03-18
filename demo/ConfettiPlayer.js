@@ -73,7 +73,7 @@ class ConfettiPlayer extends HTMLElement {
     }
     
     async playConfetti() {
-        log("playConfetti");
+        // log("playConfetti");
         if (!this.confetti) {
             await this.loadConfettiLibrary();
             this.confetti = new JSConfetti();

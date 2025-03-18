@@ -103,6 +103,7 @@
         <option value="bedroom.json">Dans la chambre</option>
         <option value="alice.json">Alice</option>
         <option value="henri.json">Henri</option>
+        <option value="verbs.json">Les verbes</option>
     </select></h1>
     
     <div><arrow-key-widget></arrow-key-widget></div>
@@ -169,6 +170,9 @@
             // const data = JSON.parse(document.getElementById('data').textContent);
             // Fetch the JSON data from a local file
             var data = null;
+            let currentWordIndex = 0;
+            let currentSentenceIndex = 0;
+
 
             function loadData() {
                 const topicElement = document.getElementById('topic');
@@ -179,6 +183,8 @@
                     console.log('Loaded JSON data');
                     // document.getElementById('topic').textContent = json.topic.fr;
                     data = shuffleArray(json.items);
+                    currentWordIndex = 0;
+                    currentSentenceIndex = 0;
                     updateUI(); // Once data is loaded, initialize the UI
                 })
                 .catch(err => {
@@ -188,8 +194,6 @@
 
             loadData();
 
-            let currentWordIndex = 0;
-            let currentSentenceIndex = 0;
 
             // Elements
             const emojiEl = document.getElementById('emoji');
@@ -244,10 +248,16 @@
                 const currentItem = data[currentWordIndex];
                 emojiEl.textContent = currentItem.emoji;
                 //wordEl.textContent = currentItem.word;
-                wordEl.innerHTML = `<repeat-sentence>${currentItem.fr}</repeat-sentence>`;
+                wordEl.innerHTML = `<repeat-sentence >${currentItem.fr}</repeat-sentence>`;
                 word_en.innerHTML = `${currentItem.en}`;
                 sentenceEl.innerHTML = `<repeat-sentence>${currentItem.sentences[currentSentenceIndex].fr.replace(/<[^>]*>/g, '')}</repeat-sentence>`;
                 sentence_en.innerHTML = `${currentItem.sentences[currentSentenceIndex].en}`;
+
+                dispatchEvent(new CustomEvent('rate-change', {
+            detail: { rate: defaultSpeed },
+            bubbles: true,
+            composed: true
+            }));
             }
 
 

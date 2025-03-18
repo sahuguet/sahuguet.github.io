@@ -19,6 +19,10 @@ class SpeechSynthesisSingleton {
     this.synth.speak(utterance);
   }
 
+  cancel() {
+    this.synth.cancel();
+  }
+
   getVoices() {
     return this.synth.getVoices();
   }
@@ -35,11 +39,11 @@ class EzSpeak extends HTMLElement {
           cursor: pointer;
           display: inline-block;
           padding: 5px;
-          border: 1px solid #ccc;
+          border: 0px solid #ccc;
           align-items: center;
           border-radius: 5px;
-          background: #f9f9f9;
-          transition: background 0.3s;
+          // background: #f9f9f9;
+          // transition: background 0.3s;
         }
         :host(:hover) {
           background: #e0e0e0;
@@ -48,8 +52,18 @@ class EzSpeak extends HTMLElement {
           font-weight: bold;
           font-color: red;
         }
+        .button {
+        font-size: 1.5em;
+        }
+
+        button:disabled {
+  opacity: 1;  /* Ensures normal opacity */
+          color: inherit;  /* Keeps the text color */
+          background: inherit;  /* Keeps the original background */
+          cursor: not-allowed; /* Optional: shows it's unclickable */
+        }
       </style>
-      <div><slot></slot></div>
+      <button class="button"><slot></slot></button>
     `;
   }
 
@@ -63,7 +77,7 @@ class EzSpeak extends HTMLElement {
     window.addEventListener("rate-change", (event) => {
       const rate = event.detail.rate;
       this.rate = parseFloat(rate);
-      log("New speed -> ", this.rate);
+      // log("New speed -> ", this.rate);
     });
   }
 
@@ -78,6 +92,8 @@ class EzSpeak extends HTMLElement {
 
   speak() {
     if (!this.synth) return;
+
+    this.shadowRoot.querySelector("button").disabled = true;
     const slot = this.shadowRoot.querySelector("slot");
     const nodes = slot.assignedNodes();
     const text = nodes.map(node => node.outerHTML || node.textContent).join(" ").trim();
@@ -105,9 +121,13 @@ class EzSpeak extends HTMLElement {
 
     utterance.onend = () => {
       this.innerHTML = text; // Reset content after speech
+      this.shadowRoot.querySelector("button").disabled = false;
+
     };
 
     console.log("Speaking:", utterance);
+    console.log(this.synth);
+    this.synth.cancel();
     this.synth.speak(utterance);
   }
 

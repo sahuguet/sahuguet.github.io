@@ -1,0 +1,659 @@
+{
+    "topic": {
+        "fr": "Les verbes",
+        "en": "verbs"
+    },
+    "items": [
+        {
+            "fr": "manger",
+            "en": "to eat",
+            "emoji": "🍎",
+            "sentences": [
+                {
+                    "fr": "Je mange du pain.",
+                    "en": "I eat bread."
+                },
+                {
+                    "fr": "Tu manges du pain.",
+                    "en": "You eat bread."
+                },
+                {
+                    "fr": "Alice mange du pain.",
+                    "en": "Alice eats bread."
+                },
+                {
+                    "fr": "Nous mangeons du pain.",
+                    "en": "We eat bread."
+                },
+                {
+                    "fr": "Vous mangez du pain.",
+                    "en": "You eat bread."
+                },
+                {
+                    "fr": "Alice et Henri mangent du pain.",
+                    "en": "Alice and Henri eat bread."
+                }
+            ]
+        },
+        {
+            "fr": "boire",
+            "en": "to drink",
+            "emoji": "🥛",
+            "sentences": [
+                {
+                    "fr": "Je bois du lait.",
+                    "en": "I drink milk."
+                },
+                {
+                    "fr": "Tu bois du lait.",
+                    "en": "You drink milk."
+                },
+                {
+                    "fr": "Henri boit du lait.",
+                    "en": "Henri drinks milk."
+                },
+                {
+                    "fr": "Nous buvons du lait.",
+                    "en": "We drink milk."
+                },
+                {
+                    "fr": "Vous buvez du lait.",
+                    "en": "You drink milk."
+                },
+                {
+                    "fr": "Alice et Henri boivent du lait.",
+                    "en": "Alice and Henri drink milk."
+                }
+            ]
+        },
+        {
+            "fr": "jouer",
+            "en": "to play",
+            "emoji": "🎮",
+            "sentences": [
+                {
+                    "fr": "Je joue au ballon.",
+                    "en": "I play with the ball."
+                },
+                {
+                    "fr": "Tu joues au ballon.",
+                    "en": "You play with the ball."
+                },
+                {
+                    "fr": "Alice joue au ballon.",
+                    "en": "Alice plays with the ball."
+                },
+                {
+                    "fr": "Nous jouons au ballon.",
+                    "en": "We play with the ball."
+                },
+                {
+                    "fr": "Vous jouez au ballon.",
+                    "en": "You play with the ball."
+                },
+                {
+                    "fr": "Alice et Henri jouent au ballon.",
+                    "en": "Alice and Henri play with the ball."
+                }
+            ]
+        },
+        {
+            "fr": "dormir",
+            "en": "to sleep",
+            "emoji": "😴",
+            "sentences": [
+                {
+                    "fr": "Je dors bien.",
+                    "en": "I sleep well."
+                },
+                {
+                    "fr": "Tu dors bien.",
+                    "en": "You sleep well."
+                },
+                {
+                    "fr": "Henri dort bien.",
+                    "en": "Henri sleeps well."
+                },
+                {
+                    "fr": "Nous dormons bien.",
+                    "en": "We sleep well."
+                },
+                {
+                    "fr": "Vous dormez bien.",
+                    "en": "You sleep well."
+                },
+                {
+                    "fr": "Alice et Henri dorment bien.",
+                    "en": "Alice and Henri sleep well."
+                }
+            ]
+        },
+        {
+            "fr": "courir",
+            "en": "to run",
+            "emoji": "🏃",
+            "sentences": [
+                {
+                    "fr": "Je cours vite.",
+                    "en": "I run fast."
+                },
+                {
+                    "fr": "Tu cours vite.",
+                    "en": "You run fast."
+                },
+                {
+                    "fr": "Alice court vite.",
+                    "en": "Alice runs fast."
+                },
+                {
+                    "fr": "Nous courons vite.",
+                    "en": "We run fast."
+                },
+                {
+                    "fr": "Vous courez vite.",
+                    "en": "You run fast."
+                },
+                {
+                    "fr": "Alice et Henri courent vite.",
+                    "en": "Alice and Henri run fast."
+                }
+            ]
+        },
+        {
+            "fr": "lire",
+            "en": "to read",
+            "emoji": "📚",
+            "sentences": [
+                {
+                    "fr": "Je lis un livre.",
+                    "en": "I read a book."
+                },
+                {
+                    "fr": "Tu lis un livre.",
+                    "en": "You read a book."
+                },
+                {
+                    "fr": "Henri lit un livre.",
+                    "en": "Henri reads a book."
+                },
+                {
+                    "fr": "Nous lisons un livre.",
+                    "en": "We read a book."
+                },
+                {
+                    "fr": "Vous lisez un livre.",
+                    "en": "You read a book."
+                },
+                {
+                    "fr": "Alice et Henri lisent un livre.",
+                    "en": "Alice and Henri read a book."
+                }
+            ]
+        },
+        {
+            "fr": "écrire",
+            "en": "to write",
+            "emoji": "✏️",
+            "sentences": [
+                {
+                    "fr": "J'écris une lettre.",
+                    "en": "I write a letter."
+                },
+                {
+                    "fr": "Tu écris une lettre.",
+                    "en": "You write a letter."
+                },
+                {
+                    "fr": "Alice écrit une lettre.",
+                    "en": "Alice writes a letter."
+                },
+                {
+                    "fr": "Nous écrivons une lettre.",
+                    "en": "We write a letter."
+                },
+                {
+                    "fr": "Vous écrivez une lettre.",
+                    "en": "You write a letter."
+                },
+                {
+                    "fr": "Alice et Henri écrivent une lettre.",
+                    "en": "Alice and Henri write a letter."
+                }
+            ]
+        },
+        {
+            "fr": "chanter",
+            "en": "to sing",
+            "emoji": "🎵",
+            "sentences": [
+                {
+                    "fr": "Je chante une chanson.",
+                    "en": "I sing a song."
+                },
+                {
+                    "fr": "Tu chantes une chanson.",
+                    "en": "You sing a song."
+                },
+                {
+                    "fr": "Henri chante une chanson.",
+                    "en": "Henri sings a song."
+                },
+                {
+                    "fr": "Nous chantons une chanson.",
+                    "en": "We sing a song."
+                },
+                {
+                    "fr": "Vous chantez une chanson.",
+                    "en": "You sing a song."
+                },
+                {
+                    "fr": "Alice et Henri chantent une chanson.",
+                    "en": "Alice and Henri sing a song."
+                }
+            ]
+        },
+        {
+            "fr": "danser",
+            "en": "to dance",
+            "emoji": "💃",
+            "sentences": [
+                {
+                    "fr": "Je danse bien.",
+                    "en": "I dance well."
+                },
+                {
+                    "fr": "Tu danses bien.",
+                    "en": "You dance well."
+                },
+                {
+                    "fr": "Alice danse bien.",
+                    "en": "Alice dances well."
+                },
+                {
+                    "fr": "Nous dansons bien.",
+                    "en": "We dance well."
+                },
+                {
+                    "fr": "Vous dansez bien.",
+                    "en": "You dance well."
+                },
+                {
+                    "fr": "Alice et Henri dansent bien.",
+                    "en": "Alice and Henri dance well."
+                }
+            ]
+        },
+        {
+            "fr": "sauter",
+            "en": "to jump",
+            "emoji": "🦘",
+            "sentences": [
+                {
+                    "fr": "Je saute haut.",
+                    "en": "I jump high."
+                },
+                {
+                    "fr": "Tu sautes haut.",
+                    "en": "You jump high."
+                },
+                {
+                    "fr": "Henri saute haut.",
+                    "en": "Henri jumps high."
+                },
+                {
+                    "fr": "Nous sautons haut.",
+                    "en": "We jump high."
+                },
+                {
+                    "fr": "Vous sautez haut.",
+                    "en": "You jump high."
+                },
+                {
+                    "fr": "Alice et Henri sautent haut.",
+                    "en": "Alice and Henri jump high."
+                }
+            ]
+        },
+        {
+            "fr": "dessiner",
+            "en": "to draw",
+            "emoji": "🎨",
+            "sentences": [
+                {
+                    "fr": "Je dessine un chat.",
+                    "en": "I draw a cat."
+                },
+                {
+                    "fr": "Tu dessines un chat.",
+                    "en": "You draw a cat."
+                },
+                {
+                    "fr": "Alice dessine un chat.",
+                    "en": "Alice draws a cat."
+                },
+                {
+                    "fr": "Nous dessinons un chat.",
+                    "en": "We draw a cat."
+                },
+                {
+                    "fr": "Vous dessinez un chat.",
+                    "en": "You draw a cat."
+                },
+                {
+                    "fr": "Alice et Henri dessinent un chat.",
+                    "en": "Alice and Henri draw a cat."
+                }
+            ]
+        },
+        {
+            "fr": "nager",
+            "en": "to swim",
+            "emoji": "🏊",
+            "sentences": [
+                {
+                    "fr": "Je nage dans la piscine.",
+                    "en": "I swim in the pool."
+                },
+                {
+                    "fr": "Tu nages dans la piscine.",
+                    "en": "You swim in the pool."
+                },
+                {
+                    "fr": "Henri nage dans la piscine.",
+                    "en": "Henri swims in the pool."
+                },
+                {
+                    "fr": "Nous nageons dans la piscine.",
+                    "en": "We swim in the pool."
+                },
+                {
+                    "fr": "Vous nagez dans la piscine.",
+                    "en": "You swim in the pool."
+                },
+                {
+                    "fr": "Alice et Henri nagent dans la piscine.",
+                    "en": "Alice and Henri swim in the pool."
+                }
+            ]
+        },
+        {
+            "fr": "aimer",
+            "en": "to like/love",
+            "emoji": "❤️",
+            "sentences": [
+                {
+                    "fr": "J'aime les pommes.",
+                    "en": "I like apples."
+                },
+                {
+                    "fr": "Tu aimes les pommes.",
+                    "en": "You like apples."
+                },
+                {
+                    "fr": "Alice aime les pommes.",
+                    "en": "Alice likes apples."
+                },
+                {
+                    "fr": "Nous aimons les pommes.",
+                    "en": "We like apples."
+                },
+                {
+                    "fr": "Vous aimez les pommes.",
+                    "en": "You like apples."
+                },
+                {
+                    "fr": "Alice et Henri aiment les pommes.",
+                    "en": "Alice and Henri like apples."
+                }
+            ]
+        },
+        {
+            "fr": "parler",
+            "en": "to speak",
+            "emoji": "🗣️",
+            "sentences": [
+                {
+                    "fr": "Je parle français.",
+                    "en": "I speak French."
+                },
+                {
+                    "fr": "Tu parles français.",
+                    "en": "You speak French."
+                },
+                {
+                    "fr": "Henri parle français.",
+                    "en": "Henri speaks French."
+                },
+                {
+                    "fr": "Nous parlons français.",
+                    "en": "We speak French."
+                },
+                {
+                    "fr": "Vous parlez français.",
+                    "en": "You speak French."
+                },
+                {
+                    "fr": "Alice et Henri parlent français.",
+                    "en": "Alice and Henri speak French."
+                }
+            ]
+        },
+        {
+            "fr": "écouter",
+            "en": "to listen",
+            "emoji": "👂",
+            "sentences": [
+                {
+                    "fr": "J'écoute de la musique.",
+                    "en": "I listen to music."
+                },
+                {
+                    "fr": "Tu écoutes de la musique.",
+                    "en": "You listen to music."
+                },
+                {
+                    "fr": "Alice écoute de la musique.",
+                    "en": "Alice listens to music."
+                },
+                {
+                    "fr": "Nous écoutons de la musique.",
+                    "en": "We listen to music."
+                },
+                {
+                    "fr": "Vous écoutez de la musique.",
+                    "en": "You listen to music."
+                },
+                {
+                    "fr": "Alice et Henri écoutent de la musique.",
+                    "en": "Alice and Henri listen to music."
+                }
+            ]
+        },
+        {
+            "fr": "regarder",
+            "en": "to watch/look at",
+            "emoji": "👀",
+            "sentences": [
+                {
+                    "fr": "Je regarde la télé.",
+                    "en": "I watch TV."
+                },
+                {
+                    "fr": "Tu regardes la télé.",
+                    "en": "You watch TV."
+                },
+                {
+                    "fr": "Henri regarde la télé.",
+                    "en": "Henri watches TV."
+                },
+                {
+                    "fr": "Nous regardons la télé.",
+                    "en": "We watch TV."
+                },
+                {
+                    "fr": "Vous regardez la télé.",
+                    "en": "You watch TV."
+                },
+                {
+                    "fr": "Alice et Henri regardent la télé.",
+                    "en": "Alice and Henri watch TV."
+                }
+            ]
+        },
+        {
+            "fr": "marcher",
+            "en": "to walk",
+            "emoji": "🚶",
+            "sentences": [
+                {
+                    "fr": "Je marche dans le parc.",
+                    "en": "I walk in the park."
+                },
+                {
+                    "fr": "Tu marches dans le parc.",
+                    "en": "You walk in the park."
+                },
+                {
+                    "fr": "Alice marche dans le parc.",
+                    "en": "Alice walks in the park."
+                },
+                {
+                    "fr": "Nous marchons dans le parc.",
+                    "en": "We walk in the park."
+                },
+                {
+                    "fr": "Vous marchez dans le parc.",
+                    "en": "You walk in the park."
+                },
+                {
+                    "fr": "Alice et Henri marchent dans le parc.",
+                    "en": "Alice and Henri walk in the park."
+                }
+            ]
+        },
+        {
+            "fr": "avoir",
+            "en": "to have",
+            "emoji": "✋",
+            "sentences": [
+                {
+                    "fr": "J'ai un ballon.",
+                    "en": "I have a ball."
+                },
+                {
+                    "fr": "Tu as un ballon.",
+                    "en": "You have a ball."
+                },
+                {
+                    "fr": "Henri a un ballon.",
+                    "en": "Henri has a ball."
+                },
+                {
+                    "fr": "Nous avons un ballon.",
+                    "en": "We have a ball."
+                },
+                {
+                    "fr": "Vous avez un ballon.",
+                    "en": "You have a ball."
+                },
+                {
+                    "fr": "Alice et Henri ont un ballon.",
+                    "en": "Alice and Henri have a ball."
+                }
+            ]
+        },
+        {
+            "fr": "être",
+            "en": "to be",
+            "emoji": "🧍",
+            "sentences": [
+                {
+                    "fr": "Je suis content.",
+                    "en": "I am happy."
+                },
+                {
+                    "fr": "Tu es content.",
+                    "en": "You are happy."
+                },
+                {
+                    "fr": "Alice est contente.",
+                    "en": "Alice is happy."
+                },
+                {
+                    "fr": "Nous sommes contents.",
+                    "en": "We are happy."
+                },
+                {
+                    "fr": "Vous êtes contents.",
+                    "en": "You are happy."
+                },
+                {
+                    "fr": "Alice et Henri sont contents.",
+                    "en": "Alice and Henri are happy."
+                }
+            ]
+        },
+        {
+            "fr": "aller",
+            "en": "to go",
+            "emoji": "🚶‍♂️",
+            "sentences": [
+                {
+                    "fr": "Je vais à l'école.",
+                    "en": "I go to school."
+                },
+                {
+                    "fr": "Tu vas à l'école.",
+                    "en": "You go to school."
+                },
+                {
+                    "fr": "Henri va à l'école.",
+                    "en": "Henri goes to school."
+                },
+                {
+                    "fr": "Nous allons à l'école.",
+                    "en": "We go to school."
+                },
+                {
+                    "fr": "Vous allez à l'école.",
+                    "en": "You go to school."
+                },
+                {
+                    "fr": "Alice et Henri vont à l'école.",
+                    "en": "Alice and Henri go to school."
+                }
+            ]
+        },
+        {
+            "fr": "faire",
+            "en": "to do/make",
+            "emoji": "🛠️",
+            "sentences": [
+                {
+                    "fr": "Je fais un gâteau.",
+                    "en": "I make a cake."
+                },
+                {
+                    "fr": "Tu fais un gâteau.",
+                    "en": "You make a cake."
+                },
+                {
+                    "fr": "Alice fait un gâteau.",
+                    "en": "Alice makes a cake."
+                },
+                {
+                    "fr": "Nous faisons un gâteau.",
+                    "en": "We make a cake."
+                },
+                {
+                    "fr": "Vous faites un gâteau.",
+                    "en": "You make a cake."
+                },
+                {
+                    "fr": "Alice et Henri font un gâteau.",
+                    "en": "Alice and Henri make a cake."
+                }
+            ]
+        }
+    ]
+}
