@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZIP Extractor using OPFS</title>
+</head>
+<body>
+    <h2>ZIP Extractor using OPFS</h2>
+    
+    <!-- File Input -->
+    <input type="file" id="fileInput" accept=".zip">
+    <button onclick="fetchRemoteZip()">Fetch Remote ZIP</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script>
+        async function storeFileInOPFS(fileName, fileData) {
+            const rootDir = await navigator.storage.getDirectory();
+            const fileHandle = await rootDir.getFileHandle(fileName, { create: true });
+            const writable = await fileHandle.createWritable();
+            await writable.write(fileData);
+            await writable.close();
+            console.log(`Stored in OPFS: ${fileName}`);
+            return fileHandle;
+        }
+
+        async function extractZipToOPFS(zipFileHandle) {
+            const zipFile = await zipFileHandle.getFile();
+            const zipData = await zipFile.arrayBuffer();
+            const zip = await JSZip.loadAsync(zipData);
+            const rootDir = await navigator.storage.getDirectory();
+
+            console.log("Extracting ZIP contents...");
+
+            for (const [name, zipEntry] of Object.entries(zip.files)) {
+                if (!zipEntry.dir) {
+                    const fileHandle = await rootDir.getFileHandle(name, { create: true });
+                    const writable = await fileHandle.createWritable();
+                    const content = await zipEntry.async("uint8array");
+                    await writable.write(content);
+                    await writable.close();
+                    console.log(`Extracted: ${name}`);
+                }
+            }
+        }
+
+        async function listOPFSContents() {
+            const rootDir = await navigator.storage.getDirectory();
+            console.log("Listing OPFS files...");
+            for await (const [name] of rootDir.entries()) {
+                console.log(name);
+            }
+        }
+
+        document.getElementById("fileInput").addEventListener("change", async (event) => {
+            const file = event.target.files[0];
+            if (file) {
+                const fileHandle = await storeFileInOPFS(file.name, file);
+                await extractZipToOPFS(fileHandle);
+                await listOPFSContents();
+            }
+        });
+
+        async function fetchRemoteZip() {
+            const url = "sample.zip"; // Change to a valid ZIP file URL
+            try {
+                const response = await fetch(url);
+                if (!response.ok) throw new Error("Failed to fetch ZIP file");
+                const zipData = await response.arrayBuffer();
+                const fileHandle = await storeFileInOPFS("downloaded.zip", zipData);
+                await extractZipToOPFS(fileHandle);
+                await listOPFSContents();
+            } catch (error) {
+                console.error("Error fetching ZIP:", error);
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+{
+    "topic": {
+        "fr": "Les animaux de la ferme",
+        "en": "Farm animals"
+    },
+    "items": [
+        {
+            "fr": "la vache",
+            "en": "cow",
+            "emoji": "🐄",
+            "sentences": [
+                {
+                    "fr": "Alice aime la vache.",
+                    "en": "Alice likes the cow."
+                },
+                {
+                    "fr": "Henri voit une vache.",
+                    "en": "Henri sees a cow."
+                },
+                {
+                    "fr": "La vache est grande.",
+                    "en": "The cow is big."
+                },
+                {
+                    "fr": "Alice et Henri nourrissent la vache.",
+                    "en": "Alice and Henri feed the cow."
+                }
+            ]
+        },
+        {
+            "fr": "le cheval",
+            "en": "horse",
+            "emoji": "🐎",
+            "sentences": [
+                {
+                    "fr": "Henri monte à cheval.",
+                    "en": "Henri rides a horse."
+                },
+                {
+                    "fr": "Alice caresse le cheval.",
+                    "en": "Alice pets the horse."
+                },
+                {
+                    "fr": "Le cheval galope vite.",
+                    "en": "The horse gallops fast."
+                },
+                {
+                    "fr": "Alice et Henri brossent le cheval.",
+                    "en": "Alice and Henri brush the horse."
+                }
+            ]
+        },
+        {
+            "fr": "le cochon",
+            "en": "pig",
+            "emoji": "🐖",
+            "sentences": [
+                {
+                    "fr": "Alice regarde le cochon.",
+                    "en": "Alice looks at the pig."
+                },
+                {
+                    "fr": "Henri donne à manger au cochon.",
+                    "en": "Henri feeds the pig."
+                },
+                {
+                    "fr": "Le cochon joue dans la boue.",
+                    "en": "The pig plays in the mud."
+                },
+                {
+                    "fr": "Alice et Henri rient du cochon.",
+                    "en": "Alice and Henri laugh at the pig."
+                }
+            ]
+        },
+        {
+            "fr": "le mouton",
+            "en": "sheep",
+            "emoji": "🐑",
+            "sentences": [
+                {
+                    "fr": "Henri touche le mouton.",
+                    "en": "Henri touches the sheep."
+                },
+                {
+                    "fr": "Alice compte les moutons.",
+                    "en": "Alice counts the sheep."
+                },
+                {
+                    "fr": "Le mouton mange de l'herbe.",
+                    "en": "The sheep eats grass."
+                },
+                {
+                    "fr": "Alice et Henri dessinent un mouton.",
+                    "en": "Alice and Henri draw a sheep."
+                }
+            ]
+        },
+        {
+            "fr": "la poule",
+            "en": "chicken",
+            "emoji": "🐔",
+            "sentences": [
+                {
+                    "fr": "Alice nourrit la poule.",
+                    "en": "Alice feeds the chicken."
+                },
+                {
+                    "fr": "Henri ramasse les œufs.",
+                    "en": "Henri collects the eggs."
+                },
+                {
+                    "fr": "La poule fait 'cot-cot'.",
+                    "en": "The chicken goes 'cluck-cluck'."
+                },
+                {
+                    "fr": "Alice et Henri aiment les poules.",
+                    "en": "Alice and Henri like chickens."
+                }
+            ]
+        },
+        {
+            "fr": "le canard",
+            "en": "duck",
+            "emoji": "🦆",
+            "sentences": [
+                {
+                    "fr": "Henri jette du pain au canard.",
+                    "en": "Henri throws bread to the duck."
+                },
+                {
+                    "fr": "Alice imite le canard.",
+                    "en": "Alice imitates the duck."
+                },
+                {
+                    "fr": "Le canard nage dans l'étang.",
+                    "en": "The duck swims in the pond."
+                },
+                {
+                    "fr": "Alice et Henri suivent le canard.",
+                    "en": "Alice and Henri follow the duck."
+                }
+            ]
+        },
+        {
+            "fr": "le lapin",
+            "en": "rabbit",
+            "emoji": "🐇",
+            "sentences": [
+                {
+                    "fr": "Alice caresse le lapin.",
+                    "en": "Alice pets the rabbit."
+                },
+                {
+                    "fr": "Henri donne une carotte au lapin.",
+                    "en": "Henri gives a carrot to the rabbit."
+                },
+                {
+                    "fr": "Le lapin saute très haut.",
+                    "en": "The rabbit jumps very high."
+                },
+                {
+                    "fr": "Alice et Henri adorent le lapin.",
+                    "en": "Alice and Henri love the rabbit."
+                }
+            ]
+        },
+        {
+            "fr": "la chèvre",
+            "en": "goat",
+            "emoji": "🐐",
+            "sentences": [
+                {
+                    "fr": "Henri appelle la chèvre.",
+                    "en": "Henri calls the goat."
+                },
+                {
+                    "fr": "Alice boit du lait de chèvre.",
+                    "en": "Alice drinks goat milk."
+                },
+                {
+                    "fr": "La chèvre grimpe sur la colline.",
+                    "en": "The goat climbs the hill."
+                },
+                {
+                    "fr": "Alice et Henri visitent les chèvres.",
+                    "en": "Alice and Henri visit the goats."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,238 @@
+{
+    "topic": {
+        "fr": "La plage",
+        "en": "The beach"
+    },
+    "items": [
+        {
+            "fr": "le sable",
+            "en": "sand",
+            "emoji": "🏖️",
+            "sentences": [
+                {
+                    "fr": "Alice joue dans le sable.",
+                    "en": "Alice plays in the sand."
+                },
+                {
+                    "fr": "Henri construit un château de sable.",
+                    "en": "Henri builds a sandcastle."
+                },
+                {
+                    "fr": "Le sable est chaud.",
+                    "en": "The sand is hot."
+                },
+                {
+                    "fr": "Alice et Henri creusent dans le sable.",
+                    "en": "Alice and Henri dig in the sand."
+                }
+            ]
+        },
+        {
+            "fr": "la mer",
+            "en": "sea",
+            "emoji": "🌊",
+            "sentences": [
+                {
+                    "fr": "Henri nage dans la mer.",
+                    "en": "Henri swims in the sea."
+                },
+                {
+                    "fr": "Alice regarde la mer.",
+                    "en": "Alice looks at the sea."
+                },
+                {
+                    "fr": "La mer est bleue.",
+                    "en": "The sea is blue."
+                },
+                {
+                    "fr": "Alice et Henri jouent dans la mer.",
+                    "en": "Alice and Henri play in the sea."
+                }
+            ]
+        },
+        {
+            "fr": "le coquillage",
+            "en": "seashell",
+            "emoji": "🐚",
+            "sentences": [
+                {
+                    "fr": "Alice trouve un coquillage.",
+                    "en": "Alice finds a seashell."
+                },
+                {
+                    "fr": "Henri collectionne les coquillages.",
+                    "en": "Henri collects seashells."
+                },
+                {
+                    "fr": "Le coquillage est joli.",
+                    "en": "The seashell is pretty."
+                },
+                {
+                    "fr": "Alice et Henri écoutent les coquillages.",
+                    "en": "Alice and Henri listen to the seashells."
+                }
+            ]
+        },
+        {
+            "fr": "le parasol",
+            "en": "beach umbrella",
+            "emoji": "⛱️",
+            "sentences": [
+                {
+                    "fr": "Henri s'assoit sous le parasol.",
+                    "en": "Henri sits under the beach umbrella."
+                },
+                {
+                    "fr": "Alice ouvre le parasol.",
+                    "en": "Alice opens the beach umbrella."
+                },
+                {
+                    "fr": "Le parasol est coloré.",
+                    "en": "The beach umbrella is colorful."
+                },
+                {
+                    "fr": "Alice et Henri se reposent sous le parasol.",
+                    "en": "Alice and Henri rest under the beach umbrella."
+                }
+            ]
+        },
+        {
+            "fr": "la serviette",
+            "en": "towel",
+            "emoji": "🧖",
+            "sentences": [
+                {
+                    "fr": "Alice s'essuie avec la serviette.",
+                    "en": "Alice dries herself with the towel."
+                },
+                {
+                    "fr": "Henri étend sa serviette sur le sable.",
+                    "en": "Henri spreads his towel on the sand."
+                },
+                {
+                    "fr": "La serviette est sèche.",
+                    "en": "The towel is dry."
+                },
+                {
+                    "fr": "Alice et Henri partagent leur serviette.",
+                    "en": "Alice and Henri share their towel."
+                }
+            ]
+        },
+        {
+            "fr": "nager",
+            "en": "to swim",
+            "emoji": "🏊",
+            "sentences": [
+                {
+                    "fr": "Alice nage bien.",
+                    "en": "Alice swims well."
+                },
+                {
+                    "fr": "Henri aime nager.",
+                    "en": "Henri likes to swim."
+                },
+                {
+                    "fr": "Nager est amusant.",
+                    "en": "Swimming is fun."
+                },
+                {
+                    "fr": "Alice et Henri nagent ensemble.",
+                    "en": "Alice and Henri swim together."
+                }
+            ]
+        },
+        {
+            "fr": "le bateau",
+            "en": "boat",
+            "emoji": "⛵",
+            "sentences": [
+                {
+                    "fr": "Henri voit un bateau.",
+                    "en": "Henri sees a boat."
+                },
+                {
+                    "fr": "Alice dessine un bateau.",
+                    "en": "Alice draws a boat."
+                },
+                {
+                    "fr": "Le bateau navigue sur l'eau.",
+                    "en": "The boat sails on the water."
+                },
+                {
+                    "fr": "Alice et Henri font un tour en bateau.",
+                    "en": "Alice and Henri take a boat ride."
+                }
+            ]
+        },
+        {
+            "fr": "le crabe",
+            "en": "crab",
+            "emoji": "🦀",
+            "sentences": [
+                {
+                    "fr": "Alice observe un crabe.",
+                    "en": "Alice observes a crab."
+                },
+                {
+                    "fr": "Henri montre le crabe du doigt.",
+                    "en": "Henri points at the crab."
+                },
+                {
+                    "fr": "Le crabe marche de côté.",
+                    "en": "The crab walks sideways."
+                },
+                {
+                    "fr": "Alice et Henri cherchent des crabes.",
+                    "en": "Alice and Henri look for crabs."
+                }
+            ]
+        },
+        {
+            "fr": "le château de sable",
+            "en": "sandcastle",
+            "emoji": "🏰",
+            "sentences": [
+                {
+                    "fr": "Henri construit un grand château de sable.",
+                    "en": "Henri builds a big sandcastle."
+                },
+                {
+                    "fr": "Alice décore le château de sable.",
+                    "en": "Alice decorates the sandcastle."
+                },
+                {
+                    "fr": "Le château de sable a une tour.",
+                    "en": "The sandcastle has a tower."
+                },
+                {
+                    "fr": "Alice et Henri protègent leur château de sable.",
+                    "en": "Alice and Henri protect their sandcastle."
+                }
+            ]
+        },
+        {
+            "fr": "la glace",
+            "en": "ice cream",
+            "emoji": "🍦",
+            "sentences": [
+                {
+                    "fr": "Alice mange une glace.",
+                    "en": "Alice eats an ice cream."
+                },
+                {
+                    "fr": "Henri aime la glace à la vanille.",
+                    "en": "Henri likes vanilla ice cream."
+                },
+                {
+                    "fr": "La glace fond au soleil.",
+                    "en": "The ice cream melts in the sun."
+                },
+                {
+                    "fr": "Alice et Henri partagent une glace.",
+                    "en": "Alice and Henri share an ice cream."
+                }
+            ]
+        }
+    ]
+}

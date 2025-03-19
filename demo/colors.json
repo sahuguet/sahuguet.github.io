@@ -1,0 +1,628 @@
+{
+    "topic": {
+        "fr": "Les couleurs",
+        "en": "colors"
+    },
+    "items": [
+        {
+            "fr": "rouge",
+            "en": "red",
+            "emoji": "🔴",
+            "sentences": [
+                {
+                    "fr": "J'aime le rouge.",
+                    "en": "I like red."
+                },
+                {
+                    "fr": "Tu portes un t-shirt rouge.",
+                    "en": "You are wearing a red t-shirt."
+                },
+                {
+                    "fr": "Alice a un crayon rouge.",
+                    "en": "Alice has a red pencil."
+                },
+                {
+                    "fr": "Nous dessinons une pomme rouge.",
+                    "en": "We are drawing a red apple."
+                },
+                {
+                    "fr": "Vous avez des chaussures rouges.",
+                    "en": "You have red shoes."
+                },
+                {
+                    "fr": "Alice et Henri aiment les fraises rouges.",
+                    "en": "Alice and Henri like red strawberries."
+                }
+            ]
+        },
+        {
+            "fr": "bleu",
+            "en": "blue",
+            "emoji": "🔵",
+            "sentences": [
+                {
+                    "fr": "Je porte un pantalon bleu.",
+                    "en": "I am wearing blue pants."
+                },
+                {
+                    "fr": "Tu as un ballon bleu.",
+                    "en": "You have a blue balloon."
+                },
+                {
+                    "fr": "Henri aime le ciel bleu.",
+                    "en": "Henri likes the blue sky."
+                },
+                {
+                    "fr": "Nous avons des yeux bleus.",
+                    "en": "We have blue eyes."
+                },
+                {
+                    "fr": "Vous dessinez la mer bleue.",
+                    "en": "You are drawing the blue sea."
+                },
+                {
+                    "fr": "Alice et Henri ont des vélos bleus.",
+                    "en": "Alice and Henri have blue bicycles."
+                }
+            ]
+        },
+        {
+            "fr": "jaune",
+            "en": "yellow",
+            "emoji": "🟡",
+            "sentences": [
+                {
+                    "fr": "J'aime le soleil jaune.",
+                    "en": "I like the yellow sun."
+                },
+                {
+                    "fr": "Tu manges une banane jaune.",
+                    "en": "You are eating a yellow banana."
+                },
+                {
+                    "fr": "Alice porte une robe jaune.",
+                    "en": "Alice is wearing a yellow dress."
+                },
+                {
+                    "fr": "Nous dessinons des étoiles jaunes.",
+                    "en": "We are drawing yellow stars."
+                },
+                {
+                    "fr": "Vous avez un chapeau jaune.",
+                    "en": "You have a yellow hat."
+                },
+                {
+                    "fr": "Alice et Henri cueillent des fleurs jaunes.",
+                    "en": "Alice and Henri are picking yellow flowers."
+                }
+            ]
+        },
+        {
+            "fr": "vert",
+            "en": "green",
+            "emoji": "🟢",
+            "sentences": [
+                {
+                    "fr": "Je mange une pomme verte.",
+                    "en": "I am eating a green apple."
+                },
+                {
+                    "fr": "Tu aimes l'herbe verte.",
+                    "en": "You like green grass."
+                },
+                {
+                    "fr": "Henri a un crayon vert.",
+                    "en": "Henri has a green pencil."
+                },
+                {
+                    "fr": "Nous dessinons des grenouilles vertes.",
+                    "en": "We are drawing green frogs."
+                },
+                {
+                    "fr": "Vous portez des chaussettes vertes.",
+                    "en": "You are wearing green socks."
+                },
+                {
+                    "fr": "Alice et Henri jouent sur l'herbe verte.",
+                    "en": "Alice and Henri are playing on the green grass."
+                }
+            ]
+        },
+        {
+            "fr": "orange",
+            "en": "orange",
+            "emoji": "🟠",
+            "sentences": [
+                {
+                    "fr": "Je mange une orange.",
+                    "en": "I am eating an orange."
+                },
+                {
+                    "fr": "Tu dessines un poisson orange.",
+                    "en": "You are drawing an orange fish."
+                },
+                {
+                    "fr": "Alice porte un pull orange.",
+                    "en": "Alice is wearing an orange sweater."
+                },
+                {
+                    "fr": "Nous aimons le coucher de soleil orange.",
+                    "en": "We like the orange sunset."
+                },
+                {
+                    "fr": "Vous avez un ballon orange.",
+                    "en": "You have an orange balloon."
+                },
+                {
+                    "fr": "Alice et Henri mangent des carottes orange.",
+                    "en": "Alice and Henri are eating orange carrots."
+                }
+            ]
+        },
+        {
+            "fr": "violet",
+            "en": "purple",
+            "emoji": "🟣",
+            "sentences": [
+                {
+                    "fr": "J'aime les raisins violets.",
+                    "en": "I like purple grapes."
+                },
+                {
+                    "fr": "Tu dessines une fleur violette.",
+                    "en": "You are drawing a purple flower."
+                },
+                {
+                    "fr": "Henri porte un t-shirt violet.",
+                    "en": "Henri is wearing a purple t-shirt."
+                },
+                {
+                    "fr": "Nous avons des crayons violets.",
+                    "en": "We have purple crayons."
+                },
+                {
+                    "fr": "Vous peignez un papillon violet.",
+                    "en": "You are painting a purple butterfly."
+                },
+                {
+                    "fr": "Alice et Henri cueillent des fleurs violettes.",
+                    "en": "Alice and Henri are picking purple flowers."
+                }
+            ]
+        },
+        {
+            "fr": "rose",
+            "en": "pink",
+            "emoji": "🌸",
+            "sentences": [
+                {
+                    "fr": "Je dessine un cochon rose.",
+                    "en": "I am drawing a pink pig."
+                },
+                {
+                    "fr": "Tu portes un chapeau rose.",
+                    "en": "You are wearing a pink hat."
+                },
+                {
+                    "fr": "Alice aime sa robe rose.",
+                    "en": "Alice likes her pink dress."
+                },
+                {
+                    "fr": "Nous avons des fleurs roses.",
+                    "en": "We have pink flowers."
+                },
+                {
+                    "fr": "Vous dessinez des cœurs roses.",
+                    "en": "You are drawing pink hearts."
+                },
+                {
+                    "fr": "Alice et Henri mangent des bonbons roses.",
+                    "en": "Alice and Henri are eating pink candies."
+                }
+            ]
+        },
+        {
+            "fr": "marron",
+            "en": "brown",
+            "emoji": "🟤",
+            "sentences": [
+                {
+                    "fr": "J'aime le chocolat marron.",
+                    "en": "I like brown chocolate."
+                },
+                {
+                    "fr": "Tu dessines un ours marron.",
+                    "en": "You are drawing a brown bear."
+                },
+                {
+                    "fr": "Henri a des cheveux marron.",
+                    "en": "Henri has brown hair."
+                },
+                {
+                    "fr": "Nous mangeons du pain marron.",
+                    "en": "We are eating brown bread."
+                },
+                {
+                    "fr": "Vous avez des chaussures marron.",
+                    "en": "You have brown shoes."
+                },
+                {
+                    "fr": "Alice et Henri jouent avec un chien marron.",
+                    "en": "Alice and Henri are playing with a brown dog."
+                }
+            ]
+        },
+        {
+            "fr": "noir",
+            "en": "black",
+            "emoji": "⚫",
+            "sentences": [
+                {
+                    "fr": "Je porte des chaussures noires.",
+                    "en": "I am wearing black shoes."
+                },
+                {
+                    "fr": "Tu as un chat noir.",
+                    "en": "You have a black cat."
+                },
+                {
+                    "fr": "Alice dessine avec un crayon noir.",
+                    "en": "Alice is drawing with a black pencil."
+                },
+                {
+                    "fr": "Nous écrivons sur un tableau noir.",
+                    "en": "We are writing on a black board."
+                },
+                {
+                    "fr": "Vous portez des gants noirs.",
+                    "en": "You are wearing black gloves."
+                },
+                {
+                    "fr": "Alice et Henri regardent le ciel noir la nuit.",
+                    "en": "Alice and Henri look at the black sky at night."
+                }
+            ]
+        },
+        {
+            "fr": "blanc",
+            "en": "white",
+            "emoji": "⚪",
+            "sentences": [
+                {
+                    "fr": "J'aime la neige blanche.",
+                    "en": "I like white snow."
+                },
+                {
+                    "fr": "Tu bois du lait blanc.",
+                    "en": "You are drinking white milk."
+                },
+                {
+                    "fr": "Henri porte une chemise blanche.",
+                    "en": "Henri is wearing a white shirt."
+                },
+                {
+                    "fr": "Nous dessinons sur du papier blanc.",
+                    "en": "We are drawing on white paper."
+                },
+                {
+                    "fr": "Vous avez des dents blanches.",
+                    "en": "You have white teeth."
+                },
+                {
+                    "fr": "Alice et Henri font un bonhomme de neige blanc.",
+                    "en": "Alice and Henri are making a white snowman."
+                }
+            ]
+        },
+        {
+            "fr": "gris",
+            "en": "gray",
+            "emoji": "🔘",
+            "sentences": [
+                {
+                    "fr": "Je vois un nuage gris.",
+                    "en": "I see a gray cloud."
+                },
+                {
+                    "fr": "Tu dessines une souris grise.",
+                    "en": "You are drawing a gray mouse."
+                },
+                {
+                    "fr": "Alice porte un manteau gris.",
+                    "en": "Alice is wearing a gray coat."
+                },
+                {
+                    "fr": "Nous avons un éléphant gris en peluche.",
+                    "en": "We have a gray stuffed elephant."
+                },
+                {
+                    "fr": "Vous dessinez des pierres grises.",
+                    "en": "You are drawing gray stones."
+                },
+                {
+                    "fr": "Alice et Henri voient des nuages gris dans le ciel.",
+                    "en": "Alice and Henri see gray clouds in the sky."
+                }
+            ]
+        },
+        {
+            "fr": "doré",
+            "en": "gold",
+            "emoji": "🥇",
+            "sentences": [
+                {
+                    "fr": "J'aime les étoiles dorées.",
+                    "en": "I like gold stars."
+                },
+                {
+                    "fr": "Tu as une médaille dorée.",
+                    "en": "You have a gold medal."
+                },
+                {
+                    "fr": "Henri porte une couronne dorée.",
+                    "en": "Henri is wearing a gold crown."
+                },
+                {
+                    "fr": "Nous dessinons des pièces dorées.",
+                    "en": "We are drawing gold coins."
+                },
+                {
+                    "fr": "Vous avez des chaussures dorées.",
+                    "en": "You have gold shoes."
+                },
+                {
+                    "fr": "Alice et Henri gagnent des médailles dorées.",
+                    "en": "Alice and Henri win gold medals."
+                }
+            ]
+        },
+        {
+            "fr": "argenté",
+            "en": "silver",
+            "emoji": "🥈",
+            "sentences": [
+                {
+                    "fr": "Je vois la lune argentée.",
+                    "en": "I see the silver moon."
+                },
+                {
+                    "fr": "Tu as une cuillère argentée.",
+                    "en": "You have a silver spoon."
+                },
+                {
+                    "fr": "Alice porte un bracelet argenté.",
+                    "en": "Alice is wearing a silver bracelet."
+                },
+                {
+                    "fr": "Nous avons des décorations argentées.",
+                    "en": "We have silver decorations."
+                },
+                {
+                    "fr": "Vous dessinez des étoiles argentées.",
+                    "en": "You are drawing silver stars."
+                },
+                {
+                    "fr": "Alice et Henri gagnent des médailles argentées.",
+                    "en": "Alice and Henri win silver medals."
+                }
+            ]
+        },
+        {
+            "fr": "multicolore",
+            "en": "multicolored",
+            "emoji": "🌈",
+            "sentences": [
+                {
+                    "fr": "J'aime l'arc-en-ciel multicolore.",
+                    "en": "I like the multicolored rainbow."
+                },
+                {
+                    "fr": "Tu dessines un papillon multicolore.",
+                    "en": "You are drawing a multicolored butterfly."
+                },
+                {
+                    "fr": "Henri a un jouet multicolore.",
+                    "en": "Henri has a multicolored toy."
+                },
+                {
+                    "fr": "Nous faisons un collage multicolore.",
+                    "en": "We are making a multicolored collage."
+                },
+                {
+                    "fr": "Vous portez des vêtements multicolores.",
+                    "en": "You are wearing multicolored clothes."
+                },
+                {
+                    "fr": "Alice et Henri jouent avec des ballons multicolores.",
+                    "en": "Alice and Henri are playing with multicolored balloons."
+                }
+            ]
+        },
+        {
+            "fr": "beige",
+            "en": "beige",
+            "emoji": "🍪",
+            "sentences": [
+                {
+                    "fr": "Je porte un pantalon beige.",
+                    "en": "I am wearing beige pants."
+                },
+                {
+                    "fr": "Tu as un chapeau beige.",
+                    "en": "You have a beige hat."
+                },
+                {
+                    "fr": "Alice aime son ours en peluche beige.",
+                    "en": "Alice likes her beige teddy bear."
+                },
+                {
+                    "fr": "Nous peignons un mur beige.",
+                    "en": "We are painting a beige wall."
+                },
+                {
+                    "fr": "Vous avez du sable beige.",
+                    "en": "You have beige sand."
+                },
+                {
+                    "fr": "Alice et Henri jouent dans le sable beige.",
+                    "en": "Alice and Henri are playing in the beige sand."
+                }
+            ]
+        },
+        {
+            "fr": "turquoise",
+            "en": "turquoise",
+            "emoji": "💎",
+            "sentences": [
+                {
+                    "fr": "J'aime la mer turquoise.",
+                    "en": "I like the turquoise sea."
+                },
+                {
+                    "fr": "Tu portes un bracelet turquoise.",
+                    "en": "You are wearing a turquoise bracelet."
+                },
+                {
+                    "fr": "Henri dessine avec un crayon turquoise.",
+                    "en": "Henri is drawing with a turquoise pencil."
+                },
+                {
+                    "fr": "Nous avons un poisson turquoise.",
+                    "en": "We have a turquoise fish."
+                },
+                {
+                    "fr": "Vous peignez un papillon turquoise.",
+                    "en": "You are painting a turquoise butterfly."
+                },
+                {
+                    "fr": "Alice et Henri nagent dans l'eau turquoise.",
+                    "en": "Alice and Henri are swimming in the turquoise water."
+                }
+            ]
+        },
+        {
+            "fr": "bordeaux",
+            "en": "burgundy",
+            "emoji": "🍷",
+            "sentences": [
+                {
+                    "fr": "J'aime les raisins bordeaux.",
+                    "en": "I like burgundy grapes."
+                },
+                {
+                    "fr": "Tu portes un pull bordeaux.",
+                    "en": "You are wearing a burgundy sweater."
+                },
+                {
+                    "fr": "Alice a un sac bordeaux.",
+                    "en": "Alice has a burgundy bag."
+                },
+                {
+                    "fr": "Nous dessinons des feuilles bordeaux.",
+                    "en": "We are drawing burgundy leaves."
+                },
+                {
+                    "fr": "Vous avez une voiture bordeaux.",
+                    "en": "You have a burgundy car."
+                },
+                {
+                    "fr": "Alice et Henri cueillent des pommes bordeaux.",
+                    "en": "Alice and Henri are picking burgundy apples."
+                }
+            ]
+        },
+        {
+            "fr": "bleu clair",
+            "en": "light blue",
+            "emoji": "💦",
+            "sentences": [
+                {
+                    "fr": "J'aime le ciel bleu clair.",
+                    "en": "I like the light blue sky."
+                },
+                {
+                    "fr": "Tu portes une chemise bleu clair.",
+                    "en": "You are wearing a light blue shirt."
+                },
+                {
+                    "fr": "Henri dessine avec un crayon bleu clair.",
+                    "en": "Henri is drawing with a light blue pencil."
+                },
+                {
+                    "fr": "Nous avons des yeux bleu clair.",
+                    "en": "We have light blue eyes."
+                },
+                {
+                    "fr": "Vous peignez un nuage bleu clair.",
+                    "en": "You are painting a light blue cloud."
+                },
+                {
+                    "fr": "Alice et Henri regardent le ciel bleu clair.",
+                    "en": "Alice and Henri are looking at the light blue sky."
+                }
+            ]
+        },
+        {
+            "fr": "vert foncé",
+            "en": "dark green",
+            "emoji": "🌲",
+            "sentences": [
+                {
+                    "fr": "J'aime les sapins vert foncé.",
+                    "en": "I like dark green pine trees."
+                },
+                {
+                    "fr": "Tu dessines des feuilles vert foncé.",
+                    "en": "You are drawing dark green leaves."
+                },
+                {
+                    "fr": "Henri porte un manteau vert foncé.",
+                    "en": "Henri is wearing a dark green coat."
+                },
+                {
+                    "fr": "Nous avons une bouteille vert foncé.",
+                    "en": "We have a dark green bottle."
+                },
+                {
+                    "fr": "Vous peignez une forêt vert foncé.",
+                    "en": "You are painting a dark green forest."
+                },
+                {
+                    "fr": "Alice et Henri jouent sous les arbres vert foncé.",
+                    "en": "Alice and Henri are playing under the dark green trees."
+                }
+            ]
+        },
+        {
+            "fr": "rouge vif",
+            "en": "bright red",
+            "emoji": "🍒",
+            "sentences": [
+                {
+                    "fr": "J'aime les cerises rouge vif.",
+                    "en": "I like bright red cherries."
+                },
+                {
+                    "fr": "Tu portes un chapeau rouge vif.",
+                    "en": "You are wearing a bright red hat."
+                },
+                {
+                    "fr": "Alice dessine des cœurs rouge vif.",
+                    "en": "Alice is drawing bright red hearts."
+                },
+                {
+                    "fr": "Nous avons des pommes rouge vif.",
+                    "en": "We have bright red apples."
+                },
+                {
+                    "fr": "Vous peignez des fleurs rouge vif.",
+                    "en": "You are painting bright red flowers."
+                },
+                {
+                    "fr": "Alice et Henri mangent des fraises rouge vif.",
+                    "en": "Alice and Henri are eating bright red strawberries."
+                }
+            ]
+        }
+    ]
+}
