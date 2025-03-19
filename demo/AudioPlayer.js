@@ -1,6 +1,6 @@
 class AudioPlayer extends HTMLElement {
     static get observedAttributes() {
-        return ['pass', 'fail'];
+        return ['pass-sound', 'fail-sound'];
     }
 
     constructor() {
@@ -19,25 +19,34 @@ class AudioPlayer extends HTMLElement {
     connectedCallback() {
         this.render();
         // Initialize sounds from attributes or defaults
-        this.passSound.src = this.getAttribute('pass') || "audio/win.wav";
-        this.failSound.src = this.getAttribute('fail') || "audio/fail.wav";
+        this.initializeSound(this.passSound, this.getAttribute('pass-sound') || "audio/win.wav", "passSound");
+        this.initializeSound(this.failSound, this.getAttribute('fail-sound') || "audio/fail.wav", "failSound");
+    }
+
+    initializeSound(audioElement, src, name) {
+        audioElement.src = src;
+        audioElement.load();
         
-        // Pre-load the audio files
-        this.passSound.load();
-        this.failSound.load();
+        audioElement.addEventListener("canplaythrough", () => {
+            log(`${name} canplaythrough`);
+            audioElement.muted = true; // Start muted
+            audioElement.play().then(() => {
+                setTimeout(() => {
+                    audioElement.muted = false; // Unmute after 2 seconds
+                }, 2000);
+            });
+        });
     }
 
     attributeChangedCallback(name, oldValue, newValue) {
         if (oldValue === newValue) return;
         
         switch(name) {
-            case 'success-sound':
-                this.successSound.src = newValue;
-                this.successSound.load();
+            case 'pass-sound':
+                this.initializeSound(this.passSound, newValue, "passSound");
                 break;
             case 'fail-sound':
-                this.failSound.src = newValue;
-                this.failSound.load();
+                this.initializeSound(this.failSound, newValue, "failSound");
                 break;
         }
     }
@@ -54,7 +63,7 @@ class AudioPlayer extends HTMLElement {
     
     playPass() {
         this.passSound.currentTime = 0; // Reset to start
-        this.passSound.play().catch(e => console.warn("Error playing success sound:", e));
+        this.passSound.play().catch(e => console.warn("Error playing pass sound:", e));
     }
     
     playFail() {

@@ -8,7 +8,7 @@
     <script async="false">
         const scripts = [
             'SpeechSpeedSlider.js',
-            'ArrowKeyWidget.js',
+//            'ArrowKeyWidget.js',
             'AudioPlayer.js',
             'ConfettiPlayer.js',
             'ScoreCounter.js',
@@ -254,7 +254,6 @@ html, body {
 
             // Update UI based on current indices
             function updateUI() {
-                console.log("updateUI");
                 const currentItem = data[currentWordIndex];
                 emojiEl.textContent = currentItem.emoji;
                 //wordEl.textContent = currentItem.word;

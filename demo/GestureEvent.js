@@ -29,18 +29,34 @@ class GestureNavigator extends HTMLElement {
         this.removeEventListener('touchend', this.onTouchEnd);
     }
 
+
+    ignoreEvent(event) {
+        // ignore events when the target is not the document.
+        if ( (event.target === document) || (event.target === document.documentElement) || (event.target === document.body ) ) {
+            return false;
+        }
+        return true;
+    }
     onTouchStart(event) {
+        if (this.ignoreEvent(event)) {
+            return;
+        }
         const touch = event.touches[0];
         this.startX = touch.clientX;
         this.startY = touch.clientY;
     }
 
     onTouchMove(event) {
-        // Prevent scrolling while swiping
+        if (this.ignoreEvent(event)) {
+            return;
+        }        // Prevent scrolling while swiping
         event.preventDefault();
     }
 
     onTouchEnd(event) {
+        if (this.ignoreEvent(event)) {
+            return;
+        }
         const touch = event.changedTouches[0];
         const deltaX = touch.clientX - this.startX;
         const deltaY = touch.clientY - this.startY;
@@ -50,10 +66,8 @@ class GestureNavigator extends HTMLElement {
             // Horizontal swipe
             if (Math.abs(deltaX) > this.threshold) {
                 if (deltaX > 0) {
-                    log("gesture-right");
                     this.dispatchGesture('gesture-right', 'ArrowRight');
                 } else {
-                    log("gesture-left");
                     this.dispatchGesture('gesture-left', 'ArrowLeft');
                 }
             }
