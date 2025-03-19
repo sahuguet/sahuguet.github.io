@@ -1,0 +1,37 @@
+<html>
+<head>
+    <script src="GestureEvent.js"></script>
+    <script>
+          function log(...msg) {
+            const logArea = document.getElementById("log");
+            if (logArea) {
+                const message = msg.map(arg => typeof arg === 'object' ? JSON.stringify(arg) : arg).join(' ');
+                logArea.value += message + "\n";
+                logArea.scrollTop = logArea.scrollHeight;
+            } else {
+                console.log(msg);
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Test Gesture Navigator</h1>
+    <gesture-navigator id="nav"></gesture-navigator>
+    <textarea rows="20" cols="80" id="log"></textarea>
+
+<script>
+    log("test-gesture-nav.html");
+
+    // Listen for keydown events
+    document.addEventListener('keydown', (event) => {
+        log("inside main loop", event.key);
+        if (['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown'].includes(event.key)) {
+            alert(`Keydown: ${event.key}`);
+        }
+    });
+</script>
+
+</body>
+
+</html>

@@ -15,7 +15,8 @@
             'EzSpeak.js',   
             'CircularImg.js',
             'SpeechRecognitionComponent.js',
-            'RepeatSentenceComponent.js'
+            'RepeatSentenceComponent.js',
+            'GestureEvent.js'
         ];
         scripts.forEach(src => {
             const script = document.createElement('script');
@@ -38,6 +39,12 @@
 
 
     <style>
+
+html, body {
+    overflow: hidden;
+    height: 100%;
+}
+
         body {
             font-family: sans-serif;
             margin: 40px;
@@ -95,6 +102,9 @@
     <!-- For audio and confetti  FX -->
     <audio-player></audio-player>
     <confetti-player></confetti-player>
+
+    <!-- Gesture Navigator -->
+    <gesture-navigator></gesture-navigator>
 
     <h1>Votre Leçon de français : <select id="topic">
         <option value="a-table.json">A Table</option>
