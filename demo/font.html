@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Font Pair</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.google.com/specimen/Hubot+Sans" rel="stylesheet">
+  <!-- Initial fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Oswald&family=Archivo+Black&family=Bebas+Neue&family=Righteous&family=Anton&family=Fjalla+One&family=Staatliches&family=Alfa+Slab+One&family=Comfortaa&family=Josefin+Sans&family=Paytone+One&family=Secular+One&family=Shrikhand&family=Ultra&family=Playfair+Display&family=Lora&family=Merriweather&family=Source+Serif+Pro&family=Libre+Baskerville&family=Crimson+Text&family=EB+Garamond&family=Cormorant+Garamond&family=Bitter&family=Spectral&family=Noto+Serif&family=Cardo&family=IBM+Plex+Serif&family=Hubot+Sans&family=Inter&family=Roboto&family=Montserrat&family=Poppins&family=Open+Sans&family=Raleway&family=Work+Sans&family=Nunito&family=Quicksand&family=DM+Sans&family=Manrope&family=Karla&family=Outfit&family=Rubik&family=Oxygen&family=Exo&family=Mulish&family=Heebo&family=Asap&family=Barlow&family=Catamaran&family=Saira&family=Titillium+Web&family=Yantramanav&family=Hind&family=Monda&family=Chivo&family=Varela+Round&family=Questrial&family=Exo+2&family=Urbanist&family=Raleway+Dots&family=Red+Hat+Display&family=Zilla+Slab&family=Tinos&family=Arvo&family=Alegreya&family=Neuton&family=PT+Serif&family=Prata&family=Gloock&family=Alice&family=Lustria&family=Rosarivo&family=Cormorant+SC&family=Neucha&family=Tienne&family=Noto+Serif+Display&family=Libre+Caslon+Text&family=Fauna+One&family=Sorts+Mill+Goudy&family=Abhaya+Libre&family=Noto+Serif+Tamil&family=Bangers&family=Black+Ops+One&family=Fredoka&family=Monoton&family=Audiowide&family=Coiny&family=Boogaloo&family=Faster+One&family=Megrim&family=Londrina+Solid&family=Amatic+SC&family=Chewy&family=Sigmar+One&family=Luckiest+Guy&family=Fascinate&family=Fredericka+the+Great&family=Rye&family=Nosifer&family=Unica+One&family=Rubik+Moonrocks&family=Pacifico&family=Caveat&family=Dancing+Script&family=Satisfy&family=Indie+Flower&family=Just+Another+Hand&family=Shadows+Into+Light&family=Patrick+Hand&family=Great+Vibes&family=Courgette&family=Kalam&family=Yellowtail&family=Reenie+Beanie&family=Gloria+Hallelujah&family=Coming+Soon&family=Architects+Daughter&family=La+Belle+Aurore&family=Bad+Script&family=Zeyada&family=Sacramento&family=JetBrains+Mono&family=Fira+Code&family=Space+Mono&family=Share+Tech+Mono&family=Inconsolata&family=Ubuntu+Mono&family=Cousine&family=PT+Mono&family=Roboto+Mono&family=Source+Code+Pro&family=Cutive+Mono&family=IBM+Plex+Mono&family=VT323&family=Overpass+Mono&family=Nanum+Gothic+Coding&family=Oxygen+Mono&family=Anonymous+Pro&family=Major+Mono+Display&family=Lekton&family=Andale+Mono&display=swap" rel="stylesheet">
+
+  <style>
+  
+  @import url('https://fonts.googleapis.com/css2?family=Hubot+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+  
+    :root {
+      --bg: #ffffff;
+      --text: #111111;
+      --text-light: #555555;
+      --card: rgba(243, 243, 243, 0.6);
+      --card-hover: rgba(236, 236, 236, 0.8);
+      --accent: #000000;
+      --heading-font: 'Hubot Sans', sans-serif;
+      --body-font: 'Hubot Sans', sans-serif;
+      --transition: all 0.2s ease-out;
+      --shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: var(--body-font);
+      background-color: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      padding: 0 1rem;
+    }
+    
+    header {
+      padding: 1.5rem 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    }
+    
+    .logo {
+      font-weight: 700;
+      font-size: 1.25rem;
+      letter-spacing: -0.02em;
+      color: var(--accent);
+    }
+    
+    main {
+      flex: 1;
+      padding: 2rem 0;
+      max-width: 800px;
+      margin: 0 auto;
+      width: 100%;
+    }
+    
+    .preview {
+      margin: 2rem 0;
+      padding: 3rem 2rem;
+      background-color: var(--card);
+      border-radius: 12px;
+      transition: var(--transition);
+      position: relative;
+      overflow: hidden;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(151, 151, 151, 0.534);
+    }
+    
+    .preview:hover {
+      transform: translateY(-5px);
+    }
+    
+    .preview-heading {
+      font-family: var(--heading-font);
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+      line-height: 1.2;
+      animation: fadeUp 0.5s ease forwards;
+    }
+    
+    .preview-body {
+      font-family: var(--body-font);
+      font-size: 1.125rem;
+      line-height: 1.6;
+      color: var(--text-light);
+      animation: fadeUp 0.5s 0.1s ease forwards;
+    }
+    
+    .controls {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .font-control {
+      flex: 1;
+      background-color: var(--card);
+      border-radius: 12px;
+      padding: 1.25rem;
+      transition: var(--transition);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(151, 151, 151, 0.534);
+    }
+    
+    .font-control:hover {
+      background-color: var(--card-hover);
+    }
+    
+    .font-name {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.75rem;
+      color: var(--text-light);
+    }
+    
+    .font-display {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+    }
+    
+    .heading-font, .body-font {
+      font-size: 1.25rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 70%;
+    }
+    
+    .shuffle-btn {
+      background-color: var(--accent);
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: var(--transition);
+      padding: 0.5rem;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .shuffle-btn:hover {
+      opacity: 0.9;
+      transform: translateY(-1px);
+    }
+    
+    .dropdown {
+      position: relative;
+      width: 100%;
+    }
+    
+    .dropdown-select {
+      width: 100%;
+      padding: 0.75rem;
+      background-color: rgba(255, 255, 255, 0.5);
+      /* border: 1px solid rgba(0, 0, 0, 0.1); */
+      border-radius: 6px;
+      cursor: pointer;
+      color: var(--text);
+      font-family: inherit;
+      font-size: 0.9rem;
+      transition: var(--transition);
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 8px center;
+      background-size: 16px;
+    }
+    
+    .dropdown-select:hover {
+      border-color: rgba(0, 0, 0, 0.2);
+    }
+    
+    .shuffle-all {
+      width: 100%;
+      padding: 1rem;
+      background-color: var(--accent);
+      color: white;
+      border: none;
+      border-radius: 12px;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+      box-shadow: var(--shadow);
+      transition: var(--transition);
+      cursor: pointer;
+    }
+    
+    .shuffle-all:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    }
+    
+    .font-category {
+      margin-top: 0.75rem;
+      display: flex;
+      gap: 0.5rem;
+    }
+    
+    .category-btn {
+      flex: 1;
+      padding: 0.5rem;
+      font-size: 0.8rem;
+      border-radius: 6px;
+      background-color: rgba(0, 0, 0, 0.05);
+      color: var(--text);
+      cursor: pointer;
+      border: none;
+      transition: var(--transition);
+    }
+    
+    .category-btn.active {
+      background-color: var(--accent);
+      color: white;
+    }
+    
+    .keyboard-shortcuts {
+      margin-top: 2rem;
+      padding: 1rem;
+      background-color: var(--card);
+      border-radius: 8px;
+      font-size: 0.85rem;
+      color: var(--text-light);
+      border: 1px solid rgba(151, 151, 151, 0.534);
+    }
+    
+    .shortcut {
+      display: inline-block;
+      padding: 0.25rem 0.5rem;
+      background-color: rgba(0, 0, 0, 0.05);
+      border-radius: 4px;
+      margin: 0 0.25rem;
+      border: 1px solid rgba(80, 80, 80, 0.534);
+    }
+    
+    .status {
+      margin-top: 1rem;
+      padding: 0.75rem;
+      border-radius: 6px;
+      background-color: rgba(0, 0, 0, 0.05);
+      font-size: 0.85rem;
+      color: var(--text-light);
+      display: none;
+    }
+    
+    .status.active {
+      display: block;
+      animation: fadeIn 0.3s ease forwards, fadeOut 0.3s 2s ease forwards;
+    }
+    
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    
+    @keyframes fadeOut {
+      from { opacity: 1; }
+      to { opacity: 0; }
+    }
+    
+    @media (max-width: 768px) {
+      .controls {
+        flex-direction: column;
+      }
+      
+      .preview {
+        padding: 2rem 1.5rem;
+      }
+      
+      .preview-heading {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">FONT PAIR</div>
+  </header>
+  
+  <main>
+    <div class="controls">
+      <div class="font-control">
+        <div class="font-name">Heading Font</div>
+        <div class="font-display">
+          <div class="heading-font" id="heading-font-display">Hubot Sans</div>
+          <button class="shuffle-btn" id="shuffle-heading" title="Shuffle heading font">⟳</button>
+        </div>
+        <div class="dropdown">
+          <select id="heading-font-select" class="dropdown-select">
+            <!-- Font options will be populated by JavaScript -->
+          </select>
+        </div>
+        <div class="font-category" id="heading-categories">
+          <button class="category-btn active" data-category="all">All</button>
+          <button class="category-btn" data-category="serif">Serif</button>
+          <button class="category-btn" data-category="sans-serif">Sans</button>
+          <button class="category-btn" data-category="display">Display</button>
+        </div>
+      </div>
+      
+      <div class="font-control">
+        <div class="font-name">Body Font</div>
+        <div class="font-display">
+          <div class="body-font" id="body-font-display">Hubot Sans</div>
+          <button class="shuffle-btn" id="shuffle-body" title="Shuffle body font">⟳</button>
+        </div>
+        <div class="dropdown">
+          <select id="body-font-select" class="dropdown-select">
+            <!-- Font options will be populated by JavaScript -->
+          </select>
+        </div>
+        <div class="font-category" id="body-categories">
+          <button class="category-btn active" data-category="all">All</button>
+          <button class="category-btn" data-category="serif">Serif</button>
+          <button class="category-btn" data-category="sans-serif">Sans</button>
+          <button class="category-btn" data-category="display">Display</button>
+        </div>
+      </div>
+    </div>
+    
+    <button class="shuffle-all" id="shuffle-all">SHUFFLE BOTH</button>
+    
+    <div class="preview" id="preview">
+      <h1 class="preview-heading">Typography is what language looks like.</h1>
+      <p class="preview-body">Good typography establishes a visual hierarchy for meaning by contrasting styles and sizes. A great font combination creates harmony between elements.</p>
+    </div>
+    
+    <div class="keyboard-shortcuts">
+      Keyboard shortcuts: <span class="shortcut">S</span> shuffle both fonts, 
+      <span class="shortcut">H</span> shuffle heading font, 
+      <span class="shortcut">B</span> shuffle body font
+    </div>
+    
+    <div id="status" class="status"></div>
+  </main>
+
+  <script>
+    // Expanded Font data - all available on Google Fonts
+    const fonts = {
+  'sans-serif': [
+    'Hubot Sans',
+    'Inter',
+    'Roboto',
+    'Montserrat',
+    'Poppins',
+    'Open Sans',
+    'Raleway',
+    'Work Sans',
+    'Nunito',
+    'Quicksand',
+    'DM Sans',
+    'Manrope',
+    'Karla',
+    'Outfit',
+    'Rubik',
+    'Oxygen',
+    'Exo',
+    'Mulish',
+    'Heebo',
+    'Asap',
+    'Barlow',
+    'Catamaran',
+    'Saira',
+    'Titillium Web',
+    'Yantramanav',
+    'Hind',
+    'Monda',
+    'Chivo',
+    'Varela Round',
+    'Questrial',
+    'Exo 2',
+    'Urbanist',
+    'Raleway Dots',
+    'Red Hat Display'
+  ],
+  'serif': [
+    'Playfair Display',
+    'Lora',
+    'Merriweather',
+    'Source Serif Pro',
+    'Libre Baskerville',
+    'Crimson Text',
+    'EB Garamond',
+    'Cormorant Garamond',
+    'Bitter',
+    'Spectral',
+    'Noto Serif',
+    'Cardo',
+    'IBM Plex Serif',
+    'Lusitana',
+    'Zilla Slab',
+    'Tinos',
+    'Arvo',
+    'Alegreya',
+    'Neuton',
+    'PT Serif',
+    'Prata',
+    'Gloock',
+    'Alice',
+    'Lustria',
+    'Rosarivo',
+    'Cormorant SC',
+    'Neucha',
+    'Tienne',
+    'Noto Serif Display',
+    'Libre Caslon Text',
+    'Fauna One',
+    'Sorts Mill Goudy',
+    'Abhaya Libre',
+    'Noto Serif Tamil'
+  ],
+  'display': [
+    'Oswald',
+    'Archivo Black',
+    'Bebas Neue',
+    'Righteous',
+    'Anton',
+    'Fjalla One',
+    'Staatliches',
+    'Alfa Slab One',
+    'Comfortaa',
+    'Josefin Sans',
+    'Paytone One',
+    'Secular One',
+    'Shrikhand',
+    'Ultra',
+    'Bangers',
+    'Black Ops One',
+    'Fredoka',
+    'Monoton',
+    'Audiowide',
+    'Coiny',
+    'Boogaloo',
+    'Faster One',
+    'Megrim',
+    'Londrina Solid',
+    'Amatic SC',
+    'Chewy',
+    'Sigmar One',
+    'Luckiest Guy',
+    'Fascinate',
+    'Fredericka the Great',
+    'Rye',
+    'Nosifer',
+    'Unica One',
+    'Rubik Moonrocks'
+  ],
+  'handwriting': [
+    'Pacifico',
+    'Caveat',
+    'Dancing Script',
+    'Satisfy',
+    'Indie Flower',
+    'Just Another Hand',
+    'Shadows Into Light',
+    'Patrick Hand',
+    'Great Vibes',
+    'Courgette',
+    'Kalam',
+    'Yellowtail',
+    'Reenie Beanie',
+    'Gloria Hallelujah',
+    'Coming Soon',
+    'Architects Daughter',
+    'La Belle Aurore',
+    'Bad Script',
+    'Zeyada',
+    'Sacramento'
+  ],
+  'monospace': [
+    'JetBrains Mono',
+    'Fira Code',
+    'Space Mono',
+    'Share Tech Mono',
+    'Inconsolata',
+    'Ubuntu Mono',
+    'Cousine',
+    'PT Mono',
+    'Roboto Mono',
+    'Source Code Pro',
+    'Cutive Mono',
+    'IBM Plex Mono',
+    'VT323',
+    'Overpass Mono',
+    'Nanum Gothic Coding',
+    'Oxygen Mono',
+    'Anonymous Pro',
+    'Major Mono Display',
+    'Lekton',
+    'Andale Mono'
+  ]
+};
+
+    // Map to track loaded fonts
+    const loadedFonts = new Map();
+    
+    // Elements
+    const elements = {
+      headingFontDisplay: document.getElementById('heading-font-display'),
+      bodyFontDisplay: document.getElementById('body-font-display'),
+      previewHeading: document.querySelector('.preview-heading'),
+      previewBody: document.querySelector('.preview-body'),
+      shuffleHeadingBtn: document.getElementById('shuffle-heading'),
+      shuffleBodyBtn: document.getElementById('shuffle-body'),
+      shuffleAllBtn: document.getElementById('shuffle-all'),
+      headingFontSelect: document.getElementById('heading-font-select'),
+      bodyFontSelect: document.getElementById('body-font-select'),
+      headingCategories: document.getElementById('heading-categories'),
+      bodyCategories: document.getElementById('body-categories'),
+      status: document.getElementById('status')
+    };
+    
+    // State
+    const state = {
+      headingFont: 'Hubot Sans',
+      bodyFont: 'Hubot Sans',
+      headingWeight: '700',
+      bodyWeight: '400',
+      headingCategory: 'all',
+      bodyCategory: 'all'
+    };
+    
+    // Show status message
+    function showStatus(message) {
+      elements.status.textContent = message;
+      elements.status.classList.add('active');
+      
+      // Remove active class after animation completes
+      setTimeout(() => {
+        elements.status.classList.remove('active');
+      }, 2500);
+    }
+    
+    // Load font using WebFontLoader to ensure proper font loading
+    function loadFont(fontName, weight = '400,700') {
+      return new Promise((resolve, reject) => {
+        // Don't reload already loaded fonts
+        if (loadedFonts.has(fontName)) {
+          return resolve();
+        }
+        
+        // Handle Hubot Sans specially
+        if (fontName === 'Hubot Sans') {
+          loadedFonts.set(fontName, true);
+          return resolve();
+        }
+        
+        // Format font name for Google Fonts
+        const formattedName = fontName.replace(/\s+/g, '+');
+        
+        // Load new font
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = `https://fonts.googleapis.com/css2?family=${formattedName}:wght@${weight}&display=swap`;
+        document.head.appendChild(link);
+        
+        // Create a test element to check when font is loaded
+        const testElement = document.createElement('span');
+        testElement.style.fontFamily = `'${fontName}', sans-serif`;
+        testElement.style.position = 'absolute';
+        testElement.style.visibility = 'hidden';
+        testElement.textContent = 'Font Test';
+        document.body.appendChild(testElement);
+        
+        // Check if font is loaded - simple timeout approach
+        setTimeout(() => {
+          document.body.removeChild(testElement);
+          loadedFonts.set(fontName, true);
+          resolve();
+        }, 500); // Allow 500ms for font to load
+      });
+    }
+    
+    // Populate font select options
+    function populateSelectOptions(selectElement, category = 'all') {
+      // Clear existing options
+      selectElement.innerHTML = '';
+      
+      // Add default Hubot Sans option
+      const defaultOption = document.createElement('option');
+      defaultOption.value = 'Hubot Sans';
+      defaultOption.textContent = 'Hubot Sans';
+      selectElement.appendChild(defaultOption);
+      
+      // Determine which fonts to show based on category
+      let fontsToAdd = [];
+      if (category === 'all') {
+        // Combine all font categories
+        Object.values(fonts).forEach(fontArray => {
+          fontsToAdd = [...fontsToAdd, ...fontArray];
+        });
+      } else {
+        fontsToAdd = fonts[category] || [];
+      }
+      
+      // Remove Hubot Sans if it's in the list to avoid duplication
+      fontsToAdd = fontsToAdd.filter(font => font !== 'Hubot Sans');
+      
+      // Sort alphabetically
+      fontsToAdd.sort();
+      
+      // Add options
+      fontsToAdd.forEach(font => {
+        const option = document.createElement('option');
+        option.value = font;
+        option.textContent = font;
+        selectElement.appendChild(option);
+      });
+    }
+    
+    // Get random font based on category
+    function getRandomFont(category = 'all') {
+      if (category === 'all') {
+        const categories = Object.keys(fonts);
+        const randomCategory = categories[Math.floor(Math.random() * categories.length)];
+        const fontList = fonts[randomCategory];
+        return fontList[Math.floor(Math.random() * fontList.length)];
+      } else {
+        const fontList = fonts[category] || [];
+        if (fontList.length === 0) return 'Hubot Sans';
+        return fontList[Math.floor(Math.random() * fontList.length)];
+      }
+    }
+    
+    // Update preview
+    async function updatePreview() {
+      // Show loading status
+      showStatus("Loading fonts...");
+      
+      try {
+        // Load fonts if needed
+        await Promise.all([
+          loadFont(state.headingFont),
+          loadFont(state.bodyFont)
+        ]);
+        
+        // Update CSS variables - critical fix for applying fonts
+        document.documentElement.style.setProperty('--heading-font', `'${state.headingFont}', sans-serif`);
+        document.documentElement.style.setProperty('--body-font', `'${state.bodyFont}', sans-serif`);
+        
+        // Update font displays
+        elements.headingFontDisplay.textContent = state.headingFont;
+        elements.headingFontDisplay.style.fontFamily = `'${state.headingFont}', sans-serif`;
+        
+        elements.bodyFontDisplay.textContent = state.bodyFont;
+        elements.bodyFontDisplay.style.fontFamily = `'${state.bodyFont}', sans-serif`;
+        
+        // Update preview text styling directly
+        elements.previewHeading.style.fontFamily = `'${state.headingFont}', sans-serif`;
+        elements.previewBody.style.fontFamily = `'${state.bodyFont}', sans-serif`;
+        
+        // Animation reset
+        elements.previewHeading.style.animation = 'none';
+        elements.previewBody.style.animation = 'none';
+        void document.getElementById('preview').offsetWidth; // Force reflow
+        elements.previewHeading.style.animation = 'fadeUp 0.5s ease forwards';
+        elements.previewBody.style.animation = 'fadeUp 0.5s 0.1s ease forwards';
+        
+        // Update font selects to match current state
+        elements.headingFontSelect.value = state.headingFont;
+        elements.bodyFontSelect.value = state.bodyFont;
+        
+        showStatus("Fonts updated successfully");
+      } catch (error) {
+        console.error("Error updating fonts:", error);
+        showStatus("Error loading fonts. Using fallback.");
+      }
+    }
+    
+    // Shuffle functions with visual feedback
+    async function shuffleHeadingFont() {
+      const oldFont = state.headingFont;
+      state.headingFont = getRandomFont(state.headingCategory);
+      
+      // Ensure we get a different font
+      if (state.headingFont === oldFont && fonts[state.headingCategory || 'sans-serif'].length > 1) {
+        state.headingFont = getRandomFont(state.headingCategory);
+      }
+      
+      showStatus(`Heading font: ${state.headingFont}`);
+      await updatePreview();
+    }
+    
+    async function shuffleBodyFont() {
+      const oldFont = state.bodyFont;
+      state.bodyFont = getRandomFont(state.bodyCategory);
+      
+      // Ensure we get a different font
+      if (state.bodyFont === oldFont && fonts[state.bodyCategory || 'sans-serif'].length > 1) {
+        state.bodyFont = getRandomFont(state.bodyCategory);
+      }
+      
+      showStatus(`Body font: ${state.bodyFont}`);
+      await updatePreview();
+    }
+    
+    async function shuffleBothFonts() {
+      const oldHeadingFont = state.headingFont;
+      const oldBodyFont = state.bodyFont;
+      
+      state.headingFont = getRandomFont(state.headingCategory);
+      state.bodyFont = getRandomFont(state.bodyCategory);
+      
+      // Ensure we get different fonts
+      if (state.headingFont === oldHeadingFont && fonts[state.headingCategory || 'sans-serif'].length > 1) {
+        state.headingFont = getRandomFont(state.headingCategory);
+      }
+      
+      if (state.bodyFont === oldBodyFont && fonts[state.bodyCategory || 'sans-serif'].length > 1) {
+        state.bodyFont = getRandomFont(state.bodyCategory);
+      }
+      
+      showStatus(`New pair: ${state.headingFont} + ${state.bodyFont}`);
+      await updatePreview();
+      
+      // Change text occasionally
+      if (Math.random() > 0.5) {
+        cyclePreviewText();
+      }
+    }
+    
+    // Preview text messages
+    const previewMessages = [
+      {
+        heading: "Typography is what language looks like.",
+        body: "Good typography establishes a visual hierarchy for meaning by contrasting styles and sizes. A great font combination creates harmony between elements."
+      },
+      {
+        heading: "Font pairing is both art and science.",
+        body: "Finding the perfect balance between fonts is about creating contrast while maintaining harmony. Your headings and body text should complement each other."
+      },
+      {
+        heading: "Great design begins with typography.",
+        body: "The fonts you choose set the tone for your entire design. They convey personality, establish brand identity, and guide the reader's eye through your content."
+      },
+      {
+        heading: "Clear typography makes clear thoughts.",
+        body: "When fonts are paired well, the reader's mind can focus on the content rather than the form. Good typography becomes invisible in service of the message."
+      },
+      {
+        heading: "Type is a voice that can speak in any language.",
+        body: "The character of a typeface communicates as much as the words themselves. Choose fonts that express the right tone for your message."
+      }
+    ];
+    
+    // Cycle preview text
+    function cyclePreviewText() {
+      const randomMessage = previewMessages[Math.floor(Math.random() * previewMessages.length)];
+      elements.previewHeading.textContent = randomMessage.heading;
+      elements.previewBody.textContent = randomMessage.body;
+    }
+    
+    // Preload commonly used fonts
+    async function preloadCommonFonts() {
+      const commonFonts = [
+        'Inter', 'Roboto', 'Montserrat', 'Playfair Display', 'Lora'
+      ];
+      
+      try {
+        await Promise.all(commonFonts.map(font => loadFont(font)));
+        console.log('Common fonts preloaded');
+      } catch (error) {
+        console.error('Failed to preload some fonts:', error);
+      }
+    }
+    
+    // Initialize
+    function init() {
+      // Populate select options
+      populateSelectOptions(elements.headingFontSelect);
+      populateSelectOptions(elements.bodyFontSelect);
+      
+      // Event listener for heading font select
+      elements.headingFontSelect.addEventListener('change', (e) => {
+        state.headingFont = e.target.value;
+        updatePreview();
+      });
+      
+      // Event listener for body font select
+      elements.bodyFontSelect.addEventListener('change', (e) => {
+        state.bodyFont = e.target.value;
+        updatePreview();
+      });
+      
+      // Event listeners for shuffle buttons
+      elements.shuffleHeadingBtn.addEventListener('click', shuffleHeadingFont);
+      elements.shuffleBodyBtn.addEventListener('click', shuffleBodyFont);
+      elements.shuffleAllBtn.addEventListener('click', shuffleBothFonts);
+      
+      // Event listeners for category buttons
+      Array.from(elements.headingCategories.children).forEach(button => {
+        button.addEventListener('click', (e) => {
+          Array.from(elements.headingCategories.children).forEach(btn => {
+            btn.classList.remove('active');
+          });
+          e.target.classList.add('active');
+          state.headingCategory = e.target.dataset.category;
+          populateSelectOptions(elements.headingFontSelect, state.headingCategory);
+          showStatus(`Category: ${state.headingCategory}`);
+        });
+      });
+      
+      Array.from(elements.bodyCategories.children).forEach(button => {
+        button.addEventListener('click', (e) => {
+          Array.from(elements.bodyCategories.children).forEach(btn => {
+            btn.classList.remove('active');
+          });
+          e.target.classList.add('active');
+          state.bodyCategory = e.target.dataset.category;
+          populateSelectOptions(elements.bodyFontSelect, state.bodyCategory);
+          showStatus(`Category: ${state.bodyCategory}`);
+        });
+      });
+      
+      // Keyboard shortcuts
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 's' || e.key === 'S') {
+          shuffleBothFonts();
+        } else if (e.key === 'h' || e.key === 'H') {
+          shuffleHeadingFont();
+        } else if (e.key === 'b' || e.key === 'B') {
+          shuffleBodyFont();
+        }
+      });
+      
+      // Preload common fonts
+      preloadCommonFonts();
+      
+      // Set initial preview
+      updatePreview();
+    }
+    
+    // Initialize on DOM load
+    document.addEventListener('DOMContentLoaded', init);
+  </script>
+</body>
+</html>

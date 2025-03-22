@@ -139,7 +139,7 @@ class EzSpeak extends HTMLElement {
         .map(node => node.textContent.trim())
         .join(' ');
     const before = text.slice(0, start);
-    const word = `<b>${text.slice(start, end)}</b>`;
+    const word = `<span style="color: blue; font-weight: bold;">${text.slice(start, end)}</span>`;
     const after = text.slice(end);
     const html = (before + word + after).toString();
     const new_div = document.createElement("div");
