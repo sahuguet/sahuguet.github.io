@@ -3,77 +3,305 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZIP Extractor using OPFS</title>
+    <title>OPFS Zip File Handler</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+        progress {
+            width: 100%;
+            margin: 10px 0;
+        }
+        #fileList {
+            list-style-type: none;
+            padding: 0;
+        }
+        #fileList li {
+            padding: 8px;
+            margin-bottom: 5px;
+            background-color: #f5f5f5;
+            border-radius: 4px;
+        }
+        .log {
+            background-color: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 4px;
+            padding: 10px;
+            margin-top: 10px;
+            max-height: 200px;
+            overflow-y: auto;
+            font-family: monospace;
+        }
+    </style>
 </head>
 <body>
-    <h2>ZIP Extractor using OPFS</h2>
+    <h1>OPFS Zip File Handler</h1>
     
-    <!-- File Input -->
-    <input type="file" id="fileInput" accept=".zip">
-    <button onclick="fetchRemoteZip()">Fetch Remote ZIP</button>
+    <div class="container">
+        <div class="card">
+            <h2>Step 1: Select a Zip File</h2>
+            <form id="fileForm">
+                <input type="file" id="fileInput" accept=".zip" />
+                <button type="button" id="loadButton">Load to OPFS</button>
+            </form>
+            <progress id="loadProgress" value="0" max="100" style="display: none;"></progress>
+        </div>
+        
+        <div class="card">
+            <h2>Step 2: Unzip in OPFS</h2>
+            <button id="unzipButton" disabled>Unzip File</button>
+            <progress id="unzipProgress" value="0" max="100" style="display: none;"></progress>
+        </div>
+        
+        <div class="card">
+            <h2>Step 3: Zip Contents</h2>
+            <div id="contentContainer">
+                <ul id="fileList">
+                    <li>No files loaded yet</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Log</h2>
+            <div id="log" class="log"></div>
+        </div>
+    </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
     <script>
-        async function storeFileInOPFS(fileName, fileData) {
-            const rootDir = await navigator.storage.getDirectory();
-            const fileHandle = await rootDir.getFileHandle(fileName, { create: true });
-            const writable = await fileHandle.createWritable();
-            await writable.write(fileData);
-            await writable.close();
-            console.log(`Stored in OPFS: ${fileName}`);
-            return fileHandle;
+        // Check if OPFS is supported
+        if (!('storage' in navigator && 'getDirectory' in navigator.storage)) {
+            logMessage('❌ Your browser does not support Origin Private File System (OPFS)');
+            document.querySelectorAll('button').forEach(button => button.disabled = true);
+        } else {
+            logMessage('✅ OPFS is supported in your browser');
         }
-
-        async function extractZipToOPFS(zipFileHandle) {
-            const zipFile = await zipFileHandle.getFile();
-            const zipData = await zipFile.arrayBuffer();
-            const zip = await JSZip.loadAsync(zipData);
-            const rootDir = await navigator.storage.getDirectory();
-
-            console.log("Extracting ZIP contents...");
-
-            for (const [name, zipEntry] of Object.entries(zip.files)) {
-                if (!zipEntry.dir) {
-                    const fileHandle = await rootDir.getFileHandle(name, { create: true });
-                    const writable = await fileHandle.createWritable();
-                    const content = await zipEntry.async("uint8array");
-                    await writable.write(content);
+        
+        // Global variables
+        let opfsRoot;
+        let currentFilename;
+        
+        // Initialize OPFS
+        async function initOPFS() {
+            try {
+                opfsRoot = await navigator.storage.getDirectory();
+                logMessage('OPFS initialized successfully');
+                return true;
+            } catch (error) {
+                logMessage(`Error initializing OPFS: ${error.message}`);
+                return false;
+            }
+        }
+        
+        // Load file to OPFS
+        async function loadFileToOPFS(file) {
+            if (!opfsRoot) {
+                const initialized = await initOPFS();
+                if (!initialized) return false;
+            }
+            
+            currentFilename = file.name;
+            const zipDirectory = await getOrCreateDirectory('zips');
+            
+            try {
+                // Create a new file in OPFS
+                const fileHandle = await zipDirectory.getFileHandle(file.name, { create: true });
+                const writable = await fileHandle.createWritable();
+                
+                // Set up progress reporting
+                const progressElement = document.getElementById('loadProgress');
+                progressElement.style.display = 'block';
+                
+                const reader = new FileReader();
+                reader.onload = async (event) => {
+                    await writable.write(event.target.result);
                     await writable.close();
-                    console.log(`Extracted: ${name}`);
+                    progressElement.value = 100;
+                    logMessage(`File "${file.name}" stored in OPFS successfully`);
+                    document.getElementById('unzipButton').disabled = false;
+                };
+                
+                reader.onprogress = (event) => {
+                    if (event.lengthComputable) {
+                        const percentLoaded = Math.round((event.loaded / event.total) * 100);
+                        progressElement.value = percentLoaded;
+                    }
+                };
+                
+                reader.readAsArrayBuffer(file);
+                return true;
+            } catch (error) {
+                logMessage(`Error storing file in OPFS: ${error.message}`);
+                return false;
+            }
+        }
+        
+        // Get or create directory
+        async function getOrCreateDirectory(name) {
+            try {
+                return await opfsRoot.getDirectoryHandle(name, { create: true });
+            } catch (error) {
+                logMessage(`Error creating directory "${name}": ${error.message}`);
+                throw error;
+            }
+        }
+        
+        // Unzip file from OPFS
+        async function unzipFileFromOPFS() {
+            if (!currentFilename) {
+                logMessage('No file loaded to unzip');
+                return;
+            }
+            
+            try {
+                const zipDirectory = await opfsRoot.getDirectoryHandle('zips');
+                const fileHandle = await zipDirectory.getFileHandle(currentFilename);
+                const file = await fileHandle.getFile();
+                
+                // Create extraction directory
+                const extractDir = await getOrCreateDirectory('extracted');
+                
+                // Read the zip file
+                const arrayBuffer = await file.arrayBuffer();
+                
+                // Use zip.js library from CDN
+                const { Zip, ZipReader, BlobReader, TextWriter, BlobWriter } = zip;
+                
+                const zipReader = new ZipReader(new BlobReader(new Blob([arrayBuffer])));
+                const entries = await zipReader.getEntries();
+                
+                const progressElement = document.getElementById('unzipProgress');
+                progressElement.style.display = 'block';
+                progressElement.max = entries.length;
+                progressElement.value = 0;
+                
+                // Clear file list
+                const fileList = document.getElementById('fileList');
+                fileList.innerHTML = '';
+                
+                // Process each entry
+                let processedCount = 0;
+                for (const entry of entries) {
+                    logMessage(`Extracting: ${entry.filename}`);
+                    
+                    // Create list item for this file
+                    const listItem = document.createElement('li');
+                    listItem.textContent = entry.filename;
+                    fileList.appendChild(listItem);
+                    
+                    if (!entry.directory) {
+                        // Extract the file
+                        const content = await entry.getData(new BlobWriter());
+                        
+                        // Store in OPFS - handle nested directories
+                        const pathParts = entry.filename.split('/');
+                        const fileName = pathParts.pop();
+                        
+                        // Navigate/create directory structure
+                        let currentDir = extractDir;
+                        for (const part of pathParts) {
+                            if (part) {
+                                currentDir = await currentDir.getDirectoryHandle(part, { create: true });
+                            }
+                        }
+                        
+                        if (fileName) {
+                            const fileHandle = await currentDir.getFileHandle(fileName, { create: true });
+                            const writable = await fileHandle.createWritable();
+                            await writable.write(content);
+                            await writable.close();
+                        }
+                    } else {
+                        // It's a directory, no need to extract data
+                        const pathParts = entry.filename.split('/').filter(part => part);
+                        
+                        let currentDir = extractDir;
+                        for (const part of pathParts) {
+                            currentDir = await currentDir.getDirectoryHandle(part, { create: true });
+                        }
+                    }
+                    
+                    // Update progress
+                    processedCount++;
+                    progressElement.value = processedCount;
                 }
+                
+                await zipReader.close();
+                logMessage(`Unzipped ${entries.length} files successfully`);
+                
+            } catch (error) {
+                logMessage(`Error unzipping file: ${error.message}`);
             }
         }
-
-        async function listOPFSContents() {
-            const rootDir = await navigator.storage.getDirectory();
-            console.log("Listing OPFS files...");
-            for await (const [name] of rootDir.entries()) {
-                console.log(name);
-            }
+        
+        // Log messages to the UI
+        function logMessage(message) {
+            const logElement = document.getElementById('log');
+            const logEntry = document.createElement('div');
+            logEntry.textContent = `${new Date().toLocaleTimeString()}: ${message}`;
+            logElement.appendChild(logEntry);
+            logElement.scrollTop = logElement.scrollHeight;
+            console.log(message);
         }
-
-        document.getElementById("fileInput").addEventListener("change", async (event) => {
-            const file = event.target.files[0];
-            if (file) {
-                const fileHandle = await storeFileInOPFS(file.name, file);
-                await extractZipToOPFS(fileHandle);
-                await listOPFSContents();
+        
+        // Event Listeners
+        document.getElementById('loadButton').addEventListener('click', async () => {
+            const fileInput = document.getElementById('fileInput');
+            if (fileInput.files.length > 0) {
+                const file = fileInput.files[0];
+                logMessage(`Selected file: ${file.name} (${(file.size / 1024).toFixed(2)} KB)`);
+                await loadFileToOPFS(file);
+            } else {
+                logMessage('Please select a file first');
             }
         });
-
-        async function fetchRemoteZip() {
-            const url = "sample.zip"; // Change to a valid ZIP file URL
-            try {
-                const response = await fetch(url);
-                if (!response.ok) throw new Error("Failed to fetch ZIP file");
-                const zipData = await response.arrayBuffer();
-                const fileHandle = await storeFileInOPFS("downloaded.zip", zipData);
-                await extractZipToOPFS(fileHandle);
-                await listOPFSContents();
-            } catch (error) {
-                console.error("Error fetching ZIP:", error);
-            }
-        }
+        
+        document.getElementById('unzipButton').addEventListener('click', async () => {
+            await unzipFileFromOPFS();
+        });
+        
+        // Initialize on page load
+        window.addEventListener('DOMContentLoaded', async () => {
+            await initOPFS();
+        });
     </script>
+    
+    <!-- Load zip.js from CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/zip.js/2.6.6/zip.min.js"></script>
 </body>
 </html>

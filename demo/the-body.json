@@ -1,0 +1,198 @@
+{
+  "topic": {
+    "fr": "Le corps humain",
+    "en": "The human body"
+  },
+  "items": [
+    {
+      "fr": "la tête",
+      "en": "head",
+      "emoji": "👤",
+      "sentences": [
+        {
+          "fr": "Alice touche sa tête.",
+          "en": "Alice touches her head."
+        },
+        {
+          "fr": "Henri dessine une tête.",
+          "en": "Henri draws a head."
+        },
+        {
+          "fr": "Alice et Henri lavent leurs têtes.",
+          "en": "Alice and Henri wash their heads."
+        }
+      ]
+    },
+    {
+      "fr": "les yeux",
+      "en": "eyes",
+      "emoji": "👁️",
+      "sentences": [
+        {
+          "fr": "Alice a les yeux bleus.",
+          "en": "Alice has blue eyes."
+        },
+        {
+          "fr": "Henri ferme ses yeux.",
+          "en": "Henri closes his eyes."
+        },
+        {
+          "fr": "Alice et Henri ouvrent leurs yeux.",
+          "en": "Alice and Henri open their eyes."
+        }
+      ]
+    },
+    {
+      "fr": "le nez",
+      "en": "nose",
+      "emoji": "👃",
+      "sentences": [
+        {
+          "fr": "Alice touche son nez.",
+          "en": "Alice touches her nose."
+        },
+        {
+          "fr": "Henri a un petit nez.",
+          "en": "Henri has a small nose."
+        },
+        {
+          "fr": "Alice et Henri respirent par le nez.",
+          "en": "Alice and Henri breathe through their noses."
+        }
+      ]
+    },
+    {
+      "fr": "la bouche",
+      "en": "mouth",
+      "emoji": "👄",
+      "sentences": [
+        {
+          "fr": "Alice ouvre sa bouche.",
+          "en": "Alice opens her mouth."
+        },
+        {
+          "fr": "Henri ferme sa bouche.",
+          "en": "Henri closes his mouth."
+        },
+        {
+          "fr": "Alice et Henri mangent avec leurs bouches.",
+          "en": "Alice and Henri eat with their mouths."
+        }
+      ]
+    },
+    {
+      "fr": "les oreilles",
+      "en": "ears",
+      "emoji": "👂",
+      "sentences": [
+        {
+          "fr": "Alice entend avec ses oreilles.",
+          "en": "Alice hears with her ears."
+        },
+        {
+          "fr": "Henri touche ses oreilles.",
+          "en": "Henri touches his ears."
+        },
+        {
+          "fr": "Alice et Henri écoutent avec leurs oreilles.",
+          "en": "Alice and Henri listen with their ears."
+        }
+      ]
+    },
+    {
+      "fr": "les mains",
+      "en": "hands",
+      "emoji": "✋",
+      "sentences": [
+        {
+          "fr": "Alice lave ses mains.",
+          "en": "Alice washes her hands."
+        },
+        {
+          "fr": "Henri dessine avec ses mains.",
+          "en": "Henri draws with his hands."
+        },
+        {
+          "fr": "Alice et Henri lèvent leurs mains.",
+          "en": "Alice and Henri raise their hands."
+        }
+      ]
+    },
+    {
+      "fr": "les pieds",
+      "en": "feet",
+      "emoji": "👣",
+      "sentences": [
+        {
+          "fr": "Alice a de petits pieds.",
+          "en": "Alice has small feet."
+        },
+        {
+          "fr": "Henri marche sur ses pieds.",
+          "en": "Henri walks on his feet."
+        },
+        {
+          "fr": "Alice et Henri sautent avec leurs pieds.",
+          "en": "Alice and Henri jump with their feet."
+        }
+      ]
+    },
+    {
+      "fr": "les bras",
+      "en": "arms",
+      "emoji": "💪",
+      "sentences": [
+        {
+          "fr": "Alice croise ses bras.",
+          "en": "Alice crosses her arms."
+        },
+        {
+          "fr": "Henri lève ses bras.",
+          "en": "Henri raises his arms."
+        },
+        {
+          "fr": "Alice et Henri bougent leurs bras.",
+          "en": "Alice and Henri move their arms."
+        }
+      ]
+    },
+    {
+      "fr": "les jambes",
+      "en": "legs",
+      "emoji": "🦵",
+      "sentences": [
+        {
+          "fr": "Alice a de longues jambes.",
+          "en": "Alice has long legs."
+        },
+        {
+          "fr": "Henri plie ses jambes.",
+          "en": "Henri bends his legs."
+        },
+        {
+          "fr": "Alice et Henri courent avec leurs jambes.",
+          "en": "Alice and Henri run with their legs."
+        }
+      ]
+    },
+    {
+      "fr": "le ventre",
+      "en": "belly",
+      "emoji": "🧙",
+      "sentences": [
+        {
+          "fr": "Alice touche son ventre.",
+          "en": "Alice touches her belly."
+        },
+        {
+          "fr": "Henri a mal au ventre.",
+          "en": "Henri has a stomachache."
+        },
+        {
+          "fr": "Alice et Henri tapent sur leurs ventres.",
+          "en": "Alice and Henri pat their bellies."
+        }
+      ]
+    }
+  ]
+}
