@@ -16,7 +16,8 @@
             'CircularImg.js',
             'SpeechRecognitionComponent.js',
             'RepeatSentenceComponent.js',
-            'GestureEvent.js'
+            'GestureEvent.js',
+            'Timer.js',
         ];
         scripts.forEach(src => {
             const script = document.createElement('script');
@@ -123,6 +124,8 @@ html, body {
     <div><arrow-key-widget></arrow-key-widget></div>
     <div><speech-speed-slider default="0.4"></speech-speed-slider></div>
     <score-counter label="🏆 Score 🏆"></score-counter>
+    <countdown-timer duration="600"></countdown-timer>
+
     
 
     <div id="content">

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer Component Test</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f0f0f0;
+        }
+
+        .controls {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background: #1976D2;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #2196F3;
+        }
+
+        .timer-wrapper {
+            margin: 20px;
+        }
+
+        .description {
+            text-align: center;
+            color: #666;
+            margin: 20px;
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Audio player for timer sounds -->
+    <audio-player
+        pass-sound="audio/timer-end.wav"
+        fail-sound="audio/fail.wav">
+    </audio-player>
+
+    <!-- Confetti player for visual celebration -->
+    <confetti-player
+        colors="#1976D2,#2196F3,#0D47A1"
+        spread="70">
+    </confetti-player>
+
+    <h1>Timer Component Test</h1>
+    
+    <div class="description">
+        Click/tap the timer to pause/resume. The timer will flash and play a sound when it expires.
+    </div>
+
+    <div class="timer-wrapper">
+        <count-down-timer duration="10" auto-start></count-down-timer>
+    </div>
+
+    <div class="controls">
+        <button onclick="resetTimer()">Reset Timer</button>
+        <button onclick="createNewTimer()">Create 30s Timer</button>
+    </div>
+
+    <!-- Load components -->
+    <script src="AudioPlayer.js"></script>
+    <script src="ConfettiPlayer.js"></script>
+    <script src="Timer.js"></script>
+
+    <script>
+        // Get reference to the timer
+        const timer = document.querySelector('count-down-timer');
+
+        function resetTimer() {
+            timer.reset();
+        }
+
+        function createNewTimer() {
+            const newTimer = document.createElement('count-down-timer');
+            newTimer.setAttribute('duration', '30');
+            document.querySelector('.timer-wrapper').appendChild(newTimer);
+        }
+
+        // Optional: Log events for debugging
+        window.addEventListener('play-timer-expired', () => {
+            console.log('Timer expired event received');
+        });
+    </script>
+</body>
+</html> 
