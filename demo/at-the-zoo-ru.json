@@ -1,0 +1,89 @@
+{
+  "topic": {
+    "ru": "В зоопарке",
+    "en": "At the zoo"
+  },
+  "items": [
+    {
+      "ru": "лев",
+      "en": "the lion",
+      "emoji": "🦁",
+      "sentences": [
+        {
+          "ru": "Лев спит.",
+          "en": "The lion is sleeping."
+        },
+        {
+          "ru": "Я вижу льва.",
+          "en": "I see the lion."
+        },
+        {
+          "ru": "Лев большой.",
+          "en": "The lion is big."
+        },
+        {
+          "ru": "Лев ест.",
+          "en": "The lion is eating."
+        },
+        {
+          "ru": "Лев рычит.",
+          "en": "The lion roars."
+        }
+      ]
+    },
+    {
+      "ru": "жираф",
+      "en": "the giraffe",
+      "emoji": "🦒",
+      "sentences": [
+        {
+          "ru": "Жираф высокий.",
+          "en": "The giraffe is tall."
+        },
+        {
+          "ru": "Я смотрю на жирафа.",
+          "en": "I am looking at the giraffe."
+        },
+        {
+          "ru": "Жираф ест листья.",
+          "en": "The giraffe eats leaves."
+        },
+        {
+          "ru": "Жираф идёт.",
+          "en": "The giraffe walks."
+        },
+        {
+          "ru": "Где жираф?",
+          "en": "Where is the giraffe?"
+        }
+      ]
+    },
+    {
+      "ru": "обезьяна",
+      "en": "the monkey",
+      "emoji": "🐒",
+      "sentences": [
+        {
+          "ru": "Обезьяна лазает.",
+          "en": "The monkey climbs."
+        },
+        {
+          "ru": "Обезьяна ест банан.",
+          "en": "The monkey eats a banana."
+        },
+        {
+          "ru": "Обезьяны играют.",
+          "en": "The monkeys play."
+        },
+        {
+          "ru": "Я вижу смешную обезьяну.",
+          "en": "I see a funny monkey."
+        },
+        {
+          "ru": "Обезьяна прыгает.",
+          "en": "The monkey jumps."
+        }
+      ]
+    }
+  ]
+}
