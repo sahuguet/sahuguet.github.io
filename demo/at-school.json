@@ -1,0 +1,248 @@
+{
+  "topic": {
+    "fr": "À l'école",
+    "en": "At school"
+  },
+  "items": [
+    {
+      "fr": "un stylo",
+      "en": "a pen",
+      "emoji": "🖊️",
+      "sentences": [
+        { "fr": "J’ai un stylo bleu.", "en": "I have a blue pen." },
+        { "fr": "Tu écris avec un stylo.", "en": "You write with a pen." },
+        { "fr": "Il trouve un stylo.", "en": "He finds a pen." },
+        { "fr": "Nous partageons un stylo.", "en": "We share a pen." },
+        { "fr": "Ils utilisent un stylo rouge.", "en": "They use a red pen." }
+      ]
+    },
+    {
+      "fr": "un crayon",
+      "en": "a pencil",
+      "emoji": "✏️",
+      "sentences": [
+        { "fr": "Je dessine avec un crayon.", "en": "I draw with a pencil." },
+        { "fr": "Elle taille son crayon.", "en": "She sharpens her pencil." },
+        { "fr": "Tu trouves mon crayon ?", "en": "Did you find my pencil?" },
+        { "fr": "Nous avons beaucoup de crayons.", "en": "We have many pencils." },
+        { "fr": "Ils cherchent leurs crayons.", "en": "They are looking for their pencils." }
+      ]
+    },
+    {
+      "fr": "un livre",
+      "en": "a book",
+      "emoji": "📘",
+      "sentences": [
+        { "fr": "Je lis un livre.", "en": "I read a book." },
+        { "fr": "Tu ouvres ton livre.", "en": "You open your book." },
+        { "fr": "Elle écrit dans un livre.", "en": "She writes in a book." },
+        { "fr": "Nous aimons ce livre.", "en": "We like this book." },
+        { "fr": "Ils ferment leurs livres.", "en": "They close their books." }
+      ]
+    },
+    {
+      "fr": "un cahier",
+      "en": "a notebook",
+      "emoji": "📒",
+      "sentences": [
+        { "fr": "Je note dans mon cahier.", "en": "I write in my notebook." },
+        { "fr": "Tu as un cahier vert.", "en": "You have a green notebook." },
+        { "fr": "Il cherche son cahier.", "en": "He is looking for his notebook." },
+        { "fr": "Nous ouvrons nos cahiers.", "en": "We open our notebooks." },
+        { "fr": "Elles ferment leurs cahiers.", "en": "They close their notebooks." }
+      ]
+    },
+    {
+      "fr": "un tableau",
+      "en": "a board",
+      "emoji": "🧑‍🏫",
+      "sentences": [
+        { "fr": "Le professeur écrit au tableau.", "en": "The teacher writes on the board." },
+        { "fr": "Tu regardes le tableau.", "en": "You look at the board." },
+        { "fr": "Elle efface le tableau.", "en": "She erases the board." },
+        { "fr": "Nous lisons le tableau.", "en": "We read the board." },
+        { "fr": "Ils dessinent sur le tableau.", "en": "They draw on the board." }
+      ]
+    },
+    {
+      "fr": "un sac à dos",
+      "en": "a backpack",
+      "emoji": "🎒",
+      "sentences": [
+        { "fr": "Je porte mon sac à dos.", "en": "I carry my backpack." },
+        { "fr": "Tu ouvres ton sac à dos.", "en": "You open your backpack." },
+        { "fr": "Il met le livre dans son sac à dos.", "en": "He puts the book in his backpack." },
+        { "fr": "Nous avons nos sacs à dos.", "en": "We have our backpacks." },
+        { "fr": "Elles prennent leurs sacs à dos.", "en": "They take their backpacks." }
+      ]
+    },
+    {
+      "fr": "un bureau",
+      "en": "a desk",
+      "emoji": "🪑",
+      "sentences": [
+        { "fr": "Je m’assois à mon bureau.", "en": "I sit at my desk." },
+        { "fr": "Tu as un grand bureau.", "en": "You have a big desk." },
+        { "fr": "Elle range son bureau.", "en": "She tidies her desk." },
+        { "fr": "Nous travaillons sur le bureau.", "en": "We work on the desk." },
+        { "fr": "Ils décorent leurs bureaux.", "en": "They decorate their desks." }
+      ]
+    },
+    {
+      "fr": "une chaise",
+      "en": "a chair",
+      "emoji": "🪑",
+      "sentences": [
+        { "fr": "Je suis assis sur une chaise.", "en": "I am sitting on a chair." },
+        { "fr": "Tu tires ta chaise.", "en": "You pull your chair." },
+        { "fr": "Il casse sa chaise.", "en": "He breaks his chair." },
+        { "fr": "Nous avons des chaises bleues.", "en": "We have blue chairs." },
+        { "fr": "Elles rangent les chaises.", "en": "They put away the chairs." }
+      ]
+    },
+    {
+      "fr": "une règle",
+      "en": "a ruler",
+      "emoji": "📏",
+      "sentences": [
+        { "fr": "Je mesure avec une règle.", "en": "I measure with a ruler." },
+        { "fr": "Tu as une longue règle.", "en": "You have a long ruler." },
+        { "fr": "Il perd sa règle.", "en": "He loses his ruler." },
+        { "fr": "Nous utilisons la règle.", "en": "We use the ruler." },
+        { "fr": "Ils trouvent une règle.", "en": "They find a ruler." }
+      ]
+    },
+    {
+      "fr": "une gomme",
+      "en": "an eraser",
+      "emoji": "🩹",
+      "sentences": [
+        { "fr": "Je gomme mon dessin.", "en": "I erase my drawing." },
+        { "fr": "Tu as une gomme rose.", "en": "You have a pink eraser." },
+        { "fr": "Elle efface avec sa gomme.", "en": "She erases with her eraser." },
+        { "fr": "Nous prêtons une gomme.", "en": "We lend an eraser." },
+        { "fr": "Ils utilisent une gomme.", "en": "They use an eraser." }
+      ]
+    },
+    {
+      "fr": "une trousse",
+      "en": "a pencil case",
+      "emoji": "🧽",
+      "sentences": [
+        { "fr": "Je range mes crayons dans la trousse.", "en": "I put my pencils in the pencil case." },
+        { "fr": "Tu ouvres ta trousse.", "en": "You open your pencil case." },
+        { "fr": "Il ferme sa trousse.", "en": "He closes his pencil case." },
+        { "fr": "Nous avons de jolies trousses.", "en": "We have pretty pencil cases." },
+        { "fr": "Elles décorent leurs trousses.", "en": "They decorate their pencil cases." }
+      ]
+    },
+    {
+      "fr": "une classe",
+      "en": "a classroom",
+      "emoji": "🏫",
+      "sentences": [
+        { "fr": "Ma classe est grande.", "en": "My classroom is big." },
+        { "fr": "Tu entres dans la classe.", "en": "You enter the classroom." },
+        { "fr": "Il aime sa classe.", "en": "He likes his classroom." },
+        { "fr": "Nous chantons dans la classe.", "en": "We sing in the classroom." },
+        { "fr": "Ils jouent dans la classe.", "en": "They play in the classroom." }
+      ]
+    },
+    {
+      "fr": "un professeur",
+      "en": "a teacher",
+      "emoji": "👩‍🏫",
+      "sentences": [
+        { "fr": "Le professeur parle.", "en": "The teacher speaks." },
+        { "fr": "Tu écoutes le professeur.", "en": "You listen to the teacher." },
+        { "fr": "Elle adore son professeur.", "en": "She loves her teacher." },
+        { "fr": "Nous regardons le professeur.", "en": "We look at the teacher." },
+        { "fr": "Ils aident le professeur.", "en": "They help the teacher." }
+      ]
+    },
+    {
+      "fr": "un élève",
+      "en": "a student",
+      "emoji": "🧒",
+      "sentences": [
+        { "fr": "Je suis un élève.", "en": "I am a student." },
+        { "fr": "Tu es un bon élève.", "en": "You are a good student." },
+        { "fr": "Il écoute comme un élève.", "en": "He listens like a student." },
+        { "fr": "Nous sommes des élèves.", "en": "We are students." },
+        { "fr": "Ils jouent avec d'autres élèves.", "en": "They play with other students." }
+      ]
+    },
+    {
+      "fr": "une récréation",
+      "en": "recess",
+      "emoji": "🛝",
+      "sentences": [
+        { "fr": "J’aime la récréation.", "en": "I like recess." },
+        { "fr": "Tu joues à la récréation.", "en": "You play at recess." },
+        { "fr": "Elle court pendant la récréation.", "en": "She runs during recess." },
+        { "fr": "Nous parlons à la récréation.", "en": "We talk at recess." },
+        { "fr": "Ils mangent à la récréation.", "en": "They eat at recess." }
+      ]
+    },
+    {
+      "fr": "une cour",
+      "en": "a playground",
+      "emoji": "🏃",
+      "sentences": [
+        { "fr": "Je joue dans la cour.", "en": "I play in the playground." },
+        { "fr": "Tu cours dans la cour.", "en": "You run in the playground." },
+        { "fr": "Il trouve une balle dans la cour.", "en": "He finds a ball in the playground." },
+        { "fr": "Nous chantons dans la cour.", "en": "We sing in the playground." },
+        { "fr": "Ils crient dans la cour.", "en": "They shout in the playground." }
+      ]
+    },
+    {
+      "fr": "un emploi du temps",
+      "en": "a schedule",
+      "emoji": "📅",
+      "sentences": [
+        { "fr": "Voici mon emploi du temps.", "en": "Here is my schedule." },
+        { "fr": "Tu regardes l’emploi du temps.", "en": "You look at the schedule." },
+        { "fr": "Elle suit l’emploi du temps.", "en": "She follows the schedule." },
+        { "fr": "Nous changeons l’emploi du temps.", "en": "We change the schedule." },
+        { "fr": "Ils lisent l’emploi du temps.", "en": "They read the schedule." }
+      ]
+    },
+    {
+      "fr": "une cantine",
+      "en": "a cafeteria",
+      "emoji": "🍽️",
+      "sentences": [
+        { "fr": "Je mange à la cantine.", "en": "I eat at the cafeteria." },
+        { "fr": "Tu aimes la cantine.", "en": "You like the cafeteria." },
+        { "fr": "Il va à la cantine.", "en": "He goes to the cafeteria." },
+        { "fr": "Nous chantons à la cantine.", "en": "We sing at the cafeteria." },
+        { "fr": "Ils déjeunent à la cantine.", "en": "They have lunch at the cafeteria." }
+      ]
+    },
+    {
+      "fr": "un tableau blanc",
+      "en": "a whiteboard",
+      "emoji": "📋",
+      "sentences": [
+        { "fr": "Le tableau blanc est propre.", "en": "The whiteboard is clean." },
+        { "fr": "Tu écris sur le tableau blanc.", "en": "You write on the whiteboard." },
+        { "fr": "Elle efface le tableau blanc.", "en": "She erases the whiteboard." },
+        { "fr": "Nous regardons le tableau blanc.", "en": "We look at the whiteboard." },
+        { "fr": "Ils lisent le tableau blanc.", "en": "They read the whiteboard." }
+      ]
+    },
+    {
+      "fr": "des ciseaux",
+      "en": "scissors",
+      "emoji": "✂️",
+      "sentences": [
+        { "fr": "Je coupe avec des ciseaux.", "en": "I cut with scissors." },
+        { "fr": "Tu as des ciseaux verts.", "en": "You have green scissors." },
+        { "fr": "Elle utilise ses ciseaux.", "en": "She uses her scissors." },
+        { "fr": "Nous partageons les ciseaux.", "en": "We share the scissors." },
+        { "fr": "Ils trouvent des ciseaux.", "en": "They find scissors." }
+      ]
+    }
+  ]
+}
