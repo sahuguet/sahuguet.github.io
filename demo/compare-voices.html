@@ -21,7 +21,7 @@
       const allVoices = speechSynthesis.getVoices() || [];
       // Filter voices for those whose language starts with "fr"
       //const frenchVoices = allVoices.filter(voice => (voice.lang.toLowerCase().startsWith('en') || voice.lang.toLowerCase().startsWith('fr')));
-      const voiceOfInterest = ['fr', 'en', 'ja'];
+      const voiceOfInterest = ['fr', 'en', 'ja', 'ru'];
       const frenchVoices = allVoices.filter(voice => voiceOfInterest.includes(voice.lang.slice(0,2).toLowerCase()) );
       const container = document.getElementById('frenchVoices');
       container.innerHTML = ''; // Clear "Loading" text
