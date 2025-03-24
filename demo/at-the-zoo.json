@@ -1,0 +1,278 @@
+{
+  "topic": {
+    "fr": "Au zoo",
+    "en": "At the zoo"
+  },
+  "items": [
+    {
+      "fr": "le lion",
+      "en": "the lion",
+      "emoji": "🦁",
+      "sentences": [
+        {
+          "fr": "Le lion dort.",
+          "en": "The lion is sleeping."
+        },
+        {
+          "fr": "Je vois le lion.",
+          "en": "I see the lion."
+        },
+        {
+          "fr": "Le lion est grand.",
+          "en": "The lion is big."
+        },
+        {
+          "fr": "Le lion mange.",
+          "en": "The lion is eating."
+        },
+        {
+          "fr": "Le lion rugit.",
+          "en": "The lion roars."
+        }
+      ]
+    },
+    {
+      "fr": "la girafe",
+      "en": "the giraffe",
+      "emoji": "🦒",
+      "sentences": [
+        {
+          "fr": "La girafe est haute.",
+          "en": "The giraffe is tall."
+        },
+        {
+          "fr": "Je regarde la girafe.",
+          "en": "I am looking at the giraffe."
+        },
+        {
+          "fr": "La girafe mange des feuilles.",
+          "en": "The giraffe eats leaves."
+        },
+        {
+          "fr": "La girafe marche.",
+          "en": "The giraffe walks."
+        },
+        {
+          "fr": "Où est la girafe ?",
+          "en": "Where is the giraffe?"
+        }
+      ]
+    },
+    {
+      "fr": "le singe",
+      "en": "the monkey",
+      "emoji": "🐒",
+      "sentences": [
+        {
+          "fr": "Le singe grimpe.",
+          "en": "The monkey climbs."
+        },
+        {
+          "fr": "Le singe mange une banane.",
+          "en": "The monkey eats a banana."
+        },
+        {
+          "fr": "Les singes jouent.",
+          "en": "The monkeys play."
+        },
+        {
+          "fr": "Je vois un singe drôle.",
+          "en": "I see a funny monkey."
+        },
+        {
+          "fr": "Le singe saute.",
+          "en": "The monkey jumps."
+        }
+      ]
+    },
+    {
+      "fr": "l’éléphant",
+      "en": "the elephant",
+      "emoji": "🐘",
+      "sentences": [
+        {
+          "fr": "L’éléphant est gros.",
+          "en": "The elephant is big."
+        },
+        {
+          "fr": "L’éléphant a une grande trompe.",
+          "en": "The elephant has a big trunk."
+        },
+        {
+          "fr": "Je regarde l’éléphant.",
+          "en": "I am looking at the elephant."
+        },
+        {
+          "fr": "L’éléphant boit de l’eau.",
+          "en": "The elephant drinks water."
+        },
+        {
+          "fr": "L’éléphant marche lentement.",
+          "en": "The elephant walks slowly."
+        }
+      ]
+    },
+    {
+      "fr": "le tigre",
+      "en": "the tiger",
+      "emoji": "🐅",
+      "sentences": [
+        {
+          "fr": "Le tigre court vite.",
+          "en": "The tiger runs fast."
+        },
+        {
+          "fr": "Le tigre dort sous un arbre.",
+          "en": "The tiger sleeps under a tree."
+        },
+        {
+          "fr": "Je vois le tigre.",
+          "en": "I see the tiger."
+        },
+        {
+          "fr": "Le tigre a des rayures.",
+          "en": "The tiger has stripes."
+        },
+        {
+          "fr": "Le tigre chasse.",
+          "en": "The tiger hunts."
+        }
+      ]
+    },
+    {
+      "fr": "l’ours",
+      "en": "the bear",
+      "emoji": "🐻",
+      "sentences": [
+        {
+          "fr": "L’ours est brun.",
+          "en": "The bear is brown."
+        },
+        {
+          "fr": "L’ours mange du miel.",
+          "en": "The bear eats honey."
+        },
+        {
+          "fr": "L’ours dort dans la grotte.",
+          "en": "The bear sleeps in the cave."
+        },
+        {
+          "fr": "Je vois un gros ours.",
+          "en": "I see a big bear."
+        },
+        {
+          "fr": "L’ours nage.",
+          "en": "The bear swims."
+        }
+      ]
+    },
+    {
+      "fr": "le zèbre",
+      "en": "the zebra",
+      "emoji": "🦓",
+      "sentences": [
+        {
+          "fr": "Le zèbre a des rayures noires et blanches.",
+          "en": "The zebra has black and white stripes."
+        },
+        {
+          "fr": "Le zèbre court vite.",
+          "en": "The zebra runs fast."
+        },
+        {
+          "fr": "Je vois un zèbre.",
+          "en": "I see a zebra."
+        },
+        {
+          "fr": "Le zèbre mange de l’herbe.",
+          "en": "The zebra eats grass."
+        },
+        {
+          "fr": "Le zèbre est calme.",
+          "en": "The zebra is calm."
+        }
+      ]
+    },
+    {
+      "fr": "le crocodile",
+      "en": "the crocodile",
+      "emoji": "🐊",
+      "sentences": [
+        {
+          "fr": "Le crocodile ouvre la bouche.",
+          "en": "The crocodile opens its mouth."
+        },
+        {
+          "fr": "Le crocodile nage.",
+          "en": "The crocodile swims."
+        },
+        {
+          "fr": "Je vois le crocodile.",
+          "en": "I see the crocodile."
+        },
+        {
+          "fr": "Le crocodile est vert.",
+          "en": "The crocodile is green."
+        },
+        {
+          "fr": "Le crocodile dort au soleil.",
+          "en": "The crocodile sleeps in the sun."
+        }
+      ]
+    },
+    {
+      "fr": "le flamant rose",
+      "en": "the flamingo",
+      "emoji": "🦩",
+      "sentences": [
+        {
+          "fr": "Le flamant rose a de longues pattes.",
+          "en": "The flamingo has long legs."
+        },
+        {
+          "fr": "Le flamant rose est rose.",
+          "en": "The flamingo is pink."
+        },
+        {
+          "fr": "Je vois un flamant rose.",
+          "en": "I see a flamingo."
+        },
+        {
+          "fr": "Le flamant rose dort sur une patte.",
+          "en": "The flamingo sleeps on one leg."
+        },
+        {
+          "fr": "Les flamants roses boivent de l’eau.",
+          "en": "The flamingos drink water."
+        }
+      ]
+    },
+    {
+      "fr": "le pingouin",
+      "en": "the penguin",
+      "emoji": "🐧",
+      "sentences": [
+        {
+          "fr": "Le pingouin est noir et blanc.",
+          "en": "The penguin is black and white."
+        },
+        {
+          "fr": "Le pingouin glisse sur la glace.",
+          "en": "The penguin slides on the ice."
+        },
+        {
+          "fr": "Je vois un pingouin.",
+          "en": "I see a penguin."
+        },
+        {
+          "fr": "Le pingouin nage vite.",
+          "en": "The penguin swims fast."
+        },
+        {
+          "fr": "Les pingouins marchent ensemble.",
+          "en": "The penguins walk together."
+        }
+      ]
+    }
+  ]
+}
