@@ -3,12 +3,12 @@
 
 <head>
     <meta charset="utf-8">
-    <title>French Language Studio</title>
+    <title>Russian Language Studio</title>
 
     <script async="false">
         const scripts = [
             'SpeechSpeedSlider.js',
-//            'ArrowKeyWidget.js',
+            'ArrowKeyWidget.js',
             'AudioPlayer.js',
             'ConfettiPlayer.js',
             'ScoreCounter.js',
@@ -36,6 +36,7 @@
                 console.log(msg);
             }
         }
+
     </script>
 
 
@@ -107,21 +108,7 @@ html, body {
     <!-- Gesture Navigator -->
     <gesture-navigator></gesture-navigator>
 
-    <h1>Votre Leçon de français : <select id="topic">
-        <option value="a-table.json">A Table</option>
-        <option value="clothing.json">Je m'habille</option>
-        <option value="bathroom.json" selected>La salle de bain</option>
-        <option value="bedroom.json">Dans la chambre</option>
-        <option value="alice.json">Alice</option>
-        <option value="henri.json">Henri</option>
-        <option value="verbs.json">Les verbes</option>
-        <option value="colors.json">Les couleurs</option>
-        <option value="at-the-beach.json">A la plage</option>
-        <option value="at-the-farm.json">A la ferme</option>
-        <option value="the-body.json">Le corps</option>
-        <option value="at-school.json">A l'école</option>
-        <option value="at-the-zoo.json">Au Zoo</option>
-    </select></h1>
+    <h1>Твой урок по-русски</h1>
     
     <div><arrow-key-widget></arrow-key-widget></div>
     <div><speech-speed-slider default="0.4"></speech-speed-slider></div>
@@ -149,7 +136,6 @@ html, body {
             const debug = new URL(window.location.href).searchParams.has('debug') || true;
             document.getElementById('log').style.display = debug ? 'block' : 'none';
 
-            document.getElementById("topic").addEventListener('change', loadData);
 
             let speechSpeed = document.querySelector('speech-speed-slider').getAttribute('default', 1.0);
 
