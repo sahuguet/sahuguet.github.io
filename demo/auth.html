@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supabase Auth Demo</title>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f0f2f5;
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .auth-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        input {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background: #1976D2;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #1565C0;
+        }
+
+        .error {
+            color: red;
+            font-size: 14px;
+        }
+
+        .success {
+            color: green;
+            font-size: 14px;
+        }
+
+        #auth-status {
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 4px;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .social-login {
+            margin-top: 20px;
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+        }
+
+        .google-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: white;
+            color: #757575;
+            border: 1px solid #ddd;
+            width: 100%;
+        }
+
+        .google-btn:hover {
+            background: #f1f1f1;
+        }
+
+        .google-btn img {
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Supabase Auth Demo</h1>
+        
+        <div id="auth-status"></div>
+
+        <!-- Login Form -->
+        <div id="login-form" class="auth-form">
+            <h2>Login</h2>
+            <input type="email" id="login-email" placeholder="Email" required>
+            <input type="password" id="login-password" placeholder="Password" required>
+            <button onclick="handleLogin()">Login</button>
+            <button onclick="toggleForms()">Need to Sign Up?</button>
+            <div class="social-login">
+                <button onclick="handleGoogleLogin()" class="google-btn">
+                    <img src="https://www.google.com/favicon.ico" alt="Google" width="20" height="20">
+                    Sign in with Google
+                </button>
+            </div>
+        </div>
+
+        <!-- Signup Form -->
+        <div id="signup-form" class="auth-form hidden">
+            <h2>Sign Up</h2>
+            <input type="email" id="signup-email" placeholder="Email" required>
+            <input type="password" id="signup-password" placeholder="Password" required>
+            <button onclick="handleSignup()">Sign Up</button>
+            <button onclick="toggleForms()">Already have an account?</button>
+        </div>
+
+        <!-- User Profile (shown when logged in) -->
+        <div id="user-profile" class="hidden">
+            <h2>Welcome!</h2>
+            <p id="user-email"></p>
+            <button onclick="handleLogout()">Logout</button>
+        </div>
+    </div>
+
+    <script>
+        // Initialize Supabase client (in global scope)
+        const supabaseUrl = 'https://hydxurgdmgdlgtjuejra.supabase.co';
+        const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imh5ZHh1cmdkbWdkbGd0anVlanJhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDI4MzkyODAsImV4cCI6MjA1ODQxNTI4MH0.FNCUuzpUrgJozazVhlT9W-h7bBtP-XdH-a287Yf2kTw';
+        const supabase = window.supabase.createClient(supabaseUrl, supabaseKey);
+
+        // Move functions to global scope
+        window.toggleForms = function() {
+            document.getElementById('login-form').classList.toggle('hidden');
+            document.getElementById('signup-form').classList.toggle('hidden');
+        }
+
+        window.handleLogin = async function() {
+            const email = document.getElementById('login-email').value;
+            const password = document.getElementById('login-password').value;
+
+            const { data, error } = await supabase.auth.signInWithPassword({
+                email,
+                password
+            });
+
+            if (error) {
+                showMessage(error.message, 'error');
+            } else {
+                showMessage('Logged in successfully!', 'success');
+                showProfile(data.user);
+            }
+        }
+
+        window.handleSignup = async function() {
+            const email = document.getElementById('signup-email').value;
+            const password = document.getElementById('signup-password').value;
+
+            const { data, error } = await supabase.auth.signUp({
+                email,
+                password
+            });
+
+            if (error) {
+                showMessage(error.message, 'error');
+            } else {
+                showMessage('Signup successful! Please check your email for confirmation.', 'success');
+            }
+        }
+
+        window.handleLogout = async function() {
+            const { error } = await supabase.auth.signOut();
+            if (error) {
+                showMessage(error.message, 'error');
+            } else {
+                showMessage('Logged out successfully!', 'success');
+                showLogin();
+            }
+        }
+
+        function showProfile(user) {
+            document.getElementById('login-form').classList.add('hidden');
+            document.getElementById('signup-form').classList.add('hidden');
+            document.getElementById('user-profile').classList.remove('hidden');
+            
+            // Get user's full name from metadata if available
+            const fullName = user.user_metadata?.full_name || user.user_metadata?.name || '';
+            const email = user.email;
+            const provider = user.app_metadata?.provider ? ` (via ${user.app_metadata.provider.charAt(0).toUpperCase() + user.app_metadata.provider.slice(1)})` : ' (via Email)';
+            
+            // Display full name if available, otherwise just email
+            const displayText = fullName 
+                ? `Logged in as: ${fullName} (${email})${provider}`
+                : `Logged in as: ${email}${provider}`;
+            
+            document.getElementById('user-email').textContent = displayText;
+        }
+
+        function showLogin() {
+            document.getElementById('login-form').classList.remove('hidden');
+            document.getElementById('signup-form').classList.add('hidden');
+            document.getElementById('user-profile').classList.add('hidden');
+        }
+
+        function showMessage(message, type) {
+            const statusDiv = document.getElementById('auth-status');
+            statusDiv.textContent = message;
+            statusDiv.className = type;
+            setTimeout(() => {
+                statusDiv.textContent = '';
+                statusDiv.className = '';
+            }, 5000);
+        }
+
+        // Add Google login handler
+        window.handleGoogleLogin = async function() {
+            const { data, error } = await supabase.auth.signInWithOAuth({
+                provider: 'google',
+                options: {
+                    redirectTo: window.location.href // Use full URL instead of just origin
+                }
+            });
+
+            if (error) {
+                showMessage(error.message, 'error');
+            }
+        }
+
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            // Check initial auth state
+            async function checkAuth() {
+                const { data: { user }, error } = await supabase.auth.getUser();
+                if (user) {
+                    showProfile(user);
+                } else {
+                    showLogin();
+                }
+            }
+            
+            checkAuth();
+
+            // Listen for auth state changes
+            supabase.auth.onAuthStateChange((event, session) => {
+                if (event === 'SIGNED_IN') {
+                    showProfile(session.user);
+                    // Check if this was a redirect from OAuth
+                    const hashParams = new URLSearchParams(window.location.hash.substr(1));
+                    if (hashParams.get('access_token')) {
+                        // Clear the URL hash to remove OAuth parameters
+                        window.history.replaceState(null, '', window.location.pathname);
+                    }
+                } else if (event === 'SIGNED_OUT') {
+                    showLogin();
+                }
+            });
+        });
+    </script>
+</body>
+</html> 

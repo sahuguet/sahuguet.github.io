@@ -1,0 +1,298 @@
+{
+  "topic": {
+    "fr": "Les prépositions",
+    "en": "Prepositions"
+  },
+  "items": [
+    {
+      "fr": "à",
+      "en": "to / at",
+      "emoji": "📍",
+      "sentences": [
+        { "fr": "Je vais à l'école.", "en": "I go to school." },
+        { "fr": "Il est à la maison.", "en": "He is at home." },
+        { "fr": "Nous sommes à Paris.", "en": "We are in Paris." }
+      ]
+    },
+    {
+      "fr": "après",
+      "en": "after",
+      "emoji": "⏭️",
+      "sentences": [
+        { "fr": "Je viens après toi.", "en": "I come after you." },
+        { "fr": "Nous mangeons après le jeu.", "en": "We eat after the game." },
+        { "fr": "Après l'école, je joue.", "en": "After school, I play." }
+      ]
+    },
+    {
+      "fr": "avant",
+      "en": "before",
+      "emoji": "⏮️",
+      "sentences": [
+        { "fr": "Je me brosse les dents avant de dormir.", "en": "I brush my teeth before sleeping." },
+        { "fr": "Il mange avant moi.", "en": "He eats before me." },
+        { "fr": "Avant le dîner, je fais mes devoirs.", "en": "Before dinner, I do my homework." }
+      ]
+    },
+    {
+      "fr": "avec",
+      "en": "with",
+      "emoji": "🤝",
+      "sentences": [
+        { "fr": "Je joue avec mon frère.", "en": "I play with my brother." },
+        { "fr": "Elle cuisine avec sa maman.", "en": "She cooks with her mom." },
+        { "fr": "Nous allons au parc avec papa.", "en": "We go to the park with dad." }
+      ]
+    },
+    {
+      "fr": "chez",
+      "en": "at (someone's place)",
+      "emoji": "🏠",
+      "sentences": [
+        { "fr": "Je vais chez mamie.", "en": "I go to grandma’s house." },
+        { "fr": "Nous sommes chez Léa.", "en": "We are at Léa’s place." },
+        { "fr": "Il reste chez lui.", "en": "He stays at his place." }
+      ]
+    },
+    {
+      "fr": "contre",
+      "en": "against",
+      "emoji": "🆚",
+      "sentences": [
+        { "fr": "Le ballon est contre le mur.", "en": "The ball is against the wall." },
+        { "fr": "Je joue contre mon ami.", "en": "I play against my friend." },
+        { "fr": "Il est contre cette idée.", "en": "He is against this idea." }
+      ]
+    },
+    {
+      "fr": "dans",
+      "en": "in",
+      "emoji": "📦",
+      "sentences": [
+        { "fr": "Le chat est dans la boîte.", "en": "The cat is in the box." },
+        { "fr": "Je mets le jouet dans mon sac.", "en": "I put the toy in my bag." },
+        { "fr": "Il y a de l’eau dans le verre.", "en": "There is water in the glass." }
+      ]
+    },
+    {
+      "fr": "de",
+      "en": "of / from",
+      "emoji": "📤",
+      "sentences": [
+        { "fr": "Le livre de Marie est ici.", "en": "Marie’s book is here." },
+        { "fr": "Je viens de la plage.", "en": "I come from the beach." },
+        { "fr": "C’est le jouet de mon frère.", "en": "It’s my brother’s toy." }
+      ]
+    },
+    {
+      "fr": "depuis",
+      "en": "since / for",
+      "emoji": "⏳",
+      "sentences": [
+        { "fr": "Je joue depuis une heure.", "en": "I’ve been playing for an hour." },
+        { "fr": "Il est ici depuis lundi.", "en": "He has been here since Monday." },
+        { "fr": "Nous attendons depuis longtemps.", "en": "We’ve been waiting for a long time." }
+      ]
+    },
+    {
+      "fr": "derrière",
+      "en": "behind",
+      "emoji": "🔙",
+      "sentences": [
+        { "fr": "Le chien est derrière la porte.", "en": "The dog is behind the door." },
+        { "fr": "Je me cache derrière l’arbre.", "en": "I hide behind the tree." },
+        { "fr": "La voiture est derrière la maison.", "en": "The car is behind the house." }
+      ]
+    },
+    {
+      "fr": "devant",
+      "en": "in front of",
+      "emoji": "🚪",
+      "sentences": [
+        { "fr": "Je suis devant l'école.", "en": "I am in front of the school." },
+        { "fr": "Le chat dort devant la cheminée.", "en": "The cat sleeps in front of the fireplace." },
+        { "fr": "Elle se tient devant moi.", "en": "She stands in front of me." }
+      ]
+    },
+    {
+      "fr": "durant",
+      "en": "during",
+      "emoji": "🕰️",
+      "sentences": [
+        { "fr": "Je dors durant la nuit.", "en": "I sleep during the night." },
+        { "fr": "Il a chanté durant le spectacle.", "en": "He sang during the show." },
+        { "fr": "Nous avons ri durant le film.", "en": "We laughed during the movie." }
+      ]
+    },
+    {
+      "fr": "en",
+      "en": "in / into",
+      "emoji": "🌍",
+      "sentences": [
+        { "fr": "Je vais en France.", "en": "I’m going to France." },
+        { "fr": "Elle est en classe.", "en": "She is in class." },
+        { "fr": "Il met le jouet en boîte.", "en": "He puts the toy into the box." }
+      ]
+    },
+    {
+      "fr": "entre",
+      "en": "between",
+      "emoji": "↔️",
+      "sentences": [
+        { "fr": "Le ballon est entre les chaises.", "en": "The ball is between the chairs." },
+        { "fr": "Je suis entre papa et maman.", "en": "I am between dad and mom." },
+        { "fr": "Il y a un chemin entre les arbres.", "en": "There is a path between the trees." }
+      ]
+    },
+    {
+      "fr": "envers",
+      "en": "toward (attitude)",
+      "emoji": "💞",
+      "sentences": [
+        { "fr": "Il est gentil envers les animaux.", "en": "He is kind toward animals." },
+        { "fr": "Elle est polie envers ses professeurs.", "en": "She is polite toward her teachers." },
+        { "fr": "J’ai de l’amour envers ma famille.", "en": "I have love toward my family." }
+      ]
+    },
+    {
+      "fr": "environ",
+      "en": "around / approximately",
+      "emoji": "🔢",
+      "sentences": [
+        { "fr": "Il y a environ dix enfants.", "en": "There are around ten children." },
+        { "fr": "Nous partons dans environ une heure.", "en": "We leave in about an hour." },
+        { "fr": "J’ai environ cinq crayons.", "en": "I have about five pencils." }
+      ]
+    },
+    {
+      "fr": "jusque",
+      "en": "until / up to",
+      "emoji": "📏",
+      "sentences": [
+        { "fr": "Je vais jusque chez toi.", "en": "I go up to your place." },
+        { "fr": "Attends jusque demain.", "en": "Wait until tomorrow." },
+        { "fr": "Elle court jusque la rivière.", "en": "She runs up to the river." }
+      ]
+    },
+    {
+      "fr": "malgré",
+      "en": "despite",
+      "emoji": "💪",
+      "sentences": [
+        { "fr": "Malgré la pluie, nous jouons.", "en": "Despite the rain, we play." },
+        { "fr": "Il est sorti malgré le froid.", "en": "He went out despite the cold." },
+        { "fr": "Je chante malgré ma timidité.", "en": "I sing despite my shyness." }
+      ]
+    },
+    {
+      "fr": "par",
+      "en": "by / through",
+      "emoji": "🚪",
+      "sentences": [
+        { "fr": "Je passe par la porte.", "en": "I go through the door." },
+        { "fr": "Ce livre est écrit par Marie.", "en": "This book is written by Marie." },
+        { "fr": "Il regarde par la fenêtre.", "en": "He looks through the window." }
+      ]
+    },
+    {
+      "fr": "parmi",
+      "en": "among",
+      "emoji": "👥",
+      "sentences": [
+        { "fr": "Je suis parmi mes amis.", "en": "I am among my friends." },
+        { "fr": "Il y a une étoile parmi les nuages.", "en": "There is a star among the clouds." },
+        { "fr": "Elle est cachée parmi les fleurs.", "en": "She is hidden among the flowers." }
+      ]
+    },
+    {
+      "fr": "pendant",
+      "en": "during / for",
+      "emoji": "🕓",
+      "sentences": [
+        { "fr": "Je lis pendant la pause.", "en": "I read during the break." },
+        { "fr": "Il dort pendant deux heures.", "en": "He sleeps for two hours." },
+        { "fr": "Nous parlons pendant le déjeuner.", "en": "We talk during lunch." }
+      ]
+    },
+    {
+      "fr": "pour",
+      "en": "for",
+      "emoji": "🎁",
+      "sentences": [
+        { "fr": "C'est un cadeau pour toi.", "en": "It’s a gift for you." },
+        { "fr": "Je fais ça pour maman.", "en": "I do this for mom." },
+        { "fr": "Il cuisine pour sa sœur.", "en": "He cooks for his sister." }
+      ]
+    },
+    {
+      "fr": "sans",
+      "en": "without",
+      "emoji": "🚫",
+      "sentences": [
+        { "fr": "Je vais sans mon sac.", "en": "I go without my bag." },
+        { "fr": "Il mange sans fourchette.", "en": "He eats without a fork." },
+        { "fr": "Nous jouons sans bruit.", "en": "We play without noise." }
+      ]
+    },
+    {
+      "fr": "sauf",
+      "en": "except",
+      "emoji": "🙅‍♂️",
+      "sentences": [
+        { "fr": "Tout le monde est là sauf Paul.", "en": "Everyone is here except Paul." },
+        { "fr": "Je mange tout sauf les épinards.", "en": "I eat everything except spinach." },
+        { "fr": "Il parle à tous sauf à moi.", "en": "He talks to everyone except me." }
+      ]
+    },
+    {
+      "fr": "selon",
+      "en": "according to",
+      "emoji": "📖",
+      "sentences": [
+        { "fr": "Selon maman, il va pleuvoir.", "en": "According to mom, it will rain." },
+        { "fr": "Selon le livre, c’est un lion.", "en": "According to the book, it's a lion." },
+        { "fr": "Selon moi, c’est fini.", "en": "According to me, it’s over." }
+      ]
+    },
+    {
+      "fr": "sous",
+      "en": "under",
+      "emoji": "⬇️",
+      "sentences": [
+        { "fr": "Le jouet est sous la table.", "en": "The toy is under the table." },
+        { "fr": "Le chat dort sous le lit.", "en": "The cat sleeps under the bed." },
+        { "fr": "Il se cache sous la couverture.", "en": "He hides under the blanket." }
+      ]
+    },
+    {
+      "fr": "suivant",
+      "en": "following / according to",
+      "emoji": "➡️",
+      "sentences": [
+        { "fr": "Nous allons au parc suivant le plan.", "en": "We go to the park following the map." },
+        { "fr": "Suivant le professeur, c’est facile.", "en": "According to the teacher, it’s easy." },
+        { "fr": "Il choisit suivant ses envies.", "en": "He chooses according to his wishes." }
+      ]
+    },
+    {
+      "fr": "sur",
+      "en": "on",
+      "emoji": "📍",
+      "sentences": [
+        { "fr": "Le livre est sur la table.", "en": "The book is on the table." },
+        { "fr": "Je saute sur le lit.", "en": "I jump on the bed." },
+        { "fr": "Le chat dort sur le coussin.", "en": "The cat sleeps on the pillow." }
+      ]
+    },
+    {
+      "fr": "vers",
+      "en": "toward",
+      "emoji": "🏃",
+      "sentences": [
+        { "fr": "Je marche vers la porte.", "en": "I walk toward the door." },
+        { "fr": "Il court vers le ballon.", "en": "He runs toward the ball." },
+        { "fr": "Elle va vers l’école.", "en": "She goes toward the school." }
+      ]
+    }
+  ]
+}
