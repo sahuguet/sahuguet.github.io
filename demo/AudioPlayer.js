@@ -17,6 +17,7 @@ class AudioPlayer extends HTMLElement {
     }
     
     connectedCallback() {
+        log("audio-player connectedCallback");
         this.render();
         // Initialize sounds from attributes or defaults
         this.initializeSound(this.passSound, this.getAttribute('pass-sound') || "audio/win.wav", "passSound");
@@ -26,16 +27,18 @@ class AudioPlayer extends HTMLElement {
     initializeSound(audioElement, src, name) {
         audioElement.src = src;
         audioElement.load();
-        
+    /*    
         audioElement.addEventListener("canplaythrough", () => {
-            log(`${name} canplaythrough`);
+            log(`${name} canplaythrough event`);
             audioElement.muted = true; // Start muted
             audioElement.play().then(() => {
                 setTimeout(() => {
+                    log(`${name} unmuted`);
                     audioElement.muted = false; // Unmute after 2 seconds
-                }, 2000);
+                    
             });
         });
+        */
     }
 
     attributeChangedCallback(name, oldValue, newValue) {
@@ -62,11 +65,13 @@ class AudioPlayer extends HTMLElement {
     }
     
     playPass() {
+        log("playPass");
         this.passSound.currentTime = 0; // Reset to start
         this.passSound.play().catch(e => console.warn("Error playing pass sound:", e));
     }
     
     playFail() {
+        log("playFail");
         this.failSound.currentTime = 0; // Reset to start
         this.failSound.play().catch(e => console.warn("Error playing fail sound:", e));
     }

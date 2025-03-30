@@ -30,7 +30,7 @@
             const logArea = document.getElementById("log");
             if (logArea) {
                 const message = msg.map(arg => typeof arg === 'object' ? JSON.stringify(arg) : arg).join(' ');
-                logArea.value += message + "\n";
+                logArea.value = message + "\n" + logArea.value;
                 logArea.scrollTop = logArea.scrollHeight;
             } else {
                 console.log(msg);
@@ -122,6 +122,7 @@ html, body {
         <option value="at-school.json">A l'école</option>
         <option value="at-the-zoo.json">Au Zoo</option>
         <option value="prepositions.json">Les prépositions</option>
+        <option value="in-the-house.json">Dans la maison</option>
     </select></h1>
     
     <div><arrow-key-widget></arrow-key-widget></div>

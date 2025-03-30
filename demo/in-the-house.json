@@ -1,0 +1,274 @@
+{
+  "topic": {
+    "fr": "Dans la maison",
+    "en": "In the house"
+  },
+  "items": [
+    {
+      "fr": "le rez-de-chaussée",
+      "en": "the ground floor",
+      "emoji": "🏠",
+      "sentences": [
+        {
+          "fr": "La cuisine est au rez-de-chaussée.",
+          "en": "The kitchen is on the ground floor."
+        },
+        {
+          "fr": "Je joue au rez-de-chaussée.",
+          "en": "I play on the ground floor."
+        },
+        {
+          "fr": "Le salon est au rez-de-chaussée.",
+          "en": "The living room is on the ground floor."
+        }
+      ]
+    },
+    {
+      "fr": "le sous-sol",
+      "en": "the basement",
+      "emoji": "🏚️",
+      "sentences": [
+        {
+          "fr": "Il y a des cartons dans le sous-sol.",
+          "en": "There are boxes in the basement."
+        },
+        {
+          "fr": "Nous jouons au sous-sol quand il pleut.",
+          "en": "We play in the basement when it rains."
+        },
+        {
+          "fr": "Le sous-sol est sombre.",
+          "en": "The basement is dark."
+        }
+      ]
+    },
+    {
+      "fr": "l'ascenseur",
+      "en": "the elevator",
+      "emoji": "🛗",
+      "sentences": [
+        {
+          "fr": "Je prends l'ascenseur pour monter.",
+          "en": "I take the elevator to go up."
+        },
+        {
+          "fr": "L'ascenseur est au troisième étage.",
+          "en": "The elevator is on the third floor."
+        },
+        {
+          "fr": "L'ascenseur est en panne.",
+          "en": "The elevator is broken."
+        }
+      ]
+    },
+    {
+      "fr": "le balcon",
+      "en": "the balcony",
+      "emoji": "🌇",
+      "sentences": [
+        {
+          "fr": "Je vois les étoiles depuis le balcon.",
+          "en": "I see the stars from the balcony."
+        },
+        {
+          "fr": "Papa arrose les plantes sur le balcon.",
+          "en": "Dad waters the plants on the balcony."
+        },
+        {
+          "fr": "Nous jouons sur le balcon.",
+          "en": "We play on the balcony."
+        }
+      ]
+    },
+    {
+      "fr": "la porte",
+      "en": "the door",
+      "emoji": "🚪",
+      "sentences": [
+        {
+          "fr": "Je ferme la porte doucement.",
+          "en": "I close the door gently."
+        },
+        {
+          "fr": "La porte est grande.",
+          "en": "The door is big."
+        },
+        {
+          "fr": "Il frappe à la porte.",
+          "en": "He knocks on the door."
+        }
+      ]
+    },
+    {
+      "fr": "la fenêtre",
+      "en": "the window",
+      "emoji": "🪟",
+      "sentences": [
+        {
+          "fr": "Le chat regarde par la fenêtre.",
+          "en": "The cat looks out the window."
+        },
+        {
+          "fr": "Je ferme la fenêtre.",
+          "en": "I close the window."
+        },
+        {
+          "fr": "Le vent entre par la fenêtre.",
+          "en": "The wind comes in through the window."
+        }
+      ]
+    },
+    {
+      "fr": "l'escalier",
+      "en": "the staircase",
+      "emoji": "🪜",
+      "sentences": [
+        {
+          "fr": "Je monte l'escalier.",
+          "en": "I go up the stairs."
+        },
+        {
+          "fr": "L'escalier est en bois.",
+          "en": "The staircase is made of wood."
+        },
+        {
+          "fr": "Nous descendons l'escalier.",
+          "en": "We go down the stairs."
+        }
+      ]
+    },
+    {
+      "fr": "le couloir",
+      "en": "the hallway",
+      "emoji": "🚶",
+      "sentences": [
+        {
+          "fr": "Je cours dans le couloir.",
+          "en": "I run in the hallway."
+        },
+        {
+          "fr": "Le couloir est long.",
+          "en": "The hallway is long."
+        },
+        {
+          "fr": "Il y a un tapis dans le couloir.",
+          "en": "There is a carpet in the hallway."
+        }
+      ]
+    },
+    {
+      "fr": "la chambre",
+      "en": "the bedroom",
+      "emoji": "🛏️",
+      "sentences": [
+        {
+          "fr": "Ma chambre est bleue.",
+          "en": "My bedroom is blue."
+        },
+        {
+          "fr": "Je dors dans ma chambre.",
+          "en": "I sleep in my bedroom."
+        },
+        {
+          "fr": "Il y a un lit dans la chambre.",
+          "en": "There is a bed in the bedroom."
+        }
+      ]
+    },
+    {
+      "fr": "la salle de bain",
+      "en": "the bathroom",
+      "emoji": "🛁",
+      "sentences": [
+        {
+          "fr": "Je me lave dans la salle de bain.",
+          "en": "I wash in the bathroom."
+        },
+        {
+          "fr": "La salle de bain est propre.",
+          "en": "The bathroom is clean."
+        },
+        {
+          "fr": "Maman prend une douche dans la salle de bain.",
+          "en": "Mom takes a shower in the bathroom."
+        }
+      ]
+    },
+    {
+      "fr": "le salon",
+      "en": "the living room",
+      "emoji": "🛋️",
+      "sentences": [
+        {
+          "fr": "Nous regardons la télé dans le salon.",
+          "en": "We watch TV in the living room."
+        },
+        {
+          "fr": "Il y a un canapé dans le salon.",
+          "en": "There is a couch in the living room."
+        },
+        {
+          "fr": "Le salon est confortable.",
+          "en": "The living room is comfortable."
+        }
+      ]
+    },
+    {
+      "fr": "la cuisine",
+      "en": "the kitchen",
+      "emoji": "🍽️",
+      "sentences": [
+        {
+          "fr": "Papa cuisine dans la cuisine.",
+          "en": "Dad cooks in the kitchen."
+        },
+        {
+          "fr": "Je mange dans la cuisine.",
+          "en": "I eat in the kitchen."
+        },
+        {
+          "fr": "La cuisine sent bon.",
+          "en": "The kitchen smells good."
+        }
+      ]
+    },
+    {
+      "fr": "le toit",
+      "en": "the roof",
+      "emoji": "🏠",
+      "sentences": [
+        {
+          "fr": "Le toit est rouge.",
+          "en": "The roof is red."
+        },
+        {
+          "fr": "Il y a un oiseau sur le toit.",
+          "en": "There is a bird on the roof."
+        },
+        {
+          "fr": "Le chat monte sur le toit.",
+          "en": "The cat climbs on the roof."
+        }
+      ]
+    },
+    {
+      "fr": "le grenier",
+      "en": "the attic",
+      "emoji": "🧳",
+      "sentences": [
+        {
+          "fr": "Il y a de vieux jouets dans le grenier.",
+          "en": "There are old toys in the attic."
+        },
+        {
+          "fr": "Le grenier est poussiéreux.",
+          "en": "The attic is dusty."
+        },
+        {
+          "fr": "Nous visitons le grenier.",
+          "en": "We visit the attic."
+        }
+      ]
+    }
+  ]
+}
