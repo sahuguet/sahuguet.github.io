@@ -1,0 +1,350 @@
+{
+  "topic": {
+    "fr": "Les parties du vélo",
+    "en": "bike parts"
+  },
+  "items": [
+    {
+      "fr": "la selle",
+      "en": "the seat",
+      "emoji": "💺",
+      "sentences": [
+        {
+          "fr": "Je m’assois sur la selle.",
+          "en": "I sit on the seat."
+        },
+        {
+          "fr": "La selle est noire.",
+          "en": "The seat is black."
+        },
+        {
+          "fr": "Papa règle la selle.",
+          "en": "Dad adjusts the seat."
+        }
+      ]
+    },
+    {
+      "fr": "la roue",
+      "en": "the wheel",
+      "emoji": "🛞",
+      "sentences": [
+        {
+          "fr": "La roue tourne.",
+          "en": "The wheel turns."
+        },
+        {
+          "fr": "Mon vélo a deux roues.",
+          "en": "My bike has two wheels."
+        },
+        {
+          "fr": "La roue est sale.",
+          "en": "The wheel is dirty."
+        }
+      ]
+    },
+    {
+      "fr": "le guidon",
+      "en": "the handlebars",
+      "emoji": "🚴‍♂️",
+      "sentences": [
+        {
+          "fr": "Je tiens le guidon.",
+          "en": "I hold the handlebars."
+        },
+        {
+          "fr": "Le guidon est haut.",
+          "en": "The handlebars are high."
+        },
+        {
+          "fr": "Il tourne le guidon à droite.",
+          "en": "He turns the handlebars to the right."
+        }
+      ]
+    },
+    {
+      "fr": "la pédale",
+      "en": "the pedal",
+      "emoji": "🔄",
+      "sentences": [
+        {
+          "fr": "Je mets le pied sur la pédale.",
+          "en": "I put my foot on the pedal."
+        },
+        {
+          "fr": "La pédale est cassée.",
+          "en": "The pedal is broken."
+        },
+        {
+          "fr": "Tu appuies sur la pédale.",
+          "en": "You press the pedal."
+        }
+      ]
+    },
+    {
+      "fr": "la chaîne",
+      "en": "the chain",
+      "emoji": "⛓️",
+      "sentences": [
+        {
+          "fr": "La chaîne est sale.",
+          "en": "The chain is dirty."
+        },
+        {
+          "fr": "Papa nettoie la chaîne.",
+          "en": "Dad cleans the chain."
+        },
+        {
+          "fr": "La chaîne fait du bruit.",
+          "en": "The chain makes noise."
+        }
+      ]
+    },
+    {
+      "fr": "le pneu",
+      "en": "the tire",
+      "emoji": "⚫",
+      "sentences": [
+        {
+          "fr": "Le pneu est plat.",
+          "en": "The tire is flat."
+        },
+        {
+          "fr": "Tu veux gonfler le pneu ?",
+          "en": "Do you want to pump the tire?"
+        },
+        {
+          "fr": "Il y a un trou dans le pneu.",
+          "en": "There is a hole in the tire."
+        }
+      ]
+    },
+    {
+      "fr": "le frein",
+      "en": "the brake",
+      "emoji": "🛑",
+      "sentences": [
+        {
+          "fr": "J’appuie sur le frein.",
+          "en": "I press the brake."
+        },
+        {
+          "fr": "Le frein fonctionne bien.",
+          "en": "The brake works well."
+        },
+        {
+          "fr": "Elle utilise le frein doucement.",
+          "en": "She uses the brake gently."
+        }
+      ]
+    },
+    {
+      "fr": "le cadre",
+      "en": "the frame",
+      "emoji": "🚲",
+      "sentences": [
+        {
+          "fr": "Le cadre est rouge.",
+          "en": "The frame is red."
+        },
+        {
+          "fr": "Mon vélo a un grand cadre.",
+          "en": "My bike has a big frame."
+        },
+        {
+          "fr": "Il nettoie le cadre avec un chiffon.",
+          "en": "He cleans the frame with a cloth."
+        }
+      ]
+    },
+    {
+      "fr": "la sonnette",
+      "en": "the bell",
+      "emoji": "🔔",
+      "sentences": [
+        {
+          "fr": "Je sonne la sonnette.",
+          "en": "I ring the bell."
+        },
+        {
+          "fr": "La sonnette fait ding-ding.",
+          "en": "The bell goes ding-ding."
+        },
+        {
+          "fr": "Tu entends la sonnette ?",
+          "en": "Do you hear the bell?"
+        }
+      ]
+    },
+    {
+      "fr": "le phare",
+      "en": "the light / headlight",
+      "emoji": "💡",
+      "sentences": [
+        {
+          "fr": "Le phare s’allume la nuit.",
+          "en": "The light turns on at night."
+        },
+        {
+          "fr": "Je vois le phare briller.",
+          "en": "I see the light shining."
+        },
+        {
+          "fr": "Tu allumes le phare ?",
+          "en": "Are you turning on the light?"
+        }
+      ]
+    },
+    {
+      "fr": "le garde-boue",
+      "en": "the mudguard",
+      "emoji": "🌧️",
+      "sentences": [
+        {
+          "fr": "Le garde-boue protège de la boue.",
+          "en": "The mudguard protects from mud."
+        },
+        {
+          "fr": "Mon garde-boue est cassé.",
+          "en": "My mudguard is broken."
+        },
+        {
+          "fr": "Tu as un nouveau garde-boue.",
+          "en": "You have a new mudguard."
+        }
+      ]
+    },
+    {
+      "fr": "le dérailleur",
+      "en": "the gear shifter",
+      "emoji": "⚙️",
+      "sentences": [
+        {
+          "fr": "Le dérailleur change la vitesse.",
+          "en": "The gear shifter changes the speed."
+        },
+        {
+          "fr": "Mon dérailleur est bloqué.",
+          "en": "My gear shifter is stuck."
+        },
+        {
+          "fr": "Tu utilises le dérailleur ?",
+          "en": "Are you using the gear shifter?"
+        }
+      ]
+    },
+    {
+      "fr": "le panier",
+      "en": "the basket",
+      "emoji": "🧺",
+      "sentences": [
+        {
+          "fr": "Je mets mon sac dans le panier.",
+          "en": "I put my bag in the basket."
+        },
+        {
+          "fr": "Le panier est plein.",
+          "en": "The basket is full."
+        },
+        {
+          "fr": "Elle a un panier rose.",
+          "en": "She has a pink basket."
+        }
+      ]
+    },
+    {
+      "fr": "la béquille",
+      "en": "the kickstand",
+      "emoji": "📏",
+      "sentences": [
+        {
+          "fr": "Je mets la béquille.",
+          "en": "I use the kickstand."
+        },
+        {
+          "fr": "La béquille tient le vélo.",
+          "en": "The kickstand holds the bike."
+        },
+        {
+          "fr": "Tu oublies la béquille !",
+          "en": "You forgot the kickstand!"
+        }
+      ]
+    },
+    {
+      "fr": "le rétroviseur",
+      "en": "the mirror",
+      "emoji": "🪞",
+      "sentences": [
+        {
+          "fr": "Je regarde dans le rétroviseur.",
+          "en": "I look in the mirror."
+        },
+        {
+          "fr": "Le rétroviseur est petit.",
+          "en": "The mirror is small."
+        },
+        {
+          "fr": "Elle nettoie le rétroviseur.",
+          "en": "She cleans the mirror."
+        }
+      ]
+    },
+    {
+      "fr": "le réflecteur",
+      "en": "the reflector",
+      "emoji": "🔦",
+      "sentences": [
+        {
+          "fr": "Le réflecteur brille dans la nuit.",
+          "en": "The reflector shines at night."
+        },
+        {
+          "fr": "Tu vois le réflecteur ?",
+          "en": "Do you see the reflector?"
+        },
+        {
+          "fr": "Le vélo a deux réflecteurs.",
+          "en": "The bike has two reflectors."
+        }
+      ]
+    },
+    {
+      "fr": "le porte-bagages",
+      "en": "the luggage rack",
+      "emoji": "📦",
+      "sentences": [
+        {
+          "fr": "Je mets mon sac sur le porte-bagages.",
+          "en": "I put my bag on the rack."
+        },
+        {
+          "fr": "Le porte-bagages est pratique.",
+          "en": "The luggage rack is useful."
+        },
+        {
+          "fr": "Tu aimes ton porte-bagages ?",
+          "en": "Do you like your luggage rack?"
+        }
+      ]
+    },
+    {
+      "fr": "le klaxon",
+      "en": "the horn",
+      "emoji": "📣",
+      "sentences": [
+        {
+          "fr": "Je klaxonne fort.",
+          "en": "I honk loudly."
+        },
+        {
+          "fr": "Le klaxon fait du bruit.",
+          "en": "The horn makes noise."
+        },
+        {
+          "fr": "Tu entends le klaxon ?",
+          "en": "Do you hear the horn?"
+        }
+      ]
+    }
+  ]
+}

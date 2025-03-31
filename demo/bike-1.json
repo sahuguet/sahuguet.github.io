@@ -1,0 +1,388 @@
+{
+  "topic": {
+    "fr": "Le vélo",
+    "en": "biking"
+  },
+  "items": [
+    {
+      "fr": "faire du vélo",
+      "en": "to ride a bike",
+      "emoji": "🚴‍♂️",
+      "sentences": [
+        {
+          "fr": "Je fais du vélo avec papa.",
+          "en": "I ride a bike with dad."
+        },
+        {
+          "fr": "Tu fais du vélo dans le parc.",
+          "en": "You ride a bike in the park."
+        },
+        {
+          "fr": "Nous faisons du vélo le dimanche.",
+          "en": "We ride bikes on Sundays."
+        }
+      ]
+    },
+    {
+      "fr": "pédaler",
+      "en": "to pedal",
+      "emoji": "🚲",
+      "sentences": [
+        {
+          "fr": "Je pédale vite.",
+          "en": "I pedal fast."
+        },
+        {
+          "fr": "Elle pédale doucement.",
+          "en": "She pedals slowly."
+        },
+        {
+          "fr": "Nous pédalons ensemble.",
+          "en": "We pedal together."
+        }
+      ]
+    },
+    {
+      "fr": "freiner",
+      "en": "to brake",
+      "emoji": "🛑",
+      "sentences": [
+        {
+          "fr": "Je freine avant le virage.",
+          "en": "I brake before the turn."
+        },
+        {
+          "fr": "Il freine très fort.",
+          "en": "He brakes very hard."
+        },
+        {
+          "fr": "Tu freines doucement.",
+          "en": "You brake gently."
+        }
+      ]
+    },
+    {
+      "fr": "tourner",
+      "en": "to turn",
+      "emoji": "↩️",
+      "sentences": [
+        {
+          "fr": "Je tourne à gauche.",
+          "en": "I turn left."
+        },
+        {
+          "fr": "Tu tournes à droite.",
+          "en": "You turn right."
+        },
+        {
+          "fr": "Il tourne dans la rue.",
+          "en": "He turns on the street."
+        }
+      ]
+    },
+    {
+      "fr": "porter un casque",
+      "en": "to wear a helmet",
+      "emoji": "🪖",
+      "sentences": [
+        {
+          "fr": "Je porte un casque rouge.",
+          "en": "I wear a red helmet."
+        },
+        {
+          "fr": "Elle porte toujours un casque.",
+          "en": "She always wears a helmet."
+        },
+        {
+          "fr": "Tu portes ton casque ?",
+          "en": "Are you wearing your helmet?"
+        }
+      ]
+    },
+    {
+      "fr": "rouler",
+      "en": "to ride / to roll",
+      "emoji": "🛞",
+      "sentences": [
+        {
+          "fr": "Je roule vite.",
+          "en": "I ride fast."
+        },
+        {
+          "fr": "Tu roules lentement.",
+          "en": "You ride slowly."
+        },
+        {
+          "fr": "Il roule dans la boue.",
+          "en": "He rides in the mud."
+        }
+      ]
+    },
+    {
+      "fr": "descendre du vélo",
+      "en": "to get off the bike",
+      "emoji": "🛑🚴",
+      "sentences": [
+        {
+          "fr": "Je descends du vélo devant la maison.",
+          "en": "I get off the bike in front of the house."
+        },
+        {
+          "fr": "Elle descend du vélo.",
+          "en": "She gets off the bike."
+        },
+        {
+          "fr": "Tu descends ici ?",
+          "en": "Are you getting off here?"
+        }
+      ]
+    },
+    {
+      "fr": "monter sur le vélo",
+      "en": "to get on the bike",
+      "emoji": "🚴",
+      "sentences": [
+        {
+          "fr": "Je monte sur le vélo.",
+          "en": "I get on the bike."
+        },
+        {
+          "fr": "Tu montes maintenant ?",
+          "en": "Are you getting on now?"
+        },
+        {
+          "fr": "Il monte sur son vélo bleu.",
+          "en": "He gets on his blue bike."
+        }
+      ]
+    },
+    {
+      "fr": "trouver l'équilibre",
+      "en": "to find balance",
+      "emoji": "⚖️",
+      "sentences": [
+        {
+          "fr": "Je trouve mon équilibre.",
+          "en": "I find my balance."
+        },
+        {
+          "fr": "Tu trouves l'équilibre.",
+          "en": "You find the balance."
+        },
+        {
+          "fr": "Elle trouve l'équilibre facilement.",
+          "en": "She finds balance easily."
+        }
+      ]
+    },
+    {
+      "fr": "tomber",
+      "en": "to fall",
+      "emoji": "💥",
+      "sentences": [
+        {
+          "fr": "Je tombe du vélo.",
+          "en": "I fall off the bike."
+        },
+        {
+          "fr": "Tu ne veux pas tomber.",
+          "en": "You don't want to fall."
+        },
+        {
+          "fr": "Il tombe mais se relève.",
+          "en": "He falls but gets up."
+        }
+      ]
+    },
+    {
+      "fr": "remonter sur le vélo",
+      "en": "to get back on the bike",
+      "emoji": "🔁🚴",
+      "sentences": [
+        {
+          "fr": "Je remonte sur le vélo après la chute.",
+          "en": "I get back on the bike after the fall."
+        },
+        {
+          "fr": "Tu remontes maintenant ?",
+          "en": "Are you getting back on now?"
+        },
+        {
+          "fr": "Il remonte et continue.",
+          "en": "He gets back on and continues."
+        }
+      ]
+    },
+    {
+      "fr": "avoir peur",
+      "en": "to be afraid",
+      "emoji": "😨",
+      "sentences": [
+        {
+          "fr": "J’ai peur de tomber.",
+          "en": "I’m afraid of falling."
+        },
+        {
+          "fr": "Tu as peur du virage ?",
+          "en": "Are you afraid of the turn?"
+        },
+        {
+          "fr": "Elle a un peu peur.",
+          "en": "She is a little afraid."
+        }
+      ]
+    },
+    {
+      "fr": "s'amuser",
+      "en": "to have fun",
+      "emoji": "😄",
+      "sentences": [
+        {
+          "fr": "Je m’amuse en vélo.",
+          "en": "I have fun biking."
+        },
+        {
+          "fr": "Tu t’amuses beaucoup !",
+          "en": "You are having so much fun!"
+        },
+        {
+          "fr": "Nous nous amusons ensemble.",
+          "en": "We are having fun together."
+        }
+      ]
+    },
+    {
+      "fr": "aller vite",
+      "en": "to go fast",
+      "emoji": "💨",
+      "sentences": [
+        {
+          "fr": "Je vais très vite.",
+          "en": "I go very fast."
+        },
+        {
+          "fr": "Tu vas trop vite !",
+          "en": "You’re going too fast!"
+        },
+        {
+          "fr": "Elle va vite comme le vent.",
+          "en": "She goes fast like the wind."
+        }
+      ]
+    },
+    {
+      "fr": "faire la course",
+      "en": "to race",
+      "emoji": "🏁",
+      "sentences": [
+        {
+          "fr": "Je fais la course avec mon frère.",
+          "en": "I race with my brother."
+        },
+        {
+          "fr": "Tu veux faire la course ?",
+          "en": "Do you want to race?"
+        },
+        {
+          "fr": "Ils font la course dans la rue.",
+          "en": "They race in the street."
+        }
+      ]
+    },
+    {
+      "fr": "réparer le vélo",
+      "en": "to fix the bike",
+      "emoji": "🔧",
+      "sentences": [
+        {
+          "fr": "Je répare mon vélo.",
+          "en": "I fix my bike."
+        },
+        {
+          "fr": "Papa répare le vélo cassé.",
+          "en": "Dad fixes the broken bike."
+        },
+        {
+          "fr": "Tu veux réparer ton vélo ?",
+          "en": "Do you want to fix your bike?"
+        }
+      ]
+    },
+    {
+      "fr": "nettoyer le vélo",
+      "en": "to clean the bike",
+      "emoji": "🧼",
+      "sentences": [
+        {
+          "fr": "Je nettoie mon vélo.",
+          "en": "I clean my bike."
+        },
+        {
+          "fr": "Tu nettoies ton vélo après la pluie.",
+          "en": "You clean your bike after the rain."
+        },
+        {
+          "fr": "Nous nettoyons les vélos ensemble.",
+          "en": "We clean the bikes together."
+        }
+      ]
+    },
+    {
+      "fr": "suivre la piste cyclable",
+      "en": "to follow the bike path",
+      "emoji": "🚴‍♀️➡️",
+      "sentences": [
+        {
+          "fr": "Je suis la piste cyclable.",
+          "en": "I follow the bike path."
+        },
+        {
+          "fr": "Tu suis la ligne bleue ?",
+          "en": "Are you following the blue line?"
+        },
+        {
+          "fr": "Ils suivent la piste ensemble.",
+          "en": "They follow the path together."
+        }
+      ]
+    },
+    {
+      "fr": "attacher le casque",
+      "en": "to fasten the helmet",
+      "emoji": "🪖🔒",
+      "sentences": [
+        {
+          "fr": "J’attache mon casque.",
+          "en": "I fasten my helmet."
+        },
+        {
+          "fr": "Tu attaches ton casque avant de partir.",
+          "en": "You fasten your helmet before leaving."
+        },
+        {
+          "fr": "Il attache bien son casque.",
+          "en": "He fastens his helmet well."
+        }
+      ]
+    },
+    {
+      "fr": "attendre les amis",
+      "en": "to wait for friends",
+      "emoji": "⏳",
+      "sentences": [
+        {
+          "fr": "J’attends mes amis à la maison.",
+          "en": "I wait for my friends at home."
+        },
+        {
+          "fr": "Tu attends devant le parc ?",
+          "en": "Are you waiting in front of the park?"
+        },
+        {
+          "fr": "Ils attendent pour faire du vélo.",
+          "en": "They are waiting to ride bikes."
+        }
+      ]
+    }
+  ]
+}
