@@ -1,0 +1,198 @@
+{
+  "topic": {
+    "fr": "Créer des choses",
+    "en": "Creating things"
+  },
+  "items": [
+    {
+      "fr": "écrire un livre",
+      "en": "to write a book",
+      "emoji": "📖",
+      "sentences": [
+        {
+          "fr": "Je veux écrire un livre.",
+          "en": "I want to write a book."
+        },
+        {
+          "fr": "Elle écrit un livre sur les animaux.",
+          "en": "She is writing a book about animals."
+        },
+        {
+          "fr": "Nous écrivons un livre ensemble.",
+          "en": "We are writing a book together."
+        }
+      ]
+    },
+    {
+      "fr": "créer une bande dessinée",
+      "en": "to create a comic book",
+      "emoji": "🖍️",
+      "sentences": [
+        {
+          "fr": "Il crée une bande dessinée drôle.",
+          "en": "He is creating a funny comic book."
+        },
+        {
+          "fr": "Tu veux créer une bande dessinée ?",
+          "en": "Do you want to create a comic book?"
+        },
+        {
+          "fr": "Elles créent une belle bande dessinée.",
+          "en": "They are creating a beautiful comic book."
+        }
+      ]
+    },
+    {
+      "fr": "dessiner un personnage",
+      "en": "to draw a character",
+      "emoji": "✏️",
+      "sentences": [
+        {
+          "fr": "Je dessine un personnage de mon histoire.",
+          "en": "I’m drawing a character from my story."
+        },
+        {
+          "fr": "Il dessine un super-héros.",
+          "en": "He is drawing a superhero."
+        },
+        {
+          "fr": "Nous dessinons des personnages rigolos.",
+          "en": "We are drawing funny characters."
+        }
+      ]
+    },
+    {
+      "fr": "inventer une histoire",
+      "en": "to invent a story",
+      "emoji": "🧠",
+      "sentences": [
+        {
+          "fr": "Tu inventes une histoire magique.",
+          "en": "You are inventing a magical story."
+        },
+        {
+          "fr": "Elle invente une histoire de dragons.",
+          "en": "She is inventing a story about dragons."
+        },
+        {
+          "fr": "Nous inventons une histoire ensemble.",
+          "en": "We are inventing a story together."
+        }
+      ]
+    },
+    {
+      "fr": "peindre un tableau",
+      "en": "to paint a picture",
+      "emoji": "🎨",
+      "sentences": [
+        {
+          "fr": "Je peins un tableau coloré.",
+          "en": "I’m painting a colorful picture."
+        },
+        {
+          "fr": "Ils peignent un tableau pour l’école.",
+          "en": "They are painting a picture for school."
+        },
+        {
+          "fr": "Tu peins un paysage.",
+          "en": "You are painting a landscape."
+        }
+      ]
+    },
+    {
+      "fr": "fabriquer une marionnette",
+      "en": "to make a puppet",
+      "emoji": "🧵",
+      "sentences": [
+        {
+          "fr": "Nous fabriquons une marionnette en papier.",
+          "en": "We are making a paper puppet."
+        },
+        {
+          "fr": "Je fabrique une marionnette avec maman.",
+          "en": "I’m making a puppet with mom."
+        },
+        {
+          "fr": "Ils fabriquent des marionnettes rigolotes.",
+          "en": "They are making funny puppets."
+        }
+      ]
+    },
+    {
+      "fr": "composer une chanson",
+      "en": "to write a song",
+      "emoji": "🎵",
+      "sentences": [
+        {
+          "fr": "Elle compose une chanson joyeuse.",
+          "en": "She is writing a happy song."
+        },
+        {
+          "fr": "Nous composons une chanson en français.",
+          "en": "We are writing a song in French."
+        },
+        {
+          "fr": "Je compose une chanson pour mon ami.",
+          "en": "I’m writing a song for my friend."
+        }
+      ]
+    },
+    {
+      "fr": "construire une maquette",
+      "en": "to build a model",
+      "emoji": "🏗️",
+      "sentences": [
+        {
+          "fr": "Ils construisent une maquette de maison.",
+          "en": "They are building a model house."
+        },
+        {
+          "fr": "Tu construis une maquette d’avion.",
+          "en": "You are building a model airplane."
+        },
+        {
+          "fr": "Je construis une maquette pour l’école.",
+          "en": "I am building a model for school."
+        }
+      ]
+    },
+    {
+      "fr": "écrire une poésie",
+      "en": "to write a poem",
+      "emoji": "✒️",
+      "sentences": [
+        {
+          "fr": "Elle écrit une poésie sur le printemps.",
+          "en": "She is writing a poem about spring."
+        },
+        {
+          "fr": "Je veux écrire une jolie poésie.",
+          "en": "I want to write a pretty poem."
+        },
+        {
+          "fr": "Nous écrivons une poésie en classe.",
+          "en": "We are writing a poem in class."
+        }
+      ]
+    },
+    {
+      "fr": "illustrer une histoire",
+      "en": "to illustrate a story",
+      "emoji": "🖌️",
+      "sentences": [
+        {
+          "fr": "Tu illustres une histoire de fée.",
+          "en": "You are illustrating a fairy story."
+        },
+        {
+          "fr": "Je veux illustrer mon livre.",
+          "en": "I want to illustrate my book."
+        },
+        {
+          "fr": "Ils illustrent une belle histoire.",
+          "en": "They are illustrating a beautiful story."
+        }
+      ]
+    }
+  ]
+}
