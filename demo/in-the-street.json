@@ -1,0 +1,388 @@
+{
+  "topic": {
+    "fr": "Dans la rue",
+    "en": "In the street"
+  },
+  "items": [
+    {
+      "fr": "voiture",
+      "en": "car",
+      "emoji": "",
+      "sentences": [
+        {
+          "fr": "La voiture roule vite.",
+          "en": "The car is going fast."
+        },
+        {
+          "fr": "Il y a une voiture rouge.",
+          "en": "There is a red car."
+        },
+        {
+          "fr": "Je vois une voiture devant la maison.",
+          "en": "I see a car in front of the house."
+        }
+      ]
+    },
+    {
+      "fr": "vélo",
+      "en": "bicycle",
+      "emoji": "",
+      "sentences": [
+        {
+          "fr": "Je fais du vélo.",
+          "en": "I ride a bike."
+        },
+        {
+          "fr": "Elle a un vélo bleu.",
+          "en": "She has a blue bike."
+        },
+        {
+          "fr": "Le garçon monte sur son vélo.",
+          "en": "The boy gets on his bike."
+        }
+      ]
+    },
+    {
+      "fr": "piéton",
+      "en": "pedestrian",
+      "emoji": "",
+      "sentences": [
+        {
+          "fr": "Le piéton traverse la rue.",
+          "en": "The pedestrian crosses the street."
+        },
+        {
+          "fr": "Attention aux piétons !",
+          "en": "Watch out for pedestrians!"
+        },
+        {
+          "fr": "Les piétons marchent sur le trottoir.",
+          "en": "The pedestrians walk on the sidewalk."
+        }
+      ]
+    },
+    {
+      "fr": "trottoir",
+      "en": "sidewalk",
+      "emoji": "",
+      "sentences": [
+        {
+          "fr": "Je marche sur le trottoir.",
+          "en": "I walk on the sidewalk."
+        },
+        {
+          "fr": "Le chien court sur le trottoir.",
+          "en": "The dog runs on the sidewalk."
+        },
+        {
+          "fr": "Il y a des feuilles sur le trottoir.",
+          "en": "There are leaves on the sidewalk."
+        }
+      ]
+    },
+    {
+      "fr": "feu rouge",
+      "en": "red light",
+      "emoji": "",
+      "sentences": [
+        {
+          "fr": "Le feu rouge est allumé.",
+          "en": "The red light is on."
+        },
+        {
+          "fr": "Nous attendons au feu rouge.",
+          "en": "We wait at the red light."
+        },
+        {
+          "fr": "Le feu rouge brille fort.",
+          "en": "The red light shines brightly."
+        }
+      ]
+    },
+    {
+      "fr": "camion",
+      "en": "truck",
+      "emoji": "",
+      "sentences": [
+        {
+          "fr": "Le camion est très grand.",
+          "en": "The truck is very big."
+        },
+        {
+          "fr": "Un camion passe dans la rue.",
+          "en": "A truck drives down the street."
+        },
+        {
+          "fr": "Le camion est jaune.",
+          "en": "The truck is yellow."
+        }
+      ]
+    },
+    {
+      "fr": "bus",
+      "en": "bus",
+      "emoji": "",
+      "sentences": [
+        {
+          "fr": "Nous prenons le bus.",
+          "en": "We take the bus."
+        },
+        {
+          "fr": "Le bus arrive à l’arrêt.",
+          "en": "The bus arrives at the stop."
+        },
+        {
+          "fr": "Il y a beaucoup de monde dans le bus.",
+          "en": "There are many people on the bus."
+        }
+      ]
+    },
+    {
+      "fr": "passage piéton",
+      "en": "crosswalk",
+      "emoji": "",
+      "sentences": [
+        {
+          "fr": "Je traverse au passage piéton.",
+          "en": "I cross at the crosswalk."
+        },
+        {
+          "fr": "Les enfants attendent au passage piéton.",
+          "en": "The children wait at the crosswalk."
+        },
+        {
+          "fr": "Le passage piéton est peint en blanc.",
+          "en": "The crosswalk is painted white."
+        }
+      ]
+    },
+    {
+      "fr": "poubelle",
+      "en": "trash can",
+      "emoji": "",
+      "sentences": [
+        {
+          "fr": "Je jette un papier dans la poubelle.",
+          "en": "I throw a paper in the trash can."
+        },
+        {
+          "fr": "La poubelle est pleine.",
+          "en": "The trash can is full."
+        },
+        {
+          "fr": "Il y a une poubelle verte ici.",
+          "en": "There is a green trash can here."
+        }
+      ]
+    },
+    {
+      "fr": "feu vert",
+      "en": "green light",
+      "emoji": "",
+      "sentences": [
+        {
+          "fr": "Le feu vert s’allume.",
+          "en": "The green light turns on."
+        },
+        {
+          "fr": "Tu peux traverser au feu vert.",
+          "en": "You can cross at the green light."
+        },
+        {
+          "fr": "Le feu vert brille.",
+          "en": "The green light shines."
+        }
+      ]
+    },
+    {
+      "fr": "klaxon",
+      "en": "horn",
+      "emoji": "",
+      "sentences": [
+        {
+          "fr": "J’entends un klaxon.",
+          "en": "I hear a horn."
+        },
+        {
+          "fr": "Le conducteur klaxonne.",
+          "en": "The driver honks the horn."
+        },
+        {
+          "fr": "Le klaxon fait du bruit.",
+          "en": "The horn makes noise."
+        }
+      ]
+    },
+    {
+      "fr": "moto",
+      "en": "motorcycle",
+      "emoji": "",
+      "sentences": [
+        {
+          "fr": "La moto est rapide.",
+          "en": "The motorcycle is fast."
+        },
+        {
+          "fr": "Il roule en moto.",
+          "en": "He rides a motorcycle."
+        },
+        {
+          "fr": "Une moto passe dans la rue.",
+          "en": "A motorcycle goes down the street."
+        }
+      ]
+    },
+    {
+      "fr": "ambulance",
+      "en": "ambulance",
+      "emoji": "",
+      "sentences": [
+        {
+          "fr": "L’ambulance arrive vite.",
+          "en": "The ambulance arrives quickly."
+        },
+        {
+          "fr": "L’ambulance fait du bruit.",
+          "en": "The ambulance makes noise."
+        },
+        {
+          "fr": "Il y a une ambulance devant l’école.",
+          "en": "There is an ambulance in front of the school."
+        }
+      ]
+    },
+    {
+      "fr": "policier",
+      "en": "police officer",
+      "emoji": "",
+      "sentences": [
+        {
+          "fr": "Le policier aide les gens.",
+          "en": "The police officer helps people."
+        },
+        {
+          "fr": "Un policier dirige la circulation.",
+          "en": "A police officer directs the traffic."
+        },
+        {
+          "fr": "Le policier parle aux enfants.",
+          "en": "The police officer talks to the children."
+        }
+      ]
+    },
+    {
+      "fr": "lampadaire",
+      "en": "streetlight",
+      "emoji": "",
+      "sentences": [
+        {
+          "fr": "Le lampadaire est allumé.",
+          "en": "The streetlight is on."
+        },
+        {
+          "fr": "Il y a un lampadaire devant chez moi.",
+          "en": "There is a streetlight in front of my house."
+        },
+        {
+          "fr": "Le lampadaire brille la nuit.",
+          "en": "The streetlight shines at night."
+        }
+      ]
+    },
+    {
+      "fr": "panneau de signalisation",
+      "en": "traffic sign",
+      "emoji": "",
+      "sentences": [
+        {
+          "fr": "Le panneau montre une direction.",
+          "en": "The sign shows a direction."
+        },
+        {
+          "fr": "Il faut lire les panneaux.",
+          "en": "You have to read the signs."
+        },
+        {
+          "fr": "Un panneau dit 'Stop'.",
+          "en": "A sign says 'Stop'."
+        }
+      ]
+    },
+    {
+      "fr": "fontaine",
+      "en": "fountain",
+      "emoji": "",
+      "sentences": [
+        {
+          "fr": "La fontaine est jolie.",
+          "en": "The fountain is pretty."
+        },
+        {
+          "fr": "Les enfants jouent près de la fontaine.",
+          "en": "The children play near the fountain."
+        },
+        {
+          "fr": "Il y a de l’eau dans la fontaine.",
+          "en": "There is water in the fountain."
+        }
+      ]
+    },
+    {
+      "fr": "marchand de glaces",
+      "en": "ice cream vendor",
+      "emoji": "",
+      "sentences": [
+        {
+          "fr": "Le marchand vend des glaces.",
+          "en": "The vendor sells ice cream."
+        },
+        {
+          "fr": "Je veux une glace au chocolat.",
+          "en": "I want a chocolate ice cream."
+        },
+        {
+          "fr": "Il y a une file au marchand de glaces.",
+          "en": "There is a line at the ice cream vendor."
+        }
+      ]
+    },
+    {
+      "fr": "fleuriste",
+      "en": "florist",
+      "emoji": "",
+      "sentences": [
+        {
+          "fr": "Le fleuriste vend des fleurs.",
+          "en": "The florist sells flowers."
+        },
+        {
+          "fr": "Je vais chez le fleuriste.",
+          "en": "I’m going to the florist."
+        },
+        {
+          "fr": "Il y a beaucoup de fleurs chez le fleuriste.",
+          "en": "There are many flowers at the florist’s."
+        }
+      ]
+    },
+    {
+      "fr": "banc",
+      "en": "bench",
+      "emoji": "",
+      "sentences": [
+        {
+          "fr": "Je m’assois sur le banc.",
+          "en": "I sit on the bench."
+        },
+        {
+          "fr": "Le banc est sous l’arbre.",
+          "en": "The bench is under the tree."
+        },
+        {
+          "fr": "Un homme lit sur le banc.",
+          "en": "A man reads on the bench."
+        }
+      ]
+    }
+  ]
+}
