@@ -1,0 +1,388 @@
+{
+  "topic": {
+    "fr": "Le match de foot : le matériel et les personnes",
+    "en": "Soccer game: Equipment and People"
+  },
+  "items": [
+    {
+      "fr": "le ballon",
+      "en": "the ball",
+      "emoji": "⚽",
+      "sentences": [
+        {
+          "fr": "Le ballon est rond.",
+          "en": "The ball is round."
+        },
+        {
+          "fr": "Je tape dans le ballon.",
+          "en": "I kick the ball."
+        },
+        {
+          "fr": "Où est le ballon ?",
+          "en": "Where is the ball?"
+        }
+      ]
+    },
+    {
+      "fr": "le maillot",
+      "en": "the jersey",
+      "emoji": "👕",
+      "sentences": [
+        {
+          "fr": "Mon maillot est bleu.",
+          "en": "My jersey is blue."
+        },
+        {
+          "fr": "Tu portes ton maillot ?",
+          "en": "Are you wearing your jersey?"
+        },
+        {
+          "fr": "Les joueurs ont des maillots rouges.",
+          "en": "The players have red jerseys."
+        }
+      ]
+    },
+    {
+      "fr": "les chaussures",
+      "en": "the shoes",
+      "emoji": "👟",
+      "sentences": [
+        {
+          "fr": "Je mets mes chaussures de foot.",
+          "en": "I put on my soccer shoes."
+        },
+        {
+          "fr": "Tes chaussures sont neuves !",
+          "en": "Your shoes are new!"
+        },
+        {
+          "fr": "Les chaussures sont sales après le match.",
+          "en": "The shoes are dirty after the game."
+        }
+      ]
+    },
+    {
+      "fr": "les protège-tibias",
+      "en": "the shin guards",
+      "emoji": "🦿",
+      "sentences": [
+        {
+          "fr": "Je porte mes protège-tibias.",
+          "en": "I wear my shin guards."
+        },
+        {
+          "fr": "Où sont tes protège-tibias ?",
+          "en": "Where are your shin guards?"
+        },
+        {
+          "fr": "Les protège-tibias sont obligatoires.",
+          "en": "Shin guards are required."
+        }
+      ]
+    },
+    {
+      "fr": "les gants",
+      "en": "the gloves",
+      "emoji": "🧤",
+      "sentences": [
+        {
+          "fr": "Le gardien met ses gants.",
+          "en": "The goalkeeper puts on his gloves."
+        },
+        {
+          "fr": "Mes gants sont trop grands.",
+          "en": "My gloves are too big."
+        },
+        {
+          "fr": "Tu as vu mes gants ?",
+          "en": "Have you seen my gloves?"
+        }
+      ]
+    },
+    {
+      "fr": "le but",
+      "en": "the goal",
+      "emoji": "🥅",
+      "sentences": [
+        {
+          "fr": "Je veux marquer dans le but.",
+          "en": "I want to score in the goal."
+        },
+        {
+          "fr": "Le ballon entre dans le but.",
+          "en": "The ball goes into the goal."
+        },
+        {
+          "fr": "Il protège bien le but.",
+          "en": "He defends the goal well."
+        }
+      ]
+    },
+    {
+      "fr": "le filet",
+      "en": "the net",
+      "emoji": "🪢",
+      "sentences": [
+        {
+          "fr": "Le ballon touche le filet.",
+          "en": "The ball hits the net."
+        },
+        {
+          "fr": "Le filet est cassé.",
+          "en": "The net is broken."
+        },
+        {
+          "fr": "Tu vois le filet bouger ?",
+          "en": "Do you see the net move?"
+        }
+      ]
+    },
+    {
+      "fr": "le carton jaune",
+      "en": "the yellow card",
+      "emoji": "🟨",
+      "sentences": [
+        {
+          "fr": "L’arbitre montre un carton jaune.",
+          "en": "The referee shows a yellow card."
+        },
+        {
+          "fr": "Tu as vu le carton jaune ?",
+          "en": "Did you see the yellow card?"
+        },
+        {
+          "fr": "Il reçoit un carton jaune.",
+          "en": "He gets a yellow card."
+        }
+      ]
+    },
+    {
+      "fr": "le carton rouge",
+      "en": "the red card",
+      "emoji": "🟥",
+      "sentences": [
+        {
+          "fr": "Le carton rouge, c’est grave.",
+          "en": "The red card is serious."
+        },
+        {
+          "fr": "L’arbitre donne un carton rouge.",
+          "en": "The referee gives a red card."
+        },
+        {
+          "fr": "Il sort après le carton rouge.",
+          "en": "He leaves after the red card."
+        }
+      ]
+    },
+    {
+      "fr": "le sifflet",
+      "en": "the whistle",
+      "emoji": "📯",
+      "sentences": [
+        {
+          "fr": "L’arbitre a un sifflet.",
+          "en": "The referee has a whistle."
+        },
+        {
+          "fr": "Tu entends le sifflet ?",
+          "en": "Do you hear the whistle?"
+        },
+        {
+          "fr": "Le sifflet fait du bruit.",
+          "en": "The whistle makes noise."
+        }
+      ]
+    },
+    {
+      "fr": "l’arbitre",
+      "en": "the referee",
+      "emoji": "🧑‍⚖️",
+      "sentences": [
+        {
+          "fr": "L’arbitre regarde le match.",
+          "en": "The referee watches the game."
+        },
+        {
+          "fr": "L’arbitre siffle une faute.",
+          "en": "The referee whistles a foul."
+        },
+        {
+          "fr": "Tu parles à l’arbitre ?",
+          "en": "Are you talking to the referee?"
+        }
+      ]
+    },
+    {
+      "fr": "le joueur",
+      "en": "the player",
+      "emoji": "🧒",
+      "sentences": [
+        {
+          "fr": "Je suis un joueur de foot.",
+          "en": "I am a soccer player."
+        },
+        {
+          "fr": "Les joueurs courent vite.",
+          "en": "The players run fast."
+        },
+        {
+          "fr": "Tu es un bon joueur.",
+          "en": "You are a good player."
+        }
+      ]
+    },
+    {
+      "fr": "le gardien de but",
+      "en": "the goalkeeper",
+      "emoji": "🧤",
+      "sentences": [
+        {
+          "fr": "Le gardien attrape le ballon.",
+          "en": "The goalkeeper catches the ball."
+        },
+        {
+          "fr": "C’est un bon gardien.",
+          "en": "He is a good goalkeeper."
+        },
+        {
+          "fr": "Tu veux être gardien ?",
+          "en": "Do you want to be goalkeeper?"
+        }
+      ]
+    },
+    {
+      "fr": "l’entraîneur",
+      "en": "the coach",
+      "emoji": "🎓",
+      "sentences": [
+        {
+          "fr": "L’entraîneur nous aide.",
+          "en": "The coach helps us."
+        },
+        {
+          "fr": "Je parle à mon entraîneur.",
+          "en": "I talk to my coach."
+        },
+        {
+          "fr": "Ton entraîneur est gentil.",
+          "en": "Your coach is nice."
+        }
+      ]
+    },
+    {
+      "fr": "le banc de touche",
+      "en": "the bench",
+      "emoji": "🪑",
+      "sentences": [
+        {
+          "fr": "Je suis sur le banc.",
+          "en": "I’m on the bench."
+        },
+        {
+          "fr": "Il attend sur le banc de touche.",
+          "en": "He waits on the bench."
+        },
+        {
+          "fr": "Tu te reposes sur le banc ?",
+          "en": "Are you resting on the bench?"
+        }
+      ]
+    },
+    {
+      "fr": "le terrain",
+      "en": "the field",
+      "emoji": "🌱",
+      "sentences": [
+        {
+          "fr": "Le terrain est grand.",
+          "en": "The field is big."
+        },
+        {
+          "fr": "Je joue sur le terrain.",
+          "en": "I play on the field."
+        },
+        {
+          "fr": "Tu cours autour du terrain ?",
+          "en": "Are you running around the field?"
+        }
+      ]
+    },
+    {
+      "fr": "la ligne de but",
+      "en": "the goal line",
+      "emoji": "➖",
+      "sentences": [
+        {
+          "fr": "Le ballon passe la ligne de but.",
+          "en": "The ball crosses the goal line."
+        },
+        {
+          "fr": "Il marque à la ligne de but.",
+          "en": "He scores at the goal line."
+        },
+        {
+          "fr": "Tu regardes la ligne de but ?",
+          "en": "Are you watching the goal line?"
+        }
+      ]
+    },
+    {
+      "fr": "le drapeau de coin",
+      "en": "the corner flag",
+      "emoji": "🚩",
+      "sentences": [
+        {
+          "fr": "Le ballon touche le drapeau de coin.",
+          "en": "The ball touches the corner flag."
+        },
+        {
+          "fr": "Il tire près du drapeau.",
+          "en": "He kicks near the flag."
+        },
+        {
+          "fr": "Tu vois le drapeau de coin ?",
+          "en": "Do you see the corner flag?"
+        }
+      ]
+    },
+    {
+      "fr": "l’équipe",
+      "en": "the team",
+      "emoji": "👥",
+      "sentences": [
+        {
+          "fr": "Mon équipe est prête.",
+          "en": "My team is ready."
+        },
+        {
+          "fr": "Nous jouons en équipe.",
+          "en": "We play as a team."
+        },
+        {
+          "fr": "Ton équipe est forte !",
+          "en": "Your team is strong!"
+        }
+      ]
+    },
+    {
+      "fr": "le supporter",
+      "en": "the fan",
+      "emoji": "🙋",
+      "sentences": [
+        {
+          "fr": "Les supporters chantent.",
+          "en": "The fans are singing."
+        },
+        {
+          "fr": "Je suis un supporter de l’équipe bleue.",
+          "en": "I’m a fan of the blue team."
+        },
+        {
+          "fr": "Tu es un bon supporter !",
+          "en": "You’re a great fan!"
+        }
+      ]
+    }
+  ]
+}

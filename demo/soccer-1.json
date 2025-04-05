@@ -1,0 +1,388 @@
+{
+  "topic": {
+    "fr": "Au match de foot des jeunes",
+    "en": "At the youth soccer game"
+  },
+  "items": [
+    {
+      "fr": "jouer",
+      "en": "to play",
+      "emoji": "⚽",
+      "sentences": [
+        {
+          "fr": "Je joue au foot avec mes amis.",
+          "en": "I play soccer with my friends."
+        },
+        {
+          "fr": "Tu joues très bien !",
+          "en": "You play very well!"
+        },
+        {
+          "fr": "Les enfants jouent dans l’équipe rouge.",
+          "en": "The kids play on the red team."
+        }
+      ]
+    },
+    {
+      "fr": "courir",
+      "en": "to run",
+      "emoji": "🏃",
+      "sentences": [
+        {
+          "fr": "Je cours après le ballon.",
+          "en": "I run after the ball."
+        },
+        {
+          "fr": "Il court vite sur le terrain.",
+          "en": "He runs fast on the field."
+        },
+        {
+          "fr": "Nous courons ensemble.",
+          "en": "We run together."
+        }
+      ]
+    },
+    {
+      "fr": "tirer",
+      "en": "to shoot (kick)",
+      "emoji": "🥅",
+      "sentences": [
+        {
+          "fr": "Je tire dans le ballon.",
+          "en": "I shoot the ball."
+        },
+        {
+          "fr": "Elle tire au but !",
+          "en": "She shoots at the goal!"
+        },
+        {
+          "fr": "Tu tires très fort !",
+          "en": "You shoot very hard!"
+        }
+      ]
+    },
+    {
+      "fr": "marquer",
+      "en": "to score",
+      "emoji": "🎯",
+      "sentences": [
+        {
+          "fr": "Nous marquons un but.",
+          "en": "We score a goal."
+        },
+        {
+          "fr": "Il marque le premier but.",
+          "en": "He scores the first goal."
+        },
+        {
+          "fr": "Tu veux marquer un but ?",
+          "en": "Do you want to score a goal?"
+        }
+      ]
+    },
+    {
+      "fr": "arrêter",
+      "en": "to stop (the ball)",
+      "emoji": "🧤",
+      "sentences": [
+        {
+          "fr": "Le gardien arrête le ballon.",
+          "en": "The goalkeeper stops the ball."
+        },
+        {
+          "fr": "Tu arrêtes bien les tirs.",
+          "en": "You stop the shots well."
+        },
+        {
+          "fr": "Il arrête le but !",
+          "en": "He stops the goal!"
+        }
+      ]
+    },
+    {
+      "fr": "passer",
+      "en": "to pass (the ball)",
+      "emoji": "🤝",
+      "sentences": [
+        {
+          "fr": "Je passe le ballon à Paul.",
+          "en": "I pass the ball to Paul."
+        },
+        {
+          "fr": "Elle passe à son amie.",
+          "en": "She passes to her friend."
+        },
+        {
+          "fr": "Tu passes bien le ballon.",
+          "en": "You pass the ball well."
+        }
+      ]
+    },
+    {
+      "fr": "dribbler",
+      "en": "to dribble",
+      "emoji": "🌀",
+      "sentences": [
+        {
+          "fr": "Je dribble autour du joueur.",
+          "en": "I dribble around the player."
+        },
+        {
+          "fr": "Il dribble très vite.",
+          "en": "He dribbles very fast."
+        },
+        {
+          "fr": "Tu dribbles comme un pro !",
+          "en": "You dribble like a pro!"
+        }
+      ]
+    },
+    {
+      "fr": "gagner",
+      "en": "to win",
+      "emoji": "🏆",
+      "sentences": [
+        {
+          "fr": "Nous gagnons le match !",
+          "en": "We win the game!"
+        },
+        {
+          "fr": "Tu veux gagner ?",
+          "en": "Do you want to win?"
+        },
+        {
+          "fr": "Ils gagnent toujours.",
+          "en": "They always win."
+        }
+      ]
+    },
+    {
+      "fr": "perdre",
+      "en": "to lose",
+      "emoji": "😢",
+      "sentences": [
+        {
+          "fr": "Je n’aime pas perdre.",
+          "en": "I don’t like to lose."
+        },
+        {
+          "fr": "Ils perdent le match.",
+          "en": "They lose the game."
+        },
+        {
+          "fr": "Tu ne vas pas perdre aujourd’hui.",
+          "en": "You’re not going to lose today."
+        }
+      ]
+    },
+    {
+      "fr": "encourager",
+      "en": "to cheer (support)",
+      "emoji": "📣",
+      "sentences": [
+        {
+          "fr": "Mes parents m’encouragent.",
+          "en": "My parents cheer for me."
+        },
+        {
+          "fr": "Nous encourageons l’équipe bleue.",
+          "en": "We cheer for the blue team."
+        },
+        {
+          "fr": "Tu encourages ton frère ?",
+          "en": "Do you cheer for your brother?"
+        }
+      ]
+    },
+    {
+      "fr": "crier",
+      "en": "to shout",
+      "emoji": "🗣️",
+      "sentences": [
+        {
+          "fr": "Je crie « Allez ! »",
+          "en": "I shout 'Go!'"
+        },
+        {
+          "fr": "Les enfants crient de joie.",
+          "en": "The kids shout with joy."
+        },
+        {
+          "fr": "Tu cries trop fort !",
+          "en": "You shout too loud!"
+        }
+      ]
+    },
+    {
+      "fr": "siffler",
+      "en": "to whistle",
+      "emoji": "🔊",
+      "sentences": [
+        {
+          "fr": "L’arbitre siffle.",
+          "en": "The referee whistles."
+        },
+        {
+          "fr": "Il siffle le début du match.",
+          "en": "He whistles the start of the game."
+        },
+        {
+          "fr": "Tu entends le sifflet ?",
+          "en": "Do you hear the whistle?"
+        }
+      ]
+    },
+    {
+      "fr": "tomber",
+      "en": "to fall",
+      "emoji": "🤕",
+      "sentences": [
+        {
+          "fr": "Je tombe sur le terrain.",
+          "en": "I fall on the field."
+        },
+        {
+          "fr": "Il tombe mais se relève.",
+          "en": "He falls but gets back up."
+        },
+        {
+          "fr": "Tu es tombé ?",
+          "en": "Did you fall?"
+        }
+      ]
+    },
+    {
+      "fr": "attraper",
+      "en": "to catch",
+      "emoji": "🙌",
+      "sentences": [
+        {
+          "fr": "Je veux attraper le ballon.",
+          "en": "I want to catch the ball."
+        },
+        {
+          "fr": "Le gardien attrape bien.",
+          "en": "The goalkeeper catches well."
+        },
+        {
+          "fr": "Tu attrapes comme un pro !",
+          "en": "You catch like a pro!"
+        }
+      ]
+    },
+    {
+      "fr": "regarder",
+      "en": "to watch",
+      "emoji": "👀",
+      "sentences": [
+        {
+          "fr": "Nous regardons le match.",
+          "en": "We watch the game."
+        },
+        {
+          "fr": "Tu regardes les joueurs ?",
+          "en": "Are you watching the players?"
+        },
+        {
+          "fr": "Ils regardent leur fils jouer.",
+          "en": "They watch their son play."
+        }
+      ]
+    },
+    {
+      "fr": "crier « but ! »",
+      "en": "to shout 'goal!'",
+      "emoji": "🥳",
+      "sentences": [
+        {
+          "fr": "Je crie « but ! » très fort.",
+          "en": "I shout 'goal!' very loudly."
+        },
+        {
+          "fr": "Tu cries quand il marque ?",
+          "en": "Do you shout when he scores?"
+        },
+        {
+          "fr": "Nous crions tous « but ! »",
+          "en": "We all shout 'goal!'"
+        }
+      ]
+    },
+    {
+      "fr": "se blesser",
+      "en": "to get hurt",
+      "emoji": "🩹",
+      "sentences": [
+        {
+          "fr": "Il se blesse en courant.",
+          "en": "He gets hurt while running."
+        },
+        {
+          "fr": "Tu ne t’es pas blessé ?",
+          "en": "You didn’t get hurt?"
+        },
+        {
+          "fr": "Elle s’est blessée au genou.",
+          "en": "She hurt her knee."
+        }
+      ]
+    },
+    {
+      "fr": "changer",
+      "en": "to change (players)",
+      "emoji": "🔄",
+      "sentences": [
+        {
+          "fr": "L’entraîneur change de joueur.",
+          "en": "The coach changes a player."
+        },
+        {
+          "fr": "Je change de poste.",
+          "en": "I change positions."
+        },
+        {
+          "fr": "On change d’équipe ?",
+          "en": "Are we changing teams?"
+        }
+      ]
+    },
+    {
+      "fr": "commencer",
+      "en": "to start",
+      "emoji": "🕒",
+      "sentences": [
+        {
+          "fr": "Le match commence maintenant.",
+          "en": "The game starts now."
+        },
+        {
+          "fr": "Nous commençons à jouer.",
+          "en": "We start playing."
+        },
+        {
+          "fr": "Tu es prêt à commencer ?",
+          "en": "Are you ready to start?"
+        }
+      ]
+    },
+    {
+      "fr": "finir",
+      "en": "to finish",
+      "emoji": "🔚",
+      "sentences": [
+        {
+          "fr": "Le match est fini.",
+          "en": "The game is finished."
+        },
+        {
+          "fr": "Tu veux finir le jeu ?",
+          "en": "Do you want to finish the game?"
+        },
+        {
+          "fr": "Nous finissons à quatre heures.",
+          "en": "We finish at four o’clock."
+        }
+      ]
+    }
+  ]
+}
