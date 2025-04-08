@@ -1,0 +1,388 @@
+{
+  "topic": {
+    "fr": "Faire de la pâtisserie",
+    "en": "Baking"
+  },
+  "items": [
+    {
+      "fr": "faire",
+      "en": "to make/do",
+      "emoji": "🧁",
+      "sentences": [
+        {
+          "fr": "Je fais un gâteau.",
+          "en": "I make a cake."
+        },
+        {
+          "fr": "Tu fais une tarte aux pommes.",
+          "en": "You make an apple pie."
+        },
+        {
+          "fr": "Nous faisons de la pâtisserie.",
+          "en": "We are baking."
+        }
+      ]
+    },
+    {
+      "fr": "mélanger",
+      "en": "to mix",
+      "emoji": "🥣",
+      "sentences": [
+        {
+          "fr": "Je mélange la farine et le sucre.",
+          "en": "I mix the flour and sugar."
+        },
+        {
+          "fr": "Tu mélanges les ingrédients.",
+          "en": "You mix the ingredients."
+        },
+        {
+          "fr": "Il mélange dans un bol.",
+          "en": "He mixes in a bowl."
+        }
+      ]
+    },
+    {
+      "fr": "cuire",
+      "en": "to bake",
+      "emoji": "🔥",
+      "sentences": [
+        {
+          "fr": "Le gâteau cuit dans le four.",
+          "en": "The cake bakes in the oven."
+        },
+        {
+          "fr": "Je fais cuire une tarte.",
+          "en": "I bake a pie."
+        },
+        {
+          "fr": "Nous cuisons les biscuits.",
+          "en": "We are baking cookies."
+        }
+      ]
+    },
+    {
+      "fr": "casser",
+      "en": "to break",
+      "emoji": "🥚",
+      "sentences": [
+        {
+          "fr": "Je casse un œuf.",
+          "en": "I break an egg."
+        },
+        {
+          "fr": "Tu casses les œufs dans le bol.",
+          "en": "You break the eggs into the bowl."
+        },
+        {
+          "fr": "Il casse trois œufs.",
+          "en": "He breaks three eggs."
+        }
+      ]
+    },
+    {
+      "fr": "verser",
+      "en": "to pour",
+      "emoji": "🥛",
+      "sentences": [
+        {
+          "fr": "Je verse le lait.",
+          "en": "I pour the milk."
+        },
+        {
+          "fr": "Elle verse le chocolat fondu.",
+          "en": "She pours the melted chocolate."
+        },
+        {
+          "fr": "Nous versons la pâte dans le moule.",
+          "en": "We pour the batter into the pan."
+        }
+      ]
+    },
+    {
+      "fr": "peser",
+      "en": "to weigh",
+      "emoji": "⚖️",
+      "sentences": [
+        {
+          "fr": "Je pèse la farine.",
+          "en": "I weigh the flour."
+        },
+        {
+          "fr": "Tu pèses le sucre.",
+          "en": "You weigh the sugar."
+        },
+        {
+          "fr": "Elle pèse les ingrédients.",
+          "en": "She weighs the ingredients."
+        }
+      ]
+    },
+    {
+      "fr": "goûter",
+      "en": "to taste",
+      "emoji": "😋",
+      "sentences": [
+        {
+          "fr": "Je goûte le chocolat.",
+          "en": "I taste the chocolate."
+        },
+        {
+          "fr": "Tu goûtes la pâte.",
+          "en": "You taste the batter."
+        },
+        {
+          "fr": "Nous goûtons les biscuits.",
+          "en": "We taste the cookies."
+        }
+      ]
+    },
+    {
+      "fr": "décorer",
+      "en": "to decorate",
+      "emoji": "🎨",
+      "sentences": [
+        {
+          "fr": "Je décore le gâteau avec des fruits.",
+          "en": "I decorate the cake with fruits."
+        },
+        {
+          "fr": "Tu décores avec du chocolat.",
+          "en": "You decorate with chocolate."
+        },
+        {
+          "fr": "Ils décorent les biscuits.",
+          "en": "They decorate the cookies."
+        }
+      ]
+    },
+    {
+      "fr": "étaler",
+      "en": "to spread/roll",
+      "emoji": "🧈",
+      "sentences": [
+        {
+          "fr": "Je fais étaler la pâte.",
+          "en": "I roll out the dough."
+        },
+        {
+          "fr": "Tu étales la confiture.",
+          "en": "You spread the jam."
+        },
+        {
+          "fr": "Elle étale la pâte avec un rouleau.",
+          "en": "She spreads the dough with a rolling pin."
+        }
+      ]
+    },
+    {
+      "fr": "battre",
+      "en": "to whisk/beat",
+      "emoji": "🥄",
+      "sentences": [
+        {
+          "fr": "Je bats les œufs.",
+          "en": "I beat the eggs."
+        },
+        {
+          "fr": "Tu bats la crème.",
+          "en": "You whisk the cream."
+        },
+        {
+          "fr": "Il bat avec un fouet.",
+          "en": "He beats with a whisk."
+        }
+      ]
+    },
+    {
+      "fr": "chauffer",
+      "en": "to heat",
+      "emoji": "🔥",
+      "sentences": [
+        {
+          "fr": "Je chauffe le lait.",
+          "en": "I heat the milk."
+        },
+        {
+          "fr": "Tu chauffes le four.",
+          "en": "You heat the oven."
+        },
+        {
+          "fr": "Elle chauffe le chocolat.",
+          "en": "She heats the chocolate."
+        }
+      ]
+    },
+    {
+      "fr": "mettre",
+      "en": "to put",
+      "emoji": "📥",
+      "sentences": [
+        {
+          "fr": "Je mets la pâte dans le moule.",
+          "en": "I put the batter in the pan."
+        },
+        {
+          "fr": "Tu mets les œufs dans le bol.",
+          "en": "You put the eggs in the bowl."
+        },
+        {
+          "fr": "Il met le gâteau au four.",
+          "en": "He puts the cake in the oven."
+        }
+      ]
+    },
+    {
+      "fr": "sortir",
+      "en": "to take out",
+      "emoji": "📤",
+      "sentences": [
+        {
+          "fr": "Je sors le gâteau du four.",
+          "en": "I take the cake out of the oven."
+        },
+        {
+          "fr": "Tu sors les biscuits.",
+          "en": "You take out the cookies."
+        },
+        {
+          "fr": "Elle sort la tarte.",
+          "en": "She takes out the pie."
+        }
+      ]
+    },
+    {
+      "fr": "nettoyer",
+      "en": "to clean",
+      "emoji": "🧼",
+      "sentences": [
+        {
+          "fr": "Je nettoie la cuisine.",
+          "en": "I clean the kitchen."
+        },
+        {
+          "fr": "Tu nettoies le plan de travail.",
+          "en": "You clean the countertop."
+        },
+        {
+          "fr": "Nous nettoyons les bols.",
+          "en": "We clean the bowls."
+        }
+      ]
+    },
+    {
+      "fr": "réussir",
+      "en": "to succeed",
+      "emoji": "🏆",
+      "sentences": [
+        {
+          "fr": "Je réussis mon gâteau.",
+          "en": "I succeed with my cake."
+        },
+        {
+          "fr": "Tu réussis la recette.",
+          "en": "You succeed with the recipe."
+        },
+        {
+          "fr": "Elle réussit la décoration.",
+          "en": "She succeeds with the decoration."
+        }
+      ]
+    },
+    {
+      "fr": "utiliser",
+      "en": "to use",
+      "emoji": "🛠️",
+      "sentences": [
+        {
+          "fr": "J’utilise un fouet.",
+          "en": "I use a whisk."
+        },
+        {
+          "fr": "Tu utilises un bol en verre.",
+          "en": "You use a glass bowl."
+        },
+        {
+          "fr": "Il utilise une cuillère en bois.",
+          "en": "He uses a wooden spoon."
+        }
+      ]
+    },
+    {
+      "fr": "ouvrir",
+      "en": "to open",
+      "emoji": "🚪",
+      "sentences": [
+        {
+          "fr": "J’ouvre le four.",
+          "en": "I open the oven."
+        },
+        {
+          "fr": "Tu ouvres le frigo.",
+          "en": "You open the fridge."
+        },
+        {
+          "fr": "Elle ouvre le paquet de farine.",
+          "en": "She opens the bag of flour."
+        }
+      ]
+    },
+    {
+      "fr": "attendre",
+      "en": "to wait",
+      "emoji": "⏳",
+      "sentences": [
+        {
+          "fr": "J’attends que le gâteau cuise.",
+          "en": "I wait for the cake to bake."
+        },
+        {
+          "fr": "Tu attends devant le four.",
+          "en": "You wait in front of the oven."
+        },
+        {
+          "fr": "Ils attendent la fin de la cuisson.",
+          "en": "They wait for the baking to finish."
+        }
+      ]
+    },
+    {
+      "fr": "ajouter",
+      "en": "to add",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "J’ajoute du sucre.",
+          "en": "I add sugar."
+        },
+        {
+          "fr": "Tu ajoutes du lait.",
+          "en": "You add milk."
+        },
+        {
+          "fr": "Elle ajoute du chocolat.",
+          "en": "She adds chocolate."
+        }
+      ]
+    },
+    {
+      "fr": "goûter",
+      "en": "snack",
+      "emoji": "🍪",
+      "sentences": [
+        {
+          "fr": "Le goûter est prêt.",
+          "en": "The snack is ready."
+        },
+        {
+          "fr": "Tu manges un goûter sucré.",
+          "en": "You eat a sweet snack."
+        },
+        {
+          "fr": "On prépare un bon goûter.",
+          "en": "We are making a good snack."
+        }
+      ]
+    }
+  ]
+}

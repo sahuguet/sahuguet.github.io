@@ -1,0 +1,388 @@
+{
+  "topic": {
+    "fr": "Les ustensiles de cuisine",
+    "en": "Cooking utensils"
+  },
+  "items": [
+    {
+      "fr": "cuillère",
+      "en": "spoon",
+      "emoji": "🥄",
+      "sentences": [
+        {
+          "fr": "Je mange avec une cuillère.",
+          "en": "I eat with a spoon."
+        },
+        {
+          "fr": "La cuillère est sur la table.",
+          "en": "The spoon is on the table."
+        },
+        {
+          "fr": "Elle utilise une cuillère pour la soupe.",
+          "en": "She uses a spoon for the soup."
+        }
+      ]
+    },
+    {
+      "fr": "fourchette",
+      "en": "fork",
+      "emoji": "🍴",
+      "sentences": [
+        {
+          "fr": "Tu manges avec une fourchette.",
+          "en": "You eat with a fork."
+        },
+        {
+          "fr": "La fourchette est en métal.",
+          "en": "The fork is made of metal."
+        },
+        {
+          "fr": "Il prend la fourchette.",
+          "en": "He takes the fork."
+        }
+      ]
+    },
+    {
+      "fr": "couteau",
+      "en": "knife",
+      "emoji": "🔪",
+      "sentences": [
+        {
+          "fr": "Je coupe avec un couteau.",
+          "en": "I cut with a knife."
+        },
+        {
+          "fr": "Attention au couteau !",
+          "en": "Watch out for the knife!"
+        },
+        {
+          "fr": "Le couteau est dans le tiroir.",
+          "en": "The knife is in the drawer."
+        }
+      ]
+    },
+    {
+      "fr": "assiette",
+      "en": "plate",
+      "emoji": "🍽️",
+      "sentences": [
+        {
+          "fr": "Je pose le gâteau sur l’assiette.",
+          "en": "I put the cake on the plate."
+        },
+        {
+          "fr": "L’assiette est blanche.",
+          "en": "The plate is white."
+        },
+        {
+          "fr": "Elle lave les assiettes.",
+          "en": "She washes the plates."
+        }
+      ]
+    },
+    {
+      "fr": "verre",
+      "en": "glass",
+      "emoji": "🥛",
+      "sentences": [
+        {
+          "fr": "Je bois de l’eau dans un verre.",
+          "en": "I drink water in a glass."
+        },
+        {
+          "fr": "Le verre est plein.",
+          "en": "The glass is full."
+        },
+        {
+          "fr": "Il casse un verre.",
+          "en": "He breaks a glass."
+        }
+      ]
+    },
+    {
+      "fr": "bol",
+      "en": "bowl",
+      "emoji": "🥣",
+      "sentences": [
+        {
+          "fr": "Elle mange des céréales dans un bol.",
+          "en": "She eats cereal in a bowl."
+        },
+        {
+          "fr": "Le bol est rouge.",
+          "en": "The bowl is red."
+        },
+        {
+          "fr": "Je prends un bol pour la soupe.",
+          "en": "I take a bowl for the soup."
+        }
+      ]
+    },
+    {
+      "fr": "poêle",
+      "en": "frying pan",
+      "emoji": "🍳",
+      "sentences": [
+        {
+          "fr": "Papa cuisine avec une poêle.",
+          "en": "Dad cooks with a frying pan."
+        },
+        {
+          "fr": "La poêle est chaude.",
+          "en": "The pan is hot."
+        },
+        {
+          "fr": "Je fais des crêpes dans la poêle.",
+          "en": "I make pancakes in the pan."
+        }
+      ]
+    },
+    {
+      "fr": "casserole",
+      "en": "saucepan",
+      "emoji": "",
+      "sentences": [
+        {
+          "fr": "Maman utilise une casserole.",
+          "en": "Mom uses a saucepan."
+        },
+        {
+          "fr": "L’eau bout dans la casserole.",
+          "en": "The water boils in the saucepan."
+        },
+        {
+          "fr": "Je vois une grande casserole.",
+          "en": "I see a big saucepan."
+        }
+      ]
+    },
+    {
+      "fr": "planche à découper",
+      "en": "cutting board",
+      "emoji": "",
+      "sentences": [
+        {
+          "fr": "Je coupe les légumes sur la planche à découper.",
+          "en": "I cut the vegetables on the cutting board."
+        },
+        {
+          "fr": "La planche à découper est en bois.",
+          "en": "The cutting board is made of wood."
+        },
+        {
+          "fr": "Elle nettoie la planche à découper.",
+          "en": "She cleans the cutting board."
+        }
+      ]
+    },
+    {
+      "fr": "fouet",
+      "en": "whisk",
+      "emoji": "",
+      "sentences": [
+        {
+          "fr": "Il bat les œufs avec un fouet.",
+          "en": "He beats the eggs with a whisk."
+        },
+        {
+          "fr": "Le fouet est dans le tiroir.",
+          "en": "The whisk is in the drawer."
+        },
+        {
+          "fr": "Je prends le fouet pour la crème.",
+          "en": "I take the whisk for the cream."
+        }
+      ]
+    },
+    {
+      "fr": "écumoire",
+      "en": "skimmer",
+      "emoji": "",
+      "sentences": [
+        {
+          "fr": "Elle utilise une écumoire pour la soupe.",
+          "en": "She uses a skimmer for the soup."
+        },
+        {
+          "fr": "L’écumoire est trouée.",
+          "en": "The skimmer has holes."
+        },
+        {
+          "fr": "Je cherche l’écumoire.",
+          "en": "I am looking for the skimmer."
+        }
+      ]
+    },
+    {
+      "fr": "louche",
+      "en": "ladle",
+      "emoji": "",
+      "sentences": [
+        {
+          "fr": "Je verse la soupe avec une louche.",
+          "en": "I pour the soup with a ladle."
+        },
+        {
+          "fr": "La louche est grande.",
+          "en": "The ladle is big."
+        },
+        {
+          "fr": "Papa utilise la louche.",
+          "en": "Dad uses the ladle."
+        }
+      ]
+    },
+    {
+      "fr": "grille-pain",
+      "en": "toaster",
+      "emoji": "🍞",
+      "sentences": [
+        {
+          "fr": "Je mets du pain dans le grille-pain.",
+          "en": "I put bread in the toaster."
+        },
+        {
+          "fr": "Le grille-pain est chaud.",
+          "en": "The toaster is hot."
+        },
+        {
+          "fr": "Maman utilise le grille-pain le matin.",
+          "en": "Mom uses the toaster in the morning."
+        }
+      ]
+    },
+    {
+      "fr": "mixeur",
+      "en": "blender",
+      "emoji": "",
+      "sentences": [
+        {
+          "fr": "Elle fait un smoothie avec le mixeur.",
+          "en": "She makes a smoothie with the blender."
+        },
+        {
+          "fr": "Le mixeur est bruyant.",
+          "en": "The blender is loud."
+        },
+        {
+          "fr": "Je range le mixeur.",
+          "en": "I put the blender away."
+        }
+      ]
+    },
+    {
+      "fr": "spatule",
+      "en": "spatula",
+      "emoji": "",
+      "sentences": [
+        {
+          "fr": "Il retourne la crêpe avec une spatule.",
+          "en": "He flips the pancake with a spatula."
+        },
+        {
+          "fr": "La spatule est en plastique.",
+          "en": "The spatula is made of plastic."
+        },
+        {
+          "fr": "Je cherche la spatule rouge.",
+          "en": "I’m looking for the red spatula."
+        }
+      ]
+    },
+    {
+      "fr": "ouvre-boîte",
+      "en": "can opener",
+      "emoji": "",
+      "sentences": [
+        {
+          "fr": "Je prends l’ouvre-boîte.",
+          "en": "I take the can opener."
+        },
+        {
+          "fr": "L’ouvre-boîte est dur à utiliser.",
+          "en": "The can opener is hard to use."
+        },
+        {
+          "fr": "Papa ouvre la boîte avec l’ouvre-boîte.",
+          "en": "Dad opens the can with the can opener."
+        }
+      ]
+    },
+    {
+      "fr": "passoire",
+      "en": "colander",
+      "emoji": "",
+      "sentences": [
+        {
+          "fr": "Je rince les pâtes dans la passoire.",
+          "en": "I rinse the pasta in the colander."
+        },
+        {
+          "fr": "La passoire est en plastique.",
+          "en": "The colander is made of plastic."
+        },
+        {
+          "fr": "Elle utilise une passoire bleue.",
+          "en": "She uses a blue colander."
+        }
+      ]
+    },
+    {
+      "fr": "rouleau à pâtisserie",
+      "en": "rolling pin",
+      "emoji": "",
+      "sentences": [
+        {
+          "fr": "Je roule la pâte avec le rouleau à pâtisserie.",
+          "en": "I roll the dough with the rolling pin."
+        },
+        {
+          "fr": "Le rouleau est en bois.",
+          "en": "The rolling pin is made of wood."
+        },
+        {
+          "fr": "Maman utilise le rouleau pour faire une tarte.",
+          "en": "Mom uses the rolling pin to make a pie."
+        }
+      ]
+    },
+    {
+      "fr": "minuteur",
+      "en": "kitchen timer",
+      "emoji": "⏲️",
+      "sentences": [
+        {
+          "fr": "Je règle le minuteur.",
+          "en": "I set the timer."
+        },
+        {
+          "fr": "Le minuteur sonne.",
+          "en": "The timer rings."
+        },
+        {
+          "fr": "Papa utilise le minuteur pour le gâteau.",
+          "en": "Dad uses the timer for the cake."
+        }
+      ]
+    },
+    {
+      "fr": "balance de cuisine",
+      "en": "kitchen scale",
+      "emoji": "",
+      "sentences": [
+        {
+          "fr": "Elle pèse la farine avec la balance.",
+          "en": "She weighs the flour with the scale."
+        },
+        {
+          "fr": "La balance est précise.",
+          "en": "The scale is accurate."
+        },
+        {
+          "fr": "Je vois la balance sur l’étagère.",
+          "en": "I see the scale on the shelf."
+        }
+      ]
+    }
+  ]
+}

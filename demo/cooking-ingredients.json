@@ -1,0 +1,388 @@
+{
+  "topic": {
+    "fr": "Les ingrédients de cuisine",
+    "en": "Cooking ingredients"
+  },
+  "items": [
+    {
+      "fr": "le sel",
+      "en": "salt",
+      "emoji": "🧂",
+      "sentences": [
+        {
+          "fr": "Je mets du sel dans la soupe.",
+          "en": "I put salt in the soup."
+        },
+        {
+          "fr": "Le sel est sur la table.",
+          "en": "The salt is on the table."
+        },
+        {
+          "fr": "Maman ajoute du sel dans les pâtes.",
+          "en": "Mom adds salt to the pasta."
+        }
+      ]
+    },
+    {
+      "fr": "le sucre",
+      "en": "sugar",
+      "emoji": "🍬",
+      "sentences": [
+        {
+          "fr": "Elle met du sucre dans le gâteau.",
+          "en": "She puts sugar in the cake."
+        },
+        {
+          "fr": "Le sucre est blanc.",
+          "en": "The sugar is white."
+        },
+        {
+          "fr": "J’aime le thé avec du sucre.",
+          "en": "I like tea with sugar."
+        }
+      ]
+    },
+    {
+      "fr": "la farine",
+      "en": "flour",
+      "emoji": "🌾",
+      "sentences": [
+        {
+          "fr": "Nous utilisons de la farine pour faire du pain.",
+          "en": "We use flour to make bread."
+        },
+        {
+          "fr": "La farine est dans le sac.",
+          "en": "The flour is in the bag."
+        },
+        {
+          "fr": "Papa verse la farine dans le bol.",
+          "en": "Dad pours the flour into the bowl."
+        }
+      ]
+    },
+    {
+      "fr": "le beurre",
+      "en": "butter",
+      "emoji": "🧈",
+      "sentences": [
+        {
+          "fr": "Je mets du beurre sur le pain.",
+          "en": "I put butter on the bread."
+        },
+        {
+          "fr": "Le beurre est jaune.",
+          "en": "The butter is yellow."
+        },
+        {
+          "fr": "Elle cuisine avec du beurre.",
+          "en": "She cooks with butter."
+        }
+      ]
+    },
+    {
+      "fr": "l’huile",
+      "en": "oil",
+      "emoji": "🫒",
+      "sentences": [
+        {
+          "fr": "Il verse de l’huile dans la poêle.",
+          "en": "He pours oil into the pan."
+        },
+        {
+          "fr": "L’huile est dans la bouteille.",
+          "en": "The oil is in the bottle."
+        },
+        {
+          "fr": "Nous cuisinons les légumes avec de l’huile.",
+          "en": "We cook the vegetables with oil."
+        }
+      ]
+    },
+    {
+      "fr": "les œufs",
+      "en": "eggs",
+      "emoji": "🥚",
+      "sentences": [
+        {
+          "fr": "Elle casse les œufs.",
+          "en": "She breaks the eggs."
+        },
+        {
+          "fr": "Les œufs sont dans le frigo.",
+          "en": "The eggs are in the fridge."
+        },
+        {
+          "fr": "Je mange des œufs au petit-déjeuner.",
+          "en": "I eat eggs for breakfast."
+        }
+      ]
+    },
+    {
+      "fr": "le lait",
+      "en": "milk",
+      "emoji": "🥛",
+      "sentences": [
+        {
+          "fr": "Je bois un verre de lait.",
+          "en": "I drink a glass of milk."
+        },
+        {
+          "fr": "Le lait est froid.",
+          "en": "The milk is cold."
+        },
+        {
+          "fr": "Elle ajoute du lait dans le café.",
+          "en": "She adds milk to the coffee."
+        }
+      ]
+    },
+    {
+      "fr": "le fromage",
+      "en": "cheese",
+      "emoji": "🧀",
+      "sentences": [
+        {
+          "fr": "Il mange du fromage.",
+          "en": "He eats cheese."
+        },
+        {
+          "fr": "Le fromage est délicieux.",
+          "en": "The cheese is delicious."
+        },
+        {
+          "fr": "Je mets du fromage sur la pizza.",
+          "en": "I put cheese on the pizza."
+        }
+      ]
+    },
+    {
+      "fr": "le riz",
+      "en": "rice",
+      "emoji": "🍚",
+      "sentences": [
+        {
+          "fr": "Elle prépare du riz.",
+          "en": "She prepares rice."
+        },
+        {
+          "fr": "Le riz est blanc.",
+          "en": "The rice is white."
+        },
+        {
+          "fr": "Nous mangeons du riz ce soir.",
+          "en": "We are eating rice tonight."
+        }
+      ]
+    },
+    {
+      "fr": "les pâtes",
+      "en": "pasta",
+      "emoji": "🍝",
+      "sentences": [
+        {
+          "fr": "Je fais cuire les pâtes.",
+          "en": "I cook the pasta."
+        },
+        {
+          "fr": "Les pâtes sont dans la casserole.",
+          "en": "The pasta is in the pot."
+        },
+        {
+          "fr": "Ils aiment les pâtes au fromage.",
+          "en": "They like pasta with cheese."
+        }
+      ]
+    },
+    {
+      "fr": "le poulet",
+      "en": "chicken",
+      "emoji": "🍗",
+      "sentences": [
+        {
+          "fr": "Nous mangeons du poulet rôti.",
+          "en": "We are eating roasted chicken."
+        },
+        {
+          "fr": "Le poulet est chaud.",
+          "en": "The chicken is hot."
+        },
+        {
+          "fr": "Papa coupe le poulet.",
+          "en": "Dad cuts the chicken."
+        }
+      ]
+    },
+    {
+      "fr": "le poisson",
+      "en": "fish",
+      "emoji": "🐟",
+      "sentences": [
+        {
+          "fr": "Le poisson est dans le four.",
+          "en": "The fish is in the oven."
+        },
+        {
+          "fr": "Je mange du poisson avec du riz.",
+          "en": "I eat fish with rice."
+        },
+        {
+          "fr": "Il cuisine le poisson.",
+          "en": "He cooks the fish."
+        }
+      ]
+    },
+    {
+      "fr": "la tomate",
+      "en": "tomato",
+      "emoji": "🍅",
+      "sentences": [
+        {
+          "fr": "La tomate est rouge.",
+          "en": "The tomato is red."
+        },
+        {
+          "fr": "Je coupe la tomate.",
+          "en": "I cut the tomato."
+        },
+        {
+          "fr": "Elle met des tomates dans la salade.",
+          "en": "She puts tomatoes in the salad."
+        }
+      ]
+    },
+    {
+      "fr": "l’oignon",
+      "en": "onion",
+      "emoji": "🧅",
+      "sentences": [
+        {
+          "fr": "Il épluche un oignon.",
+          "en": "He peels an onion."
+        },
+        {
+          "fr": "Les oignons font pleurer.",
+          "en": "Onions make you cry."
+        },
+        {
+          "fr": "Je cuisine avec des oignons.",
+          "en": "I cook with onions."
+        }
+      ]
+    },
+    {
+      "fr": "l’ail",
+      "en": "garlic",
+      "emoji": "🧄",
+      "sentences": [
+        {
+          "fr": "Elle ajoute de l’ail.",
+          "en": "She adds garlic."
+        },
+        {
+          "fr": "L’ail sent fort.",
+          "en": "Garlic smells strong."
+        },
+        {
+          "fr": "Je coupe une gousse d’ail.",
+          "en": "I cut a clove of garlic."
+        }
+      ]
+    },
+    {
+      "fr": "le poivre",
+      "en": "pepper (spice)",
+      "emoji": "🌶️",
+      "sentences": [
+        {
+          "fr": "Il met du poivre sur les œufs.",
+          "en": "He puts pepper on the eggs."
+        },
+        {
+          "fr": "Le poivre est noir.",
+          "en": "The pepper is black."
+        },
+        {
+          "fr": "Je n’aime pas trop de poivre.",
+          "en": "I don't like too much pepper."
+        }
+      ]
+    },
+    {
+      "fr": "la levure",
+      "en": "yeast",
+      "emoji": "🍞",
+      "sentences": [
+        {
+          "fr": "La levure aide le pain à gonfler.",
+          "en": "Yeast helps the bread rise."
+        },
+        {
+          "fr": "J’utilise de la levure pour la pâte.",
+          "en": "I use yeast for the dough."
+        },
+        {
+          "fr": "Elle ajoute de la levure au mélange.",
+          "en": "She adds yeast to the mix."
+        }
+      ]
+    },
+    {
+      "fr": "la crème",
+      "en": "cream",
+      "emoji": "🍨",
+      "sentences": [
+        {
+          "fr": "La crème est douce.",
+          "en": "The cream is soft."
+        },
+        {
+          "fr": "Je mets de la crème dans la soupe.",
+          "en": "I put cream in the soup."
+        },
+        {
+          "fr": "Elle adore la crème chantilly.",
+          "en": "She loves whipped cream."
+        }
+      ]
+    },
+    {
+      "fr": "le chocolat",
+      "en": "chocolate",
+      "emoji": "🍫",
+      "sentences": [
+        {
+          "fr": "Je mange du chocolat noir.",
+          "en": "I eat dark chocolate."
+        },
+        {
+          "fr": "Le chocolat fond.",
+          "en": "The chocolate is melting."
+        },
+        {
+          "fr": "Il met du chocolat dans le gâteau.",
+          "en": "He puts chocolate in the cake."
+        }
+      ]
+    },
+    {
+      "fr": "la vanille",
+      "en": "vanilla",
+      "emoji": "🌼",
+      "sentences": [
+        {
+          "fr": "La glace est à la vanille.",
+          "en": "The ice cream is vanilla."
+        },
+        {
+          "fr": "Elle met de la vanille dans la pâte.",
+          "en": "She puts vanilla in the batter."
+        },
+        {
+          "fr": "J’adore le parfum de vanille.",
+          "en": "I love the vanilla flavor."
+        }
+      ]
+    }
+  ]
+}
