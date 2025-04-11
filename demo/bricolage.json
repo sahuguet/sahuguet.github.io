@@ -1,0 +1,158 @@
+{
+    "topic": {
+        "fr": "Le bricolage",
+        "en": "DIY / Handicraft"
+    },
+    "items": [
+        {
+            "fr": "un marteau",
+            "en": "a hammer",
+            "emoji": "🔨",
+            "sentences": [
+                { "fr": "J'ai un marteau.", "en": "I have a hammer." },
+                { "fr": "Le marteau est lourd.", "en": "The hammer is heavy." },
+                { "fr": "Papa utilise un marteau.", "en": "Dad uses a hammer." }
+            ]
+        },
+        {
+            "fr": "un clou",
+            "en": "a nail",
+            "emoji": "📍",
+            "sentences": [
+                { "fr": "Je plante un clou.", "en": "I hammer a nail." },
+                { "fr": "Il y a un clou par terre.", "en": "There is a nail on the floor." },
+                { "fr": "Attention au clou !", "en": "Watch out for the nail!" }
+            ]
+        },
+        {
+            "fr": "une vis",
+            "en": "a screw",
+            "emoji": "🔩",
+            "sentences": [
+                { "fr": "Je vois une vis.", "en": "I see a screw." },
+                { "fr": "Je tourne la vis.", "en": "I turn the screw." },
+                { "fr": "Papa a beaucoup de vis.", "en": "Dad has a lot of screws." }
+            ]
+        },
+        {
+            "fr": "un tournevis",
+            "en": "a screwdriver",
+            "emoji": "🪛",
+            "sentences": [
+                { "fr": "Voici un tournevis.", "en": "Here is a screwdriver." },
+                { "fr": "Maman prend le tournevis.", "en": "Mom takes the screwdriver." },
+                { "fr": "Le tournevis est rouge.", "en": "The screwdriver is red." }
+            ]
+        },
+        {
+            "fr": "une scie",
+            "en": "a saw",
+            "emoji": "🪚",
+            "sentences": [
+                { "fr": "J'utilise une scie.", "en": "I use a saw." },
+                { "fr": "La scie coupe le bois.", "en": "The saw cuts the wood." },
+                { "fr": "La scie est grande.", "en": "The saw is big." }
+            ]
+        },
+        {
+            "fr": "une perceuse",
+            "en": "a drill",
+            "emoji": "🛠️",
+            "sentences": [
+                { "fr": "J'ai une perceuse.", "en": "I have a drill." },
+                { "fr": "La perceuse est bruyante.", "en": "The drill is loud." },
+                { "fr": "Papa adore sa perceuse.", "en": "Dad loves his drill." }
+            ]
+        },
+        {
+            "fr": "du bois",
+            "en": "wood",
+            "emoji": "🪵",
+            "sentences": [
+                { "fr": "Je coupe du bois.", "en": "I cut wood." },
+                { "fr": "Le bois est marron.", "en": "The wood is brown." },
+                { "fr": "J'aime le bricolage avec du bois.", "en": "I like DIY with wood." }
+            ]
+        },
+        {
+            "fr": "une planche",
+            "en": "a plank",
+            "emoji": "🪵",
+            "sentences": [
+                { "fr": "C'est une planche de bois.", "en": "It is a wooden plank." },
+                { "fr": "La planche est longue.", "en": "The plank is long." },
+                { "fr": "Je peins une planche.", "en": "I paint a plank." }
+            ]
+        },
+        {
+            "fr": "un pinceau",
+            "en": "a paintbrush",
+            "emoji": "🖌️",
+            "sentences": [
+                { "fr": "Je prends un pinceau.", "en": "I take a paintbrush." },
+                { "fr": "Le pinceau est mouillé.", "en": "The paintbrush is wet." },
+                { "fr": "Je peins avec un pinceau.", "en": "I paint with a paintbrush." }
+            ]
+        },
+        {
+            "fr": "de la peinture",
+            "en": "paint",
+            "emoji": "🎨",
+            "sentences": [
+                { "fr": "J'aime la peinture.", "en": "I like paint." },
+                { "fr": "La peinture est bleue.", "en": "The paint is blue." },
+                { "fr": "Je mets de la peinture.", "en": "I put on paint." }
+            ]
+        },
+        {
+            "fr": "du papier de verre",
+            "en": "sandpaper",
+            "emoji": "📄",
+            "sentences": [
+                { "fr": "Je frotte avec du papier de verre.", "en": "I rub with sandpaper." },
+                { "fr": "Le papier de verre est rugueux.", "en": "The sandpaper is rough." },
+                { "fr": "Papa lisse le bois.", "en": "Dad smooths the wood." }
+            ]
+        },
+        {
+            "fr": "des outils",
+            "en": "tools",
+            "emoji": "🧰",
+            "sentences": [
+                { "fr": "J'ai des outils.", "en": "I have tools." },
+                { "fr": "Les outils sont dans la boîte.", "en": "The tools are in the box." },
+                { "fr": "Papa a beaucoup d'outils.", "en": "Dad has many tools." }
+            ]
+        },
+        {
+            "fr": "une boîte à outils",
+            "en": "a toolbox",
+            "emoji": "🧰",
+            "sentences": [
+                { "fr": "Voici la boîte à outils.", "en": "Here is the toolbox." },
+                { "fr": "La boîte est rouge.", "en": "The box is red." },
+                { "fr": "Je range les outils.", "en": "I put away the tools." }
+            ]
+        },
+        {
+            "fr": "un mètre",
+            "en": "a measuring tape",
+            "emoji": "📏",
+            "sentences": [
+                { "fr": "Je mesure avec un mètre.", "en": "I measure with a tape." },
+                { "fr": "Le mètre est jaune.", "en": "The tape is yellow." },
+                { "fr": "Papa mesure la planche.", "en": "Dad measures the plank." }
+            ]
+        },
+        {
+            "fr": "un établi",
+            "en": "a workbench",
+            "emoji": "🛠️",
+            "sentences": [
+                { "fr": "Je travaille sur l'établi.", "en": "I work on the bench." },
+                { "fr": "L'établi est en bois.", "en": "The bench is made of wood." },
+                { "fr": "Il y a des outils sur l'établi.", "en": "There are tools on the bench." }
+            ]
+        }
+    ]
+}

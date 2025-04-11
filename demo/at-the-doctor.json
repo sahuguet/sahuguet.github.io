@@ -1,0 +1,158 @@
+{
+    "topic": {
+        "fr": "Chez le docteur",
+        "en": "At the doctor's"
+    },
+    "items": [
+        {
+            "fr": "un docteur",
+            "en": "a doctor",
+            "emoji": "🩺",
+            "sentences": [
+                { "fr": "Le docteur est gentil.", "en": "The doctor is kind." },
+                { "fr": "Je vais chez le docteur.", "en": "I go to the doctor." },
+                { "fr": "Le docteur me soigne.", "en": "The doctor treats me." }
+            ]
+        },
+        {
+            "fr": "un patient",
+            "en": "a patient",
+            "emoji": "🙂",
+            "sentences": [
+                { "fr": "Je suis un patient.", "en": "I am a patient." },
+                { "fr": "Le patient attend.", "en": "The patient waits." },
+                { "fr": "Les patients sont malades.", "en": "The patients are sick." }
+            ]
+        },
+        {
+            "fr": "une ordonnance",
+            "en": "a prescription",
+            "emoji": "📄",
+            "sentences": [
+                { "fr": "Le docteur écrit une ordonnance.", "en": "The doctor writes a prescription." },
+                { "fr": "Voici mon ordonnance.", "en": "Here is my prescription." },
+                { "fr": "L'ordonnance est sur la table.", "en": "The prescription is on the table." }
+            ]
+        },
+        {
+            "fr": "des médicaments",
+            "en": "medicine",
+            "emoji": "💊",
+            "sentences": [
+                { "fr": "Je prends mes médicaments.", "en": "I take my medicine." },
+                { "fr": "Les médicaments sont dans la boîte.", "en": "The medicine is in the box." },
+                { "fr": "Papa me donne des médicaments.", "en": "Dad gives me medicine." }
+            ]
+        },
+        {
+            "fr": "un pansement",
+            "en": "a bandage",
+            "emoji": "🩹",
+            "sentences": [
+                { "fr": "Le docteur met un pansement.", "en": "The doctor puts on a bandage." },
+                { "fr": "J'ai un pansement sur le bras.", "en": "I have a bandage on my arm." },
+                { "fr": "Le pansement est petit.", "en": "The bandage is small." }
+            ]
+        },
+        {
+            "fr": "un stéthoscope",
+            "en": "a stethoscope",
+            "emoji": "🩺",
+            "sentences": [
+                { "fr": "Le docteur a un stéthoscope.", "en": "The doctor has a stethoscope." },
+                { "fr": "Il écoute mon cœur.", "en": "He listens to my heart." },
+                { "fr": "Le stéthoscope est froid.", "en": "The stethoscope is cold." }
+            ]
+        },
+        {
+            "fr": "une piqûre",
+            "en": "an injection",
+            "emoji": "💉",
+            "sentences": [
+                { "fr": "Le docteur fait une piqûre.", "en": "The doctor gives an injection." },
+                { "fr": "La piqûre est rapide.", "en": "The injection is quick." },
+                { "fr": "J'ai peur des piqûres.", "en": "I'm afraid of injections." }
+            ]
+        },
+        {
+            "fr": "une fièvre",
+            "en": "a fever",
+            "emoji": "🌡️",
+            "sentences": [
+                { "fr": "J'ai de la fièvre.", "en": "I have a fever." },
+                { "fr": "La fièvre est haute.", "en": "The fever is high." },
+                { "fr": "Maman prend ma température.", "en": "Mom takes my temperature." }
+            ]
+        },
+        {
+            "fr": "un thermomètre",
+            "en": "a thermometer",
+            "emoji": "🌡️",
+            "sentences": [
+                { "fr": "Voici le thermomètre.", "en": "Here is the thermometer." },
+                { "fr": "Le thermomètre est chaud.", "en": "The thermometer is warm." },
+                { "fr": "Papa utilise le thermomètre.", "en": "Dad uses the thermometer." }
+            ]
+        },
+        {
+            "fr": "une salle d'attente",
+            "en": "a waiting room",
+            "emoji": "🪑",
+            "sentences": [
+                { "fr": "J'attends dans la salle d'attente.", "en": "I wait in the waiting room." },
+                { "fr": "Il y a des livres ici.", "en": "There are books here." },
+                { "fr": "La salle d'attente est calme.", "en": "The waiting room is quiet." }
+            ]
+        },
+        {
+            "fr": "une blessure",
+            "en": "an injury",
+            "emoji": "🤕",
+            "sentences": [
+                { "fr": "J'ai une blessure au genou.", "en": "I have an injury on my knee." },
+                { "fr": "La blessure est petite.", "en": "The injury is small." },
+                { "fr": "Le docteur soigne la blessure.", "en": "The doctor treats the injury." }
+            ]
+        },
+        {
+            "fr": "un plâtre",
+            "en": "a cast",
+            "emoji": "🦴",
+            "sentences": [
+                { "fr": "J'ai un plâtre à la jambe.", "en": "I have a cast on my leg." },
+                { "fr": "Le plâtre est blanc.", "en": "The cast is white." },
+                { "fr": "Le docteur met le plâtre.", "en": "The doctor puts on the cast." }
+            ]
+        },
+        {
+            "fr": "une maladie",
+            "en": "an illness",
+            "emoji": "🤒",
+            "sentences": [
+                { "fr": "J'ai une maladie.", "en": "I have an illness." },
+                { "fr": "La maladie est contagieuse.", "en": "The illness is contagious." },
+                { "fr": "Le docteur soigne la maladie.", "en": "The doctor treats the illness." }
+            ]
+        },
+        {
+            "fr": "une toux",
+            "en": "a cough",
+            "emoji": "🤧",
+            "sentences": [
+                { "fr": "J'ai une toux.", "en": "I have a cough." },
+                { "fr": "La toux est forte.", "en": "The cough is strong." },
+                { "fr": "Je tousse beaucoup.", "en": "I cough a lot." }
+            ]
+        },
+        {
+            "fr": "un rhume",
+            "en": "a cold",
+            "emoji": "🤧",
+            "sentences": [
+                { "fr": "J'ai un rhume.", "en": "I have a cold." },
+                { "fr": "Le rhume est embêtant.", "en": "The cold is annoying." },
+                { "fr": "Je me mouche.", "en": "I blow my nose." }
+            ]
+        }
+    ]
+}

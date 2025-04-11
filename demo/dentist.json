@@ -1,0 +1,198 @@
+{
+    "topic": {
+        "fr": "Chez le dentiste",
+        "en": "At the dentist"
+    },
+    "items": [
+        {
+            "fr": "dent",
+            "en": "tooth",
+            "emoji": "🦷",
+            "sentences": [
+                {
+                    "fr": "Ma dent est blanche.",
+                    "en": "My tooth is white."
+                },
+                {
+                    "fr": "J'ai mal à une dent.",
+                    "en": "I have a toothache."
+                },
+                {
+                    "fr": "Le dentiste regarde ma dent.",
+                    "en": "The dentist looks at my tooth."
+                }
+            ]
+        },
+        {
+            "fr": "brosse à dents",
+            "en": "toothbrush",
+            "emoji": "🪥",
+            "sentences": [
+                {
+                    "fr": "Je prends ma brosse à dents.",
+                    "en": "I take my toothbrush."
+                },
+                {
+                    "fr": "Ma brosse à dents est bleue.",
+                    "en": "My toothbrush is blue."
+                },
+                {
+                    "fr": "J'aime ma brosse à dents.",
+                    "en": "I like my toothbrush."
+                }
+            ]
+        },
+        {
+            "fr": "dentiste",
+            "en": "dentist",
+            "emoji": "👩‍⚕️",
+            "sentences": [
+                {
+                    "fr": "Le dentiste est gentil.",
+                    "en": "The dentist is nice."
+                },
+                {
+                    "fr": "Je vais chez le dentiste.",
+                    "en": "I go to the dentist."
+                },
+                {
+                    "fr": "Le dentiste me parle.",
+                    "en": "The dentist talks to me."
+                }
+            ]
+        },
+        {
+            "fr": "carrie",
+            "en": "cavity",
+            "emoji": "🦷",
+            "sentences": [
+                {
+                    "fr": "J'ai une carie.",
+                    "en": "I have a cavity."
+                },
+                {
+                    "fr": "Le dentiste soigne la carie.",
+                    "en": "The dentist treats the cavity."
+                },
+                {
+                    "fr": "La carie est petite.",
+                    "en": "The cavity is small."
+                }
+            ]
+        },
+        {
+            "fr": "fil dentaire",
+            "en": "dental floss",
+            "emoji": "🧵",
+            "sentences": [
+                {
+                    "fr": "Je prends du fil dentaire.",
+                    "en": "I take dental floss."
+                },
+                {
+                    "fr": "Le fil dentaire est utile.",
+                    "en": "Dental floss is useful."
+                },
+                {
+                    "fr": "J'utilise le fil dentaire.",
+                    "en": "I use dental floss."
+                }
+            ]
+        },
+        {
+            "fr": "dent de lait",
+            "en": "baby tooth",
+            "emoji": "🦷",
+            "sentences": [
+                {
+                    "fr": "Ma dent de lait bouge.",
+                    "en": "My baby tooth is loose."
+                },
+                {
+                    "fr": "Je perds une dent de lait.",
+                    "en": "I lose a baby tooth."
+                },
+                {
+                    "fr": "La dent de lait tombe.",
+                    "en": "The baby tooth falls out."
+                }
+            ]
+        },
+        {
+            "fr": "fauteuil",
+            "en": "chair",
+            "emoji": "🪑",
+            "sentences": [
+                {
+                    "fr": "Je suis dans le fauteuil.",
+                    "en": "I am in the chair."
+                },
+                {
+                    "fr": "Le fauteuil est confortable.",
+                    "en": "The chair is comfortable."
+                },
+                {
+                    "fr": "Le fauteuil monte.",
+                    "en": "The chair goes up."
+                }
+            ]
+        },
+        {
+            "fr": "pâte dentifrice",
+            "en": "toothpaste",
+            "emoji": "🪥",
+            "sentences": [
+                {
+                    "fr": "Je mets de la pâte dentifrice.",
+                    "en": "I put toothpaste."
+                },
+                {
+                    "fr": "La pâte dentifrice est rose.",
+                    "en": "The toothpaste is pink."
+                },
+                {
+                    "fr": "La pâte dentifrice mousse.",
+                    "en": "The toothpaste foams."
+                }
+            ]
+        },
+        {
+            "fr": "rincer",
+            "en": "to rinse",
+            "emoji": "💦",
+            "sentences": [
+                {
+                    "fr": "Je dois rincer ma bouche.",
+                    "en": "I must rinse my mouth."
+                },
+                {
+                    "fr": "Je rince avec de l'eau.",
+                    "en": "I rinse with water."
+                },
+                {
+                    "fr": "Le dentiste me dit de rincer.",
+                    "en": "The dentist tells me to rinse."
+                }
+            ]
+        },
+        {
+            "fr": "propre",
+            "en": "clean",
+            "emoji": "✨",
+            "sentences": [
+                {
+                    "fr": "Mes dents sont propres.",
+                    "en": "My teeth are clean."
+                },
+                {
+                    "fr": "J'aime avoir les dents propres.",
+                    "en": "I like having clean teeth."
+                },
+                {
+                    "fr": "Le dentiste nettoie bien.",
+                    "en": "The dentist cleans well."
+                }
+            ]
+        }
+    ]
+}
