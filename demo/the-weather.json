@@ -1,0 +1,388 @@
+{
+    "topic": {
+        "fr": "La météo",
+        "en": "The weather"
+    },
+    "items": [
+        {
+            "fr": "le soleil",
+            "en": "the sun",
+            "emoji": "☀️",
+            "sentences": [
+                {
+                    "fr": "Le soleil brille.",
+                    "en": "The sun is shining."
+                },
+                {
+                    "fr": "J’aime le soleil.",
+                    "en": "I like the sun."
+                },
+                {
+                    "fr": "Il y a du soleil aujourd’hui.",
+                    "en": "It is sunny today."
+                }
+            ]
+        },
+        {
+            "fr": "la pluie",
+            "en": "the rain",
+            "emoji": "🌧️",
+            "sentences": [
+                {
+                    "fr": "Il pleut beaucoup.",
+                    "en": "It rains a lot."
+                },
+                {
+                    "fr": "Je marche sous la pluie.",
+                    "en": "I walk in the rain."
+                },
+                {
+                    "fr": "La pluie est froide.",
+                    "en": "The rain is cold."
+                }
+            ]
+        },
+        {
+            "fr": "la neige",
+            "en": "the snow",
+            "emoji": "❄️",
+            "sentences": [
+                {
+                    "fr": "Il neige aujourd’hui.",
+                    "en": "It is snowing today."
+                },
+                {
+                    "fr": "J’aime jouer dans la neige.",
+                    "en": "I like to play in the snow."
+                },
+                {
+                    "fr": "La neige est blanche.",
+                    "en": "The snow is white."
+                }
+            ]
+        },
+        {
+            "fr": "le vent",
+            "en": "the wind",
+            "emoji": "🌬️",
+            "sentences": [
+                {
+                    "fr": "Le vent souffle fort.",
+                    "en": "The wind is blowing hard."
+                },
+                {
+                    "fr": "Je sens le vent.",
+                    "en": "I feel the wind."
+                },
+                {
+                    "fr": "Le vent est froid.",
+                    "en": "The wind is cold."
+                }
+            ]
+        },
+        {
+            "fr": "le nuage",
+            "en": "the cloud",
+            "emoji": "☁️",
+            "sentences": [
+                {
+                    "fr": "Il y a des nuages.",
+                    "en": "There are clouds."
+                },
+                {
+                    "fr": "Le nuage est gris.",
+                    "en": "The cloud is grey."
+                },
+                {
+                    "fr": "Un nuage passe.",
+                    "en": "A cloud is passing by."
+                }
+            ]
+        },
+        {
+            "fr": "l’orage",
+            "en": "the storm",
+            "emoji": "⛈️",
+            "sentences": [
+                {
+                    "fr": "Il y a un orage.",
+                    "en": "There is a storm."
+                },
+                {
+                    "fr": "L’orage fait du bruit.",
+                    "en": "The storm is loud."
+                },
+                {
+                    "fr": "J’ai peur de l’orage.",
+                    "en": "I am afraid of the storm."
+                }
+            ]
+        },
+        {
+            "fr": "le tonnerre",
+            "en": "the thunder",
+            "emoji": "⚡",
+            "sentences": [
+                {
+                    "fr": "Le tonnerre gronde.",
+                    "en": "The thunder rumbles."
+                },
+                {
+                    "fr": "J’entends le tonnerre.",
+                    "en": "I hear the thunder."
+                },
+                {
+                    "fr": "Le tonnerre est fort.",
+                    "en": "The thunder is loud."
+                }
+            ]
+        },
+        {
+            "fr": "l’éclair",
+            "en": "the lightning",
+            "emoji": "🌩️",
+            "sentences": [
+                {
+                    "fr": "Je vois un éclair.",
+                    "en": "I see lightning."
+                },
+                {
+                    "fr": "Un éclair brille dans le ciel.",
+                    "en": "A lightning bolt shines in the sky."
+                },
+                {
+                    "fr": "L’éclair est rapide.",
+                    "en": "The lightning is fast."
+                }
+            ]
+        },
+        {
+            "fr": "la brume",
+            "en": "the mist",
+            "emoji": "🌫️",
+            "sentences": [
+                {
+                    "fr": "La brume est épaisse.",
+                    "en": "The mist is thick."
+                },
+                {
+                    "fr": "Je marche dans la brume.",
+                    "en": "I walk in the mist."
+                },
+                {
+                    "fr": "La brume cache les arbres.",
+                    "en": "The mist hides the trees."
+                }
+            ]
+        },
+        {
+            "fr": "l’arc-en-ciel",
+            "en": "the rainbow",
+            "emoji": "🌈",
+            "sentences": [
+                {
+                    "fr": "Je vois un arc-en-ciel.",
+                    "en": "I see a rainbow."
+                },
+                {
+                    "fr": "L’arc-en-ciel est beau.",
+                    "en": "The rainbow is beautiful."
+                },
+                {
+                    "fr": "Il y a un arc-en-ciel après la pluie.",
+                    "en": "There is a rainbow after the rain."
+                }
+            ]
+        },
+        {
+            "fr": "la chaleur",
+            "en": "the heat",
+            "emoji": "🔥",
+            "sentences": [
+                {
+                    "fr": "Il fait très chaud.",
+                    "en": "It is very hot."
+                },
+                {
+                    "fr": "La chaleur est forte.",
+                    "en": "The heat is strong."
+                },
+                {
+                    "fr": "J’aime la chaleur de l’été.",
+                    "en": "I like the summer heat."
+                }
+            ]
+        },
+        {
+            "fr": "le froid",
+            "en": "the cold",
+            "emoji": "❄️",
+            "sentences": [
+                {
+                    "fr": "Il fait froid dehors.",
+                    "en": "It is cold outside."
+                },
+                {
+                    "fr": "Le froid me gèle.",
+                    "en": "The cold freezes me."
+                },
+                {
+                    "fr": "Le froid arrive en hiver.",
+                    "en": "The cold comes in winter."
+                }
+            ]
+        },
+        {
+            "fr": "le brouillard",
+            "en": "the fog",
+            "emoji": "🌫️",
+            "sentences": [
+                {
+                    "fr": "Il y a du brouillard.",
+                    "en": "There is fog."
+                },
+                {
+                    "fr": "Je ne vois rien dans le brouillard.",
+                    "en": "I can't see anything in the fog."
+                },
+                {
+                    "fr": "Le brouillard est partout.",
+                    "en": "The fog is everywhere."
+                }
+            ]
+        },
+        {
+            "fr": "le temps",
+            "en": "the weather",
+            "emoji": "🌤️",
+            "sentences": [
+                {
+                    "fr": "Quel temps fait-il ?",
+                    "en": "What is the weather like?"
+                },
+                {
+                    "fr": "Le temps est beau.",
+                    "en": "The weather is nice."
+                },
+                {
+                    "fr": "Le temps change vite.",
+                    "en": "The weather changes fast."
+                }
+            ]
+        },
+        {
+            "fr": "le ciel",
+            "en": "the sky",
+            "emoji": "☀️",
+            "sentences": [
+                {
+                    "fr": "Le ciel est bleu.",
+                    "en": "The sky is blue."
+                },
+                {
+                    "fr": "Je regarde le ciel.",
+                    "en": "I look at the sky."
+                },
+                {
+                    "fr": "Le ciel est couvert.",
+                    "en": "The sky is cloudy."
+                }
+            ]
+        },
+        {
+            "fr": "l’averse",
+            "en": "the shower",
+            "emoji": "🌧️",
+            "sentences": [
+                {
+                    "fr": "Il y a une averse.",
+                    "en": "There is a shower."
+                },
+                {
+                    "fr": "L’averse est courte.",
+                    "en": "The shower is short."
+                },
+                {
+                    "fr": "Une averse tombe soudainement.",
+                    "en": "A shower falls suddenly."
+                }
+            ]
+        },
+        {
+            "fr": "le givre",
+            "en": "the frost",
+            "emoji": "❄️",
+            "sentences": [
+                {
+                    "fr": "Il y a du givre sur la fenêtre.",
+                    "en": "There is frost on the window."
+                },
+                {
+                    "fr": "Le givre est blanc.",
+                    "en": "The frost is white."
+                },
+                {
+                    "fr": "Je touche le givre.",
+                    "en": "I touch the frost."
+                }
+            ]
+        },
+        {
+            "fr": "le grésil",
+            "en": "the sleet",
+            "emoji": "🌨️",
+            "sentences": [
+                {
+                    "fr": "Il tombe du grésil.",
+                    "en": "Sleet is falling."
+                },
+                {
+                    "fr": "Le grésil est froid.",
+                    "en": "The sleet is cold."
+                },
+                {
+                    "fr": "Le grésil tape sur le toit.",
+                    "en": "Sleet taps on the roof."
+                }
+            ]
+        },
+        {
+            "fr": "la tempête",
+            "en": "the storm",
+            "emoji": "🌪️",
+            "sentences": [
+                {
+                    "fr": "Il y a une tempête.",
+                    "en": "There is a storm."
+                },
+                {
+                    "fr": "La tempête est dangereuse.",
+                    "en": "The storm is dangerous."
+                },
+                {
+                    "fr": "La tempête arrive vite.",
+                    "en": "The storm is coming quickly."
+                }
+            ]
+        },
+        {
+            "fr": "l’arc-en-ciel double",
+            "en": "the double rainbow",
+            "emoji": "🌈🌈",
+            "sentences": [
+                {
+                    "fr": "Un arc-en-ciel double est rare.",
+                    "en": "A double rainbow is rare."
+                },
+                {
+                    "fr": "Je vois un arc-en-ciel double.",
+                    "en": "I see a double rainbow."
+                },
+                {
+                    "fr": "L’arc-en-ciel double est magnifique.",
+                    "en": "The double rainbow is magnificent."
+                }
+            ]
+        }
+    ]
+}
