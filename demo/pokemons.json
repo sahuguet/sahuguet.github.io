@@ -1,0 +1,575 @@
+{
+    "topic": {
+        "fr": "Les Pokémon",
+        "en": "Pokémon"
+    },
+    "items": [
+        {
+            "fr": "Pikachu",
+            "en": "Pikachu",
+            "image": "https://img.pokemondb.net/artwork/large/pikachu.jpg",
+            "sentences": [
+                {
+                    "fr": "Pikachu est jaune.",
+                    "en": "Pikachu is yellow."
+                },
+                {
+                    "fr": "Pikachu aime courir.",
+                    "en": "Pikachu likes to run."
+                },
+                {
+                    "fr": "Pikachu a des joues rouges.",
+                    "en": "Pikachu has red cheeks."
+                },
+                {
+                    "fr": "Pikachu est petit.",
+                    "en": "Pikachu is small."
+                },
+                {
+                    "fr": "Je vois Pikachu.",
+                    "en": "I see Pikachu."
+                }
+            ]
+        },
+        {
+            "fr": "Bulbizarre",
+            "en": "Bulbasaur",
+            "image": "https://img.pokemondb.net/artwork/large/bulbasaur.jpg",
+            "sentences": [
+                {
+                    "fr": "Bulbizarre est vert.",
+                    "en": "Bulbasaur is green."
+                },
+                {
+                    "fr": "Bulbizarre a une plante.",
+                    "en": "Bulbasaur has a plant."
+                },
+                {
+                    "fr": "Bulbizarre aime l’herbe.",
+                    "en": "Bulbasaur likes grass."
+                },
+                {
+                    "fr": "Bulbizarre est calme.",
+                    "en": "Bulbasaur is calm."
+                },
+                {
+                    "fr": "Je regarde Bulbizarre.",
+                    "en": "I am looking at Bulbasaur."
+                }
+            ]
+        },
+        {
+            "fr": "Salamèche",
+            "en": "Charmander",
+            "image": "https://img.pokemondb.net/artwork/large/charmander.jpg",
+            "sentences": [
+                {
+                    "fr": "Salamèche est orange.",
+                    "en": "Charmander is orange."
+                },
+                {
+                    "fr": "Salamèche a une flamme.",
+                    "en": "Charmander has a flame."
+                },
+                {
+                    "fr": "Salamèche court vite.",
+                    "en": "Charmander runs fast."
+                },
+                {
+                    "fr": "Salamèche est joyeux.",
+                    "en": "Charmander is happy."
+                },
+                {
+                    "fr": "Je vois Salamèche.",
+                    "en": "I see Charmander."
+                }
+            ]
+        },
+        {
+            "fr": "Carapuce",
+            "en": "Squirtle",
+            "image": "https://img.pokemondb.net/artwork/large/squirtle.jpg",
+            "sentences": [
+                {
+                    "fr": "Carapuce est bleu.",
+                    "en": "Squirtle is blue."
+                },
+                {
+                    "fr": "Carapuce nage bien.",
+                    "en": "Squirtle swims well."
+                },
+                {
+                    "fr": "Carapuce a une carapace.",
+                    "en": "Squirtle has a shell."
+                },
+                {
+                    "fr": "Carapuce est mignon.",
+                    "en": "Squirtle is cute."
+                },
+                {
+                    "fr": "J’aime Carapuce.",
+                    "en": "I like Squirtle."
+                }
+            ]
+        },
+        {
+            "fr": "Rondoudou",
+            "en": "Jigglypuff",
+            "image": "https://img.pokemondb.net/artwork/large/jigglypuff.jpg",
+            "sentences": [
+                {
+                    "fr": "Rondoudou est rose.",
+                    "en": "Jigglypuff is pink."
+                },
+                {
+                    "fr": "Rondoudou chante bien.",
+                    "en": "Jigglypuff sings well."
+                },
+                {
+                    "fr": "Rondoudou est rond.",
+                    "en": "Jigglypuff is round."
+                },
+                {
+                    "fr": "Rondoudou aime dormir.",
+                    "en": "Jigglypuff likes to sleep."
+                },
+                {
+                    "fr": "Je vois Rondoudou.",
+                    "en": "I see Jigglypuff."
+                }
+            ]
+        },
+        {
+            "fr": "Mélofée",
+            "en": "Clefairy",
+            "image": "https://img.pokemondb.net/artwork/large/clefairy.jpg",
+            "sentences": [
+                {
+                    "fr": "Mélofée est mignon.",
+                    "en": "Clefairy is cute."
+                },
+                {
+                    "fr": "Mélofée danse souvent.",
+                    "en": "Clefairy often dances."
+                },
+                {
+                    "fr": "Mélofée aime la lune.",
+                    "en": "Clefairy likes the moon."
+                },
+                {
+                    "fr": "Mélofée saute haut.",
+                    "en": "Clefairy jumps high."
+                },
+                {
+                    "fr": "Je regarde Mélofée.",
+                    "en": "I am looking at Clefairy."
+                }
+            ]
+        },
+        {
+            "fr": "Dracolosse",
+            "en": "Dragonite",
+            "image": "https://img.pokemondb.net/artwork/large/dragonite.jpg",
+            "sentences": [
+                {
+                    "fr": "Dracolosse est grand.",
+                    "en": "Dragonite is big."
+                },
+                {
+                    "fr": "Dracolosse vole vite.",
+                    "en": "Dragonite flies fast."
+                },
+                {
+                    "fr": "Dracolosse est fort.",
+                    "en": "Dragonite is strong."
+                },
+                {
+                    "fr": "Dracolosse est gentil.",
+                    "en": "Dragonite is kind."
+                },
+                {
+                    "fr": "Je vois Dracolosse.",
+                    "en": "I see Dragonite."
+                }
+            ]
+        },
+        {
+            "fr": "Ronflex",
+            "en": "Snorlax",
+            "image": "https://img.pokemondb.net/artwork/large/snorlax.jpg",
+            "sentences": [
+                {
+                    "fr": "Ronflex dort beaucoup.",
+                    "en": "Snorlax sleeps a lot."
+                },
+                {
+                    "fr": "Ronflex est gros.",
+                    "en": "Snorlax is big."
+                },
+                {
+                    "fr": "Ronflex aime manger.",
+                    "en": "Snorlax likes to eat."
+                },
+                {
+                    "fr": "Ronflex est calme.",
+                    "en": "Snorlax is calm."
+                },
+                {
+                    "fr": "Je regarde Ronflex.",
+                    "en": "I am looking at Snorlax."
+                }
+            ]
+        },
+        {
+            "fr": "Mewtwo",
+            "en": "Mewtwo",
+            "image": "https://img.pokemondb.net/artwork/large/mewtwo.jpg",
+            "sentences": [
+                {
+                    "fr": "Mewtwo est puissant.",
+                    "en": "Mewtwo is powerful."
+                },
+                {
+                    "fr": "Mewtwo est rapide.",
+                    "en": "Mewtwo is fast."
+                },
+                {
+                    "fr": "Mewtwo a des pouvoirs.",
+                    "en": "Mewtwo has powers."
+                },
+                {
+                    "fr": "Mewtwo est mystérieux.",
+                    "en": "Mewtwo is mysterious."
+                },
+                {
+                    "fr": "Je vois Mewtwo.",
+                    "en": "I see Mewtwo."
+                }
+            ]
+        },
+        {
+            "fr": "Évoli",
+            "en": "Eevee",
+            "image": "https://img.pokemondb.net/artwork/large/eevee.jpg",
+            "sentences": [
+                {
+                    "fr": "Évoli est mignon.",
+                    "en": "Eevee is cute."
+                },
+                {
+                    "fr": "Évoli a de grandes oreilles.",
+                    "en": "Eevee has big ears."
+                },
+                {
+                    "fr": "Évoli court vite.",
+                    "en": "Eevee runs fast."
+                },
+                {
+                    "fr": "Évoli change souvent.",
+                    "en": "Eevee changes often."
+                },
+                {
+                    "fr": "Je vois Évoli.",
+                    "en": "I see Eevee."
+                }
+            ]
+        },
+        {
+            "fr": "Goupix",
+            "en": "Vulpix",
+            "image": "https://img.pokemondb.net/artwork/large/vulpix.jpg",
+            "sentences": [
+                {
+                    "fr": "Goupix est roux.",
+                    "en": "Vulpix is red."
+                },
+                {
+                    "fr": "Goupix a six queues.",
+                    "en": "Vulpix has six tails."
+                },
+                {
+                    "fr": "Goupix aime le feu.",
+                    "en": "Vulpix likes fire."
+                },
+                {
+                    "fr": "Goupix court vite.",
+                    "en": "Vulpix runs fast."
+                },
+                {
+                    "fr": "Je vois Goupix.",
+                    "en": "I see Vulpix."
+                }
+            ]
+        },
+        {
+            "fr": "Feunard",
+            "en": "Ninetales",
+            "image": "https://img.pokemondb.net/artwork/large/ninetales.jpg",
+            "sentences": [
+                {
+                    "fr": "Feunard est élégant.",
+                    "en": "Ninetales is elegant."
+                },
+                {
+                    "fr": "Feunard a neuf queues.",
+                    "en": "Ninetales has nine tails."
+                },
+                {
+                    "fr": "Feunard est blanc.",
+                    "en": "Ninetales is white."
+                },
+                {
+                    "fr": "Feunard est rapide.",
+                    "en": "Ninetales is fast."
+                },
+                {
+                    "fr": "Je regarde Feunard.",
+                    "en": "I am looking at Ninetales."
+                }
+            ]
+        },
+        {
+            "fr": "Psykokwak",
+            "en": "Psyduck",
+            "image": "https://img.pokemondb.net/artwork/large/psyduck.jpg",
+            "sentences": [
+                {
+                    "fr": "Psykokwak est jaune.",
+                    "en": "Psyduck is yellow."
+                },
+                {
+                    "fr": "Psykokwak a souvent mal à la tête.",
+                    "en": "Psyduck often has a headache."
+                },
+                {
+                    "fr": "Psykokwak est drôle.",
+                    "en": "Psyduck is funny."
+                },
+                {
+                    "fr": "Psykokwak nage mal.",
+                    "en": "Psyduck swims badly."
+                },
+                {
+                    "fr": "Je vois Psykokwak.",
+                    "en": "I see Psyduck."
+                }
+            ]
+        },
+        {
+            "fr": "Lokhlass",
+            "en": "Lapras",
+            "image": "https://img.pokemondb.net/artwork/large/lapras.jpg",
+            "sentences": [
+                {
+                    "fr": "Lokhlass est bleu.",
+                    "en": "Lapras is blue."
+                },
+                {
+                    "fr": "Lokhlass nage bien.",
+                    "en": "Lapras swims well."
+                },
+                {
+                    "fr": "Lokhlass est grand.",
+                    "en": "Lapras is big."
+                },
+                {
+                    "fr": "Lokhlass aime la mer.",
+                    "en": "Lapras loves the sea."
+                },
+                {
+                    "fr": "Je regarde Lokhlass.",
+                    "en": "I am looking at Lapras."
+                }
+            ]
+        },
+        {
+            "fr": "Onix",
+            "en": "Onix",
+            "image": "https://img.pokemondb.net/artwork/large/onix.jpg",
+            "sentences": [
+                {
+                    "fr": "Onix est en pierre.",
+                    "en": "Onix is made of stone."
+                },
+                {
+                    "fr": "Onix est long.",
+                    "en": "Onix is long."
+                },
+                {
+                    "fr": "Onix vit sous terre.",
+                    "en": "Onix lives underground."
+                },
+                {
+                    "fr": "Onix est fort.",
+                    "en": "Onix is strong."
+                },
+                {
+                    "fr": "Je vois Onix.",
+                    "en": "I see Onix."
+                }
+            ]
+        },
+        {
+            "fr": "Magicarpe",
+            "en": "Magikarp",
+            "image": "https://img.pokemondb.net/artwork/large/magikarp.jpg",
+            "sentences": [
+                {
+                    "fr": "Magicarpe est rouge.",
+                    "en": "Magikarp is red."
+                },
+                {
+                    "fr": "Magicarpe saute souvent.",
+                    "en": "Magikarp jumps often."
+                },
+                {
+                    "fr": "Magicarpe nage mal.",
+                    "en": "Magikarp swims badly."
+                },
+                {
+                    "fr": "Magicarpe est faible.",
+                    "en": "Magikarp is weak."
+                },
+                {
+                    "fr": "Je regarde Magicarpe.",
+                    "en": "I am looking at Magikarp."
+                }
+            ]
+        },
+        {
+            "fr": "Léviator",
+            "en": "Gyarados",
+            "image": "https://img.pokemondb.net/artwork/large/gyarados.jpg",
+            "sentences": [
+                {
+                    "fr": "Léviator est grand.",
+                    "en": "Gyarados is big."
+                },
+                {
+                    "fr": "Léviator est bleu.",
+                    "en": "Gyarados is blue."
+                },
+                {
+                    "fr": "Léviator est puissant.",
+                    "en": "Gyarados is powerful."
+                },
+                {
+                    "fr": "Léviator nage vite.",
+                    "en": "Gyarados swims fast."
+                },
+                {
+                    "fr": "Je vois Léviator.",
+                    "en": "I see Gyarados."
+                }
+            ]
+        },
+        {
+            "fr": "Miaouss",
+            "en": "Meowth",
+            "image": "https://img.pokemondb.net/artwork/large/meowth.jpg",
+            "sentences": [
+                {
+                    "fr": "Miaouss est un chat.",
+                    "en": "Meowth is a cat."
+                },
+                {
+                    "fr": "Miaouss est malin.",
+                    "en": "Meowth is clever."
+                },
+                {
+                    "fr": "Miaouss aime l'argent.",
+                    "en": "Meowth loves money."
+                },
+                {
+                    "fr": "Miaouss marche souvent.",
+                    "en": "Meowth often walks."
+                },
+                {
+                    "fr": "Je vois Miaouss.",
+                    "en": "I see Meowth."
+                }
+            ]
+        },
+        {
+            "fr": "Caninos",
+            "en": "Growlithe",
+            "image": "https://img.pokemondb.net/artwork/large/growlithe.jpg",
+            "sentences": [
+                {
+                    "fr": "Caninos est un chien.",
+                    "en": "Growlithe is a dog."
+                },
+                {
+                    "fr": "Caninos est orange.",
+                    "en": "Growlithe is orange."
+                },
+                {
+                    "fr": "Caninos court vite.",
+                    "en": "Growlithe runs fast."
+                },
+                {
+                    "fr": "Caninos aime le feu.",
+                    "en": "Growlithe loves fire."
+                },
+                {
+                    "fr": "Je regarde Caninos.",
+                    "en": "I am looking at Growlithe."
+                }
+            ]
+        },
+        {
+            "fr": "Arcanin",
+            "en": "Arcanine",
+            "image": "https://img.pokemondb.net/artwork/large/arcanine.jpg",
+            "sentences": [
+                {
+                    "fr": "Arcanin est fort.",
+                    "en": "Arcanine is strong."
+                },
+                {
+                    "fr": "Arcanin est rapide.",
+                    "en": "Arcanine is fast."
+                },
+                {
+                    "fr": "Arcanin est beau.",
+                    "en": "Arcanine is beautiful."
+                },
+                {
+                    "fr": "Arcanin aime courir.",
+                    "en": "Arcanine loves to run."
+                },
+                {
+                    "fr": "Je vois Arcanin.",
+                    "en": "I see Arcanine."
+                }
+            ]
+        },
+        {
+            "fr": "Alakazam",
+            "en": "Alakazam",
+            "image": "https://img.pokemondb.net/artwork/large/alakazam.jpg",
+            "sentences": [
+                {
+                    "fr": "Alakazam est très intelligent.",
+                    "en": "Alakazam is very smart."
+                },
+                {
+                    "fr": "Alakazam a des cuillères.",
+                    "en": "Alakazam has spoons."
+                },
+                {
+                    "fr": "Alakazam utilise la télépathie.",
+                    "en": "Alakazam uses telepathy."
+                },
+                {
+                    "fr": "Alakazam est rapide.",
+                    "en": "Alakazam is fast."
+                },
+                {
+                    "fr": "Je regarde Alakazam.",
+                    "en": "I am looking at Alakazam."
+                }
+            ]
+        }
+    ]
+}

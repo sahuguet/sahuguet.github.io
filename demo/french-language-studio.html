@@ -100,6 +100,7 @@ html, body {
 
 <body>
 
+
     <!-- For audio and confetti  FX -->
     <audio-player></audio-player>
     <confetti-player></confetti-player>
@@ -136,6 +137,7 @@ html, body {
         <option value="dentist.json">Le dentiste</option>
         <option value="at-the-doctor.json">Le médecin</option>
         <option value="the-weather.json">Le temps</option>
+        <option value="pokemons.json">Pokémon</option>
 
     </select></h1>
     
@@ -148,6 +150,7 @@ html, body {
 
     <div id="content">
         <div id="emoji"></div>
+        <div id="image"></div>
         <div id="word"></div>
         <div id="word-en"></div>
         <div id="sentence"></div>
@@ -232,6 +235,7 @@ html, body {
 
             // Elements
             const emojiEl = document.getElementById('emoji');
+            const imageEl = document.getElementById('image');
             const wordEl = document.getElementById('word');
             const word_en = document.getElementById('word-en');
             const sentenceEl = document.getElementById('sentence');
@@ -279,8 +283,13 @@ html, body {
 
             // Update UI based on current indices
             function updateUI() {
+                console.log('Inside updateUI ...')
                 const currentItem = data[currentWordIndex];
                 emojiEl.textContent = currentItem.emoji;
+                if (currentItem.image) {
+                    console.log('show image ...')
+                    imageEl.innerHTML = `<circular-image url="${currentItem.image}"></circular-image>`;
+                }
                 //wordEl.textContent = currentItem.word;
                 wordEl.innerHTML = `<repeat-sentence >${currentItem.fr}</repeat-sentence>`;
                 word_en.innerHTML = `${currentItem.en}`;

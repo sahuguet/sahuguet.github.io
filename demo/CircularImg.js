@@ -5,7 +5,7 @@ class CircularImage extends HTMLElement {
     }
 
     connectedCallback() {
-        const url = this.getAttribute('url') || '';
+        const url = this.getAttribute('url') || 'https://img.pokemondb.net/artwork/large/bulbasaur.jpg';
         const size = this.getAttribute('size') || '100';
         const alt = this.getAttribute('alt') || '';
         const fit = this.hasAttribute('contain') ? 'contain' : 'cover';
