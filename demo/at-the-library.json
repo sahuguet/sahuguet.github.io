@@ -1,0 +1,388 @@
+{
+  "topic": {
+    "fr": "À la bibliothèque",
+    "en": "At the library"
+  },
+  "items": [
+    {
+      "fr": "livre",
+      "en": "book",
+      "emoji": "📖",
+      "sentences": [
+        {
+          "fr": "Je lis un livre.",
+          "en": "I read a book."
+        },
+        {
+          "fr": "Elle choisit un livre.",
+          "en": "She picks a book."
+        },
+        {
+          "fr": "Nous aimons les livres.",
+          "en": "We love books."
+        }
+      ]
+    },
+    {
+      "fr": "bibliothécaire",
+      "en": "librarian",
+      "emoji": "👩‍🏫",
+      "sentences": [
+        {
+          "fr": "La bibliothécaire est gentille.",
+          "en": "The librarian is kind."
+        },
+        {
+          "fr": "Le bibliothécaire aide les enfants.",
+          "en": "The librarian helps the children."
+        },
+        {
+          "fr": "Je parle à la bibliothécaire.",
+          "en": "I talk to the librarian."
+        }
+      ]
+    },
+    {
+      "fr": "étagère",
+      "en": "shelf",
+      "emoji": "🪵",
+      "sentences": [
+        {
+          "fr": "Les livres sont sur l'étagère.",
+          "en": "The books are on the shelf."
+        },
+        {
+          "fr": "Je cherche une étagère vide.",
+          "en": "I look for an empty shelf."
+        },
+        {
+          "fr": "Cette étagère est haute.",
+          "en": "This shelf is tall."
+        }
+      ]
+    },
+    {
+      "fr": "silence",
+      "en": "silence",
+      "emoji": "🤫",
+      "sentences": [
+        {
+          "fr": "Il faut faire silence.",
+          "en": "We must be quiet."
+        },
+        {
+          "fr": "Le silence est important.",
+          "en": "Silence is important."
+        },
+        {
+          "fr": "Chut ! Silence, s’il te plaît.",
+          "en": "Shh! Silence, please."
+        }
+      ]
+    },
+    {
+      "fr": "lire",
+      "en": "to read",
+      "emoji": "📚",
+      "sentences": [
+        {
+          "fr": "J’aime lire des histoires.",
+          "en": "I like to read stories."
+        },
+        {
+          "fr": "Tu lis un magazine.",
+          "en": "You read a magazine."
+        },
+        {
+          "fr": "Ils lisent en silence.",
+          "en": "They read quietly."
+        }
+      ]
+    },
+    {
+      "fr": "cahier",
+      "en": "notebook",
+      "emoji": "📒",
+      "sentences": [
+        {
+          "fr": "Mon cahier est bleu.",
+          "en": "My notebook is blue."
+        },
+        {
+          "fr": "J’écris dans mon cahier.",
+          "en": "I write in my notebook."
+        },
+        {
+          "fr": "Le cahier est sur la table.",
+          "en": "The notebook is on the table."
+        }
+      ]
+    },
+    {
+      "fr": "crayon",
+      "en": "pencil",
+      "emoji": "✏️",
+      "sentences": [
+        {
+          "fr": "Je prends un crayon.",
+          "en": "I take a pencil."
+        },
+        {
+          "fr": "Elle dessine avec un crayon.",
+          "en": "She draws with a pencil."
+        },
+        {
+          "fr": "Le crayon est cassé.",
+          "en": "The pencil is broken."
+        }
+      ]
+    },
+    {
+      "fr": "histoire",
+      "en": "story",
+      "emoji": "📘",
+      "sentences": [
+        {
+          "fr": "J’adore cette histoire.",
+          "en": "I love this story."
+        },
+        {
+          "fr": "Papa lit une histoire.",
+          "en": "Dad reads a story."
+        },
+        {
+          "fr": "C’est une belle histoire.",
+          "en": "It’s a beautiful story."
+        }
+      ]
+    },
+    {
+      "fr": "magazine",
+      "en": "magazine",
+      "emoji": "📰",
+      "sentences": [
+        {
+          "fr": "Je regarde un magazine.",
+          "en": "I look at a magazine."
+        },
+        {
+          "fr": "Le magazine est intéressant.",
+          "en": "The magazine is interesting."
+        },
+        {
+          "fr": "Tu lis un magazine drôle.",
+          "en": "You read a funny magazine."
+        }
+      ]
+    },
+    {
+      "fr": "ordinateur",
+      "en": "computer",
+      "emoji": "💻",
+      "sentences": [
+        {
+          "fr": "L’ordinateur est dans le coin.",
+          "en": "The computer is in the corner."
+        },
+        {
+          "fr": "Elle tape sur l’ordinateur.",
+          "en": "She types on the computer."
+        },
+        {
+          "fr": "J’utilise l’ordinateur.",
+          "en": "I use the computer."
+        }
+      ]
+    },
+    {
+      "fr": "recherche",
+      "en": "research",
+      "emoji": "🔍",
+      "sentences": [
+        {
+          "fr": "Je fais une recherche.",
+          "en": "I do a research."
+        },
+        {
+          "fr": "Tu recherches un mot.",
+          "en": "You look up a word."
+        },
+        {
+          "fr": "La recherche est difficile.",
+          "en": "The research is hard."
+        }
+      ]
+    },
+    {
+      "fr": "table",
+      "en": "table",
+      "emoji": "🪑",
+      "sentences": [
+        {
+          "fr": "Les enfants sont à la table.",
+          "en": "The children are at the table."
+        },
+        {
+          "fr": "Je pose le livre sur la table.",
+          "en": "I put the book on the table."
+        },
+        {
+          "fr": "C’est une grande table.",
+          "en": "It’s a big table."
+        }
+      ]
+    },
+    {
+      "fr": "chaise",
+      "en": "chair",
+      "emoji": "🪑",
+      "sentences": [
+        {
+          "fr": "Je m’assieds sur une chaise.",
+          "en": "I sit on a chair."
+        },
+        {
+          "fr": "La chaise est confortable.",
+          "en": "The chair is comfortable."
+        },
+        {
+          "fr": "Tu tires la chaise.",
+          "en": "You pull the chair."
+        }
+      ]
+    },
+    {
+      "fr": "louer",
+      "en": "to borrow",
+      "emoji": "📕",
+      "sentences": [
+        {
+          "fr": "Je veux louer ce livre.",
+          "en": "I want to borrow this book."
+        },
+        {
+          "fr": "Tu loues deux livres.",
+          "en": "You borrow two books."
+        },
+        {
+          "fr": "Elle loue un roman.",
+          "en": "She borrows a novel."
+        }
+      ]
+    },
+    {
+      "fr": "roman",
+      "en": "novel",
+      "emoji": "📙",
+      "sentences": [
+        {
+          "fr": "Ce roman est long.",
+          "en": "This novel is long."
+        },
+        {
+          "fr": "J’ai lu un beau roman.",
+          "en": "I read a beautiful novel."
+        },
+        {
+          "fr": "Le roman est intéressant.",
+          "en": "The novel is interesting."
+        }
+      ]
+    },
+    {
+      "fr": "lecture",
+      "en": "reading",
+      "emoji": "📚",
+      "sentences": [
+        {
+          "fr": "La lecture est mon passe-temps.",
+          "en": "Reading is my hobby."
+        },
+        {
+          "fr": "J’aime la lecture du soir.",
+          "en": "I like evening reading."
+        },
+        {
+          "fr": "La lecture est tranquille.",
+          "en": "Reading is peaceful."
+        }
+      ]
+    },
+    {
+      "fr": "illustration",
+      "en": "illustration",
+      "emoji": "🖼️",
+      "sentences": [
+        {
+          "fr": "Regarde cette belle illustration.",
+          "en": "Look at this beautiful illustration."
+        },
+        {
+          "fr": "Ce livre a des illustrations colorées.",
+          "en": "This book has colorful illustrations."
+        },
+        {
+          "fr": "L’illustration montre un chat.",
+          "en": "The illustration shows a cat."
+        }
+      ]
+    },
+    {
+      "fr": "mot",
+      "en": "word",
+      "emoji": "🔤",
+      "sentences": [
+        {
+          "fr": "Ce mot est difficile.",
+          "en": "This word is hard."
+        },
+        {
+          "fr": "Tu écris un mot.",
+          "en": "You write a word."
+        },
+        {
+          "fr": "Je cherche le mot dans le dictionnaire.",
+          "en": "I look for the word in the dictionary."
+        }
+      ]
+    },
+    {
+      "fr": "dictionnaire",
+      "en": "dictionary",
+      "emoji": "📔",
+      "sentences": [
+        {
+          "fr": "Le dictionnaire est sur l’étagère.",
+          "en": "The dictionary is on the shelf."
+        },
+        {
+          "fr": "Je cherche un mot dans le dictionnaire.",
+          "en": "I look for a word in the dictionary."
+        },
+        {
+          "fr": "Ce dictionnaire est très utile.",
+          "en": "This dictionary is very useful."
+        }
+      ]
+    },
+    {
+      "fr": "cartable",
+      "en": "schoolbag",
+      "emoji": "🎒",
+      "sentences": [
+        {
+          "fr": "Mon cartable est plein de livres.",
+          "en": "My schoolbag is full of books."
+        },
+        {
+          "fr": "Je range mon cartable.",
+          "en": "I tidy my schoolbag."
+        },
+        {
+          "fr": "Le cartable est rouge.",
+          "en": "The schoolbag is red."
+        }
+      ]
+    }
+  ]
+}

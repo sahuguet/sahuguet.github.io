@@ -1,0 +1,388 @@
+{
+  "topic": {
+    "fr": "À l'école aujourd'hui",
+    "en": "At school today"
+  },
+  "items": [
+    {
+      "fr": "dessiner",
+      "en": "to draw",
+      "emoji": "🖍️",
+      "sentences": [
+        {
+          "fr": "Aujourd'hui, je dessine un chat.",
+          "en": "Today, I draw a cat."
+        },
+        {
+          "fr": "Tu dessines une maison.",
+          "en": "You draw a house."
+        },
+        {
+          "fr": "Nous dessinons en classe.",
+          "en": "We draw in class."
+        }
+      ]
+    },
+    {
+      "fr": "chanter",
+      "en": "to sing",
+      "emoji": "🎤",
+      "sentences": [
+        {
+          "fr": "Je chante une chanson.",
+          "en": "I sing a song."
+        },
+        {
+          "fr": "Elle chante très bien.",
+          "en": "She sings very well."
+        },
+        {
+          "fr": "Les enfants chantent ensemble.",
+          "en": "The children sing together."
+        }
+      ]
+    },
+    {
+      "fr": "lire",
+      "en": "to read",
+      "emoji": "📖",
+      "sentences": [
+        {
+          "fr": "Je lis un livre.",
+          "en": "I read a book."
+        },
+        {
+          "fr": "Il lit une histoire.",
+          "en": "He reads a story."
+        },
+        {
+          "fr": "Nous lisons avec la maîtresse.",
+          "en": "We read with the teacher."
+        }
+      ]
+    },
+    {
+      "fr": "écrire",
+      "en": "to write",
+      "emoji": "✍️",
+      "sentences": [
+        {
+          "fr": "Tu écris ton prénom.",
+          "en": "You write your name."
+        },
+        {
+          "fr": "Elle écrit une lettre.",
+          "en": "She writes a letter."
+        },
+        {
+          "fr": "Nous écrivons un mot.",
+          "en": "We write a word."
+        }
+      ]
+    },
+    {
+      "fr": "jouer",
+      "en": "to play",
+      "emoji": "⚽",
+      "sentences": [
+        {
+          "fr": "Les enfants jouent dehors.",
+          "en": "The children play outside."
+        },
+        {
+          "fr": "Il joue avec ses amis.",
+          "en": "He plays with his friends."
+        },
+        {
+          "fr": "Nous jouons dans la cour.",
+          "en": "We play in the yard."
+        }
+      ]
+    },
+    {
+      "fr": "compter",
+      "en": "to count",
+      "emoji": "🔢",
+      "sentences": [
+        {
+          "fr": "Je compte jusqu’à dix.",
+          "en": "I count to ten."
+        },
+        {
+          "fr": "Tu comptes les pommes.",
+          "en": "You count the apples."
+        },
+        {
+          "fr": "Ils comptent ensemble.",
+          "en": "They count together."
+        }
+      ]
+    },
+    {
+      "fr": "colorier",
+      "en": "to color",
+      "emoji": "🖍️",
+      "sentences": [
+        {
+          "fr": "Je colorie un soleil.",
+          "en": "I color a sun."
+        },
+        {
+          "fr": "Elle colorie un arc-en-ciel.",
+          "en": "She colors a rainbow."
+        },
+        {
+          "fr": "Nous colorions des dessins.",
+          "en": "We color pictures."
+        }
+      ]
+    },
+    {
+      "fr": "écouter",
+      "en": "to listen",
+      "emoji": "👂",
+      "sentences": [
+        {
+          "fr": "Je t’écoute.",
+          "en": "I’m listening to you."
+        },
+        {
+          "fr": "Nous écoutons une histoire.",
+          "en": "We listen to a story."
+        },
+        {
+          "fr": "Ils écoutent la maîtresse.",
+          "en": "They listen to the teacher."
+        }
+      ]
+    },
+    {
+      "fr": "parler",
+      "en": "to talk",
+      "emoji": "🗣️",
+      "sentences": [
+        {
+          "fr": "Je parle avec mon ami.",
+          "en": "I talk with my friend."
+        },
+        {
+          "fr": "Tu parles doucement.",
+          "en": "You speak softly."
+        },
+        {
+          "fr": "Nous parlons en classe.",
+          "en": "We talk in class."
+        }
+      ]
+    },
+    {
+      "fr": "coller",
+      "en": "to glue",
+      "emoji": "🧴",
+      "sentences": [
+        {
+          "fr": "Je colle du papier.",
+          "en": "I glue paper."
+        },
+        {
+          "fr": "Tu colles une image.",
+          "en": "You glue a picture."
+        },
+        {
+          "fr": "Ils collent leurs dessins.",
+          "en": "They glue their drawings."
+        }
+      ]
+    },
+    {
+      "fr": "découper",
+      "en": "to cut",
+      "emoji": "✂️",
+      "sentences": [
+        {
+          "fr": "Je découpe une étoile.",
+          "en": "I cut a star."
+        },
+        {
+          "fr": "Elle découpe du papier bleu.",
+          "en": "She cuts blue paper."
+        },
+        {
+          "fr": "Nous découpons des formes.",
+          "en": "We cut shapes."
+        }
+      ]
+    },
+    {
+      "fr": "ranger",
+      "en": "to tidy up",
+      "emoji": "🧹",
+      "sentences": [
+        {
+          "fr": "Je range mes crayons.",
+          "en": "I tidy up my crayons."
+        },
+        {
+          "fr": "Ils rangent la classe.",
+          "en": "They tidy up the classroom."
+        },
+        {
+          "fr": "Nous rangeons nos affaires.",
+          "en": "We tidy up our things."
+        }
+      ]
+    },
+    {
+      "fr": "observer",
+      "en": "to observe",
+      "emoji": "🔍",
+      "sentences": [
+        {
+          "fr": "Je regarde une fourmi.",
+          "en": "I look at an ant."
+        },
+        {
+          "fr": "Nous observons les insectes.",
+          "en": "We observe the insects."
+        },
+        {
+          "fr": "Elle observe une plante.",
+          "en": "She observes a plant."
+        }
+      ]
+    },
+    {
+      "fr": "partager",
+      "en": "to share",
+      "emoji": "🤝",
+      "sentences": [
+        {
+          "fr": "Je partage mes jouets.",
+          "en": "I share my toys."
+        },
+        {
+          "fr": "Tu partages avec ton ami.",
+          "en": "You share with your friend."
+        },
+        {
+          "fr": "Nous partageons les crayons.",
+          "en": "We share the pencils."
+        }
+      ]
+    },
+    {
+      "fr": "apprendre",
+      "en": "to learn",
+      "emoji": "📚",
+      "sentences": [
+        {
+          "fr": "J’apprends un nouveau mot.",
+          "en": "I learn a new word."
+        },
+        {
+          "fr": "Ils apprennent à lire.",
+          "en": "They learn to read."
+        },
+        {
+          "fr": "Nous apprenons ensemble.",
+          "en": "We learn together."
+        }
+      ]
+    },
+    {
+      "fr": "goûter",
+      "en": "to have a snack",
+      "emoji": "🍎",
+      "sentences": [
+        {
+          "fr": "Je goûte une pomme.",
+          "en": "I eat a snack (an apple)."
+        },
+        {
+          "fr": "Nous goûtons à la récré.",
+          "en": "We have a snack at recess."
+        },
+        {
+          "fr": "Elle goûte un biscuit.",
+          "en": "She eats a cookie."
+        }
+      ]
+    },
+    {
+      "fr": "faire du sport",
+      "en": "to do sports",
+      "emoji": "🏃",
+      "sentences": [
+        {
+          "fr": "Je fais du sport dans la cour.",
+          "en": "I do sports in the yard."
+        },
+        {
+          "fr": "Ils font du sport le matin.",
+          "en": "They do sports in the morning."
+        },
+        {
+          "fr": "Nous faisons du sport ensemble.",
+          "en": "We do sports together."
+        }
+      ]
+    },
+    {
+      "fr": "jouer d’un instrument",
+      "en": "to play an instrument",
+      "emoji": "🎹",
+      "sentences": [
+        {
+          "fr": "Je joue du piano.",
+          "en": "I play the piano."
+        },
+        {
+          "fr": "Elle joue de la flûte.",
+          "en": "She plays the flute."
+        },
+        {
+          "fr": "Nous jouons des instruments.",
+          "en": "We play instruments."
+        }
+      ]
+    },
+    {
+      "fr": "faire une expérience",
+      "en": "to do an experiment",
+      "emoji": "🧪",
+      "sentences": [
+        {
+          "fr": "Nous faisons une expérience avec l’eau.",
+          "en": "We do an experiment with water."
+        },
+        {
+          "fr": "Je fais une expérience en classe.",
+          "en": "I do an experiment in class."
+        },
+        {
+          "fr": "Ils font une expérience rigolote.",
+          "en": "They do a funny experiment."
+        }
+      ]
+    },
+    {
+      "fr": "regarder un film",
+      "en": "to watch a movie",
+      "emoji": "🎬",
+      "sentences": [
+        {
+          "fr": "Nous regardons un film en classe.",
+          "en": "We watch a movie in class."
+        },
+        {
+          "fr": "Elle regarde un dessin animé.",
+          "en": "She watches a cartoon."
+        },
+        {
+          "fr": "Je regarde un film avec mes amis.",
+          "en": "I watch a movie with my friends."
+        }
+      ]
+    }
+  ]
+}

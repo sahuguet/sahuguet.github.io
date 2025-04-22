@@ -1,0 +1,388 @@
+{
+  "topic": {
+    "fr": "Visite au musée",
+    "en": "Visit to the museum"
+  },
+  "items": [
+    {
+      "fr": "le musée",
+      "en": "the museum",
+      "emoji": "🏛️",
+      "sentences": [
+        {
+          "fr": "Nous allons au musée.",
+          "en": "We are going to the museum."
+        },
+        {
+          "fr": "Le musée est grand.",
+          "en": "The museum is big."
+        },
+        {
+          "fr": "J’aime visiter le musée.",
+          "en": "I like visiting the museum."
+        }
+      ]
+    },
+    {
+      "fr": "le tableau",
+      "en": "the painting",
+      "emoji": "🖼️",
+      "sentences": [
+        {
+          "fr": "Ce tableau est beau.",
+          "en": "This painting is beautiful."
+        },
+        {
+          "fr": "Je regarde un tableau.",
+          "en": "I am looking at a painting."
+        },
+        {
+          "fr": "Il y a un grand tableau au mur.",
+          "en": "There is a big painting on the wall."
+        }
+      ]
+    },
+    {
+      "fr": "la sculpture",
+      "en": "the sculpture",
+      "emoji": "🗿",
+      "sentences": [
+        {
+          "fr": "La sculpture est en pierre.",
+          "en": "The sculpture is made of stone."
+        },
+        {
+          "fr": "Je vois une sculpture d’un lion.",
+          "en": "I see a sculpture of a lion."
+        },
+        {
+          "fr": "Les enfants aiment la sculpture.",
+          "en": "The children like the sculpture."
+        }
+      ]
+    },
+    {
+      "fr": "le guide",
+      "en": "the guide",
+      "emoji": "👨‍🏫",
+      "sentences": [
+        {
+          "fr": "Le guide parle de l’histoire.",
+          "en": "The guide talks about history."
+        },
+        {
+          "fr": "J’écoute le guide.",
+          "en": "I listen to the guide."
+        },
+        {
+          "fr": "Le guide montre les œuvres.",
+          "en": "The guide shows the artworks."
+        }
+      ]
+    },
+    {
+      "fr": "l’audio-guide",
+      "en": "the audio guide",
+      "emoji": "🎧",
+      "sentences": [
+        {
+          "fr": "Je mets l’audio-guide.",
+          "en": "I put on the audio guide."
+        },
+        {
+          "fr": "L’audio-guide explique bien.",
+          "en": "The audio guide explains well."
+        },
+        {
+          "fr": "Tu as l’audio-guide ?",
+          "en": "Do you have the audio guide?"
+        }
+      ]
+    },
+    {
+      "fr": "le billet",
+      "en": "the ticket",
+      "emoji": "🎫",
+      "sentences": [
+        {
+          "fr": "J’ai mon billet.",
+          "en": "I have my ticket."
+        },
+        {
+          "fr": "Où est le billet ?",
+          "en": "Where is the ticket?"
+        },
+        {
+          "fr": "Le billet coûte cinq euros.",
+          "en": "The ticket costs five euros."
+        }
+      ]
+    },
+    {
+      "fr": "l’entrée",
+      "en": "the entrance",
+      "emoji": "🚪",
+      "sentences": [
+        {
+          "fr": "L’entrée est ici.",
+          "en": "The entrance is here."
+        },
+        {
+          "fr": "Nous attendons à l’entrée.",
+          "en": "We are waiting at the entrance."
+        },
+        {
+          "fr": "Je vois l’entrée du musée.",
+          "en": "I see the museum entrance."
+        }
+      ]
+    },
+    {
+      "fr": "la sortie",
+      "en": "the exit",
+      "emoji": "🚪",
+      "sentences": [
+        {
+          "fr": "Voici la sortie.",
+          "en": "Here is the exit."
+        },
+        {
+          "fr": "La sortie est à droite.",
+          "en": "The exit is on the right."
+        },
+        {
+          "fr": "Nous sortons du musée.",
+          "en": "We are leaving the museum."
+        }
+      ]
+    },
+    {
+      "fr": "l’œuvre d’art",
+      "en": "the artwork",
+      "emoji": "🖌️",
+      "sentences": [
+        {
+          "fr": "C’est une belle œuvre d’art.",
+          "en": "It’s a beautiful artwork."
+        },
+        {
+          "fr": "Je regarde une œuvre d’art.",
+          "en": "I am looking at an artwork."
+        },
+        {
+          "fr": "L’œuvre d’art est ancienne.",
+          "en": "The artwork is old."
+        }
+      ]
+    },
+    {
+      "fr": "la salle",
+      "en": "the room",
+      "emoji": "🏠",
+      "sentences": [
+        {
+          "fr": "La salle est grande.",
+          "en": "The room is big."
+        },
+        {
+          "fr": "Nous entrons dans la salle.",
+          "en": "We enter the room."
+        },
+        {
+          "fr": "Chaque salle est différente.",
+          "en": "Each room is different."
+        }
+      ]
+    },
+    {
+      "fr": "regarder",
+      "en": "to look at",
+      "emoji": "👀",
+      "sentences": [
+        {
+          "fr": "Je regarde le tableau.",
+          "en": "I look at the painting."
+        },
+        {
+          "fr": "Nous regardons les œuvres.",
+          "en": "We are looking at the artworks."
+        },
+        {
+          "fr": "Tu regardes la sculpture ?",
+          "en": "Are you looking at the sculpture?"
+        }
+      ]
+    },
+    {
+      "fr": "écouter",
+      "en": "to listen",
+      "emoji": "👂",
+      "sentences": [
+        {
+          "fr": "J’écoute le guide.",
+          "en": "I listen to the guide."
+        },
+        {
+          "fr": "Tu écoutes bien.",
+          "en": "You listen well."
+        },
+        {
+          "fr": "Ils écoutent l’audio-guide.",
+          "en": "They are listening to the audio guide."
+        }
+      ]
+    },
+    {
+      "fr": "visiter",
+      "en": "to visit",
+      "emoji": "🏛️",
+      "sentences": [
+        {
+          "fr": "Nous visitons le musée.",
+          "en": "We are visiting the museum."
+        },
+        {
+          "fr": "J’aime visiter des musées.",
+          "en": "I like visiting museums."
+        },
+        {
+          "fr": "Ils visitent une exposition.",
+          "en": "They are visiting an exhibit."
+        }
+      ]
+    },
+    {
+      "fr": "prendre une photo",
+      "en": "to take a photo",
+      "emoji": "📸",
+      "sentences": [
+        {
+          "fr": "Je prends une photo du tableau.",
+          "en": "I take a photo of the painting."
+        },
+        {
+          "fr": "Tu prends une photo ?",
+          "en": "Are you taking a photo?"
+        },
+        {
+          "fr": "Ils prennent beaucoup de photos.",
+          "en": "They take many photos."
+        }
+      ]
+    },
+    {
+      "fr": "le vestiaire",
+      "en": "the cloakroom",
+      "emoji": "🧥",
+      "sentences": [
+        {
+          "fr": "Le vestiaire est à gauche.",
+          "en": "The cloakroom is on the left."
+        },
+        {
+          "fr": "Je mets mon manteau au vestiaire.",
+          "en": "I put my coat in the cloakroom."
+        },
+        {
+          "fr": "Nous passons par le vestiaire.",
+          "en": "We go through the cloakroom."
+        }
+      ]
+    },
+    {
+      "fr": "l’exposition",
+      "en": "the exhibit",
+      "emoji": "🖼️",
+      "sentences": [
+        {
+          "fr": "L’exposition est sur les dinosaures.",
+          "en": "The exhibit is about dinosaurs."
+        },
+        {
+          "fr": "Je visite une exposition de photos.",
+          "en": "I visit a photo exhibit."
+        },
+        {
+          "fr": "L’exposition est très intéressante.",
+          "en": "The exhibit is very interesting."
+        }
+      ]
+    },
+    {
+      "fr": "la brochure",
+      "en": "the brochure",
+      "emoji": "📄",
+      "sentences": [
+        {
+          "fr": "Je lis la brochure du musée.",
+          "en": "I read the museum brochure."
+        },
+        {
+          "fr": "La brochure est en français.",
+          "en": "The brochure is in French."
+        },
+        {
+          "fr": "Tu veux une brochure ?",
+          "en": "Do you want a brochure?"
+        }
+      ]
+    },
+    {
+      "fr": "le plan",
+      "en": "the map",
+      "emoji": "🗺️",
+      "sentences": [
+        {
+          "fr": "Voici le plan du musée.",
+          "en": "Here is the museum map."
+        },
+        {
+          "fr": "Je cherche la salle sur le plan.",
+          "en": "I look for the room on the map."
+        },
+        {
+          "fr": "Le plan est utile.",
+          "en": "The map is useful."
+        }
+      ]
+    },
+    {
+      "fr": "le silence",
+      "en": "silence",
+      "emoji": "🤫",
+      "sentences": [
+        {
+          "fr": "Il faut du silence dans le musée.",
+          "en": "We need silence in the museum."
+        },
+        {
+          "fr": "Le musée est silencieux.",
+          "en": "The museum is quiet."
+        },
+        {
+          "fr": "Soyons silencieux ici.",
+          "en": "Let’s be quiet here."
+        }
+      ]
+    },
+    {
+      "fr": "apprendre",
+      "en": "to learn",
+      "emoji": "📚",
+      "sentences": [
+        {
+          "fr": "J’apprends beaucoup au musée.",
+          "en": "I learn a lot at the museum."
+        },
+        {
+          "fr": "Tu apprends l’histoire ?",
+          "en": "Are you learning history?"
+        },
+        {
+          "fr": "Ils aiment apprendre en visitant.",
+          "en": "They like learning while visiting."
+        }
+      ]
+    }
+  ]
+}
