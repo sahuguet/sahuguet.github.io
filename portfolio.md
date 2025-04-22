@@ -9,7 +9,7 @@ Here is a list of "stuff" I have built over the years.
 # User-facing products I have launched
 
 ## ZXing (open source 1D/2D barcode image processing for Android)
-When I stated at Google coming from Bell Labs, I was very curious and excited about the QR-code technology.
+When I started at Google coming from Bell Labs, I was very curious and excited about the QR-code technology.
 I played a few existing solutions ...
 I convinced some Google software engineers to work on a [generic library](https://github.com/zxing/zxing) as a 20% project.
 This inspired the development of [Google Lens](https://lens.google.com/).
