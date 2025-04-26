@@ -19,6 +19,13 @@ class SpeechSynthesisSingleton {
     this.synth.speak(utterance);
   }
 
+  pause() {
+    this.synth.pause();
+  }
+
+  resume() {
+    this.synth.resume();
+  }
   cancel() {
     this.synth.cancel();
   }
@@ -111,12 +118,27 @@ class EzSpeak extends HTMLElement {
       if (voice) utterance.voice = voice;
     }
 
+    const s = this.synth;
+    let include_pause = false;
     utterance.onboundary = (event) => {
         console.log('Boundary event:', event.name, event.charIndex, event.charLength);
       if (event.name === 'word') {
         console.log('Word boundary:', event.charIndex, event.charLength);
         this.highlightText(event.charIndex, event.charIndex + event.charLength);
+
+        // Adding a pause when we encounter a "+" or "="
+        const rest = event.utterance.text.slice(event.charIndex).trimStart();
+        const token = rest[0];                         // first non-space char ahead
+        if (token === "+" || token === "=") {
+          include_pause = true;
+          s.pause();
+          setTimeout(() => s.resume(), 200);  // wait, then resume  
+      } else if (include_pause) {
+        s.pause();
+        setTimeout(() => s.resume(), 200); 
+        include_pause = false;
       }
+    }
     };
 
     utterance.onend = () => {

@@ -1,0 +1,293 @@
+{
+    "topic": {
+        "fr": "Les dinosaures",
+        "en": "Dinosaurs"
+    },
+    "items": [
+        {
+            "fr": "Tyrannosaure",
+            "en": "Tyrannosaurus",
+            "emoji": "🦖",
+            "sentences": [
+                {
+                    "fr": "Le tyrannosaure a de grandes dents.",
+                    "en": "The tyrannosaurus has big teeth."
+                },
+                {
+                    "fr": "Le tyrannosaure court très vite.",
+                    "en": "The tyrannosaurus runs very fast."
+                },
+                {
+                    "fr": "Le tyrannosaure chasse pour manger.",
+                    "en": "The tyrannosaurus hunts to eat."
+                }
+            ]
+        },
+        {
+            "fr": "Tricératops",
+            "en": "Triceratops",
+            "emoji": "🦕",
+            "sentences": [
+                {
+                    "fr": "Le tricératops a trois cornes.",
+                    "en": "The triceratops has three horns."
+                },
+                {
+                    "fr": "Le tricératops mange des plantes.",
+                    "en": "The triceratops eats plants."
+                },
+                {
+                    "fr": "Le tricératops est très fort.",
+                    "en": "The triceratops is very strong."
+                }
+            ]
+        },
+        {
+            "fr": "Vélociraptor",
+            "en": "Velociraptor",
+            "emoji": "🦖",
+            "sentences": [
+                {
+                    "fr": "Le vélociraptor est rapide.",
+                    "en": "The velociraptor is fast."
+                },
+                {
+                    "fr": "Le vélociraptor chasse en groupe.",
+                    "en": "The velociraptor hunts in groups."
+                },
+                {
+                    "fr": "Le vélociraptor a des griffes pointues.",
+                    "en": "The velociraptor has sharp claws."
+                }
+            ]
+        },
+        {
+            "fr": "Brachiosaure",
+            "en": "Brachiosaurus",
+            "emoji": "🦕",
+            "sentences": [
+                {
+                    "fr": "Le brachiosaure a un long cou.",
+                    "en": "The brachiosaurus has a long neck."
+                },
+                {
+                    "fr": "Le brachiosaure mange des feuilles.",
+                    "en": "The brachiosaurus eats leaves."
+                },
+                {
+                    "fr": "Le brachiosaure est très grand.",
+                    "en": "The brachiosaurus is very big."
+                }
+            ]
+        },
+        {
+            "fr": "Stégosaure",
+            "en": "Stegosaurus",
+            "emoji": "🦕",
+            "sentences": [
+                {
+                    "fr": "Le stégosaure a des plaques sur le dos.",
+                    "en": "The stegosaurus has plates on its back."
+                },
+                {
+                    "fr": "Le stégosaure utilise sa queue pour se défendre.",
+                    "en": "The stegosaurus uses its tail to defend itself."
+                },
+                {
+                    "fr": "Le stégosaure marche lentement.",
+                    "en": "The stegosaurus walks slowly."
+                }
+            ]
+        },
+        {
+            "fr": "Ankylosaure",
+            "en": "Ankylosaurus",
+            "emoji": "🦕",
+            "sentences": [
+                {
+                    "fr": "L'ankylosaure a une armure solide.",
+                    "en": "The ankylosaurus has a strong armor."
+                },
+                {
+                    "fr": "L'ankylosaure a une massue sur la queue.",
+                    "en": "The ankylosaurus has a club on its tail."
+                },
+                {
+                    "fr": "L'ankylosaure est pacifique.",
+                    "en": "The ankylosaurus is peaceful."
+                }
+            ]
+        },
+        {
+            "fr": "Spinosaure",
+            "en": "Spinosaurus",
+            "emoji": "🦖",
+            "sentences": [
+                {
+                    "fr": "Le spinosaure aime l'eau.",
+                    "en": "The spinosaurus likes water."
+                },
+                {
+                    "fr": "Le spinosaure a une grande voile sur son dos.",
+                    "en": "The spinosaurus has a big sail on its back."
+                },
+                {
+                    "fr": "Le spinosaure chasse du poisson.",
+                    "en": "The spinosaurus hunts fish."
+                }
+            ]
+        },
+        {
+            "fr": "Parasaurolophus",
+            "en": "Parasaurolophus",
+            "emoji": "🦕",
+            "sentences": [
+                {
+                    "fr": "Le parasaurolophus a une longue crête.",
+                    "en": "The parasaurolophus has a long crest."
+                },
+                {
+                    "fr": "Le parasaurolophus fait des sons forts.",
+                    "en": "The parasaurolophus makes loud sounds."
+                },
+                {
+                    "fr": "Le parasaurolophus vit en troupeau.",
+                    "en": "The parasaurolophus lives in a herd."
+                }
+            ]
+        },
+        {
+            "fr": "Pachycéphalosaure",
+            "en": "Pachycephalosaurus",
+            "emoji": "🦕",
+            "sentences": [
+                {
+                    "fr": "Le pachycéphalosaure a un crâne épais.",
+                    "en": "The pachycephalosaurus has a thick skull."
+                },
+                {
+                    "fr": "Le pachycéphalosaure donne des coups de tête.",
+                    "en": "The pachycephalosaurus headbutts."
+                },
+                {
+                    "fr": "Le pachycéphalosaure est herbivore.",
+                    "en": "The pachycephalosaurus is herbivorous."
+                }
+            ]
+        },
+        {
+            "fr": "Allosaure",
+            "en": "Allosaurus",
+            "emoji": "🦖",
+            "sentences": [
+                {
+                    "fr": "L'allosaure est un grand chasseur.",
+                    "en": "The allosaurus is a big hunter."
+                },
+                {
+                    "fr": "L'allosaure a des dents tranchantes.",
+                    "en": "The allosaurus has sharp teeth."
+                },
+                {
+                    "fr": "L'allosaure vit en groupe.",
+                    "en": "The allosaurus lives in groups."
+                }
+            ]
+        },
+        {
+            "fr": "Diplodocus",
+            "en": "Diplodocus",
+            "emoji": "🦕",
+            "sentences": [
+                {
+                    "fr": "Le diplodocus a une très longue queue.",
+                    "en": "The diplodocus has a very long tail."
+                },
+                {
+                    "fr": "Le diplodocus est un dinosaure géant.",
+                    "en": "The diplodocus is a giant dinosaur."
+                },
+                {
+                    "fr": "Le diplodocus broute les feuilles basses.",
+                    "en": "The diplodocus grazes on low leaves."
+                }
+            ]
+        },
+        {
+            "fr": "Iguanodon",
+            "en": "Iguanodon",
+            "emoji": "🦕",
+            "sentences": [
+                {
+                    "fr": "L'iguanodon a un pouce pointu.",
+                    "en": "The iguanodon has a pointed thumb."
+                },
+                {
+                    "fr": "L'iguanodon marche à deux ou quatre pattes.",
+                    "en": "The iguanodon walks on two or four legs."
+                },
+                {
+                    "fr": "L'iguanodon mange des plantes.",
+                    "en": "The iguanodon eats plants."
+                }
+            ]
+        },
+        {
+            "fr": "Carnotaurus",
+            "en": "Carnotaurus",
+            "emoji": "🦖",
+            "sentences": [
+                {
+                    "fr": "Le carnotaurus a des cornes sur la tête.",
+                    "en": "The carnotaurus has horns on its head."
+                },
+                {
+                    "fr": "Le carnotaurus court très vite.",
+                    "en": "The carnotaurus runs very fast."
+                },
+                {
+                    "fr": "Le carnotaurus chasse seul.",
+                    "en": "The carnotaurus hunts alone."
+                }
+            ]
+        },
+        {
+            "fr": "Camarasaurus",
+            "en": "Camarasaurus",
+            "emoji": "🦕",
+            "sentences": [
+                {
+                    "fr": "Le camarasaurus a un cou court et fort.",
+                    "en": "The camarasaurus has a short, strong neck."
+                },
+                {
+                    "fr": "Le camarasaurus mange des branches.",
+                    "en": "The camarasaurus eats branches."
+                },
+                {
+                    "fr": "Le camarasaurus vit en troupeau.",
+                    "en": "The camarasaurus lives in herds."
+                }
+            ]
+        },
+        {
+            "fr": "Oviraptor",
+            "en": "Oviraptor",
+            "emoji": "🦖",
+            "sentences": [
+                {
+                    "fr": "L'oviraptor protège ses œufs.",
+                    "en": "The oviraptor protects its eggs."
+                },
+                {
+                    "fr": "L'oviraptor est petit et rapide.",
+                    "en": "The oviraptor is small and fast."
+                },
+                {
+                    "fr": "L'oviraptor mange des œufs et des plantes.",
+                    "en": "The oviraptor eats eggs and plants."
+                }
+            ]
+        }
+    ]
+}

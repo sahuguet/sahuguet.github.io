@@ -1,0 +1,369 @@
+{
+  "topic": {
+    "fr": "La table d'addition",
+    "en": "Addition table"
+  },
+  "items": [
+    {
+      "fr": "1 + 1 = 2",
+      "en": "1 + 1 = 2",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Un plus un égale deux.",
+          "en": "One plus one equals two."
+        },
+        {
+          "fr": "1 ajouté à 1 fait 2.",
+          "en": "1 added to 1 makes 2."
+        },
+        {
+          "fr": "Si j'ai un crayon et j'en ajoute un, j'en ai deux.",
+          "en": "If I have one pencil and add one, I have two."
+        }
+      ]
+    },
+    {
+      "fr": "1 + 2 = 3",
+      "en": "1 + 2 = 3",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Un plus deux égale trois.",
+          "en": "One plus two equals three."
+        },
+        {
+          "fr": "1 ajouté à 2 donne 3.",
+          "en": "1 added to 2 gives 3."
+        },
+        {
+          "fr": "J'ai un ballon, j'en gagne deux, j'en ai trois.",
+          "en": "I have one ball, I get two more, I have three."
+        }
+      ]
+    },
+    {
+      "fr": "2 + 2 = 4",
+      "en": "2 + 2 = 4",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Deux plus deux égale quatre.",
+          "en": "Two plus two equals four."
+        },
+        {
+          "fr": "2 ajouté à 2 fait 4.",
+          "en": "2 added to 2 makes 4."
+        },
+        {
+          "fr": "Avec deux pommes et deux autres, j’en ai quatre.",
+          "en": "With two apples and two more, I have four."
+        }
+      ]
+    },
+    {
+      "fr": "2 + 3 = 5",
+      "en": "2 + 3 = 5",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Deux plus trois égale cinq.",
+          "en": "Two plus three equals five."
+        },
+        {
+          "fr": "2 et 3 font 5.",
+          "en": "2 and 3 make 5."
+        },
+        {
+          "fr": "J’ai deux jouets, j’en ajoute trois, j’en ai cinq.",
+          "en": "I have two toys, I add three, I have five."
+        }
+      ]
+    },
+    {
+      "fr": "3 + 3 = 6",
+      "en": "3 + 3 = 6",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Trois plus trois égale six.",
+          "en": "Three plus three equals six."
+        },
+        {
+          "fr": "3 et 3, c’est 6.",
+          "en": "3 and 3 is 6."
+        },
+        {
+          "fr": "Trois amis arrivent, trois de plus, on est six.",
+          "en": "Three friends arrive, three more, we are six."
+        }
+      ]
+    },
+    {
+      "fr": "3 + 4 = 7",
+      "en": "3 + 4 = 7",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Trois plus quatre égale sept.",
+          "en": "Three plus four equals seven."
+        },
+        {
+          "fr": "3 ajouté à 4 fait 7.",
+          "en": "3 added to 4 makes 7."
+        },
+        {
+          "fr": "J'ai trois livres et j’en reçois quatre : sept livres.",
+          "en": "I have three books and get four more: seven books."
+        }
+      ]
+    },
+    {
+      "fr": "4 + 4 = 8",
+      "en": "4 + 4 = 8",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Quatre plus quatre égale huit.",
+          "en": "Four plus four equals eight."
+        },
+        {
+          "fr": "4 et 4 font 8.",
+          "en": "4 and 4 make 8."
+        },
+        {
+          "fr": "Avec quatre billes de plus, j’en ai huit.",
+          "en": "With four more marbles, I have eight."
+        }
+      ]
+    },
+    {
+      "fr": "4 + 5 = 9",
+      "en": "4 + 5 = 9",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Quatre plus cinq égale neuf.",
+          "en": "Four plus five equals nine."
+        },
+        {
+          "fr": "4 ajouté à 5 fait 9.",
+          "en": "4 added to 5 makes 9."
+        },
+        {
+          "fr": "Je donne 4 bonbons, puis 5 autres, cela fait 9.",
+          "en": "I give 4 candies, then 5 more, that makes 9."
+        }
+      ]
+    },
+    {
+      "fr": "5 + 5 = 10",
+      "en": "5 + 5 = 10",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Cinq plus cinq égale dix.",
+          "en": "Five plus five equals ten."
+        },
+        {
+          "fr": "5 et 5, ça fait 10.",
+          "en": "5 and 5 makes 10."
+        },
+        {
+          "fr": "Cinq doigts sur chaque main, ça fait dix doigts.",
+          "en": "Five fingers on each hand makes ten fingers."
+        }
+      ]
+    },
+    {
+      "fr": "1 + 3 = 4",
+      "en": "1 + 3 = 4",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Un plus trois égale quatre.",
+          "en": "One plus three equals four."
+        },
+        {
+          "fr": "1 ajouté à 3 fait 4.",
+          "en": "1 added to 3 makes 4."
+        },
+        {
+          "fr": "Si j'ai un jouet et j'en ajoute trois, j'en ai quatre.",
+          "en": "If I have one toy and add three, I have four."
+        }
+      ]
+    },
+    {
+      "fr": "2 + 1 = 3",
+      "en": "2 + 1 = 3",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Deux plus un égale trois.",
+          "en": "Two plus one equals three."
+        },
+        {
+          "fr": "2 ajouté à 1 fait 3.",
+          "en": "2 added to 1 makes 3."
+        },
+        {
+          "fr": "J’ai deux cartes et une autre, cela fait trois.",
+          "en": "I have two cards and one more, that makes three."
+        }
+      ]
+    },
+    {
+      "fr": "3 + 2 = 5",
+      "en": "3 + 2 = 5",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Trois plus deux égale cinq.",
+          "en": "Three plus two equals five."
+        },
+        {
+          "fr": "3 ajouté à 2 fait 5.",
+          "en": "3 added to 2 makes 5."
+        },
+        {
+          "fr": "Trois biscuits, deux de plus, j’en ai cinq.",
+          "en": "Three cookies, two more, I have five."
+        }
+      ]
+    },
+    {
+      "fr": "5 + 4 = 9",
+      "en": "5 + 4 = 9",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Cinq plus quatre égale neuf.",
+          "en": "Five plus four equals nine."
+        },
+        {
+          "fr": "5 et 4, ça fait 9.",
+          "en": "5 and 4 makes 9."
+        },
+        {
+          "fr": "J’ai cinq jetons, et j’en gagne quatre. Neuf au total.",
+          "en": "I have five tokens, and win four. Nine in total."
+        }
+      ]
+    },
+    {
+      "fr": "1 + 4 = 5",
+      "en": "1 + 4 = 5",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Un plus quatre égale cinq.",
+          "en": "One plus four equals five."
+        },
+        {
+          "fr": "1 ajouté à 4 fait 5.",
+          "en": "1 added to 4 makes 5."
+        },
+        {
+          "fr": "Si j'ai un gâteau et j'en ajoute quatre, j'en ai cinq.",
+          "en": "If I have one cake and add four, I have five."
+        }
+      ]
+    },
+    {
+      "fr": "6 + 2 = 8",
+      "en": "6 + 2 = 8",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Six plus deux égale huit.",
+          "en": "Six plus two equals eight."
+        },
+        {
+          "fr": "6 ajouté à 2 donne 8.",
+          "en": "6 added to 2 gives 8."
+        },
+        {
+          "fr": "J’ai six balles, et j’en trouve deux. Huit balles maintenant.",
+          "en": "I have six balls, and I find two. Eight balls now."
+        }
+      ]
+    },
+    {
+      "fr": "7 + 1 = 8",
+      "en": "7 + 1 = 8",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Sept plus un égale huit.",
+          "en": "Seven plus one equals eight."
+        },
+        {
+          "fr": "7 et 1 font 8.",
+          "en": "7 and 1 make 8."
+        },
+        {
+          "fr": "J’ai sept billes, j’en gagne une. Huit billes maintenant.",
+          "en": "I have seven marbles, win one. Eight marbles now."
+        }
+      ]
+    },
+    {
+      "fr": "6 + 3 = 9",
+      "en": "6 + 3 = 9",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Six plus trois égale neuf.",
+          "en": "Six plus three equals nine."
+        },
+        {
+          "fr": "6 ajouté à 3 fait 9.",
+          "en": "6 added to 3 makes 9."
+        },
+        {
+          "fr": "Six crayons et trois autres font neuf.",
+          "en": "Six pencils and three more make nine."
+        }
+      ]
+    },
+    {
+      "fr": "7 + 2 = 9",
+      "en": "7 + 2 = 9",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Sept plus deux égale neuf.",
+          "en": "Seven plus two equals nine."
+        },
+        {
+          "fr": "7 et 2 font 9.",
+          "en": "7 and 2 make 9."
+        },
+        {
+          "fr": "Avec deux autocollants de plus, j’en ai neuf.",
+          "en": "With two more stickers, I have nine."
+        }
+      ]
+    },
+    {
+      "fr": "8 + 1 = 9",
+      "en": "8 + 1 = 9",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Huit plus un égale neuf.",
+          "en": "Eight plus one equals nine."
+        },
+        {
+          "fr": "8 ajouté à 1 donne 9.",
+          "en": "8 added to 1 gives 9."
+        },
+        {
+          "fr": "J’ai huit billes, j’en reçois une. Neuf au total.",
+          "en": "I have eight marbles, I get one. Nine in total."
+        }
+      ]
+    }
+  ]
+}

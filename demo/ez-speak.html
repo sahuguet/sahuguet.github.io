@@ -55,6 +55,20 @@
     utterance.rate = parseFloat(this.getAttribute("rate")) || 1.0;
     const voiceName = this.getAttribute("voice");
 
+    utterance.addEventListener("boundary", evt => {
+      console.log('boundary', evt)
+    if (evt.name !== "word") return;               // ignore phoneme/sentence edges
+
+    // Look at the character that starts at this boundary
+    const rest = evt.utterance.text.slice(evt.charIndex).trimStart();
+    const token = rest[0];                         // first non-space char ahead
+
+    if (token === "+" || token === "=") {
+        this.synth.pause();                     // stop exactly at the symbol
+        setTimeout(() => this.synth.resume(), 1000);  // wait 1 s, then resume
+    }
+    });
+
     if (voiceName) {
       const voices = this.synth.getVoices();
       const voice = voices.find(v => v.name.startsWith(voiceName));

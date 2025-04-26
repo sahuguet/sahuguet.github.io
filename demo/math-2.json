@@ -1,0 +1,312 @@
+{
+  "topic": {
+    "fr": "La table d'addition jusqu'à 20",
+    "en": "Addition table up to 20"
+  },
+  "items": [
+    {
+      "fr": "10 + 1 = 11",
+      "en": "10 + 1 = 11",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Dix + un égale onze.",
+          "en": "Ten plus one equals eleven."
+        },
+        {
+          "fr": "10 et 1 font 11.",
+          "en": "10 and 1 make 11."
+        },
+        {
+          "fr": "J’ai dix billes, j’en ajoute une. J’en ai onze.",
+          "en": "I have ten marbles, I add one. I have eleven."
+        }
+      ]
+    },
+    {
+      "fr": "9 + 3 = 12",
+      "en": "9 + 3 = 12",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Neuf plus trois égale douze.",
+          "en": "Nine plus three equals twelve."
+        },
+        {
+          "fr": "9 ajouté à 3 donne 12.",
+          "en": "9 added to 3 gives 12."
+        },
+        {
+          "fr": "Neuf ballons et trois autres font douze ballons.",
+          "en": "Nine balloons and three more make twelve balloons."
+        }
+      ]
+    },
+    {
+      "fr": "6 + 7 = 13",
+      "en": "6 + 7 = 13",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Six plus sept égale treize.",
+          "en": "Six plus seven equals thirteen."
+        },
+        {
+          "fr": "6 et 7 font 13.",
+          "en": "6 and 7 make 13."
+        },
+        {
+          "fr": "J’ai six jouets, j’en reçois sept. Treize jouets en tout.",
+          "en": "I have six toys, I get seven. Thirteen toys in total."
+        }
+      ]
+    },
+    {
+      "fr": "5 + 9 = 14",
+      "en": "5 + 9 = 14",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Cinq plus neuf égale quatorze.",
+          "en": "Five plus nine equals fourteen."
+        },
+        {
+          "fr": "5 ajouté à 9 fait 14.",
+          "en": "5 added to 9 makes 14."
+        },
+        {
+          "fr": "Avec cinq billes et neuf autres, j’en ai quatorze.",
+          "en": "With five marbles and nine more, I have fourteen."
+        }
+      ]
+    },
+    {
+      "fr": "8 + 7 = 15",
+      "en": "8 + 7 = 15",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Huit plus sept égale quinze.",
+          "en": "Eight plus seven equals fifteen."
+        },
+        {
+          "fr": "8 et 7, ça fait 15.",
+          "en": "8 and 7 makes 15."
+        },
+        {
+          "fr": "Huit crayons et sept autres : quinze crayons !",
+          "en": "Eight pencils and seven more: fifteen pencils!"
+        }
+      ]
+    },
+    {
+      "fr": "10 + 6 = 16",
+      "en": "10 + 6 = 16",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Dix plus six égale seize.",
+          "en": "Ten plus six equals sixteen."
+        },
+        {
+          "fr": "10 ajouté à 6 donne 16.",
+          "en": "10 added to 6 gives 16."
+        },
+        {
+          "fr": "J’ai dix cartes et j’en ajoute six. Seize cartes !",
+          "en": "I have ten cards and add six. Sixteen cards!"
+        }
+      ]
+    },
+    {
+      "fr": "7 + 10 = 17",
+      "en": "7 + 10 = 17",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Sept plus dix égale dix-sept.",
+          "en": "Seven plus ten equals seventeen."
+        },
+        {
+          "fr": "7 et 10 font 17.",
+          "en": "7 and 10 make 17."
+        },
+        {
+          "fr": "J’ai sept billes, et j’en gagne dix : dix-sept au total.",
+          "en": "I have seven marbles, and I win ten: seventeen in total."
+        }
+      ]
+    },
+    {
+      "fr": "9 + 9 = 18",
+      "en": "9 + 9 = 18",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Neuf plus neuf égale dix-huit.",
+          "en": "Nine plus nine equals eighteen."
+        },
+        {
+          "fr": "9 ajouté à 9 fait 18.",
+          "en": "9 added to 9 makes 18."
+        },
+        {
+          "fr": "Neuf amis arrivent, puis neuf autres : dix-huit amis !",
+          "en": "Nine friends arrive, then nine more: eighteen friends!"
+        }
+      ]
+    },
+    {
+      "fr": "10 + 9 = 19",
+      "en": "10 + 9 = 19",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Dix plus neuf égale dix-neuf.",
+          "en": "Ten plus nine equals nineteen."
+        },
+        {
+          "fr": "10 et 9 font 19.",
+          "en": "10 and 9 make 19."
+        },
+        {
+          "fr": "Dix livres plus neuf livres, j’en ai dix-neuf.",
+          "en": "Ten books plus nine books, I have nineteen."
+        }
+      ]
+    },
+    {
+      "fr": "10 + 10 = 20",
+      "en": "10 + 10 = 20",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Dix plus dix égale vingt.",
+          "en": "Ten plus ten equals twenty."
+        },
+        {
+          "fr": "10 et 10 font 20.",
+          "en": "10 and 10 make 20."
+        },
+        {
+          "fr": "Dix biscuits dans chaque assiette : vingt biscuits !",
+          "en": "Ten cookies in each plate: twenty cookies!"
+        }
+      ]
+    },
+    {
+      "fr": "8 + 8 = 16",
+      "en": "8 + 8 = 16",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Huit plus huit égale seize.",
+          "en": "Eight plus eight equals sixteen."
+        },
+        {
+          "fr": "8 et 8 font 16.",
+          "en": "8 and 8 make 16."
+        },
+        {
+          "fr": "Huit billes ici, huit là-bas : seize en tout.",
+          "en": "Eight marbles here, eight there: sixteen in total."
+        }
+      ]
+    },
+    {
+      "fr": "6 + 9 = 15",
+      "en": "6 + 9 = 15",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Six plus neuf égale quinze.",
+          "en": "Six plus nine equals fifteen."
+        },
+        {
+          "fr": "6 et 9 font 15.",
+          "en": "6 and 9 make 15."
+        },
+        {
+          "fr": "Six crayons plus neuf crayons, cela fait quinze.",
+          "en": "Six pencils plus nine pencils make fifteen."
+        }
+      ]
+    },
+    {
+      "fr": "7 + 8 = 15",
+      "en": "7 + 8 = 15",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Sept plus huit égale quinze.",
+          "en": "Seven plus eight equals fifteen."
+        },
+        {
+          "fr": "7 et 8, c’est 15.",
+          "en": "7 and 8 is 15."
+        },
+        {
+          "fr": "J’ai sept billes, et j’en trouve huit. Ça fait quinze.",
+          "en": "I have seven marbles, and find eight. That makes fifteen."
+        }
+      ]
+    },
+    {
+      "fr": "5 + 6 = 11",
+      "en": "5 + 6 = 11",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Cinq plus six égale onze.",
+          "en": "Five plus six equals eleven."
+        },
+        {
+          "fr": "5 et 6 font 11.",
+          "en": "5 and 6 make 11."
+        },
+        {
+          "fr": "J’ai cinq billes, j’en gagne six. Onze en tout.",
+          "en": "I have five marbles, I win six. Eleven in total."
+        }
+      ]
+    },
+    {
+      "fr": "4 + 7 = 11",
+      "en": "4 + 7 = 11",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Quatre plus sept égale onze.",
+          "en": "Four plus seven equals eleven."
+        },
+        {
+          "fr": "4 et 7 font 11.",
+          "en": "4 and 7 make 11."
+        },
+        {
+          "fr": "Quatre jouets et sept autres, cela fait onze.",
+          "en": "Four toys and seven more, that makes eleven."
+        }
+      ]
+    },
+    {
+      "fr": "3 + 9 = 12",
+      "en": "3 + 9 = 12",
+      "emoji": "➕",
+      "sentences": [
+        {
+          "fr": "Trois plus neuf égale douze.",
+          "en": "Three plus nine equals twelve."
+        },
+        {
+          "fr": "3 ajouté à 9 donne 12.",
+          "en": "3 added to 9 gives 12."
+        },
+        {
+          "fr": "Trois billes ici, neuf là-bas. Douze billes !",
+          "en": "Three marbles here, nine over there. Twelve marbles!"
+        }
+      ]
+    }
+  ]
+}
