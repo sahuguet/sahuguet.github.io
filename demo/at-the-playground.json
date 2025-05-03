@@ -1,0 +1,279 @@
+{
+    "topic": {
+      "fr": "À la cour de récréation",
+      "en": "At the playground"
+    },
+    "items": [
+      {
+        "fr": "le toboggan",
+        "en": "the slide",
+        "emoji": "🛝",
+        "sentences": [
+          {
+            "fr": "Je glisse sur le toboggan.",
+            "en": "I slide on the slide."
+          },
+          {
+            "fr": "Tu montes le toboggan.",
+            "en": "You climb the slide."
+          },
+          {
+            "fr": "Il joue sur le toboggan.",
+            "en": "He plays on the slide."
+          },
+          {
+            "fr": "Nous aimons le toboggan.",
+            "en": "We like the slide."
+          },
+          {
+            "fr": "Elles descendent du toboggan.",
+            "en": "They go down the slide."
+          }
+        ]
+      },
+      {
+        "fr": "la balançoire",
+        "en": "the swing",
+        "emoji": "🎠",
+        "sentences": [
+          {
+            "fr": "Je me balance sur la balançoire.",
+            "en": "I swing on the swing."
+          },
+          {
+            "fr": "Elle pousse la balançoire.",
+            "en": "She pushes the swing."
+          },
+          {
+            "fr": "Il rit sur la balançoire.",
+            "en": "He laughs on the swing."
+          },
+          {
+            "fr": "Nous jouons à la balançoire.",
+            "en": "We play on the swing."
+          },
+          {
+            "fr": "Tu vas vite sur la balançoire.",
+            "en": "You go fast on the swing."
+          }
+        ]
+      },
+      {
+        "fr": "le bac à sable",
+        "en": "the sandbox",
+        "emoji": "🏖️",
+        "sentences": [
+          {
+            "fr": "Je joue dans le bac à sable.",
+            "en": "I play in the sandbox."
+          },
+          {
+            "fr": "Elle construit un château.",
+            "en": "She builds a castle."
+          },
+          {
+            "fr": "Il creuse un trou.",
+            "en": "He digs a hole."
+          },
+          {
+            "fr": "Nous partageons les jouets.",
+            "en": "We share the toys."
+          },
+          {
+            "fr": "Ils aiment le bac à sable.",
+            "en": "They like the sandbox."
+          }
+        ]
+      },
+      {
+        "fr": "les barres fixes",
+        "en": "the monkey bars",
+        "emoji": "🛝",
+        "sentences": [
+          {
+            "fr": "Je grimpe aux barres fixes.",
+            "en": "I climb the monkey bars."
+          },
+          {
+            "fr": "Tu balances aux barres fixes.",
+            "en": "You swing on the monkey bars."
+          },
+          {
+            "fr": "Il tombe des barres fixes.",
+            "en": "He falls from the monkey bars."
+          },
+          {
+            "fr": "Elle rit aux barres fixes.",
+            "en": "She laughs on the monkey bars."
+          },
+          {
+            "fr": "Nous jouons aux barres fixes.",
+            "en": "We play on the monkey bars."
+          }
+        ]
+      },
+      {
+        "fr": "la marelle",
+        "en": "hopscotch",
+        "emoji": "🔢",
+        "sentences": [
+          {
+            "fr": "Je joue à la marelle.",
+            "en": "I play hopscotch."
+          },
+          {
+            "fr": "Tu sautes à la marelle.",
+            "en": "You jump in hopscotch."
+          },
+          {
+            "fr": "Elle lance la pierre.",
+            "en": "She throws the stone."
+          },
+          {
+            "fr": "Il saute sur un pied.",
+            "en": "He jumps on one foot."
+          },
+          {
+            "fr": "Nous aimons la marelle.",
+            "en": "We love hopscotch."
+          }
+        ]
+      },
+      {
+        "fr": "le ballon",
+        "en": "the ball",
+        "emoji": "⚽",
+        "sentences": [
+          {
+            "fr": "Je lance le ballon.",
+            "en": "I throw the ball."
+          },
+          {
+            "fr": "Il attrape le ballon.",
+            "en": "He catches the ball."
+          },
+          {
+            "fr": "Nous jouons avec un ballon.",
+            "en": "We play with a ball."
+          },
+          {
+            "fr": "Tu fais rouler le ballon.",
+            "en": "You roll the ball."
+          },
+          {
+            "fr": "Elles courent après le ballon.",
+            "en": "They run after the ball."
+          }
+        ]
+      },
+      {
+        "fr": "le tourniquet",
+        "en": "the merry-go-round",
+        "emoji": "🎡",
+        "sentences": [
+          {
+            "fr": "Je tourne sur le tourniquet.",
+            "en": "I spin on the merry-go-round."
+          },
+          {
+            "fr": "Tu pousses le tourniquet.",
+            "en": "You push the merry-go-round."
+          },
+          {
+            "fr": "Il tombe du tourniquet.",
+            "en": "He falls off the merry-go-round."
+          },
+          {
+            "fr": "Elle crie de joie.",
+            "en": "She screams with joy."
+          },
+          {
+            "fr": "Nous aimons le tourniquet.",
+            "en": "We like the merry-go-round."
+          }
+        ]
+      },
+      {
+        "fr": "le banc",
+        "en": "the bench",
+        "emoji": "🪑",
+        "sentences": [
+          {
+            "fr": "Je m’assieds sur le banc.",
+            "en": "I sit on the bench."
+          },
+          {
+            "fr": "Il lit sur le banc.",
+            "en": "He reads on the bench."
+          },
+          {
+            "fr": "Nous mangeons sur le banc.",
+            "en": "We eat on the bench."
+          },
+          {
+            "fr": "Tu te reposes sur le banc.",
+            "en": "You rest on the bench."
+          },
+          {
+            "fr": "Elles discutent sur le banc.",
+            "en": "They talk on the bench."
+          }
+        ]
+      },
+      {
+        "fr": "le cerceau",
+        "en": "the hula hoop",
+        "emoji": "⭕",
+        "sentences": [
+          {
+            "fr": "Je fais tourner le cerceau.",
+            "en": "I spin the hula hoop."
+          },
+          {
+            "fr": "Elle saute dans le cerceau.",
+            "en": "She jumps in the hula hoop."
+          },
+          {
+            "fr": "Tu joues avec un cerceau.",
+            "en": "You play with a hula hoop."
+          },
+          {
+            "fr": "Il roule le cerceau.",
+            "en": "He rolls the hula hoop."
+          },
+          {
+            "fr": "Nous dansons avec les cerceaux.",
+            "en": "We dance with the hula hoops."
+          }
+        ]
+      },
+      {
+        "fr": "la corde à sauter",
+        "en": "the jump rope",
+        "emoji": "🪢",
+        "sentences": [
+          {
+            "fr": "Je saute à la corde.",
+            "en": "I jump rope."
+          },
+          {
+            "fr": "Tu tiens la corde.",
+            "en": "You hold the rope."
+          },
+          {
+            "fr": "Elle saute vite.",
+            "en": "She jumps fast."
+          },
+          {
+            "fr": "Nous chantons en sautant.",
+            "en": "We sing while jumping."
+          },
+          {
+            "fr": "Ils rient en jouant à la corde.",
+            "en": "They laugh while playing jump rope."
+          }
+        ]
+      }
+    ]
+  }
+  
