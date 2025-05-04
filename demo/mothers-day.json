@@ -1,0 +1,236 @@
+{
+  "topic": {
+    "fr": "La fête des mères",
+    "en": "Mother's Day"
+  },
+  "items": [
+    {
+      "fr": "maman",
+      "en": "mom",
+      "emoji": "👩‍👧",
+      "sentences": [
+        {"fr": "J'aime ma maman.", "en": "I love my mom."},
+        {"fr": "Ma maman est gentille.", "en": "My mom is kind."},
+        {"fr": "Je fais un câlin à maman.", "en": "I hug mom."},
+        {"fr": "Maman lit une histoire.", "en": "Mom reads a story."},
+        {"fr": "Maman prépare le dîner.", "en": "Mom makes dinner."}
+      ]
+    },
+    {
+      "fr": "cadeau",
+      "en": "gift",
+      "emoji": "🎁",
+      "sentences": [
+        {"fr": "Je fais un cadeau pour maman.", "en": "I make a gift for mom."},
+        {"fr": "Le cadeau est dans une boîte.", "en": "The gift is in a box."},
+        {"fr": "J’emballe le cadeau.", "en": "I wrap the gift."},
+        {"fr": "Le cadeau est rouge.", "en": "The gift is red."},
+        {"fr": "Maman aime son cadeau.", "en": "Mom loves her gift."}
+      ]
+    },
+    {
+      "fr": "fleur",
+      "en": "flower",
+      "emoji": "🌸",
+      "sentences": [
+        {"fr": "Je donne une fleur à maman.", "en": "I give a flower to mom."},
+        {"fr": "La fleur est rose.", "en": "The flower is pink."},
+        {"fr": "Maman sent la fleur.", "en": "Mom smells the flower."},
+        {"fr": "Nous plantons une fleur.", "en": "We plant a flower."},
+        {"fr": "Les fleurs sont jolies.", "en": "The flowers are pretty."}
+      ]
+    },
+    {
+      "fr": "cœur",
+      "en": "heart",
+      "emoji": "❤️",
+      "sentences": [
+        {"fr": "Je dessine un cœur.", "en": "I draw a heart."},
+        {"fr": "Le cœur est rouge.", "en": "The heart is red."},
+        {"fr": "Un cœur pour maman.", "en": "A heart for mom."},
+        {"fr": "J'aime maman de tout mon cœur.", "en": "I love mom with all my heart."},
+        {"fr": "Je coupe un cœur en papier.", "en": "I cut a heart from paper."}
+      ]
+    },
+    {
+      "fr": "bisou",
+      "en": "kiss",
+      "emoji": "😘",
+      "sentences": [
+        {"fr": "Je fais un bisou à maman.", "en": "I give mom a kiss."},
+        {"fr": "Maman me fait un bisou.", "en": "Mom gives me a kiss."},
+        {"fr": "Un bisou pour dire merci.", "en": "A kiss to say thank you."},
+        {"fr": "Je reçois un bisou.", "en": "I get a kiss."},
+        {"fr": "Bisou sur la joue.", "en": "Kiss on the cheek."}
+      ]
+    },
+    {
+      "fr": "dessin",
+      "en": "drawing",
+      "emoji": "🎨",
+      "sentences": [
+        {"fr": "Je fais un dessin pour maman.", "en": "I make a drawing for mom."},
+        {"fr": "Le dessin est coloré.", "en": "The drawing is colorful."},
+        {"fr": "Maman aime mon dessin.", "en": "Mom likes my drawing."},
+        {"fr": "Je dessine une fleur.", "en": "I draw a flower."},
+        {"fr": "Le dessin est beau.", "en": "The drawing is beautiful."}
+      ]
+    },
+    {
+      "fr": "carte",
+      "en": "card",
+      "emoji": "💌",
+      "sentences": [
+        {"fr": "J’écris une carte pour maman.", "en": "I write a card for mom."},
+        {"fr": "La carte est rose.", "en": "The card is pink."},
+        {"fr": "Je colle un cœur sur la carte.", "en": "I stick a heart on the card."},
+        {"fr": "La carte dit « Je t’aime ».", "en": "The card says 'I love you'."},
+        {"fr": "C’est une jolie carte.", "en": "It's a pretty card."}
+      ]
+    },
+    {
+      "fr": "chocolat",
+      "en": "chocolate",
+      "emoji": "🍫",
+      "sentences": [
+        {"fr": "J’offre du chocolat à maman.", "en": "I give chocolate to mom."},
+        {"fr": "Le chocolat est sucré.", "en": "The chocolate is sweet."},
+        {"fr": "Maman aime le chocolat.", "en": "Mom likes chocolate."},
+        {"fr": "Je mange un morceau de chocolat.", "en": "I eat a piece of chocolate."},
+        {"fr": "Le chocolat est dans une boîte.", "en": "The chocolate is in a box."}
+      ]
+    },
+    {
+      "fr": "petit-déjeuner",
+      "en": "breakfast",
+      "emoji": "🍽️",
+      "sentences": [
+        {"fr": "Je prépare le petit-déjeuner pour maman.", "en": "I make breakfast for mom."},
+        {"fr": "Le petit-déjeuner est sur un plateau.", "en": "The breakfast is on a tray."},
+        {"fr": "Il y a du jus d’orange.", "en": "There is orange juice."},
+        {"fr": "Maman mange des croissants.", "en": "Mom eats croissants."},
+        {"fr": "Je sers le petit-déjeuner au lit.", "en": "I serve breakfast in bed."}
+      ]
+    },
+    {
+      "fr": "merci",
+      "en": "thank you",
+      "emoji": "🙏",
+      "sentences": [
+        {"fr": "Je dis merci à maman.", "en": "I say thank you to mom."},
+        {"fr": "Merci pour tout, maman.", "en": "Thank you for everything, mom."},
+        {"fr": "Un grand merci !", "en": "A big thank you!"},
+        {"fr": "Maman me dit merci.", "en": "Mom says thank you to me."},
+        {"fr": "Je chante merci.", "en": "I sing thank you."}
+      ]
+    },
+    {
+      "fr": "joie",
+      "en": "joy",
+      "emoji": "😊",
+      "sentences": [
+        {"fr": "Je ressens de la joie.", "en": "I feel joy."},
+        {"fr": "C’est une journée de joie.", "en": "It is a day of joy."},
+        {"fr": "Maman sourit de joie.", "en": "Mom smiles with joy."},
+        {"fr": "Nous partageons la joie.", "en": "We share the joy."},
+        {"fr": "La maison est pleine de joie.", "en": "The house is full of joy."}
+      ]
+    },
+    {
+      "fr": "famille",
+      "en": "family",
+      "emoji": "👨‍👩‍👧",
+      "sentences": [
+        {"fr": "Toute la famille fête maman.", "en": "The whole family celebrates mom."},
+        {"fr": "La famille est réunie.", "en": "The family is together."},
+        {"fr": "Nous aimons notre famille.", "en": "We love our family."},
+        {"fr": "La famille prend une photo.", "en": "The family takes a photo."},
+        {"fr": "La fête est en famille.", "en": "The celebration is with family."}
+      ]
+    },
+    {
+      "fr": "amour",
+      "en": "love",
+      "emoji": "💖",
+      "sentences": [
+        {"fr": "Je montre mon amour à maman.", "en": "I show my love to mom."},
+        {"fr": "C’est une journée d’amour.", "en": "It is a day of love."},
+        {"fr": "L’amour est dans l’air.", "en": "Love is in the air."},
+        {"fr": "J’écris 'amour' sur ma carte.", "en": "I write 'love' on my card."},
+        {"fr": "Maman me donne de l’amour.", "en": "Mom gives me love."}
+      ]
+    },
+    {
+      "fr": "fête",
+      "en": "party",
+      "emoji": "🎉",
+      "sentences": [
+        {"fr": "C’est la fête des mères !", "en": "It’s Mother’s Day!"},
+        {"fr": "On prépare une fête.", "en": "We prepare a party."},
+        {"fr": "Il y a une fête à la maison.", "en": "There is a party at home."},
+        {"fr": "La fête commence !", "en": "The party begins!"},
+        {"fr": "Tout le monde aime la fête.", "en": "Everyone loves the party."}
+      ]
+    },
+    {
+      "fr": "sourire",
+      "en": "smile",
+      "emoji": "😄",
+      "sentences": [
+        {"fr": "Maman a un joli sourire.", "en": "Mom has a lovely smile."},
+        {"fr": "Je fais sourire maman.", "en": "I make mom smile."},
+        {"fr": "Un sourire pour maman.", "en": "A smile for mom."},
+        {"fr": "Tout le monde sourit.", "en": "Everyone smiles."},
+        {"fr": "Un sourire plein d’amour.", "en": "A smile full of love."}
+      ]
+    },
+    {
+      "fr": "chanson",
+      "en": "song",
+      "emoji": "🎶",
+      "sentences": [
+        {"fr": "Je chante une chanson pour maman.", "en": "I sing a song for mom."},
+        {"fr": "La chanson est douce.", "en": "The song is sweet."},
+        {"fr": "Nous chantons ensemble.", "en": "We sing together."},
+        {"fr": "Maman écoute ma chanson.", "en": "Mom listens to my song."},
+        {"fr": "C’est une chanson d’amour.", "en": "It’s a love song."}
+      ]
+    },
+    {
+      "fr": "collier",
+      "en": "necklace",
+      "emoji": "📿",
+      "sentences": [
+        {"fr": "Je fais un collier pour maman.", "en": "I make a necklace for mom."},
+        {"fr": "Le collier est en perles.", "en": "The necklace is made of beads."},
+        {"fr": "Maman porte le collier.", "en": "Mom wears the necklace."},
+        {"fr": "Le collier est beau.", "en": "The necklace is beautiful."},
+        {"fr": "C’est un collier spécial.", "en": "It’s a special necklace."}
+      ]
+    },
+    {
+      "fr": "surprise",
+      "en": "surprise",
+      "emoji": "🎊",
+      "sentences": [
+        {"fr": "C’est une surprise pour maman.", "en": "It’s a surprise for mom."},
+        {"fr": "Je fais une surprise.", "en": "I make a surprise."},
+        {"fr": "Maman est surprise.", "en": "Mom is surprised."},
+        {"fr": "La surprise est réussie.", "en": "The surprise is a success."},
+        {"fr": "J’aime faire des surprises.", "en": "I like making surprises."}
+      ]
+    },
+    {
+      "fr": "calin",
+      "en": "hug",
+      "emoji": "🤗",
+      "sentences": [
+        {"fr": "Je fais un câlin à maman.", "en": "I give mom a hug."},
+        {"fr": "Maman me fait un câlin.", "en": "Mom gives me a hug."},
+        {"fr": "Un gros câlin pour maman.", "en": "A big hug for mom."},
+        {"fr": "Le câlin est chaud.", "en": "The hug is warm."},
+        {"fr": "J’adore les câlins.", "en": "I love hugs."}
+      ]
+    }
+  ]
+}
