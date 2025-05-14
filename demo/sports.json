@@ -1,0 +1,138 @@
+{
+  "topic": {
+    "fr": "Les sports scolaires",
+    "en": "School sports"
+  },
+  "items": [
+    {
+      "fr": "le football",
+      "en": "soccer",
+      "emoji": "⚽",
+      "sentences": [
+        { "fr": "Je joue au football à l’école.", "en": "I play soccer at school." },
+        { "fr": "Tu joues bien au football.", "en": "You play soccer well." },
+        { "fr": "Il joue au football tous les mardis.", "en": "He plays soccer every Tuesday." },
+        { "fr": "Nous jouons au football dans la cour.", "en": "We play soccer in the yard." },
+        { "fr": "Elles jouent au football après la classe.", "en": "They play soccer after class." },
+        { "fr": "J’aime jouer au football avec mes amis.", "en": "I like playing soccer with my friends." }
+      ]
+    },
+    {
+      "fr": "le basketball",
+      "en": "basketball",
+      "emoji": "🏀",
+      "sentences": [
+        { "fr": "Je joue au basketball avec mes amis.", "en": "I play basketball with my friends." },
+        { "fr": "Tu dribbles bien au basketball.", "en": "You dribble well in basketball." },
+        { "fr": "Elle aime le basketball.", "en": "She likes basketball." },
+        { "fr": "Nous jouons au basketball en équipe.", "en": "We play basketball as a team." },
+        { "fr": "Ils jouent au basketball dans le gymnase.", "en": "They play basketball in the gym." },
+        { "fr": "Je dribble avec le ballon de basketball.", "en": "I dribble with the basketball." }
+      ]
+    },
+    {
+      "fr": "la natation",
+      "en": "swimming",
+      "emoji": "🏊",
+      "sentences": [
+        { "fr": "Je fais de la natation le jeudi.", "en": "I go swimming on Thursdays." },
+        { "fr": "Tu nages très bien.", "en": "You swim very well." },
+        { "fr": "Il fait de la natation à la piscine.", "en": "He swims at the pool." },
+        { "fr": "Nous faisons de la natation ensemble.", "en": "We swim together." },
+        { "fr": "Elles adorent la natation.", "en": "They love swimming." },
+        { "fr": "Je nage tous les matins.", "en": "I swim every morning." }
+      ]
+    },
+    {
+      "fr": "le volley-ball",
+      "en": "volleyball",
+      "emoji": "🏐",
+      "sentences": [
+        { "fr": "Je joue au volley-ball à l’école.", "en": "I play volleyball at school." },
+        { "fr": "Tu sers bien au volley-ball.", "en": "You serve well in volleyball." },
+        { "fr": "Il joue au volley avec son équipe.", "en": "He plays volleyball with his team." },
+        { "fr": "Nous aimons jouer au volley-ball.", "en": "We like playing volleyball." },
+        { "fr": "Ils jouent au volley-ball dehors.", "en": "They play volleyball outside." },
+        { "fr": "Je fais une manchette au volley-ball.", "en": "I do a bump in volleyball." }
+      ]
+    },
+    {
+      "fr": "le handball",
+      "en": "handball",
+      "emoji": "",
+      "sentences": [
+        { "fr": "Je joue au handball dans le gymnase.", "en": "I play handball in the gym." },
+        { "fr": "Tu passes bien la balle.", "en": "You pass the ball well." },
+        { "fr": "Elle joue au handball avec sa classe.", "en": "She plays handball with her class." },
+        { "fr": "Nous jouons souvent au handball.", "en": "We often play handball." },
+        { "fr": "Ils apprennent le handball.", "en": "They are learning handball." },
+        { "fr": "Je lance le ballon au handball.", "en": "I throw the ball in handball." }
+      ]
+    },
+    {
+      "fr": "la gymnastique",
+      "en": "gymnastics",
+      "emoji": "🤸",
+      "sentences": [
+        { "fr": "Je fais de la gymnastique en cours de sport.", "en": "I do gymnastics in PE class." },
+        { "fr": "Tu fais une roulade.", "en": "You do a somersault." },
+        { "fr": "Elle adore la gymnastique.", "en": "She loves gymnastics." },
+        { "fr": "Nous faisons de la gymnastique ensemble.", "en": "We do gymnastics together." },
+        { "fr": "Ils apprennent à faire des figures.", "en": "They are learning to do moves." },
+        { "fr": "Je fais la roue en gymnastique.", "en": "I do a cartwheel in gymnastics." }
+      ]
+    },
+    {
+      "fr": "le tennis",
+      "en": "tennis",
+      "emoji": "🎾",
+      "sentences": [
+        { "fr": "Je joue au tennis le mercredi.", "en": "I play tennis on Wednesdays." },
+        { "fr": "Tu sers très fort.", "en": "You serve very hard." },
+        { "fr": "Il gagne souvent au tennis.", "en": "He often wins at tennis." },
+        { "fr": "Nous aimons le tennis.", "en": "We like tennis." },
+        { "fr": "Elles jouent au tennis chaque semaine.", "en": "They play tennis every week." },
+        { "fr": "Je frappe la balle avec ma raquette.", "en": "I hit the ball with my racket." }
+      ]
+    },
+    {
+      "fr": "le rugby",
+      "en": "rugby",
+      "emoji": "",
+      "sentences": [
+        { "fr": "Je joue au rugby à l’école.", "en": "I play rugby at school." },
+        { "fr": "Tu cours vite avec le ballon.", "en": "You run fast with the ball." },
+        { "fr": "Il joue au rugby dans l’équipe.", "en": "He plays rugby on the team." },
+        { "fr": "Nous faisons un match de rugby.", "en": "We play a rugby match." },
+        { "fr": "Ils aiment le rugby.", "en": "They like rugby." },
+        { "fr": "Je passe le ballon à mon coéquipier.", "en": "I pass the ball to my teammate." }
+      ]
+    },
+    {
+      "fr": "le baseball",
+      "en": "baseball",
+      "emoji": "⚾",
+      "sentences": [
+        { "fr": "Je joue au baseball avec mes amis.", "en": "I play baseball with my friends." },
+        { "fr": "Tu lances bien la balle.", "en": "You throw the ball well." },
+        { "fr": "Elle frappe la balle.", "en": "She hits the ball." },
+        { "fr": "Nous jouons au baseball après l’école.", "en": "We play baseball after school." },
+        { "fr": "Ils jouent au baseball dans le parc.", "en": "They play baseball in the park." },
+        { "fr": "Je frappe un coup sûr au baseball.", "en": "I hit a base hit in baseball." }
+      ]
+    },
+    {
+      "fr": "l’athlétisme",
+      "en": "track and field",
+      "emoji": "",
+      "sentences": [
+        { "fr": "Je fais de l’athlétisme le vendredi.", "en": "I do track and field on Fridays." },
+        { "fr": "Tu cours très vite.", "en": "You run very fast." },
+        { "fr": "Il saute très haut.", "en": "He jumps very high." },
+        { "fr": "Nous faisons une course.", "en": "We do a race." },
+        { "fr": "Elles font du lancer de poids.", "en": "They do shot put." },
+        { "fr": "Je participe à une épreuve d’athlétisme.", "en": "I take part in a track and field event." }
+      ]
+    }
+  ]
+}
