@@ -1,0 +1,521 @@
+{
+  "topic": {
+    "fr": "Les légumes du jardin",
+    "en": "Vegetables from the garden"
+  },
+  "items": [
+    {
+      "fr": "carotte",
+      "en": "carrot",
+      "emoji": "🥕",
+      "sentences": [
+        {
+          "fr": "Je mange une carotte.",
+          "en": "I eat a carrot."
+        },
+        {
+          "fr": "La carotte est orange.",
+          "en": "The carrot is orange."
+        },
+        {
+          "fr": "Les lapins aiment les carottes.",
+          "en": "Rabbits like carrots."
+        },
+        {
+          "fr": "Il plante des carottes.",
+          "en": "He plants carrots."
+        },
+        {
+          "fr": "Nous cueillons des carottes.",
+          "en": "We pick carrots."
+        }
+      ]
+    },
+    {
+      "fr": "tomate",
+      "en": "tomato",
+      "emoji": "🍅",
+      "sentences": [
+        {
+          "fr": "J'arrose les tomates.",
+          "en": "I water the tomatoes."
+        },
+        {
+          "fr": "La tomate est rouge.",
+          "en": "The tomato is red."
+        },
+        {
+          "fr": "Tu manges une tomate.",
+          "en": "You eat a tomato."
+        },
+        {
+          "fr": "Les tomates poussent bien.",
+          "en": "The tomatoes grow well."
+        },
+        {
+          "fr": "Elle cueille une tomate.",
+          "en": "She picks a tomato."
+        }
+      ]
+    },
+    {
+      "fr": "pomme de terre",
+      "en": "potato",
+      "emoji": "🥔",
+      "sentences": [
+        {
+          "fr": "Nous plantons des pommes de terre.",
+          "en": "We plant potatoes."
+        },
+        {
+          "fr": "La pomme de terre est marron.",
+          "en": "The potato is brown."
+        },
+        {
+          "fr": "Il épluche une pomme de terre.",
+          "en": "He peels a potato."
+        },
+        {
+          "fr": "Tu manges une pomme de terre.",
+          "en": "You eat a potato."
+        },
+        {
+          "fr": "J'aime les pommes de terre.",
+          "en": "I like potatoes."
+        }
+      ]
+    },
+    {
+      "fr": "courgette",
+      "en": "zucchini",
+      "emoji": "🥒",
+      "sentences": [
+        {
+          "fr": "La courgette est verte.",
+          "en": "The zucchini is green."
+        },
+        {
+          "fr": "Je coupe une courgette.",
+          "en": "I cut a zucchini."
+        },
+        {
+          "fr": "Il cuisine une courgette.",
+          "en": "He cooks a zucchini."
+        },
+        {
+          "fr": "Elles mangent des courgettes.",
+          "en": "They eat zucchinis."
+        },
+        {
+          "fr": "Tu cueilles une courgette.",
+          "en": "You pick a zucchini."
+        }
+      ]
+    },
+    {
+      "fr": "poivron",
+      "en": "bell pepper",
+      "emoji": "🫑",
+      "sentences": [
+        {
+          "fr": "Le poivron est rouge ou vert.",
+          "en": "The bell pepper is red or green."
+        },
+        {
+          "fr": "Tu manges un poivron cru.",
+          "en": "You eat a raw bell pepper."
+        },
+        {
+          "fr": "Je coupe le poivron.",
+          "en": "I cut the bell pepper."
+        },
+        {
+          "fr": "Elle plante des poivrons.",
+          "en": "She plants bell peppers."
+        },
+        {
+          "fr": "Les poivrons sont croquants.",
+          "en": "The bell peppers are crunchy."
+        }
+      ]
+    },
+    {
+      "fr": "laitue",
+      "en": "lettuce",
+      "emoji": "🥬",
+      "sentences": [
+        {
+          "fr": "La laitue est dans le jardin.",
+          "en": "The lettuce is in the garden."
+        },
+        {
+          "fr": "Je lave la laitue.",
+          "en": "I wash the lettuce."
+        },
+        {
+          "fr": "Nous mangeons de la laitue.",
+          "en": "We eat lettuce."
+        },
+        {
+          "fr": "Il cueille la laitue.",
+          "en": "He picks the lettuce."
+        },
+        {
+          "fr": "La laitue est fraîche.",
+          "en": "The lettuce is fresh."
+        }
+      ]
+    },
+    {
+      "fr": "épinard",
+      "en": "spinach",
+      "emoji": "🥗",
+      "sentences": [
+        {
+          "fr": "Les épinards sont verts.",
+          "en": "Spinach is green."
+        },
+        {
+          "fr": "Je mange des épinards cuits.",
+          "en": "I eat cooked spinach."
+        },
+        {
+          "fr": "Elle adore les épinards.",
+          "en": "She loves spinach."
+        },
+        {
+          "fr": "Tu cueilles des épinards.",
+          "en": "You pick spinach."
+        },
+        {
+          "fr": "Il plante des épinards.",
+          "en": "He plants spinach."
+        }
+      ]
+    },
+    {
+      "fr": "radis",
+      "en": "radish",
+      "emoji": "🌶️",
+      "sentences": [
+        {
+          "fr": "Le radis est petit et rouge.",
+          "en": "The radish is small and red."
+        },
+        {
+          "fr": "Je plante des radis.",
+          "en": "I plant radishes."
+        },
+        {
+          "fr": "Tu manges un radis croquant.",
+          "en": "You eat a crunchy radish."
+        },
+        {
+          "fr": "Nous lavons les radis.",
+          "en": "We wash the radishes."
+        },
+        {
+          "fr": "Elle cueille un radis.",
+          "en": "She picks a radish."
+        }
+      ]
+    },
+    {
+      "fr": "oignon",
+      "en": "onion",
+      "emoji": "🧅",
+      "sentences": [
+        {
+          "fr": "L'oignon est rond.",
+          "en": "The onion is round."
+        },
+        {
+          "fr": "Je coupe un oignon.",
+          "en": "I cut an onion."
+        },
+        {
+          "fr": "Les oignons me font pleurer.",
+          "en": "Onions make me cry."
+        },
+        {
+          "fr": "Tu épluches un oignon.",
+          "en": "You peel an onion."
+        },
+        {
+          "fr": "Nous cuisinons des oignons.",
+          "en": "We cook onions."
+        }
+      ]
+    },
+    {
+      "fr": "ail",
+      "en": "garlic",
+      "emoji": "🧄",
+      "sentences": [
+        {
+          "fr": "L'ail sent fort.",
+          "en": "Garlic smells strong."
+        },
+        {
+          "fr": "Je coupe une gousse d'ail.",
+          "en": "I cut a clove of garlic."
+        },
+        {
+          "fr": "Tu ajoutes de l'ail.",
+          "en": "You add garlic."
+        },
+        {
+          "fr": "Il épluche l'ail.",
+          "en": "He peels the garlic."
+        },
+        {
+          "fr": "Nous plantons de l'ail.",
+          "en": "We plant garlic."
+        }
+      ]
+    },
+    {
+      "fr": "haricot vert",
+      "en": "green bean",
+      "emoji": "🌱",
+      "sentences": [
+        {
+          "fr": "Les haricots verts sont longs.",
+          "en": "Green beans are long."
+        },
+        {
+          "fr": "Je cueille des haricots verts.",
+          "en": "I pick green beans."
+        },
+        {
+          "fr": "Elle mange des haricots verts.",
+          "en": "She eats green beans."
+        },
+        {
+          "fr": "Tu plantes des haricots.",
+          "en": "You plant beans."
+        },
+        {
+          "fr": "Nous lavons les haricots verts.",
+          "en": "We wash the green beans."
+        }
+      ]
+    },
+    {
+      "fr": "brocoli",
+      "en": "broccoli",
+      "emoji": "🥦",
+      "sentences": [
+        {
+          "fr": "Le brocoli est vert.",
+          "en": "The broccoli is green."
+        },
+        {
+          "fr": "Je coupe le brocoli.",
+          "en": "I cut the broccoli."
+        },
+        {
+          "fr": "Il cuisine du brocoli.",
+          "en": "He cooks broccoli."
+        },
+        {
+          "fr": "Tu manges du brocoli.",
+          "en": "You eat broccoli."
+        },
+        {
+          "fr": "Nous plantons du brocoli.",
+          "en": "We plant broccoli."
+        }
+      ]
+    },
+    {
+      "fr": "concombre",
+      "en": "cucumber",
+      "emoji": "🥒",
+      "sentences": [
+        {
+          "fr": "Le concombre est frais.",
+          "en": "The cucumber is fresh."
+        },
+        {
+          "fr": "Je coupe un concombre.",
+          "en": "I cut a cucumber."
+        },
+        {
+          "fr": "Tu manges du concombre.",
+          "en": "You eat cucumber."
+        },
+        {
+          "fr": "Il cueille un concombre.",
+          "en": "He picks a cucumber."
+        },
+        {
+          "fr": "Nous lavons le concombre.",
+          "en": "We wash the cucumber."
+        }
+      ]
+    },
+    {
+      "fr": "pois",
+      "en": "peas",
+      "emoji": "🌿",
+      "sentences": [
+        {
+          "fr": "Les pois sont ronds et verts.",
+          "en": "Peas are round and green."
+        },
+        {
+          "fr": "Je plante des pois.",
+          "en": "I plant peas."
+        },
+        {
+          "fr": "Elle cueille les pois.",
+          "en": "She picks the peas."
+        },
+        {
+          "fr": "Nous mangeons des pois.",
+          "en": "We eat peas."
+        },
+        {
+          "fr": "Tu écosse les pois.",
+          "en": "You shell the peas."
+        }
+      ]
+    },
+    {
+      "fr": "betterave",
+      "en": "beetroot",
+      "emoji": "🟥",
+      "sentences": [
+        {
+          "fr": "La betterave est rouge.",
+          "en": "The beetroot is red."
+        },
+        {
+          "fr": "Je coupe une betterave.",
+          "en": "I cut a beetroot."
+        },
+        {
+          "fr": "Tu cuisines la betterave.",
+          "en": "You cook the beetroot."
+        },
+        {
+          "fr": "Elle plante des betteraves.",
+          "en": "She plants beetroots."
+        },
+        {
+          "fr": "Nous mangeons de la betterave.",
+          "en": "We eat beetroot."
+        }
+      ]
+    },
+    {
+      "fr": "navet",
+      "en": "turnip",
+      "emoji": "⚪",
+      "sentences": [
+        {
+          "fr": "Le navet est blanc et violet.",
+          "en": "The turnip is white and purple."
+        },
+        {
+          "fr": "Je plante des navets.",
+          "en": "I plant turnips."
+        },
+        {
+          "fr": "Il cueille un navet.",
+          "en": "He picks a turnip."
+        },
+        {
+          "fr": "Tu manges du navet.",
+          "en": "You eat turnip."
+        },
+        {
+          "fr": "Nous lavons les navets.",
+          "en": "We wash the turnips."
+        }
+      ]
+    },
+    {
+      "fr": "citrouille",
+      "en": "pumpkin",
+      "emoji": "🎃",
+      "sentences": [
+        {
+          "fr": "La citrouille est grosse.",
+          "en": "The pumpkin is big."
+        },
+        {
+          "fr": "Je coupe une citrouille.",
+          "en": "I cut a pumpkin."
+        },
+        {
+          "fr": "Elle plante une citrouille.",
+          "en": "She plants a pumpkin."
+        },
+        {
+          "fr": "Nous mangeons de la soupe de citrouille.",
+          "en": "We eat pumpkin soup."
+        },
+        {
+          "fr": "Tu portes une citrouille.",
+          "en": "You carry a pumpkin."
+        }
+      ]
+    },
+    {
+      "fr": "chou",
+      "en": "cabbage",
+      "emoji": "🥬",
+      "sentences": [
+        {
+          "fr": "Le chou est rond.",
+          "en": "The cabbage is round."
+        },
+        {
+          "fr": "Je cuisine du chou.",
+          "en": "I cook cabbage."
+        },
+        {
+          "fr": "Tu plantes un chou.",
+          "en": "You plant a cabbage."
+        },
+        {
+          "fr": "Elle mange du chou.",
+          "en": "She eats cabbage."
+        },
+        {
+          "fr": "Nous lavons le chou.",
+          "en": "We wash the cabbage."
+        }
+      ]
+    },
+    {
+      "fr": "aubergine",
+      "en": "eggplant",
+      "emoji": "🍆",
+      "sentences": [
+        {
+          "fr": "L'aubergine est violette.",
+          "en": "The eggplant is purple."
+        },
+        {
+          "fr": "Je cueille une aubergine.",
+          "en": "I pick an eggplant."
+        },
+        {
+          "fr": "Elle coupe une aubergine.",
+          "en": "She cuts an eggplant."
+        },
+        {
+          "fr": "Tu cuisines une aubergine.",
+          "en": "You cook an eggplant."
+        },
+        {
+          "fr": "Nous plantons des aubergines.",
+          "en": "We plant eggplants."
+        }
+      ]
+    }
+  ]
+}
