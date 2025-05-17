@@ -1,0 +1,278 @@
+{
+  "topic": {
+    "fr": "À la fête de l'école",
+    "en": "At the school fair"
+  },
+  "items": [
+    {
+      "fr": "ballons",
+      "en": "balloons",
+      "emoji": "🎈",
+      "sentences": [
+        {
+          "fr": "Il y a des ballons rouges partout.",
+          "en": "There are red balloons everywhere."
+        },
+        {
+          "fr": "J'aime jouer avec les ballons.",
+          "en": "I like playing with the balloons."
+        },
+        {
+          "fr": "Les ballons volent dans le ciel.",
+          "en": "The balloons are flying in the sky."
+        },
+        {
+          "fr": "Nous accrochons des ballons sur la porte.",
+          "en": "We hang balloons on the door."
+        },
+        {
+          "fr": "Un ballon a éclaté.",
+          "en": "A balloon popped."
+        }
+      ]
+    },
+    {
+      "fr": "barbe à papa",
+      "en": "cotton candy",
+      "emoji": "🍭",
+      "sentences": [
+        {
+          "fr": "Je mange de la barbe à papa.",
+          "en": "I am eating cotton candy."
+        },
+        {
+          "fr": "Elle adore la barbe à papa rose.",
+          "en": "She loves pink cotton candy."
+        },
+        {
+          "fr": "La barbe à papa colle aux doigts.",
+          "en": "Cotton candy sticks to your fingers."
+        },
+        {
+          "fr": "Il achète de la barbe à papa.",
+          "en": "He buys cotton candy."
+        },
+        {
+          "fr": "Nous partageons une barbe à papa.",
+          "en": "We share a cotton candy."
+        }
+      ]
+    },
+    {
+      "fr": "stand de jeux",
+      "en": "game booth",
+      "emoji": "🎯",
+      "sentences": [
+        {
+          "fr": "Le stand de jeux est très amusant.",
+          "en": "The game booth is very fun."
+        },
+        {
+          "fr": "Je gagne un prix au stand de jeux.",
+          "en": "I win a prize at the game booth."
+        },
+        {
+          "fr": "Nous allons au stand de jeux.",
+          "en": "We are going to the game booth."
+        },
+        {
+          "fr": "Il y a beaucoup d’enfants au stand de jeux.",
+          "en": "There are many children at the game booth."
+        },
+        {
+          "fr": "Tu veux essayer le stand de jeux ?",
+          "en": "Do you want to try the game booth?"
+        }
+      ]
+    },
+    {
+      "fr": "pêche aux canards",
+      "en": "duck fishing",
+      "emoji": "🦆",
+      "sentences": [
+        {
+          "fr": "La pêche aux canards est mon jeu préféré.",
+          "en": "Duck fishing is my favorite game."
+        },
+        {
+          "fr": "Je prends un canard avec ma canne.",
+          "en": "I catch a duck with my rod."
+        },
+        {
+          "fr": "Tu as gagné un petit jouet !",
+          "en": "You won a small toy!"
+        },
+        {
+          "fr": "Les canards tournent dans l’eau.",
+          "en": "The ducks float in the water."
+        },
+        {
+          "fr": "Elle choisit un canard jaune.",
+          "en": "She chooses a yellow duck."
+        }
+      ]
+    },
+    {
+      "fr": "gâteau",
+      "en": "cake",
+      "emoji": "🍰",
+      "sentences": [
+        {
+          "fr": "Il y a un grand gâteau au chocolat.",
+          "en": "There is a big chocolate cake."
+        },
+        {
+          "fr": "Tu veux une part de gâteau ?",
+          "en": "Do you want a piece of cake?"
+        },
+        {
+          "fr": "Nous avons cuisiné un gâteau pour la fête.",
+          "en": "We baked a cake for the party."
+        },
+        {
+          "fr": "Le gâteau est très bon.",
+          "en": "The cake is very good."
+        },
+        {
+          "fr": "Elle mange du gâteau avec sa maman.",
+          "en": "She eats cake with her mom."
+        }
+      ]
+    },
+    {
+      "fr": "spectacle",
+      "en": "show",
+      "emoji": "🎭",
+      "sentences": [
+        {
+          "fr": "Le spectacle commence à 15 heures.",
+          "en": "The show starts at 3 p.m."
+        },
+        {
+          "fr": "Les enfants chantent dans le spectacle.",
+          "en": "The children sing in the show."
+        },
+        {
+          "fr": "Tu veux regarder le spectacle ?",
+          "en": "Do you want to watch the show?"
+        },
+        {
+          "fr": "Le spectacle est très drôle.",
+          "en": "The show is very funny."
+        },
+        {
+          "fr": "Nous applaudissons après le spectacle.",
+          "en": "We clap after the show."
+        }
+      ]
+    },
+    {
+      "fr": "clown",
+      "en": "clown",
+      "emoji": "🤡",
+      "sentences": [
+        {
+          "fr": "Le clown fait des blagues.",
+          "en": "The clown tells jokes."
+        },
+        {
+          "fr": "Il lance des balles en l’air.",
+          "en": "He throws balls in the air."
+        },
+        {
+          "fr": "Les enfants rient avec le clown.",
+          "en": "The children laugh with the clown."
+        },
+        {
+          "fr": "Le clown a un nez rouge.",
+          "en": "The clown has a red nose."
+        },
+        {
+          "fr": "Tu veux une photo avec le clown ?",
+          "en": "Do you want a photo with the clown?"
+        }
+      ]
+    },
+    {
+      "fr": "buvette",
+      "en": "refreshment stand",
+      "emoji": "🥤",
+      "sentences": [
+        {
+          "fr": "La buvette est à côté du gymnase.",
+          "en": "The refreshment stand is next to the gym."
+        },
+        {
+          "fr": "Je prends une limonade à la buvette.",
+          "en": "I get a lemonade at the refreshment stand."
+        },
+        {
+          "fr": "Il y a des bonbons à la buvette.",
+          "en": "There are candies at the refreshment stand."
+        },
+        {
+          "fr": "Nous achetons un jus de pomme.",
+          "en": "We buy an apple juice."
+        },
+        {
+          "fr": "Tu veux quelque chose à boire ?",
+          "en": "Do you want something to drink?"
+        }
+      ]
+    },
+    {
+      "fr": "musique",
+      "en": "music",
+      "emoji": "🎶",
+      "sentences": [
+        {
+          "fr": "La musique est très forte.",
+          "en": "The music is very loud."
+        },
+        {
+          "fr": "Je danse sur la musique.",
+          "en": "I dance to the music."
+        },
+        {
+          "fr": "Ils jouent de la musique dans la cour.",
+          "en": "They play music in the playground."
+        },
+        {
+          "fr": "Tu aimes cette chanson ?",
+          "en": "Do you like this song?"
+        },
+        {
+          "fr": "La musique rend tout le monde joyeux.",
+          "en": "The music makes everyone happy."
+        }
+      ]
+    },
+    {
+      "fr": "fanfare",
+      "en": "marching band",
+      "emoji": "🥁",
+      "sentences": [
+        {
+          "fr": "La fanfare arrive dans la cour.",
+          "en": "The marching band arrives in the yard."
+        },
+        {
+          "fr": "Ils jouent des tambours et des trompettes.",
+          "en": "They play drums and trumpets."
+        },
+        {
+          "fr": "La fanfare est très colorée.",
+          "en": "The marching band is very colorful."
+        },
+        {
+          "fr": "Tout le monde regarde la fanfare.",
+          "en": "Everyone watches the marching band."
+        },
+        {
+          "fr": "Tu entends la fanfare ?",
+          "en": "Do you hear the marching band?"
+        }
+      ]
+    }
+  ]
+}
