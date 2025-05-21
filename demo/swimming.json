@@ -1,0 +1,236 @@
+{
+  "topic": {
+    "fr": "À la piscine",
+    "en": "At the swimming pool"
+  },
+  "items": [
+    {
+      "fr": "nager",
+      "en": "to swim",
+      "emoji": "🏊",
+      "sentences": [
+        { "fr": "Je nage à la piscine.", "en": "I swim at the pool." },
+        { "fr": "Tu nages très bien.", "en": "You swim very well." },
+        { "fr": "Il nage avec ses amis.", "en": "He swims with his friends." },
+        { "fr": "Nous nageons tous les jours.", "en": "We swim every day." },
+        { "fr": "Ils ne nagent pas aujourd’hui.", "en": "They are not swimming today." }
+      ]
+    },
+    {
+      "fr": "plonger",
+      "en": "to dive",
+      "emoji": "🤿",
+      "sentences": [
+        { "fr": "Je plonge dans l'eau.", "en": "I dive into the water." },
+        { "fr": "Tu plonges très haut.", "en": "You dive very high." },
+        { "fr": "Elle plonge du plongeoir.", "en": "She dives from the diving board." },
+        { "fr": "Nous plongeons ensemble.", "en": "We dive together." },
+        { "fr": "Ils ne plongent jamais.", "en": "They never dive." }
+      ]
+    },
+    {
+      "fr": "jouer",
+      "en": "to play",
+      "emoji": "⚽",
+      "sentences": [
+        { "fr": "Je joue dans la piscine.", "en": "I play in the pool." },
+        { "fr": "Tu joues avec le ballon.", "en": "You play with the ball." },
+        { "fr": "Elle joue avec sa sœur.", "en": "She plays with her sister." },
+        { "fr": "Nous jouons tous ensemble.", "en": "We all play together." },
+        { "fr": "Ils ne jouent pas aujourd’hui.", "en": "They are not playing today." }
+      ]
+    },
+    {
+      "fr": "sauter",
+      "en": "to jump",
+      "emoji": "🤸",
+      "sentences": [
+        { "fr": "Je saute dans l’eau.", "en": "I jump into the water." },
+        { "fr": "Tu sautes très haut.", "en": "You jump very high." },
+        { "fr": "Il saute depuis le bord.", "en": "He jumps from the edge." },
+        { "fr": "Nous sautons tous ensemble.", "en": "We all jump together." },
+        { "fr": "Elles ne sautent pas encore.", "en": "They are not jumping yet." }
+      ]
+    },
+    {
+      "fr": "courir",
+      "en": "to run",
+      "emoji": "🏃",
+      "sentences": [
+        { "fr": "Je cours autour de la piscine.", "en": "I run around the pool." },
+        { "fr": "Tu cours vite.", "en": "You run fast." },
+        { "fr": "Il ne court pas sur le sol mouillé.", "en": "He doesn't run on the wet floor." },
+        { "fr": "Nous courons avant de nager.", "en": "We run before swimming." },
+        { "fr": "Elles courent vers l’eau.", "en": "They run toward the water." }
+      ]
+    },
+    {
+      "fr": "glisser",
+      "en": "to slide",
+      "emoji": "🛝",
+      "sentences": [
+        { "fr": "Je glisse sur le toboggan.", "en": "I slide on the slide." },
+        { "fr": "Tu glisses vite.", "en": "You slide fast." },
+        { "fr": "Elle glisse dans la piscine.", "en": "She slides into the pool." },
+        { "fr": "Nous glissons ensemble.", "en": "We slide together." },
+        { "fr": "Ils ne glissent pas aujourd’hui.", "en": "They are not sliding today." }
+      ]
+    },
+    {
+      "fr": "barboter",
+      "en": "to splash",
+      "emoji": "💦",
+      "sentences": [
+        { "fr": "Je barbote dans l’eau.", "en": "I splash in the water." },
+        { "fr": "Tu barbotes avec plaisir.", "en": "You splash happily." },
+        { "fr": "Il barbote tout seul.", "en": "He splashes by himself." },
+        { "fr": "Nous barbotons ensemble.", "en": "We splash together." },
+        { "fr": "Ils ne barbotent pas beaucoup.", "en": "They don't splash much." }
+      ]
+    },
+    {
+      "fr": "attraper",
+      "en": "to catch",
+      "emoji": "🤾",
+      "sentences": [
+        { "fr": "Je t’attrape !", "en": "I catch you!" },
+        { "fr": "Tu attrapes le ballon.", "en": "You catch the ball." },
+        { "fr": "Il attrape bien.", "en": "He catches well." },
+        { "fr": "Nous attrapons les jouets.", "en": "We catch the toys." },
+        { "fr": "Ils ne l’attrapent pas.", "en": "They don't catch it." }
+      ]
+    },
+    {
+      "fr": "crier",
+      "en": "to shout",
+      "emoji": "📣",
+      "sentences": [
+        { "fr": "Je crie de joie.", "en": "I shout with joy." },
+        { "fr": "Tu cries trop fort.", "en": "You shout too loudly." },
+        { "fr": "Elle crie dans la piscine.", "en": "She shouts in the pool." },
+        { "fr": "Nous crions tous ensemble.", "en": "We all shout together." },
+        { "fr": "Ils ne crient pas souvent.", "en": "They don’t shout often." }
+      ]
+    },
+    {
+      "fr": "s'amuser",
+      "en": "to have fun",
+      "emoji": "😄",
+      "sentences": [
+        { "fr": "Je m’amuse beaucoup.", "en": "I’m having a lot of fun." },
+        { "fr": "Tu t’amuses bien ?", "en": "Are you having fun?" },
+        { "fr": "Il s’amuse avec ses amis.", "en": "He is having fun with his friends." },
+        { "fr": "Nous nous amusons dans l’eau.", "en": "We’re having fun in the water." },
+        { "fr": "Elles ne s’amusent pas encore.", "en": "They’re not having fun yet." }
+      ]
+    },
+    {
+      "fr": "se sécher",
+      "en": "to dry off",
+      "emoji": "🧺",
+      "sentences": [
+        { "fr": "Je me sèche avec une serviette.", "en": "I dry off with a towel." },
+        { "fr": "Tu te sèches au soleil.", "en": "You dry off in the sun." },
+        { "fr": "Elle se sèche rapidement.", "en": "She dries off quickly." },
+        { "fr": "Nous nous séchons ensemble.", "en": "We dry off together." },
+        { "fr": "Ils ne se sèchent pas encore.", "en": "They haven’t dried off yet." }
+      ]
+    },
+    {
+      "fr": "mettre",
+      "en": "to put on",
+      "emoji": "👙",
+      "sentences": [
+        { "fr": "Je mets mon maillot.", "en": "I put on my swimsuit." },
+        { "fr": "Tu mets tes lunettes.", "en": "You put on your goggles." },
+        { "fr": "Il met sa serviette sur la chaise.", "en": "He puts his towel on the chair." },
+        { "fr": "Nous mettons nos tongs.", "en": "We put on our flip-flops." },
+        { "fr": "Elles ne mettent pas leurs bonnets.", "en": "They don’t put on their swim caps." }
+      ]
+    },
+    {
+      "fr": "aider",
+      "en": "to help",
+      "emoji": "🆘",
+      "sentences": [
+        { "fr": "Je t’aide à nager.", "en": "I help you swim." },
+        { "fr": "Tu aides ton frère.", "en": "You help your brother." },
+        { "fr": "Il aide les petits.", "en": "He helps the little ones." },
+        { "fr": "Nous aidons nos amis.", "en": "We help our friends." },
+        { "fr": "Ils ne veulent pas aider.", "en": "They don’t want to help." }
+      ]
+    },
+    {
+      "fr": "tomber",
+      "en": "to fall",
+      "emoji": "🤕",
+      "sentences": [
+        { "fr": "Je tombe dans l’eau.", "en": "I fall into the water." },
+        { "fr": "Tu ne tombes jamais.", "en": "You never fall." },
+        { "fr": "Elle tombe du bord.", "en": "She falls from the edge." },
+        { "fr": "Nous tombons tous ensemble !", "en": "We all fall together!" },
+        { "fr": "Ils tombent souvent.", "en": "They fall often." }
+      ]
+    },
+    {
+      "fr": "regarder",
+      "en": "to watch",
+      "emoji": "👀",
+      "sentences": [
+        { "fr": "Je regarde les autres nager.", "en": "I watch the others swim." },
+        { "fr": "Tu regardes le toboggan.", "en": "You watch the slide." },
+        { "fr": "Il regarde son frère.", "en": "He watches his brother." },
+        { "fr": "Nous regardons les plongeons.", "en": "We watch the dives." },
+        { "fr": "Ils ne regardent pas.", "en": "They are not watching." }
+      ]
+    },
+    {
+      "fr": "boire",
+      "en": "to drink",
+      "emoji": "🥤",
+      "sentences": [
+        { "fr": "Je bois de l’eau.", "en": "I drink water." },
+        { "fr": "Tu bois après la baignade.", "en": "You drink after swimming." },
+        { "fr": "Elle boit un jus de fruits.", "en": "She drinks a fruit juice." },
+        { "fr": "Nous buvons ensemble.", "en": "We drink together." },
+        { "fr": "Ils ne boivent pas assez.", "en": "They don’t drink enough." }
+      ]
+    },
+    {
+      "fr": "écouter",
+      "en": "to listen",
+      "emoji": "👂",
+      "sentences": [
+        { "fr": "J’écoute la maîtresse.", "en": "I listen to the teacher." },
+        { "fr": "Tu écoutes les consignes.", "en": "You listen to the instructions." },
+        { "fr": "Il écoute la musique.", "en": "He listens to music." },
+        { "fr": "Nous écoutons attentivement.", "en": "We listen carefully." },
+        { "fr": "Ils n’écoutent pas toujours.", "en": "They don’t always listen." }
+      ]
+    },
+    {
+      "fr": "nettoyer",
+      "en": "to clean",
+      "emoji": "🧽",
+      "sentences": [
+        { "fr": "Je nettoie mes lunettes.", "en": "I clean my goggles." },
+        { "fr": "Tu nettoies ton maillot.", "en": "You clean your swimsuit." },
+        { "fr": "Il nettoie autour de la piscine.", "en": "He cleans around the pool." },
+        { "fr": "Nous nettoyons après le jeu.", "en": "We clean up after playing." },
+        { "fr": "Ils ne nettoient jamais.", "en": "They never clean." }
+      ]
+    },
+    {
+      "fr": "faire",
+      "en": "to do / to make",
+      "emoji": "🎯",
+      "sentences": [
+        { "fr": "Je fais un plongeon.", "en": "I do a dive." },
+        { "fr": "Tu fais des bulles.", "en": "You make bubbles." },
+        { "fr": "Il fait une course.", "en": "He does a race." },
+        { "fr": "Nous faisons un jeu.", "en": "We play a game." },
+        { "fr": "Ils ne font rien.", "en": "They do nothing." }
+      ]
+    }
+  ]
+}
