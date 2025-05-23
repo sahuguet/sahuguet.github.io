@@ -1,0 +1,228 @@
+{
+  "topic": {
+    "fr": "Pourquoi",
+    "en": "Why"
+  },
+  "items": [
+    {
+      "fr": "Pourquoi tu es mouillé ?",
+      "en": "Why are you wet?",
+      "emoji": "🌧️",
+      "sentences": [
+        {
+          "fr": "Je suis mouillé parce qu'il pleut.",
+          "en": "I am wet because it is raining."
+        }
+      ]
+    },
+    {
+      "fr": "Pourquoi tu pleures ?",
+      "en": "Why are you crying?",
+      "emoji": "😢",
+      "sentences": [
+        {
+          "fr": "Je pleure parce que je suis triste.",
+          "en": "I am crying because I am sad."
+        }
+      ]
+    },
+    {
+      "fr": "Pourquoi tu ris ?",
+      "en": "Why are you laughing?",
+      "emoji": "😂",
+      "sentences": [
+        {
+          "fr": "Je ris parce que c'est drôle.",
+          "en": "I am laughing because it's funny."
+        }
+      ]
+    },
+    {
+      "fr": "Pourquoi tu es en retard ?",
+      "en": "Why are you late?",
+      "emoji": "⏰",
+      "sentences": [
+        {
+          "fr": "Je suis en retard parce que j’ai raté le bus.",
+          "en": "I am late because I missed the bus."
+        }
+      ]
+    },
+    {
+      "fr": "Pourquoi tu cours ?",
+      "en": "Why are you running?",
+      "emoji": "🏃",
+      "sentences": [
+        {
+          "fr": "Je cours parce que je suis pressé.",
+          "en": "I am running because I am in a hurry."
+        }
+      ]
+    },
+    {
+      "fr": "Pourquoi tu as faim ?",
+      "en": "Why are you hungry?",
+      "emoji": "🍽️",
+      "sentences": [
+        {
+          "fr": "J’ai faim parce que je n’ai pas mangé.",
+          "en": "I am hungry because I haven't eaten."
+        }
+      ]
+    },
+    {
+      "fr": "Pourquoi tu as soif ?",
+      "en": "Why are you thirsty?",
+      "emoji": "🥤",
+      "sentences": [
+        {
+          "fr": "J’ai soif parce qu’il fait chaud.",
+          "en": "I am thirsty because it's hot."
+        }
+      ]
+    },
+    {
+      "fr": "Pourquoi tu es fatigué ?",
+      "en": "Why are you tired?",
+      "emoji": "😴",
+      "sentences": [
+        {
+          "fr": "Je suis fatigué parce que j’ai mal dormi.",
+          "en": "I am tired because I slept badly."
+        }
+      ]
+    },
+    {
+      "fr": "Pourquoi tu es content ?",
+      "en": "Why are you happy?",
+      "emoji": "😊",
+      "sentences": [
+        {
+          "fr": "Je suis content parce que j’ai un cadeau.",
+          "en": "I am happy because I have a gift."
+        }
+      ]
+    },
+    {
+      "fr": "Pourquoi tu as peur ?",
+      "en": "Why are you scared?",
+      "emoji": "😨",
+      "sentences": [
+        {
+          "fr": "J’ai peur parce qu’il fait noir.",
+          "en": "I am scared because it's dark."
+        }
+      ]
+    },
+    {
+      "fr": "Pourquoi tu es sale ?",
+      "en": "Why are you dirty?",
+      "emoji": "🧼",
+      "sentences": [
+        {
+          "fr": "Je suis sale parce que j’ai joué dans la boue.",
+          "en": "I am dirty because I played in the mud."
+        }
+      ]
+    },
+    {
+      "fr": "Pourquoi tu as mal ?",
+      "en": "Why are you hurt?",
+      "emoji": "🤕",
+      "sentences": [
+        {
+          "fr": "J’ai mal parce que je suis tombé.",
+          "en": "I am hurt because I fell."
+        }
+      ]
+    },
+    {
+      "fr": "Pourquoi tu as chaud ?",
+      "en": "Why are you hot?",
+      "emoji": "🥵",
+      "sentences": [
+        {
+          "fr": "J’ai chaud parce que je cours.",
+          "en": "I am hot because I’m running."
+        }
+      ]
+    },
+    {
+      "fr": "Pourquoi tu es tout rouge ?",
+      "en": "Why are you all red?",
+      "emoji": "🍅",
+      "sentences": [
+        {
+          "fr": "Je suis rouge parce que j’ai couru.",
+          "en": "I am red because I ran."
+        }
+      ]
+    },
+    {
+      "fr": "Pourquoi tu es malade ?",
+      "en": "Why are you sick?",
+      "emoji": "🤒",
+      "sentences": [
+        {
+          "fr": "Je suis malade parce que j’ai mangé trop de bonbons.",
+          "en": "I am sick because I ate too many candies."
+        }
+      ]
+    },
+    {
+      "fr": "Pourquoi tu es fâché ?",
+      "en": "Why are you angry?",
+      "emoji": "😠",
+      "sentences": [
+        {
+          "fr": "Je suis fâché parce qu’on m’a crié dessus.",
+          "en": "I am angry because someone yelled at me."
+        }
+      ]
+    },
+    {
+      "fr": "Pourquoi tu es tombé ?",
+      "en": "Why did you fall?",
+      "emoji": "🪂",
+      "sentences": [
+        {
+          "fr": "Je suis tombé parce que j’ai glissé.",
+          "en": "I fell because I slipped."
+        }
+      ]
+    },
+    {
+      "fr": "Pourquoi tu es tout seul ?",
+      "en": "Why are you all alone?",
+      "emoji": "👤",
+      "sentences": [
+        {
+          "fr": "Je suis seul parce que mes amis sont partis.",
+          "en": "I am alone because my friends left."
+        }
+      ]
+    },
+    {
+      "fr": "Pourquoi tu es à l’école ?",
+      "en": "Why are you at school?",
+      "emoji": "🏫",
+      "sentences": [
+        {
+          "fr": "Je suis à l’école parce que j’apprends.",
+          "en": "I am at school because I am learning."
+        }
+      ]
+    },
+    {
+      "fr": "Pourquoi tu portes un manteau ?",
+      "en": "Why are you wearing a coat?",
+      "emoji": "🧥",
+      "sentences": [
+        {
+          "fr": "Je porte un manteau parce qu’il fait froid.",
+          "en": "I am wearing a coat because it is cold."
+        }
+      ]
+    }
+  ]
+}
