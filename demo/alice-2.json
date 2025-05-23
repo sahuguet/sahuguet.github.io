@@ -1,0 +1,278 @@
+{
+  "topic": {
+    "fr": "Les phrases de tous les jours",
+    "en": "Everyday sentences"
+  },
+  "items": [
+    {
+      "fr": "s'appeler",
+      "en": "to be called",
+      "emoji": "🧒",
+      "sentences": [
+        {
+          "fr": "Je m’appelle Alice.",
+          "en": "My name is Alice."
+        },
+        {
+          "fr": "Il s'appelle Hugo.",
+          "en": "His name is Hugo."
+        },
+        {
+          "fr": "Elle s'appelle Emma.",
+          "en": "Her name is Emma."
+        },
+        {
+          "fr": "Nous nous appelons les Martin.",
+          "en": "We are called the Martins."
+        },
+        {
+          "fr": "Comment tu t'appelles ?",
+          "en": "What is your name?"
+        }
+      ]
+    },
+    {
+      "fr": "avoir (âge)",
+      "en": "to have (age)",
+      "emoji": "🎂",
+      "sentences": [
+        {
+          "fr": "J’ai six ans.",
+          "en": "I am six years old."
+        },
+        {
+          "fr": "Il a dix ans.",
+          "en": "He is ten years old."
+        },
+        {
+          "fr": "Elle a sept ans.",
+          "en": "She is seven years old."
+        },
+        {
+          "fr": "Nous avons huit ans.",
+          "en": "We are eight years old."
+        },
+        {
+          "fr": "Ils ont neuf ans.",
+          "en": "They are nine years old."
+        }
+      ]
+    },
+    {
+      "fr": "habiter",
+      "en": "to live",
+      "emoji": "🏠",
+      "sentences": [
+        {
+          "fr": "J’habite dans un grand appartement.",
+          "en": "I live in a big apartment."
+        },
+        {
+          "fr": "Mon appartement a plein de fenêtres qui donnent sur le parc.",
+          "en": "My apartment has lots of windows that overlook the park."
+        },
+        {
+          "fr": "Nous habitons au 10e étage.",
+          "en": "We live on the 10th floor."
+        },
+        {
+          "fr": "Ils habitent dans une maison rouge.",
+          "en": "They live in a red house."
+        },
+        {
+          "fr": "Où habites-tu ?",
+          "en": "Where do you live?"
+        }
+      ]
+    },
+    {
+      "fr": "adorer",
+      "en": "to love (adore)",
+      "emoji": "❤️",
+      "sentences": [
+        {
+          "fr": "J’adore ma famille.",
+          "en": "I love my family."
+        },
+        {
+          "fr": "J’adore les pokemons.",
+          "en": "I love Pokémons."
+        },
+        {
+          "fr": "Elle adore les chats.",
+          "en": "She loves cats."
+        },
+        {
+          "fr": "Nous adorons le chocolat.",
+          "en": "We love chocolate."
+        },
+        {
+          "fr": "Ils adorent les dessins animés.",
+          "en": "They love cartoons."
+        }
+      ]
+    },
+    {
+      "fr": "aimer",
+      "en": "to like",
+      "emoji": "👍",
+      "sentences": [
+        {
+          "fr": "J’aime Chimchar et Mankey.",
+          "en": "I like Chimchar and Mankey."
+        },
+        {
+          "fr": "J’aime apprendre le français.",
+          "en": "I like learning French."
+        },
+        {
+          "fr": "Elle aime les fleurs.",
+          "en": "She likes flowers."
+        },
+        {
+          "fr": "Nous aimons chanter.",
+          "en": "We like to sing."
+        },
+        {
+          "fr": "Ils aiment jouer au foot.",
+          "en": "They like to play soccer."
+        }
+      ]
+    },
+    {
+      "fr": "vouloir (repas)",
+      "en": "to want (food)",
+      "emoji": "🍽️",
+      "sentences": [
+        {
+          "fr": "Pour mon snack je veux du oatmeal avec des fraises.",
+          "en": "For my snack I want oatmeal with strawberries."
+        },
+        {
+          "fr": "Pour mon petit déjeuner, je veux une omelette.",
+          "en": "For my breakfast, I want an omelet."
+        },
+        {
+          "fr": "Pour mon déjeuner, je veux un bagel avec des raisins et de la Chanelle.",
+          "en": "For my lunch, I want a bagel with grapes and some Chanelle cheese."
+        },
+        {
+          "fr": "Je veux un croissant au chocolat.",
+          "en": "I want a chocolate croissant."
+        },
+        {
+          "fr": "Est-ce que tu veux un jus de pomme ?",
+          "en": "Do you want an apple juice?"
+        }
+      ]
+    },
+    {
+      "fr": "prendre (transport)",
+      "en": "to take (transport)",
+      "emoji": "🚲",
+      "sentences": [
+        {
+          "fr": "Pour aller à l’école, je prends le vélo.",
+          "en": "To go to school, I take the bike."
+        },
+        {
+          "fr": "Il prend le bus pour aller à l’école.",
+          "en": "He takes the bus to go to school."
+        },
+        {
+          "fr": "Nous prenons le train pour aller chez Mamie.",
+          "en": "We take the train to go to Grandma’s."
+        },
+        {
+          "fr": "Tu prends la voiture ?",
+          "en": "Are you taking the car?"
+        },
+        {
+          "fr": "Elles prennent le métro.",
+          "en": "They take the subway."
+        }
+      ]
+    },
+    {
+      "fr": "porter (vêtements)",
+      "en": "to wear (clothes)",
+      "emoji": "👗",
+      "sentences": [
+        {
+          "fr": "Pour aller à l’école, je mets une jupe et un t-shirt.",
+          "en": "To go to school, I wear a skirt and a t-shirt."
+        },
+        {
+          "fr": "Il met un pantalon bleu.",
+          "en": "He is wearing blue pants."
+        },
+        {
+          "fr": "Elle met une robe rouge.",
+          "en": "She wears a red dress."
+        },
+        {
+          "fr": "Nous mettons des manteaux en hiver.",
+          "en": "We wear coats in winter."
+        },
+        {
+          "fr": "Ils mettent des chapeaux rigolos.",
+          "en": "They wear funny hats."
+        }
+      ]
+    },
+    {
+      "fr": "être amis",
+      "en": "to be friends",
+      "emoji": "👫",
+      "sentences": [
+        {
+          "fr": "Mes meilleurs amis sont Zora et Arlo.",
+          "en": "My best friends are Zora and Arlo."
+        },
+        {
+          "fr": "Nous sommes de très bons amis.",
+          "en": "We are very good friends."
+        },
+        {
+          "fr": "Elle est mon amie depuis la maternelle.",
+          "en": "She’s been my friend since kindergarten."
+        },
+        {
+          "fr": "Il a beaucoup d’amis.",
+          "en": "He has many friends."
+        },
+        {
+          "fr": "Ils sont amis depuis longtemps.",
+          "en": "They have been friends for a long time."
+        }
+      ]
+    },
+    {
+      "fr": "préférer",
+      "en": "to prefer",
+      "emoji": "🍛",
+      "sentences": [
+        {
+          "fr": "Mon repas préféré c’est le poulet à l’orange avec du riz.",
+          "en": "My favorite meal is orange chicken with rice."
+        },
+        {
+          "fr": "Je préfère les pâtes aux légumes.",
+          "en": "I prefer pasta with vegetables."
+        },
+        {
+          "fr": "Il préfère le poisson au poulet.",
+          "en": "He prefers fish to chicken."
+        },
+        {
+          "fr": "Nous préférons manger à la maison.",
+          "en": "We prefer to eat at home."
+        },
+        {
+          "fr": "Quel est ton repas préféré ?",
+          "en": "What is your favorite meal?"
+        }
+      ]
+    }
+  ]
+}
