@@ -1,0 +1,575 @@
+{
+    "topic": {
+      "fr": "L'espace et le système solaire",
+      "en": "Space and the Solar System"
+    },
+    "items": [
+      {
+        "fr": "le soleil",
+        "en": "the sun",
+        "emoji": "☀️",
+        "sentences": [
+          {
+            "fr": "Le soleil brille dans le ciel.",
+            "en": "The sun shines in the sky."
+          },
+          {
+            "fr": "Le soleil est très chaud.",
+            "en": "The sun is very hot."
+          },
+          {
+            "fr": "Le soleil donne de la lumière.",
+            "en": "The sun gives light."
+          },
+          {
+            "fr": "Nous voyons le soleil le jour.",
+            "en": "We see the sun during the day."
+          },
+          {
+            "fr": "Les fleurs aiment le soleil.",
+            "en": "Flowers like the sun."
+          }
+        ]
+      },
+      {
+        "fr": "la lune",
+        "en": "the moon",
+        "emoji": "🌕",
+        "sentences": [
+          {
+            "fr": "La lune est dans le ciel la nuit.",
+            "en": "The moon is in the sky at night."
+          },
+          {
+            "fr": "La lune est ronde.",
+            "en": "The moon is round."
+          },
+          {
+            "fr": "Je vois la lune ce soir.",
+            "en": "I see the moon tonight."
+          },
+          {
+            "fr": "La lune est blanche.",
+            "en": "The moon is white."
+          },
+          {
+            "fr": "Les étoiles brillent autour de la lune.",
+            "en": "The stars shine around the moon."
+          }
+        ]
+      },
+      {
+        "fr": "la Terre",
+        "en": "the Earth",
+        "emoji": "🌍",
+        "sentences": [
+          {
+            "fr": "Nous vivons sur la Terre.",
+            "en": "We live on Earth."
+          },
+          {
+            "fr": "La Terre est une planète.",
+            "en": "Earth is a planet."
+          },
+          {
+            "fr": "La Terre tourne autour du soleil.",
+            "en": "The Earth goes around the sun."
+          },
+          {
+            "fr": "La Terre est bleue et verte.",
+            "en": "The Earth is blue and green."
+          },
+          {
+            "fr": "Les animaux vivent sur la Terre.",
+            "en": "Animals live on Earth."
+          }
+        ]
+      },
+      {
+        "fr": "une étoile",
+        "en": "a star",
+        "emoji": "⭐",
+        "sentences": [
+          {
+            "fr": "Je vois une étoile dans le ciel.",
+            "en": "I see a star in the sky."
+          },
+          {
+            "fr": "Les étoiles brillent la nuit.",
+            "en": "The stars shine at night."
+          },
+          {
+            "fr": "Une étoile peut être très grande.",
+            "en": "A star can be very big."
+          },
+          {
+            "fr": "Une étoile est loin.",
+            "en": "A star is far away."
+          },
+          {
+            "fr": "Le soleil est une étoile.",
+            "en": "The sun is a star."
+          }
+        ]
+      },
+      {
+        "fr": "un astronaute",
+        "en": "an astronaut",
+        "emoji": "👨‍🚀",
+        "sentences": [
+          {
+            "fr": "Un astronaute va dans l’espace.",
+            "en": "An astronaut goes to space."
+          },
+          {
+            "fr": "L’astronaute porte une combinaison.",
+            "en": "The astronaut wears a suit."
+          },
+          {
+            "fr": "L’astronaute flotte dans l’espace.",
+            "en": "The astronaut floats in space."
+          },
+          {
+            "fr": "L’astronaute travaille dans une fusée.",
+            "en": "The astronaut works in a rocket."
+          },
+          {
+            "fr": "Un jour, je veux être astronaute.",
+            "en": "One day, I want to be an astronaut."
+          }
+        ]
+      },
+      {
+        "fr": "une fusée",
+        "en": "a rocket",
+        "emoji": "🚀",
+        "sentences": [
+          {
+            "fr": "La fusée vole dans le ciel.",
+            "en": "The rocket flies in the sky."
+          },
+          {
+            "fr": "Une fusée est très rapide.",
+            "en": "A rocket is very fast."
+          },
+          {
+            "fr": "La fusée part de la Terre.",
+            "en": "The rocket leaves from Earth."
+          },
+          {
+            "fr": "Les fusées vont dans l’espace.",
+            "en": "Rockets go to space."
+          },
+          {
+            "fr": "L’astronaute monte dans la fusée.",
+            "en": "The astronaut gets in the rocket."
+          }
+        ]
+      },
+      {
+        "fr": "le ciel",
+        "en": "the sky",
+        "emoji": "🌌",
+        "sentences": [
+          {
+            "fr": "Le ciel est bleu le jour.",
+            "en": "The sky is blue during the day."
+          },
+          {
+            "fr": "Il y a des étoiles dans le ciel.",
+            "en": "There are stars in the sky."
+          },
+          {
+            "fr": "Un oiseau vole dans le ciel.",
+            "en": "A bird flies in the sky."
+          },
+          {
+            "fr": "La lune est dans le ciel.",
+            "en": "The moon is in the sky."
+          },
+          {
+            "fr": "La fusée monte dans le ciel.",
+            "en": "The rocket goes up in the sky."
+          }
+        ]
+      },
+      {
+        "fr": "Mars",
+        "en": "Mars",
+        "emoji": "🔴",
+        "sentences": [
+          {
+            "fr": "Mars est une planète rouge.",
+            "en": "Mars is a red planet."
+          },
+          {
+            "fr": "Il y a des robots sur Mars.",
+            "en": "There are robots on Mars."
+          },
+          {
+            "fr": "Un jour, on ira sur Mars.",
+            "en": "One day, we will go to Mars."
+          },
+          {
+            "fr": "Mars est plus petite que la Terre.",
+            "en": "Mars is smaller than Earth."
+          },
+          {
+            "fr": "Mars tourne autour du soleil.",
+            "en": "Mars goes around the sun."
+          }
+        ]
+      },
+      {
+        "fr": "Jupiter",
+        "en": "Jupiter",
+        "emoji": "🟠",
+        "sentences": [
+          {
+            "fr": "Jupiter est une grosse planète.",
+            "en": "Jupiter is a big planet."
+          },
+          {
+            "fr": "Jupiter a beaucoup de lunes.",
+            "en": "Jupiter has many moons."
+          },
+          {
+            "fr": "Jupiter est très loin.",
+            "en": "Jupiter is very far."
+          },
+          {
+            "fr": "On ne peut pas aller sur Jupiter.",
+            "en": "We cannot go to Jupiter."
+          },
+          {
+            "fr": "Jupiter est une planète gazeuse.",
+            "en": "Jupiter is a gas planet."
+          }
+        ]
+      },
+      {
+        "fr": "la gravité",
+        "en": "gravity",
+        "emoji": "",
+        "sentences": [
+          {
+            "fr": "La gravité nous garde au sol.",
+            "en": "Gravity keeps us on the ground."
+          },
+          {
+            "fr": "Sur la lune, la gravité est faible.",
+            "en": "On the moon, gravity is weak."
+          },
+          {
+            "fr": "Les astronautes flottent sans gravité.",
+            "en": "Astronauts float without gravity."
+          },
+          {
+            "fr": "La gravité attire les objets.",
+            "en": "Gravity pulls objects."
+          },
+          {
+            "fr": "La gravité est partout.",
+            "en": "Gravity is everywhere."
+          }
+        ]
+      },
+      {
+        "fr": "Saturne",
+        "en": "Saturn",
+        "emoji": "🪐",
+        "sentences": [
+          {
+            "fr": "Saturne a de grands anneaux.",
+            "en": "Saturn has big rings."
+          },
+          {
+            "fr": "Saturne est une planète géante.",
+            "en": "Saturn is a giant planet."
+          },
+          {
+            "fr": "Les anneaux de Saturne sont beaux.",
+            "en": "Saturn's rings are beautiful."
+          },
+          {
+            "fr": "Saturne tourne lentement.",
+            "en": "Saturn spins slowly."
+          },
+          {
+            "fr": "Saturne est très loin.",
+            "en": "Saturn is very far."
+          }
+        ]
+      },
+    {
+      "fr": "Vénus",
+      "en": "Venus",
+      "emoji": "🟡",
+      "sentences": [
+        {
+          "fr": "Vénus est une planète chaude.",
+          "en": "Venus is a hot planet."
+        },
+        {
+          "fr": "Vénus est proche du soleil.",
+          "en": "Venus is close to the sun."
+        },
+        {
+          "fr": "Vénus est plus brillante que Mars.",
+          "en": "Venus is brighter than Mars."
+        },
+        {
+          "fr": "On ne peut pas vivre sur Vénus.",
+          "en": "We cannot live on Venus."
+        },
+        {
+          "fr": "Vénus tourne lentement.",
+          "en": "Venus spins slowly."
+        }
+      ]
+    },
+    {
+      "fr": "Mercure",
+      "en": "Mercury",
+      "emoji": "⚫",
+      "sentences": [
+        {
+          "fr": "Mercure est la planète la plus proche du soleil.",
+          "en": "Mercury is the closest planet to the sun."
+        },
+        {
+          "fr": "Mercure est très chaude le jour.",
+          "en": "Mercury is very hot during the day."
+        },
+        {
+          "fr": "Mercure est petite.",
+          "en": "Mercury is small."
+        },
+        {
+          "fr": "Il n’y a pas d’air sur Mercure.",
+          "en": "There is no air on Mercury."
+        },
+        {
+          "fr": "La nuit, Mercure est très froide.",
+          "en": "At night, Mercury is very cold."
+        }
+      ]
+    },
+    {
+      "fr": "Uranus",
+      "en": "Uranus",
+      "emoji": "🔵",
+      "sentences": [
+        {
+          "fr": "Uranus est une planète bleue.",
+          "en": "Uranus is a blue planet."
+        },
+        {
+          "fr": "Uranus est très loin de la Terre.",
+          "en": "Uranus is very far from Earth."
+        },
+        {
+          "fr": "Uranus a des anneaux aussi.",
+          "en": "Uranus also has rings."
+        },
+        {
+          "fr": "Uranus est une planète froide.",
+          "en": "Uranus is a cold planet."
+        },
+        {
+          "fr": "Uranus tourne sur le côté.",
+          "en": "Uranus spins on its side."
+        }
+      ]
+    },
+    {
+      "fr": "Neptune",
+      "en": "Neptune",
+      "emoji": "🔵",
+      "sentences": [
+        {
+          "fr": "Neptune est une planète bleue foncée.",
+          "en": "Neptune is a dark blue planet."
+        },
+        {
+          "fr": "Neptune est très froide.",
+          "en": "Neptune is very cold."
+        },
+        {
+          "fr": "Il y a beaucoup de vent sur Neptune.",
+          "en": "There is a lot of wind on Neptune."
+        },
+        {
+          "fr": "Neptune est la planète la plus lointaine.",
+          "en": "Neptune is the farthest planet."
+        },
+        {
+          "fr": "Neptune tourne très vite.",
+          "en": "Neptune spins very fast."
+        }
+      ]
+    },
+    {
+      "fr": "une comète",
+      "en": "a comet",
+      "emoji": "☄️",
+      "sentences": [
+        {
+          "fr": "Une comète vole dans l’espace.",
+          "en": "A comet flies in space."
+        },
+        {
+          "fr": "Une comète a une longue queue.",
+          "en": "A comet has a long tail."
+        },
+        {
+          "fr": "On peut voir une comète dans le ciel.",
+          "en": "We can see a comet in the sky."
+        },
+        {
+          "fr": "Une comète est faite de glace et de poussière.",
+          "en": "A comet is made of ice and dust."
+        },
+        {
+          "fr": "Les comètes tournent autour du soleil.",
+          "en": "Comets go around the sun."
+        }
+      ]
+    },
+    {
+      "fr": "un télescope",
+      "en": "a telescope",
+      "emoji": "🔭",
+      "sentences": [
+        {
+          "fr": "Je regarde les étoiles avec un télescope.",
+          "en": "I look at the stars with a telescope."
+        },
+        {
+          "fr": "Le télescope est très grand.",
+          "en": "The telescope is very big."
+        },
+        {
+          "fr": "Un télescope aide à voir loin.",
+          "en": "A telescope helps to see far."
+        },
+        {
+          "fr": "Les scientifiques utilisent des télescopes.",
+          "en": "Scientists use telescopes."
+        },
+        {
+          "fr": "Le télescope montre la lune.",
+          "en": "The telescope shows the moon."
+        }
+      ]
+    },
+    {
+      "fr": "la Voie lactée",
+      "en": "the Milky Way",
+      "emoji": "🌌",
+      "sentences": [
+        {
+          "fr": "La Terre est dans la Voie lactée.",
+          "en": "Earth is in the Milky Way."
+        },
+        {
+          "fr": "La Voie lactée est une galaxie.",
+          "en": "The Milky Way is a galaxy."
+        },
+        {
+          "fr": "Il y a des milliards d’étoiles dans la Voie lactée.",
+          "en": "There are billions of stars in the Milky Way."
+        },
+        {
+          "fr": "La Voie lactée est très grande.",
+          "en": "The Milky Way is very big."
+        },
+        {
+          "fr": "Je vois la Voie lactée la nuit.",
+          "en": "I see the Milky Way at night."
+        }
+      ]
+    },
+    {
+      "fr": "un robot spatial",
+      "en": "a space robot",
+      "emoji": "🤖",
+      "sentences": [
+        {
+          "fr": "Un robot spatial explore Mars.",
+          "en": "A space robot explores Mars."
+        },
+        {
+          "fr": "Le robot prend des photos.",
+          "en": "The robot takes pictures."
+        },
+        {
+          "fr": "Le robot roule sur le sol.",
+          "en": "The robot rolls on the ground."
+        },
+        {
+          "fr": "Le robot envoie des données à la Terre.",
+          "en": "The robot sends data to Earth."
+        },
+        {
+          "fr": "Le robot est très intelligent.",
+          "en": "The robot is very smart."
+        }
+      ]
+    },
+    {
+      "fr": "une station spatiale",
+      "en": "a space station",
+      "emoji": "🛰️",
+      "sentences": [
+        {
+          "fr": "Les astronautes vivent dans une station spatiale.",
+          "en": "Astronauts live in a space station."
+        },
+        {
+          "fr": "La station spatiale tourne autour de la Terre.",
+          "en": "The space station goes around the Earth."
+        },
+        {
+          "fr": "On peut faire des expériences dans la station.",
+          "en": "We can do experiments in the station."
+        },
+        {
+          "fr": "La station flotte dans l’espace.",
+          "en": "The station floats in space."
+        },
+        {
+          "fr": "Les stations spatiales sont très grandes.",
+          "en": "Space stations are very big."
+        }
+      ]
+    },
+    {
+      "fr": "un satellite",
+      "en": "a satellite",
+      "emoji": "🛰️",
+      "sentences": [
+        {
+          "fr": "Un satellite tourne autour de la Terre.",
+          "en": "A satellite goes around the Earth."
+        },
+        {
+          "fr": "Les satellites aident la télévision.",
+          "en": "Satellites help with television."
+        },
+        {
+          "fr": "Un satellite est dans l’espace.",
+          "en": "A satellite is in space."
+        },
+        {
+          "fr": "Le satellite envoie des messages.",
+          "en": "The satellite sends messages."
+        },
+        {
+          "fr": "Il y a beaucoup de satellites autour de la Terre.",
+          "en": "There are many satellites around the Earth."
+        }
+      ]
+    }
+  ]
+}
