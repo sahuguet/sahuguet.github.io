@@ -1,0 +1,548 @@
+{
+  "topic": {
+    "fr": "L'histoire de Wicked",
+    "en": "The story of Wicked"
+  },
+  "items": [
+    {
+      "fr": "voler",
+      "en": "to fly",
+      "emoji": "🧹",
+      "sentences": [
+        {
+          "fr": "Elphaba vole sur son balai.",
+          "en": "Elphaba flies on her broom."
+        },
+        {
+          "fr": "Je veux voler comme Elphaba.",
+          "en": "I want to fly like Elphaba."
+        },
+        {
+          "fr": "Tu voles très haut !",
+          "en": "You fly very high!"
+        },
+        {
+          "fr": "Les sorcières volent dans le ciel.",
+          "en": "The witches fly in the sky."
+        },
+        {
+          "fr": "Elle vole et chante.",
+          "en": "She flies and sings."
+        }
+      ]
+    },
+    {
+      "fr": "chanter",
+      "en": "to sing",
+      "emoji": "🎤",
+      "sentences": [
+        {
+          "fr": "Glinda aime chanter.",
+          "en": "Glinda loves to sing."
+        },
+        {
+          "fr": "Elphaba chante fort.",
+          "en": "Elphaba sings loudly."
+        },
+        {
+          "fr": "Nous chantons ensemble.",
+          "en": "We sing together."
+        },
+        {
+          "fr": "Vous chantez bien.",
+          "en": "You sing well."
+        },
+        {
+          "fr": "Ils chantent une chanson magique.",
+          "en": "They sing a magical song."
+        }
+      ]
+    },
+    {
+      "fr": "être amie",
+      "en": "to be friends",
+      "emoji": "👭",
+      "sentences": [
+        {
+          "fr": "Glinda et Elphaba sont amies.",
+          "en": "Glinda and Elphaba are friends."
+        },
+        {
+          "fr": "Je suis amie avec toi.",
+          "en": "I am friends with you."
+        },
+        {
+          "fr": "Tu es mon amie.",
+          "en": "You are my friend."
+        },
+        {
+          "fr": "Nous sommes amies à l’école.",
+          "en": "We are friends at school."
+        },
+        {
+          "fr": "Elles deviennent amies.",
+          "en": "They become friends."
+        }
+      ]
+    },
+    {
+      "fr": "aider",
+      "en": "to help",
+      "emoji": "🤝",
+      "sentences": [
+        {
+          "fr": "Elphaba aide un animal.",
+          "en": "Elphaba helps an animal."
+        },
+        {
+          "fr": "Je veux t’aider.",
+          "en": "I want to help you."
+        },
+        {
+          "fr": "Tu aides ton amie.",
+          "en": "You help your friend."
+        },
+        {
+          "fr": "Il aide les autres.",
+          "en": "He helps others."
+        },
+        {
+          "fr": "Nous aidons ensemble.",
+          "en": "We help together."
+        }
+      ]
+    },
+    {
+      "fr": "devenir",
+      "en": "to become",
+      "emoji": "✨",
+      "sentences": [
+        {
+          "fr": "Elle devient une sorcière.",
+          "en": "She becomes a witch."
+        },
+        {
+          "fr": "Je deviens plus fort.",
+          "en": "I become stronger."
+        },
+        {
+          "fr": "Tu deviens gentil.",
+          "en": "You become kind."
+        },
+        {
+          "fr": "Nous devenons célèbres.",
+          "en": "We become famous."
+        },
+        {
+          "fr": "Ils deviennent amis.",
+          "en": "They become friends."
+        }
+      ]
+    },
+    {
+      "fr": "être différent",
+      "en": "to be different",
+      "emoji": "🟩",
+      "sentences": [
+        {
+          "fr": "Elphaba est différente.",
+          "en": "Elphaba is different."
+        },
+        {
+          "fr": "Je suis différent aussi.",
+          "en": "I am different too."
+        },
+        {
+          "fr": "Tu es spécial.",
+          "en": "You are special."
+        },
+        {
+          "fr": "Il est vert, c’est unique.",
+          "en": "He is green, it’s unique."
+        },
+        {
+          "fr": "Nous sommes tous différents.",
+          "en": "We are all different."
+        }
+      ]
+    },
+    {
+      "fr": "croire",
+      "en": "to believe",
+      "emoji": "🌠",
+      "sentences": [
+        {
+          "fr": "Elphaba croit en la justice.",
+          "en": "Elphaba believes in justice."
+        },
+        {
+          "fr": "Je crois en toi.",
+          "en": "I believe in you."
+        },
+        {
+          "fr": "Tu crois en la magie.",
+          "en": "You believe in magic."
+        },
+        {
+          "fr": "Elle croit aux animaux.",
+          "en": "She believes in animals."
+        },
+        {
+          "fr": "Nous croyons ensemble.",
+          "en": "We believe together."
+        }
+      ]
+    },
+    {
+      "fr": "choisir",
+      "en": "to choose",
+      "emoji": "🤔",
+      "sentences": [
+        {
+          "fr": "Elphaba choisit d’être libre.",
+          "en": "Elphaba chooses to be free."
+        },
+        {
+          "fr": "Je choisis mon chemin.",
+          "en": "I choose my path."
+        },
+        {
+          "fr": "Tu choisis la vérité.",
+          "en": "You choose the truth."
+        },
+        {
+          "fr": "Elle choisit l’amitié.",
+          "en": "She chooses friendship."
+        },
+        {
+          "fr": "Nous choisissons ensemble.",
+          "en": "We choose together."
+        }
+      ]
+    },
+    {
+      "fr": "se disputer",
+      "en": "to argue",
+      "emoji": "⚡",
+      "sentences": [
+        {
+          "fr": "Glinda et Elphaba se disputent parfois.",
+          "en": "Glinda and Elphaba argue sometimes."
+        },
+        {
+          "fr": "Je me dispute avec mon frère.",
+          "en": "I argue with my brother."
+        },
+        {
+          "fr": "Tu te disputes souvent.",
+          "en": "You argue often."
+        },
+        {
+          "fr": "Ils se disputent à l’école.",
+          "en": "They argue at school."
+        },
+        {
+          "fr": "Nous ne nous disputons pas.",
+          "en": "We do not argue."
+        }
+      ]
+    },
+    {
+      "fr": "changer",
+      "en": "to change",
+      "emoji": "🔄",
+      "sentences": [
+        {
+          "fr": "Elphaba change le monde.",
+          "en": "Elphaba changes the world."
+        },
+        {
+          "fr": "Je change d’avis.",
+          "en": "I change my mind."
+        },
+        {
+          "fr": "Tu changes vite.",
+          "en": "You change quickly."
+        },
+        {
+          "fr": "Elle change beaucoup.",
+          "en": "She changes a lot."
+        },
+        {
+          "fr": "Nous changeons pour le mieux.",
+          "en": "We change for the better."
+        }
+      ]
+    },
+    {
+      "fr": "lancer un sort",
+      "en": "to cast a spell",
+      "emoji": "🪄",
+      "sentences": [
+        {
+          "fr": "La sorcière lance un sort.",
+          "en": "The witch casts a spell."
+        },
+        {
+          "fr": "Je lance un sort magique.",
+          "en": "I cast a magical spell."
+        },
+        {
+          "fr": "Tu lances un sort de bonheur.",
+          "en": "You cast a happiness spell."
+        },
+        {
+          "fr": "Elle lance un mauvais sort.",
+          "en": "She casts a bad spell."
+        },
+        {
+          "fr": "Nous lançons des sorts gentils.",
+          "en": "We cast kind spells."
+        }
+      ]
+    },
+    {
+      "fr": "voler sur un balai",
+      "en": "to fly on a broom",
+      "emoji": "🧹",
+      "sentences": [
+        {
+          "fr": "La sorcière vole sur un balai.",
+          "en": "The witch flies on a broom."
+        },
+        {
+          "fr": "Je vole sur mon balai magique.",
+          "en": "I fly on my magic broom."
+        },
+        {
+          "fr": "Tu voles dans la nuit.",
+          "en": "You fly in the night."
+        },
+        {
+          "fr": "Elle vole très vite.",
+          "en": "She flies very fast."
+        },
+        {
+          "fr": "Nous volons au-dessus du château.",
+          "en": "We fly over the castle."
+        }
+      ]
+    },
+    {
+      "fr": "vivre dans un château",
+      "en": "to live in a castle",
+      "emoji": "🏰",
+      "sentences": [
+        {
+          "fr": "La princesse vit dans un château.",
+          "en": "The princess lives in a castle."
+        },
+        {
+          "fr": "Je vis dans un grand château.",
+          "en": "I live in a big castle."
+        },
+        {
+          "fr": "Tu vis avec le roi et la reine.",
+          "en": "You live with the king and queen."
+        },
+        {
+          "fr": "Elle vit dans une tour.",
+          "en": "She lives in a tower."
+        },
+        {
+          "fr": "Nous vivons dans un château magique.",
+          "en": "We live in a magical castle."
+        }
+      ]
+    },
+    {
+      "fr": "être une princesse",
+      "en": "to be a princess",
+      "emoji": "👸",
+      "sentences": [
+        {
+          "fr": "Glinda pense qu’elle est une princesse.",
+          "en": "Glinda thinks she is a princess."
+        },
+        {
+          "fr": "Je suis une princesse courageuse.",
+          "en": "I am a brave princess."
+        },
+        {
+          "fr": "Tu es une vraie princesse.",
+          "en": "You are a true princess."
+        },
+        {
+          "fr": "Elle est gentille et royale.",
+          "en": "She is kind and royal."
+        },
+        {
+          "fr": "Nous jouons aux princesses.",
+          "en": "We play princesses."
+        }
+      ]
+    },
+    {
+      "fr": "cacher un secret",
+      "en": "to hide a secret",
+      "emoji": "🤫",
+      "sentences": [
+        {
+          "fr": "Elphaba cache un secret.",
+          "en": "Elphaba hides a secret."
+        },
+        {
+          "fr": "Je cache un secret magique.",
+          "en": "I hide a magical secret."
+        },
+        {
+          "fr": "Tu caches un secret dans ton livre.",
+          "en": "You hide a secret in your book."
+        },
+        {
+          "fr": "Elle cache la vérité.",
+          "en": "She hides the truth."
+        },
+        {
+          "fr": "Nous cachons un secret ensemble.",
+          "en": "We hide a secret together."
+        }
+      ]
+    },
+    {
+      "fr": "parler aux animaux",
+      "en": "to talk to animals",
+      "emoji": "🐦",
+      "sentences": [
+        {
+          "fr": "La sorcière parle aux animaux.",
+          "en": "The witch talks to animals."
+        },
+        {
+          "fr": "Je parle à mon chat magique.",
+          "en": "I talk to my magic cat."
+        },
+        {
+          "fr": "Tu parles aux oiseaux.",
+          "en": "You talk to the birds."
+        },
+        {
+          "fr": "Elle parle à une chouette blanche.",
+          "en": "She talks to a white owl."
+        },
+        {
+          "fr": "Nous parlons aux animaux de la forêt.",
+          "en": "We talk to the animals of the forest."
+        }
+      ]
+    },
+    {
+      "fr": "fabriquer une potion",
+      "en": "to make a potion",
+      "emoji": "🧪",
+      "sentences": [
+        {
+          "fr": "La sorcière fabrique une potion.",
+          "en": "The witch makes a potion."
+        },
+        {
+          "fr": "Je fabrique une potion de vol.",
+          "en": "I make a flying potion."
+        },
+        {
+          "fr": "Tu fabriques une potion verte.",
+          "en": "You make a green potion."
+        },
+        {
+          "fr": "Elle fabrique une potion d’amour.",
+          "en": "She makes a love potion."
+        },
+        {
+          "fr": "Nous fabriquons une potion ensemble.",
+          "en": "We make a potion together."
+        }
+      ]
+    },
+    {
+      "fr": "s’échapper",
+      "en": "to escape",
+      "emoji": "🏃‍♀️",
+      "sentences": [
+        {
+          "fr": "Elphaba s’échappe du château.",
+          "en": "Elphaba escapes from the castle."
+        },
+        {
+          "fr": "Je m’échappe dans la nuit.",
+          "en": "I escape in the night."
+        },
+        {
+          "fr": "Tu t’échappes de la tour.",
+          "en": "You escape from the tower."
+        },
+        {
+          "fr": "Elle s’échappe avec son balai.",
+          "en": "She escapes with her broom."
+        },
+        {
+          "fr": "Nous nous échappons ensemble.",
+          "en": "We escape together."
+        }
+      ]
+    },
+    {
+      "fr": "rêver",
+      "en": "to dream",
+      "emoji": "💭",
+      "sentences": [
+        {
+          "fr": "La princesse rêve de liberté.",
+          "en": "The princess dreams of freedom."
+        },
+        {
+          "fr": "Je rêve d’être une sorcière gentille.",
+          "en": "I dream of being a kind witch."
+        },
+        {
+          "fr": "Tu rêves de magie.",
+          "en": "You dream of magic."
+        },
+        {
+          "fr": "Elle rêve de voler.",
+          "en": "She dreams of flying."
+        },
+        {
+          "fr": "Nous rêvons de contes de fées.",
+          "en": "We dream of fairy tales."
+        }
+      ]
+    },
+    {
+      "fr": "trouver une baguette magique",
+      "en": "to find a magic wand",
+      "emoji": "✨",
+      "sentences": [
+        {
+          "fr": "Glinda trouve une baguette magique.",
+          "en": "Glinda finds a magic wand."
+        },
+        {
+          "fr": "Je trouve une baguette dans la forêt.",
+          "en": "I find a wand in the forest."
+        },
+        {
+          "fr": "Tu trouves une baguette brillante.",
+          "en": "You find a shiny wand."
+        },
+        {
+          "fr": "Elle trouve une baguette dorée.",
+          "en": "She finds a golden wand."
+        },
+        {
+          "fr": "Nous trouvons des baguettes magiques.",
+          "en": "We find magic wands."
+        }
+      ]
+    }
+  ]
+}
