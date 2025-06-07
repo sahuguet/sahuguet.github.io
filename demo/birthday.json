@@ -1,0 +1,236 @@
+{
+  "topic": {
+    "fr": "Fête d'anniversaire",
+    "en": "Birthday party"
+  },
+  "items": [
+    {
+      "fr": "gâteau",
+      "en": "cake",
+      "emoji": "🍰",
+      "sentences": [
+        { "fr": "Je mange un gâteau au chocolat.", "en": "I eat a chocolate cake." },
+        { "fr": "Le gâteau est sur la table.", "en": "The cake is on the table." },
+        { "fr": "Elle prépare un gâteau pour son anniversaire.", "en": "She is making a cake for her birthday." },
+        { "fr": "Nous partageons un grand gâteau.", "en": "We share a big cake." },
+        { "fr": "Tu veux un morceau de gâteau ?", "en": "Do you want a piece of cake?" }
+      ]
+    },
+    {
+      "fr": "cadeau",
+      "en": "gift",
+      "emoji": "🎁",
+      "sentences": [
+        { "fr": "Je reçois un cadeau.", "en": "I receive a gift." },
+        { "fr": "Il ouvre son cadeau.", "en": "He opens his gift." },
+        { "fr": "Nous donnons un cadeau à Léo.", "en": "We give a gift to Leo." },
+        { "fr": "Ce cadeau est pour toi.", "en": "This gift is for you." },
+        { "fr": "Elle aime ses cadeaux.", "en": "She likes her gifts." }
+      ]
+    },
+    {
+      "fr": "bougie",
+      "en": "candle",
+      "emoji": "🕯️",
+      "sentences": [
+        { "fr": "Je souffle les bougies.", "en": "I blow out the candles." },
+        { "fr": "Il y a six bougies sur le gâteau.", "en": "There are six candles on the cake." },
+        { "fr": "Maman allume les bougies.", "en": "Mom lights the candles." },
+        { "fr": "Les bougies brillent fort.", "en": "The candles shine brightly." },
+        { "fr": "Tu veux aider avec les bougies ?", "en": "Do you want to help with the candles?" }
+      ]
+    },
+    {
+      "fr": "ballon",
+      "en": "balloon",
+      "emoji": "🎈",
+      "sentences": [
+        { "fr": "Un ballon rouge vole dans le ciel.", "en": "A red balloon flies in the sky." },
+        { "fr": "Les enfants jouent avec les ballons.", "en": "The children play with the balloons." },
+        { "fr": "Nous décorons avec des ballons.", "en": "We decorate with balloons." },
+        { "fr": "Tu aimes ce ballon bleu ?", "en": "Do you like this blue balloon?" },
+        { "fr": "Il a un ballon dans chaque main.", "en": "He has a balloon in each hand." }
+      ]
+    },
+    {
+      "fr": "invitation",
+      "en": "invitation",
+      "emoji": "💌",
+      "sentences": [
+        { "fr": "Je fais une invitation.", "en": "I make an invitation." },
+        { "fr": "Voici ton invitation à ma fête.", "en": "Here is your invitation to my party." },
+        { "fr": "Nous envoyons les invitations.", "en": "We send the invitations." },
+        { "fr": "Elle lit l’invitation.", "en": "She reads the invitation." },
+        { "fr": "Tu as reçu une invitation ?", "en": "Did you get an invitation?" }
+      ]
+    },
+    {
+      "fr": "bonbon",
+      "en": "candy",
+      "emoji": "🍬",
+      "sentences": [
+        { "fr": "Il y a beaucoup de bonbons.", "en": "There are lots of candies." },
+        { "fr": "J'aime les bonbons rouges.", "en": "I like the red candies." },
+        { "fr": "Tu veux un bonbon ?", "en": "Do you want a candy?" },
+        { "fr": "Elle met les bonbons dans un bol.", "en": "She puts the candies in a bowl." },
+        { "fr": "Nous partageons les bonbons.", "en": "We share the candies." }
+      ]
+    },
+    {
+      "fr": "musique",
+      "en": "music",
+      "emoji": "🎶",
+      "sentences": [
+        { "fr": "Il y a de la musique à la fête.", "en": "There is music at the party." },
+        { "fr": "Je danse sur la musique.", "en": "I dance to the music." },
+        { "fr": "Nous aimons cette musique.", "en": "We like this music." },
+        { "fr": "Papa met la musique.", "en": "Dad plays the music." },
+        { "fr": "Tu entends la musique ?", "en": "Do you hear the music?" }
+      ]
+    },
+    {
+      "fr": "danse",
+      "en": "dance",
+      "emoji": "💃",
+      "sentences": [
+        { "fr": "Nous faisons une danse.", "en": "We do a dance." },
+        { "fr": "Je danse avec mes amis.", "en": "I dance with my friends." },
+        { "fr": "Ils dansent tous ensemble.", "en": "They all dance together." },
+        { "fr": "Tu veux danser ?", "en": "Do you want to dance?" },
+        { "fr": "La musique est bonne pour danser.", "en": "The music is good for dancing." }
+      ]
+    },
+    {
+      "fr": "chapeau",
+      "en": "hat",
+      "emoji": "🎉",
+      "sentences": [
+        { "fr": "Je porte un chapeau de fête.", "en": "I wear a party hat." },
+        { "fr": "Les enfants ont des chapeaux colorés.", "en": "The children have colorful hats." },
+        { "fr": "Voici ton chapeau !", "en": "Here is your hat!" },
+        { "fr": "Il met son chapeau.", "en": "He puts on his hat." },
+        { "fr": "Tu veux un chapeau aussi ?", "en": "Do you want a hat too?" }
+      ]
+    },
+    {
+      "fr": "photo",
+      "en": "photo",
+      "emoji": "📸",
+      "sentences": [
+        { "fr": "Je prends une photo.", "en": "I take a photo." },
+        { "fr": "Souriez pour la photo !", "en": "Smile for the photo!" },
+        { "fr": "Nous regardons les photos.", "en": "We look at the photos." },
+        { "fr": "Elle fait une belle photo.", "en": "She takes a beautiful photo." },
+        { "fr": "Tu veux une photo avec moi ?", "en": "Do you want a photo with me?" }
+      ]
+    },
+    {
+      "fr": "jeu",
+      "en": "game",
+      "emoji": "🎲",
+      "sentences": [
+        { "fr": "Nous jouons à un jeu.", "en": "We play a game." },
+        { "fr": "Quel jeu préfères-tu ?", "en": "Which game do you prefer?" },
+        { "fr": "Les enfants adorent ce jeu.", "en": "The children love this game." },
+        { "fr": "Tu veux jouer avec nous ?", "en": "Do you want to play with us?" },
+        { "fr": "C’est un jeu très amusant.", "en": "It’s a very fun game." }
+      ]
+    },
+    {
+      "fr": "ami",
+      "en": "friend",
+      "emoji": "👫",
+      "sentences": [
+        { "fr": "J’invite mes amis à la fête.", "en": "I invite my friends to the party." },
+        { "fr": "Voici mon ami Léo.", "en": "Here is my friend Leo." },
+        { "fr": "Elle joue avec ses amis.", "en": "She plays with her friends." },
+        { "fr": "Nous mangeons avec nos amis.", "en": "We eat with our friends." },
+        { "fr": "Tu es mon meilleur ami.", "en": "You are my best friend." }
+      ]
+    },
+    {
+      "fr": "sourire",
+      "en": "smile",
+      "emoji": "😊",
+      "sentences": [
+        { "fr": "Je souris sur la photo.", "en": "I smile in the photo." },
+        { "fr": "Elle a un joli sourire.", "en": "She has a pretty smile." },
+        { "fr": "Tu souris beaucoup aujourd’hui.", "en": "You smile a lot today." },
+        { "fr": "Les enfants sourient tous.", "en": "The children are all smiling." },
+        { "fr": "Un sourire rend tout plus beau.", "en": "A smile makes everything nicer." }
+      ]
+    },
+    {
+      "fr": "anniversaire",
+      "en": "birthday",
+      "emoji": "🎂",
+      "sentences": [
+        { "fr": "Aujourd’hui, c’est mon anniversaire.", "en": "Today is my birthday." },
+        { "fr": "Joyeux anniversaire !", "en": "Happy birthday!" },
+        { "fr": "Nous fêtons son anniversaire.", "en": "We celebrate his birthday." },
+        { "fr": "Elle a huit ans aujourd’hui.", "en": "She is eight years old today." },
+        { "fr": "Tu veux venir à mon anniversaire ?", "en": "Do you want to come to my birthday?" }
+      ]
+    },
+    {
+      "fr": "carte",
+      "en": "card",
+      "emoji": "📮",
+      "sentences": [
+        { "fr": "Je fais une carte d’anniversaire.", "en": "I make a birthday card." },
+        { "fr": "Voici une jolie carte pour toi.", "en": "Here is a pretty card for you." },
+        { "fr": "Tu écris la carte ?", "en": "Are you writing the card?" },
+        { "fr": "Maman lit la carte.", "en": "Mom reads the card." },
+        { "fr": "Il reçoit beaucoup de cartes.", "en": "He receives many cards." }
+      ]
+    },
+    {
+      "fr": "décoration",
+      "en": "decoration",
+      "emoji": "🎀",
+      "sentences": [
+        { "fr": "Nous faisons les décorations.", "en": "We do the decorations." },
+        { "fr": "Il y a des décorations partout.", "en": "There are decorations everywhere." },
+        { "fr": "Les décorations sont colorées.", "en": "The decorations are colorful." },
+        { "fr": "Papa accroche les décorations.", "en": "Dad hangs the decorations." },
+        { "fr": "Tu aimes ces décorations ?", "en": "Do you like these decorations?" }
+      ]
+    },
+    {
+      "fr": "fête",
+      "en": "party",
+      "emoji": "🥳",
+      "sentences": [
+        { "fr": "La fête commence maintenant !", "en": "The party starts now!" },
+        { "fr": "C’est une grande fête.", "en": "It’s a big party." },
+        { "fr": "Je vais à la fête de Léo.", "en": "I’m going to Leo’s party." },
+        { "fr": "Tu viens à la fête ?", "en": "Are you coming to the party?" },
+        { "fr": "Nous aimons faire la fête.", "en": "We love having parties." }
+      ]
+    },
+    {
+      "fr": "sucette",
+      "en": "lollipop",
+      "emoji": "🍭",
+      "sentences": [
+        { "fr": "Je mange une sucette.", "en": "I eat a lollipop." },
+        { "fr": "Tu veux une sucette rouge ?", "en": "Do you want a red lollipop?" },
+        { "fr": "Il a deux sucettes.", "en": "He has two lollipops." },
+        { "fr": "Les enfants aiment les sucettes.", "en": "Children love lollipops." },
+        { "fr": "Voici une sucette pour toi.", "en": "Here is a lollipop for you." }
+      ]
+    },
+    {
+      "fr": "clown",
+      "en": "clown",
+      "emoji": "🤡",
+      "sentences": [
+        { "fr": "Un clown vient à la fête.", "en": "A clown comes to the party." },
+        { "fr": "Le clown est drôle.", "en": "The clown is funny." },
+        { "fr": "Je ris avec le clown.", "en": "I laugh with the clown." },
+        { "fr": "Tu aimes les clowns ?", "en": "Do you like clowns?" },
+        { "fr": "Le clown fait de la magie.", "en": "The clown does magic." }
+      ]
+    }
+  ]
+}
