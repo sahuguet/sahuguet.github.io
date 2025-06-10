@@ -1,0 +1,278 @@
+{
+  "topic": {
+    "fr": "L'anniversaire",
+    "en": "Birthday"
+  },
+  "items": [
+    {
+      "fr": "anniversaire",
+      "en": "birthday",
+      "emoji": "🎂",
+      "sentences": [
+        {
+          "fr": "Aujourd'hui, c'est mon anniversaire.",
+          "en": "Today is my birthday."
+        },
+        {
+          "fr": "Il fête son anniversaire.",
+          "en": "He is celebrating his birthday."
+        },
+        {
+          "fr": "Nous aimons les anniversaires.",
+          "en": "We love birthdays."
+        },
+        {
+          "fr": "Tu as un anniversaire en juin.",
+          "en": "You have a birthday in June."
+        },
+        {
+          "fr": "Elle prépare son anniversaire.",
+          "en": "She is preparing her birthday."
+        }
+      ]
+    },
+    {
+      "fr": "gâteau",
+      "en": "cake",
+      "emoji": "🍰",
+      "sentences": [
+        {
+          "fr": "Je mange du gâteau.",
+          "en": "I eat cake."
+        },
+        {
+          "fr": "Le gâteau est au chocolat.",
+          "en": "The cake is chocolate."
+        },
+        {
+          "fr": "Nous faisons un gâteau.",
+          "en": "We are making a cake."
+        },
+        {
+          "fr": "Tu veux du gâteau ?",
+          "en": "Do you want some cake?"
+        },
+        {
+          "fr": "Elle coupe le gâteau.",
+          "en": "She cuts the cake."
+        }
+      ]
+    },
+    {
+      "fr": "cadeau",
+      "en": "present",
+      "emoji": "🎁",
+      "sentences": [
+        {
+          "fr": "J’ai un cadeau.",
+          "en": "I have a present."
+        },
+        {
+          "fr": "Il ouvre son cadeau.",
+          "en": "He opens his present."
+        },
+        {
+          "fr": "Tu donnes un cadeau.",
+          "en": "You give a present."
+        },
+        {
+          "fr": "Elle reçoit un cadeau.",
+          "en": "She receives a present."
+        },
+        {
+          "fr": "Nous avons beaucoup de cadeaux.",
+          "en": "We have many presents."
+        }
+      ]
+    },
+    {
+      "fr": "bougie",
+      "en": "candle",
+      "emoji": "🕯️",
+      "sentences": [
+        {
+          "fr": "Je souffle les bougies.",
+          "en": "I blow out the candles."
+        },
+        {
+          "fr": "Il y a sept bougies.",
+          "en": "There are seven candles."
+        },
+        {
+          "fr": "Elle allume les bougies.",
+          "en": "She lights the candles."
+        },
+        {
+          "fr": "Les bougies sont sur le gâteau.",
+          "en": "The candles are on the cake."
+        },
+        {
+          "fr": "Nous comptons les bougies.",
+          "en": "We count the candles."
+        }
+      ]
+    },
+    {
+      "fr": "ballon",
+      "en": "balloon",
+      "emoji": "🎈",
+      "sentences": [
+        {
+          "fr": "J’ai un ballon rouge.",
+          "en": "I have a red balloon."
+        },
+        {
+          "fr": "Les ballons volent.",
+          "en": "The balloons are flying."
+        },
+        {
+          "fr": "Tu tiens un ballon.",
+          "en": "You are holding a balloon."
+        },
+        {
+          "fr": "Il éclate un ballon.",
+          "en": "He pops a balloon."
+        },
+        {
+          "fr": "Nous décorons avec des ballons.",
+          "en": "We decorate with balloons."
+        }
+      ]
+    },
+    {
+      "fr": "chapeau",
+      "en": "party hat",
+      "emoji": "🎉",
+      "sentences": [
+        {
+          "fr": "Je porte un chapeau de fête.",
+          "en": "I wear a party hat."
+        },
+        {
+          "fr": "Il met son chapeau.",
+          "en": "He puts on his hat."
+        },
+        {
+          "fr": "Nous avons des chapeaux colorés.",
+          "en": "We have colorful hats."
+        },
+        {
+          "fr": "Tu veux un chapeau ?",
+          "en": "Do you want a hat?"
+        },
+        {
+          "fr": "Elle aime son chapeau de fête.",
+          "en": "She likes her party hat."
+        }
+      ]
+    },
+    {
+      "fr": "fête",
+      "en": "party",
+      "emoji": "🥳",
+      "sentences": [
+        {
+          "fr": "Je fais une fête.",
+          "en": "I am having a party."
+        },
+        {
+          "fr": "C'est une grande fête.",
+          "en": "It’s a big party."
+        },
+        {
+          "fr": "Tu viens à la fête ?",
+          "en": "Are you coming to the party?"
+        },
+        {
+          "fr": "Nous préparons la fête.",
+          "en": "We are preparing the party."
+        },
+        {
+          "fr": "Elle organise une fête.",
+          "en": "She is organizing a party."
+        }
+      ]
+    },
+    {
+      "fr": "invité",
+      "en": "guest",
+      "emoji": "👫",
+      "sentences": [
+        {
+          "fr": "Les invités arrivent.",
+          "en": "The guests are arriving."
+        },
+        {
+          "fr": "Il y a dix invités.",
+          "en": "There are ten guests."
+        },
+        {
+          "fr": "Chaque invité a un cadeau.",
+          "en": "Each guest has a gift."
+        },
+        {
+          "fr": "Tu es mon invité.",
+          "en": "You are my guest."
+        },
+        {
+          "fr": "Nous saluons les invités.",
+          "en": "We greet the guests."
+        }
+      ]
+    },
+    {
+      "fr": "jouer",
+      "en": "to play",
+      "emoji": "🧸",
+      "sentences": [
+        {
+          "fr": "Je joue avec mes amis.",
+          "en": "I play with my friends."
+        },
+        {
+          "fr": "Tu joues à cache-cache.",
+          "en": "You play hide-and-seek."
+        },
+        {
+          "fr": "Il joue à un jeu.",
+          "en": "He is playing a game."
+        },
+        {
+          "fr": "Nous jouons ensemble.",
+          "en": "We play together."
+        },
+        {
+          "fr": "Elle aime jouer.",
+          "en": "She likes to play."
+        }
+      ]
+    },
+    {
+      "fr": "chanter",
+      "en": "to sing",
+      "emoji": "🎶",
+      "sentences": [
+        {
+          "fr": "Nous chantons une chanson.",
+          "en": "We sing a song."
+        },
+        {
+          "fr": "Tu chantes bien.",
+          "en": "You sing well."
+        },
+        {
+          "fr": "Je chante pour toi.",
+          "en": "I sing for you."
+        },
+        {
+          "fr": "Ils chantent ensemble.",
+          "en": "They sing together."
+        },
+        {
+          "fr": "Elle aime chanter.",
+          "en": "She loves to sing."
+        }
+      ]
+    }
+  ]
+}

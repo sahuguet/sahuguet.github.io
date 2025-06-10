@@ -1,0 +1,236 @@
+{
+  "topic": {
+    "fr": "La fête des pères",
+    "en": "Father's Day"
+  },
+  "items": [
+    {
+      "fr": "papa",
+      "en": "dad",
+      "emoji": "👨‍👧",
+      "sentences": [
+        { "fr": "J'aime mon papa.", "en": "I love my dad." },
+        { "fr": "Papa est gentil.", "en": "Dad is kind." },
+        { "fr": "Je fais un dessin pour papa.", "en": "I draw a picture for dad." },
+        { "fr": "Papa joue avec moi.", "en": "Dad plays with me." },
+        { "fr": "Je fais un câlin à papa.", "en": "I give dad a hug." }
+      ]
+    },
+    {
+      "fr": "cadeau",
+      "en": "gift",
+      "emoji": "🎁",
+      "sentences": [
+        { "fr": "Je prépare un cadeau.", "en": "I prepare a gift." },
+        { "fr": "Voici un cadeau pour papa.", "en": "Here is a gift for dad." },
+        { "fr": "Le cadeau est dans la boîte.", "en": "The gift is in the box." },
+        { "fr": "C'est un beau cadeau.", "en": "It’s a beautiful gift." },
+        { "fr": "Le cadeau est fait à la main.", "en": "The gift is handmade." }
+      ]
+    },
+    {
+      "fr": "carte",
+      "en": "card",
+      "emoji": "💌",
+      "sentences": [
+        { "fr": "J'écris une carte pour papa.", "en": "I write a card for dad." },
+        { "fr": "La carte est colorée.", "en": "The card is colorful." },
+        { "fr": "Je colle un cœur sur la carte.", "en": "I stick a heart on the card." },
+        { "fr": "La carte est pour la fête des pères.", "en": "The card is for Father's Day." },
+        { "fr": "Papa lit la carte.", "en": "Dad reads the card." }
+      ]
+    },
+    {
+      "fr": "cœur",
+      "en": "heart",
+      "emoji": "❤️",
+      "sentences": [
+        { "fr": "Je dessine un cœur.", "en": "I draw a heart." },
+        { "fr": "Un cœur pour mon papa.", "en": "A heart for my dad." },
+        { "fr": "Le cœur est rouge.", "en": "The heart is red." },
+        { "fr": "Je découpe un cœur en papier.", "en": "I cut out a paper heart." },
+        { "fr": "Le cœur est collé sur la carte.", "en": "The heart is stuck on the card." }
+      ]
+    },
+    {
+      "fr": "fête",
+      "en": "celebration",
+      "emoji": "🎉",
+      "sentences": [
+        { "fr": "C’est la fête des pères.", "en": "It’s Father's Day." },
+        { "fr": "On prépare une fête.", "en": "We are preparing a celebration." },
+        { "fr": "La fête est pour papa.", "en": "The celebration is for dad." },
+        { "fr": "Tout le monde chante pour la fête.", "en": "Everyone sings for the celebration." },
+        { "fr": "La fête est joyeuse.", "en": "The celebration is joyful." }
+      ]
+    },
+    {
+      "fr": "dessin",
+      "en": "drawing",
+      "emoji": "🖼️",
+      "sentences": [
+        { "fr": "Je fais un dessin pour papa.", "en": "I make a drawing for dad." },
+        { "fr": "Le dessin est coloré.", "en": "The drawing is colorful." },
+        { "fr": "Je mets le dessin sur le frigo.", "en": "I put the drawing on the fridge." },
+        { "fr": "Papa aime mon dessin.", "en": "Dad loves my drawing." },
+        { "fr": "C’est un dessin de notre famille.", "en": "It’s a drawing of our family." }
+      ]
+    },
+    {
+      "fr": "bisou",
+      "en": "kiss",
+      "emoji": "💋",
+      "sentences": [
+        { "fr": "Je fais un bisou à papa.", "en": "I give dad a kiss." },
+        { "fr": "Un bisou pour la fête des pères.", "en": "A kiss for Father’s Day." },
+        { "fr": "Papa me fait un bisou.", "en": "Dad gives me a kiss." },
+        { "fr": "Je donne un gros bisou.", "en": "I give a big kiss." },
+        { "fr": "Je dis bonjour avec un bisou.", "en": "I say hello with a kiss." }
+      ]
+    },
+    {
+      "fr": "merci",
+      "en": "thank you",
+      "emoji": "🙏",
+      "sentences": [
+        { "fr": "Je dis merci à papa.", "en": "I say thank you to dad." },
+        { "fr": "Merci pour tout, papa.", "en": "Thanks for everything, dad." },
+        { "fr": "Un grand merci aujourd'hui.", "en": "A big thank you today." },
+        { "fr": "Merci pour les câlins.", "en": "Thank you for the hugs." },
+        { "fr": "Merci pour les jeux.", "en": "Thank you for the games." }
+      ]
+    },
+    {
+      "fr": "famille",
+      "en": "family",
+      "emoji": "👨‍👩‍👧‍👦",
+      "sentences": [
+        { "fr": "La famille fête papa.", "en": "The family celebrates dad." },
+        { "fr": "On est une belle famille.", "en": "We are a lovely family." },
+        { "fr": "Toute la famille est là.", "en": "The whole family is here." },
+        { "fr": "On prend une photo de famille.", "en": "We take a family photo." },
+        { "fr": "La famille fait un gâteau.", "en": "The family makes a cake." }
+      ]
+    },
+    {
+      "fr": "gâteau",
+      "en": "cake",
+      "emoji": "🍰",
+      "sentences": [
+        { "fr": "Je fais un gâteau pour papa.", "en": "I make a cake for dad." },
+        { "fr": "Le gâteau est au chocolat.", "en": "The cake is chocolate." },
+        { "fr": "On mange du gâteau.", "en": "We eat cake." },
+        { "fr": "Papa coupe le gâteau.", "en": "Dad cuts the cake." },
+        { "fr": "Le gâteau est délicieux.", "en": "The cake is delicious." }
+      ]
+    },
+    {
+      "fr": "super-héros",
+      "en": "superhero",
+      "emoji": "🦸‍♂️",
+      "sentences": [
+        { "fr": "Papa est mon super-héros.", "en": "Dad is my superhero." },
+        { "fr": "Un super-héros pour moi, c’est papa.", "en": "My superhero is dad." },
+        { "fr": "Je dessine papa en super-héros.", "en": "I draw dad as a superhero." },
+        { "fr": "Mon super-héros porte une cape.", "en": "My superhero wears a cape." },
+        { "fr": "Papa est fort comme un super-héros.", "en": "Dad is strong like a superhero." }
+      ]
+    },
+    {
+      "fr": "collier",
+      "en": "necklace",
+      "emoji": "📿",
+      "sentences": [
+        { "fr": "Je fais un collier pour papa.", "en": "I make a necklace for dad." },
+        { "fr": "Le collier est en pâte à sel.", "en": "The necklace is made of salt dough." },
+        { "fr": "Le collier est un cadeau.", "en": "The necklace is a gift." },
+        { "fr": "Papa porte le collier.", "en": "Dad wears the necklace." },
+        { "fr": "Le collier a des perles colorées.", "en": "The necklace has colorful beads." }
+      ]
+    },
+    {
+      "fr": "bracelet",
+      "en": "bracelet",
+      "emoji": "🎊",
+      "sentences": [
+        { "fr": "Je fabrique un bracelet.", "en": "I make a bracelet." },
+        { "fr": "Le bracelet est pour papa.", "en": "The bracelet is for dad." },
+        { "fr": "Le bracelet est bleu et vert.", "en": "The bracelet is blue and green." },
+        { "fr": "Papa aime son bracelet.", "en": "Dad likes his bracelet." },
+        { "fr": "C’est un bracelet spécial.", "en": "It’s a special bracelet." }
+      ]
+    },
+    {
+      "fr": "photo",
+      "en": "photo",
+      "emoji": "📸",
+      "sentences": [
+        { "fr": "On prend une photo avec papa.", "en": "We take a photo with dad." },
+        { "fr": "Je colle une photo sur la carte.", "en": "I stick a photo on the card." },
+        { "fr": "Papa regarde la photo.", "en": "Dad looks at the photo." },
+        { "fr": "La photo est jolie.", "en": "The photo is pretty." },
+        { "fr": "C’est une photo de nous deux.", "en": "It’s a photo of the two of us." }
+      ]
+    },
+    {
+      "fr": "journée",
+      "en": "day",
+      "emoji": "🌞",
+      "sentences": [
+        { "fr": "C’est la journée de papa.", "en": "It’s dad’s day." },
+        { "fr": "La journée est spéciale.", "en": "The day is special." },
+        { "fr": "On passe une belle journée.", "en": "We spend a beautiful day." },
+        { "fr": "Papa est content aujourd’hui.", "en": "Dad is happy today." },
+        { "fr": "On fête papa toute la journée.", "en": "We celebrate dad all day." }
+      ]
+    },
+    {
+      "fr": "bravo",
+      "en": "well done",
+      "emoji": "👏",
+      "sentences": [
+        { "fr": "Bravo papa !", "en": "Well done, dad!" },
+        { "fr": "Bravo pour tout, papa.", "en": "Well done for everything, dad." },
+        { "fr": "Je dis bravo à papa.", "en": "I say well done to dad." },
+        { "fr": "Bravo pour ta gentillesse.", "en": "Well done for your kindness." },
+        { "fr": "Bravo pour ton amour.", "en": "Well done for your love." }
+      ]
+    },
+    {
+      "fr": "chaussons",
+      "en": "slippers",
+      "emoji": "🥿",
+      "sentences": [
+        { "fr": "Je donne des chaussons à papa.", "en": "I give slippers to dad." },
+        { "fr": "Les chaussons sont confortables.", "en": "The slippers are comfortable." },
+        { "fr": "Papa aime ses chaussons.", "en": "Dad likes his slippers." },
+        { "fr": "Les chaussons sont bleus.", "en": "The slippers are blue." },
+        { "fr": "C’est un cadeau doux.", "en": "It’s a soft gift." }
+      ]
+    },
+    {
+      "fr": "sourire",
+      "en": "smile",
+      "emoji": "😊",
+      "sentences": [
+        { "fr": "Papa a un grand sourire.", "en": "Dad has a big smile." },
+        { "fr": "Le sourire de papa est joli.", "en": "Dad's smile is nice." },
+        { "fr": "Un sourire pour papa.", "en": "A smile for dad." },
+        { "fr": "Je souris à papa.", "en": "I smile at dad." },
+        { "fr": "Papa sourit aussi.", "en": "Dad smiles too." }
+      ]
+    },
+    {
+      "fr": "moment",
+      "en": "moment",
+      "emoji": "🕰️",
+      "sentences": [
+        { "fr": "C’est un beau moment.", "en": "It’s a beautiful moment." },
+        { "fr": "Un moment avec papa.", "en": "A moment with dad." },
+        { "fr": "On partage un bon moment.", "en": "We share a good moment." },
+        { "fr": "Ce moment est spécial.", "en": "This moment is special." },
+        { "fr": "Je garde ce moment dans mon cœur.", "en": "I keep this moment in my heart." }
+      ]
+    }
+  ]
+}
