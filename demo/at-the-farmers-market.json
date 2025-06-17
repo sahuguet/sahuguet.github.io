@@ -1,0 +1,278 @@
+{
+  "topic": {
+    "fr": "Au marché",
+    "en": "At the market"
+  },
+  "items": [
+    {
+      "fr": "pomme",
+      "en": "apple",
+      "emoji": "🍎",
+      "sentences": [
+        {
+          "fr": "Bonjour, je voudrais une pomme, s'il vous plaît.",
+          "en": "Hello, I would like an apple, please."
+        },
+        {
+          "fr": "Bien sûr, elles sont très fraîches aujourd'hui.",
+          "en": "Of course, they're very fresh today."
+        },
+        {
+          "fr": "Combien coûte une pomme ?",
+          "en": "How much is an apple?"
+        },
+        {
+          "fr": "Une pomme coûte un euro.",
+          "en": "One apple is one euro."
+        },
+        {
+          "fr": "Je prends deux pommes alors.",
+          "en": "I’ll take two apples then."
+        }
+      ]
+    },
+    {
+      "fr": "banane",
+      "en": "banana",
+      "emoji": "🍌",
+      "sentences": [
+        {
+          "fr": "Avez-vous des bananes aujourd'hui ?",
+          "en": "Do you have bananas today?"
+        },
+        {
+          "fr": "Oui, elles sont bien mûres.",
+          "en": "Yes, they are perfectly ripe."
+        },
+        {
+          "fr": "J’en voudrais trois, s’il vous plaît.",
+          "en": "I’d like three, please."
+        },
+        {
+          "fr": "Voilà trois belles bananes.",
+          "en": "Here are three nice bananas."
+        },
+        {
+          "fr": "Merci beaucoup !",
+          "en": "Thank you very much!"
+        }
+      ]
+    },
+    {
+      "fr": "carotte",
+      "en": "carrot",
+      "emoji": "🥕",
+      "sentences": [
+        {
+          "fr": "Bonjour, je cherche des carottes.",
+          "en": "Hello, I'm looking for carrots."
+        },
+        {
+          "fr": "Elles sont juste ici, très croquantes.",
+          "en": "They’re right here, very crunchy."
+        },
+        {
+          "fr": "Je vais en prendre un kilo.",
+          "en": "I’ll take a kilo."
+        },
+        {
+          "fr": "Voilà, un kilo de carottes.",
+          "en": "Here you go, one kilo of carrots."
+        },
+        {
+          "fr": "C’est combien ?",
+          "en": "How much is it?"
+        }
+      ]
+    },
+    {
+      "fr": "tomate",
+      "en": "tomato",
+      "emoji": "🍅",
+      "sentences": [
+        {
+          "fr": "Vos tomates sont-elles de saison ?",
+          "en": "Are your tomatoes in season?"
+        },
+        {
+          "fr": "Oui, elles viennent du jardin ce matin.",
+          "en": "Yes, they came from the garden this morning."
+        },
+        {
+          "fr": "Elles sentent bon !",
+          "en": "They smell good!"
+        },
+        {
+          "fr": "Goûtez-en une, si vous voulez.",
+          "en": "Taste one if you like."
+        },
+        {
+          "fr": "Très bonne ! Je les prends toutes.",
+          "en": "Very good! I'll take them all."
+        }
+      ]
+    },
+    {
+      "fr": "fromage",
+      "en": "cheese",
+      "emoji": "🧀",
+      "sentences": [
+        {
+          "fr": "Quel fromage me conseillez-vous ?",
+          "en": "Which cheese do you recommend?"
+        },
+        {
+          "fr": "Le brie est excellent aujourd'hui.",
+          "en": "The brie is excellent today."
+        },
+        {
+          "fr": "Puis-je en goûter un morceau ?",
+          "en": "May I taste a piece?"
+        },
+        {
+          "fr": "Bien sûr, tenez.",
+          "en": "Of course, here you go."
+        },
+        {
+          "fr": "Je vais en prendre 200 grammes.",
+          "en": "I'll take 200 grams."
+        }
+      ]
+    },
+    {
+      "fr": "poisson",
+      "en": "fish",
+      "emoji": "🐟",
+      "sentences": [
+        {
+          "fr": "Avez-vous du poisson frais ?",
+          "en": "Do you have fresh fish?"
+        },
+        {
+          "fr": "Oui, du saumon pêché ce matin.",
+          "en": "Yes, salmon caught this morning."
+        },
+        {
+          "fr": "Il a l’air délicieux.",
+          "en": "It looks delicious."
+        },
+        {
+          "fr": "Je peux vous en couper une tranche ?",
+          "en": "Shall I cut you a slice?"
+        },
+        {
+          "fr": "Oui, s’il vous plaît, 300 grammes.",
+          "en": "Yes, please, 300 grams."
+        }
+      ]
+    },
+    {
+      "fr": "œuf",
+      "en": "egg",
+      "emoji": "🥚",
+      "sentences": [
+        {
+          "fr": "Je cherche des œufs fermiers.",
+          "en": "I'm looking for farm eggs."
+        },
+        {
+          "fr": "J’en ai des tout frais du matin.",
+          "en": "I have some fresh from this morning."
+        },
+        {
+          "fr": "Je prends une douzaine, s’il vous plaît.",
+          "en": "I’ll take a dozen, please."
+        },
+        {
+          "fr": "Voilà pour vous, bien emballés.",
+          "en": "Here you go, nicely packed."
+        },
+        {
+          "fr": "Merci, à bientôt !",
+          "en": "Thank you, see you soon!"
+        }
+      ]
+    },
+    {
+      "fr": "pain",
+      "en": "bread",
+      "emoji": "🍞",
+      "sentences": [
+        {
+          "fr": "Un pain de campagne, s’il vous plaît.",
+          "en": "A country loaf, please."
+        },
+        {
+          "fr": "Complet ou aux céréales ?",
+          "en": "Whole wheat or multigrain?"
+        },
+        {
+          "fr": "Je vais prendre complet.",
+          "en": "I’ll take whole wheat."
+        },
+        {
+          "fr": "Voilà, il sort du four.",
+          "en": "Here you go, fresh from the oven."
+        },
+        {
+          "fr": "Ça sent si bon !",
+          "en": "It smells so good!"
+        }
+      ]
+    },
+    {
+      "fr": "lait",
+      "en": "milk",
+      "emoji": "🥛",
+      "sentences": [
+        {
+          "fr": "Avez-vous du lait entier ?",
+          "en": "Do you have whole milk?"
+        },
+        {
+          "fr": "Oui, en bouteille ou en brique.",
+          "en": "Yes, in a bottle or a carton."
+        },
+        {
+          "fr": "En bouteille, s’il vous plaît.",
+          "en": "In a bottle, please."
+        },
+        {
+          "fr": "Voilà, c’est du lait fermier.",
+          "en": "Here you go, it’s farm milk."
+        },
+        {
+          "fr": "Merci, j’adore ce lait.",
+          "en": "Thanks, I love this milk."
+        }
+      ]
+    },
+    {
+      "fr": "fraise",
+      "en": "strawberry",
+      "emoji": "🍓",
+      "sentences": [
+        {
+          "fr": "Les fraises sont-elles sucrées ?",
+          "en": "Are the strawberries sweet?"
+        },
+        {
+          "fr": "Très sucrées, elles viennent du jardin.",
+          "en": "Very sweet, they’re from the garden."
+        },
+        {
+          "fr": "J’en prends une barquette.",
+          "en": "I’ll take a tray."
+        },
+        {
+          "fr": "Voilà, bien remplies.",
+          "en": "Here you go, well filled."
+        },
+        {
+          "fr": "Elles sentent très bon !",
+          "en": "They smell wonderful!"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "topic": {
+    "fr": "À la boulangerie",
+    "en": "At the bakery"
+  },
+  "items": [
+    {
+      "fr": "une baguette",
+      "en": "a baguette",
+      "emoji": "🥖",
+      "sentences": [
+        {
+          "fr": "Bonjour, je voudrais une baguette, s'il vous plaît.",
+          "en": "Hello, I would like a baguette, please."
+        },
+        {
+          "fr": "Voici votre baguette.",
+          "en": "Here is your baguette."
+        },
+        {
+          "fr": "Elle est bien croustillante ?",
+          "en": "Is it nice and crispy?"
+        },
+        {
+          "fr": "Oui, elle est toute fraîche.",
+          "en": "Yes, it's very fresh."
+        },
+        {
+          "fr": "Merci, bonne journée !",
+          "en": "Thank you, have a nice day!"
+        }
+      ]
+    },
+    {
+      "fr": "un croissant",
+      "en": "a croissant",
+      "emoji": "🥐",
+      "sentences": [
+        {
+          "fr": "Je prends un croissant, s’il vous plaît.",
+          "en": "I'll take a croissant, please."
+        },
+        {
+          "fr": "Un croissant nature ou au chocolat ?",
+          "en": "A plain croissant or chocolate?"
+        },
+        {
+          "fr": "Un croissant nature, merci.",
+          "en": "A plain croissant, thank you."
+        },
+        {
+          "fr": "Le voici, il est encore chaud.",
+          "en": "Here it is, it's still warm."
+        },
+        {
+          "fr": "Mmm, il sent bon !",
+          "en": "Mmm, it smells good!"
+        }
+      ]
+    },
+    {
+      "fr": "un pain au chocolat",
+      "en": "a chocolate bread",
+      "emoji": "🍫",
+      "sentences": [
+        {
+          "fr": "Avez-vous des pains au chocolat ?",
+          "en": "Do you have chocolate breads?"
+        },
+        {
+          "fr": "Oui, ils sont juste sortis du four.",
+          "en": "Yes, they just came out of the oven."
+        },
+        {
+          "fr": "J’en prends deux, s’il vous plaît.",
+          "en": "I'll take two, please."
+        },
+        {
+          "fr": "Voilà, deux pains au chocolat.",
+          "en": "Here you go, two chocolate breads."
+        },
+        {
+          "fr": "Merci beaucoup !",
+          "en": "Thank you very much!"
+        }
+      ]
+    },
+    {
+      "fr": "un éclair",
+      "en": "an éclair",
+      "emoji": "🍩",
+      "sentences": [
+        {
+          "fr": "Je voudrais un éclair au chocolat.",
+          "en": "I'd like a chocolate éclair."
+        },
+        {
+          "fr": "Il en reste un dernier.",
+          "en": "There's one left."
+        },
+        {
+          "fr": "Parfait, je le prends.",
+          "en": "Perfect, I'll take it."
+        },
+        {
+          "fr": "Voici votre éclair.",
+          "en": "Here's your éclair."
+        },
+        {
+          "fr": "C’est pour le dessert ce soir.",
+          "en": "It's for dessert tonight."
+        }
+      ]
+    },
+    {
+      "fr": "du pain complet",
+      "en": "whole wheat bread",
+      "emoji": "🍞",
+      "sentences": [
+        {
+          "fr": "Avez-vous du pain complet ?",
+          "en": "Do you have whole wheat bread?"
+        },
+        {
+          "fr": "Oui, il est juste ici.",
+          "en": "Yes, it's right here."
+        },
+        {
+          "fr": "Je vais en prendre un.",
+          "en": "I'll take one."
+        },
+        {
+          "fr": "C’est un bon choix, il est très bon.",
+          "en": "Good choice, it's very tasty."
+        },
+        {
+          "fr": "Merci, au revoir !",
+          "en": "Thanks, goodbye!"
+        }
+      ]
+    },
+    {
+      "fr": "un pain aux raisins",
+      "en": "a raisin bread",
+      "emoji": "🍇",
+      "sentences": [
+        {
+          "fr": "Je voudrais un pain aux raisins.",
+          "en": "I would like a raisin bread."
+        },
+        {
+          "fr": "Un seul ou plusieurs ?",
+          "en": "Just one or more?"
+        },
+        {
+          "fr": "Un seul, merci.",
+          "en": "Just one, thank you."
+        },
+        {
+          "fr": "Il est moelleux et sucré.",
+          "en": "It's soft and sweet."
+        },
+        {
+          "fr": "Super, j’adore ça !",
+          "en": "Great, I love that!"
+        }
+      ]
+    },
+    {
+      "fr": "une tarte aux pommes",
+      "en": "an apple tart",
+      "emoji": "🥧",
+      "sentences": [
+        {
+          "fr": "Est-ce que vous avez des tartes aux pommes ?",
+          "en": "Do you have apple tarts?"
+        },
+        {
+          "fr": "Oui, elles sont faites maison.",
+          "en": "Yes, they're homemade."
+        },
+        {
+          "fr": "J’en prends une, s’il vous plaît.",
+          "en": "I'll take one, please."
+        },
+        {
+          "fr": "Elle est encore tiède.",
+          "en": "It's still warm."
+        },
+        {
+          "fr": "Merci, elle a l'air délicieuse.",
+          "en": "Thanks, it looks delicious."
+        }
+      ]
+    },
+    {
+      "fr": "un pain de campagne",
+      "en": "a country-style bread",
+      "emoji": "🍞",
+      "sentences": [
+        {
+          "fr": "Je cherche un pain de campagne.",
+          "en": "I’m looking for a country-style bread."
+        },
+        {
+          "fr": "Il est là, sur l’étagère.",
+          "en": "It's there on the shelf."
+        },
+        {
+          "fr": "Il est bien cuit ?",
+          "en": "Is it well baked?"
+        },
+        {
+          "fr": "Oui, avec une croûte dorée.",
+          "en": "Yes, with a golden crust."
+        },
+        {
+          "fr": "Parfait, je le prends.",
+          "en": "Perfect, I’ll take it."
+        }
+      ]
+    },
+    {
+      "fr": "un sandwich",
+      "en": "a sandwich",
+      "emoji": "🥪",
+      "sentences": [
+        {
+          "fr": "Avez-vous des sandwichs prêts ?",
+          "en": "Do you have ready-made sandwiches?"
+        },
+        {
+          "fr": "Oui, jambon-beurre ou poulet crudités ?",
+          "en": "Yes, ham-butter or chicken with veggies?"
+        },
+        {
+          "fr": "Un jambon-beurre, s’il vous plaît.",
+          "en": "A ham-butter, please."
+        },
+        {
+          "fr": "Voici, il est frais du matin.",
+          "en": "Here, it’s fresh from this morning."
+        },
+        {
+          "fr": "Merci, c’est parfait pour mon déjeuner.",
+          "en": "Thanks, it’s perfect for my lunch."
+        }
+      ]
+    },
+    {
+      "fr": "un gâteau au chocolat",
+      "en": "a chocolate cake",
+      "emoji": "🎂",
+      "sentences": [
+        {
+          "fr": "Je cherche un gâteau au chocolat.",
+          "en": "I'm looking for a chocolate cake."
+        },
+        {
+          "fr": "Il y en a un ici, pour 4 personnes.",
+          "en": "There is one here, for 4 people."
+        },
+        {
+          "fr": "Super, c’est pour un goûter.",
+          "en": "Great, it’s for a snack."
+        },
+        {
+          "fr": "Il est très moelleux, vous allez aimer.",
+          "en": "It's very soft, you'll love it."
+        },
+        {
+          "fr": "Merci, à bientôt !",
+          "en": "Thanks, see you soon!"
+        }
+      ]
+    }
+  ]
+}
