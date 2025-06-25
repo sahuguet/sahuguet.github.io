@@ -1,0 +1,278 @@
+{
+  "topic": {
+    "fr": "Qui je suis ?",
+    "en": "Who am I?"
+  },
+  "items": [
+    {
+      "fr": "Qui je suis ?",
+      "en": "Who am I?",
+      "emoji": "🔥🦎",
+      "sentences": [
+        {
+          "fr": "J’ai une flamme au bout de ma queue.",
+          "en": "I have a flame at the end of my tail."
+        },
+        {
+          "fr": "Je suis un petit Pokémon de type Feu.",
+          "en": "I'm a small Fire-type Pokémon."
+        },
+        {
+          "fr": "Je peux évoluer en un puissant dragon.",
+          "en": "I can evolve into a powerful dragon."
+        },
+        {
+          "fr": "Je suis l’un des trois Pokémon de départ de Kanto.",
+          "en": "I'm one of the three starter Pokémon from Kanto."
+        },
+        {
+          "fr": "Je suis Salamèche.",
+          "en": "I am Charmander."
+        }
+      ]
+    },
+    {
+      "fr": "Qui je suis ?",
+      "en": "Who am I?",
+      "emoji": "💧🐢",
+      "sentences": [
+        {
+          "fr": "Je suis un petit Pokémon bleu avec une carapace.",
+          "en": "I'm a small blue Pokémon with a shell."
+        },
+        {
+          "fr": "Je suis de type Eau.",
+          "en": "I'm a Water-type Pokémon."
+        },
+        {
+          "fr": "Je peux cracher de l’eau pour me défendre.",
+          "en": "I can spray water to defend myself."
+        },
+        {
+          "fr": "Je peux évoluer en Carabaffe, puis en Tortank.",
+          "en": "I can evolve into Wartortle, then Blastoise."
+        },
+        {
+          "fr": "Je suis Carapuce.",
+          "en": "I am Squirtle."
+        }
+      ]
+    },
+    {
+      "fr": "Qui je suis ?",
+      "en": "Who am I?",
+      "emoji": "🌿🐸",
+      "sentences": [
+        {
+          "fr": "Je suis un Pokémon vert avec une plante sur le dos.",
+          "en": "I'm a green Pokémon with a plant on my back."
+        },
+        {
+          "fr": "Je suis à la fois de type Plante et Poison.",
+          "en": "I'm both Grass and Poison type."
+        },
+        {
+          "fr": "Ma plante grandit à mesure que j’évolue.",
+          "en": "My plant grows as I evolve."
+        },
+        {
+          "fr": "Je suis l’un des Pokémon de départ de Kanto.",
+          "en": "I'm one of the starter Pokémon from Kanto."
+        },
+        {
+          "fr": "Je suis Bulbizarre.",
+          "en": "I am Bulbasaur."
+        }
+      ]
+    },
+    {
+      "fr": "Qui je suis ?",
+      "en": "Who am I?",
+      "emoji": "⚡🐁",
+      "sentences": [
+        {
+          "fr": "Je suis petit, jaune et très mignon.",
+          "en": "I'm small, yellow, and very cute."
+        },
+        {
+          "fr": "Je peux envoyer de l’électricité.",
+          "en": "I can release electricity."
+        },
+        {
+          "fr": "Mes joues sont rouges et rondes.",
+          "en": "My cheeks are red and round."
+        },
+        {
+          "fr": "Je suis le meilleur ami de Sacha.",
+          "en": "I'm Ash's best friend."
+        },
+        {
+          "fr": "Je suis Pikachu.",
+          "en": "I am Pikachu."
+        }
+      ]
+    },
+    {
+      "fr": "Qui je suis ?",
+      "en": "Who am I?",
+      "emoji": "🦋✨",
+      "sentences": [
+        {
+          "fr": "Je commence ma vie en tant que chenille.",
+          "en": "I start my life as a caterpillar."
+        },
+        {
+          "fr": "J’ai de grandes ailes colorées.",
+          "en": "I have large, colorful wings."
+        },
+        {
+          "fr": "Je suis un Pokémon de type Insecte et Vol.",
+          "en": "I'm a Bug and Flying type Pokémon."
+        },
+        {
+          "fr": "Je peux utiliser la poudre pour endormir mes ennemis.",
+          "en": "I can use powder to make my enemies fall asleep."
+        },
+        {
+          "fr": "Je suis Papilusion.",
+          "en": "I am Butterfree."
+        }
+      ]
+    },
+    {
+      "fr": "Qui je suis ?",
+      "en": "Who am I?",
+      "emoji": "🌕👻",
+      "sentences": [
+        {
+          "fr": "Je suis un Pokémon spectre.",
+          "en": "I am a ghost-type Pokémon."
+        },
+        {
+          "fr": "Je suis violet et j’ai un grand sourire.",
+          "en": "I'm purple and have a big grin."
+        },
+        {
+          "fr": "Je peux traverser les murs.",
+          "en": "I can pass through walls."
+        },
+        {
+          "fr": "Je suis l’évolution de Spectrum.",
+          "en": "I evolve from Haunter."
+        },
+        {
+          "fr": "Je suis Ectoplasma.",
+          "en": "I am Gengar."
+        }
+      ]
+    },
+    {
+      "fr": "Qui je suis ?",
+      "en": "Who am I?",
+      "emoji": "🦇🌙",
+      "sentences": [
+        {
+          "fr": "Je vis souvent dans les grottes.",
+          "en": "I often live in caves."
+        },
+        {
+          "fr": "Je n’ai pas d’yeux visibles.",
+          "en": "I have no visible eyes."
+        },
+        {
+          "fr": "Je suis de type Poison et Vol.",
+          "en": "I'm a Poison and Flying type Pokémon."
+        },
+        {
+          "fr": "Je fais souvent peur aux dresseurs débutants.",
+          "en": "I often scare beginner trainers."
+        },
+        {
+          "fr": "Je suis Nosferapti.",
+          "en": "I am Zubat."
+        }
+      ]
+    },
+    {
+      "fr": "Qui je suis ?",
+      "en": "Who am I?",
+      "emoji": "🐍💚",
+      "sentences": [
+        {
+          "fr": "Je ressemble à un serpent vert.",
+          "en": "I look like a green snake."
+        },
+        {
+          "fr": "Je suis de type Plante.",
+          "en": "I'm a Grass-type Pokémon."
+        },
+        {
+          "fr": "Je suis très élégant et rapide.",
+          "en": "I am very elegant and fast."
+        },
+        {
+          "fr": "Je suis l’évolution de Vipélierre.",
+          "en": "I evolve from Snivy."
+        },
+        {
+          "fr": "Je suis Majaspic.",
+          "en": "I am Serperior."
+        }
+      ]
+    },
+    {
+      "fr": "Qui je suis ?",
+      "en": "Who am I?",
+      "emoji": "🔥🦁",
+      "sentences": [
+        {
+          "fr": "Je suis un Pokémon lionceau.",
+          "en": "I'm a lion cub Pokémon."
+        },
+        {
+          "fr": "J’ai une mèche de feu sur la tête.",
+          "en": "I have a flame tuft on my head."
+        },
+        {
+          "fr": "Je suis de type Feu et Normal.",
+          "en": "I'm Fire and Normal type."
+        },
+        {
+          "fr": "Je peux évoluer en un grand lion flamboyant.",
+          "en": "I can evolve into a large flaming lion."
+        },
+        {
+          "fr": "Je suis Hélionceau.",
+          "en": "I am Litleo."
+        }
+      ]
+    },
+    {
+      "fr": "Qui je suis ?",
+      "en": "Who am I?",
+      "emoji": "🧊🐧",
+      "sentences": [
+        {
+          "fr": "Je suis un petit manchot bleu.",
+          "en": "I'm a small blue penguin."
+        },
+        {
+          "fr": "Je suis de type Eau.",
+          "en": "I'm a Water-type Pokémon."
+        },
+        {
+          "fr": "Je suis fier et un peu têtu.",
+          "en": "I'm proud and a bit stubborn."
+        },
+        {
+          "fr": "Je peux évoluer en Pingoléon.",
+          "en": "I can evolve into Empoleon."
+        },
+        {
+          "fr": "Je suis Tiplouf.",
+          "en": "I am Piplup."
+        }
+      ]
+    }
+  ]
+}

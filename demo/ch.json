@@ -1,0 +1,278 @@
+{
+  "topic": {
+    "fr": "Activités d'été dans les Alpes suisses",
+    "en": "Summer activities in the Swiss Alps"
+  },
+  "items": [
+    {
+      "fr": "faire de la randonnée",
+      "en": "to go hiking",
+      "emoji": "🥾",
+      "sentences": [
+        {
+          "fr": "Je fais de la randonnée avec papa.",
+          "en": "I go hiking with Dad."
+        },
+        {
+          "fr": "Tu fais de la randonnée en montagne.",
+          "en": "You go hiking in the mountains."
+        },
+        {
+          "fr": "Léo fait de la randonnée avec sa sœur.",
+          "en": "Léo goes hiking with his sister."
+        },
+        {
+          "fr": "Nous faisons de la randonnée chaque jour.",
+          "en": "We go hiking every day."
+        },
+        {
+          "fr": "Ils font de la randonnée dans la forêt.",
+          "en": "They go hiking in the forest."
+        }
+      ]
+    },
+    {
+      "fr": "faire du vélo",
+      "en": "to ride a bike",
+      "emoji": "🚴‍♂️",
+      "sentences": [
+        {
+          "fr": "Je fais du vélo sur le sentier.",
+          "en": "I ride a bike on the trail."
+        },
+        {
+          "fr": "Tu fais du vélo avec ton frère.",
+          "en": "You ride a bike with your brother."
+        },
+        {
+          "fr": "Ella fait du vélo en montagne.",
+          "en": "Ella rides a bike in the mountains."
+        },
+        {
+          "fr": "Nous faisons du vélo tous ensemble.",
+          "en": "We ride bikes all together."
+        },
+        {
+          "fr": "Les enfants font du vélo vite.",
+          "en": "The children ride their bikes fast."
+        }
+      ]
+    },
+    {
+      "fr": "faire un pique-nique",
+      "en": "to have a picnic",
+      "emoji": "🧺",
+      "sentences": [
+        {
+          "fr": "Je fais un pique-nique avec mamie.",
+          "en": "I have a picnic with grandma."
+        },
+        {
+          "fr": "Tu fais un pique-nique près du lac.",
+          "en": "You have a picnic near the lake."
+        },
+        {
+          "fr": "Il fait un pique-nique avec sa famille.",
+          "en": "He has a picnic with his family."
+        },
+        {
+          "fr": "Nous faisons un pique-nique au soleil.",
+          "en": "We have a picnic in the sun."
+        },
+        {
+          "fr": "Ils font un grand pique-nique.",
+          "en": "They have a big picnic."
+        }
+      ]
+    },
+    {
+      "fr": "jouer au mini-golf",
+      "en": "to play mini-golf",
+      "emoji": "⛳",
+      "sentences": [
+        {
+          "fr": "Je joue au mini-golf avec mes cousins.",
+          "en": "I play mini-golf with my cousins."
+        },
+        {
+          "fr": "Tu joues au mini-golf aujourd’hui.",
+          "en": "You are playing mini-golf today."
+        },
+        {
+          "fr": "Il joue au mini-golf pour la première fois.",
+          "en": "He is playing mini-golf for the first time."
+        },
+        {
+          "fr": "Nous jouons au mini-golf en été.",
+          "en": "We play mini-golf in summer."
+        },
+        {
+          "fr": "Les enfants jouent au mini-golf.",
+          "en": "The children are playing mini-golf."
+        }
+      ]
+    },
+    {
+      "fr": "se baigner dans un lac",
+      "en": "to swim in a lake",
+      "emoji": "🏊‍♀️",
+      "sentences": [
+        {
+          "fr": "Je me baigne dans le lac.",
+          "en": "I swim in the lake."
+        },
+        {
+          "fr": "Tu te baignes avec moi ?",
+          "en": "Are you swimming with me?"
+        },
+        {
+          "fr": "Il se baigne dans l’eau froide.",
+          "en": "He swims in the cold water."
+        },
+        {
+          "fr": "Nous nous baignons après la randonnée.",
+          "en": "We swim after hiking."
+        },
+        {
+          "fr": "Elles se baignent et rient.",
+          "en": "They swim and laugh."
+        }
+      ]
+    },
+    {
+      "fr": "ramasser des fleurs",
+      "en": "to pick flowers",
+      "emoji": "🌼",
+      "sentences": [
+        {
+          "fr": "Je ramasse des fleurs jaunes.",
+          "en": "I pick yellow flowers."
+        },
+        {
+          "fr": "Tu ramasses de jolies fleurs.",
+          "en": "You pick pretty flowers."
+        },
+        {
+          "fr": "Elle ramasse des fleurs dans le champ.",
+          "en": "She picks flowers in the field."
+        },
+        {
+          "fr": "Nous ramassons des fleurs ensemble.",
+          "en": "We pick flowers together."
+        },
+        {
+          "fr": "Les enfants ramassent des fleurs pour maman.",
+          "en": "The children pick flowers for Mom."
+        }
+      ]
+    },
+    {
+      "fr": "faire une balade à poney",
+      "en": "to go on a pony ride",
+      "emoji": "🐴",
+      "sentences": [
+        {
+          "fr": "Je fais une balade à poney.",
+          "en": "I go on a pony ride."
+        },
+        {
+          "fr": "Tu fais du poney dans la vallée.",
+          "en": "You ride a pony in the valley."
+        },
+        {
+          "fr": "Elle fait une balade à poney rose.",
+          "en": "She goes on a pink pony ride."
+        },
+        {
+          "fr": "Nous faisons du poney tous ensemble.",
+          "en": "We all go pony riding together."
+        },
+        {
+          "fr": "Les enfants font une balade à poney.",
+          "en": "The children go on a pony ride."
+        }
+      ]
+    },
+    {
+      "fr": "observer les marmottes",
+      "en": "to watch marmots",
+      "emoji": "🦫",
+      "sentences": [
+        {
+          "fr": "Je regarde une marmotte.",
+          "en": "I watch a marmot."
+        },
+        {
+          "fr": "Tu observes les marmottes avec les jumelles.",
+          "en": "You watch marmots with binoculars."
+        },
+        {
+          "fr": "Il voit une marmotte dans l’herbe.",
+          "en": "He sees a marmot in the grass."
+        },
+        {
+          "fr": "Nous regardons les marmottes en silence.",
+          "en": "We watch the marmots quietly."
+        },
+        {
+          "fr": "Les enfants observent les marmottes.",
+          "en": "The children are watching the marmots."
+        }
+      ]
+    },
+    {
+      "fr": "cueillir des myrtilles",
+      "en": "to pick blueberries",
+      "emoji": "🫐",
+      "sentences": [
+        {
+          "fr": "Je cueille des myrtilles.",
+          "en": "I pick blueberries."
+        },
+        {
+          "fr": "Tu cueilles des baies avec moi ?",
+          "en": "Are you picking berries with me?"
+        },
+        {
+          "fr": "Il cueille des myrtilles pour le goûter.",
+          "en": "He picks blueberries for snack."
+        },
+        {
+          "fr": "Nous cueillons des myrtilles ensemble.",
+          "en": "We pick blueberries together."
+        },
+        {
+          "fr": "Les enfants cueillent beaucoup de myrtilles.",
+          "en": "The children pick a lot of blueberries."
+        }
+      ]
+    },
+    {
+      "fr": "visiter une ferme",
+      "en": "to visit a farm",
+      "emoji": "🐮",
+      "sentences": [
+        {
+          "fr": "Je visite une ferme avec ma classe.",
+          "en": "I visit a farm with my class."
+        },
+        {
+          "fr": "Tu visites la ferme des chèvres.",
+          "en": "You visit the goat farm."
+        },
+        {
+          "fr": "Elle visite une ferme à la montagne.",
+          "en": "She visits a farm in the mountains."
+        },
+        {
+          "fr": "Nous visitons une ferme en été.",
+          "en": "We visit a farm in the summer."
+        },
+        {
+          "fr": "Ils visitent une ferme suisse.",
+          "en": "They visit a Swiss farm."
+        }
+      ]
+    }
+  ]
+}
