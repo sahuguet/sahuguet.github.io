@@ -1,0 +1,278 @@
+{
+  "topic": {
+    "fr": "Au magasin de souvenirs",
+    "en": "At the souvenir shop"
+  },
+  "items": [
+    {
+      "fr": "une carte postale",
+      "en": "a postcard",
+      "emoji": "📮",
+      "sentences": [
+        {
+          "fr": "Je choisis une carte postale.",
+          "en": "I choose a postcard."
+        },
+        {
+          "fr": "Tu écris une carte postale.",
+          "en": "You write a postcard."
+        },
+        {
+          "fr": "Il envoie une carte postale à sa grand-mère.",
+          "en": "He sends a postcard to his grandmother."
+        },
+        {
+          "fr": "Nous achetons des cartes postales.",
+          "en": "We buy postcards."
+        },
+        {
+          "fr": "Elles regardent les cartes postales.",
+          "en": "They look at the postcards."
+        }
+      ]
+    },
+    {
+      "fr": "un porte-clés",
+      "en": "a keychain",
+      "emoji": "🔑",
+      "sentences": [
+        {
+          "fr": "Je veux un porte-clés.",
+          "en": "I want a keychain."
+        },
+        {
+          "fr": "Tu choisis un joli porte-clés.",
+          "en": "You choose a pretty keychain."
+        },
+        {
+          "fr": "Elle collectionne les porte-clés.",
+          "en": "She collects keychains."
+        },
+        {
+          "fr": "Nous avons beaucoup de porte-clés.",
+          "en": "We have many keychains."
+        },
+        {
+          "fr": "Ils trouvent un porte-clés original.",
+          "en": "They find an original keychain."
+        }
+      ]
+    },
+    {
+      "fr": "un magnet",
+      "en": "a magnet",
+      "emoji": "🧲",
+      "sentences": [
+        {
+          "fr": "Je colle le magnet sur le frigo.",
+          "en": "I stick the magnet on the fridge."
+        },
+        {
+          "fr": "Tu regardes les magnets colorés.",
+          "en": "You look at the colorful magnets."
+        },
+        {
+          "fr": "Elle choisit un magnet en forme de tour Eiffel.",
+          "en": "She chooses a magnet shaped like the Eiffel Tower."
+        },
+        {
+          "fr": "Nous achetons trois magnets.",
+          "en": "We buy three magnets."
+        },
+        {
+          "fr": "Ils aiment les magnets avec des animaux.",
+          "en": "They like magnets with animals."
+        }
+      ]
+    },
+    {
+      "fr": "un t-shirt",
+      "en": "a t-shirt",
+      "emoji": "👕",
+      "sentences": [
+        {
+          "fr": "Je porte un t-shirt du musée.",
+          "en": "I wear a t-shirt from the museum."
+        },
+        {
+          "fr": "Tu veux un t-shirt bleu.",
+          "en": "You want a blue t-shirt."
+        },
+        {
+          "fr": "Il essaie un t-shirt souvenir.",
+          "en": "He tries on a souvenir t-shirt."
+        },
+        {
+          "fr": "Nous trouvons des t-shirts rigolos.",
+          "en": "We find funny t-shirts."
+        },
+        {
+          "fr": "Elles achètent des t-shirts pour leurs amis.",
+          "en": "They buy t-shirts for their friends."
+        }
+      ]
+    },
+    {
+      "fr": "une peluche",
+      "en": "a stuffed animal",
+      "emoji": "🧸",
+      "sentences": [
+        {
+          "fr": "Je veux une peluche douce.",
+          "en": "I want a soft stuffed animal."
+        },
+        {
+          "fr": "Tu regardes les peluches dans le rayon.",
+          "en": "You look at the stuffed animals on the shelf."
+        },
+        {
+          "fr": "Il serre sa peluche dans ses bras.",
+          "en": "He hugs his stuffed animal."
+        },
+        {
+          "fr": "Nous choisissons une peluche éléphant.",
+          "en": "We choose an elephant stuffed animal."
+        },
+        {
+          "fr": "Ils jouent avec leurs peluches.",
+          "en": "They play with their stuffed animals."
+        }
+      ]
+    },
+    {
+      "fr": "un stylo",
+      "en": "a pen",
+      "emoji": "🖊️",
+      "sentences": [
+        {
+          "fr": "J'écris avec un stylo souvenir.",
+          "en": "I write with a souvenir pen."
+        },
+        {
+          "fr": "Tu choisis un stylo rouge.",
+          "en": "You choose a red pen."
+        },
+        {
+          "fr": "Elle adore son nouveau stylo.",
+          "en": "She loves her new pen."
+        },
+        {
+          "fr": "Nous écrivons des cartes postales avec nos stylos.",
+          "en": "We write postcards with our pens."
+        },
+        {
+          "fr": "Ils achètent des stylos pour l'école.",
+          "en": "They buy pens for school."
+        }
+      ]
+    },
+    {
+      "fr": "un carnet",
+      "en": "a notebook",
+      "emoji": "📓",
+      "sentences": [
+        {
+          "fr": "Je note mon voyage dans un carnet.",
+          "en": "I write about my trip in a notebook."
+        },
+        {
+          "fr": "Tu trouves un joli carnet bleu.",
+          "en": "You find a pretty blue notebook."
+        },
+        {
+          "fr": "Il écrit dans son carnet chaque jour.",
+          "en": "He writes in his notebook every day."
+        },
+        {
+          "fr": "Nous achetons un carnet pour dessiner.",
+          "en": "We buy a notebook to draw."
+        },
+        {
+          "fr": "Elles remplissent leurs carnets de souvenirs.",
+          "en": "They fill their notebooks with memories."
+        }
+      ]
+    },
+    {
+      "fr": "une tasse",
+      "en": "a mug",
+      "emoji": "☕",
+      "sentences": [
+        {
+          "fr": "Je bois mon chocolat chaud dans une tasse souvenir.",
+          "en": "I drink my hot chocolate in a souvenir mug."
+        },
+        {
+          "fr": "Tu offres une tasse à ta maman.",
+          "en": "You give a mug to your mom."
+        },
+        {
+          "fr": "Il trouve une tasse avec un chat.",
+          "en": "He finds a mug with a cat."
+        },
+        {
+          "fr": "Nous achetons deux tasses rigolotes.",
+          "en": "We buy two funny mugs."
+        },
+        {
+          "fr": "Elles regardent les tasses sur l'étagère.",
+          "en": "They look at the mugs on the shelf."
+        }
+      ]
+    },
+    {
+      "fr": "un sac",
+      "en": "a bag",
+      "emoji": "👜",
+      "sentences": [
+        {
+          "fr": "Je porte un sac avec un dessin de la ville.",
+          "en": "I carry a bag with a picture of the city."
+        },
+        {
+          "fr": "Tu choisis un sac rouge.",
+          "en": "You choose a red bag."
+        },
+        {
+          "fr": "Elle met ses souvenirs dans son sac.",
+          "en": "She puts her souvenirs in her bag."
+        },
+        {
+          "fr": "Nous prenons un sac pour nos achats.",
+          "en": "We take a bag for our purchases."
+        },
+        {
+          "fr": "Ils regardent les sacs accrochés au mur.",
+          "en": "They look at the bags hanging on the wall."
+        }
+      ]
+    },
+    {
+      "fr": "un autocollant",
+      "en": "a sticker",
+      "emoji": "🏷️",
+      "sentences": [
+        {
+          "fr": "Je colle un autocollant sur mon carnet.",
+          "en": "I stick a sticker on my notebook."
+        },
+        {
+          "fr": "Tu choisis un autocollant drôle.",
+          "en": "You choose a funny sticker."
+        },
+        {
+          "fr": "Il aime les autocollants de dinosaures.",
+          "en": "He likes dinosaur stickers."
+        },
+        {
+          "fr": "Nous échangeons nos autocollants.",
+          "en": "We trade our stickers."
+        },
+        {
+          "fr": "Elles collectionnent les autocollants.",
+          "en": "They collect stickers."
+        }
+      ]
+    }
+  ]
+}
