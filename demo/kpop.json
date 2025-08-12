@@ -1,0 +1,278 @@
+{
+  "topic": {
+    "fr": "Les chasseuses de démons K-pop",
+    "en": "K-pop Demon Hunters"
+  },
+  "items": [
+    {
+      "fr": "chanter",
+      "en": "to sing",
+      "emoji": "🎤",
+      "sentences": [
+        {
+          "fr": "Rumi chante avec Huntr/x.",
+          "en": "Rumi sings with Huntr/x."
+        },
+        {
+          "fr": "Zoey chante une nouvelle chanson.",
+          "en": "Zoey sings a new song."
+        },
+        {
+          "fr": "Mira chante pour sauver le monde.",
+          "en": "Mira sings to save the world."
+        },
+        {
+          "fr": "Les filles chantent à l'Idol Awards.",
+          "en": "The girls sing at the Idol Awards."
+        },
+        {
+          "fr": "Les fans écoutent et chantent aussi.",
+          "en": "The fans listen and sing too."
+        }
+      ]
+    },
+    {
+      "fr": "combattre",
+      "en": "to fight",
+      "emoji": "⚔️",
+      "sentences": [
+        {
+          "fr": "Rumi combat un démon.",
+          "en": "Rumi fights a demon."
+        },
+        {
+          "fr": "Zoey et Mira combattent ensemble.",
+          "en": "Zoey and Mira fight together."
+        },
+        {
+          "fr": "Les filles combattent les Saja Boys.",
+          "en": "The girls fight the Saja Boys."
+        },
+        {
+          "fr": "Jinu combat sa honte.",
+          "en": "Jinu fights his shame."
+        },
+        {
+          "fr": "Elles combattent pour protéger les fans.",
+          "en": "They fight to protect the fans."
+        }
+      ]
+    },
+    {
+      "fr": "cacher",
+      "en": "to hide",
+      "emoji": "🙈",
+      "sentences": [
+        {
+          "fr": "Rumi cache ses marques.",
+          "en": "Rumi hides her marks."
+        },
+        {
+          "fr": "Jinu cache la vérité à Rumi.",
+          "en": "Jinu hides the truth from Rumi."
+        },
+        {
+          "fr": "Les démons se cachent sur scène.",
+          "en": "The demons hide on stage."
+        },
+        {
+          "fr": "Rumi veut cacher son secret.",
+          "en": "Rumi wants to hide her secret."
+        },
+        {
+          "fr": "Celine cache le passé de Rumi.",
+          "en": "Celine hides Rumi's past."
+        }
+      ]
+    },
+    {
+      "fr": "chanter faux",
+      "en": "to sing off-key",
+      "emoji": "🎶❌",
+      "sentences": [
+        {
+          "fr": "Rumi chante faux quand elle a peur.",
+          "en": "Rumi sings off-key when she's afraid."
+        },
+        {
+          "fr": "Zoey pense que Rumi chante faux.",
+          "en": "Zoey thinks Rumi sings off-key."
+        },
+        {
+          "fr": "Quand la voix part, on chante faux.",
+          "en": "When the voice fades, you sing off-key."
+        },
+        {
+          "fr": "Les démons font chanter faux.",
+          "en": "The demons make people sing off-key."
+        },
+        {
+          "fr": "Jinu entendait les voix quand il chantait faux.",
+          "en": "Jinu heard voices when he sang off-key."
+        }
+      ]
+    },
+    {
+      "fr": "aimer",
+      "en": "to love",
+      "emoji": "❤️",
+      "sentences": [
+        {
+          "fr": "Celine aime Rumi comme sa fille.",
+          "en": "Celine loves Rumi like her daughter."
+        },
+        {
+          "fr": "Zoey aime chanter avec ses amies.",
+          "en": "Zoey loves singing with her friends."
+        },
+        {
+          "fr": "Les fans aiment Huntr/x.",
+          "en": "The fans love Huntr/x."
+        },
+        {
+          "fr": "Jinu aimait sa famille.",
+          "en": "Jinu loved his family."
+        },
+        {
+          "fr": "Rumi apprend à s’aimer elle-même.",
+          "en": "Rumi learns to love herself."
+        }
+      ]
+    },
+    {
+      "fr": "accepter",
+      "en": "to accept",
+      "emoji": "🤝",
+      "sentences": [
+        {
+          "fr": "Rumi doit s’accepter.",
+          "en": "Rumi must accept herself."
+        },
+        {
+          "fr": "Les filles acceptent la vérité.",
+          "en": "The girls accept the truth."
+        },
+        {
+          "fr": "Celine accepte le passé de Rumi.",
+          "en": "Celine accepts Rumi's past."
+        },
+        {
+          "fr": "Jinu veut être accepté.",
+          "en": "Jinu wants to be accepted."
+        },
+        {
+          "fr": "Accepter sa honte donne de la force.",
+          "en": "Accepting your shame gives strength."
+        }
+      ]
+    },
+    {
+      "fr": "écouter",
+      "en": "to listen",
+      "emoji": "👂",
+      "sentences": [
+        {
+          "fr": "Les fans écoutent la chanson 'Golden'.",
+          "en": "The fans listen to the song 'Golden'."
+        },
+        {
+          "fr": "Rumi écoute Jinu en secret.",
+          "en": "Rumi listens to Jinu in secret."
+        },
+        {
+          "fr": "Zoey écoute Mira.",
+          "en": "Zoey listens to Mira."
+        },
+        {
+          "fr": "Celine écoute le cœur de Rumi.",
+          "en": "Celine listens to Rumi’s heart."
+        },
+        {
+          "fr": "Jinu écoute les voix de Gwi-Ma.",
+          "en": "Jinu hears Gwi-Ma’s voices."
+        }
+      ]
+    },
+    {
+      "fr": "sauver",
+      "en": "to save",
+      "emoji": "💫",
+      "sentences": [
+        {
+          "fr": "Huntr/x sauve les fans.",
+          "en": "Huntr/x saves the fans."
+        },
+        {
+          "fr": "Rumi veut sauver le monde.",
+          "en": "Rumi wants to save the world."
+        },
+        {
+          "fr": "Jinu sauve Rumi de Gwi-Ma.",
+          "en": "Jinu saves Rumi from Gwi-Ma."
+        },
+        {
+          "fr": "Celine essaie de sauver Rumi.",
+          "en": "Celine tries to save Rumi."
+        },
+        {
+          "fr": "La chanson sauve les esprits.",
+          "en": "The song saves the souls."
+        }
+      ]
+    },
+    {
+      "fr": "mentir",
+      "en": "to lie",
+      "emoji": "🤥",
+      "sentences": [
+        {
+          "fr": "Jinu ment à Rumi.",
+          "en": "Jinu lies to Rumi."
+        },
+        {
+          "fr": "Les imposteurs mentent sur scène.",
+          "en": "The impostors lie on stage."
+        },
+        {
+          "fr": "Rumi ment à ses amies.",
+          "en": "Rumi lies to her friends."
+        },
+        {
+          "fr": "Gwi-Ma ment à tout le monde.",
+          "en": "Gwi-Ma lies to everyone."
+        },
+        {
+          "fr": "La vérité est plus forte que le mensonge.",
+          "en": "Truth is stronger than lies."
+        }
+      ]
+    },
+    {
+      "fr": "danser",
+      "en": "to dance",
+      "emoji": "💃",
+      "sentences": [
+        {
+          "fr": "Huntr/x danse sur 'Golden'.",
+          "en": "Huntr/x dances to 'Golden'."
+        },
+        {
+          "fr": "Les fans dansent avec elles.",
+          "en": "The fans dance with them."
+        },
+        {
+          "fr": "Jinu danse sur la scène.",
+          "en": "Jinu dances on stage."
+        },
+        {
+          "fr": "Rumi danse avec courage.",
+          "en": "Rumi dances with courage."
+        },
+        {
+          "fr": "Mira aime danser en groupe.",
+          "en": "Mira loves to dance in a group."
+        }
+      ]
+    }
+  ]
+}
