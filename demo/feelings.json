@@ -1,0 +1,521 @@
+{
+    "topic": {
+        "fr": "Les sentiments",
+        "en": "Feelings"
+    },
+    "items": [
+        {
+            "fr": "heureux",
+            "en": "happy",
+            "emoji": "😊",
+            "sentences": [
+                {
+                    "fr": "Je suis heureux.",
+                    "en": "I am happy."
+                },
+                {
+                    "fr": "Tu es heureux aujourd'hui.",
+                    "en": "You are happy today."
+                },
+                {
+                    "fr": "Il est heureux avec son jouet.",
+                    "en": "He is happy with his toy."
+                },
+                {
+                    "fr": "Nous sommes heureux ensemble.",
+                    "en": "We are happy together."
+                },
+                {
+                    "fr": "Les enfants sont heureux à l’école.",
+                    "en": "The children are happy at school."
+                }
+            ]
+        },
+        {
+            "fr": "triste",
+            "en": "sad",
+            "emoji": "😢",
+            "sentences": [
+                {
+                    "fr": "Je suis triste.",
+                    "en": "I am sad."
+                },
+                {
+                    "fr": "Elle est triste aujourd'hui.",
+                    "en": "She is sad today."
+                },
+                {
+                    "fr": "Tu es triste sans ton doudou.",
+                    "en": "You are sad without your blankie."
+                },
+                {
+                    "fr": "Nous sommes tristes parce qu’il pleut.",
+                    "en": "We are sad because it's raining."
+                },
+                {
+                    "fr": "Les chats sont tristes.",
+                    "en": "The cats are sad."
+                }
+            ]
+        },
+        {
+            "fr": "fâché",
+            "en": "angry",
+            "emoji": "😠",
+            "sentences": [
+                {
+                    "fr": "Je suis fâché.",
+                    "en": "I am angry."
+                },
+                {
+                    "fr": "Tu es fâché contre moi ?",
+                    "en": "Are you angry with me?"
+                },
+                {
+                    "fr": "Papa est fâché.",
+                    "en": "Dad is angry."
+                },
+                {
+                    "fr": "Nous sommes fâchés à cause du jeu.",
+                    "en": "We are angry because of the game."
+                },
+                {
+                    "fr": "Les enfants sont fâchés.",
+                    "en": "The children are angry."
+                }
+            ]
+        },
+        {
+            "fr": "fatigué",
+            "en": "tired",
+            "emoji": "😴",
+            "sentences": [
+                {
+                    "fr": "Je suis fatigué.",
+                    "en": "I am tired."
+                },
+                {
+                    "fr": "Elle est fatiguée ce soir.",
+                    "en": "She is tired tonight."
+                },
+                {
+                    "fr": "Tu es fatigué après l'école.",
+                    "en": "You are tired after school."
+                },
+                {
+                    "fr": "Nous sommes fatigués après le match.",
+                    "en": "We are tired after the game."
+                },
+                {
+                    "fr": "Le chat est fatigué.",
+                    "en": "The cat is tired."
+                }
+            ]
+        },
+        {
+            "fr": "content",
+            "en": "glad",
+            "emoji": "😄",
+            "sentences": [
+                {
+                    "fr": "Je suis content de te voir.",
+                    "en": "I am glad to see you."
+                },
+                {
+                    "fr": "Tu es content de jouer ?",
+                    "en": "Are you glad to play?"
+                },
+                {
+                    "fr": "Il est content avec son dessin.",
+                    "en": "He is glad with his drawing."
+                },
+                {
+                    "fr": "Nous sommes contents ensemble.",
+                    "en": "We are glad together."
+                },
+                {
+                    "fr": "Les enfants sont contents.",
+                    "en": "The children are glad."
+                }
+            ]
+        },
+        {
+            "fr": "surpris",
+            "en": "surprised",
+            "emoji": "😲",
+            "sentences": [
+                {
+                    "fr": "Je suis surpris par le cadeau.",
+                    "en": "I am surprised by the gift."
+                },
+                {
+                    "fr": "Tu es surpris ?",
+                    "en": "Are you surprised?"
+                },
+                {
+                    "fr": "Elle est surprise de la fête.",
+                    "en": "She is surprised by the party."
+                },
+                {
+                    "fr": "Nous sommes surpris par le bruit.",
+                    "en": "We are surprised by the noise."
+                },
+                {
+                    "fr": "Les enfants sont surpris.",
+                    "en": "The children are surprised."
+                }
+            ]
+        },
+        {
+            "fr": "inquiet",
+            "en": "worried",
+            "emoji": "😟",
+            "sentences": [
+                {
+                    "fr": "Je suis inquiet pour mon ami.",
+                    "en": "I am worried for my friend."
+                },
+                {
+                    "fr": "Tu es inquiet ?",
+                    "en": "Are you worried?"
+                },
+                {
+                    "fr": "Maman est inquiète pour toi.",
+                    "en": "Mom is worried about you."
+                },
+                {
+                    "fr": "Nous sommes inquiets pour l’école.",
+                    "en": "We are worried about school."
+                },
+                {
+                    "fr": "Les enfants sont inquiets.",
+                    "en": "The children are worried."
+                }
+            ]
+        },
+        {
+            "fr": "timide",
+            "en": "shy",
+            "emoji": "😳",
+            "sentences": [
+                {
+                    "fr": "Je suis timide devant la classe.",
+                    "en": "I am shy in front of the class."
+                },
+                {
+                    "fr": "Tu es timide avec les gens ?",
+                    "en": "Are you shy with people?"
+                },
+                {
+                    "fr": "Il est timide mais gentil.",
+                    "en": "He is shy but kind."
+                },
+                {
+                    "fr": "Nous sommes timides au début.",
+                    "en": "We are shy at first."
+                },
+                {
+                    "fr": "Les enfants sont timides aujourd’hui.",
+                    "en": "The children are shy today."
+                }
+            ]
+        },
+        {
+            "fr": "jaloux",
+            "en": "jealous",
+            "emoji": "😒",
+            "sentences": [
+                {
+                    "fr": "Je suis jaloux de ton jouet.",
+                    "en": "I am jealous of your toy."
+                },
+                {
+                    "fr": "Tu es jaloux ?",
+                    "en": "Are you jealous?"
+                },
+                {
+                    "fr": "Elle est jalouse de sa sœur.",
+                    "en": "She is jealous of her sister."
+                },
+                {
+                    "fr": "Nous ne sommes pas jaloux.",
+                    "en": "We are not jealous."
+                },
+                {
+                    "fr": "Les enfants sont jaloux parfois.",
+                    "en": "Children are jealous sometimes."
+                }
+            ]
+        },
+        {
+            "fr": "peur",
+            "en": "scared",
+            "emoji": "😱",
+            "sentences": [
+                {
+                    "fr": "J’ai peur du noir.",
+                    "en": "I am scared of the dark."
+                },
+                {
+                    "fr": "Tu as peur ?",
+                    "en": "Are you scared?"
+                },
+                {
+                    "fr": "Elle a peur de l’orage.",
+                    "en": "She is scared of the storm."
+                },
+                {
+                    "fr": "Nous avons peur du monstre.",
+                    "en": "We are scared of the monster."
+                },
+                {
+                    "fr": "Les enfants ont peur parfois.",
+                    "en": "Children are scared sometimes."
+                }
+            ]
+        },
+        {
+            "fr": "excité",
+            "en": "excited",
+            "emoji": "🤩",
+            "sentences": [
+                {
+                    "fr": "Je suis excité pour la fête.",
+                    "en": "I am excited for the party."
+                },
+                {
+                    "fr": "Tu es excité pour Noël ?",
+                    "en": "Are you excited for Christmas?"
+                },
+                {
+                    "fr": "Il est excité de voyager.",
+                    "en": "He is excited to travel."
+                },
+                {
+                    "fr": "Nous sommes excités de jouer.",
+                    "en": "We are excited to play."
+                },
+                {
+                    "fr": "Les enfants sont excités aujourd’hui.",
+                    "en": "The children are excited today."
+                }
+            ]
+        },
+        {
+            "fr": "calme",
+            "en": "calm",
+            "emoji": "😌",
+            "sentences": [
+                {
+                    "fr": "Je suis calme maintenant.",
+                    "en": "I am calm now."
+                },
+                {
+                    "fr": "Tu es calme en classe.",
+                    "en": "You are calm in class."
+                },
+                {
+                    "fr": "Il est calme aujourd'hui.",
+                    "en": "He is calm today."
+                },
+                {
+                    "fr": "Nous sommes calmes ensemble.",
+                    "en": "We are calm together."
+                },
+                {
+                    "fr": "Les enfants sont calmes ce matin.",
+                    "en": "The children are calm this morning."
+                }
+            ]
+        },
+        {
+            "fr": "déçu",
+            "en": "disappointed",
+            "emoji": "😞",
+            "sentences": [
+                {
+                    "fr": "Je suis déçu.",
+                    "en": "I am disappointed."
+                },
+                {
+                    "fr": "Tu es déçu ?",
+                    "en": "Are you disappointed?"
+                },
+                {
+                    "fr": "Elle est déçue du résultat.",
+                    "en": "She is disappointed by the result."
+                },
+                {
+                    "fr": "Nous sommes déçus de perdre.",
+                    "en": "We are disappointed to lose."
+                },
+                {
+                    "fr": "Les enfants sont déçus.",
+                    "en": "The children are disappointed."
+                }
+            ]
+        },
+        {
+            "fr": "fier",
+            "en": "proud",
+            "emoji": "😌",
+            "sentences": [
+                {
+                    "fr": "Je suis fier de toi.",
+                    "en": "I am proud of you."
+                },
+                {
+                    "fr": "Tu es fier de ton dessin ?",
+                    "en": "Are you proud of your drawing?"
+                },
+                {
+                    "fr": "Papa est fier de son fils.",
+                    "en": "Dad is proud of his son."
+                },
+                {
+                    "fr": "Nous sommes fiers de notre travail.",
+                    "en": "We are proud of our work."
+                },
+                {
+                    "fr": "Les enfants sont fiers.",
+                    "en": "The children are proud."
+                }
+            ]
+        },
+        {
+            "fr": "gêné",
+            "en": "embarrassed",
+            "emoji": "😳",
+            "sentences": [
+                {
+                    "fr": "Je suis gêné.",
+                    "en": "I am embarrassed."
+                },
+                {
+                    "fr": "Tu es gêné devant la classe ?",
+                    "en": "Are you embarrassed in front of the class?"
+                },
+                {
+                    "fr": "Elle est gênée de parler.",
+                    "en": "She is embarrassed to speak."
+                },
+                {
+                    "fr": "Nous sommes gênés de danser.",
+                    "en": "We are embarrassed to dance."
+                },
+                {
+                    "fr": "Les enfants sont gênés parfois.",
+                    "en": "Children are sometimes embarrassed."
+                }
+            ]
+        },
+        {
+            "fr": "amoureux",
+            "en": "in love",
+            "emoji": "😍",
+            "sentences": [
+                {
+                    "fr": "Je suis amoureux.",
+                    "en": "I am in love."
+                },
+                {
+                    "fr": "Tu es amoureux ?",
+                    "en": "Are you in love?"
+                },
+                {
+                    "fr": "Il est amoureux de son chien.",
+                    "en": "He is in love with his dog."
+                },
+                {
+                    "fr": "Nous sommes amoureux.",
+                    "en": "We are in love."
+                },
+                {
+                    "fr": "Ils sont amoureux.",
+                    "en": "They are in love."
+                }
+            ]
+        },
+        {
+            "fr": "ennuyé",
+            "en": "bored",
+            "emoji": "😐",
+            "sentences": [
+                {
+                    "fr": "Je suis ennuyé.",
+                    "en": "I am bored."
+                },
+                {
+                    "fr": "Tu es ennuyé pendant le cours ?",
+                    "en": "Are you bored during class?"
+                },
+                {
+                    "fr": "Elle est ennuyée sans jouet.",
+                    "en": "She is bored without a toy."
+                },
+                {
+                    "fr": "Nous sommes ennuyés en voiture.",
+                    "en": "We are bored in the car."
+                },
+                {
+                    "fr": "Les enfants sont ennuyés.",
+                    "en": "The children are bored."
+                }
+            ]
+        },
+        {
+            "fr": "jalouse",
+            "en": "jealous (feminine)",
+            "emoji": "😒",
+            "sentences": [
+                {
+                    "fr": "Je suis jalouse.",
+                    "en": "I am jealous."
+                },
+                {
+                    "fr": "Tu es jalouse ?",
+                    "en": "Are you jealous?"
+                },
+                {
+                    "fr": "Elle est jalouse de sa sœur.",
+                    "en": "She is jealous of her sister."
+                },
+                {
+                    "fr": "Nous sommes jalouses.",
+                    "en": "We are jealous (feminine)."
+                },
+                {
+                    "fr": "Les filles sont jalouses.",
+                    "en": "The girls are jealous."
+                }
+            ]
+        },
+        {
+            "fr": "stressé",
+            "en": "stressed",
+            "emoji": "😬",
+            "sentences": [
+                {
+                    "fr": "Je suis stressé avant le test.",
+                    "en": "I am stressed before the test."
+                },
+                {
+                    "fr": "Tu es stressé ?",
+                    "en": "Are you stressed?"
+                },
+                {
+                    "fr": "Il est stressé ce matin.",
+                    "en": "He is stressed this morning."
+                },
+                {
+                    "fr": "Nous sommes stressés par l'école.",
+                    "en": "We are stressed by school."
+                },
+                {
+                    "fr": "Les enfants sont stressés.",
+                    "en": "The children are stressed."
+                }
+            ]
+        }
+    ]
+}
