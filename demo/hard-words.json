@@ -1,0 +1,248 @@
+{
+  "topic": {
+    "fr": "Prépositions et adverbes courants",
+    "en": "Common Prepositions and Adverbs"
+  },
+  "items": [
+    {
+      "fr": "quand",
+      "en": "when",
+      "emoji": "⏰",
+      "sentences": [
+        {"fr": "Quand est-ce que tu arrives ?", "en": "When are you arriving?"},
+        {"fr": "Je mange quand j’ai faim.", "en": "I eat when I am hungry."},
+        {"fr": "Quand il pleut, je reste à la maison.", "en": "When it rains, I stay home."},
+        {"fr": "Tu joues quand il fait beau.", "en": "You play when it's nice out."},
+        {"fr": "Quand part le train ?", "en": "When does the train leave?"}
+      ]
+    },
+    {
+      "fr": "est-ce que",
+      "en": "(question phrase)",
+      "emoji": "❓",
+      "sentences": [
+        {"fr": "Est-ce que tu aimes le chocolat ?", "en": "Do you like chocolate?"},
+        {"fr": "Est-ce que c’est ton ballon ?", "en": "Is that your ball?"},
+        {"fr": "Est-ce que nous partons maintenant ?", "en": "Are we leaving now?"},
+        {"fr": "Est-ce que je peux venir ?", "en": "Can I come?"},
+        {"fr": "Est-ce que tu veux jouer ?", "en": "Do you want to play?"}
+      ]
+    },
+    {
+      "fr": "au-dessus",
+      "en": "above",
+      "emoji": "⬆️",
+      "sentences": [
+        {"fr": "L’oiseau vole au-dessus de la maison.", "en": "The bird flies above the house."},
+        {"fr": "Il y a une lampe au-dessus de la table.", "en": "There is a lamp above the table."},
+        {"fr": "Le tableau est au-dessus du lit.", "en": "The picture is above the bed."},
+        {"fr": "Regarde au-dessus de toi !", "en": "Look above you!"},
+        {"fr": "La lune est au-dessus des nuages.", "en": "The moon is above the clouds."}
+      ]
+    },
+    {
+      "fr": "au-dessous",
+      "en": "below",
+      "emoji": "⬇️",
+      "sentences": [
+        {"fr": "Le chat dort au-dessous du canapé.", "en": "The cat is sleeping below the couch."},
+        {"fr": "Il y a un trésor au-dessous de l’eau.", "en": "There is treasure below the water."},
+        {"fr": "La boîte est au-dessous de l’étagère.", "en": "The box is below the shelf."},
+        {"fr": "Le jouet est tombé au-dessous du lit.", "en": "The toy fell below the bed."},
+        {"fr": "Regarde au-dessous de la table.", "en": "Look under the table."}
+      ]
+    },
+    {
+      "fr": "chez",
+      "en": "at the home/place of",
+      "emoji": "🏠",
+      "sentences": [
+        {"fr": "Je vais chez mamie.", "en": "I’m going to grandma’s."},
+        {"fr": "Nous dînons chez Paul.", "en": "We are having dinner at Paul’s."},
+        {"fr": "Tu dors chez ton ami ?", "en": "Are you sleeping at your friend’s house?"},
+        {"fr": "Il reste chez lui aujourd’hui.", "en": "He is staying home today."},
+        {"fr": "Elle joue chez sa cousine.", "en": "She is playing at her cousin’s house."}
+      ]
+    },
+    {
+      "fr": "jusqu’à",
+      "en": "until",
+      "emoji": "🕒",
+      "sentences": [
+        {"fr": "Je dors jusqu’à huit heures.", "en": "I sleep until eight o’clock."},
+        {"fr": "Nous restons jusqu’à demain.", "en": "We are staying until tomorrow."},
+        {"fr": "J’attends jusqu’à la fin.", "en": "I wait until the end."},
+        {"fr": "Tu lis jusqu’à la nuit.", "en": "You read until night."},
+        {"fr": "On joue jusqu’à ce qu’il pleuve.", "en": "We play until it rains."}
+      ]
+    },
+    {
+      "fr": "lorsque",
+      "en": "when",
+      "emoji": "🕰️",
+      "sentences": [
+        {"fr": "Je ris lorsque tu chantes.", "en": "I laugh when you sing."},
+        {"fr": "Il pleure lorsque il est triste.", "en": "He cries when he is sad."},
+        {"fr": "Nous mangeons lorsque maman rentre.", "en": "We eat when mom comes home."},
+        {"fr": "Elle part lorsque la cloche sonne.", "en": "She leaves when the bell rings."},
+        {"fr": "Je dors lorsque je suis fatigué.", "en": "I sleep when I am tired."}
+      ]
+    },
+    {
+      "fr": "puisque",
+      "en": "since",
+      "emoji": "🧠",
+      "sentences": [
+        {"fr": "Je pars puisque tu es prêt.", "en": "I’m leaving since you’re ready."},
+        {"fr": "Puisque tu es là, aide-moi.", "en": "Since you're here, help me."},
+        {"fr": "Nous restons puisque il fait froid.", "en": "We’re staying since it’s cold."},
+        {"fr": "Il pleure puisque il est tombé.", "en": "He is crying since he fell."},
+        {"fr": "Je chante puisque je suis content.", "en": "I sing since I am happy."}
+      ]
+    },
+    {
+      "fr": "presque",
+      "en": "almost",
+      "emoji": "🟡",
+      "sentences": [
+        {"fr": "Je suis presque prêt.", "en": "I am almost ready."},
+        {"fr": "Elle a presque fini.", "en": "She almost finished."},
+        {"fr": "C’est presque l’heure.", "en": "It’s almost time."},
+        {"fr": "Il est presque midi.", "en": "It’s almost noon."},
+        {"fr": "Tu as presque gagné !", "en": "You almost won!"}
+      ]
+    },
+    {
+      "fr": "quelque part",
+      "en": "somewhere",
+      "emoji": "📍",
+      "sentences": [
+        {"fr": "Le ballon est quelque part.", "en": "The ball is somewhere."},
+        {"fr": "Je l’ai mis quelque part ici.", "en": "I put it somewhere here."},
+        {"fr": "Elle est partie quelque part.", "en": "She went somewhere."},
+        {"fr": "Je veux aller quelque part.", "en": "I want to go somewhere."},
+        {"fr": "Il est caché quelque part.", "en": "It’s hidden somewhere."}
+      ]
+    },
+    {
+      "fr": "nulle part",
+      "en": "nowhere",
+      "emoji": "🚫",
+      "sentences": [
+        {"fr": "Je ne vais nulle part.", "en": "I’m not going anywhere."},
+        {"fr": "Il n’y a rien nulle part.", "en": "There is nothing anywhere."},
+        {"fr": "Tu ne trouves ça nulle part.", "en": "You find that nowhere."},
+        {"fr": "Le jouet n’est nulle part.", "en": "The toy is nowhere."},
+        {"fr": "Elle ne veut aller nulle part.", "en": "She doesn’t want to go anywhere."}
+      ]
+    },
+    {
+      "fr": "partout",
+      "en": "everywhere",
+      "emoji": "🌍",
+      "sentences": [
+        {"fr": "Je cherche partout.", "en": "I’m looking everywhere."},
+        {"fr": "Il y a des chats partout.", "en": "There are cats everywhere."},
+        {"fr": "Elle court partout !", "en": "She runs everywhere!"},
+        {"fr": "Tu mets tes jouets partout.", "en": "You put your toys everywhere."},
+        {"fr": "On voit des feuilles partout.", "en": "We see leaves everywhere."}
+      ]
+    },
+    {
+      "fr": "dedans",
+      "en": "inside",
+      "emoji": "🏠",
+      "sentences": [
+        {"fr": "Le chat est dedans.", "en": "The cat is inside."},
+        {"fr": "Tu peux entrer, c’est dedans.", "en": "You can come in, it’s inside."},
+        {"fr": "Il fait chaud dedans.", "en": "It’s warm inside."},
+        {"fr": "Je vais jouer dedans.", "en": "I’m going to play inside."},
+        {"fr": "Mets le jouet dedans.", "en": "Put the toy inside."}
+      ]
+    },
+    {
+      "fr": "dehors",
+      "en": "outside",
+      "emoji": "🌳",
+      "sentences": [
+        {"fr": "Il fait froid dehors.", "en": "It’s cold outside."},
+        {"fr": "Je veux jouer dehors.", "en": "I want to play outside."},
+        {"fr": "Le chien est dehors.", "en": "The dog is outside."},
+        {"fr": "Tu peux aller dehors.", "en": "You can go outside."},
+        {"fr": "On mange dehors aujourd’hui.", "en": "We’re eating outside today."}
+      ]
+    },
+    {
+      "fr": "dessus",
+      "en": "on top",
+      "emoji": "📦",
+      "sentences": [
+        {"fr": "Le livre est dessus la table.", "en": "The book is on the table."},
+        {"fr": "Il saute dessus le lit.", "en": "He jumps on the bed."},
+        {"fr": "Pose le jouet dessus.", "en": "Put the toy on top."},
+        {"fr": "Le chat est dessus le canapé.", "en": "The cat is on the couch."},
+        {"fr": "Je mets mon sac dessus.", "en": "I put my bag on top."}
+      ]
+    },
+    {
+      "fr": "dessous",
+      "en": "underneath",
+      "emoji": "📥",
+      "sentences": [
+        {"fr": "Le jouet est dessous la table.", "en": "The toy is under the table."},
+        {"fr": "Il regarde dessous le lit.", "en": "He looks under the bed."},
+        {"fr": "Le chat est dessous la chaise.", "en": "The cat is under the chair."},
+        {"fr": "Je cache ça dessous.", "en": "I hide it underneath."},
+        {"fr": "Tu trouves ça dessous ?", "en": "Do you find it underneath?"}
+      ]
+    },
+    {
+      "fr": "envers",
+      "en": "toward (a person)",
+      "emoji": "💞",
+      "sentences": [
+        {"fr": "Sois gentil envers les autres.", "en": "Be kind toward others."},
+        {"fr": "Il est méchant envers moi.", "en": "He is mean toward me."},
+        {"fr": "Elle est douce envers son frère.", "en": "She is gentle toward her brother."},
+        {"fr": "Montre de l’amour envers ta famille.", "en": "Show love toward your family."},
+        {"fr": "Il a peur envers les inconnus.", "en": "He is afraid toward strangers."}
+      ]
+    },
+    {
+      "fr": "selon",
+      "en": "according to",
+      "emoji": "📚",
+      "sentences": [
+        {"fr": "Selon maman, c’est l’heure.", "en": "According to mom, it’s time."},
+        {"fr": "Selon le livre, c’est vrai.", "en": "According to the book, it’s true."},
+        {"fr": "Selon toi, c’est facile ?", "en": "According to you, is it easy?"},
+        {"fr": "Selon la règle, c’est interdit.", "en": "According to the rule, it’s not allowed."},
+        {"fr": "C’est faux, selon moi.", "en": "That’s false, according to me."}
+      ]
+    },
+    {
+      "fr": "auprès de",
+      "en": "close to / near",
+      "emoji": "📍",
+      "sentences": [
+        {"fr": "Je suis bien auprès de toi.", "en": "I feel good near you."},
+        {"fr": "Elle dort auprès de sa maman.", "en": "She sleeps close to her mom."},
+        {"fr": "Le chien reste auprès de nous.", "en": "The dog stays close to us."},
+        {"fr": "Tu t’assois auprès de moi ?", "en": "Will you sit near me?"},
+        {"fr": "Il habite auprès de l’école.", "en": "He lives near the school."}
+      ]
+    },
+    {
+      "fr": "entre",
+      "en": "between",
+      "emoji": "↔️",
+      "sentences": [
+        {"fr": "Je suis entre papa et maman.", "en": "I am between dad and mom."},
+        {"fr": "Le chat dort entre les coussins.", "en": "The cat sleeps between the cushions."},
+        {"fr": "Tu es entre deux amis.", "en": "You are between two friends."},
+        {"fr": "Elle est assise entre nous.", "en": "She is sitting between us."},
+        {"fr": "Le ballon est entre les chaises.", "en": "The ball is between the chairs."}
+      ]
+    }
+  ]
+}
