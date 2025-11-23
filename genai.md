@@ -4,6 +4,9 @@ layout: single
 toc: true
 ---
 
+> [!NOTE]
+> A bit outdated by now :-(
+
 Some curated GenAI resources.
 
 ## My Top 5
