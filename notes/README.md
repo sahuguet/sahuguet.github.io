@@ -1,1 +1,0 @@
-Some notes worth sharing
