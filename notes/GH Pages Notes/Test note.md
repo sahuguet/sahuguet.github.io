@@ -1,6 +1,6 @@
 ---
 title: Test note
-layout: posts
+layout: single
 author_profile: true
 ---
 
