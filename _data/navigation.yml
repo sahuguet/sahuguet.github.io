@@ -1,12 +1,10 @@
 main:
   - title: "Home"
     url: /
-  - title: "COVID-19"
-    url: /covid19
-  - title: "Blog"
-    url: /blog/
-  - title: "Resources"
-    url: "/resources"
+  - title: "TIL"
+    url: /til/
+  - title: "GenAI"
+    url: "/genai"
   - title: "Portfolio"
     url: "/portfolio"
   - title: "About Me"
