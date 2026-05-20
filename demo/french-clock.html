@@ -94,6 +94,8 @@ h1 {
   top: 50%;
   width: 3px;
   height: 2.8%;
+  margin-left: -1.5px;
+  margin-top: -1.4%;
   background: #9aa4b2;
   border-radius: 999px;
   transform-origin: 50% 50%;
@@ -102,6 +104,8 @@ h1 {
 .tick.big {
   width: 6px;
   height: 5.2%;
+  margin-left: -3px;
+  margin-top: -2.6%;
   background: #475467;
 }
 
@@ -116,7 +120,7 @@ h1 {
   place-items: center;
   font-size: clamp(1.15rem, 4vw, 2.1rem);
   font-weight: 900;
-  transform: rotate(var(--angle)) translateY(-345%) rotate(calc(-1 * var(--angle)));
+  transform: rotate(var(--angle)) translateY(-295%) rotate(calc(-1 * var(--angle)));
 }
 
 .hand {
@@ -510,14 +514,12 @@ function numberWord(n) {
 function dayPart() {
   if (state.hour === 12 && state.minute === 0) return "midi";
   if (state.hour === 0 && state.minute === 0) return "minuit";
-  if (state.hour >= 5 && state.hour < 12) return "du matin";
+  if (state.hour >= 0 && state.hour < 12) return "du matin";
   if (state.hour >= 12 && state.hour < 18) return "de l'après-midi";
   return "du soir";
 }
 
 function hourName(h) {
-  if (h === 12) return "midi";
-  if (h === 0 || h === 24) return "minuit";
   return h === 1 ? "une heure" : numberWord(h) + " heures";
 }
 
@@ -543,19 +545,6 @@ function frenchTime() {
   if (state.minute === 0) return "Il est " + hourText + " " + part + ".";
   if (state.minute === 15) return "Il est " + hourText + " et quart " + part + ".";
   if (state.minute === 30) return "Il est " + hourText + " et demie " + part + ".";
-  if (state.minute === 45) {
-    const next24 = (state.hour + 1) % 24;
-    const next = next24 % 12 || 12;
-    const nextText = next24 === 12 || next24 === 0 ? hourName(next24) : hourName(next);
-    return "Il est " + nextText + " moins le quart " + part + ".";
-  }
-  if (state.minute > 30) {
-    const next24 = (state.hour + 1) % 24;
-    const next = next24 % 12 || 12;
-    const nextText = next24 === 12 || next24 === 0 ? hourName(next24) : hourName(next);
-    const remaining = 60 - state.minute;
-    return "Il est " + nextText + " moins " + numberWord(remaining) + " " + part + ".";
-  }
   return "Il est " + hourText + " " + numberWord(state.minute) + " " + part + ".";
 }
 
@@ -567,7 +556,7 @@ function render() {
   hourHand.style.setProperty("--rot", hourAngle + "deg");
   digital.textContent = state.period === "PM"
     ? pad(state.hour) + ":" + pad(state.minute)
-    : pad(hour12()) + ":" + pad(state.minute) + " AM";
+    : pad(hour12()) + ":" + pad(state.minute);
   phrase.textContent = frenchTime();
   literal.textContent = state.period === "PM"
     ? "PM uses French 24-hour time."
