@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>French Clock Practice</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+
+:root {
+  --ink: #1f2937;
+  --muted: #667085;
+  --line: #d8dee8;
+  --paper: #fffaf0;
+  --panel: #ffffff;
+  --sky: #dff3ff;
+  --sun: #ffcf5a;
+  --red: #ef4444;
+  --blue: #2563eb;
+  --green: #16a34a;
+  --shadow: 0 18px 48px rgba(31, 41, 55, .16);
+}
+
+html, body { min-height: 100%; }
+
+body {
+  margin: 0;
+  color: var(--ink);
+  font-family: "Arial Rounded MT Bold", "Trebuchet MS", Arial, sans-serif;
+  background:
+    radial-gradient(circle at 14% 16%, rgba(255, 207, 90, .42), transparent 19rem),
+    linear-gradient(135deg, #dff3ff 0%, #f8fbff 46%, #fff3dc 100%);
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+.app {
+  width: min(1120px, 100%);
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 24px;
+  display: grid;
+  grid-template-columns: minmax(320px, 1fr) minmax(310px, 420px);
+  gap: 24px;
+  align-items: center;
+}
+
+.clock-zone {
+  display: grid;
+  justify-items: center;
+  gap: 18px;
+}
+
+.title {
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2rem, 5vw, 4rem);
+  line-height: 1;
+}
+
+.subtitle {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: clamp(1rem, 2vw, 1.2rem);
+}
+
+.clock-wrap {
+  width: min(78vw, 560px);
+  aspect-ratio: 1;
+  position: relative;
+  touch-action: none;
+}
+
+.clock {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at center, #ffffff 0 5%, transparent 5.2%),
+    radial-gradient(circle at 50% 50%, #fff 0 60%, #fff8df 60.4% 73%, #ffcf5a 73.2% 76%, #f97316 76.4% 78%, #fff 78.2%);
+  box-shadow: var(--shadow), inset 0 0 0 10px rgba(255, 255, 255, .7);
+  position: relative;
+}
+
+.tick {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 3px;
+  height: 2.8%;
+  background: #9aa4b2;
+  border-radius: 999px;
+  transform-origin: 50% 50%;
+}
+
+.tick.big {
+  width: 6px;
+  height: 5.2%;
+  background: #475467;
+}
+
+.num {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 12%;
+  height: 12%;
+  margin: -6% 0 0 -6%;
+  display: grid;
+  place-items: center;
+  font-size: clamp(1.15rem, 4vw, 2.1rem);
+  font-weight: 900;
+  transform: rotate(var(--angle)) translateY(-345%) rotate(calc(-1 * var(--angle)));
+}
+
+.hand {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  transform: rotate(var(--rot));
+  transform-origin: 50% 100%;
+  cursor: grab;
+  touch-action: none;
+  z-index: 3;
+}
+
+.hand:active { cursor: grabbing; }
+
+.hand::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  border-radius: 999px;
+  transform: translateX(-50%);
+  box-shadow: 0 3px 10px rgba(31, 41, 55, .22);
+}
+
+.hour-hand {
+  width: 64px;
+  height: 28%;
+  margin-left: -32px;
+  margin-top: -28%;
+}
+
+.hour-hand::before {
+  width: 14px;
+  height: 100%;
+  background: var(--blue);
+}
+
+.minute-hand {
+  width: 56px;
+  height: 40%;
+  margin-left: -28px;
+  margin-top: -40%;
+}
+
+.minute-hand::before {
+  width: 9px;
+  height: 100%;
+  background: var(--red);
+}
+
+.center-pin {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 9%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #fff;
+  border: 8px solid #1f2937;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  box-shadow: 0 4px 14px rgba(31, 41, 55, .2);
+  pointer-events: none;
+}
+
+.drag-note {
+  color: var(--muted);
+  text-align: center;
+  font-size: .96rem;
+}
+
+.side {
+  background: rgba(255, 255, 255, .78);
+  border: 1px solid rgba(216, 222, 232, .9);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  padding: 18px;
+  display: grid;
+  gap: 16px;
+}
+
+.digital {
+  background: #182230;
+  color: #ecfeff;
+  border-radius: 8px;
+  padding: 18px;
+  text-align: center;
+  font-size: clamp(2.4rem, 9vw, 4.8rem);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-weight: 900;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0;
+}
+
+.phrase {
+  min-height: 112px;
+  border: 2px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+  padding: 16px;
+  display: grid;
+  align-content: center;
+  gap: 8px;
+}
+
+.phrase .fr {
+  font-size: clamp(1.55rem, 4vw, 2.4rem);
+  line-height: 1.1;
+  font-weight: 900;
+}
+
+.phrase .hint {
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+.controls {
+  display: grid;
+  gap: 12px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.btn {
+  min-height: 48px;
+  border: 2px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  font-weight: 900;
+  cursor: pointer;
+  transition: transform .12s ease, border-color .12s ease, background .12s ease;
+}
+
+.btn:hover, .btn:focus-visible {
+  border-color: #7dd3fc;
+  outline: 0;
+  transform: translateY(-1px);
+}
+
+.btn.primary {
+  background: var(--green);
+  border-color: var(--green);
+  color: #fff;
+}
+
+.btn.toggle {
+  background: #eef6ff;
+}
+
+.btn.toggle.active {
+  background: #2563eb;
+  border-color: #2563eb;
+  color: #fff;
+}
+
+.label {
+  color: var(--muted);
+  font-size: .82rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+
+.voice-status {
+  min-height: 20px;
+  color: var(--muted);
+  font-size: .9rem;
+}
+
+@media (max-width: 820px) {
+  .app {
+    grid-template-columns: 1fr;
+    align-items: start;
+    padding: 14px;
+  }
+
+  .clock-wrap { width: min(92vw, 520px); }
+  .side { padding: 14px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition-duration: .001ms !important;
+    animation-duration: .001ms !important;
+  }
+}
+</style>
+</head>
+<body>
+<main class="app">
+  <section class="clock-zone" aria-labelledby="pageTitle">
+    <div class="title">
+      <h1 id="pageTitle">Quelle heure est-il ?</h1>
+      <p class="subtitle">Tourne les aiguilles et écoute l'heure en français.</p>
+    </div>
+
+    <div class="clock-wrap" id="clockWrap" aria-label="Interactive analog clock">
+      <div class="clock" id="clock">
+        <button class="hand hour-hand" id="hourHand" aria-label="Drag the hour hand"></button>
+        <button class="hand minute-hand" id="minuteHand" aria-label="Drag the minute hand"></button>
+        <div class="center-pin"></div>
+      </div>
+    </div>
+    <div class="drag-note">Drag the hands, then listen to the time in French.</div>
+  </section>
+
+  <aside class="side">
+    <div>
+      <div class="label">Digital clock</div>
+      <div class="digital" id="digital">15:00</div>
+    </div>
+
+    <div class="phrase" aria-live="polite">
+      <div class="fr" id="phrase">Il est quinze heures.</div>
+      <div class="hint" id="literal">PM uses French 24-hour time.</div>
+    </div>
+
+    <div class="controls">
+      <button class="btn primary" id="speakBtn">Speak</button>
+      <div class="row" role="group" aria-label="AM or PM">
+        <button class="btn toggle" id="amBtn">AM</button>
+        <button class="btn toggle active" id="pmBtn">PM</button>
+      </div>
+    </div>
+    <div class="voice-status" id="voiceStatus"></div>
+  </aside>
+</main>
+
+<script>
+const state = {
+  hour: 15,
+  minute: 0,
+  period: "PM",
+  dragging: null,
+  didDrag: false
+};
+
+const NUM_WORDS = {
+  0: "zero",
+  1: "une",
+  2: "deux",
+  3: "trois",
+  4: "quatre",
+  5: "cinq",
+  6: "six",
+  7: "sept",
+  8: "huit",
+  9: "neuf",
+  10: "dix",
+  11: "onze",
+  12: "douze",
+  13: "treize",
+  14: "quatorze",
+  15: "quinze",
+  16: "seize",
+  17: "dix-sept",
+  18: "dix-huit",
+  19: "dix-neuf",
+  20: "vingt",
+  21: "vingt et une",
+  22: "vingt-deux",
+  23: "vingt-trois",
+  24: "vingt-quatre",
+  25: "vingt-cinq",
+  26: "vingt-six",
+  27: "vingt-sept",
+  28: "vingt-huit",
+  29: "vingt-neuf",
+  30: "trente",
+  31: "trente et une",
+  32: "trente-deux",
+  33: "trente-trois",
+  34: "trente-quatre",
+  35: "trente-cinq",
+  36: "trente-six",
+  37: "trente-sept",
+  38: "trente-huit",
+  39: "trente-neuf",
+  40: "quarante",
+  41: "quarante et une",
+  42: "quarante-deux",
+  43: "quarante-trois",
+  44: "quarante-quatre",
+  45: "quarante-cinq",
+  46: "quarante-six",
+  47: "quarante-sept",
+  48: "quarante-huit",
+  49: "quarante-neuf",
+  50: "cinquante",
+  51: "cinquante et une",
+  52: "cinquante-deux",
+  53: "cinquante-trois",
+  54: "cinquante-quatre",
+  55: "cinquante-cinq",
+  56: "cinquante-six",
+  57: "cinquante-sept",
+  58: "cinquante-huit",
+  59: "cinquante-neuf"
+};
+
+const clockWrap = document.getElementById("clockWrap");
+const clock = document.getElementById("clock");
+const hourHand = document.getElementById("hourHand");
+const minuteHand = document.getElementById("minuteHand");
+const digital = document.getElementById("digital");
+const phrase = document.getElementById("phrase");
+const literal = document.getElementById("literal");
+const voiceStatus = document.getElementById("voiceStatus");
+const amBtn = document.getElementById("amBtn");
+const pmBtn = document.getElementById("pmBtn");
+const speakBtn = document.getElementById("speakBtn");
+
+class SynthSingleton {
+  constructor() {
+    this.synth = window.speechSynthesis;
+    this.voices = [];
+    if (this.synth) {
+      const load = () => {
+        this.voices = this.synth.getVoices();
+        if (this.onVoicesChanged) this.onVoicesChanged();
+      };
+      load();
+      this.synth.onvoiceschanged = load;
+    }
+  }
+  getVoice(lang, preferName) {
+    if (preferName) {
+      const named = this.voices.find(v => v.name === preferName);
+      if (named) return named;
+    }
+    return this.voices.find(v => v.lang === lang)
+      || this.voices.find(v => v.lang && v.lang.startsWith(lang.slice(0, 2)))
+      || null;
+  }
+  speak(utt) { if (this.synth) this.synth.speak(utt); }
+  cancel() { if (this.synth) this.synth.cancel(); }
+}
+
+const speaker = ("speechSynthesis" in window) ? new SynthSingleton() : null;
+if (speaker) speaker.onVoicesChanged = setVoiceStatus;
+let activeUtterance = null;
+
+function pad(n) {
+  return String(n).padStart(2, "0");
+}
+
+function hour12() {
+  const h = state.hour % 12;
+  return h === 0 ? 12 : h;
+}
+
+function normalize() {
+  const total = ((state.hour * 60 + state.minute) % 1440 + 1440) % 1440;
+  state.hour = Math.floor(total / 60);
+  state.minute = total % 60;
+  state.period = state.hour < 12 ? "AM" : "PM";
+}
+
+function setTime(hour24, minute) {
+  state.hour = hour24;
+  state.minute = minute;
+  normalize();
+  render();
+}
+
+function addMinutes(delta) {
+  state.minute += delta;
+  normalize();
+  render();
+}
+
+function setPeriod(period) {
+  if (state.period === period) return;
+  state.hour = period === "PM" ? (state.hour + 12) % 24 : (state.hour + 12) % 24;
+  state.period = period;
+  render();
+}
+
+function numberWord(n) {
+  return NUM_WORDS[n];
+}
+
+function dayPart() {
+  if (state.hour === 12 && state.minute === 0) return "midi";
+  if (state.hour === 0 && state.minute === 0) return "minuit";
+  if (state.hour >= 5 && state.hour < 12) return "du matin";
+  if (state.hour >= 12 && state.hour < 18) return "de l'après-midi";
+  return "du soir";
+}
+
+function hourName(h) {
+  if (h === 12) return "midi";
+  if (h === 0 || h === 24) return "minuit";
+  return h === 1 ? "une heure" : numberWord(h) + " heures";
+}
+
+function frenchTime24() {
+  if (state.hour === 12 && state.minute === 0) return "Il est midi.";
+  if (state.hour === 0 && state.minute === 0) return "Il est minuit.";
+
+  const hourText = hourName(state.hour);
+  if (state.minute === 0) return "Il est " + hourText + ".";
+  return "Il est " + hourText + " " + numberWord(state.minute) + ".";
+}
+
+function frenchTime() {
+  if (state.period === "PM") return frenchTime24();
+
+  if (state.hour === 12 && state.minute === 0) return "Il est midi.";
+  if (state.hour === 0 && state.minute === 0) return "Il est minuit.";
+
+  const h = hour12();
+  const hourText = hourName(h);
+  const part = dayPart();
+
+  if (state.minute === 0) return "Il est " + hourText + " " + part + ".";
+  if (state.minute === 15) return "Il est " + hourText + " et quart " + part + ".";
+  if (state.minute === 30) return "Il est " + hourText + " et demie " + part + ".";
+  if (state.minute === 45) {
+    const next24 = (state.hour + 1) % 24;
+    const next = next24 % 12 || 12;
+    const nextText = next24 === 12 || next24 === 0 ? hourName(next24) : hourName(next);
+    return "Il est " + nextText + " moins le quart " + part + ".";
+  }
+  if (state.minute > 30) {
+    const next24 = (state.hour + 1) % 24;
+    const next = next24 % 12 || 12;
+    const nextText = next24 === 12 || next24 === 0 ? hourName(next24) : hourName(next);
+    const remaining = 60 - state.minute;
+    return "Il est " + nextText + " moins " + numberWord(remaining) + " " + part + ".";
+  }
+  return "Il est " + hourText + " " + numberWord(state.minute) + " " + part + ".";
+}
+
+function render() {
+  const minuteAngle = state.minute * 6;
+  const hourAngle = (hour12() % 12) * 30 + state.minute * .5;
+
+  minuteHand.style.setProperty("--rot", minuteAngle + "deg");
+  hourHand.style.setProperty("--rot", hourAngle + "deg");
+  digital.textContent = state.period === "PM"
+    ? pad(state.hour) + ":" + pad(state.minute)
+    : pad(hour12()) + ":" + pad(state.minute) + " AM";
+  phrase.textContent = frenchTime();
+  literal.textContent = state.period === "PM"
+    ? "PM uses French 24-hour time."
+    : "AM uses 12-hour time.";
+
+  amBtn.classList.toggle("active", state.period === "AM");
+  pmBtn.classList.toggle("active", state.period === "PM");
+}
+
+function setVoiceStatus() {
+  if (!speaker || !voiceStatus) {
+    voiceStatus.textContent = "Speech is not available in this browser.";
+    return;
+  }
+  const voice = speaker.getVoice("fr-FR", "Amélie") || speaker.getVoice("fr-FR", "Amelie");
+  voiceStatus.textContent = voice ? "Voice: " + voice.name : "French voice will use the browser default.";
+}
+
+function speakCurrentTime() {
+  if (!speaker) return;
+  if (activeUtterance) {
+    activeUtterance.onend = null;
+    activeUtterance.onerror = null;
+  }
+  speaker.cancel();
+
+  const text = frenchTime();
+  const utt = new SpeechSynthesisUtterance(text);
+  activeUtterance = utt;
+  utt.lang = "fr-FR";
+  utt.rate = .72;
+  utt.volume = 1;
+  utt.voice = speaker.getVoice("fr-FR", "Amélie") || speaker.getVoice("fr-FR", "Amelie");
+
+  speakBtn.textContent = "Speaking...";
+  utt.onend = () => { speakBtn.textContent = "Speak"; };
+  utt.onerror = ev => {
+    if (ev.error === "interrupted") return;
+    speakBtn.textContent = "Speak";
+    voiceStatus.textContent = "Speech error: " + ev.error;
+  };
+
+  speaker.speak(utt);
+}
+
+function buildClockFace() {
+  for (let i = 0; i < 60; i++) {
+    const tick = document.createElement("span");
+    tick.className = "tick" + (i % 5 === 0 ? " big" : "");
+    tick.style.transform = "rotate(" + (i * 6) + "deg) translateY(calc(var(--clock-size, 0px) * -0.445))";
+    clock.insertBefore(tick, hourHand);
+  }
+
+  for (let n = 1; n <= 12; n++) {
+    const num = document.createElement("span");
+    num.className = "num";
+    num.style.setProperty("--angle", (n * 30) + "deg");
+    num.textContent = n;
+    clock.insertBefore(num, hourHand);
+  }
+}
+
+function pointerAngle(event) {
+  const rect = clock.getBoundingClientRect();
+  const cx = rect.left + rect.width / 2;
+  const cy = rect.top + rect.height / 2;
+  const degrees = Math.atan2(event.clientY - cy, event.clientX - cx) * 180 / Math.PI + 90;
+  return (degrees + 360) % 360;
+}
+
+function setFromPointer(event) {
+  const angle = pointerAngle(event);
+  if (state.dragging === "minute") {
+    state.minute = Math.round(angle / 6) % 60;
+  } else if (state.dragging === "hour") {
+    const h = Math.round(angle / 30) % 12 || 12;
+    const previous12 = hour12();
+    if (Math.abs(h - previous12) === 11) {
+      state.period = state.period === "AM" ? "PM" : "AM";
+    }
+    state.hour = (state.period === "PM" ? 12 : 0) + (h % 12);
+  }
+  normalize();
+  render();
+}
+
+function startDrag(which, event) {
+  state.dragging = which;
+  state.didDrag = true;
+  event.currentTarget.setPointerCapture(event.pointerId);
+  setFromPointer(event);
+}
+
+function endDrag() {
+  if (!state.dragging) return;
+  state.dragging = null;
+  speakCurrentTime();
+}
+
+function wireEvents() {
+  minuteHand.addEventListener("pointerdown", event => startDrag("minute", event));
+  hourHand.addEventListener("pointerdown", event => startDrag("hour", event));
+
+  window.addEventListener("pointermove", event => {
+    if (!state.dragging) return;
+    event.preventDefault();
+    setFromPointer(event);
+  });
+  window.addEventListener("pointerup", endDrag);
+  window.addEventListener("pointercancel", endDrag);
+
+  speakBtn.addEventListener("click", speakCurrentTime);
+  amBtn.addEventListener("click", () => setPeriod("AM"));
+  pmBtn.addEventListener("click", () => setPeriod("PM"));
+
+  document.addEventListener("keydown", event => {
+    if (event.key === "ArrowLeft") { event.preventDefault(); addMinutes(-5); }
+    if (event.key === "ArrowRight") { event.preventDefault(); addMinutes(5); }
+    if (event.key === "ArrowUp") { event.preventDefault(); addMinutes(60); }
+    if (event.key === "ArrowDown") { event.preventDefault(); addMinutes(-60); }
+    if (event.key === " " || event.key === "Enter") {
+      event.preventDefault();
+      speakCurrentTime();
+    }
+  });
+}
+
+function syncClockSize() {
+  const size = clock.getBoundingClientRect().width;
+  clock.style.setProperty("--clock-size", size + "px");
+}
+
+window.addEventListener("resize", syncClockSize);
+document.addEventListener("DOMContentLoaded", () => {
+  buildClockFace();
+  wireEvents();
+  syncClockSize();
+  render();
+  setVoiceStatus();
+});
+</script>
+</body>
+</html>
