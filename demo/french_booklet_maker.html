@@ -426,43 +426,51 @@ function switchTab(tab) {
 
 function showFormatExamples() {
   const jsonEx = {
+    title: "My Booklet",
     pages: [
-      { title: "Fruits", words: ["pomme", "orange", "banane"], sentences: ["J'aime les pommes."] },
-      { title: "Légumes", words: ["carotte", "tomate"], sentences: ["Je mange une carotte."] },
-      { title: "Animaux", words: ["chat", "chien", "oiseau"], sentences: ["Le chat dort."] },
-      { title: "Maison", words: ["porte", "fenêtre"], sentences: ["La maison est grande."] }
+      { title: "Fruits", words: ["une pomme", "une orange", "une banane"], sentences: ["J'aime les pommes.", "La pomme est rouge."] },
+      { title: "Légumes", words: ["une carotte", "une tomate", "une pomme de terre"], sentences: ["Je mange une carotte.", "Les tomates sont mûres."] },
+      { title: "Animaux", words: ["un chat", "un chien", "un oiseau"], sentences: ["Le chat dort.", "J'aime les animaux."] },
+      { title: "Maison", words: ["une porte", "une fenêtre", "un lit"], sentences: ["La maison est grande.", "La fenêtre est grande."] }
     ]
   };
 
   document.getElementById('json-example').innerHTML = `<pre>${JSON.stringify(jsonEx, null, 2)}</pre>`;
 
-  const yamlEx = `pages:
+  const yamlEx = `title: "My Booklet"
+pages:
   - title: "Fruits"
     words:
-      - pomme
-      - orange
-      - banane
+      - une pomme
+      - une orange
+      - une banane
     sentences:
       - "J'aime les pommes."
+      - "La pomme est rouge."
   - title: "Légumes"
     words:
-      - carotte
-      - tomate
+      - une carotte
+      - une tomate
+      - une pomme de terre
     sentences:
       - "Je mange une carotte."
+      - "Les tomates sont mûres."
   - title: "Animaux"
     words:
-      - chat
-      - chien
-      - oiseau
+      - un chat
+      - un chien
+      - un oiseau
     sentences:
       - "Le chat dort."
+      - "J'aime les animaux."
   - title: "Maison"
     words:
-      - porte
-      - fenêtre
+      - une porte
+      - une fenêtre
+      - un lit
     sentences:
-      - "La maison est grande."`;
+      - "La maison est grande."
+      - "La fenêtre est grande."`;
 
   document.getElementById('yaml-example').innerHTML = `<pre>${escapeHtml(yamlEx)}</pre>`;
 }
