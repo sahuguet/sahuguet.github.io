@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>French Booklet Creator</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+    .app {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      padding: 20px;
+      min-height: 100vh;
+    }
+    .editor-panel {
+      background: white;
+      border-radius: 8px;
+      padding: 16px;
+      overflow-y: auto;
+      max-height: 100vh;
+    }
+    .preview-panel {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      overflow-y: auto;
+    }
+    h2 {
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: #333;
+    }
+    .tabs {
+      display: flex;
+      gap: 6px;
+      margin-bottom: 16px;
+      border-bottom: 1px solid #eee;
+    }
+    .tab-btn {
+      padding: 8px 12px;
+      border: none;
+      background: transparent;
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 600;
+      color: #666;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+    }
+    .tab-btn.active {
+      color: #0066cc;
+      border-bottom-color: #0066cc;
+    }
+    .tab-content {
+      display: none;
+    }
+    .tab-content.active {
+      display: block;
+    }
+    .form-group {
+      margin-bottom: 12px;
+    }
+    label {
+      display: block;
+      font-size: 12px;
+      font-weight: 600;
+      color: #666;
+      margin-bottom: 4px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      font-size: 12px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-family: inherit;
+    }
+    input:focus, textarea:focus {
+      outline: none;
+      border-color: #0066cc;
+      box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+    }
+    textarea {
+      resize: vertical;
+      min-height: 80px;
+    }
+    .item-list {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .item {
+      background: #f9f9f9;
+      padding: 8px;
+      border-radius: 4px;
+      font-size: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 0.5px solid #eee;
+    }
+    .item-text {
+      flex: 1;
+    }
+    button {
+      padding: 8px 12px;
+      font-size: 12px;
+      border: 1px solid #ddd;
+      background: white;
+      border-radius: 4px;
+      cursor: pointer;
+      color: #333;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+    button:hover {
+      background: #f9f9f9;
+      border-color: #0066cc;
+      color: #0066cc;
+    }
+    .delete-btn {
+      padding: 4px 6px;
+      background: #fff5f5 !important;
+      color: #cc0000 !important;
+      border: 1px solid #ffcccc !important;
+    }
+    .delete-btn:hover {
+      background: #ffcccc !important;
+    }
+    .controls {
+      display: flex;
+      gap: 6px;
+      margin-top: 20px;
+      padding-top: 16px;
+      border-top: 1px solid #eee;
+    }
+    .controls button {
+      flex: 1;
+      padding: 10px;
+      background: #0066cc;
+      color: white;
+      border: none;
+      font-weight: 600;
+    }
+    .controls button:hover {
+      background: #0052a3;
+    }
+    .page-preview {
+      width: 5.5in;
+      height: 8.5in;
+      background: white;
+      border: 2px solid #0066cc;
+      border-radius: 4px;
+      padding: 0.35in 0.3in;
+      font-size: 11px;
+      line-height: 1.6;
+      overflow: hidden;
+      page-break-inside: avoid;
+      position: relative;
+      flex-shrink: 0;
+      display: flex;
+      flex-direction: column;
+    }
+    .booklet-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: #0066cc;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #0066cc;
+      padding-bottom: 6px;
+      line-height: 1.4;
+    }
+    .page-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: #0066cc;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #0066cc;
+      padding-bottom: 6px;
+    }
+    .word-tag {
+      display: inline-block;
+      background: #e6f1fb;
+      color: #0066cc;
+      padding: 4px 8px;
+      border-radius: 3px;
+      margin: 4px 3px 4px 0;
+      font-size: 11px;
+      font-weight: 600;
+    }
+    .sentence-box {
+      background: #f9f9f9;
+      padding: 8px;
+      margin: 6px 0;
+      border-left: 3px solid #0066cc;
+      font-style: italic;
+      font-size: 12px;
+      line-height: 1.6;
+    }
+    .blanks {
+      margin-top: 8px;
+      flex: 1;
+      overflow: hidden;
+    }
+    .blank-line {
+      border-bottom: 1px solid #333;
+      height: 18px;
+      margin: 8px 0;
+    }
+    .page-number {
+      position: absolute;
+      bottom: 6px;
+      right: 8px;
+      font-size: 8px;
+      color: #999;
+      font-weight: 600;
+    }
+    .sheet {
+      display: grid;
+      grid-template-columns: 5.5in 5.5in;
+      gap: 0;
+      background: white;
+      width: 11in;
+      height: 8.5in;
+      margin: 20px auto;
+      border: 1px solid #999;
+      page-break-after: always;
+      page-break-inside: avoid;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+    .sheet.preview {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    .json-editor {
+      background: #f5f5f5;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 12px;
+      font-family: monospace;
+      font-size: 11px;
+      line-height: 1.4;
+      max-height: 600px;
+      overflow-y: auto;
+    }
+    .code-block {
+      background: #1e1e1e;
+      color: #d4d4d4;
+      padding: 12px;
+      border-radius: 4px;
+      overflow-x: auto;
+      font-family: monospace;
+      font-size: 11px;
+      line-height: 1.5;
+    }
+    .string { color: #ce9178; }
+    .key { color: #9cdcfe; }
+    .number { color: #b5cea8; }
+    .no-print { }
+    @media print {
+      .no-print { display: none !important; }
+    }
+
+    @page {
+      size: 11in 8.5in landscape;
+      margin: 0;
+      padding: 0;
+    }
+
+    @media print {
+      html, body {
+        width: 11in;
+        height: 8.5in;
+        margin: 0;
+        padding: 0;
+        background: white;
+      }
+
+      .editor-panel { display: none; }
+      .app {
+        display: block;
+        padding: 0;
+        margin: 0;
+      }
+
+      .preview-panel {
+        margin: 0;
+        padding: 0;
+      }
+
+      .sheet {
+        width: 11in;
+        height: 8.5in;
+        display: grid;
+        grid-template-columns: 5.5in 5.5in;
+        gap: 0;
+        box-shadow: none;
+        margin: 0;
+        padding: 0;
+        border: none;
+        page-break-after: always;
+        page-break-inside: avoid;
+      }
+
+      .page-preview {
+        width: 5.5in;
+        height: 8.5in;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+        margin: 0;
+        padding: 0.35in 0.3in;
+        page-break-inside: avoid;
+        background: white;
+        overflow: hidden;
+      }
+
+      .word-tag {
+        background: white !important;
+        color: #0066cc !important;
+        border: 1px solid #0066cc !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="app">
+  <!-- EDITOR PANEL -->
+  <div class="editor-panel">
+    <div class="tabs">
+      <button class="tab-btn active" onclick="switchTab('editor')">✎ Edit Pages</button>
+      <button class="tab-btn" onclick="switchTab('format')">⟨⟩ Format</button>
+    </div>
+
+    <div id="editor-tab" class="tab-content active">
+      <div class="form-group">
+        <label>Booklet Title</label>
+        <input type="text" id="booklet-title" placeholder="e.g., La Maison" onchange="updateBookletTitle()">
+      </div>
+
+      <div class="tabs" style="margin-bottom: 12px; border: none;">
+        <button class="tab-btn" onclick="editPage(1)" id="page-1-btn">Page 1</button>
+        <button class="tab-btn" onclick="editPage(2)" id="page-2-btn">Page 2</button>
+        <button class="tab-btn" onclick="editPage(3)" id="page-3-btn">Page 3</button>
+        <button class="tab-btn" onclick="editPage(4)" id="page-4-btn">Page 4</button>
+      </div>
+
+      <div id="page-editor">
+        <!-- Page editor will be populated by JavaScript -->
+      </div>
+
+      <div class="controls">
+        <button onclick="generatePreview()">📄 Preview</button>
+        <button onclick="window.print()">🖨 Print</button>
+      </div>
+      <div class="controls">
+        <button onclick="downloadJSON()">💾 Save JSON</button>
+        <button onclick="document.getElementById('json-upload').click()">📂 Load JSON</button>
+      </div>
+      <input type="file" id="json-upload" accept=".json" onchange="uploadJSON(event)" style="display:none;">
+
+    </div>
+
+    <div id="format-tab" class="tab-content">
+      <h2>JSON Format</h2>
+      <p style="font-size: 12px; color: #666; margin-bottom: 12px;">
+        Copy this format to describe your booklet. Paste into a .json file and edit the content.
+      </p>
+      <div class="code-block" id="json-example"></div>
+
+      <h2 style="margin-top: 20px;">YAML Format</h2>
+      <p style="font-size: 12px; color: #666; margin-bottom: 12px;">
+        Alternative YAML format for easier editing.
+      </p>
+      <div class="code-block" id="yaml-example"></div>
+
+      <div style="margin-top: 16px; padding-top: 16px; border-top: 1px solid #eee;">
+        <button onclick="loadExample()" style="width: 100%;">Load Example Booklet</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- PREVIEW PANEL -->
+  <div class="preview-panel" id="preview-panel">
+    <p style="text-align: center; color: #999; padding: 40px 20px;">
+      Click "Generate Preview" to see your booklet
+    </p>
+  </div>
+</div>
+
+<script>
+// Default booklet structure
+let booklet = {
+  title: "Mon Carnet de Vocabulaire",
+  pages: [
+    { title: "Page 1", words: ["chat", "chien"], sentences: ["Je vois un chat noir."] },
+    { title: "Page 2", words: ["maison", "école"], sentences: ["J'aime ma maison."] },
+    { title: "Page 3", words: ["livre", "crayon"], sentences: ["Je lis un livre."] },
+    { title: "Page 4", words: ["fenêtre", "porte"], sentences: ["La porte est fermée."] }
+  ]
+};
+
+let currentPage = 1;
+
+function updateBookletTitle() {
+  booklet.title = document.getElementById('booklet-title').value;
+}
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+  document.getElementById(tab + '-tab').classList.add('active');
+  event.target.classList.add('active');
+
+  if (tab === 'format') {
+    showFormatExamples();
+  }
+}
+
+function showFormatExamples() {
+  const jsonEx = {
+    pages: [
+      { title: "Fruits", words: ["pomme", "orange", "banane"], sentences: ["J'aime les pommes."] },
+      { title: "Légumes", words: ["carotte", "tomate"], sentences: ["Je mange une carotte."] },
+      { title: "Animaux", words: ["chat", "chien", "oiseau"], sentences: ["Le chat dort."] },
+      { title: "Maison", words: ["porte", "fenêtre"], sentences: ["La maison est grande."] }
+    ]
+  };
+
+  document.getElementById('json-example').innerHTML = `<pre>${JSON.stringify(jsonEx, null, 2)}</pre>`;
+
+  const yamlEx = `pages:
+  - title: "Fruits"
+    words:
+      - pomme
+      - orange
+      - banane
+    sentences:
+      - "J'aime les pommes."
+  - title: "Légumes"
+    words:
+      - carotte
+      - tomate
+    sentences:
+      - "Je mange une carotte."
+  - title: "Animaux"
+    words:
+      - chat
+      - chien
+      - oiseau
+    sentences:
+      - "Le chat dort."
+  - title: "Maison"
+    words:
+      - porte
+      - fenêtre
+    sentences:
+      - "La maison est grande."`;
+
+  document.getElementById('yaml-example').innerHTML = `<pre>${escapeHtml(yamlEx)}</pre>`;
+}
+
+function editPage(pageNum) {
+  currentPage = pageNum;
+  document.querySelectorAll('#editor-tab .tab-btn').forEach((btn, i) => {
+    btn.classList.toggle('active', i === pageNum - 1);
+  });
+
+  const page = booklet.pages[pageNum - 1];
+  const wordsStr = page.words.join(', ');
+  const sentencesStr = page.sentences.join('\n');
+
+  const html = `
+    <div class="form-group">
+      <label>Page Title</label>
+      <input type="text" id="page-title" value="${escapeHtml(page.title)}" onchange="updatePageTitle()">
+    </div>
+
+    <div class="form-group">
+      <label>Words (comma-separated)</label>
+      <input type="text" id="page-words" value="${escapeHtml(wordsStr)}" placeholder="chat, chien, maison" onchange="updatePageWords()">
+    </div>
+
+    <div class="form-group">
+      <label>Sentences (one per line)</label>
+      <textarea id="page-sentences" placeholder="Je vois un chat.&#10;J'aime ma maison." onchange="updatePageSentences()">${escapeHtml(sentencesStr)}</textarea>
+    </div>
+  `;
+
+  document.getElementById('page-editor').innerHTML = html;
+}
+
+function updatePageTitle() {
+  booklet.pages[currentPage - 1].title = document.getElementById('page-title').value;
+}
+
+function updatePageWords() {
+  const text = document.getElementById('page-words').value;
+  booklet.pages[currentPage - 1].words = text.split(',').map(w => w.trim()).filter(w => w);
+}
+
+function updatePageSentences() {
+  const text = document.getElementById('page-sentences').value;
+  booklet.pages[currentPage - 1].sentences = text.split('\n').map(s => s.trim()).filter(s => s);
+}
+
+function loadExample() {
+  booklet = {
+    pages: [
+      { title: "Animaux", words: ["chat", "chien", "oiseau"], sentences: ["Je vois un chat noir.", "Le chien court."] },
+      { title: "Maison", words: ["porte", "fenêtre", "toit"], sentences: ["La maison est grande.", "La porte est ouverte."] },
+      { title: "Nourriture", words: ["pomme", "pain", "lait"], sentences: ["J'aime les pommes.", "Le pain est bon."] },
+      { title: "Écrivez vos phrases", words: [], sentences: ["Écrivez vos propres phrases ici..."] }
+    ]
+  };
+  editPage(1);
+  generatePreview();
+}
+
+function generatePreview() {
+  const preview = document.getElementById('preview-panel');
+  let html = '';
+
+  // Front side: Page 4 (left) | Page 1 (right)
+  html += `<div class="no-print" style="margin-bottom: 12px;">
+    <div style="font-size: 12px; font-weight: 700; color: #0066cc; margin-bottom: 8px;">📄 Front Side (Print First)</div>
+  </div>
+  <div class="sheet preview">
+    ${renderPagePreview(4)}
+    ${renderPagePreview(1)}
+  </div>`;
+
+  // Back side: Page 2 (left) | Page 3 (right)
+  html += `<div class="no-print" style="margin-top: 20px; margin-bottom: 12px;">
+    <div style="font-size: 12px; font-weight: 700; color: #0066cc; margin-bottom: 8px;">📄 Back Side (Flip & Print)</div>
+  </div>
+  <div class="sheet preview">
+    ${renderPagePreview(2)}
+    ${renderPagePreview(3)}
+  </div>`;
+
+  html += `<div class="no-print" style="margin-top: 20px; padding: 16px; background: #e6f1fb; border-radius: 6px; font-size: 12px; color: #0066cc;">
+    <strong>To create your booklet:</strong><br>
+    1. Print the Front Side<br>
+    2. Flip the paper and print the Back Side<br>
+    3. Fold in half vertically<br>
+    4. You now have a 4-page booklet!
+  </div>`;
+
+  preview.innerHTML = html;
+}
+
+function renderPagePreview(pageNum) {
+  const page = booklet.pages[pageNum - 1];
+  let content = '';
+
+  // Add booklet title with breadcrumb on every page
+  if (booklet.title) {
+    content += `<div class="booklet-title">${escapeHtml(booklet.title)} > ${escapeHtml(page.title)}</div>`;
+  } else {
+    content += `<div class="page-title">${escapeHtml(page.title)}</div>`;
+  }
+
+  if (page.words.length > 0) {
+    content += `<div style="margin-bottom: 10px;">`;
+    content += page.words.map(w => `<span class="word-tag">${escapeHtml(w)}</span>`).join('');
+    content += `</div>`;
+  }
+
+  // Only add sentences that fit on the page
+  let sentenceContent = '';
+  let estimatedHeight = 0;
+  const MAX_HEIGHT = 430; // pixels (approximate usable height for sentences)
+
+  // Estimate initial heights
+  estimatedHeight += 30; // booklet/page title
+  estimatedHeight += page.words.length > 0 ? 50 : 0; // words section
+  estimatedHeight += 20; // margins/spacing
+
+  // Add sentences one by one until we run out of space
+  for (let i = 0; i < page.sentences.length; i++) {
+    const sentenceHeight = 28; // approximate height per sentence
+    if (estimatedHeight + sentenceHeight > MAX_HEIGHT) {
+      break; // Don't add this sentence if it doesn't fit
+    }
+    sentenceContent += `<div class="sentence-box">${escapeHtml(page.sentences[i])}</div>`;
+    estimatedHeight += sentenceHeight;
+  }
+
+  if (sentenceContent) {
+    content += sentenceContent;
+  }
+
+  return `<div class="page-preview">${content}<div class="page-number">p. ${pageNum}</div></div>`;
+}
+
+function downloadJSON() {
+  const dataStr = JSON.stringify(booklet, null, 2);
+  const dataBlob = new Blob([dataStr], { type: 'application/json' });
+  const url = URL.createObjectURL(dataBlob);
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = (booklet.title || 'booklet').toLowerCase().replace(/\s+/g, '_') + '.json';
+  link.click();
+  URL.revokeObjectURL(url);
+}
+
+function uploadJSON(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+
+  const reader = new FileReader();
+  reader.onload = (e) => {
+    try {
+      const data = JSON.parse(e.target.result);
+      if (data.pages && Array.isArray(data.pages) && data.pages.length === 4) {
+        booklet = data;
+        document.getElementById('booklet-title').value = booklet.title || '';
+        editPage(1);
+        generatePreview();
+        alert('Booklet loaded successfully!');
+      } else {
+        alert('Invalid JSON format. Must have 4 pages.');
+      }
+    } catch (err) {
+      alert('Error loading JSON: ' + err.message);
+    }
+  };
+  reader.readAsText(file);
+  event.target.value = ''; // Reset input
+}
+
+function escapeHtml(text) {
+  const div = document.createElement('div');
+  div.textContent = text;
+  return div.innerHTML;
+}
+
+// Initialize
+editPage(1);
+showFormatExamples();
+</script>
+
+</body>
+</html>
