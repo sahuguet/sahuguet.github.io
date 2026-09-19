@@ -128,6 +128,35 @@
   .btn-wide{width:100%;}
   .btn:disabled{opacity:.45; pointer-events:none;}
 
+  .mini-score{
+    display:flex; align-items:center; gap:10px; width:100%; text-align:left;
+    background:var(--paper); border:1px solid var(--line); border-radius:14px; box-shadow:var(--shadow);
+    padding:11px 16px; margin-top:10px; -webkit-appearance:none; appearance:none;
+  }
+  .mini-score .team{
+    font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:.05em; color:var(--pitch-2);
+    flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+  }
+  .mini-score .team.away{text-align:right;}
+  .mini-score .tally{
+    font-variant-numeric:tabular-nums; font-weight:700; font-size:21px; color:var(--pitch-ink);
+    flex:none; padding:0 10px; white-space:nowrap;
+  }
+  .mini-score .chev{flex:none; color:var(--line); font-size:15px;}
+  .dot{display:inline-block; width:9px; height:9px; border-radius:50%; flex:none; vertical-align:middle; box-shadow:0 0 0 1px rgba(255,255,255,.55);}
+  .mini-score .team.home .dot{margin-right:6px;}
+  .mini-score .team.away .dot{margin-left:6px;}
+  .segmented button .dot{margin-right:6px;}
+
+  .kickoff-card{
+    background:var(--paper); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow);
+    padding:14px 16px; margin-top:14px;
+  }
+  .kickoff-card .lbl{font-size:14px; font-weight:600; margin-bottom:10px;}
+  .kickoff-card .segmented{margin-bottom:9px;}
+  .kickoff-note{font-size:12.5px; color:var(--muted);}
+  .kickoff-note b{color:var(--pitch-2);}
+
   .lock-notice{
     display:none; align-items:flex-start; gap:10px; margin-top:14px;
     background:var(--gold-bg); border:1px solid var(--gold); border-radius:var(--radius);
@@ -168,6 +197,13 @@
     text-transform:uppercase; letter-spacing:.06em; color:var(--pitch-2); padding:4px; border-radius:8px;
   }
   .team-card input.team-name:focus{outline:2px solid var(--pitch-2); background:var(--chip);}
+  .team-color-row{display:flex; align-items:center; justify-content:center; gap:8px; margin-bottom:4px;}
+  .team-color-row input[type="color"]{
+    width:26px; height:26px; border:1px solid var(--line); border-radius:50%; padding:0; background:none; overflow:hidden;
+  }
+  .team-color-row input[type="color"]::-webkit-color-swatch-wrapper{padding:0;}
+  .team-color-row input[type="color"]::-webkit-color-swatch{border:none; border-radius:50%;}
+  .team-color-row .cc-lbl{font-size:11px; color:var(--muted); font-weight:600;}
   .score-num{font-variant-numeric:tabular-nums; font-weight:700; font-size:56px; margin:6px 0 10px; color:var(--pitch-ink);}
   .score-btns{display:flex; gap:8px; justify-content:center;}
   .score-btns button{
@@ -284,6 +320,13 @@
 
     <!-- ===== TIMER ===== -->
     <section class="panel active" id="panel-timer">
+      <button class="mini-score" id="miniScore" type="button" aria-label="View and edit score">
+        <span class="team home" id="miniNameHome">Home</span>
+        <span class="tally" id="miniTally">0&ndash;0</span>
+        <span class="team away" id="miniNameAway">Away</span>
+        <span class="chev">&rsaquo;</span>
+      </button>
+
       <div class="clock-wrap">
         <div class="clock" id="clockDisplay">25:00</div>
         <div class="clock-sub" id="clockSub">Ready &mdash; tap start</div>
@@ -291,6 +334,15 @@
           <button class="btn btn-primary" id="btnStartPause">Start</button>
           <button class="btn btn-secondary" id="btnResetHalf">Reset half</button>
         </div>
+      </div>
+
+      <div class="kickoff-card">
+        <div class="lbl">Coin toss &mdash; who kicks off?</div>
+        <div class="segmented">
+          <button class="sel-home" id="kickoffHomeBtn" data-kickoff="home">Home</button>
+          <button class="sel-away" id="kickoffAwayBtn" data-kickoff="away">Away</button>
+        </div>
+        <div class="kickoff-note" id="kickoffNote">Not set yet &mdash; flip before kickoff.</div>
       </div>
 
       <div class="lock-notice" id="lockNotice">
@@ -327,6 +379,10 @@
     <section class="panel" id="panel-score">
       <div class="score-grid">
         <div class="team-card">
+          <div class="team-color-row">
+            <input type="color" id="colorHome" value="#2c3e6b" aria-label="Home team color">
+            <span class="cc-lbl">jersey</span>
+          </div>
           <input class="team-name" id="nameHome" value="Home" maxlength="16">
           <div class="score-num" id="scoreHome">0</div>
           <div class="score-btns">
@@ -335,6 +391,10 @@
           </div>
         </div>
         <div class="team-card">
+          <div class="team-color-row">
+            <input type="color" id="colorAway" value="#8a4b6b" aria-label="Away team color">
+            <span class="cc-lbl">jersey</span>
+          </div>
           <input class="team-name" id="nameAway" value="Away" maxlength="16">
           <div class="score-num" id="scoreAway">0</div>
           <div class="score-btns">
@@ -480,6 +540,9 @@
     scoreAway: 0,
     nameHome: "Home",
     nameAway: "Away",
+    colorHome: "#2c3e6b",
+    colorAway: "#8a4b6b",
+    kickoffTeam: null,      // "home" | "away" | null
     cards: [],             // {id, color, team, number, half, timeLabel}
     wakeOn: false,
     gameStarted: false,    // becomes true the first time Start is successfully pressed
@@ -741,22 +804,37 @@
   document.getElementById("wakeToggle").textContent = state.wakeOn ? "On" : "Off";
   if(state.running && state.wakeOn) setWakeLock(true);
 
-  // ---------- score ----------
+  // ---------- score (editable, on the Score tab) ----------
   var nameHome = document.getElementById("nameHome");
   var nameAway = document.getElementById("nameAway");
+  var colorHomeInput = document.getElementById("colorHome");
+  var colorAwayInput = document.getElementById("colorAway");
   var scoreHomeEl = document.getElementById("scoreHome");
   var scoreAwayEl = document.getElementById("scoreAway");
+  var miniNameHome = document.getElementById("miniNameHome");
+  var miniNameAway = document.getElementById("miniNameAway");
+  var miniTally = document.getElementById("miniTally");
+  var kickoffHomeBtn = document.getElementById("kickoffHomeBtn");
+  var kickoffAwayBtn = document.getElementById("kickoffAwayBtn");
+  var kickoffNote = document.getElementById("kickoffNote");
 
   function renderScore(){
     nameHome.value = state.nameHome;
     nameAway.value = state.nameAway;
+    colorHomeInput.value = state.colorHome;
+    colorAwayInput.value = state.colorAway;
     scoreHomeEl.textContent = state.scoreHome;
     scoreAwayEl.textContent = state.scoreAway;
+    renderMiniScore();
+    renderKickoff();
+    renderCardTeamButtons();
   }
   renderScore();
 
-  nameHome.addEventListener("input", function(){ state.nameHome = this.value || "Home"; save(); renderCardLog(); });
-  nameAway.addEventListener("input", function(){ state.nameAway = this.value || "Away"; save(); renderCardLog(); });
+  nameHome.addEventListener("input", function(){ state.nameHome = this.value || "Home"; save(); renderScore(); renderCardLog(); });
+  nameAway.addEventListener("input", function(){ state.nameAway = this.value || "Away"; save(); renderScore(); renderCardLog(); });
+  colorHomeInput.addEventListener("input", function(){ state.colorHome = this.value; save(); renderScore(); });
+  colorAwayInput.addEventListener("input", function(){ state.colorAway = this.value; save(); renderScore(); });
 
   document.querySelectorAll(".score-btns button").forEach(function(btn){
     btn.addEventListener("click", function(){
@@ -767,6 +845,47 @@
       save();
     });
   });
+
+  // ---------- read-only score summary + kickoff tracker (on the Timer tab) ----------
+  function renderMiniScore(){
+    miniNameHome.innerHTML = '<span class="dot" style="background:' + state.colorHome + '"></span>' + escapeHtml(state.nameHome);
+    miniNameAway.innerHTML = escapeHtml(state.nameAway) + '<span class="dot" style="background:' + state.colorAway + '"></span>';
+    miniTally.textContent = state.scoreHome + "–" + state.scoreAway;
+  }
+
+  document.getElementById("miniScore").addEventListener("click", function(){ switchTab("score"); });
+
+  function renderKickoff(){
+    kickoffHomeBtn.innerHTML = '<span class="dot" style="background:' + state.colorHome + '"></span>' + escapeHtml(state.nameHome);
+    kickoffAwayBtn.innerHTML = '<span class="dot" style="background:' + state.colorAway + '"></span>' + escapeHtml(state.nameAway);
+    kickoffHomeBtn.classList.toggle("on", state.kickoffTeam === "home");
+    kickoffAwayBtn.classList.toggle("on", state.kickoffTeam === "away");
+
+    if(!state.kickoffTeam){
+      kickoffNote.innerHTML = "Not set yet — flip before kickoff.";
+    } else {
+      var kicking = state.kickoffTeam === "home" ? state.nameHome : state.nameAway;
+      var other = state.kickoffTeam === "home" ? state.nameAway : state.nameHome;
+      kickoffNote.innerHTML = "<b>" + escapeHtml(kicking) + "</b> kicks off Half 1 · <b>" + escapeHtml(other) + "</b> kicks off Half 2.";
+    }
+  }
+
+  kickoffHomeBtn.addEventListener("click", function(){ state.kickoffTeam = "home"; save(); renderKickoff(); });
+  kickoffAwayBtn.addEventListener("click", function(){ state.kickoffTeam = "away"; save(); renderKickoff(); });
+
+  function renderCardTeamButtons(){
+    var homeBtn = document.getElementById("teamHomeBtn");
+    var awayBtn = document.getElementById("teamAwayBtn");
+    if(!homeBtn || !awayBtn) return;
+    homeBtn.innerHTML = '<span class="dot" style="background:' + state.colorHome + '"></span>' + escapeHtml(state.nameHome);
+    awayBtn.innerHTML = '<span class="dot" style="background:' + state.colorAway + '"></span>' + escapeHtml(state.nameAway);
+  }
+
+  function escapeHtml(s){
+    return String(s).replace(/[&<>"']/g, function(c){
+      return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c];
+    });
+  }
 
   // ---------- cards ----------
   var selColor = "yellow", selTeam = "home";
@@ -824,7 +943,7 @@
 
   // ---------- new game ----------
   document.getElementById("btnNewGame").addEventListener("click", function(){
-    if(!confirm("Start a new game? This resets the score, cards, and timer (half length & team names are kept).")) return;
+    if(!confirm("Start a new game? This resets the score, cards, kickoff, and timer (half length, team names & colors are kept).")) return;
     state.half = 1;
     state.running = false;
     state.startTs = null;
@@ -832,6 +951,7 @@
     state.scoreHome = 0;
     state.scoreAway = 0;
     state.cards = [];
+    state.kickoffTeam = null;
     state.gameStarted = false;
     state.checklist = {};
     alertedThisHalf = false;
