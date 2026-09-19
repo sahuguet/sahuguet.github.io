@@ -126,6 +126,16 @@
   .btn-gold{background:var(--gold); color:#fff;}
   .btn:active{transform:scale(.97);}
   .btn-wide{width:100%;}
+  .btn:disabled{opacity:.45; pointer-events:none;}
+
+  .lock-notice{
+    display:none; align-items:flex-start; gap:10px; margin-top:14px;
+    background:var(--gold-bg); border:1px solid var(--gold); border-radius:var(--radius);
+    padding:12px 14px; font-size:13.5px; color:var(--ink);
+  }
+  .lock-notice.show{display:flex;}
+  .lock-notice .txt b{color:var(--gold);}
+  .lock-notice button{margin-top:9px;}
 
   .settings-row{
     display:flex; align-items:center; justify-content:space-between; gap:10px;
@@ -197,6 +207,28 @@
   .log-item .del{background:none; border:none; color:var(--muted); font-size:18px; padding:2px 4px; flex:none;}
   .empty-note{color:var(--muted); font-size:13.5px; text-align:center; padding:18px 8px;}
 
+  /* ---- checklist panel ---- */
+  .checklist-progress{display:flex; align-items:center; justify-content:space-between; margin:10px 2px 6px; font-size:13px; color:var(--muted); font-weight:700;}
+  .progress-track{background:var(--chip); border-radius:999px; height:8px; overflow:hidden; margin:0 0 16px;}
+  .progress-fill{background:var(--pitch); height:100%; border-radius:999px; width:0%; transition:width .25s ease;}
+  .checklist-list{display:flex; flex-direction:column; gap:10px;}
+  .check-row{
+    display:flex; align-items:center; gap:12px;
+    background:var(--paper); border:1px solid var(--line); border-radius:14px; box-shadow:var(--shadow);
+    padding:14px 16px;
+  }
+  .check-row input[type="checkbox"]{
+    width:24px; height:24px; flex:none; accent-color:var(--pitch); border-radius:6px;
+  }
+  .check-row label{font-size:14.5px; font-weight:600; flex:1; line-height:1.35;}
+  .check-row.checked{border-color:var(--pitch-2); background:var(--chip);}
+  .ready-banner{
+    display:none; align-items:center; gap:10px; margin-top:16px;
+    background:var(--chip); border:1px solid var(--pitch-2); border-radius:var(--radius);
+    padding:12px 14px; font-size:14px; font-weight:700; color:var(--pitch-2);
+  }
+  .ready-banner.show{display:flex;}
+
   /* ---- rules panel ---- */
   .rule-chip-row{display:flex; flex-wrap:wrap; gap:6px; margin:10px 0 16px;}
   .rule-chip{background:var(--chip); border:1px solid var(--line); border-radius:999px; padding:5px 10px; font-size:12px; font-weight:600; font-variant-numeric:tabular-nums;}
@@ -236,6 +268,20 @@
 
   <main>
 
+    <!-- ===== CHECKLIST ===== -->
+    <section class="panel" id="panel-checklist">
+      <div class="checklist-progress">
+        <span id="checklistCount">0 / 6 checked</span>
+        <span id="checklistStatus">Not ready</span>
+      </div>
+      <div class="progress-track"><div class="progress-fill" id="checklistFill"></div></div>
+      <div class="checklist-list" id="checklistList"></div>
+      <div class="ready-banner" id="checklistReady">
+        <span>&#9989;</span>
+        <span>All set &mdash; you can start the game.</span>
+      </div>
+    </section>
+
     <!-- ===== TIMER ===== -->
     <section class="panel active" id="panel-timer">
       <div class="clock-wrap">
@@ -244,6 +290,12 @@
         <div class="ring-row">
           <button class="btn btn-primary" id="btnStartPause">Start</button>
           <button class="btn btn-secondary" id="btnResetHalf">Reset half</button>
+        </div>
+      </div>
+
+      <div class="lock-notice" id="lockNotice">
+        <div class="txt"><b>Checklist incomplete.</b> You can&rsquo;t start the game until every pregame box is checked.
+          <div><button class="btn btn-secondary" id="btnGoChecklist" type="button">Go to checklist</button></div>
         </div>
       </div>
 
@@ -326,19 +378,20 @@
       </div>
 
       <details class="rule" open>
+        <summary>Offside line &amp; goal kick</summary>
+        <div class="body">
+          <p>The build-out line doubles as the <b>offside line</b> &mdash; no offside can be called between the halfway line and the build-out line, on either end of the field. Normal offside resumes once the ball is played past it into the attacking half.</p>
+          <p>On a goal kick, the ball is <b>in play the instant it&rsquo;s kicked or released</b> &mdash; unlike normal soccer, it does not have to leave the penalty area first.</p>
+          <p>Offside itself is enforced at B9 &mdash; new vs. B8, where it wasn&rsquo;t called. Lean on your ARs; that&rsquo;s why B9 runs a 3-person crew.</p>
+        </div>
+      </details>
+
+      <details class="rule">
         <summary>Build-out line</summary>
         <div class="body">
           <p><b>Applies</b> on every goal kick, and any time the keeper has the ball in hand or under control.</p>
           <p><b>Defense</b> retreats behind their own build-out line. No need to wait for a whistle &mdash; play is live the moment the ball is released or moves.</p>
           <p><b>Keeper</b> distributes by throw or ground pass only &mdash; no punting, ever.</p>
-          <p><b>Offside</b> can&rsquo;t be called between the halfway line and the build-out line. Normal offside resumes once the ball crosses it.</p>
-        </div>
-      </details>
-
-      <details class="rule">
-        <summary>Offside</summary>
-        <div class="body">
-          <p>Enforced at B9 &mdash; new vs. B8, where it wasn&rsquo;t called. Lean on your ARs; that&rsquo;s why B9 runs a 3-person crew.</p>
         </div>
       </details>
 
@@ -388,6 +441,10 @@
   </main>
 
   <nav class="tabbar">
+    <button class="tab" data-panel="checklist">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8.5 11.5l2 2 4-4.5"/><path d="M8 17h8"/></svg>
+      Check
+    </button>
     <button class="tab active" data-panel="timer">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2"/><path d="M9 2h6"/></svg>
       Timer
@@ -424,8 +481,19 @@
     nameHome: "Home",
     nameAway: "Away",
     cards: [],             // {id, color, team, number, half, timeLabel}
-    wakeOn: false
+    wakeOn: false,
+    gameStarted: false,    // becomes true the first time Start is successfully pressed
+    checklist: {}          // {itemId: true/false}
   };
+
+  var CHECKLIST_ITEMS = [
+    {id:"shin",    label:"Shin guards on both teams, fully covered by socks"},
+    {id:"jewelry", label:"No jewelry that can’t be removed"},
+    {id:"cleats",  label:"Footwear checked — sneakers, turf shoes, or plastic studs, no metal spikes"},
+    {id:"goals",   label:"Goals are safely anchored/secured"},
+    {id:"gear",    label:"You’ve got whistle, cards, and a watch or phone ready"},
+    {id:"crew",    label:"Crew confirmed — 1 CR + 2 AR, or you know who’s covering"}
+  ];
 
   function load(){
     try{
@@ -446,14 +514,65 @@
   // ---------- tab navigation ----------
   var tabs = document.querySelectorAll("nav.tabbar .tab");
   var panels = document.querySelectorAll(".panel");
+  function switchTab(name){
+    tabs.forEach(function(b){ b.classList.toggle("active", b.dataset.panel === name); });
+    panels.forEach(function(p){ p.classList.toggle("active", p.id === "panel-" + name); });
+  }
   tabs.forEach(function(btn){
-    btn.addEventListener("click", function(){
-      tabs.forEach(function(b){ b.classList.remove("active"); });
-      panels.forEach(function(p){ p.classList.remove("active"); });
-      btn.classList.add("active");
-      document.getElementById("panel-" + btn.dataset.panel).classList.add("active");
-    });
+    btn.addEventListener("click", function(){ switchTab(btn.dataset.panel); });
   });
+
+  // ---------- pregame checklist ----------
+  var checklistListEl = document.getElementById("checklistList");
+  var checklistCountEl = document.getElementById("checklistCount");
+  var checklistStatusEl = document.getElementById("checklistStatus");
+  var checklistFillEl = document.getElementById("checklistFill");
+  var checklistReadyEl = document.getElementById("checklistReady");
+  var lockNotice = document.getElementById("lockNotice");
+
+  function checklistComplete(){
+    return CHECKLIST_ITEMS.every(function(it){ return !!state.checklist[it.id]; });
+  }
+
+  function renderChecklist(){
+    checklistListEl.innerHTML = CHECKLIST_ITEMS.map(function(it){
+      var checked = !!state.checklist[it.id];
+      return '<div class="check-row' + (checked ? ' checked' : '') + '">' +
+        '<input type="checkbox" id="chk-' + it.id + '" data-id="' + it.id + '"' + (checked ? ' checked' : '') + '>' +
+        '<label for="chk-' + it.id + '">' + it.label + '</label>' +
+        '</div>';
+    }).join("");
+
+    checklistListEl.querySelectorAll('input[type="checkbox"]').forEach(function(box){
+      box.addEventListener("change", function(){
+        state.checklist[this.dataset.id] = this.checked;
+        save();
+        renderChecklist();
+        updateStartGate();
+      });
+    });
+
+    var doneCount = CHECKLIST_ITEMS.filter(function(it){ return !!state.checklist[it.id]; }).length;
+    var total = CHECKLIST_ITEMS.length;
+    var complete = doneCount === total;
+    checklistCountEl.textContent = doneCount + " / " + total + " checked";
+    checklistStatusEl.textContent = complete ? "Ready" : "Not ready";
+    checklistStatusEl.style.color = complete ? "var(--pitch-2)" : "var(--muted)";
+    checklistFillEl.style.width = (doneCount / total * 100) + "%";
+    checklistReadyEl.classList.toggle("show", complete);
+  }
+
+  function updateStartGate(){
+    var locked = !state.gameStarted && !checklistComplete();
+    btnStartPause.disabled = locked;
+    lockNotice.classList.toggle("show", locked);
+  }
+
+  document.getElementById("btnGoChecklist").addEventListener("click", function(){
+    switchTab("checklist");
+  });
+
+  renderChecklist();
 
   // ---------- timer ----------
   var clockDisplay = document.getElementById("clockDisplay");
@@ -521,6 +640,8 @@
     btnNextHalf.style.display = (state.half === 1 && remaining <= 0) ? "block" : "none";
     halfPill.textContent = "Half " + state.half;
     lenVal.textContent = state.halfLenMin + " min";
+
+    updateStartGate();
   }
 
   var rafId = null;
@@ -553,12 +674,18 @@
       state.startTs = null;
       btnStartPause.textContent = "Start";
     } else {
+      if(!state.gameStarted && !checklistComplete()){
+        switchTab("checklist");
+        return; // belt-and-braces: the button is disabled in this state anyway
+      }
+      state.gameStarted = true;
       state.startTs = Date.now();
       state.running = true;
       btnStartPause.textContent = "Pause";
       if(document.getElementById("wakeToggle").textContent === "On") setWakeLock(true);
     }
     save();
+    updateStartGate();
   });
 
   btnResetHalf.addEventListener("click", function(){
@@ -705,13 +832,23 @@
     state.scoreHome = 0;
     state.scoreAway = 0;
     state.cards = [];
+    state.gameStarted = false;
+    state.checklist = {};
     alertedThisHalf = false;
     halfAlert.classList.remove("show");
     btnStartPause.textContent = "Start";
     save();
     renderScore();
     renderCardLog();
+    renderChecklist();
+    updateStartGate();
+    switchTab("checklist");
   });
+
+  // land on the checklist first thing, until the game has actually started
+  if(!state.gameStarted && !checklistComplete()){
+    switchTab("checklist");
+  }
 
 })();
 </script>
