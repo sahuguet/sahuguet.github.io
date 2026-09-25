@@ -24,7 +24,6 @@
     --pitch-ink:#0e3320;
     --gold:#b8842a;
     --gold-bg:#f6ecd7;
-    --yellow:#e8b93e;
     --red:#c4453d;
     --chip:#eef1e6;
     --radius:16px;
@@ -44,7 +43,6 @@
       --pitch-ink:#bdeccd;
       --gold:#e0af52;
       --gold-bg:#241f10;
-      --yellow:#e8b93e;
       --red:#e2685f;
       --chip:#1b241c;
       --shadow:0 1px 2px rgba(0,0,0,.5), 0 8px 26px -14px rgba(0,0,0,.7);
@@ -128,25 +126,17 @@
   .btn-wide{width:100%;}
   .btn:disabled{opacity:.45; pointer-events:none;}
 
-  .mini-score{
-    display:flex; align-items:center; gap:10px; width:100%; text-align:left;
-    background:var(--paper); border:1px solid var(--line); border-radius:14px; box-shadow:var(--shadow);
-    padding:11px 16px; margin-top:10px; -webkit-appearance:none; appearance:none;
-  }
-  .mini-score .team{
-    font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:.05em; color:var(--pitch-2);
-    flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
-  }
-  .mini-score .team.away{text-align:right;}
-  .mini-score .tally{
-    font-variant-numeric:tabular-nums; font-weight:700; font-size:21px; color:var(--pitch-ink);
-    flex:none; padding:0 10px; white-space:nowrap;
-  }
-  .mini-score .chev{flex:none; color:var(--line); font-size:15px;}
   .dot{display:inline-block; width:9px; height:9px; border-radius:50%; flex:none; vertical-align:middle; box-shadow:0 0 0 1px rgba(255,255,255,.55);}
-  .mini-score .team.home .dot{margin-right:6px;}
-  .mini-score .team.away .dot{margin-left:6px;}
   .segmented button .dot{margin-right:6px;}
+  .team-label{
+    font-size:13px; font-weight:700; text-transform:uppercase; letter-spacing:.05em; color:var(--pitch-2);
+    display:flex; align-items:center; justify-content:center; gap:6px; margin-bottom:6px;
+  }
+  .kickoff-badge{
+    display:inline-flex; align-items:center; gap:6px; margin-top:10px;
+    font-size:12.5px; font-weight:700; color:var(--pitch-2);
+    background:var(--chip); border:1px solid var(--line); border-radius:999px; padding:4px 10px;
+  }
 
   .kickoff-card{
     background:var(--paper); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow);
@@ -187,6 +177,10 @@
   .alert-banner.show{display:flex;}
 
   /* ---- score panel ---- */
+  .phase-heading{
+    text-align:center; font-size:24px; font-weight:800; color:var(--pitch-ink);
+    margin:8px 0 4px; letter-spacing:.01em;
+  }
   .score-grid{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:10px;}
   .team-card{
     background:var(--paper); border:1px solid var(--line); border-radius:20px; box-shadow:var(--shadow);
@@ -211,37 +205,46 @@
   }
   .score-btns .plus{background:var(--pitch); color:#fff;}
   .score-btns .minus{background:var(--chip); color:var(--ink); border:1px solid var(--line);}
+  .score-btns .plus:disabled{opacity:.35; pointer-events:none;}
 
-  /* ---- cards panel ---- */
-  .card-form{
-    background:var(--paper); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow);
-    padding:16px; margin-top:10px; display:flex; flex-direction:column; gap:12px;
-  }
+  /* ---- log panel ---- */
   .segmented{display:flex; gap:8px;}
   .segmented button{
     flex:1; padding:10px; border-radius:10px; border:1px solid var(--line); background:var(--chip); font-weight:700; font-size:13.5px;
   }
-  .segmented button.sel-yellow.on{background:var(--yellow); border-color:var(--yellow); color:#3a2c04;}
-  .segmented button.sel-red.on{background:var(--red); border-color:var(--red); color:#fff;}
   .segmented button.sel-home.on, .segmented button.sel-away.on{background:var(--pitch); border-color:var(--pitch); color:#fff;}
-  .field-row{display:flex; gap:10px; align-items:center;}
-  .field-row label{font-size:13px; color:var(--muted); font-weight:600; flex:none; width:52px;}
-  .field-row input[type=text]{
-    flex:1; border:1px solid var(--line); border-radius:10px; padding:10px 12px; font-size:16px; background:var(--bg); color:var(--ink);
-  }
   .log-list{display:flex; flex-direction:column; gap:8px; margin-top:14px;}
   .log-item{
     display:flex; align-items:center; gap:10px;
     background:var(--paper); border:1px solid var(--line); border-radius:12px; padding:10px 12px; box-shadow:var(--shadow);
   }
   .log-item .swatch{width:12px; height:16px; border-radius:2px; flex:none;}
-  .log-item .swatch.yellow{background:var(--yellow);}
-  .log-item .swatch.red{background:var(--red);}
+  .log-item .swatch.goal{background:var(--pitch-2); border-radius:50%; width:14px; height:14px;}
+  .log-item .swatch.milestone{background:var(--gold); border-radius:50%; width:14px; height:14px;}
+  .log-item .swatch.sub{background:var(--pitch); width:14px; height:14px;}
   .log-item .meta{flex:1; font-size:13.5px;}
   .log-item .meta b{font-size:14.5px;}
   .log-item .time{font-variant-numeric:tabular-nums; font-size:12.5px; color:var(--muted); flex:none;}
-  .log-item .del{background:none; border:none; color:var(--muted); font-size:18px; padding:2px 4px; flex:none;}
   .empty-note{color:var(--muted); font-size:13.5px; text-align:center; padding:18px 8px;}
+
+  /* ---- substitution flash (discreet top banner, doesn't block the clock) ---- */
+  .sub-flash{
+    display:none; position:fixed; top:0; left:0; right:0; z-index:1000;
+    align-items:center; justify-content:space-between; gap:10px;
+    padding:10px 14px; padding-top:calc(10px + env(safe-area-inset-top,0px));
+    box-shadow:0 2px 10px -4px rgba(0,0,0,.35);
+    animation:subFlashBg .8s steps(2, jump-none) infinite;
+  }
+  .sub-flash.show{display:flex;}
+  @keyframes subFlashBg{
+    0%, 49%{ background:var(--gold); }
+    50%, 100%{ background:var(--pitch); }
+  }
+  .sub-flash-text{font-size:13.5px; font-weight:700; color:#fff;}
+  .sub-flash button{
+    flex:none; background:rgba(255,255,255,.25); border:none; color:#fff;
+    border-radius:8px; padding:6px 12px; font-size:12.5px; font-weight:700;
+  }
 
   /* ---- checklist panel ---- */
   .checklist-progress{display:flex; align-items:center; justify-content:space-between; margin:10px 2px 6px; font-size:13px; color:var(--muted); font-weight:700;}
@@ -316,25 +319,6 @@
         <span>&#9989;</span>
         <span>All set &mdash; you can start the game.</span>
       </div>
-    </section>
-
-    <!-- ===== TIMER ===== -->
-    <section class="panel active" id="panel-timer">
-      <button class="mini-score" id="miniScore" type="button" aria-label="View and edit score">
-        <span class="team home" id="miniNameHome">Home</span>
-        <span class="tally" id="miniTally">0&ndash;0</span>
-        <span class="team away" id="miniNameAway">Away</span>
-        <span class="chev">&rsaquo;</span>
-      </button>
-
-      <div class="clock-wrap">
-        <div class="clock" id="clockDisplay">25:00</div>
-        <div class="clock-sub" id="clockSub">Ready &mdash; tap start</div>
-        <div class="ring-row">
-          <button class="btn btn-primary" id="btnStartPause">Start</button>
-          <button class="btn btn-secondary" id="btnResetHalf">Reset half</button>
-        </div>
-      </div>
 
       <div class="kickoff-card">
         <div class="lbl">Coin toss &mdash; who kicks off?</div>
@@ -343,6 +327,40 @@
           <button class="sel-away" id="kickoffAwayBtn" data-kickoff="away">Away</button>
         </div>
         <div class="kickoff-note" id="kickoffNote">Not set yet &mdash; flip before kickoff.</div>
+      </div>
+    </section>
+
+    <!-- ===== MATCH ===== -->
+    <section class="panel active" id="panel-timer">
+      <div class="phase-heading" id="phaseHeading">First Half</div>
+
+      <div class="score-grid">
+        <div class="team-card">
+          <div class="team-label" id="mainLabelHome"></div>
+          <div class="score-num" id="scoreHome">0</div>
+          <div class="score-btns">
+            <button class="minus" data-team="home" data-d="-1">&minus;</button>
+            <button class="plus" data-team="home" data-d="1">+</button>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-label" id="mainLabelAway"></div>
+          <div class="score-num" id="scoreAway">0</div>
+          <div class="score-btns">
+            <button class="minus" data-team="away" data-d="-1">&minus;</button>
+            <button class="plus" data-team="away" data-d="1">+</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="clock-wrap">
+        <div class="clock" id="clockDisplay">00:00</div>
+        <div class="clock-sub" id="clockSub">Ready &mdash; tap start</div>
+        <div class="kickoff-badge" id="kickoffBadge"></div>
+        <div class="ring-row">
+          <button class="btn btn-primary" id="btnStartPause">Start</button>
+          <button class="btn btn-secondary" id="btnResetHalf">Reset half</button>
+        </div>
       </div>
 
       <div class="lock-notice" id="lockNotice">
@@ -356,7 +374,29 @@
         <span id="halfAlertText">Half length reached &mdash; whistle when ready.</span>
       </div>
 
+      <button class="btn btn-gold btn-wide" id="btnBeginHalftime" style="margin-top:14px; display:none;">Begin halftime &rarr;</button>
       <button class="btn btn-gold btn-wide" id="btnNextHalf" style="margin-top:14px; display:none;">Start Half 2 &rarr;</button>
+      <button class="btn btn-gold btn-wide" id="btnEndGame" style="margin-top:14px; display:none;">Full time &mdash; end game</button>
+    </section>
+
+    <!-- ===== SETTINGS ===== -->
+    <section class="panel" id="panel-settings">
+      <div class="score-grid">
+        <div class="team-card">
+          <div class="team-color-row">
+            <input type="color" id="colorHome" value="#2c3e6b" aria-label="Home team color">
+            <span class="cc-lbl">jersey</span>
+          </div>
+          <input class="team-name" id="nameHome" value="Home" maxlength="16">
+        </div>
+        <div class="team-card">
+          <div class="team-color-row">
+            <input type="color" id="colorAway" value="#8a4b6b" aria-label="Away team color">
+            <span class="cc-lbl">jersey</span>
+          </div>
+          <input class="team-name" id="nameAway" value="Away" maxlength="16">
+        </div>
+      </div>
 
       <div class="settings-row">
         <div class="lbl">Half length</div>
@@ -368,63 +408,29 @@
       </div>
 
       <div class="settings-row">
+        <div class="lbl">Halftime length</div>
+        <div class="stepper">
+          <button id="halftimeLenDown">&minus;</button>
+          <div class="val" id="halftimeLenVal">5 min</div>
+          <button id="halftimeLenUp">+</button>
+        </div>
+      </div>
+
+      <div class="settings-row">
         <div class="lbl">Keep screen awake</div>
         <div class="stepper">
           <button id="wakeToggle" style="border-radius:999px; width:auto; padding:6px 14px;">Off</button>
         </div>
       </div>
+
+      <div class="contact-line" style="margin-top:16px;">Team names, colors, and half length are saved automatically and kept across new games.</div>
     </section>
 
-    <!-- ===== SCORE ===== -->
-    <section class="panel" id="panel-score">
-      <div class="score-grid">
-        <div class="team-card">
-          <div class="team-color-row">
-            <input type="color" id="colorHome" value="#2c3e6b" aria-label="Home team color">
-            <span class="cc-lbl">jersey</span>
-          </div>
-          <input class="team-name" id="nameHome" value="Home" maxlength="16">
-          <div class="score-num" id="scoreHome">0</div>
-          <div class="score-btns">
-            <button class="minus" data-team="home" data-d="-1">&minus;</button>
-            <button class="plus" data-team="home" data-d="1">+</button>
-          </div>
-        </div>
-        <div class="team-card">
-          <div class="team-color-row">
-            <input type="color" id="colorAway" value="#8a4b6b" aria-label="Away team color">
-            <span class="cc-lbl">jersey</span>
-          </div>
-          <input class="team-name" id="nameAway" value="Away" maxlength="16">
-          <div class="score-num" id="scoreAway">0</div>
-          <div class="score-btns">
-            <button class="minus" data-team="away" data-d="-1">&minus;</button>
-            <button class="plus" data-team="away" data-d="1">+</button>
-          </div>
-        </div>
-      </div>
-      <div class="contact-line" style="margin-top:16px;">Score persists automatically &mdash; use New Game below when you start the next match.</div>
-    </section>
+    <!-- ===== LOG ===== -->
+    <section class="panel" id="panel-log">
+      <div class="log-list" id="eventLog" style="margin-top:2px;"></div>
 
-    <!-- ===== CARDS ===== -->
-    <section class="panel" id="panel-cards">
-      <div class="card-form">
-        <div class="segmented">
-          <button class="sel-yellow on" id="colorYellow" data-color="yellow">Yellow</button>
-          <button class="sel-red" id="colorRed" data-color="red">Red</button>
-        </div>
-        <div class="segmented">
-          <button class="sel-home on" id="teamHomeBtn" data-team="home">Home</button>
-          <button class="sel-away" id="teamAwayBtn" data-team="away">Away</button>
-        </div>
-        <div class="field-row">
-          <label for="cardNumber">Player #</label>
-          <input type="text" inputmode="numeric" id="cardNumber" placeholder="e.g. 7">
-        </div>
-        <button class="btn btn-primary btn-wide" id="btnLogCard">Log card</button>
-      </div>
-
-      <div class="log-list" id="cardLog"></div>
+      <a class="btn btn-primary btn-wide" id="reportLink" href="#" style="margin-top:16px; text-decoration:none;">&#9993; Send match report by email</a>
     </section>
 
     <!-- ===== RULES ===== -->
@@ -507,21 +513,26 @@
     </button>
     <button class="tab active" data-panel="timer">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2"/><path d="M9 2h6"/></svg>
-      Timer
+      Match
     </button>
-    <button class="tab" data-panel="score">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18"/><path d="M8 4v6"/><path d="M16 4v6"/></svg>
-      Score
+    <button class="tab" data-panel="settings">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 13a7.97 7.97 0 0 0 0-2l2-1.4-2-3.4-2.3.8a8 8 0 0 0-1.7-1l-.4-2.4h-4l-.4 2.4a8 8 0 0 0-1.7 1l-2.3-.8-2 3.4L6.6 11a7.97 7.97 0 0 0 0 2l-2 1.4 2 3.4 2.3-.8a8 8 0 0 0 1.7 1l.4 2.4h4l.4-2.4a8 8 0 0 0 1.7-1l2.3.8 2-3.4-2-1.4Z"/></svg>
+      Settings
     </button>
-    <button class="tab" data-panel="cards">
+    <button class="tab" data-panel="log">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="10" height="15" rx="1.5" transform="rotate(8 5 3)"/></svg>
-      Cards
+      Log
     </button>
     <button class="tab" data-panel="rules">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v18H6.5A2.5 2.5 0 0 0 4 22.5V4.5Z"/><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/></svg>
       Rules
     </button>
   </nav>
+
+  <div class="sub-flash" id="subFlash">
+    <div class="sub-flash-text">&#128260; Substitution window &mdash; <span id="subFlashSub">Half 1</span></div>
+    <button id="subFlashClose">Close</button>
+  </div>
 
 </div>
 
@@ -532,7 +543,9 @@
 
   var state = {
     halfLenMin: 25,
+    halftimeLenMin: 5,
     half: 1,
+    inHalftime: false,     // true during the break between half 1 and half 2
     running: false,
     startTs: null,        // Date.now() when current run began
     elapsedAtStart: 0,     // seconds already elapsed in this half when it was (re)started
@@ -543,9 +556,11 @@
     colorHome: "#2c3e6b",
     colorAway: "#8a4b6b",
     kickoffTeam: null,      // "home" | "away" | null
-    cards: [],             // {id, color, team, number, half, timeLabel}
+    events: [],             // {id, type, text, half, elapsedSec, timeLabel}
     wakeOn: false,
     gameStarted: false,    // becomes true the first time Start is successfully pressed
+    half2Started: false,   // becomes true the first time Start is pressed for half 2
+    gameEnded: false,       // becomes true once "End game" is confirmed
     checklist: {}          // {itemId: true/false}
   };
 
@@ -626,9 +641,9 @@
   }
 
   function updateStartGate(){
-    var locked = !state.gameStarted && !checklistComplete();
-    btnStartPause.disabled = locked;
-    lockNotice.classList.toggle("show", locked);
+    var checklistLocked = !state.gameStarted && !checklistComplete();
+    btnStartPause.disabled = checklistLocked || state.gameEnded;
+    lockNotice.classList.toggle("show", checklistLocked);
   }
 
   document.getElementById("btnGoChecklist").addEventListener("click", function(){
@@ -642,21 +657,28 @@
   var clockSub = document.getElementById("clockSub");
   var btnStartPause = document.getElementById("btnStartPause");
   var btnResetHalf = document.getElementById("btnResetHalf");
+  var btnBeginHalftime = document.getElementById("btnBeginHalftime");
   var btnNextHalf = document.getElementById("btnNextHalf");
+  var btnEndGame = document.getElementById("btnEndGame");
   var halfPill = document.getElementById("halfPill");
+  var phaseHeading = document.getElementById("phaseHeading");
   var halfAlert = document.getElementById("halfAlert");
   var halfAlertText = document.getElementById("halfAlertText");
   var lenVal = document.getElementById("lenVal");
+  var halftimeLenVal = document.getElementById("halftimeLenVal");
+  var kickoffBadge = document.getElementById("kickoffBadge");
+  var subFlash = document.getElementById("subFlash");
+  var subFlashSub = document.getElementById("subFlashSub");
 
   var alertedThisHalf = false;
+  var subAlerted = [false, false];
   var wakeLock = null;
 
   function fmt(totalSeconds){
-    var neg = totalSeconds < 0;
-    var s = Math.abs(Math.round(totalSeconds));
+    var s = Math.max(0, Math.round(totalSeconds));
     var m = Math.floor(s / 60);
     var ss = s % 60;
-    return (neg ? "+" : "") + String(m).padStart(2,"0") + ":" + String(ss).padStart(2,"0");
+    return String(m).padStart(2,"0") + ":" + String(ss).padStart(2,"0");
   }
 
   function currentElapsed(){
@@ -683,26 +705,112 @@
     try{ if(navigator.vibrate) navigator.vibrate([180,90,180,90,260]); }catch(e){}
   }
 
+  function subWindowSeconds(){
+    var limit = state.halfLenMin * 60;
+    return [Math.round(limit / 3), Math.round(limit * 2 / 3)];
+  }
+
+  function showSubFlash(){
+    subFlashSub.textContent = "Half " + state.half;
+    subFlash.classList.add("show");
+    beep(); buzz();
+  }
+
+  var subFlashClose = document.getElementById("subFlashClose");
+  subFlashClose.addEventListener("click", function(){ subFlash.classList.remove("show"); });
+
+  var MILESTONE_TYPES = {start:1, halftime:1, "second-half":1, end:1};
+
+  function currentKickoffTeam(){
+    if(!state.kickoffTeam) return null;
+    var effectiveHalf = state.inHalftime ? 2 : state.half;
+    if(effectiveHalf === 1) return state.kickoffTeam;
+    return state.kickoffTeam === "home" ? "away" : "home";
+  }
+
+  function kickoffSuffix(){
+    var team = currentKickoffTeam();
+    if(!team) return "";
+    var name = team === "home" ? state.nameHome : state.nameAway;
+    return " — " + name + " kicks off";
+  }
+
+  function renderKickoffBadge(){
+    var team = currentKickoffTeam();
+    if(!team){
+      kickoffBadge.innerHTML = "Kickoff not set — flip coin in pregame check";
+    } else {
+      var color = team === "home" ? state.colorHome : state.colorAway;
+      var name = team === "home" ? state.nameHome : state.nameAway;
+      var label = state.inHalftime ? "Half 2 kicks off: " : "Kickoff: ";
+      kickoffBadge.innerHTML = '<span class="dot" style="background:' + color + '"></span>' + label + '<b>' + escapeHtml(name) + '</b>';
+    }
+  }
+
+  function logEvent(opts){
+    var elapsedSec = Math.max(0, Math.round(opts.elapsedSec));
+    var timeLabel = "H" + opts.half + " " + fmt(elapsedSec);
+    if(MILESTONE_TYPES[opts.type]){
+      timeLabel += " · " + new Date().toLocaleTimeString([], {hour:"numeric", minute:"2-digit"});
+    }
+    var ev = {
+      id: opts.id || (Date.now() + Math.random()),
+      type: opts.type,
+      text: opts.text,
+      half: opts.half,
+      elapsedSec: elapsedSec,
+      timeLabel: timeLabel
+    };
+    state.events.push(ev);
+    save();
+    return ev;
+  }
+
+  function phaseLabel(){
+    return state.inHalftime ? "halftime" : ("half " + state.half);
+  }
+
   function tickRender(){
     var elapsed = currentElapsed();
-    var remaining = state.halfLenMin * 60 - elapsed;
-    clockDisplay.textContent = fmt(remaining);
-    clockDisplay.classList.toggle("over", remaining < 0);
+    var limit = state.inHalftime ? state.halftimeLenMin * 60 : state.halfLenMin * 60;
+    var over = elapsed - limit;
+    clockDisplay.textContent = fmt(elapsed);
+    clockDisplay.classList.toggle("over", over >= 0);
 
-    if(remaining <= 0 && !alertedThisHalf){
+    if(over >= 0 && !alertedThisHalf){
       alertedThisHalf = true;
-      halfAlertText.textContent = "Half " + state.half + " length reached (" + state.halfLenMin + " min) — whistle when ready.";
+      halfAlertText.textContent = state.inHalftime
+        ? ("Halftime (" + state.halftimeLenMin + " min) is up — start Half 2 when ready.")
+        : ("Half " + state.half + " length reached (" + state.halfLenMin + " min) — whistle when ready.");
       halfAlert.classList.add("show");
       beep(); buzz();
     }
 
-    clockSub.textContent = state.running
-      ? (remaining >= 0 ? "Running — half " + state.half : "Running over — half " + state.half)
-      : (elapsed > 0 ? "Paused — half " + state.half : "Ready — tap start");
+    if(state.running && !state.gameEnded && !state.inHalftime){
+      subWindowSeconds().forEach(function(t, i){
+        if(elapsed >= t && !subAlerted[i]){
+          subAlerted[i] = true;
+          logEvent({type:"sub", text:"Substitution window", half: state.half, elapsedSec: elapsed});
+          renderEventLog();
+          showSubFlash();
+        }
+      });
+    }
 
-    btnNextHalf.style.display = (state.half === 1 && remaining <= 0) ? "block" : "none";
-    halfPill.textContent = "Half " + state.half;
+    clockSub.textContent = state.running
+      ? (over >= 0 ? "Running over — " + phaseLabel() + " (+" + fmt(over) + ")" : "Running — " + phaseLabel())
+      : (elapsed > 0 ? "Paused — " + phaseLabel() : "Ready — tap start");
+
+    btnBeginHalftime.style.display = (state.half === 1 && !state.inHalftime && over >= 0 && !state.gameEnded) ? "block" : "none";
+    btnNextHalf.style.display = (state.inHalftime && !state.gameEnded) ? "block" : "none";
+    btnEndGame.style.display = (state.half === 2 && !state.inHalftime && over >= 0 && !state.gameEnded) ? "block" : "none";
+    halfPill.textContent = state.gameEnded ? "Full time" : (state.inHalftime ? "Halftime" : ("Half " + state.half));
+    phaseHeading.textContent = state.gameEnded ? "Full time" : (state.inHalftime ? "Half Time" : (state.half === 1 ? "First Half" : "Second Half"));
+    btnResetHalf.textContent = state.inHalftime ? "Reset halftime" : "Reset half";
     lenVal.textContent = state.halfLenMin + " min";
+    halftimeLenVal.textContent = state.halftimeLenMin + " min";
+    renderKickoffBadge();
+    plusButtons.forEach(function(b){ b.disabled = !state.running || state.inHalftime; });
 
     updateStartGate();
   }
@@ -712,7 +820,7 @@
     tickRender();
     rafId = requestAnimationFrame(loop);
   }
-  loop();
+  requestAnimationFrame(loop);
 
   async function setWakeLock(on){
     try{
@@ -741,44 +849,97 @@
         switchTab("checklist");
         return; // belt-and-braces: the button is disabled in this state anyway
       }
+      var freshHalfStart = state.elapsedAtStart === 0;
+      var wasGameStarted = state.gameStarted;
       state.gameStarted = true;
       state.startTs = Date.now();
       state.running = true;
       btnStartPause.textContent = "Pause";
+      if(freshHalfStart && !wasGameStarted){
+        logEvent({type:"start", text:"Game started" + kickoffSuffix(), half: state.half, elapsedSec: 0});
+      } else if(freshHalfStart && state.half === 2 && !state.half2Started){
+        state.half2Started = true;
+        logEvent({type:"second-half", text:"Second half kicked off" + kickoffSuffix(), half: 2, elapsedSec: 0});
+      }
       if(document.getElementById("wakeToggle").textContent === "On") setWakeLock(true);
     }
     save();
     updateStartGate();
+    renderEventLog();
   });
 
   btnResetHalf.addEventListener("click", function(){
-    if(!confirm("Reset the clock for half " + state.half + "?")) return;
+    var msg = state.inHalftime ? "Reset the halftime clock?" : ("Reset the clock for half " + state.half + "?");
+    if(!confirm(msg)) return;
     state.running = false;
     state.startTs = null;
     state.elapsedAtStart = 0;
     alertedThisHalf = false;
+    subAlerted = [false, false];
     halfAlert.classList.remove("show");
     btnStartPause.textContent = "Start";
     save();
+  });
+
+  btnBeginHalftime.addEventListener("click", function(){
+    logEvent({type:"halftime", text:"Half time — end of 1st half", half: 1, elapsedSec: currentElapsed()});
+    state.inHalftime = true;
+    state.running = true;
+    state.startTs = Date.now();
+    state.elapsedAtStart = 0;
+    alertedThisHalf = false;
+    subAlerted = [false, false];
+    halfAlert.classList.remove("show");
+    btnStartPause.textContent = "Pause";
+    save();
+    renderEventLog();
   });
 
   btnNextHalf.addEventListener("click", function(){
     state.half = 2;
+    state.inHalftime = false;
     state.running = false;
     state.startTs = null;
     state.elapsedAtStart = 0;
     alertedThisHalf = false;
+    subAlerted = [false, false];
     halfAlert.classList.remove("show");
     btnStartPause.textContent = "Start";
     save();
+    renderEventLog();
+  });
+
+  btnEndGame.addEventListener("click", function(){
+    if(!confirm("End the game? This marks full time and locks the timer.")) return;
+    var finalScore = state.nameHome + " " + state.scoreHome + " - " + state.scoreAway + " " + state.nameAway;
+    logEvent({type:"end", text:"Full time — game ended (" + finalScore + ")", half: 2, elapsedSec: currentElapsed()});
+    if(state.running){
+      state.elapsedAtStart = currentElapsed();
+      state.running = false;
+      state.startTs = null;
+    }
+    state.gameEnded = true;
+    btnStartPause.textContent = "Start";
+    save();
+    updateStartGate();
+    renderEventLog();
   });
 
   document.getElementById("lenUp").addEventListener("click", function(){
-    state.halfLenMin = Math.min(45, state.halfLenMin + 5);
+    state.halfLenMin = state.halfLenMin < 5 ? Math.min(5, state.halfLenMin + 1) : Math.min(45, state.halfLenMin + 5);
     save();
   });
   document.getElementById("lenDown").addEventListener("click", function(){
-    state.halfLenMin = Math.max(10, state.halfLenMin - 5);
+    state.halfLenMin = state.halfLenMin > 5 ? Math.max(5, state.halfLenMin - 5) : Math.max(1, state.halfLenMin - 1);
+    save();
+  });
+
+  document.getElementById("halftimeLenUp").addEventListener("click", function(){
+    state.halftimeLenMin = Math.min(15, state.halftimeLenMin + 1);
+    save();
+  });
+  document.getElementById("halftimeLenDown").addEventListener("click", function(){
+    state.halftimeLenMin = Math.max(1, state.halftimeLenMin - 1);
     save();
   });
 
@@ -804,16 +965,15 @@
   document.getElementById("wakeToggle").textContent = state.wakeOn ? "On" : "Off";
   if(state.running && state.wakeOn) setWakeLock(true);
 
-  // ---------- score (editable, on the Score tab) ----------
+  // ---------- team identity (editable, on the Settings tab) ----------
   var nameHome = document.getElementById("nameHome");
   var nameAway = document.getElementById("nameAway");
   var colorHomeInput = document.getElementById("colorHome");
   var colorAwayInput = document.getElementById("colorAway");
   var scoreHomeEl = document.getElementById("scoreHome");
   var scoreAwayEl = document.getElementById("scoreAway");
-  var miniNameHome = document.getElementById("miniNameHome");
-  var miniNameAway = document.getElementById("miniNameAway");
-  var miniTally = document.getElementById("miniTally");
+  var mainLabelHome = document.getElementById("mainLabelHome");
+  var mainLabelAway = document.getElementById("mainLabelAway");
   var kickoffHomeBtn = document.getElementById("kickoffHomeBtn");
   var kickoffAwayBtn = document.getElementById("kickoffAwayBtn");
   var kickoffNote = document.getElementById("kickoffNote");
@@ -825,35 +985,39 @@
     colorAwayInput.value = state.colorAway;
     scoreHomeEl.textContent = state.scoreHome;
     scoreAwayEl.textContent = state.scoreAway;
-    renderMiniScore();
+    renderTeamLabels();
     renderKickoff();
-    renderCardTeamButtons();
   }
   renderScore();
 
-  nameHome.addEventListener("input", function(){ state.nameHome = this.value || "Home"; save(); renderScore(); renderCardLog(); });
-  nameAway.addEventListener("input", function(){ state.nameAway = this.value || "Away"; save(); renderScore(); renderCardLog(); });
+  nameHome.addEventListener("input", function(){ state.nameHome = this.value || "Home"; save(); renderScore(); renderEventLog(); });
+  nameAway.addEventListener("input", function(){ state.nameAway = this.value || "Away"; save(); renderScore(); renderEventLog(); });
   colorHomeInput.addEventListener("input", function(){ state.colorHome = this.value; save(); renderScore(); });
   colorAwayInput.addEventListener("input", function(){ state.colorAway = this.value; save(); renderScore(); });
+
+  var plusButtons = document.querySelectorAll(".score-btns .plus");
 
   document.querySelectorAll(".score-btns button").forEach(function(btn){
     btn.addEventListener("click", function(){
       var team = this.dataset.team, d = parseInt(this.dataset.d, 10);
+      if(d > 0 && (!state.running || state.inHalftime)) return; // goals only count during live play
       if(team === "home") state.scoreHome = Math.max(0, state.scoreHome + d);
       else state.scoreAway = Math.max(0, state.scoreAway + d);
+      if(d > 0){
+        var teamName = team === "home" ? state.nameHome : state.nameAway;
+        logEvent({type:"goal", text:"Goal — " + teamName, half: state.half, elapsedSec: currentElapsed()});
+      }
       renderScore();
       save();
+      renderEventLog();
     });
   });
 
-  // ---------- read-only score summary + kickoff tracker (on the Timer tab) ----------
-  function renderMiniScore(){
-    miniNameHome.innerHTML = '<span class="dot" style="background:' + state.colorHome + '"></span>' + escapeHtml(state.nameHome);
-    miniNameAway.innerHTML = escapeHtml(state.nameAway) + '<span class="dot" style="background:' + state.colorAway + '"></span>';
-    miniTally.textContent = state.scoreHome + "–" + state.scoreAway;
+  // ---------- goal tracking labels (on the Match tab) ----------
+  function renderTeamLabels(){
+    mainLabelHome.innerHTML = '<span class="dot" style="background:' + state.colorHome + '"></span>' + escapeHtml(state.nameHome);
+    mainLabelAway.innerHTML = '<span class="dot" style="background:' + state.colorAway + '"></span>' + escapeHtml(state.nameAway);
   }
-
-  document.getElementById("miniScore").addEventListener("click", function(){ switchTab("score"); });
 
   function renderKickoff(){
     kickoffHomeBtn.innerHTML = '<span class="dot" style="background:' + state.colorHome + '"></span>' + escapeHtml(state.nameHome);
@@ -873,93 +1037,84 @@
   kickoffHomeBtn.addEventListener("click", function(){ state.kickoffTeam = "home"; save(); renderKickoff(); });
   kickoffAwayBtn.addEventListener("click", function(){ state.kickoffTeam = "away"; save(); renderKickoff(); });
 
-  function renderCardTeamButtons(){
-    var homeBtn = document.getElementById("teamHomeBtn");
-    var awayBtn = document.getElementById("teamAwayBtn");
-    if(!homeBtn || !awayBtn) return;
-    homeBtn.innerHTML = '<span class="dot" style="background:' + state.colorHome + '"></span>' + escapeHtml(state.nameHome);
-    awayBtn.innerHTML = '<span class="dot" style="background:' + state.colorAway + '"></span>' + escapeHtml(state.nameAway);
-  }
-
   function escapeHtml(s){
     return String(s).replace(/[&<>"']/g, function(c){
       return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c];
     });
   }
 
-  // ---------- cards ----------
-  var selColor = "yellow", selTeam = "home";
-  document.getElementById("colorYellow").addEventListener("click", function(){ selColor="yellow"; syncSeg(); });
-  document.getElementById("colorRed").addEventListener("click", function(){ selColor="red"; syncSeg(); });
-  document.getElementById("teamHomeBtn").addEventListener("click", function(){ selTeam="home"; syncSeg(); });
-  document.getElementById("teamAwayBtn").addEventListener("click", function(){ selTeam="away"; syncSeg(); });
-  function syncSeg(){
-    document.getElementById("colorYellow").classList.toggle("on", selColor==="yellow");
-    document.getElementById("colorRed").classList.toggle("on", selColor==="red");
-    document.getElementById("teamHomeBtn").classList.toggle("on", selTeam==="home");
-    document.getElementById("teamAwayBtn").classList.toggle("on", selTeam==="away");
-  }
+  var eventLogEl = document.getElementById("eventLog");
+  var reportLink = document.getElementById("reportLink");
 
-  var cardLogEl = document.getElementById("cardLog");
-  function renderCardLog(){
-    if(!state.cards.length){
-      cardLogEl.innerHTML = '<div class="empty-note">No cards logged yet.</div>';
+  function renderEventLog(){
+    if(!state.events.length){
+      eventLogEl.innerHTML = '<div class="empty-note">No events logged yet.</div>';
       return;
     }
-    cardLogEl.innerHTML = state.cards.slice().reverse().map(function(c){
-      var teamName = c.team === "home" ? state.nameHome : state.nameAway;
+    eventLogEl.innerHTML = state.events.slice().reverse().map(function(ev){
+      var swatchClass = ev.type === "goal" ? "goal" : (ev.type === "sub" ? "sub" : "milestone");
       return '<div class="log-item">' +
-        '<div class="swatch ' + c.color + '"></div>' +
-        '<div class="meta"><b>#' + (c.number || "?") + '</b> — ' + teamName + ' · half ' + c.half + '</div>' +
-        '<div class="time">' + c.timeLabel + '</div>' +
-        '<button class="del" data-id="' + c.id + '">&times;</button>' +
+        '<div class="swatch ' + swatchClass + '"></div>' +
+        '<div class="meta">' + escapeHtml(ev.text) + '</div>' +
+        '<div class="time">' + ev.timeLabel + '</div>' +
         '</div>';
     }).join("");
-    cardLogEl.querySelectorAll(".del").forEach(function(b){
-      b.addEventListener("click", function(){
-        state.cards = state.cards.filter(function(c){ return String(c.id) !== this.dataset.id; }, this);
-        save(); renderCardLog();
-      });
-    });
   }
-  renderCardLog();
+  renderEventLog();
 
-  document.getElementById("btnLogCard").addEventListener("click", function(){
-    var num = document.getElementById("cardNumber").value.trim();
-    var remaining = state.halfLenMin * 60 - currentElapsed();
-    var timeLabel = fmt(remaining) + " left";
-    state.cards.push({
-      id: Date.now(),
-      color: selColor,
-      team: selTeam,
-      number: num,
-      half: state.half,
-      timeLabel: timeLabel
-    });
-    document.getElementById("cardNumber").value = "";
-    save();
-    renderCardLog();
+  function buildMatchReport(){
+    var lines = [];
+    lines.push("WSSL B9 Match Report");
+    lines.push(new Date().toLocaleDateString());
+    lines.push("");
+    lines.push(state.nameHome + " " + state.scoreHome + " - " + state.scoreAway + " " + state.nameAway);
+    lines.push("Half length: " + state.halfLenMin + " min");
+    lines.push("");
+    lines.push("Match log:");
+    if(state.events.length){
+      state.events.forEach(function(ev){
+        lines.push(ev.timeLabel + " — " + ev.text);
+      });
+    } else {
+      lines.push("(no events logged)");
+    }
+    lines.push("");
+    lines.push("Sent via B9 Ref Toolkit");
+    return lines.join("\n");
+  }
+
+  function buildMailtoHref(){
+    var subject = "Match Report: " + state.nameHome + " vs " + state.nameAway + " (" + state.scoreHome + "-" + state.scoreAway + ")";
+    return "mailto:RRA@wssl.org?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(buildMatchReport());
+  }
+
+  reportLink.addEventListener("click", function(){
+    this.href = buildMailtoHref();
   });
 
   // ---------- new game ----------
   document.getElementById("btnNewGame").addEventListener("click", function(){
-    if(!confirm("Start a new game? This resets the score, cards, kickoff, and timer (half length, team names & colors are kept).")) return;
+    if(!confirm("Start a new game? This resets the score, match log, kickoff, and timer (half length, team names & colors are kept).")) return;
     state.half = 1;
+    state.inHalftime = false;
     state.running = false;
     state.startTs = null;
     state.elapsedAtStart = 0;
     state.scoreHome = 0;
     state.scoreAway = 0;
-    state.cards = [];
+    state.events = [];
     state.kickoffTeam = null;
     state.gameStarted = false;
+    state.half2Started = false;
+    state.gameEnded = false;
     state.checklist = {};
     alertedThisHalf = false;
+    subAlerted = [false, false];
     halfAlert.classList.remove("show");
     btnStartPause.textContent = "Start";
     save();
     renderScore();
-    renderCardLog();
+    renderEventLog();
     renderChecklist();
     updateStartGate();
     switchTab("checklist");
