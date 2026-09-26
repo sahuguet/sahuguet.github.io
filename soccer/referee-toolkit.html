@@ -147,6 +147,26 @@
   .kickoff-note{font-size:12.5px; color:var(--muted);}
   .kickoff-note b{color:var(--pitch-2);}
 
+  .toss-card{
+    background:var(--paper); border:1px solid var(--line); border-radius:20px; box-shadow:var(--shadow);
+    padding:28px 18px; text-align:center; margin-top:10px;
+  }
+  .toss-coin{
+    width:150px; height:150px; margin:0 auto 22px; border-radius:50%; padding:14px;
+    display:flex; align-items:center; justify-content:center; text-align:center;
+    font-size:17px; font-weight:800; letter-spacing:.02em; line-height:1.15; text-transform:uppercase;
+    background:var(--chip); color:var(--muted); border:5px solid var(--line);
+    box-shadow:0 8px 20px -10px rgba(0,0,0,.4);
+  }
+  .toss-coin.face-white{background:#ffffff; color:#16241c; border-color:#16241c;}
+  .toss-coin.face-black{background:#16241c; color:#ffffff; border-color:#16241c;}
+  .toss-coin.spinning{animation:coinSpin .9s ease-out;}
+  @keyframes coinSpin{
+    0%{transform:rotate(0deg) scale(1);}
+    60%{transform:rotate(1080deg) scale(1.2);}
+    100%{transform:rotate(1440deg) scale(1);}
+  }
+
   .lock-notice{
     display:none; align-items:flex-start; gap:10px; margin-top:14px;
     background:var(--gold-bg); border:1px solid var(--gold); border-radius:var(--radius);
@@ -310,7 +330,7 @@
     <!-- ===== CHECKLIST ===== -->
     <section class="panel" id="panel-checklist">
       <div class="checklist-progress">
-        <span id="checklistCount">0 / 6 checked</span>
+        <span id="checklistCount">0 / 9 checked</span>
         <span id="checklistStatus">Not ready</span>
       </div>
       <div class="progress-track"><div class="progress-fill" id="checklistFill"></div></div>
@@ -319,9 +339,17 @@
         <span>&#9989;</span>
         <span>All set &mdash; you can start the game.</span>
       </div>
+    </section>
+
+    <!-- ===== COIN TOSS ===== -->
+    <section class="panel" id="panel-toss">
+      <div class="toss-card">
+        <div class="toss-coin" id="tossCoin"><span id="tossCoinLabel">?</span></div>
+        <button class="btn btn-primary btn-wide" id="btnFlipCoin">Flip coin</button>
+      </div>
 
       <div class="kickoff-card">
-        <div class="lbl">Coin toss &mdash; who kicks off?</div>
+        <div class="lbl">Who kicks off?</div>
         <div class="segmented">
           <button class="sel-home" id="kickoffHomeBtn" data-kickoff="home">Home</button>
           <button class="sel-away" id="kickoffAwayBtn" data-kickoff="away">Away</button>
@@ -511,6 +539,10 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8.5 11.5l2 2 4-4.5"/><path d="M8 17h8"/></svg>
       Check
     </button>
+    <button class="tab" data-panel="toss">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 12h8"/></svg>
+      Toss
+    </button>
     <button class="tab active" data-panel="timer">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2"/><path d="M9 2h6"/></svg>
       Match
@@ -568,9 +600,12 @@
     {id:"shin",    label:"Shin guards on both teams, fully covered by socks"},
     {id:"jewelry", label:"No jewelry that can’t be removed"},
     {id:"cleats",  label:"Footwear checked — sneakers, turf shoes, or plastic studs, no metal spikes"},
+    {id:"ball",    label:"Size 4 ball, properly inflated"},
     {id:"goals",   label:"Goals are safely anchored/secured"},
     {id:"gear",    label:"You’ve got whistle, cards, and a watch or phone ready"},
-    {id:"crew",    label:"Crew confirmed — 1 CR + 2 AR, or you know who’s covering"}
+    {id:"crew",    label:"Crew confirmed — 1 CR + 2 AR, or you know who’s covering"},
+    {id:"captains", label:"Talked to both team captains"},
+    {id:"toss",    label:"Coin toss done — kickoff team set"}
   ];
 
   function load(){
@@ -977,6 +1012,9 @@
   var kickoffHomeBtn = document.getElementById("kickoffHomeBtn");
   var kickoffAwayBtn = document.getElementById("kickoffAwayBtn");
   var kickoffNote = document.getElementById("kickoffNote");
+  var tossCoin = document.getElementById("tossCoin");
+  var tossCoinLabel = document.getElementById("tossCoinLabel");
+  var btnFlipCoin = document.getElementById("btnFlipCoin");
 
   function renderScore(){
     nameHome.value = state.nameHome;
@@ -1032,10 +1070,38 @@
       var other = state.kickoffTeam === "home" ? state.nameAway : state.nameHome;
       kickoffNote.innerHTML = "<b>" + escapeHtml(kicking) + "</b> kicks off Half 1 · <b>" + escapeHtml(other) + "</b> kicks off Half 2.";
     }
+
+    renderTossCoin();
+  }
+
+  function renderTossCoin(){
+    tossCoin.classList.remove("face-white", "face-black");
+    if(state.kickoffTeam === "home"){
+      tossCoin.classList.add("face-white");
+      tossCoinLabel.textContent = state.nameHome;
+    } else if(state.kickoffTeam === "away"){
+      tossCoin.classList.add("face-black");
+      tossCoinLabel.textContent = state.nameAway;
+    } else {
+      tossCoinLabel.textContent = "?";
+    }
   }
 
   kickoffHomeBtn.addEventListener("click", function(){ state.kickoffTeam = "home"; save(); renderKickoff(); });
   kickoffAwayBtn.addEventListener("click", function(){ state.kickoffTeam = "away"; save(); renderKickoff(); });
+
+  btnFlipCoin.addEventListener("click", function(){
+    tossCoin.classList.remove("spinning");
+    void tossCoin.offsetWidth; // restart the animation on repeat flips
+    tossCoin.classList.add("spinning");
+    buzz();
+    setTimeout(function(){
+      // the randomness comes from the current time, not Math.random()
+      state.kickoffTeam = (Date.now() % 2 === 0) ? "home" : "away";
+      save();
+      renderKickoff();
+    }, 900);
+  });
 
   function escapeHtml(s){
     return String(s).replace(/[&<>"']/g, function(c){
