@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#14213d">
+<title>HBI Case File</title>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Nunito:wght@600;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#14213d; --paper:#f7efd8; --paper2:#efe3c2; --red:#c1272d; --gold:#e0a526;
+  --green:#2e7d4f; --muted:#6b5e45; --line:#d6c69d;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--ink);color:var(--ink);font-family:"Nunito",system-ui,sans-serif;
+  min-height:100vh;padding:16px 16px 40px;-webkit-tap-highlight-color:transparent}
+.wrap{max-width:560px;margin:0 auto}
+header{display:flex;align-items:center;gap:12px;color:var(--paper);margin-bottom:14px}
+.badge{width:58px;height:58px;border-radius:50%;background:var(--gold);color:var(--ink);
+  display:grid;place-items:center;font-family:"Special Elite",monospace;font-size:18px;font-weight:bold;
+  border:3px dashed var(--ink);outline:3px solid var(--gold);flex:none;user-select:none;cursor:pointer}
+header h1{font-family:"Special Elite",monospace;font-size:20px;margin:0;line-height:1.1}
+header small{opacity:.75;font-size:13px}
+.card{background:var(--paper);border-radius:14px;padding:20px 18px;box-shadow:0 6px 0 var(--paper2),0 10px 24px rgba(0,0,0,.35);
+  position:relative;overflow:hidden}
+.card:before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent 0 31px,rgba(20,33,61,.05) 31px 32px);pointer-events:none}
+.stamp{position:absolute;top:14px;right:-6px;transform:rotate(12deg);border:3px solid var(--red);color:var(--red);
+  font-family:"Special Elite",monospace;padding:2px 10px;font-size:14px;opacity:.85;letter-spacing:1px}
+.kicker{font-family:"Special Elite",monospace;color:var(--red);font-size:14px;letter-spacing:1px;text-transform:uppercase}
+h2{font-family:"Special Elite",monospace;font-size:26px;margin:4px 0 12px;line-height:1.15}
+p,li{font-size:19px;line-height:1.45}
+.clue{font-size:21px;line-height:1.5;background:#fff8e4;border-left:6px solid var(--gold);padding:12px 14px;border-radius:6px;margin:12px 0}
+.code{font-family:"Special Elite",monospace;font-size:30px;letter-spacing:6px;text-align:center;background:var(--ink);color:var(--gold);
+  padding:14px 8px;border-radius:8px;margin:12px 0;word-break:break-word}
+.lead{display:inline-block;background:var(--ink);color:var(--paper);border-radius:999px;padding:6px 14px;font-size:16px;margin-bottom:6px}
+input[type=text]{width:100%;font-size:24px;padding:14px;border-radius:10px;border:3px solid var(--ink);background:#fff;
+  font-family:"Special Elite",monospace;text-transform:uppercase;margin-top:6px}
+button{font-family:"Nunito",sans-serif;font-weight:800;font-size:20px;border:none;border-radius:12px;padding:16px;width:100%;margin-top:12px;cursor:pointer}
+.primary{background:var(--red);color:#fff;box-shadow:0 4px 0 #7d1419}
+.primary:active{transform:translateY(3px);box-shadow:0 1px 0 #7d1419}
+.secondary{background:transparent;color:var(--ink);border:3px solid var(--ink)}
+.row{display:flex;gap:10px}.row button{flex:1}
+.hint{background:#fff;border:2px dashed var(--muted);border-radius:10px;padding:10px 12px;margin-top:10px;font-size:18px}
+.msg{min-height:28px;font-size:19px;font-weight:800;margin-top:10px}
+.msg.bad{color:var(--red)} .msg.good{color:var(--green)}
+.shake{animation:shake .4s}
+@keyframes shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-8px)}75%{transform:translateX(8px)}}
+.evidence{display:flex;gap:6px;flex-wrap:wrap;justify-content:center;margin:14px 0 4px}
+.tile{width:44px;height:52px;border-radius:8px;background:var(--paper2);border:2px dashed var(--muted);display:grid;place-items:center;
+  font-family:"Special Elite",monospace;font-size:28px;color:var(--ink)}
+.tile.got{background:var(--gold);border:2px solid var(--ink)}
+.tile.pick{cursor:pointer}
+.tile.used{opacity:.25}
+.board-label{color:var(--paper);text-align:center;font-family:"Special Elite",monospace;font-size:14px;letter-spacing:1px;margin-top:18px}
+.parent{margin-top:14px;background:#e8f0ff;border:2px solid #4a6fb3;border-radius:10px;padding:10px 12px;font-size:16px}
+.parent b{color:#274a8a}
+.progress{height:10px;background:rgba(255,255,255,.15);border-radius:99px;margin:6px 0 14px;overflow:hidden}
+.progress div{height:100%;background:var(--gold);transition:width .5s}
+.found{font-size:64px;text-align:center;margin:0}
+.small{font-size:15px;color:var(--muted)}
+.slots{display:flex;gap:6px;justify-content:center;flex-wrap:wrap;margin:12px 0}
+.slot{width:44px;height:52px;border-bottom:4px solid var(--ink);display:grid;place-items:center;font-family:"Special Elite",monospace;font-size:30px}
+.confetti{position:fixed;top:-20px;width:10px;height:16px;z-index:50;animation:fall linear forwards}
+@keyframes fall{to{transform:translateY(110vh) rotate(720deg)}}
+.hidden{display:none}
+a{color:#274a8a}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="badge" id="badge" title="HBI">HBI</div>
+    <div>
+      <h1>Harlem Bureau of Investigation</h1>
+      <small id="sub">Case #122 · The Silent Bell</small>
+    </div>
+  </header>
+  <div class="progress"><div id="bar" style="width:0%"></div></div>
+  <div id="app"></div>
+  <div class="board-label" id="boardLabel">EVIDENCE BOARD</div>
+  <div class="evidence" id="board"></div>
+</div>
+
+<script>
+/* ============ CASE DATA ============ */
+const PASSWORD = "TEAMWORK";
+const CLUES = [
+  {
+    title: "Secret Message at HQ",
+    place: "HBI Headquarters (home)",
+    text: "The thief left a coded note under our door! Every letter was moved ONE step forward in the alphabet (A→B, B→C…). Move each letter one step BACK to crack it.",
+    code: "XBML FBTU",
+    ask: "What does the message say? (Type the direction.)",
+    answers: ["east","walkeast","walk east"],
+    hints: ["Use the alphabet: the letter before X is W.","The first word is WALK. Now do F-B-T-U."],
+    letter: "W",
+    parent: "Solve at home. Answer: WALK EAST. Then walk east on W 122nd St, past Manhattan Ave, to the triangle where St. Nicholas Ave meets Frederick Douglass Blvd (about 5 min)."
+  },
+  {
+    title: "The Giant in the Triangle",
+    place: "Harriet Tubman Triangle (122nd St, St. Nicholas Ave & Frederick Douglass Blvd)",
+    text: "Walk east on 122nd Street until you find a GIANT metal woman standing on a triangle island. She helped hundreds of people escape to freedom. The artist made her look like she is powering forward like a machine… Look at the bottom of her skirt and the roots behind her.",
+    ask: "She was the 'conductor' of the Underground Railroad. The artist made her look like what kind of vehicle?",
+    answers: ["train","atrain","locomotive","steamtrain","railroad","choochoo"],
+    hints: ["It runs on tracks.","Choo choo! 🚂"],
+    letter: "O",
+    parent: "Statue: 'Swing Low' by Alison Saar (2008). Harriet Tubman is shown as an unstoppable train; roots of slavery trail behind her, faces of the people she rescued are on her skirt. Stay on the island only when the lights allow — busy intersection."
+  },
+  {
+    title: "The Street-Number Math Trap",
+    place: "Walk north on Frederick Douglass Blvd",
+    text: "Detectives, the trail heads NORTH (uptown) on Frederick Douglass Boulevard. Watch the street signs. Stop at the street whose number is:",
+    code: "5 × 25",
+    ask: "Which street are you standing on?",
+    answers: ["125","125th","125thstreet","125st","125thst"],
+    hints: ["5 × 20 = 100. Now add 5 × 5.","Look for a big busy street — it's Harlem's Main Street."],
+    letter: "T",
+    parent: "Answer: 125. It's 3 blocks north. Bonus: 125th St is also called Martin Luther King Jr. Blvd — ask them to find the second name on the sign."
+  },
+  {
+    title: "The Famous Stage",
+    place: "Apollo Theater, 253 W 125th St",
+    text: "Turn RIGHT (east) on 125th Street. Look for a giant red-and-white sign with lights. Famous singers started their careers on this stage — and some of them have bronze plaques in the sidewalk right under your boots!",
+    ask: "What is the theater's name? (Clue: it's also the name of the rockets that flew to the Moon.)",
+    answers: ["apollo","apollotheater","theapollo","apollotheatre"],
+    hints: ["Read the big sign above the doors!","A-P-O-L-L-_"],
+    letter: "K",
+    bonus: "BONUS MISSION: Find a sidewalk plaque with a name you know. How many plaques can you count?",
+    parent: "Apollo Walk of Fame plaques are set into the sidewalk out front. The rescue here is easy — great moment for a photo under the marquee."
+  },
+  {
+    title: "The Man Walking Uphill",
+    place: "Corner of 125th St & Adam Clayton Powell Jr. Blvd (7th Ave)",
+    text: "Keep walking east to the next big avenue. A giant bronze man is walking UP a hill forever, in front of Harlem's tallest building. He was the first Black congressman from New York and fought for fairness for everyone.",
+    ask: "What is his FIRST name? (Detective trick: the avenue right here is named after him — check the street sign!)",
+    answers: ["adam","adamclayton","adamclaytonpowell","adamclaytonpowelljr"],
+    hints: ["Look up at the green street sign on the corner.","It's also the name of the very first man in an old story."],
+    letter: "E",
+    parent: "Statue: 'Higher Ground' (Branly Cadet, 2005), Adam Clayton Powell Jr. State Office Building plaza. Across the avenue is the old Hotel Theresa (white building)."
+  },
+  {
+    title: "The Number Hunt",
+    place: "Studio Museum in Harlem, 144 W 125th St",
+    text: "Keep going east, then use the crosswalk to get to the OTHER side of 125th Street (the side with EVEN numbers). Look at the building numbers above the doors — they get smaller as you walk east! Find the building whose number is:",
+    code: "12 × 12",
+    ask: "You found it! It's an art museum. What is the FIRST word of its name?",
+    answers: ["studio","studiomuseum","thestudio","thestudiomuseum"],
+    hints: ["12 × 12 = 144. Look for 144 above a door.","It's a word for a room where artists work."],
+    letter: "R",
+    bonus: "DRY-OFF BREAK: The museum is FREE on Sundays (kids always free). Warm up inside and find a work of art you would steal if you were the thief (don't!).",
+    parent: "Studio Museum reopened Nov 2025 — open Sun 11am–6pm, free on Sundays. If you're early, just read the sign and move on. South side of 125th between 7th Ave and Lenox. Cross at the 7th Ave light."
+  },
+  {
+    title: "The Street With Two Names",
+    place: "125th St & Lenox Ave / Malcolm X Blvd",
+    text: "Walk east to the next avenue. This avenue has TWO names on its street signs! The thief wrote one of them in a number code: A=1, B=2, C=3…",
+    code: "12 · 5 · 14 · 15 · 24",
+    ask: "Decode the name. Then find BOTH names on the signs!",
+    answers: ["lenox","lenoxave","lenoxavenue"],
+    hints: ["12 = L. Count along the alphabet for the others.","L-E-N-O-_ … the last one is way near the end of the alphabet."],
+    letter: "A",
+    bonus: "Can you read the OTHER name on the sign? (Malcolm X Boulevard)",
+    parent: "Lenox Ave is also Malcolm X Blvd. Next: walk SOUTH on Lenox — it runs straight into Marcus Garvey Park at 124th St."
+  },
+  {
+    title: "The Iron Lookout",
+    place: "Marcus Garvey Park — the hilltop (the 'Acropolis')",
+    text: "Walk SOUTH down Lenox until the avenue bumps into a park. Climb the stone stairs to the top of the rocky hill (careful — wet steps!). Solve this riddle:<br><br><i>I am made of iron and I'm taller than a four-story building. Long ago, lookouts climbed me to spot FIRES, and they rang my giant bell — it weighs more than a car! I am the last one of my kind in all of New York City. What am I?</i>",
+    ask: "What am I? (Two words, or just the second one.)",
+    answers: ["tower","firetower","watchtower","firewatchtower","bell tower","belltower","lookouttower"],
+    hints: ["Firefighters used me to WATCH for fires.","It's a ____ tower. Look up at the top of the hill!"],
+    letter: "M",
+    parent: "Mount Morris Fire Watchtower (1850s, restored 2019). The tower itself is gated; the plaza around it is the finale spot. If the steps are too slippery, do the finale from the bottom where you can see the tower."
+  }
+];
+
+/* ============ STATE ============ */
+const KEY = "hbi-case-122";
+let S = load() || {step:"intro", i:0, names:["",""], hintsShown:0, parent:false, got:[]};
+function load(){ try{ return JSON.parse(localStorage.getItem(KEY)); }catch(e){ return null; } }
+function save(){ try{ localStorage.setItem(KEY, JSON.stringify(S)); }catch(e){} }
+
+const app = document.getElementById("app");
+const norm = s => (s||"").toLowerCase().replace(/[^a-z0-9]/g,"");
+const lead = () => S.names[S.i % 2] || ("Detective " + (S.i % 2 + 1));
+
+/* Parent mode: tap the HBI badge 5 times quickly */
+let taps=0, tapT;
+document.getElementById("badge").addEventListener("click",()=>{
+  taps++; clearTimeout(tapT); tapT=setTimeout(()=>taps=0,1500);
+  if(taps>=5){ taps=0; S.parent=!S.parent; save(); render(); toast(S.parent?"Parent mode ON":"Parent mode OFF"); }
+});
+
+function toast(t){
+  const d=document.createElement("div");
+  d.textContent=t; d.style.cssText="position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#000;color:#fff;padding:10px 16px;border-radius:99px;font-weight:800;z-index:60";
+  document.body.appendChild(d); setTimeout(()=>d.remove(),1600);
+}
+
+function renderBoard(){
+  const b=document.getElementById("board");
+  b.innerHTML = CLUES.map((c,k)=>`<div class="tile ${S.got.includes(k)?'got':''}">${S.got.includes(k)?c.letter:'?'}</div>`).join("");
+  const done = S.step==="done" ? CLUES.length+1 : S.got.length;
+  document.getElementById("bar").style.width = (done/(CLUES.length+1)*100)+"%";
+  const hide = S.step==="intro";
+  b.classList.toggle("hidden",hide); document.getElementById("boardLabel").classList.toggle("hidden",hide);
+}
+
+function render(){
+  renderBoard();
+  if(S.step==="intro") return renderIntro();
+  if(S.step==="clue") return renderClue();
+  if(S.step==="solved") return renderSolved();
+  if(S.step==="final") return renderFinal();
+  if(S.step==="done") return renderDone();
+}
+
+function renderIntro(){
+  app.innerHTML = `<div class="card">
+    <div class="stamp">TOP SECRET</div>
+    <div class="kicker">HBI · Case #122</div>
+    <h2>The Silent Bell</h2>
+    <p>Agents, we have a situation. The great iron bell of Harlem has gone <b>silent</b>, and the thief left a trail of clues all over the neighborhood.</p>
+    <p>Solve each clue to collect a piece of <b>evidence</b>. Collect all 8 and you'll have the secret password to ring the bell again.</p>
+    <p>Rain gear on. Eyes sharp. Stick together.</p>
+    <label class="small">Agent #1 name</label>
+    <input type="text" id="n1" value="${S.names[0]||''}" placeholder="Agent 1" autocomplete="off">
+    <label class="small" style="display:block;margin-top:10px">Agent #2 name</label>
+    <input type="text" id="n2" value="${S.names[1]||''}" placeholder="Agent 2" autocomplete="off">
+    <button class="primary" id="go">🔍 Open the case file</button>
+  </div>`;
+  document.getElementById("go").onclick=()=>{
+    S.names=[document.getElementById("n1").value.trim(), document.getElementById("n2").value.trim()];
+    S.step="clue"; S.i=0; S.hintsShown=0; save(); render(); scrollTo(0,0);
+  };
+}
+
+function renderClue(){
+  const c=CLUES[S.i];
+  const hints = c.hints.slice(0,S.hintsShown).map((h,k)=>`<div class="hint">💡 Hint ${k+1}: ${h}</div>`).join("");
+  app.innerHTML = `<div class="card">
+    <div class="kicker">Clue ${S.i+1} of ${CLUES.length}</div>
+    <h2>${c.title}</h2>
+    <span class="lead">🕵️ Lead agent: ${esc(lead())}</span>
+    <div class="clue">${c.text}</div>
+    ${c.code?`<div class="code">${c.code}</div>`:""}
+    <p><b>${c.ask}</b></p>
+    <input type="text" id="ans" placeholder="Your answer" autocomplete="off" autocapitalize="characters" enterkeyhint="go">
+    <div class="msg" id="msg"></div>
+    <button class="primary" id="check">✅ Check answer</button>
+    ${S.hintsShown < c.hints.length ? `<button class="secondary" id="hintBtn">💡 Need a hint?</button>` : ""}
+    ${hints}
+    ${S.parent?`<div class="parent"><b>Parent:</b> ${c.parent}<br><b>Answer:</b> ${c.answers[0].toUpperCase()}
+      <button class="secondary" id="skip" style="font-size:16px;padding:10px">Skip this clue</button></div>`:""}
+  </div>`;
+  const inp=document.getElementById("ans");
+  const check=()=>{
+    const v=norm(inp.value);
+    if(!v) return;
+    if(c.answers.some(a=>norm(a)===v)) return solve();
+    const m=document.getElementById("msg");
+    m.className="msg bad"; m.textContent=["Not quite, agent. Look again!","Hmm, the evidence says no. Try again!","Close the case? Not yet! Try again."][Math.floor(Math.random()*3)];
+    inp.classList.remove("shake"); void inp.offsetWidth; inp.classList.add("shake");
+  };
+  document.getElementById("check").onclick=check;
+  inp.addEventListener("keydown",e=>{ if(e.key==="Enter") check(); });
+  const hb=document.getElementById("hintBtn"); if(hb) hb.onclick=()=>{ S.hintsShown++; save(); render(); };
+  const sk=document.getElementById("skip"); if(sk) sk.onclick=solve;
+}
+
+function solve(){
+  if(!S.got.includes(S.i)) S.got.push(S.i);
+  S.step="solved"; save(); render(); scrollTo(0,0); chime(); confetti(40);
+}
+
+function renderSolved(){
+  const c=CLUES[S.i];
+  const last = S.i===CLUES.length-1;
+  app.innerHTML = `<div class="card">
+    <div class="stamp" style="color:var(--green);border-color:var(--green)">SOLVED</div>
+    <div class="kicker">Clue ${S.i+1} cracked!</div>
+    <p class="found">🔎</p>
+    <h2 style="text-align:center">Great work, agents!</h2>
+    <p style="text-align:center">You found a piece of evidence:</p>
+    <div class="evidence"><div class="tile got" style="width:70px;height:80px;font-size:48px">${c.letter}</div></div>
+    ${c.bonus?`<div class="hint">⭐ ${c.bonus}</div>`:""}
+    <button class="primary" id="next">${last?"🔔 Go to the final challenge":"➡️ Next clue"}</button>
+  </div>`;
+  document.getElementById("next").onclick=()=>{
+    S.hintsShown=0;
+    if(last){ S.step="final"; S.pick=[]; }
+    else { S.i++; S.step="clue"; }
+    save(); render(); scrollTo(0,0);
+  };
+}
+
+function renderFinal(){
+  S.pick = S.pick || [];
+  const letters = CLUES.map(c=>c.letter);
+  const slots = Array.from({length:PASSWORD.length},(_,k)=>`<div class="slot">${S.pick[k]!=null?letters[S.pick[k]]:""}</div>`).join("");
+  const tiles = letters.map((l,k)=>`<div class="tile got pick ${S.pick.includes(k)?'used':''}" data-k="${k}">${l}</div>`).join("");
+  app.innerHTML = `<div class="card">
+    <div class="stamp">FINAL</div>
+    <div class="kicker">The Last Lock</div>
+    <h2>Ring the Silent Bell</h2>
+    <p>You're standing next to the bell tower. To make the bell ring again, arrange your 8 pieces of evidence into the <b>secret password</b>.</p>
+    <p class="small">Tap the letters in order. It's a word that describes how two detectives solved this whole case!</p>
+    <div class="slots">${slots}</div>
+    <div class="evidence">${tiles}</div>
+    <div class="msg" id="msg"></div>
+    <div class="row"><button class="secondary" id="undo">↩️ Undo</button><button class="secondary" id="clear">Clear</button></div>
+    ${S.hintsShown<2?`<button class="secondary" id="hintBtn">💡 Need a hint?</button>`:""}
+    ${S.hintsShown>=1?`<div class="hint">💡 It's two small words stuck together: ____ + ____.</div>`:""}
+    ${S.hintsShown>=2?`<div class="hint">💡 The first word starts with T and is what you two are!</div>`:""}
+    ${S.parent?`<div class="parent"><b>Parent:</b> Password is TEAMWORK.<button class="secondary" id="skip" style="font-size:16px;padding:10px">Skip to victory</button></div>`:""}
+  </div>`;
+  app.querySelectorAll(".pick").forEach(t=>t.onclick=()=>{
+    const k=+t.dataset.k; if(S.pick.includes(k)) return;
+    S.pick.push(k); save();
+    if(S.pick.length===PASSWORD.length){
+      const w=S.pick.map(i=>letters[i]).join("");
+      if(w===PASSWORD){ S.step="done"; save(); render(); scrollTo(0,0); bell(); confetti(160); return; }
+      render(); const m=document.getElementById("msg"); m.className="msg bad"; m.textContent="The bell stays silent… try another order!";
+      return;
+    }
+    render();
+  });
+  document.getElementById("undo").onclick=()=>{S.pick.pop();save();render();};
+  document.getElementById("clear").onclick=()=>{S.pick=[];save();render();};
+  const hb=document.getElementById("hintBtn"); if(hb) hb.onclick=()=>{S.hintsShown++;save();render();};
+  const sk=document.getElementById("skip"); if(sk) sk.onclick=()=>{S.step="done";save();render();bell();confetti(160);};
+}
+
+function renderDone(){
+  const n = S.names.filter(Boolean);
+  const who = n.length===2 ? `${esc(n[0])} &amp; ${esc(n[1])}` : "Agents";
+  app.innerHTML = `<div class="card" style="text-align:center">
+    <div class="stamp" style="color:var(--green);border-color:var(--green)">CASE CLOSED</div>
+    <p class="found">🔔</p>
+    <h2>DING! DONG! The bell rings again!</h2>
+    <p><b>${who}</b>, the password was <b>TEAMWORK</b> — and that's exactly how you cracked the case.</p>
+    <p>The Harlem Bureau of Investigation hereby promotes you to <b>Senior Special Agents</b>. 🎖️</p>
+    <div class="hint" style="text-align:left">📦 Final order: ask your field supervisor (the grown-up!) for your sealed reward envelope.</div>
+    <button class="primary" id="ring">🔔 Ring it again!</button>
+    <button class="secondary" id="reset" style="font-size:15px;padding:10px;margin-top:24px">Start a new case (erase progress)</button>
+  </div>`;
+  document.getElementById("ring").onclick=()=>{bell();confetti(80);};
+  document.getElementById("reset").onclick=()=>{
+    if(confirm("Erase progress and start over?")){ S={step:"intro",i:0,names:S.names,hintsShown:0,parent:false,got:[]}; save(); render(); }
+  };
+}
+
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+
+/* ============ SOUND & CONFETTI ============ */
+let ac; function ctx(){ try{ ac = ac || new (window.AudioContext||window.webkitAudioContext)(); }catch(e){} return ac; }
+function tone(f,t0,dur,vol,type){ const a=ctx(); if(!a) return; const o=a.createOscillator(), g=a.createGain();
+  o.type=type||"sine"; o.frequency.value=f; g.gain.setValueAtTime(vol,a.currentTime+t0); g.gain.exponentialRampToValueAtTime(0.0001,a.currentTime+t0+dur);
+  o.connect(g).connect(a.destination); o.start(a.currentTime+t0); o.stop(a.currentTime+t0+dur); }
+function chime(){ [659,784,1047].forEach((f,k)=>tone(f,k*0.12,0.5,0.2,"triangle")); }
+function bell(){ for(let r=0;r<3;r++){ const t=r*1.1; [220,440,554,660,880].forEach((f,k)=>tone(f,t,2.8,0.18/(k+1))); } }
+function confetti(n){ const colors=["#e0a526","#c1272d","#2e7d4f","#f7efd8","#4a6fb3"];
+  for(let k=0;k<n;k++){ const d=document.createElement("div"); d.className="confetti";
+    d.style.left=Math.random()*100+"vw"; d.style.background=colors[k%colors.length];
+    d.style.animationDuration=(2+Math.random()*2.5)+"s"; d.style.animationDelay=(Math.random()*0.6)+"s";
+    document.body.appendChild(d); setTimeout(()=>d.remove(),5500); } }
+
+render();
+</script>
+</body>
+</html>
