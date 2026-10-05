@@ -403,6 +403,7 @@
       </div>
 
       <button class="btn btn-gold btn-wide" id="btnBeginHalftime" style="margin-top:14px; display:none;">Begin halftime &rarr;</button>
+      <button class="btn btn-secondary btn-wide" id="btnSkipToHalf2" style="margin-top:14px; display:none;">Skip to Half 2 &#8677;</button>
       <button class="btn btn-gold btn-wide" id="btnNextHalf" style="margin-top:14px; display:none;">Start Half 2 &rarr;</button>
       <button class="btn btn-gold btn-wide" id="btnEndGame" style="margin-top:14px; display:none;">Full time &mdash; end game</button>
     </section>
@@ -694,6 +695,7 @@
   var btnResetHalf = document.getElementById("btnResetHalf");
   var btnBeginHalftime = document.getElementById("btnBeginHalftime");
   var btnNextHalf = document.getElementById("btnNextHalf");
+  var btnSkipToHalf2 = document.getElementById("btnSkipToHalf2");
   var btnEndGame = document.getElementById("btnEndGame");
   var halfPill = document.getElementById("halfPill");
   var phaseHeading = document.getElementById("phaseHeading");
@@ -838,6 +840,8 @@
 
     btnBeginHalftime.style.display = (state.half === 1 && !state.inHalftime && over >= 0 && !state.gameEnded) ? "block" : "none";
     btnNextHalf.style.display = (state.inHalftime && !state.gameEnded) ? "block" : "none";
+    // any time in half 1 after kickoff: end the half (early or on time) and skip the halftime break
+    btnSkipToHalf2.style.display = canSkipToHalf2() ? "block" : "none";
     btnEndGame.style.display = (state.half === 2 && !state.inHalftime && over >= 0 && !state.gameEnded) ? "block" : "none";
     halfPill.textContent = state.gameEnded ? "Full time" : (state.inHalftime ? "Halftime" : ("Half " + state.half));
     phaseHeading.textContent = state.gameEnded ? "Full time" : (state.inHalftime ? "Half Time" : (state.half === 1 ? "First Half" : "Second Half"));
@@ -930,7 +934,12 @@
     renderEventLog();
   });
 
-  btnNextHalf.addEventListener("click", function(){
+  function canSkipToHalf2(){
+    return state.gameStarted && state.half === 1 && !state.inHalftime && !state.gameEnded;
+  }
+
+  // ends the halftime break (or half 1, when skipping); the clock waits for Start to kick off half 2
+  function goToHalf2(){
     state.half = 2;
     state.inHalftime = false;
     state.running = false;
@@ -942,6 +951,17 @@
     btnStartPause.textContent = "Start";
     save();
     renderEventLog();
+  }
+
+  btnNextHalf.addEventListener("click", goToHalf2);
+
+  btnSkipToHalf2.addEventListener("click", function(){
+    if(!canSkipToHalf2()) return;
+    var at = currentElapsed();
+    if(!confirm("Go straight to Half 2?\n\nThis ends Half 1 now at " + fmt(at) + " and skips the halftime break. The clock resets and waits for you to start Half 2.")) return;
+    logEvent({type:"halftime", text:"End of 1st half — halftime skipped", half: 1, elapsedSec: at});
+    subFlash.classList.remove("show");
+    goToHalf2();
   });
 
   btnEndGame.addEventListener("click", function(){
