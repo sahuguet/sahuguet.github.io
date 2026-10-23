@@ -360,7 +360,7 @@
   }
   .jersey-grid button:active{background:var(--pitch); color:#fff; border-color:var(--pitch);}
   .sheet-actions{display:flex; gap:8px; margin-top:12px;}
-  .sheet-actions .btn{flex:1;}
+  .sheet-actions .btn{flex:1; padding:13px 8px; white-space:nowrap;}
 
   @media (min-width:600px){ .clock{font-size:96px;} }
 </style>
@@ -645,6 +645,7 @@
       <div class="jersey-grid" id="jerseyGrid"></div>
       <div class="sheet-actions">
         <button class="btn btn-ghost" id="scorerCancel" type="button">Cancel</button>
+        <button class="btn btn-secondary" id="scorerOwnGoal" type="button">Own goal</button>
         <button class="btn btn-secondary" id="scorerUnknown" type="button">No number</button>
       </div>
     </div>
@@ -881,6 +882,7 @@
       text: opts.text,
       team: opts.team,
       jersey: opts.jersey,
+      ownGoal: opts.ownGoal || undefined,
       half: opts.half,
       elapsedSec: elapsedSec,
       timeLabel: timeLabel
@@ -1181,23 +1183,33 @@
     scorerSheet.classList.add("show");
   }
 
+  function otherTeamName(team){
+    return team === "home" ? state.nameAway : state.nameHome;
+  }
+
+
   function closeScorerSheet(){
     pendingGoal = null;
     scorerSheet.classList.remove("show");
   }
 
-  function confirmGoal(jersey){
+  // own goal: the point still goes to the team whose + was tapped; no jersey recorded
+  function confirmGoal(jersey, ownGoal){
     if(!pendingGoal) return;
     var g = pendingGoal;
     closeScorerSheet();
     if(g.team === "home") state.scoreHome += 1;
     else state.scoreAway += 1;
     var teamName = g.team === "home" ? state.nameHome : state.nameAway;
+    var text = ownGoal
+      ? "Goal — " + teamName + " (own goal by " + otherTeamName(g.team) + ")"
+      : "Goal — " + teamName + (jersey ? " #" + jersey : "");
     logEvent({
       type: "goal",
-      text: "Goal — " + teamName + (jersey ? " #" + jersey : ""),
+      text: text,
       team: g.team,
       jersey: jersey || null,
+      ownGoal: !!ownGoal,
       half: g.half,
       elapsedSec: g.elapsedSec
     });
@@ -1211,6 +1223,7 @@
     if(b) confirmGoal(parseInt(b.dataset.num, 10));
   });
   document.getElementById("scorerUnknown").addEventListener("click", function(){ confirmGoal(null); });
+  document.getElementById("scorerOwnGoal").addEventListener("click", function(){ confirmGoal(null, true); });
   document.getElementById("scorerCancel").addEventListener("click", closeScorerSheet);
   scorerSheet.addEventListener("click", function(e){ if(e.target === scorerSheet) closeScorerSheet(); });
 
