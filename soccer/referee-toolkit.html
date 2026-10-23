@@ -311,6 +311,57 @@
   .newgame-row{margin-top:22px; text-align:center;}
   .newgame-row button{color:var(--red); background:none; border:1px solid var(--line);}
 
+  /* ---- share panel ---- */
+  .topbar-right{display:flex; align-items:center; gap:8px;}
+  .icon-btn{
+    width:32px; height:32px; border-radius:50%; border:1px solid var(--line); background:var(--chip);
+    display:inline-flex; align-items:center; justify-content:center; padding:0; color:var(--pitch-2);
+  }
+  .icon-btn svg{width:17px; height:17px;}
+  .icon-btn.on{background:var(--pitch); border-color:var(--pitch); color:#fff;}
+  .share-card{
+    background:var(--paper); border:1px solid var(--line); border-radius:20px; box-shadow:var(--shadow);
+    padding:22px 18px 18px; text-align:center; margin-top:10px;
+  }
+  .share-card h2{font-size:18px; margin-bottom:4px;}
+  .share-card .sub{font-size:13px; color:var(--muted); margin-bottom:16px;}
+  .qr-box{
+    /* always dark-on-white so phones can scan it, even in dark mode */
+    background:#fff; border-radius:14px; padding:14px; display:inline-block; line-height:0;
+    min-width:248px; min-height:248px;
+  }
+  .qr-box img, .qr-box canvas{width:220px; height:220px;}
+  .qr-fallback{line-height:1.4; color:#5b6b5f; font-size:13px; width:220px; padding-top:90px;}
+  .share-url{
+    margin:14px 0 14px; font-size:13px; color:var(--muted); word-break:break-all;
+    background:var(--chip); border:1px solid var(--line); border-radius:10px; padding:8px 10px;
+  }
+  .share-actions{display:flex; gap:8px;}
+  .share-actions .btn{flex:1;}
+
+  /* ---- goal scorer picker ---- */
+  .sheet-backdrop{
+    display:none; position:fixed; inset:0; z-index:1100; background:rgba(0,0,0,.45);
+    align-items:flex-end; justify-content:center;
+  }
+  .sheet-backdrop.show{display:flex;}
+  .sheet{
+    background:var(--paper); width:100%; max-width:520px; border-radius:20px 20px 0 0;
+    padding:16px 16px calc(16px + env(safe-area-inset-bottom,0px));
+    box-shadow:0 -8px 30px -10px rgba(0,0,0,.4);
+  }
+  .sheet .team-label{justify-content:flex-start; margin-bottom:2px;}
+  .sheet h3{font-size:17px; margin-bottom:12px;}
+  .sheet h3 .t{font-weight:500; color:var(--muted); font-size:13.5px; font-variant-numeric:tabular-nums;}
+  .jersey-grid{display:grid; grid-template-columns:repeat(6, 1fr); gap:8px;}
+  .jersey-grid button{
+    height:46px; border-radius:10px; border:1px solid var(--line); background:var(--chip);
+    font-size:17px; font-weight:700; font-variant-numeric:tabular-nums;
+  }
+  .jersey-grid button:active{background:var(--pitch); color:#fff; border-color:var(--pitch);}
+  .sheet-actions{display:flex; gap:8px; margin-top:12px;}
+  .sheet-actions .btn{flex:1;}
+
   @media (min-width:600px){ .clock{font-size:96px;} }
 </style>
 </head>
@@ -322,7 +373,12 @@
       <div class="eyebrow">WSSL &middot; B9</div>
       <h1>Ref Toolkit</h1>
     </div>
-    <div class="half-pill" id="halfPill">Half 1</div>
+    <div class="topbar-right">
+      <div class="half-pill" id="halfPill">Half 1</div>
+      <button class="icon-btn" id="btnShare" type="button" aria-label="Share this app">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 14h3v3h-3zM20 14v.01M14 20h.01M17 20h4v-3"/></svg>
+      </button>
+    </div>
   </header>
 
   <main>
@@ -529,6 +585,21 @@
       </div>
     </section>
 
+    <!-- ===== SHARE ===== -->
+    <section class="panel" id="panel-share">
+      <div class="share-card">
+        <h2>Share the Ref Toolkit</h2>
+        <div class="sub">Have another ref scan this to open the app on their phone.</div>
+        <div class="qr-box" id="qrBox"></div>
+        <div class="share-url" id="shareUrl"></div>
+        <div class="share-actions">
+          <button class="btn btn-secondary" id="btnCopyUrl" type="button">Copy link</button>
+          <button class="btn btn-primary" id="btnNativeShare" type="button">Share&hellip;</button>
+        </div>
+      </div>
+      <button class="btn btn-ghost btn-wide" id="btnShareBack" type="button" style="margin-top:14px;">&larr; Back to match</button>
+    </section>
+
     <div class="newgame-row">
       <button class="btn" id="btnNewGame">New game (reset everything)</button>
     </div>
@@ -565,6 +636,18 @@
   <div class="sub-flash" id="subFlash">
     <div class="sub-flash-text">&#128260; Substitution window &mdash; <span id="subFlashSub">Half 1</span></div>
     <button id="subFlashClose">Close</button>
+  </div>
+
+  <div class="sheet-backdrop" id="scorerSheet">
+    <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="scorerTitle">
+      <div class="team-label" id="scorerTeam"></div>
+      <h3 id="scorerTitle">Who scored? <span class="t" id="scorerTime"></span></h3>
+      <div class="jersey-grid" id="jerseyGrid"></div>
+      <div class="sheet-actions">
+        <button class="btn btn-ghost" id="scorerCancel" type="button">Cancel</button>
+        <button class="btn btn-secondary" id="scorerUnknown" type="button">No number</button>
+      </div>
+    </div>
   </div>
 
 </div>
@@ -631,6 +714,8 @@
   function switchTab(name){
     tabs.forEach(function(b){ b.classList.toggle("active", b.dataset.panel === name); });
     panels.forEach(function(p){ p.classList.toggle("active", p.id === "panel-" + name); });
+    document.getElementById("btnShare").classList.toggle("on", name === "share");
+    if(name === "share") renderShare();
   }
   tabs.forEach(function(btn){
     btn.addEventListener("click", function(){ switchTab(btn.dataset.panel); });
@@ -794,6 +879,8 @@
       id: opts.id || (Date.now() + Math.random()),
       type: opts.type,
       text: opts.text,
+      team: opts.team,
+      jersey: opts.jersey,
       half: opts.half,
       elapsedSec: elapsedSec,
       timeLabel: timeLabel
@@ -1058,18 +1145,74 @@
   document.querySelectorAll(".score-btns button").forEach(function(btn){
     btn.addEventListener("click", function(){
       var team = this.dataset.team, d = parseInt(this.dataset.d, 10);
-      if(d > 0 && (!state.running || state.inHalftime)) return; // goals only count during live play
+      if(d > 0){
+        if(!state.running || state.inHalftime) return; // goals only count during live play
+        openScorerSheet(team);
+        return;
+      }
       if(team === "home") state.scoreHome = Math.max(0, state.scoreHome + d);
       else state.scoreAway = Math.max(0, state.scoreAway + d);
-      if(d > 0){
-        var teamName = team === "home" ? state.nameHome : state.nameAway;
-        logEvent({type:"goal", text:"Goal — " + teamName, half: state.half, elapsedSec: currentElapsed()});
-      }
       renderScore();
       save();
       renderEventLog();
     });
   });
+
+  // ---------- goal scorer picker (jersey 1–22) ----------
+  var MAX_JERSEY = 22;
+  var scorerSheet = document.getElementById("scorerSheet");
+  var scorerTeamEl = document.getElementById("scorerTeam");
+  var scorerTimeEl = document.getElementById("scorerTime");
+  var jerseyGrid = document.getElementById("jerseyGrid");
+  var pendingGoal = null; // {team, half, elapsedSec} — captured when + is tapped
+
+  var jerseyHtml = "";
+  for(var n = 1; n <= MAX_JERSEY; n++){
+    jerseyHtml += '<button type="button" data-num="' + n + '">' + n + '</button>';
+  }
+  jerseyGrid.innerHTML = jerseyHtml;
+
+  function openScorerSheet(team){
+    pendingGoal = {team: team, half: state.half, elapsedSec: currentElapsed()};
+    var color = team === "home" ? state.colorHome : state.colorAway;
+    var name = team === "home" ? state.nameHome : state.nameAway;
+    scorerTeamEl.innerHTML = '<span class="dot" style="background:' + color + '"></span>Goal &mdash; ' + escapeHtml(name);
+    scorerTimeEl.textContent = "H" + pendingGoal.half + " " + fmt(pendingGoal.elapsedSec);
+    scorerSheet.classList.add("show");
+  }
+
+  function closeScorerSheet(){
+    pendingGoal = null;
+    scorerSheet.classList.remove("show");
+  }
+
+  function confirmGoal(jersey){
+    if(!pendingGoal) return;
+    var g = pendingGoal;
+    closeScorerSheet();
+    if(g.team === "home") state.scoreHome += 1;
+    else state.scoreAway += 1;
+    var teamName = g.team === "home" ? state.nameHome : state.nameAway;
+    logEvent({
+      type: "goal",
+      text: "Goal — " + teamName + (jersey ? " #" + jersey : ""),
+      team: g.team,
+      jersey: jersey || null,
+      half: g.half,
+      elapsedSec: g.elapsedSec
+    });
+    renderScore();
+    save();
+    renderEventLog();
+  }
+
+  jerseyGrid.addEventListener("click", function(e){
+    var b = e.target.closest("button[data-num]");
+    if(b) confirmGoal(parseInt(b.dataset.num, 10));
+  });
+  document.getElementById("scorerUnknown").addEventListener("click", function(){ confirmGoal(null); });
+  document.getElementById("scorerCancel").addEventListener("click", closeScorerSheet);
+  scorerSheet.addEventListener("click", function(e){ if(e.target === scorerSheet) closeScorerSheet(); });
 
   // ---------- goal tracking labels (on the Match tab) ----------
   function renderTeamLabels(){
@@ -1176,6 +1319,62 @@
 
   reportLink.addEventListener("click", function(){
     this.href = buildMailtoHref();
+  });
+
+  // ---------- share (QR code of the app URL) ----------
+  var QR_LIB = "https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js";
+  var qrBox = document.getElementById("qrBox");
+  var shareUrlEl = document.getElementById("shareUrl");
+  var btnCopyUrl = document.getElementById("btnCopyUrl");
+  var btnNativeShare = document.getElementById("btnNativeShare");
+  var qrRenderedFor = null;
+  var qrLibPromise = null;
+
+  function appUrl(){
+    return location.origin + location.pathname; // drop any query/hash
+  }
+
+  function loadQrLib(){
+    if(window.QRCode) return Promise.resolve();
+    if(!qrLibPromise){
+      qrLibPromise = new Promise(function(resolve, reject){
+        var s = document.createElement("script");
+        s.src = QR_LIB;
+        s.onload = resolve;
+        s.onerror = function(){ qrLibPromise = null; reject(); };
+        document.head.appendChild(s);
+      });
+    }
+    return qrLibPromise;
+  }
+
+  function renderShare(){
+    var url = appUrl();
+    shareUrlEl.textContent = url;
+    btnNativeShare.style.display = navigator.share ? "" : "none";
+    if(qrRenderedFor === url) return;
+    loadQrLib().then(function(){
+      qrBox.innerHTML = "";
+      new QRCode(qrBox, {text: url, width: 220, height: 220, colorDark: "#000000", colorLight: "#ffffff", correctLevel: QRCode.CorrectLevel.M});
+      qrBox.removeAttribute("title"); // qrcodejs sets the URL as a tooltip
+      qrRenderedFor = url;
+    }, function(){
+      qrBox.innerHTML = '<div class="qr-fallback">QR code needs an internet connection. Copy the link below instead.</div>';
+    });
+  }
+
+  document.getElementById("btnShare").addEventListener("click", function(){ switchTab("share"); });
+  document.getElementById("btnShareBack").addEventListener("click", function(){ switchTab("timer"); });
+
+  btnCopyUrl.addEventListener("click", function(){
+    var done = function(){ btnCopyUrl.textContent = "Copied!"; setTimeout(function(){ btnCopyUrl.textContent = "Copy link"; }, 1500); };
+    try{
+      navigator.clipboard.writeText(appUrl()).then(done, function(){ prompt("Copy this link:", appUrl()); });
+    }catch(e){ prompt("Copy this link:", appUrl()); }
+  });
+
+  btnNativeShare.addEventListener("click", function(){
+    navigator.share({title: "B9 Ref Toolkit", url: appUrl()}).catch(function(){});
   });
 
   // ---------- new game ----------
