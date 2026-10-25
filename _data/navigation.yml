@@ -5,6 +5,8 @@ main:
     url: /til/
   - title: "GenAI"
     url: "/genai"
+  - title: "For parents"
+    url: "/ai-for-kids"
   - title: "Portfolio"
     url: "/portfolio"
   - title: "About Me"
