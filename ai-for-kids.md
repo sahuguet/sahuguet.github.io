@@ -12,20 +12,9 @@ They all run in the browser. Nothing to install, and they work on a tablet. Text
 | App | What it does | Created |
 |---|---|---|
 | [French Language Studio](/demo/french-language-studio.html) | The main app. Pick a theme (zoo, beach, dentist, dinosaurs, Pokémon, birthday, feelings… almost 50 of them). Each word comes with an emoji and short French sentences with English translations, read aloud. It also has speech recognition so kids can repeat, a speed slider, a score and confetti. | 2025-03-06 |
-| [French Words](/demo/french-words.html) | The first prototype of the Studio. Arrow keys move through words and sentences, and you click to hear them. | 2025-03-04 |
-| [Ma Journée](/demo/test-mobile.html) | "My day" in French: morning, lunch, after school, dinner, bedtime, with simple sentences for each. | 2025-03-06 |
-| [La Cuisine](/demo/la-cuisine2.html) | Kitchen vocabulary, with a sentence that explains each item. | 2025-03-11 |
-| [La Salle de bain](/demo/salle-de-bain.html) | Bathroom vocabulary and daily routines (bath, shower, brushing teeth…). | 2025-03-11 |
-| [À Table](/demo/a-table.html) | Words for things on the table (plate, fork, napkin…), each with a sentence. | 2025-03-12 |
 | [French Clock Practice](/demo/french-clock.html) | *Quelle heure est-il ?* Drag the clock hands and hear the time in French. | 2026-05-19 |
 | [French Numbers Practice](/demo/french-numbers.html) | *Les nombres*: tap a number to hear it in French, then take a quiz. | 2026-05-20 |
 | [French Booklet Creator](/demo/french_booklet_maker.html) | Make small French picture booklets page by page, preview them and print them. | 2026-05-25 |
-
-## Other languages
-
-| App | What it does | Created |
-|---|---|---|
-| [Russian Language Studio](/demo/ru.html) | The Language Studio, in Russian. | 2025-03-06 |
 
 ## Typing, art & games
 
